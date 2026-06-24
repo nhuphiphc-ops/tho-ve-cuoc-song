@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="vi" class="h-full bg-slate-950 text-slate-100">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thơ Về Cuộc Sống - Tra Cứu Triết Lý Cuộc Sống</title>
+  <meta name="description" content="Trang web tra cứu và thưởng thức các bài thơ triết lý cuộc sống sâu sắc, hỗ trợ tìm kiếm thời gian thực nhanh chóng.">
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Outfit', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at 50% 0%, #1e1b4b 0%, #020617 100%);
+      background-attachment: fixed;
+    }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.45);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .glass-card:hover {
+      border-color: rgba(99, 102, 241, 0.4);
+      box-shadow: 0 10px 30px -10px rgba(99, 102, 241, 0.2);
+      transform: translateY(-2px);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: rgba(15, 23, 42, 0.6);
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: rgba(99, 102, 241, 0.5);
+      border-radius: 3px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: rgba(99, 102, 241, 0.8);
+    }
+  </style>
+</head>
+<body class="min-h-full flex flex-col">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800 bg-slate-950/60 backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-indigo-500 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          </svg>
+        </div>
+        <div>
+          <h1 class="text-xl sm:text-2xl font-bold font-display bg-gradient-to-r from-white via-indigo-200 to-indigo-400 bg-clip-text text-transparent">Thơ Về Cuộc Sống</h1>
+          <p class="text-xs text-slate-400 font-medium tracking-wider uppercase">Triết Lý & Nhân Sinh</p>
+        </div>
+      </div>
+      
+      <div class="text-xs text-slate-400 flex items-center gap-2 bg-slate-900/80 px-3 py-1.5 rounded-full border border-slate-800">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span id="poem-count">Đang tải thơ...</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col gap-8">
+    
+    <!-- Hero / Search Section -->
+    <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-indigo-950/40 to-slate-950/20 border border-indigo-900/30 p-6 sm:p-10 text-center flex flex-col items-center max-w-4xl mx-auto w-full">
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-indigo-500/10 via-transparent to-transparent pointer-events-none"></div>
+      
+      <h2 class="text-2xl sm:text-4xl font-extrabold font-display text-white tracking-tight mb-3">
+        Tìm kiếm những dòng thơ chạm vào tâm hồn
+      </h2>
+      <p class="text-slate-300 text-sm sm:text-base max-w-xl mb-8 leading-relaxed">
+        Tra cứu hàng chục bài thơ triết lý cuộc sống. Tìm kiếm tức thì theo tên bài thơ, chủ đề, cảm xúc hoặc tìm trực tiếp từ trong nội dung bài thơ.
+      </p>
+
+      <!-- Search Input Wrapper -->
+      <div class="w-full max-w-2xl relative">
+        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400">
+          <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </div>
+        <input 
+          type="text" 
+          id="search-input" 
+          placeholder="Nhập tên bài thơ, chủ đề, cảm xúc, hoặc từ khóa trong thơ..."
+          class="w-full pl-12 pr-24 py-4 rounded-2xl bg-slate-900/90 border border-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-sm sm:text-base shadow-2xl transition-all"
+          autocomplete="off"
+        >
+        <div class="absolute inset-y-2 right-2 hidden sm:flex items-center">
+          <span class="px-3 py-1.5 rounded-lg bg-slate-800 text-xs text-slate-400 border border-slate-750 font-mono">Real-time</span>
+        </div>
+      </div>
+
+      <!-- Quick filters -->
+      <div class="flex flex-wrap justify-center gap-2 mt-4 max-w-2xl" id="topic-tags">
+        <!-- Will be populated dynamically -->
+      </div>
+    </div>
+
+    <!-- Results Grid -->
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <h3 class="text-lg font-semibold font-display text-slate-200" id="results-heading">Danh sách bài thơ</h3>
+        <button id="reset-search" class="text-xs text-indigo-400 hover:text-indigo-300 font-medium hidden">Xóa bộ lọc</button>
+      </div>
+      
+      <div id="poems-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Poem Cards Loader skeleton -->
+        <div class="animate-pulse bg-slate-900/50 rounded-2xl h-48 border border-slate-800/80"></div>
+        <div class="animate-pulse bg-slate-900/50 rounded-2xl h-48 border border-slate-800/80"></div>
+        <div class="animate-pulse bg-slate-900/50 rounded-2xl h-48 border border-slate-800/80"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Poem Reader Modal -->
+  <div id="poem-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm hidden" role="dialog" aria-modal="true">
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl w-full max-w-2xl max-h-[85vh] flex flex-col shadow-2xl overflow-hidden transform scale-95 transition-transform duration-300" id="modal-container">
+      
+      <!-- Modal Header -->
+      <div class="p-6 border-b border-slate-800 flex justify-between items-start">
+        <div>
+          <span id="modal-theme" class="text-xs font-semibold tracking-wider text-indigo-400 uppercase bg-indigo-500/10 px-2.5 py-1 rounded-full">Chủ Đề</span>
+          <h2 id="modal-title" class="text-2xl font-bold font-display text-white mt-2 leading-snug">Tên bài thơ</h2>
+          <div class="flex flex-wrap gap-2 mt-3" id="modal-tags">
+            <!-- Emotion tags -->
+          </div>
+        </div>
+        <button id="close-modal" class="text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-750 p-2 rounded-xl transition-colors" aria-label="Đóng">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Modal Content (Poem body) -->
+      <div class="p-6 overflow-y-auto custom-scrollbar flex-grow bg-slate-950/30 text-center">
+        <div id="modal-body" class="text-slate-200 text-lg leading-relaxed whitespace-pre-line italic font-serif py-4">
+          <!-- Full poem content here -->
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-slate-800 bg-slate-900/80 flex items-center justify-between text-xs text-slate-400">
+        <span id="modal-stt">STT: --</span>
+        <span id="modal-khostho">Số khổ thơ: --</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-900 bg-slate-950/80 py-8 text-center text-slate-500 text-sm mt-auto">
+    <div class="max-w-7xl mx-auto px-4">
+      <p class="font-display font-medium text-slate-400">Thơ Về Cuộc Sống &copy; 2026</p>
+      <p class="text-xs mt-1 text-slate-600">Được tinh tuyển và thiết kế sang trọng, tối giản</p>
+    </div>
+  </footer>
+
+  <!-- App Logic -->
+  <script>
+    let poems = [];
+    let activeTopic = null;
+
+    const searchInput = document.getElementById('search-input');
+    const countEl = document.getElementById('poem-count');
+    const gridEl = document.getElementById('poems-grid');
+    const topicTagsEl = document.getElementById('topic-tags');
+    const resultsHeading = document.getElementById('results-heading');
+    const resetSearchBtn = document.getElementById('reset-search');
+
+    // Modal elements
+    const modal = document.getElementById('poem-modal');
+    const modalContainer = document.getElementById('modal-container');
+    const closeModalBtn = document.getElementById('close-modal');
+    const modalTheme = document.getElementById('modal-theme');
+    const modalTitle = document.getElementById('modal-title');
+    const modalTags = document.getElementById('modal-tags');
+    const modalBody = document.getElementById('modal-body');
+    const modalStt = document.getElementById('modal-stt');
+    const modalKhosTho = document.getElementById('modal-khostho');
+
+    // Helper: Normalize vietnamese characters for search
+    function removeVietnameseTones(str) {
+      if (!str) return '';
+      str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
+      str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
+      str = str.replace(/ì|í|ị|ỉ|ĩ/g, "i");
+      str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
+      str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
+      str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
+      str = str.replace(/đ/g, "d");
+      str = str.replace(/À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ/g, "A");
+      str = str.replace(/È|É|Ẹ|Ẻ|Ẽ|Ê|Ề|Ế|Ệ|Ể|Ễ/g, "E");
+      str = str.replace(/Ì|Í|Ị|Ỉ|Ĩ/g, "I");
+      str = str.replace(/Ò|Ó|Ọ|Ỏ|Tâm|Õ|Ô|Ồ|Ố|Ộ|Ổ|Ỗ|Ơ|Ờ|Ớ|Ợ|Ở|Ỡ/g, "O");
+      str = str.replace(/Ù|Ú|Ụ|Ủ|Ũ|Ư|Ừ|Ứ|Ự|Ử|Ữ/g, "U");
+      str = str.replace(/Ỳ|Ý|Y|Ỷ|Ỹ/g, "Y");
+      str = str.replace(/Đ/g, "D");
+      // Some system encode friendly replacements
+      str = str.replace(/\u0300|\u0301|\u0309|\u0303|\u0323/g, ""); // Huyền sắc hỏi ngã nặng
+      str = str.replace(/\u02C6|\u0306|\u031B/g, ""); // Â, Ă, Ơ, Ư
+      return str.toLowerCase().trim();
+    }
+
+    // Load Data
+    async function loadPoems() {
+      try {
+        const response = await fetch('data.json');
+        if (!response.ok) throw new Error("Không thể tải tệp dữ liệu.");
+        poems = await response.json();
+        
+        // Update Count
+        countEl.textContent = `${poems.length} bài thơ đã sẵn sàng`;
+        
+        // Generate filters
+        renderTopicFilters();
+        
+        // Display all initially
+        filterPoems();
+      } catch (err) {
+        console.error(err);
+        gridEl.innerHTML = `
+          <div class="col-span-full py-12 text-center text-red-400">
+            <svg class="w-12 h-12 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+            <p class="font-medium">Có lỗi xảy ra khi tải dữ liệu thơ.</p>
+            <p class="text-xs text-slate-500 mt-1">${err.message}</p>
+          </div>
+        `;
+      }
+    }
+
+    // Render unique topic tags
+    function renderTopicFilters() {
+      const topics = new Set();
+      poems.forEach(p => {
+        if (p['Chủ Đề Chính']) topics.add(p['Chủ Đề Chính'].trim());
+      });
+
+      topicTagsEl.innerHTML = Array.from(topics).map(topic => `
+        <button 
+          onclick="toggleTopic('${topic.replace(/'/g, "\\'")}')" 
+          class="topic-badge px-3.5 py-1.5 rounded-full text-xs font-medium transition-all border border-slate-800 bg-slate-900/50 text-slate-300 hover:text-white hover:bg-slate-800"
+          data-topic="${topic}"
+        >
+          # ${topic}
+        </button>
+      `).join('');
+    }
+
+    function toggleTopic(topic) {
+      if (activeTopic === topic) {
+        activeTopic = null;
+      } else {
+        activeTopic = topic;
+      }
+      
+      // Update UI of badges
+      document.querySelectorAll('.topic-badge').forEach(btn => {
+        if (btn.getAttribute('data-topic') === activeTopic) {
+          btn.classList.add('bg-indigo-500/20', 'text-indigo-300', 'border-indigo-500/40');
+          btn.classList.remove('bg-slate-900/50', 'text-slate-300', 'border-slate-800');
+        } else {
+          btn.classList.remove('bg-indigo-500/20', 'text-indigo-300', 'border-indigo-500/40');
+          btn.classList.add('bg-slate-900/50', 'text-slate-300', 'border-slate-800');
+        }
+      });
+
+      filterPoems();
+    }
+
+    // Filter Logic
+    function filterPoems() {
+      const query = removeVietnameseTones(searchInput.value);
+      
+      const filtered = poems.filter(p => {
+        // Topic check
+        if (activeTopic && p['Chủ Đề Chính'] !== activeTopic) return false;
+        
+        // Search query check
+        if (!query) return true;
+        
+        const title = removeVietnameseTones(p['Tên Bài Thơ']);
+        const theme = removeVietnameseTones(p['Chủ Đề Chính']);
+        const emotion = removeVietnameseTones(p['Từ Khóa Cảm Xúc']);
+        const content = removeVietnameseTones(p['ĐỌC BÀI THƠ']);
+
+        return title.includes(query) || 
+               theme.includes(query) || 
+               emotion.includes(query) || 
+               content.includes(query);
+      });
+
+      // Update UI Header
+      if (query || activeTopic) {
+        resetSearchBtn.classList.remove('hidden');
+        resultsHeading.textContent = `Kết quả tìm kiếm (${filtered.length})`;
+      } else {
+        resetSearchBtn.classList.add('hidden');
+        resultsHeading.textContent = `Danh sách bài thơ (${filtered.length})`;
+      }
+
+      renderPoems(filtered);
+    }
+
+    // Render Grid Cards
+    function renderPoems(filteredList) {
+      if (filteredList.length === 0) {
+        gridEl.innerHTML = `
+          <div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-3xl">
+            <svg class="w-12 h-12 mx-auto mb-3 text-slate-655" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <p class="font-medium text-slate-400">Không tìm thấy bài thơ nào phù hợp</p>
+            <p class="text-xs mt-1">Hãy thử tìm kiếm với các từ khóa khác xem sao nhé.</p>
+          </div>
+        `;
+        return;
+      }
+
+      gridEl.innerHTML = filteredList.map(p => {
+        // Render emotional tags
+        const tags = p['Từ Khóa Cảm Xúc'] 
+          ? p['Từ Khóa Cảm Xúc'].split(',').map(tag => tag.trim()) 
+          : [];
+          
+        const tagsHtml = tags.slice(0, 3).map(tag => `
+          <span class="text-[10px] font-medium bg-slate-800 text-slate-400 px-2 py-0.5 rounded border border-slate-700/60">${tag}</span>
+        `).join('');
+
+        // Sneak preview of first few lines of poem content
+        const lines = p['ĐỌC BÀI THƠ'] ? p['ĐỌC BÀI THƠ'].split('\n') : [];
+        const previewLines = lines.slice(0, 3).filter(l => l.trim() !== '').join('<br>');
+
+        return `
+          <div 
+            onclick="openPoemModal(${p['STT']})"
+            class="glass-card p-6 rounded-2xl flex flex-col justify-between cursor-pointer group"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-3.5">
+                <span class="text-xs font-semibold text-indigo-400 uppercase tracking-wider bg-indigo-500/10 px-2.5 py-0.5 rounded-full">
+                  ${p['Chủ Đề Chính'] || 'Đời sống'}
+                </span>
+                <span class="text-xs text-slate-500 font-mono">Khổ: ${p['Số Khổ Thơ'] || '--'}</span>
+              </div>
+              <h4 class="text-lg font-bold font-display text-white group-hover:text-indigo-300 transition-colors mb-2 line-clamp-1">
+                ${p['Tên Bài Thơ']}
+              </h4>
+              <p class="text-sm text-slate-450 italic leading-relaxed line-clamp-3 font-serif opacity-80 mb-4">
+                ${previewLines}...
+              </p>
+            </div>
+            
+            <div class="flex items-center justify-between border-t border-slate-800/80 pt-4 mt-auto">
+              <div class="flex flex-wrap gap-1">
+                ${tagsHtml}
+              </div>
+              <span class="text-xs text-indigo-455 font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                Đọc thêm
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Modal Control
+    function openPoemModal(stt) {
+      const poem = poems.find(p => p['STT'] === stt);
+      if (!poem) return;
+
+      modalTheme.textContent = poem['Chủ Đề Chính'] || 'Nhân sinh';
+      modalTitle.textContent = poem['Tên Bài Thơ'];
+      modalBody.innerHTML = poem['ĐỌC BÀI THƠ'] ? poem['ĐỌC BÀI THƠ'].trim() : 'Nội dung đang cập nhật...';
+      modalStt.textContent = `STT: ${poem['STT']}`;
+      modalKhosTho.textContent = `Số khổ thơ: ${poem['Số Khổ Thơ'] || 'Chưa cập nhật'}`;
+
+      const tags = poem['Từ Khóa Cảm Xúc'] 
+        ? poem['Từ Khóa Cảm Xúc'].split(',').map(tag => tag.trim()) 
+        : [];
+      modalTags.innerHTML = tags.map(tag => `
+        <span class="text-xs font-semibold bg-slate-800 text-indigo-300 px-2.5 py-1 rounded-lg border border-slate-700">${tag}</span>
+      `).join('');
+
+      // Show modal
+      modal.classList.remove('hidden');
+      setTimeout(() => {
+        modalContainer.classList.remove('scale-95');
+        modalContainer.classList.add('scale-100');
+      }, 10);
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closePoemModal() {
+      modalContainer.classList.remove('scale-100');
+      modalContainer.classList.add('scale-95');
+      setTimeout(() => {
+        modal.classList.add('hidden');
+      }, 200);
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    // Listeners
+    searchInput.addEventListener('input', filterPoems);
+    closeModalBtn.addEventListener('click', closePoemModal);
+    
+    // Close modal on background click
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closePoemModal();
+      }
+    });
+
+    // Reset Search
+    resetSearchBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      activeTopic = null;
+      
+      // Update badge visuals
+      document.querySelectorAll('.topic-badge').forEach(btn => {
+        btn.classList.remove('bg-indigo-500/20', 'text-indigo-300', 'border-indigo-500/40');
+        btn.classList.add('bg-slate-900/50', 'text-slate-300', 'border-slate-800');
+      });
+
+      filterPoems();
+    });
+
+    // Init load
+    window.addEventListener('DOMContentLoaded', loadPoems);
+  </script>
+</body>
+</html>

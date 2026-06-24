@@ -1,0 +1,10 @@
+# Logs
+*.log
+.gemini/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vercel temporary directories
+.vercel

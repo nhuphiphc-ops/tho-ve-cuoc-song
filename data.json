@@ -1,0 +1,522 @@
+[
+  {
+    "STT": 1,
+    "Tên Bài Thơ": "NHỊN ĐI CON",
+    "Chủ Đề Chính": "Nhẫn nhịn - Phật pháp",
+    "Số Khổ Thơ": 13,
+    "Từ Khóa Cảm Xúc": "nhẫn nhịn, tha thứ, buông xả, nhân quả",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 1"
+  },
+  {
+    "STT": 2,
+    "Tên Bài Thơ": "NẾU VẤP NGÃ",
+    "Chủ Đề Chính": "Vượt khó - Nghị lực",
+    "Số Khổ Thơ": 5,
+    "Từ Khóa Cảm Xúc": "vượt khó, kiên cường, đứng dậy, hi vọng",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 2"
+  },
+  {
+    "STT": 3,
+    "Tên Bài Thơ": "TỪ BI",
+    "Chủ Đề Chính": "Buông xả - Yêu thương",
+    "Số Khổ Thơ": 6,
+    "Từ Khóa Cảm Xúc": "buông bỏ, bao dung, yêu thương, bình yên",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 3"
+  },
+  {
+    "STT": 4,
+    "Tên Bài Thơ": "HAI CÁI TÂM",
+    "Chủ Đề Chính": "Thiện - Ác",
+    "Số Khổ Thơ": 7,
+    "Từ Khóa Cảm Xúc": "thiện tâm, ác tâm, tu tập, nghiệp báo",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 4"
+  },
+  {
+    "STT": 5,
+    "Tên Bài Thơ": "THỊNH SUY ĐỜI NGƯỜI",
+    "Chủ Đề Chính": "Vô thường - Chấp nhận",
+    "Số Khổ Thơ": 5,
+    "Từ Khóa Cảm Xúc": "thịnh suy, buông xả, bình an, vô thường",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 5"
+  },
+  {
+    "STT": 6,
+    "Tên Bài Thơ": "ĐẠO VÀ ĐỜI",
+    "Chủ Đề Chính": "Triết lý sống - Phật pháp",
+    "Số Khổ Thơ": 4,
+    "Từ Khóa Cảm Xúc": "đạo đức, từ bi, thanh tịnh, chân lý",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 6"
+  },
+  {
+    "STT": 7,
+    "Tên Bài Thơ": "ĐỜI NGƯỜI NGẮN",
+    "Chủ Đề Chính": "Vô thường - Nhân quả",
+    "Số Khổ Thơ": 5,
+    "Từ Khóa Cảm Xúc": "vô thường, nhân quả, thiện lành, sống có ích",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 7"
+  },
+  {
+    "STT": 8,
+    "Tên Bài Thơ": "DÒNG CHẢY CUỘC ĐỜI",
+    "Chủ Đề Chính": "Chấp nhận - Bình an",
+    "Số Khổ Thơ": 5,
+    "Từ Khóa Cảm Xúc": "chấp nhận, bình an, vô thường, buông bỏ",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 8"
+  },
+  {
+    "STT": 9,
+    "Tên Bài Thơ": "NGƯỜI AI CŨNG THAM",
+    "Chủ Đề Chính": "Nhân quả - Biết đủ",
+    "Số Khổ Thơ": 5,
+    "Từ Khóa Cảm Xúc": "biết đủ, nhân quả, từ tâm, phước đức",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 9"
+  },
+  {
+    "STT": 10,
+    "Tên Bài Thơ": "SỐNG 1 LẦN DUY NHẤT",
+    "Chủ Đề Chính": "Trân trọng cuộc sống",
+    "Số Khổ Thơ": 5,
+    "Từ Khóa Cảm Xúc": "trân trọng, buông bỏ, sống vui, tha thứ",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 10"
+  },
+  {
+    "STT": 11,
+    "Tên Bài Thơ": "TỪNG TUỔI NÀY",
+    "Chủ Đề Chính": "Bình yên - Tuổi tác",
+    "Số Khổ Thơ": 5,
+    "Từ Khóa Cảm Xúc": "bình yên, hài lòng, giản dị, tuổi trung niên",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 11"
+  },
+  {
+    "STT": 12,
+    "Tên Bài Thơ": "BUÔNG XẢ",
+    "Chủ Đề Chính": "Buông bỏ - Yêu thương",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "buông xả, yêu thương, bao dung, hạnh phúc",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 12"
+  },
+  {
+    "STT": 13,
+    "Tên Bài Thơ": "MIỆNG ĐỜI",
+    "Chủ Đề Chính": "Lời nói - Nghiệp khẩu",
+    "Số Khổ Thơ": 4,
+    "Từ Khóa Cảm Xúc": "lời nói, nghiệp khẩu, thứ tha, bình tâm",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 13"
+  },
+  {
+    "STT": 14,
+    "Tên Bài Thơ": "ĐỪNG THAN SỐ PHẬN",
+    "Chủ Đề Chính": "Chấp nhận - Buông bỏ",
+    "Số Khổ Thơ": 4,
+    "Từ Khóa Cảm Xúc": "không than vãn, buông bỏ, vị tha, bình thản",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 14"
+  },
+  {
+    "STT": 15,
+    "Tên Bài Thơ": "SỐNG",
+    "Chủ Đề Chính": "Triết lý sống",
+    "Số Khổ Thơ": 4,
+    "Từ Khóa Cảm Xúc": "sống mạnh mẽ, bình tâm, lạc quan, kiên cường",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 15"
+  },
+  {
+    "STT": 16,
+    "Tên Bài Thơ": "LÚC VỀ GIÀ",
+    "Chủ Đề Chính": "Tuổi già - Sức khỏe",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "tuổi già, sức khỏe, không ganh ghét, vui vẻ",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 16"
+  },
+  {
+    "STT": 17,
+    "Tên Bài Thơ": "TU LÀ GÌ",
+    "Chủ Đề Chính": "Tu tập - Phật pháp",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "tu tập, sửa mình, buông xả, thân khẩu ý",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 17"
+  },
+  {
+    "STT": 18,
+    "Tên Bài Thơ": "KIẾP VÔ THƯỜNG",
+    "Chủ Đề Chính": "Vô thường - Nhân sinh",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "vô thường, thăng trầm, bình tâm, nhân sinh",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 18"
+  },
+  {
+    "STT": 19,
+    "Tên Bài Thơ": "XIN CHO CON",
+    "Chủ Đề Chính": "Sám hối - Phật pháp",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "sám hối, khiêm tốn, luân hồi, quay về",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 19"
+  },
+  {
+    "STT": 20,
+    "Tên Bài Thơ": "BỎ HẾT SÂN SI",
+    "Chủ Đề Chính": "Buông xả - Tự thương",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "sân si, buông bỏ, bình an, tự thương",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 20"
+  },
+  {
+    "STT": 21,
+    "Tên Bài Thơ": "ĐÃ LÂU RỒI",
+    "Chủ Đề Chính": "Trưởng thành - Kiên cường",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "trưởng thành, kiên nhẫn, buông bỏ, tự lập",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 21"
+  },
+  {
+    "STT": 22,
+    "Tên Bài Thơ": "GIÀU NGHÈO",
+    "Chủ Đề Chính": "Vô thường - Đức hạnh",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "giàu nghèo, đức hạnh, không bon chen, vô thường",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 22"
+  },
+  {
+    "STT": 23,
+    "Tên Bài Thơ": "HẠT TIÊU",
+    "Chủ Đề Chính": "Kinh nghiệm sống",
+    "Số Khổ Thơ": 2,
+    "Từ Khóa Cảm Xúc": "bài học đời, quan hệ, tiền bạc, kinh nghiệm",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 23"
+  },
+  {
+    "STT": 24,
+    "Tên Bài Thơ": "CHA MẸ GIÀ",
+    "Chủ Đề Chính": "Hiếu thảo - Gia đình",
+    "Số Khổ Thơ": 2,
+    "Từ Khóa Cảm Xúc": "hiếu thảo, cha mẹ, nhân nghĩa, gia đình",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 24"
+  },
+  {
+    "STT": 25,
+    "Tên Bài Thơ": "HỌC ĐỨC",
+    "Chủ Đề Chính": "Đức hạnh - Tu thân",
+    "Số Khổ Thơ": 2,
+    "Từ Khóa Cảm Xúc": "học đức, khiêm tốn, bác ái, tránh xấu",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 25"
+  },
+  {
+    "STT": 26,
+    "Tên Bài Thơ": "KHI GIAN NAN",
+    "Chủ Đề Chính": "Bạn bè - Nhân tình thế thái",
+    "Số Khổ Thơ": 2,
+    "Từ Khóa Cảm Xúc": "bạn thật, gian nan, lòng người, thận trọng",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 26"
+  },
+  {
+    "STT": 27,
+    "Tên Bài Thơ": "MUỐN CÓ PHƯỚC",
+    "Chủ Đề Chính": "Tạo phước - Thiện lành",
+    "Số Khổ Thơ": 2,
+    "Từ Khóa Cảm Xúc": "tạo phước, thiện lành, chánh niệm, vô thường",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 27"
+  },
+  {
+    "STT": 28,
+    "Tên Bài Thơ": "CON NGƯỜI CÓ SỐ",
+    "Chủ Đề Chính": "Số phận - Cố gắng",
+    "Số Khổ Thơ": 2,
+    "Từ Khóa Cảm Xúc": "số phận, cố gắng, chấp nhận, bình an",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 28"
+  },
+  {
+    "STT": 29,
+    "Tên Bài Thơ": "THỊNH SUY",
+    "Chủ Đề Chính": "Thăng trầm - Tình nghĩa",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "thịnh suy, chia sẻ, tình nghĩa, không bỏ nhau",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 29"
+  },
+  {
+    "STT": 30,
+    "Tên Bài Thơ": "TA GIÀ ĐI",
+    "Chủ Đề Chính": "Vô thường - Sống chậm",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "già đi, vô thường, sống chậm, bình an",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 30"
+  },
+  {
+    "STT": 31,
+    "Tên Bài Thơ": "BỚT ĐI",
+    "Chủ Đề Chính": "Giảm thiểu - Thanh tịnh",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "bớt nghe, bớt nói, thanh tịnh, bình an",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 31"
+  },
+  {
+    "STT": 32,
+    "Tên Bài Thơ": "BUÔNG ĐI",
+    "Chủ Đề Chính": "Buông bỏ - Tự tại",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "buông bỏ, tự tại, đau khổ, nhẹ lòng",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 32"
+  },
+  {
+    "STT": 33,
+    "Tên Bài Thơ": "BẠN",
+    "Chủ Đề Chính": "Tình bạn - Chân thật",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "tình bạn, chân thật, quý hiếm, bền lâu",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 33"
+  },
+  {
+    "STT": 34,
+    "Tên Bài Thơ": "LÒNG NGƯỜI NÔNG SÂU",
+    "Chủ Đề Chính": "Lòng người - Thận trọng",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "lòng người, dối trá, thận trọng, khó lường",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 34"
+  },
+  {
+    "STT": 35,
+    "Tên Bài Thơ": "THỜI GIAN ĐỜI NGƯỜI",
+    "Chủ Đề Chính": "Thời gian - Sống thật",
+    "Số Khổ Thơ": 2,
+    "Từ Khóa Cảm Xúc": "sống thật, thời gian, vui buồn, cuộc đời",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 35"
+  },
+  {
+    "STT": 36,
+    "Tên Bài Thơ": "TÂM TĨNH ĐỘNG",
+    "Chủ Đề Chính": "Tâm bình - Triết lý",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "tâm bình, bình tĩnh, nội tâm, kiểm soát",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 36"
+  },
+  {
+    "STT": 37,
+    "Tên Bài Thơ": "IM LẶNG",
+    "Chủ Đề Chính": "Im lặng - Lời nói",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "im lặng, ít nói, thị phi, bình an",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 37"
+  },
+  {
+    "STT": 38,
+    "Tên Bài Thơ": "GẦN XA",
+    "Chủ Đề Chính": "Quan hệ - Cảm xúc",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "quan tâm, lạnh lùng, thất vọng, tình cảm",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 38"
+  },
+  {
+    "STT": 39,
+    "Tên Bài Thơ": "Ở ĐỜI",
+    "Chủ Đề Chính": "Triết lý sống - Đức hạnh",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "sóng gió, biết đủ, không tham, đức cao",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 39"
+  },
+  {
+    "STT": 40,
+    "Tên Bài Thơ": "MÂY VÔ TÌNH",
+    "Chủ Đề Chính": "Bình tâm - Bình yên",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "bình tâm, bình yên, không oán, thanh thản",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 40"
+  },
+  {
+    "STT": 41,
+    "Tên Bài Thơ": "ĐỪNG MÊ",
+    "Chủ Đề Chính": "Bình đẳng - Không phân biệt",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "không phân biệt, bình đẳng, tôn trọng",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 41"
+  },
+  {
+    "STT": 42,
+    "Tên Bài Thơ": "MIỆNG VÀ TAI",
+    "Chủ Đề Chính": "Lắng nghe - Khách quan",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "lắng nghe, công bằng, không một chiều",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 42"
+  },
+  {
+    "STT": 43,
+    "Tên Bài Thơ": "NHÌN NGƯỜI",
+    "Chủ Đề Chính": "Đánh giá - Thời gian",
+    "Số Khổ Thơ": 1,
+    "Từ Khóa Cảm Xúc": "dùng thời gian, cảm nhận, không nhìn nhầm",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 43"
+  },
+  {
+    "STT": 44,
+    "Tên Bài Thơ": "SỐNG",
+    "Chủ Đề Chính": "Triết lý sống toàn diện",
+    "Số Khổ Thơ": 6,
+    "Từ Khóa Cảm Xúc": "sống đúng nghĩa, hiếu thảo, từ bi, thẳng ngay",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 44"
+  },
+  {
+    "STT": 45,
+    "Tên Bài Thơ": "LÀM NGƯỜI PHẢI SỐNG",
+    "Chủ Đề Chính": "Sống thật - Chữ tín",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "sống thật, giữ lời, lòng tin, không dối trá",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 45"
+  },
+  {
+    "STT": 46,
+    "Tên Bài Thơ": "NHÂN QUẢ",
+    "Chủ Đề Chính": "Nhân quả - Nghiệp báo",
+    "Số Khổ Thơ": 4,
+    "Từ Khóa Cảm Xúc": "nhân quả, nghiệp báo, không gian lận, luân hồi",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 46"
+  },
+  {
+    "STT": 47,
+    "Tên Bài Thơ": "KIẾP NGƯỜI",
+    "Chủ Đề Chính": "Triết lý nhân sinh",
+    "Số Khổ Thơ": 12,
+    "Từ Khóa Cảm Xúc": "kiếp người, vô thường, từ bi, không chấp",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 47"
+  },
+  {
+    "STT": 48,
+    "Tên Bài Thơ": "LUÂN HỒI VAY TRẢ",
+    "Chủ Đề Chính": "Luân hồi - Phật pháp",
+    "Số Khổ Thơ": 4,
+    "Từ Khóa Cảm Xúc": "luân hồi, nghiệp báo, vô thường, tu tập",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 48"
+  },
+  {
+    "STT": 49,
+    "Tên Bài Thơ": "HÃY NHẸ NHÀNG",
+    "Chủ Đề Chính": "Nhẹ nhàng - Ứng xử",
+    "Số Khổ Thơ": 7,
+    "Từ Khóa Cảm Xúc": "nhẹ nhàng, bình tĩnh, khéo léo, vượt khó",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 49"
+  },
+  {
+    "STT": 50,
+    "Tên Bài Thơ": "LÀM NGƯỜI",
+    "Chủ Đề Chính": "Lương tâm - Biết ơn",
+    "Số Khổ Thơ": 7,
+    "Từ Khóa Cảm Xúc": "lương tâm, biết ơn, không bội bạc",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 50"
+  },
+  {
+    "STT": 51,
+    "Tên Bài Thơ": "KỸ SẢO GIAO TIẾP",
+    "Chủ Đề Chính": "Giao tiếp - Xử thế",
+    "Số Khổ Thơ": 3,
+    "Từ Khóa Cảm Xúc": "giao tiếp, khéo léo, bình tĩnh, thuyết phục",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 51"
+  },
+  {
+    "STT": 52,
+    "Tên Bài Thơ": "THẤT TRÁNH DIỆN",
+    "Chủ Đề Chính": "Giải quyết tranh chấp",
+    "Số Khổ Thơ": 7,
+    "Từ Khóa Cảm Xúc": "hòa giải, công bằng, phương pháp, tranh chấp",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 52"
+  },
+  {
+    "STT": 53,
+    "Tên Bài Thơ": "LÀM BẠN TỈNH NGỘ",
+    "Chủ Đề Chính": "Bài học - Tỉnh thức",
+    "Số Khổ Thơ": 9,
+    "Từ Khóa Cảm Xúc": "tỉnh thức, bài học đời, bình tĩnh, thực tế",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 53"
+  },
+  {
+    "STT": 54,
+    "Tên Bài Thơ": "12 ĐIỀU NHÂN QUẢ",
+    "Chủ Đề Chính": "Nhân quả - Thực hành",
+    "Số Khổ Thơ": 12,
+    "Từ Khóa Cảm Xúc": "nhân quả, cho đi, cảm ơn, giúp người",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 54"
+  },
+  {
+    "STT": 55,
+    "Tên Bài Thơ": "CÓ 5 CÁI NHẤT",
+    "Chủ Đề Chính": "Bài học - Triết lý",
+    "Số Khổ Thơ": 5,
+    "Từ Khóa Cảm Xúc": "lời nói, ham muốn, cái chết, lời hứa",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 55"
+  },
+  {
+    "STT": 56,
+    "Tên Bài Thơ": "KINH PHÁP CÚ",
+    "Chủ Đề Chính": "Phật pháp - Thiện ác",
+    "Số Khổ Thơ": 67,
+    "Từ Khóa Cảm Xúc": "thiện ác, nghiệp báo, trí tuệ, tu tập",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 56"
+  },
+  {
+    "STT": 57,
+    "Tên Bài Thơ": "ĐỪNG BUỒN VÌ",
+    "Chủ Đề Chính": "Động viên - Vượt khó",
+    "Số Khổ Thơ": 9,
+    "Từ Khóa Cảm Xúc": "động viên, mạnh mẽ, không bỏ cuộc, kiên cường",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 57"
+  },
+  {
+    "STT": 58,
+    "Tên Bài Thơ": "CÁCH COI TƯỚNG CỔ NHÂN",
+    "Chủ Đề Chính": "Quan sát - Kinh nghiệm",
+    "Số Khổ Thơ": 9,
+    "Từ Khóa Cảm Xúc": "quan sát, tướng người, kinh nghiệm",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 58"
+  },
+  {
+    "STT": 59,
+    "Tên Bài Thơ": "8 THUẬT DÙNG NGƯỜI",
+    "Chủ Đề Chính": "Lãnh đạo - Quản lý",
+    "Số Khổ Thơ": 8,
+    "Từ Khóa Cảm Xúc": "dùng người, lãnh đạo, chân thành, khen thưởng",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 59"
+  },
+  {
+    "STT": 60,
+    "Tên Bài Thơ": "6 ĐIỀU KHÔNG TRANH",
+    "Chủ Đề Chính": "Khiêm nhường - Hòa thuận",
+    "Số Khổ Thơ": 6,
+    "Từ Khóa Cảm Xúc": "không tranh, hòa thuận, hiếu thuận, khiêm nhường",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 60"
+  },
+  {
+    "STT": 61,
+    "Tên Bài Thơ": "SỰ THẬT LÀ",
+    "Chủ Đề Chính": "Chấp nhận - Bình tâm",
+    "Số Khổ Thơ": 5,
+    "Từ Khóa Cảm Xúc": "vô thường, không thỏa mãn, phiền não, sự thật",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 61"
+  },
+  {
+    "STT": 62,
+    "Tên Bài Thơ": "4 KIỂU NGƯỜI L.HẠI",
+    "Chủ Đề Chính": "Quan sát - Thận trọng",
+    "Số Khổ Thơ": 4,
+    "Từ Khóa Cảm Xúc": "thận trọng, quan sát, người lợi hại, khiêm nhường",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 62"
+  },
+  {
+    "STT": 63,
+    "Tên Bài Thơ": "MUỐN THÌ PHẢI",
+    "Chủ Đề Chính": "Nỗ lực - Chấp nhận đánh đổi",
+    "Số Khổ Thơ": 4,
+    "Từ Khóa Cảm Xúc": "nỗ lực, chấp nhận, đánh đổi, thành công",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 63"
+  },
+  {
+    "STT": 64,
+    "Tên Bài Thơ": "KHÔNG AI LÀ KẺ THÙ",
+    "Chủ Đề Chính": "Học hỏi - Tha thứ",
+    "Số Khổ Thơ": 9,
+    "Từ Khóa Cảm Xúc": "bài học, tha thứ, kiên nhẫn, tự lập",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 64"
+  },
+  {
+    "STT": 65,
+    "Tên Bài Thơ": "ĐỪNG TƯỞNG",
+    "Chủ Đề Chính": "Cảnh tỉnh - Thực tế",
+    "Số Khổ Thơ": 14,
+    "Từ Khóa Cảm Xúc": "cảnh tỉnh, không ảo tưởng, thực tế, sáng suốt",
+    "ĐỌC BÀI THƠ": "📖 Mở bài 65"
+  }
+]
