@@ -8,35 +8,41 @@ def main():
         print(f"Error: {excel_file} not found.")
         return
     
-    print("Reading Excel file...")
-    # Read the Excel file
-    df = pd.read_excel(excel_file)
+    print("Reading 'Danh Sách Bài Thơ' sheet...")
+    # Read metadata sheet
+    df_meta = pd.read_excel(excel_file, sheet_name='Danh Sách Bài Thơ')
+    df_meta.columns = [c.strip() for c in df_meta.columns]
     
-    # Required columns
-    required_cols = ['STT', 'Tên Bài Thơ', 'Chủ Đề Chính', 'Số Khổ Thơ', 'Từ Khóa Cảm Xúc', 'ĐỌC BÀI THƠ']
+    print("Reading 'Nội Dung Bài Thơ' sheet...")
+    # Read content sheet
+    df_content = pd.read_excel(excel_file, sheet_name='Nội Dung Bài Thơ')
+    # Row 0 contains headers: ['STT', 'TÊN BÀI THƠ', 'NỘI DUNG TOÀN BÀI', 'GỢI Ý NHANH', 'LIÊN KẾT NHANH']
+    df_content.columns = df_content.iloc[0]
+    df_content = df_content[1:].copy() # Drop header row
+    df_content.columns = [str(c).strip() for c in df_content.columns]
     
-    # Check if all required columns exist, otherwise try to map them or print columns
-    print("Available columns:", df.columns.tolist())
+    # Cast STT in both to int/string for merging
+    df_meta['STT'] = df_meta['STT'].astype(int)
+    df_content['STT'] = df_content['STT'].astype(int)
     
-    # Ensure they exist (clean column names if necessary)
-    df.columns = [c.strip() for c in df.columns]
+    # Merge the metadata with full content
+    merged = pd.merge(df_meta, df_content[['STT', 'NỘI DUNG TOÀN BÀI']], on='STT', how='left')
     
-    # Filter to required columns
-    valid_cols = [c for c in required_cols if c in df.columns]
-    df_filtered = df[valid_cols].copy()
+    # Keep the structure, but replace 'ĐỌC BÀI THƠ' with the full content
+    merged['ĐỌC BÀI THƠ'] = merged['NỘI DUNG TOÀN BÀI'].fillna("")
+    merged = merged.drop(columns=['NỘI DUNG TOÀN BÀI'])
     
-    # Replace NaN with empty string or appropriate default
-    df_filtered = df_filtered.fillna("")
+    # Replace NaN with empty string
+    merged = merged.fillna("")
     
-    # Convert to list of dicts
-    records = df_filtered.to_dict(orient='records')
+    # Convert to JSON
+    records = merged.to_dict(orient='records')
     
-    # Save to data.json
     output_file = "data.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
         
-    print(f"Successfully converted {len(records)} records and saved to {output_file}")
+    print(f"Successfully merged metadata and content for {len(records)} records into {output_file}")
 
 if __name__ == "__main__":
     main()
