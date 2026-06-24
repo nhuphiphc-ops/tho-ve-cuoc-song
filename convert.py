@@ -16,7 +16,7 @@ def main():
     print("Reading 'Nội Dung Bài Thơ' sheet...")
     # Read content sheet
     df_content = pd.read_excel(excel_file, sheet_name='Nội Dung Bài Thơ')
-    # Row 0 contains headers: ['STT', 'TÊN BÀI THƠ', 'NỘI DUNG TOÀN BÀI', 'GỢI Ý NHANH', 'LIÊN KẾT NHANH']
+    # Row 0 contains headers: ['STT', 'TÊN BÀI THƠ', 'NỘI DUNG TOÀN BÀI', 'GỢI Ý NHANH (Tình huống đọc)', 'LIÊN KẾT NHANH']
     df_content.columns = df_content.iloc[0]
     df_content = df_content[1:].copy() # Drop header row
     df_content.columns = [str(c).strip() for c in df_content.columns]
@@ -25,12 +25,15 @@ def main():
     df_meta['STT'] = df_meta['STT'].astype(int)
     df_content['STT'] = df_content['STT'].astype(int)
     
-    # Merge the metadata with full content
-    merged = pd.merge(df_meta, df_content[['STT', 'NỘI DUNG TOÀN BÀI']], on='STT', how='left')
+    # Merge the metadata with full content and suggestions
+    merged = pd.merge(df_meta, df_content[['STT', 'NỘI DUNG TOÀN BÀI', 'GỢI Ý NHANH (Tình huống đọc)']], on='STT', how='left')
     
-    # Keep the structure, but replace 'ĐỌC BÀI THƠ' with the full content
+    # Replace 'ĐỌC BÀI THƠ' with the full content
     merged['ĐỌC BÀI THƠ'] = merged['NỘI DUNG TOÀN BÀI'].fillna("")
-    merged = merged.drop(columns=['NỘI DUNG TOÀN BÀI'])
+    # Add new field 'Gợi Ý Đọc' map to the suggestions
+    merged['Gợi Ý Đọc'] = merged['GỢI Ý NHANH (Tình huống đọc)'].fillna("")
+    
+    merged = merged.drop(columns=['NỘI DUNG TOÀN BÀI', 'GỢI Ý NHANH (Tình huống đọc)'])
     
     # Replace NaN with empty string
     merged = merged.fillna("")
