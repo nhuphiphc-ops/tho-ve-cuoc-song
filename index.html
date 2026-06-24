@@ -338,7 +338,12 @@
           : [];
           
         const tagsHtml = tags.slice(0, 3).map(tag => `
-          <span class="text-[10px] font-medium bg-slate-800 text-slate-400 px-2 py-0.5 rounded border border-slate-700/60">${tag}</span>
+          <span 
+            onclick="searchTag(event, '${tag.replace(/'/g, "\\'")}')" 
+            class="text-[10px] font-medium bg-slate-800 hover:bg-indigo-950/80 hover:text-indigo-300 transition-colors text-slate-400 px-2 py-0.5 rounded border border-slate-700/60"
+          >
+            ${tag}
+          </span>
         `).join('');
 
         // Sneak preview of first few lines of poem content
@@ -352,7 +357,10 @@
           >
             <div>
               <div class="flex items-center justify-between mb-3.5">
-                <span class="text-xs font-semibold text-indigo-400 uppercase tracking-wider bg-indigo-500/10 px-2.5 py-0.5 rounded-full">
+                <span 
+                  onclick="searchTopic(event, '${(p['Chủ Đề Chính'] || '').replace(/'/g, "\\'")}')"
+                  class="text-xs font-semibold text-indigo-400 hover:text-indigo-300 transition-colors uppercase tracking-wider bg-indigo-500/10 px-2.5 py-0.5 rounded-full"
+                >
                   ${p['Chủ Đề Chính'] || 'Đời sống'}
                 </span>
                 <span class="text-xs text-slate-500 font-mono">Khổ: ${p['Số Khổ Thơ'] || '--'}</span>
@@ -381,6 +389,18 @@
       }).join('');
     }
 
+    // Interactive tags filter logic
+    window.searchTag = function(e, tag) {
+      e.stopPropagation();
+      searchInput.value = tag;
+      filterPoems();
+    };
+
+    window.searchTopic = function(e, topic) {
+      e.stopPropagation();
+      toggleTopic(topic);
+    };
+
     // Modal Control
     function openPoemModal(stt) {
       const poem = poems.find(p => p['STT'] === stt);
@@ -396,7 +416,12 @@
         ? poem['Từ Khóa Cảm Xúc'].split(',').map(tag => tag.trim()) 
         : [];
       modalTags.innerHTML = tags.map(tag => `
-        <span class="text-xs font-semibold bg-slate-800 text-indigo-300 px-2.5 py-1 rounded-lg border border-slate-700">${tag}</span>
+        <span 
+          onclick="searchTagFromModal(event, '${tag.replace(/'/g, "\\'")}')"
+          class="text-xs font-semibold bg-slate-800 hover:bg-indigo-950/80 hover:text-indigo-300 transition-colors text-indigo-300 px-2.5 py-1 rounded-lg border border-slate-700 cursor-pointer"
+        >
+          ${tag}
+        </span>
       `).join('');
 
       // Show modal
@@ -407,6 +432,14 @@
       }, 10);
       document.body.classList.add('overflow-hidden');
     }
+
+    // Search from modal helper
+    window.searchTagFromModal = function(e, tag) {
+      e.stopPropagation();
+      closePoemModal();
+      searchInput.value = tag;
+      filterPoems();
+    };
 
     function closePoemModal() {
       modalContainer.classList.remove('scale-100');
