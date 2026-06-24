@@ -1,4 +1,5 @@
 {
+  "name": "tho-ve-cuoc-song",
   "cleanUrls": true,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }

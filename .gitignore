@@ -8,3 +8,5 @@ __pycache__/
 
 # Vercel temporary directories
 .vercel
+
+.vercel
