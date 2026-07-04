@@ -2,9 +2,14 @@
 <html lang="vi" class="h-full bg-slate-950 text-slate-100">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Thơ Về Cuộc Sống - Tra Cứu Triết Lý Cuộc Sống</title>
   <meta name="description" content="Trang web tra cứu và thưởng thức các bài thơ triết lý cuộc sống sâu sắc, hỗ trợ tìm kiếm thời gian thực nhanh chóng.">
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#4f46e5">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  
   <!-- Tailwind CSS via CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts: Inter & Outfit -->
@@ -30,6 +35,7 @@
       font-family: 'Inter', sans-serif;
       background: radial-gradient(circle at 50% 0%, #1e1b4b 0%, #020617 100%);
       background-attachment: fixed;
+      touch-action: manipulation;
     }
     .glass-card {
       background: rgba(15, 23, 42, 0.45);
@@ -38,13 +44,26 @@
       border: 1px solid rgba(255, 255, 255, 0.08);
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .glass-card:hover {
-      border-color: rgba(99, 102, 241, 0.4);
-      box-shadow: 0 10px 30px -10px rgba(99, 102, 241, 0.2);
-      transform: translateY(-2px);
+    @media (hover: hover) {
+      .glass-card:hover {
+        border-color: rgba(99, 102, 241, 0.4);
+        box-shadow: 0 10px 30px -10px rgba(99, 102, 241, 0.2);
+        transform: translateY(-2px);
+      }
+      .badge-hover:hover {
+        background-color: rgba(99, 102, 241, 0.2);
+        border-color: rgba(99, 102, 241, 0.4);
+        color: #ffffff;
+      }
+    }
+    /* Active touch feedback for mobile */
+    .glass-card:active {
+      transform: scale(0.98);
+      background: rgba(15, 23, 42, 0.6);
     }
     .custom-scrollbar::-webkit-scrollbar {
       width: 6px;
+      height: 6px;
     }
     .custom-scrollbar::-webkit-scrollbar-track {
       background: rgba(15, 23, 42, 0.6);
@@ -55,6 +74,12 @@
     }
     .custom-scrollbar::-webkit-scrollbar-thumb:hover {
       background: rgba(99, 102, 241, 0.8);
+    }
+    /* Custom container rules for perfect centering */
+    .app-container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
 </head>
@@ -536,7 +561,16 @@
     });
 
     // Init load
-    window.addEventListener('DOMContentLoaded', loadPoems);
+    window.addEventListener('DOMContentLoaded', () => {
+      loadPoems();
+      
+      // Register Service Worker for PWA
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+          .then((reg) => console.log('Service Worker Registered successfully', reg.scope))
+          .catch((err) => console.error('Service Worker Registration failed', err));
+      }
+    });
   </script>
 </body>
 </html>
