@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Cổ Học Tinh Hoa - Thơ, Tiếng Trung & Kinh Dịch</title>
-  <meta name="description" content="Trang web tra cứu thơ triết lý, tự học tiếng Trung giao tiếp và giải nghĩa 64 quẻ Kinh Dịch cổ thư phong phú, tinh tế.">
+  <title>Cổ Học Tinh Hoa - Thơ, Tiếng Trung, Kinh Dịch & Thần Chú</title>
+  <meta name="description" content="Trang web tra cứu thơ triết lý, tự học tiếng Trung giao tiếp, giải nghĩa 64 quẻ Kinh Dịch và trì tụng Thập Thần Chú nhiệm màu.">
   <!-- PWA Manifest -->
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#4f46e5">
@@ -15,7 +15,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
   
   <script>
     tailwind.config = {
@@ -93,9 +93,9 @@
 
   <!-- Header -->
   <header class="border-b border-slate-800 bg-slate-950/60 backdrop-blur-md sticky top-0 z-40">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col xl:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-3">
-        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-indigo-500 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-indigo-500 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/20 flex-shrink-0">
           <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
           </svg>
@@ -103,7 +103,7 @@
         <div>
           <h1 class="text-xl sm:text-2xl font-bold font-display bg-gradient-to-r from-white via-indigo-200 to-indigo-400 bg-clip-text text-transparent">Trí Tuệ Cổ Nhân</h1>
           <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
-            <p class="text-xs text-slate-400 font-medium tracking-wider uppercase">Thơ • Ngoại Ngữ • Kinh Dịch</p>
+            <p class="text-xs text-slate-400 font-medium tracking-wider uppercase">Thơ • Ngoại Ngữ • Kinh Dịch • Thần Chú</p>
             <span class="hidden sm:inline text-slate-600 text-xs">•</span>
             <p class="text-xs text-indigo-300 font-semibold tracking-wider uppercase">NGUYỄN NHƯ PHI</p>
           </div>
@@ -111,28 +111,35 @@
       </div>
       
       <!-- Main Tabs Switcher -->
-      <div class="flex items-center gap-4">
+      <div class="flex items-center gap-4 flex-wrap justify-center">
         <div class="flex items-center gap-1 bg-slate-900/90 p-1 rounded-xl border border-slate-800 shadow-inner">
           <button 
             id="tab-poems" 
             onclick="switchMainTab('poems')" 
-            class="px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20"
+            class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md"
           >
             Thơ Triết Lý
           </button>
           <button 
             id="tab-chinese" 
             onclick="switchMainTab('chinese')" 
-            class="px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200"
+            class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200"
           >
-            Học Tiếng Trung
+            Tiếng Trung
           </button>
           <button 
             id="tab-kinhdich" 
             onclick="switchMainTab('kinhdich')" 
-            class="px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200"
+            class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200"
           >
             Kinh Dịch
+          </button>
+          <button 
+            id="tab-thanchu" 
+            onclick="switchMainTab('thanchu')" 
+            class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200"
+          >
+            Thần Chú
           </button>
         </div>
 
@@ -303,7 +310,7 @@
           Giải nghĩa chi tiết 64 Quẻ Dịch Chu Dịch huyền vi cùng kiến thức Thiên Can Địa Chi học phong phú.
         </p>
 
-        <!-- Sub Tabs (Horizontal scrollable sheet categories) -->
+        <!-- Sub Tabs -->
         <div class="flex flex-col gap-4 w-full border-t border-slate-800/60 pt-5">
           <p class="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1 text-center sm:text-left">Danh mục Dịch lý:</p>
           <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-4 w-full">
@@ -390,6 +397,101 @@
         </div>
       </div>
     </div>
+
+    <!-- SECTION 4: THAN CHU -->
+    <div id="thanchu-section" class="flex flex-col gap-6 hidden">
+      <!-- Mantra Hero -->
+      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-indigo-950/40 to-slate-950/20 border border-indigo-900/30 p-6 sm:p-8 text-center flex flex-col items-center max-w-4xl mx-auto w-full">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-indigo-500/10 via-transparent to-transparent pointer-events-none"></div>
+        
+        <h2 class="text-2xl sm:text-3xl font-extrabold font-display text-white tracking-tight mb-2">
+          Kho Tàng Linh Chú Nhiệm Màu
+        </h2>
+        <p class="text-slate-300 text-xs sm:text-sm max-w-xl leading-relaxed mb-4">
+          Trì niệm Chú Đại Bi và Thập Thần Chú hàng ngày giúp thanh lọc tâm hồn, mang lại bình an và công đức cát tường.
+        </p>
+
+        <!-- Sub Tabs (Select part of prayer) -->
+        <div class="w-full mt-4 border-t border-slate-800/60 pt-5 flex flex-wrap gap-2 justify-center" id="thanchu-sub-tabs">
+          <button id="mantra-tab-phat_nguyen" onclick="selectMantraSection('phat_nguyen')" class="mantra-badge px-4 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">1. Phát Nguyện</button>
+          <button id="mantra-tab-chu_dai_bi" onclick="selectMantraSection('chu_dai_bi')" class="mantra-badge px-4 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">2. Chú Đại Bi</button>
+          <button id="mantra-tab-thap_than_chu" onclick="selectMantraSection('thap_than_chu')" class="mantra-badge px-4 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">3. Thập Thần Chú</button>
+          <button id="mantra-tab-hoi_huong" onclick="selectMantraSection('hoi_huong')" class="mantra-badge px-4 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">4. Hồi Hướng</button>
+        </div>
+      </div>
+
+      <!-- Settings and Reading Layout Options -->
+      <div class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-4 items-center justify-between">
+        <div class="text-sm font-semibold text-slate-200" id="thanchu-title-header">Kinh Chú</div>
+        
+        <div class="flex flex-wrap items-center gap-4">
+          <!-- Font size adjuster -->
+          <div class="flex items-center gap-2 select-none text-xs font-semibold text-slate-350">
+            <span>Cỡ chữ:</span>
+            <select 
+              id="thanchu-fontsize" 
+              onchange="adjustMantraFontSize()"
+              class="bg-slate-900 border border-slate-800 text-slate-200 rounded-xl px-3 py-1.5 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+            >
+              <option value="text-base">Mặc định</option>
+              <option value="text-lg">Lớn (Dễ đọc)</option>
+              <option value="text-xl">Rất lớn (Tụng niệm)</option>
+              <option value="text-2xl">Cực đại (Cho người lớn tuổi)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prayer Book Content Display Area -->
+      <div class="flex flex-col lg:flex-row gap-6">
+        <!-- Sidebar: list of 10 mantras (only visible when 'thap_than_chu' is active) -->
+        <div id="mantra-list-sidebar" class="w-full lg:w-1/3 flex flex-col gap-2 hidden">
+          <!-- Search box inside sidebar -->
+          <div class="relative mb-2">
+            <input 
+              type="text" 
+              id="thanchu-search" 
+              placeholder="Tìm kiếm thần chú..."
+              class="w-full pl-3 pr-8 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-200 placeholder-slate-500 focus:outline-none"
+            >
+          </div>
+          <div class="flex flex-col gap-2 max-h-[450px] overflow-y-auto custom-scrollbar p-0.5" id="mantra-names-list">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <!-- Main text view area -->
+        <div class="flex-grow w-full">
+          <div class="glass-card p-6 sm:p-10 rounded-3xl relative overflow-hidden" id="mantra-parchment">
+            <!-- Decorative border lines for reading prayers -->
+            <div class="absolute inset-4 border border-amber-500/10 pointer-events-none rounded-2xl"></div>
+            
+            <div class="flex justify-between items-center mb-6 relative z-10 pb-4 border-b border-slate-800/60">
+              <h3 class="text-lg font-bold text-amber-400 font-display" id="mantra-content-title">Nội Dung Kinh Chú</h3>
+              <!-- Speak button -->
+              <button 
+                id="btn-speak-mantra"
+                onclick="playMantraSpeech()"
+                class="audio-btn text-slate-400 hover:text-white p-2 rounded-xl bg-slate-900 border border-slate-800 transition-colors"
+                title="Nghe tụng niệm"
+              >
+                <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                </svg>
+              </button>
+            </div>
+
+            <!-- Recitation area -->
+            <div 
+              id="mantra-text-area" 
+              class="text-slate-200 text-center leading-loose whitespace-pre-line font-serif italic font-medium py-4 max-h-[600px] overflow-y-auto custom-scrollbar px-2 relative z-10"
+            >
+              <!-- Text content will populate here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <!-- Gieo Que Overlay/Modal -->
@@ -401,7 +503,6 @@
         </svg>
       </button>
 
-      <!-- Coins Animation Shaking -->
       <div id="gieoque-shaker" class="w-32 h-32 flex items-center justify-center bg-slate-950/60 rounded-full border border-amber-500/20 mb-6 shadow-inner relative">
         <span class="text-5xl" id="gieoque-coins-emoji">🪙🪙🪙</span>
       </div>
@@ -492,8 +593,13 @@
     let activeTopic = null;
     let chineseData = null;
     let activeChineseSheet = 'Mau_cau_giao_tiep';
+    
     let kinhDichData = null;
     let activeKinhDichSheet = 'que_64';
+    
+    let thanChuData = null;
+    let activeMantraSection = 'phat_nguyen';
+    let activeThapThanChuIndex = 0; // index inside list of 10
 
     // Pagination
     let currentChinesePage = 1;
@@ -506,11 +612,13 @@
     const poemsSection = document.getElementById('poems-section');
     const chineseSection = document.getElementById('chinese-section');
     const kinhdichSection = document.getElementById('kinhdich-section');
+    const thanchuSection = document.getElementById('thanchu-section');
 
     // Main buttons
     const tabPoems = document.getElementById('tab-poems');
     const tabChinese = document.getElementById('tab-chinese');
     const tabKinhdich = document.getElementById('tab-kinhdich');
+    const tabThanchu = document.getElementById('tab-thanchu');
     const headerStatus = document.getElementById('header-status');
 
     // Poems DOM
@@ -543,6 +651,15 @@
     const txtPageInfoKd = document.getElementById('txt-page-info-kd');
     const btnPrevKd = document.getElementById('btn-prev-kd');
     const btnNextKd = document.getElementById('btn-next-kd');
+
+    // Mantra DOM
+    const thanchuTitleHeader = document.getElementById('thanchu-title-header');
+    const thanchuFontsizeSelect = document.getElementById('thanchu-fontsize');
+    const mantraListSidebar = document.getElementById('mantra-list-sidebar');
+    const mantraNamesList = document.getElementById('mantra-names-list');
+    const mantraContentTitle = document.getElementById('mantra-content-title');
+    const mantraTextArea = document.getElementById('mantra-text-area');
+    const thanchuSearchInput = document.getElementById('thanchu-search');
 
     // Modals DOM
     const modal = document.getElementById('poem-modal');
@@ -600,23 +717,29 @@
       poemsSection.classList.add('hidden');
       chineseSection.classList.add('hidden');
       kinhdichSection.classList.add('hidden');
+      thanchuSection.classList.add('hidden');
 
-      tabPoems.className = "px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
-      tabChinese.className = "px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
-      tabKinhdich.className = "px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
+      tabPoems.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
+      tabChinese.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
+      tabKinhdich.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
+      tabThanchu.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
 
       if (tab === 'poems') {
         poemsSection.classList.remove('hidden');
-        tabPoems.className = "px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
+        tabPoems.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
         headerStatus.textContent = `${poems.length} bài thơ đã sẵn sàng`;
       } else if (tab === 'chinese') {
         chineseSection.classList.remove('hidden');
-        tabChinese.className = "px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
+        tabChinese.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
         loadChineseData();
       } else if (tab === 'kinhdich') {
         kinhdichSection.classList.remove('hidden');
-        tabKinhdich.className = "px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
+        tabKinhdich.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
         loadKinhDichData();
+      } else if (tab === 'thanchu') {
+        thanchuSection.classList.remove('hidden');
+        tabThanchu.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
+        loadThanChuData();
       }
     };
 
@@ -666,190 +789,134 @@
       }
     }
 
-    // Chinese Sub Menu
+    // Lazy load Than Chu
+    async function loadThanChuData() {
+      if (thanChuData) return;
+      headerStatus.textContent = "Đang tải mật chú Phật giáo...";
+      try {
+        const response = await fetch('than_chu.json');
+        if (!response.ok) throw new Error("Không thể tải than_chu.json");
+        thanChuData = await response.json();
+        headerStatus.textContent = "Linh chú phật giáo sẵn sàng";
+        selectMantraSection('phat_nguyen');
+      } catch (err) {
+        console.error(err);
+        mantraTextArea.innerHTML = `<p class="text-red-400">Không thể khởi tạo mô-đun Kinh Chú.</p>`;
+      }
+    }
+
+    // --- MANTRAS (THAN CHU) LOGIC ---
+    window.selectMantraSection = function(section) {
+      activeMantraSection = section;
+      
+      // Update badge visuals
+      document.querySelectorAll('.mantra-badge').forEach(btn => {
+        if (btn.id === `mantra-tab-${section}`) {
+          btn.classList.add('bg-amber-500/20', 'text-amber-300', 'border-amber-500/50', 'shadow-inner');
+          btn.classList.remove('bg-slate-900/50', 'text-slate-400', 'border-slate-800');
+        } else {
+          btn.classList.remove('bg-amber-500/20', 'text-amber-300', 'border-amber-500/50', 'shadow-inner');
+          btn.classList.add('bg-slate-900/50', 'text-slate-400', 'border-slate-800');
+        }
+      });
+
+      if (section === 'thap_than_chu') {
+        mantraListSidebar.classList.remove('hidden');
+        renderMantraSidebarList();
+        selectMantraIndex(0);
+      } else {
+        mantraListSidebar.classList.add('hidden');
+        renderMantraSingleSection();
+      }
+    };
+
+    function renderMantraSingleSection() {
+      if (!thanChuData) return;
+      const titleMap = {
+        'phat_nguyen': 'NGHI THỨC PHÁT NGUYỆN',
+        'chu_dai_bi': 'CHÚ ĐẠI BI (ĐẠI BI TÂM ĐÀ LA NI)',
+        'hoi_huong': 'NGHI THỨC HỒI HƯỚNG'
+      };
+      
+      const content = thanChuData[activeMantraSection] || '';
+      const title = titleMap[activeMantraSection] || '';
+      
+      thanchuTitleHeader.textContent = title;
+      mantraContentTitle.textContent = title;
+      mantraTextArea.innerHTML = content;
+    }
+
+    function renderMantraSidebarList() {
+      if (!thanChuData || !thanChuData.thap_than_chu) return;
+      const searchVal = removeVietnameseTones(thanchuSearchInput.value);
+      
+      const list = thanChuData.thap_than_chu;
+      
+      mantraNamesList.innerHTML = list.map((m, idx) => {
+        const text = m.ten;
+        const normalized = removeVietnameseTones(text);
+        if (searchVal && !normalized.includes(searchVal)) return '';
+
+        return `
+          <button 
+            id="mantra-item-${idx}" 
+            onclick="selectMantraIndex(${idx})"
+            class="w-full text-left px-3.5 py-2.5 rounded-xl border text-xs font-semibold transition-all duration-200 ${idx === activeThapThanChuIndex ? 'bg-amber-500/20 text-amber-300 border-amber-500/40' : 'bg-slate-900/40 border-slate-800 hover:bg-slate-800 text-slate-400'}"
+          >
+            ${m.stt}. ${text}
+          </button>
+        `;
+      }).join('');
+    }
+
+    window.selectMantraIndex = function(idx) {
+      activeThapThanChuIndex = idx;
+      
+      document.querySelectorAll('[id^="mantra-item-"]').forEach(btn => {
+        if (btn.id === `mantra-item-${idx}`) {
+          btn.className = "w-full text-left px-3.5 py-2.5 rounded-xl border text-xs font-semibold transition-all duration-200 bg-amber-500/20 text-amber-300 border-amber-500/40";
+        } else {
+          btn.className = "w-full text-left px-3.5 py-2.5 rounded-xl border text-xs font-semibold transition-all duration-200 bg-slate-900/40 border-slate-800 hover:bg-slate-800 text-slate-400";
+        }
+      });
+
+      const mantra = thanChuData.thap_than_chu[idx];
+      if (!mantra) return;
+      
+      thanchuTitleHeader.textContent = `Thập Thần Chú: ${mantra.ten}`;
+      mantraContentTitle.textContent = `${mantra.stt}. ${mantra.ten}`;
+      mantraTextArea.innerHTML = mantra.noi_dung;
+    };
+
+    thanchuSearchInput.addEventListener('input', renderMantraSidebarList);
+
+    window.adjustMantraFontSize = function() {
+      const size = thanchuFontsizeSelect.value;
+      // Remove previous font size classes
+      mantraTextArea.classList.remove('text-base', 'text-lg', 'text-xl', 'text-2xl');
+      mantraTextArea.classList.add(size);
+    };
+
+    window.playMantraSpeech = function() {
+      const text = mantraTextArea.innerText;
+      if (!text) return;
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'vi-VN'; // Read in Vietnamese standard voice
+        window.speechSynthesis.speak(utterance);
+      } else {
+        alert("Trình duyệt không hỗ trợ phát âm tiếng Việt.");
+      }
+    };
+
+    // --- CHINESE SUB-TABS ---
     function renderChineseSheetsMenu() {
       const keys = Object.keys(chineseData);
       chineseSheetsTabs.innerHTML = keys.map(key => {
         return `<button id="sheet-tab-${key}" onclick="selectChineseSheet('${key}')" class="chinese-sheet-badge shrink-0 px-4 py-2 rounded-xl text-xs font-semibold border transition-all duration-200">${chineseSheetNames[key] || key}</button>`;
       }).join('');
     }
-
-    window.selectChineseSheet = function(key) {
-      activeChineseSheet = key;
-      currentChinesePage = 1;
-      
-      document.querySelectorAll('.chinese-sheet-badge').forEach(btn => {
-        if (btn.id === `sheet-tab-${key}`) {
-          btn.classList.add('bg-indigo-500/20', 'text-indigo-200', 'border-indigo-500/50', 'shadow-inner');
-          btn.classList.remove('bg-slate-900/50', 'text-slate-400', 'border-slate-800');
-        } else {
-          btn.classList.remove('bg-indigo-500/20', 'text-indigo-200', 'border-indigo-500/50', 'shadow-inner');
-          btn.classList.add('bg-slate-900/50', 'text-slate-400', 'border-slate-800');
-        }
-      });
-      chineseSearchInput.value = '';
-      renderActiveChineseSheet();
-    };
-
-    window.playTTS = function(e, text) {
-      if (e) e.stopPropagation();
-      if (!text) return;
-      if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'zh-CN';
-        window.speechSynthesis.speak(utterance);
-      }
-    };
-
-    function renderActiveChineseSheet() {
-      if (!chineseData || !chineseData[activeChineseSheet]) return;
-      
-      const searchVal = removeVietnameseTones(chineseSearchInput.value);
-      const isPinyinHidden = hidePinyinCheckbox.checked;
-      const isVietnameseHidden = hideVietnameseCheckbox.checked;
-
-      const rawItems = chineseData[activeChineseSheet];
-      const filtered = rawItems.filter(item => {
-        if (!searchVal) return true;
-        return Object.values(item).some(val => removeVietnameseTones(String(val)).includes(searchVal));
-      });
-
-      chineseCategoryTitle.textContent = chineseSheetNames[activeChineseSheet] || activeChineseSheet;
-      chineseItemCount.textContent = `Tổng: ${filtered.length} kết quả`;
-
-      const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerChinesePage));
-      if (currentChinesePage > totalPages) currentChinesePage = totalPages;
-
-      txtPageInfo.textContent = `Trang ${currentChinesePage} / ${totalPages}`;
-      btnPrevPage.disabled = currentChinesePage === 1;
-      btnNextPage.disabled = currentChinesePage === totalPages;
-
-      const startIndex = (currentChinesePage - 1) * itemsPerChinesePage;
-      const paginatedItems = filtered.slice(startIndex, startIndex + itemsPerChinesePage);
-
-      if (paginatedItems.length === 0) {
-        chineseDisplayArea.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-medium text-slate-400">Không tìm thấy kết quả phù hợp</p></div>`;
-        return;
-      }
-
-      chineseDisplayArea.innerHTML = paginatedItems.map((item, idx) => {
-        const stt = startIndex + idx + 1;
-
-        if (activeChineseSheet === 'Mau_cau_giao_tiep') {
-          return `
-            <div class="glass-card p-5 rounded-2xl flex flex-col justify-between hover:border-indigo-500/30 transition-all">
-              <div>
-                <div class="flex justify-between items-start mb-2">
-                  <span class="text-[10px] uppercase font-bold text-indigo-400 bg-indigo-500/10 px-2.5 py-0.5 rounded-full">${item['Chu de'] || 'Giao tiếp'}</span>
-                  <span class="text-[10px] font-mono text-slate-550">#${stt}</span>
-                </div>
-                <h4 class="text-xl font-bold font-hans text-white leading-relaxed mb-1">${item['Tieng Trung']}</h4>
-                <p class="text-xs font-semibold text-teal-400 font-mono mb-2 transition-opacity duration-200 ${isPinyinHidden ? 'opacity-0 select-none' : 'opacity-100'}">${item['Phien am']}</p>
-                <p class="text-sm text-slate-350 leading-relaxed transition-opacity duration-200 ${isVietnameseHidden ? 'opacity-0 select-none bg-slate-900/60 rounded px-2' : 'opacity-100'}">${item['Tieng Viet']}</p>
-              </div>
-              <div class="flex items-center justify-end mt-4 border-t border-slate-800/80 pt-3">
-                <button onclick="playTTS(event, '${item['Tieng Trung'].replace(/'/g, "\\'")}')" class="audio-btn text-slate-400 hover:text-white p-1.5 rounded-lg hover:bg-slate-800 transition-colors">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                </button>
-              </div>
-            </div>
-          `;
-        } else if (activeChineseSheet === 'Tu_dien_1500') {
-          return `
-            <div class="glass-card p-5 rounded-2xl flex flex-col justify-between hover:border-indigo-500/30 transition-all">
-              <div>
-                <div class="flex justify-between items-start mb-2">
-                  <span class="text-[10px] font-bold text-teal-400 bg-teal-500/10 px-2 py-0.5 rounded">Hán Việt: ${item['Am Han Viet'].toUpperCase()}</span>
-                  <span class="text-[10px] font-mono text-slate-550">#${stt}</span>
-                </div>
-                <div class="flex items-center gap-4 mb-3">
-                  <div class="w-14 h-14 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-3xl font-extrabold text-indigo-300 font-hans shadow-inner">${item['Chu Han']}</div>
-                  <div>
-                    <p class="text-sm font-semibold text-emerald-400 font-mono transition-opacity duration-200 ${isPinyinHidden ? 'opacity-0' : 'opacity-100'}">${item['Pinyin']}</p>
-                    <p class="text-xs text-slate-450 mt-0.5">Sino-VN: ${item['Am Han Viet']}</p>
-                  </div>
-                </div>
-                <p class="text-xs text-slate-350 leading-relaxed font-sans line-clamp-3 transition-opacity duration-200 ${isVietnameseHidden ? 'opacity-0 select-none' : 'opacity-100'}">${item['Nghia']}</p>
-              </div>
-              <div class="flex items-center justify-end mt-4 border-t border-slate-800/80 pt-3">
-                <button onclick="playTTS(event, '${item['Chu Han'].replace(/'/g, "\\'")}')" class="audio-btn text-slate-400 hover:text-white p-1.5 rounded-lg hover:bg-slate-800 transition-colors">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                </button>
-              </div>
-            </div>
-          `;
-        } else if (activeChineseSheet === '3000_cau_giao_tiep') {
-          return `
-            <div class="glass-card p-5 rounded-2xl flex flex-col justify-between hover:border-indigo-500/30 transition-all">
-              <div>
-                <div class="flex justify-between items-start mb-2">
-                  <span class="text-[10px] font-mono text-slate-550">Giao tiếp #${stt}</span>
-                </div>
-                <h4 class="text-xl font-bold font-hans text-white leading-relaxed mb-1">${item['Tieng Trung']}</h4>
-                <p class="text-xs font-semibold text-emerald-400 font-mono mb-2 transition-opacity duration-200 ${isPinyinHidden ? 'opacity-0' : 'opacity-100'}">${item['Phien am']}</p>
-                <p class="text-sm text-slate-350 leading-relaxed transition-opacity duration-200 ${isVietnameseHidden ? 'opacity-0 select-none bg-slate-900/60 rounded px-1' : 'opacity-100'}">${item['Tieng Viet']}</p>
-              </div>
-              <div class="flex items-center justify-end mt-4 border-t border-slate-800/80 pt-3">
-                <button onclick="playTTS(event, '${item['Tieng Trung'].replace(/'/g, "\\'")}')" class="audio-btn text-slate-400 hover:text-white p-1.5 rounded-lg hover:bg-slate-800 transition-colors">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                </button>
-              </div>
-            </div>
-          `;
-        } else if (activeChineseSheet === '214_Bo_thu') {
-          return `
-            <div class="glass-card p-5 rounded-2xl flex flex-col justify-between hover:border-indigo-500/30 transition-all">
-              <div>
-                <div class="flex justify-between items-start mb-2">
-                  <span class="text-[10px] font-mono text-slate-550">Bộ thủ #${stt}</span>
-                </div>
-                <div class="flex items-center gap-4 mb-2">
-                  <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-2xl font-extrabold text-pink-400 font-hans shadow-inner">${item['Ten bo'].charAt(0)}</div>
-                  <div>
-                    <h5 class="text-sm font-bold text-white">${item['Ten bo']}</h5>
-                    <p class="text-xs font-semibold text-slate-400 font-mono transition-opacity duration-200 ${isPinyinHidden ? 'opacity-0' : 'opacity-100'}">Pinyin: ${item['Phien am']}</p>
-                  </div>
-                </div>
-                <p class="text-xs text-slate-350 mt-2 transition-opacity duration-200 ${isVietnameseHidden ? 'opacity-0 select-none bg-slate-900/60' : 'opacity-100'}">${item['Y nghia']}</p>
-              </div>
-              <div class="flex items-center justify-end mt-4 border-t border-slate-800/80 pt-3">
-                <button onclick="playTTS(event, '${item['Ten bo'].charAt(0).replace(/'/g, "\\'")}')" class="audio-btn text-slate-400 hover:text-white p-1.5 rounded-lg hover:bg-slate-800 transition-colors">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                </button>
-              </div>
-            </div>
-          `;
-        } else {
-          const textCn = item['Chu Han'] || item['Han'] || item['Tu (phien am boi)'] || item['Cau (phien am boi)'] || '';
-          const textPy = item['Pinyin'] || item['Doc (am boi)'] || '';
-          const meaning = item['Nghia'] || item['Dich'] || item['Chu thich tu'] || item['Pinyin (am boi): Nghia'] || '';
-          
-          return `
-            <div class="glass-card p-5 rounded-2xl flex flex-col justify-between hover:border-indigo-500/30 transition-all">
-              <div>
-                <div class="flex justify-between items-start mb-2">
-                  <span class="text-[10px] font-mono text-slate-550">#${stt}</span>
-                </div>
-                <h4 class="text-lg font-bold font-hans text-white mb-1">${textCn}</h4>
-                ${textPy ? `<p class="text-xs font-semibold text-emerald-400 font-mono mb-2 transition-opacity duration-200 ${isPinyinHidden ? 'opacity-0' : 'opacity-100'}">${textPy}</p>` : ''}
-                <p class="text-sm text-slate-350 leading-relaxed transition-opacity duration-200 ${isVietnameseHidden ? 'opacity-0 select-none bg-slate-900/60 rounded px-1' : 'opacity-100'}">${meaning}</p>
-              </div>
-              <div class="flex items-center justify-end mt-4 border-t border-slate-800/80 pt-3">
-                <button onclick="playTTS(event, '${textCn.replace(/'/g, "\\'")}')" class="audio-btn text-slate-400 hover:text-white p-1.5 rounded-lg hover:bg-slate-800 transition-colors">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                </button>
-              </div>
-            </div>
-          `;
-        }
-      }).join('');
-    }
-
-    window.changeChinesePage = function(offset) {
-      currentChinesePage += offset;
-      renderActiveChineseSheet();
-    };
 
     // --- KINH DICH MODULE LOGIC ---
     function renderKinhDichSheetsMenu() {
@@ -895,7 +962,6 @@
 
       const rawItems = kinhDichData[activeKinhDichSheet];
       let filtered = rawItems.filter(item => {
-        // Filter by auspicousness if active sheet is 64 hexagrams
         if (activeKinhDichSheet === 'que_64' && catHungVal && item.cat_hung !== catHungVal) return false;
         
         if (!searchVal) return true;
@@ -960,33 +1026,31 @@
               <div>
                 <div class="flex justify-between items-start mb-2">
                   <span class="text-[10px] font-bold text-teal-400 tracking-wider bg-teal-500/10 px-2.5 py-0.5 rounded-md">Thiên Can (${tc.am_duong || ''})</span>
-                  <span class="text-xs font-mono text-slate-500">#${tc.stt}</span>
+                  <span class="text-xs font-mono text-slate-550">#${tc.stt}</span>
                 </div>
                 <h4 class="text-xl font-bold text-white font-sans mb-1">${tc.thien_can}</h4>
                 <p class="text-xs font-semibold text-amber-400 italic mb-2">Ý nghĩa gốc: ${tc.y_nghia_goc}</p>
-                <p class="text-xs text-slate-350 leading-relaxed font-sans">${tc.giai_nghia_mo_rong}</p>
+                <p class="text-xs text-slate-355 leading-relaxed font-sans">${tc.giai_nghia_mo_rong}</p>
               </div>
             </div>
           `;
         }).join('');
       } else if (activeKinhDichSheet === 'dia_chi') {
-        // 'STT', 'Địa Chi', 'Âm/Dương', 'Ý nghĩa'
         kinhdichDisplayArea.innerHTML = paginated.map(dc => {
           return `
             <div class="glass-card p-5 rounded-2xl hover:border-indigo-500/30 transition-all flex flex-col justify-between">
               <div>
                 <div class="flex justify-between items-start mb-2">
                   <span class="text-[10px] font-bold text-teal-400 tracking-wider bg-teal-500/10 px-2.5 py-0.5 rounded-md">Địa Chi (${dc.am_duong || ''})</span>
-                  <span class="text-xs font-mono text-slate-500">#${dc.stt}</span>
+                  <span class="text-xs font-mono text-slate-550">#${dc.stt}</span>
                 </div>
                 <h4 class="text-xl font-bold text-white font-sans mb-1">${dc.dia_chi}</h4>
-                <p class="text-xs text-slate-350 leading-relaxed font-sans mt-2">${dc.y_nghia}</p>
+                <p class="text-xs text-slate-355 leading-relaxed font-sans mt-2">${dc.y_nghia}</p>
               </div>
             </div>
           `;
         }).join('');
       } else if (activeKinhDichSheet === 'ngu_hanh') {
-        // 'Cung mệnh', 'Thiên Can Âm', 'Thiên Can Dương', 'Địa Chi', 'Hướng', 'Mùa vượng', 'Tạng phủ tương ứng'
         kinhdichDisplayArea.innerHTML = paginated.map(nh => {
           return `
             <div class="glass-card p-5 rounded-2xl hover:border-indigo-500/30 transition-all">
@@ -1004,7 +1068,6 @@
           `;
         }).join('');
       } else if (activeKinhDichSheet === 'xung_khac') {
-        // 'Nhóm quan hệ', 'Nội dung'
         kinhdichDisplayArea.innerHTML = paginated.map(xk => {
           return `
             <div class="glass-card p-4 rounded-2xl hover:border-rose-500/20 transition-all flex flex-col justify-between">
@@ -1016,29 +1079,26 @@
           `;
         }).join('');
       } else if (activeKinhDichSheet === 'vong_giap_ty') {
-        // 'Vòng Giáp Tý', 'Chi tiết & Địa Chi Không Vong'
         kinhdichDisplayArea.innerHTML = paginated.map(vg => {
           return `
             <div class="glass-card p-5 rounded-2xl hover:border-indigo-500/30 transition-all">
               <span class="text-[10px] font-bold text-indigo-400 bg-indigo-500/10 px-2.5 py-0.5 rounded-md">Vòng Can Chi</span>
               <h4 class="text-lg font-bold text-white mt-2 mb-1">${vg.vong_giap_ty}</h4>
-              <p class="text-xs text-slate-350 font-sans leading-relaxed mt-2">${vg.chi_tiet}</p>
+              <p class="text-xs text-slate-355 font-sans leading-relaxed mt-2">${vg.chi_tiet}</p>
             </div>
           `;
         }).join('');
       } else if (activeKinhDichSheet === 'luc_than') {
-        // 'Hào', 'Ý nghĩa khi luận đoán'
         kinhdichDisplayArea.innerHTML = paginated.map(lt => {
           return `
             <div class="glass-card p-5 rounded-2xl hover:border-indigo-500/30 transition-all">
               <span class="text-[10px] font-bold text-teal-400 bg-teal-500/10 px-2.5 py-0.5 rounded-md">Lục Thân</span>
               <h4 class="text-lg font-bold text-white mt-2 mb-1">${lt.hao}</h4>
-              <p class="text-xs text-slate-350 font-sans leading-relaxed mt-2">${lt.y_nghia}</p>
+              <p class="text-xs text-slate-355 font-sans leading-relaxed mt-2">${lt.y_nghia}</p>
             </div>
           `;
         }).join('');
       } else {
-        // 'Chủ đề', 'Nội dung'
         kinhdichDisplayArea.innerHTML = paginated.map(n => {
           return `
             <div class="glass-card p-5 rounded-2xl hover:border-indigo-500/30 transition-all">
@@ -1050,7 +1110,6 @@
       }
     };
 
-    // Detailed Modal for Kinh Dich
     window.openKinhDichModal = function(stt) {
       if (!kinhDichData || !kinhDichData.que_64) return;
       const que = kinhDichData.que_64.find(q => q.stt === stt);
@@ -1095,7 +1154,6 @@
       document.body.classList.add('overflow-hidden');
     };
 
-    // --- INTERACTIVE GIEO QUE RITUAL ---
     window.triggerGieoQue = function() {
       gieoqueResult.classList.add('hidden');
       gieoqueCoinsEmoji.textContent = "🪙🪙🪙";
@@ -1352,13 +1410,7 @@
       filterPoems();
     });
 
-    // Listeners for Kinh Dich
-    kinhdichSearchInput.addEventListener('input', () => {
-      currentKinhDichPage = 1;
-      renderKinhDich();
-    });
-
-    // Init load
+    // Initial Load
     window.addEventListener('DOMContentLoaded', () => {
       loadPoems();
       if ('serviceWorker' in navigator) {

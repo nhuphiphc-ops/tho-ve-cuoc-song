@@ -1,6 +1,9 @@
 import pandas as pd
 import json
 import os
+import zipfile
+import xml.etree.ElementTree as ET
+import re
 
 def clean_df(df):
     df.columns = [str(c).strip() for c in df.columns]
@@ -202,10 +205,107 @@ def convert_kinh_dich():
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"Successfully converted Kinh Dich sheets into {output_file}")
 
+def convert_than_chu():
+    paths_to_try = [
+        r"e:\IRPORT-ẢNH\THAN CHU CAC LOAI\Chu dai bi-Thap than chu-7-11-2025.docx",
+        "Chu dai bi-Thap than chu-7-11-2025.docx"
+    ]
+    docx_file = None
+    for p in paths_to_try:
+        if os.path.exists(p):
+            docx_file = p
+            break
+            
+    if not docx_file:
+        print("Mantra DOCX file not found. Skipping...")
+        return
+        
+    print(f"Reading Mantra data from {docx_file}...")
+    try:
+        doc = zipfile.ZipFile(docx_file)
+        xml_content = doc.read('word/document.xml')
+        root = ET.fromstring(xml_content)
+        
+        paragraphs = []
+        for paragraph in root.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}p'):
+            texts = [node.text for node in paragraph.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t') if node.text]
+            if texts:
+                paragraphs.append("".join(texts).strip())
+            else:
+                paragraphs.append("")
+                
+        phat_nguyen_lines = []
+        chu_dai_bi_lines = []
+        hoi_huong_lines = []
+        thap_than_chu_raw = []
+        
+        current_sec = None
+        for p in paragraphs:
+            p_clean = p.strip()
+            if not p_clean:
+                continue
+                
+            if "PHÁT NGUYỆN" in p_clean.upper():
+                current_sec = "phat_nguyen"
+                continue
+            elif "CHÚ ĐẠI BỊ" in p_clean.upper() or "CHÚ ĐẠI BI" in p_clean.upper():
+                current_sec = "chu_dai_bi"
+                continue
+            elif "HỒI HƯỚNG" in p_clean.upper():
+                current_sec = "hoi_huong"
+                continue
+            elif "THẬP THẦN CHÚ" in p_clean.upper():
+                current_sec = "thap_than_chu"
+                continue
+                
+            if current_sec == "phat_nguyen":
+                phat_nguyen_lines.append(p_clean)
+            elif current_sec == "chu_dai_bi":
+                chu_dai_bi_lines.append(p_clean)
+            elif current_sec == "hoi_huong":
+                hoi_huong_lines.append(p_clean)
+            elif current_sec == "thap_than_chu":
+                thap_than_chu_raw.append(p_clean)
+                
+        mantras = []
+        for line in thap_than_chu_raw:
+            match_first = re.match(r"^(NHƯ Ý BẢO LUÂN VƯƠNG ĐÀ LA NI)(.*)$", line)
+            match_numbered = re.match(r"^(\d+)\.\s*(.*?)(THẦN CHÚ|ĐÀ LA NI|CHƠN NGÔN)(.*)$", line)
+            
+            if match_first:
+                title = match_first.group(1).strip()
+                content = match_first.group(2).strip()
+                mantras.append({"stt": 1, "ten": title, "noi_dung": content})
+            elif match_numbered:
+                stt = int(match_numbered.group(1))
+                title = (match_numbered.group(2) + match_numbered.group(3)).strip()
+                content = match_numbered.group(4).strip()
+                mantras.append({"stt": stt, "ten": title, "noi_dung": content})
+            else:
+                if mantras:
+                    mantras[-1]["noi_dung"] += "\n" + line
+                else:
+                    mantras.append({"stt": 0, "ten": "Khác", "noi_dung": line})
+                    
+        data = {
+            "phat_nguyen": "\n".join(phat_nguyen_lines),
+            "chu_dai_bi": "\n".join(chu_dai_bi_lines),
+            "hoi_huong": "\n".join(hoi_huong_lines),
+            "thap_than_chu": mantras
+        }
+        
+        output_file = "than_chu.json"
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"Successfully converted Mantra document into {output_file}")
+    except Exception as e:
+        print("Error converting Mantra docx:", e)
+
 def main():
     convert_poems()
     convert_chinese()
     convert_kinh_dich()
+    convert_than_chu()
 
 if __name__ == "__main__":
     main()
