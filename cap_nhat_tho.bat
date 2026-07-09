@@ -46,9 +46,9 @@ for /f "tokens=1-3 delims=/ " %%a in ('echo %date%') do set NGAY=%%a/%%b/%%c
 for /f "tokens=1-2 delims=: " %%a in ('echo %time%') do set GIO=%%a:%%b
 set COMMIT_MSG=Cap nhat bai tho moi: %NGAY% %GIO%
 
-git add Tho_chiet_ly_cuoc_song_FullVersion.xlsx data.json
+git add Tho_chiet_ly_cuoc_song_FullVersion.xlsx data.json tieng_trung.json
 
-git diff --cached --quiet
+git diff --quiet --cached
 if %errorlevel% equ 0 (
     echo   Khong co thay doi moi nao de cap nhat.
     echo   Du lieu website dang la phien ban moi nhat roi!
