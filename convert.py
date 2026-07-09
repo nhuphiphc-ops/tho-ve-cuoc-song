@@ -71,9 +71,63 @@ def convert_chinese():
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"Successfully converted Chinese learning sheets into {output_file}")
 
+def convert_kinh_dich():
+    paths_to_try = [
+        r"e:\IRPORT-ẢNH\KINH DICH\KINH DICH.xlsx",
+        "KINH DICH.xlsx"
+    ]
+    excel_file = None
+    for p in paths_to_try:
+        if os.path.exists(p):
+            excel_file = p
+            break
+            
+    if not excel_file:
+        print("Kinh Dich Excel file not found. Skipping...")
+        return
+        
+    print(f"Reading Kinh Dich data from {excel_file}...")
+    xl = pd.ExcelFile(excel_file)
+    
+    # Process 64 que
+    df_64 = pd.read_excel(excel_file, sheet_name='64 que')
+    df_64 = clean_df(df_64)
+    que_list = []
+    for _, row in df_64.iterrows():
+        que_list.append({
+            "stt": int(row["STT"]) if row["STT"] else 0,
+            "ten_que": row["Tên quẻ"],
+            "giai_nghia": row["Giải nghĩa"],
+            "chi_tiet": row["Unnamed: 4"],
+            "cat_hung": row["Unnamed: 6"]
+        })
+        
+    # Process Sheet3 (Thiên Can)
+    df_can = pd.read_excel(excel_file, sheet_name='Sheet3')
+    df_can = clean_df(df_can)
+    can_list = []
+    for _, row in df_can.iterrows():
+        if row.get("Thiên Can"):
+            can_list.append({
+                "thien_can": row["Thiên Can"],
+                "y_nghia": row["Ý nghĩa"],
+                "giai_nghia": row["Giải nghĩa"]
+            })
+            
+    data = {
+        "que_64": que_list,
+        "thien_can": can_list
+    }
+    
+    output_file = "kinh_dich.json"
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"Successfully converted Kinh Dich sheets into {output_file}")
+
 def main():
     convert_poems()
     convert_chinese()
+    convert_kinh_dich()
 
 if __name__ == "__main__":
     main()

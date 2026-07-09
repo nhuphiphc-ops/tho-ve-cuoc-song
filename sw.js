@@ -1,9 +1,10 @@
-const CACHE_NAME = 'tho-ve-cuoc-song-v2';
+const CACHE_NAME = 'tho-ve-cuoc-song-v3';
 const ASSETS = [
   '/',
   '/index.html',
   '/data.json',
   '/tieng_trung.json',
+  '/kinh_dich.json',
   '/manifest.json',
   '/icon-192.png',
   '/icon-512.png'
