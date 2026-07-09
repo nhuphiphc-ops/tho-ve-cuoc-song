@@ -2,923 +2,975 @@
   "que_64": [
     {
       "stt": 1,
-      "ten_que": "QUẺ 1: THUẦN CÀN",
-      "giai_nghia": "Khốn long đắc thủy (Đại cát) - Càn vị thiên (Càn- Trời): Mọi việc đều diễn ra đúng theo kế hoạch hoặc sự mong đợi. Thành công và danh tiếng lẫn vận may đều biến thành hiện thực. Tuy nhiên, sự quá thỏa mãn và kiêu ngạo hay thái độ hống hách sẽ đưa đến những điều không may. Do đó phải biết cẩn trọng, chu đáo và suy nghĩ khi làm việc, tránh kiêu căng tự mãn.",
-      "chi_tiet": "",
-      "cat_hung": "Đại cát"
+      "ten_que": "Thuần Càn",
+      "cat_hung": "Đại cát",
+      "hinh_tuong": "Khốn long đắc thủy",
+      "cau_truc": "Càn vị thiên (Càn- Trời)",
+      "giai_nghia": "Mọi việc đều diễn ra đúng theo kế hoạch hoặc sự mong đợi. Thành công và danh tiếng lẫn vận may đều biến thành hiện thực. Tuy nhiên, sự quá thỏa mãn và kiêu ngạo hay thái độ hống hách sẽ đưa đến những điều không may. Do đó phải biết cẩn trọng, chu đáo và suy nghĩ khi làm việc, tránh kiêu căng tự mãn.",
+      "chi_tiet": ""
     },
     {
       "stt": 2,
-      "ten_que": "QUẺ 2: THUẦN KHÔN",
-      "giai_nghia": "Ngạ hổ đắc thực (Đại cát) - Khôn vi địa (Khôn-Đất): Đừng hấp tấp vội vàng, cũng đừng khinh suất, liều lĩnh và đừng hành động một cách quyết liệt, triệt để hay cẩu thả. Hãy thực hiện bổn phận của mình một cách thận trọng và có chăm chú. Hãy nghe theo những lời khuyên của người có khả năng và người khôn ngoan",
-      "chi_tiet": "",
-      "cat_hung": "Đại cát"
+      "ten_que": "Thuần Khôn",
+      "cat_hung": "Đại cát",
+      "hinh_tuong": "Ngạ hổ đắc thực",
+      "cau_truc": "Khôn vi địa (Khôn-Đất)",
+      "giai_nghia": "Đừng hấp tấp vội vàng, cũng đừng khinh suất, liều lĩnh và đừng hành động một cách quyết liệt, triệt để hay cẩu thả. Hãy thực hiện bổn phận của mình một cách thận trọng và có chăm chú. Hãy nghe theo những lời khuyên của người có khả năng và người khôn ngoan",
+      "chi_tiet": ""
     },
     {
       "stt": 3,
-      "ten_que": "QUẺ 3: THỦY LÔI TRUÂN",
-      "giai_nghia": "Loạn ty vô đầu (Hung) - Thủy lôi truân (Khảm: nước; chấn: sấm): Hãy cố gắng chịu đựng những khó khăn hiện tại, nỗ lực trong thầm lặng. Nếu khởi lập đại nghiệp, sẽ gặp nhiều rủi ro và gian nan. Đừng hành động liều lĩnh hay mù quáng. Phải có lòng dũng cảm chịu đựng để đấu tranh bằng quyết tâm và sự hết lòng. Nếu đã nỗ lực toàn tâm toàn ý những khó khăn sẽ dần dần được giải quyết",
-      "chi_tiet": "",
-      "cat_hung": "Hung"
+      "ten_que": "Thủy Lôi Truân",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Loạn ty vô đầu",
+      "cau_truc": "Thủy lôi truân (Khảm",
+      "giai_nghia": "nước; chấn: sấm): Hãy cố gắng chịu đựng những khó khăn hiện tại, nỗ lực trong thầm lặng. Nếu khởi lập đại nghiệp, sẽ gặp nhiều rủi ro và gian nan. Đừng hành động liều lĩnh hay mù quáng. Phải có lòng dũng cảm chịu đựng để đấu tranh bằng quyết tâm và sự hết lòng. Nếu đã nỗ lực toàn tâm toàn ý những khó khăn sẽ dần dần được giải quyết",
+      "chi_tiet": ""
     },
     {
       "stt": 4,
-      "ten_que": "QUẺ 4: SƠN THỦY MÔNG",
-      "giai_nghia": "Tiểu quỷ thâu tiền (Hung)- Sơ thủy mông (Khảm -cấn): Có sự thiếu dứt khoát và thiếu quyết tâm. Bạn nên đi theo hay vâng theo chỉ dẫn của người có nhiều kinh nghiệm, đồng thời đón nhận lời chỉ bảo bằng thái độ khiêm tốn và cởi mở. Với sự nhẫn nại, lòng tự trọng và tinh thần kỷ luật, hãy chờ đợi đến khi có chuyển biến tốt đẹp hơn. Khi đó, tương lai sán lạn sẽ đến",
-      "chi_tiet": "",
-      "cat_hung": "Hung"
+      "ten_que": "Sơn Thủy Mông",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Tiểu quỷ thâu tiền",
+      "cau_truc": "Sơ thủy mông (Khảm -cấn)",
+      "giai_nghia": "Có sự thiếu dứt khoát và thiếu quyết tâm. Bạn nên đi theo hay vâng theo chỉ dẫn của người có nhiều kinh nghiệm, đồng thời đón nhận lời chỉ bảo bằng thái độ khiêm tốn và cởi mở. Với sự nhẫn nại, lòng tự trọng và tinh thần kỷ luật, hãy chờ đợi đến khi có chuyển biến tốt đẹp hơn. Khi đó, tương lai sán lạn sẽ đến",
+      "chi_tiet": ""
     },
     {
       "stt": 5,
-      "ten_que": "QUẺ 5: THỦY THIÊN NHU",
-      "giai_nghia": "Minh châu xuất thổ (cát)- Thủy thiên nhu (Càn khảm): Hãy tìm phương cách thích hợp và phải quyết tâm cũng như tận tâm. Đừng hấp tấp, liều lĩnh, khinh suất hay quá cực đoan trong hành động. Hãy chờ thời cơ và vận may đến, cuối cùng sẽ thực hiện được các kỳ vọng và khát vọng của mình. Nếu tham lợi lộc hay lợi thế nhỏ đang có trước mắt, tất sẽ gánh chịu thất bại.",
-      "chi_tiet": "Quẻ này chỉ cho ta cách xử thế khi chờ đợi, tùy họa ở gần hay ở xa, cốt nhất là đừng nóng nảy, mà phải giữ trung chính. Chúng ta để ý: hào 5 ở giữa quẻ Khảm, tức giữa cơn nguy hiểm mà Chu Công vẫn cho là tốt chỉ vì hào đó cương mà trung chính, nghĩa là cương một cách vừa phải, sáng suốt, chính đáng.",
-      "cat_hung": "cát"
+      "ten_que": "Thủy Thiên Nhu",
+      "cat_hung": "cát",
+      "hinh_tuong": "Minh châu xuất thổ",
+      "cau_truc": "Thủy thiên nhu (Càn khảm)",
+      "giai_nghia": "Hãy tìm phương cách thích hợp và phải quyết tâm cũng như tận tâm. Đừng hấp tấp, liều lĩnh, khinh suất hay quá cực đoan trong hành động. Hãy chờ thời cơ và vận may đến, cuối cùng sẽ thực hiện được các kỳ vọng và khát vọng của mình. Nếu tham lợi lộc hay lợi thế nhỏ đang có trước mắt, tất sẽ gánh chịu thất bại.",
+      "chi_tiet": "Quẻ này chỉ cho ta cách xử thế khi chờ đợi, tùy họa ở gần hay ở xa, cốt nhất là đừng nóng nảy, mà phải giữ trung chính. Chúng ta để ý: hào 5 ở giữa quẻ Khảm, tức giữa cơn nguy hiểm mà Chu Công vẫn cho là tốt chỉ vì hào đó cương mà trung chính, nghĩa là cương một cách vừa phải, sáng suốt, chính đáng."
     },
     {
       "stt": 6,
-      "ten_que": "QUẺ 6: THIÊN THỦY TỤNG",
-      "giai_nghia": "Nhị nhân tranh lộ (Hung)- Thiên thủy tụng (Khảm càn): Sẽ chẳng có điều gì diễn ra đúng theo mong đợi hay ước muốn. Mọi việc đầy khó khăn, phiền muộn, rắc rối và trở ngại. Không có lợi để tiến tới hay đi lên. Tốt nhất hãy thoái lui và giữ yên vị trí, đồng thời chờ đến khi vận hội thay đổi.",
-      "chi_tiet": "Trước sau chỉ là răn người ta đừng ham tranh nhau kiện cáo: hào 3 không kiện với ai, tốt; hào 2 muốn kiện mà sau thôi không kiện, cũng tốt; hào 1 bị kiện thì nên nhường nhịn một chút, rốt cuộc sẽ tốt, duy có hào 6 bằng kiện tới cùng thì dù có thắng, cũng hóa xấu.",
-      "cat_hung": "Hung"
+      "ten_que": "Thiên Thủy Tụng",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Nhị nhân tranh lộ",
+      "cau_truc": "Thiên thủy tụng (Khảm càn)",
+      "giai_nghia": "Sẽ chẳng có điều gì diễn ra đúng theo mong đợi hay ước muốn. Mọi việc đầy khó khăn, phiền muộn, rắc rối và trở ngại. Không có lợi để tiến tới hay đi lên. Tốt nhất hãy thoái lui và giữ yên vị trí, đồng thời chờ đến khi vận hội thay đổi.",
+      "chi_tiet": "Trước sau chỉ là răn người ta đừng ham tranh nhau kiện cáo: hào 3 không kiện với ai, tốt; hào 2 muốn kiện mà sau thôi không kiện, cũng tốt; hào 1 bị kiện thì nên nhường nhịn một chút, rốt cuộc sẽ tốt, duy có hào 6 bằng kiện tới cùng thì dù có thắng, cũng hóa xấu."
     },
     {
       "stt": 7,
-      "ten_que": "QUẺ 7: ĐỊA THỦY SƯ",
-      "giai_nghia": "Mã đáo thành công (cát)-Địa thủy sư (Khảm khôn): Sóng lớn và gian nan rất nhiều. Đừng hời hợt chạy theo những kế hoạch nhỏ nhặt và phương tiện bất chính. Hãy vạch kế hoạch cho bản thân, hãy giữ gìn chính đạo cũng như xử lý mọi việc bằng thái độ quyết tâm, kiên trì, khi đó có thể vượt qua hết mọi khó khăn, đồng thời còn đạt được sự độc đáo, thăng tiến",
-      "chi_tiet": "Khi thành công rồi, luận công ban thưởng thì kẻ tiểu nhân có công chỉ nên thưởng họ tiền bạc, đừng giao cho họ trọng trách; trọng trách phải về những người tài đức như vậy nước mới thịnh được",
-      "cat_hung": "cát"
+      "ten_que": "Địa Thủy Sư",
+      "cat_hung": "cát",
+      "hinh_tuong": "Mã đáo thành công",
+      "cau_truc": "Địa thủy sư (Khảm khôn)",
+      "giai_nghia": "Sóng lớn và gian nan rất nhiều. Đừng hời hợt chạy theo những kế hoạch nhỏ nhặt và phương tiện bất chính. Hãy vạch kế hoạch cho bản thân, hãy giữ gìn chính đạo cũng như xử lý mọi việc bằng thái độ quyết tâm, kiên trì, khi đó có thể vượt qua hết mọi khó khăn, đồng thời còn đạt được sự độc đáo, thăng tiến",
+      "chi_tiet": "Khi thành công rồi, luận công ban thưởng thì kẻ tiểu nhân có công chỉ nên thưởng họ tiền bạc, đừng giao cho họ trọng trách; trọng trách phải về những người tài đức như vậy nước mới thịnh được"
     },
     {
       "stt": 8,
-      "ten_que": "QUẺ 8: THỦY ĐỊA TỶ",
-      "giai_nghia": "Thuyền đắc thuận phong (cát) - Thủy địa tỷ (Khôn khảm): Thanh bình, an toàn, tốt lành. Nên hòa đồng với mọi người và thân thiết với người khác. Nhưng nếu hành động trơ tráo và quá đáng, sẽ làm tiêu tan vận may này. Đoàn kết và hợp tác với người khác khi làm điều gì đó sẽ mang đến tốt lành. Vận may cũng sẽ đến nếu có được sự tin tưởng của mọi người vào công việc.",
-      "chi_tiet": "Quẻ này nói về phép nhóm bạn tìm thầy. Phải cẩn thận từ lúc đầu, thành tín, trung chính, vì đạo chứ không vì lợi. Và phải để cho tự do, không nên ép buộc.",
-      "cat_hung": "cát"
+      "ten_que": "Thủy Địa Tỷ",
+      "cat_hung": "cát",
+      "hinh_tuong": "Thuyền đắc thuận phong",
+      "cau_truc": "Thủy địa tỷ (Khôn khảm)",
+      "giai_nghia": "Thanh bình, an toàn, tốt lành. Nên hòa đồng với mọi người và thân thiết với người khác. Nhưng nếu hành động trơ tráo và quá đáng, sẽ làm tiêu tan vận may này. Đoàn kết và hợp tác với người khác khi làm điều gì đó sẽ mang đến tốt lành. Vận may cũng sẽ đến nếu có được sự tin tưởng của mọi người vào công việc.",
+      "chi_tiet": "Quẻ này nói về phép nhóm bạn tìm thầy. Phải cẩn thận từ lúc đầu, thành tín, trung chính, vì đạo chứ không vì lợi. Và phải để cho tự do, không nên ép buộc."
     },
     {
       "stt": 9,
-      "ten_que": "QUẺ 9: PHONG THIÊN TIỂU SÚC",
-      "giai_nghia": "Mặt vân bách vũ (Bình hòa)- Phong thiên tiểu súc (Càn tốn): Ám chỉ mọi việc sẽ không diễn ra trôi chảy hay êm đẹp. Đầy chở ngại. Mọi việc sẽ không diễn ra như mong đợi. Đừng bi quan, yếu đuối hay quá độ. Hãy kiên nhẫn và tiếp tục cố gắng, bởi vì sau khi mây tan sẽ có ánh sáng mặt trời và vận hội sẽ thay đổi.",
-      "chi_tiet": "Đọc quẻ Tiểu súc này chúng tôi nhớ tới Võ Hậu đời Đường và Từ Hi Thái Hậu đời Thanh. Họ như hào 4, thông minh, có tài, mới đầu nhu thuận, nhờ ở gần vua (hào 5), được vua sủng ái, che chở, lại lấy được lòng người dưới (hào 1, hào 2), gây phe đảng rồi lần lần “thống lĩnh quần dương “, cả triều đình phải phục tòng họ. Tới khi họ thịnh cực, sắp suy, bọn đại thần có khí tiết, mưu trí mới họp nhau lật họ. Ngoài đời không đúng hẳn như trong quẻ, nhưng cũng không khác mấy.",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Phong Thiên Tiểu Súc",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Mặt vân bách vũ",
+      "cau_truc": "Phong thiên tiểu súc (Càn tốn)",
+      "giai_nghia": "Ám chỉ mọi việc sẽ không diễn ra trôi chảy hay êm đẹp. Đầy chở ngại. Mọi việc sẽ không diễn ra như mong đợi. Đừng bi quan, yếu đuối hay quá độ. Hãy kiên nhẫn và tiếp tục cố gắng, bởi vì sau khi mây tan sẽ có ánh sáng mặt trời và vận hội sẽ thay đổi.",
+      "chi_tiet": "Đọc quẻ Tiểu súc này chúng tôi nhớ tới Võ Hậu đời Đường và Từ Hi Thái Hậu đời Thanh. Họ như hào 4, thông minh, có tài, mới đầu nhu thuận, nhờ ở gần vua (hào 5), được vua sủng ái, che chở, lại lấy được lòng người dưới (hào 1, hào 2), gây phe đảng rồi lần lần “thống lĩnh quần dương “, cả triều đình phải phục tòng họ. Tới khi họ thịnh cực, sắp suy, bọn đại thần có khí tiết, mưu trí mới họp nhau lật họ. Ngoài đời không đúng hẳn như trong quẻ, nhưng cũng không khác mấy."
     },
     {
       "stt": 10,
-      "ten_que": "QUẺ 10: THIÊN TRẠCH LÝ",
-      "giai_nghia": "Phượng minh kỳ sơn (cát)- Thiên trạch lý (Đoài càn): Dù có những khó khăn và chở ngại, nhưng với thái độ hòa nhã, mềm mỏng, nhân hậu sẽ an toàn vượt qua được và gặp điều tốt lành. Khó khăn và nguy hiểm khắp nơi, nhưng nếu biết kiên nhẫn, khiêm tốn, nhã nhặn để chờ cơ hội, vận may sẽ đến. Đừng có thái độ quá tự tiện. Hãy giữ vững lập trường của mình",
-      "chi_tiet": "Quẻ này tên là Lí có nghĩa là lễ, là dẫm lên, nhưng cả 6 hào đều nói về cách ăn ở trong suốt đời người : mới ra đời thì phải giữ tính chất phác trong trắng, rồi sau giữ vững đường chính (hào 2); biết sức mình, đừng tự phụ (hào 3) để tránh nguy, biết thận trọng, sợ hãi thì tốt (hào 4), và ở địa vị cao nhất, đừng ỷ thế mà cương quyết quá (hào 5), cách ăn ở được như vậy cho tới cuối đời thì tốt không gì bằng.",
-      "cat_hung": "cát"
+      "ten_que": "Thiên Trạch Lý",
+      "cat_hung": "cát",
+      "hinh_tuong": "Phượng minh kỳ sơn",
+      "cau_truc": "Thiên trạch lý (Đoài càn)",
+      "giai_nghia": "Dù có những khó khăn và chở ngại, nhưng với thái độ hòa nhã, mềm mỏng, nhân hậu sẽ an toàn vượt qua được và gặp điều tốt lành. Khó khăn và nguy hiểm khắp nơi, nhưng nếu biết kiên nhẫn, khiêm tốn, nhã nhặn để chờ cơ hội, vận may sẽ đến. Đừng có thái độ quá tự tiện. Hãy giữ vững lập trường của mình",
+      "chi_tiet": "Quẻ này tên là Lí có nghĩa là lễ, là dẫm lên, nhưng cả 6 hào đều nói về cách ăn ở trong suốt đời người : mới ra đời thì phải giữ tính chất phác trong trắng, rồi sau giữ vững đường chính (hào 2); biết sức mình, đừng tự phụ (hào 3) để tránh nguy, biết thận trọng, sợ hãi thì tốt (hào 4), và ở địa vị cao nhất, đừng ỷ thế mà cương quyết quá (hào 5), cách ăn ở được như vậy cho tới cuối đời thì tốt không gì bằng."
     },
     {
       "stt": 11,
-      "ten_que": "QUẺ 11: ĐỊA THIÊN THÁI",
-      "giai_nghia": "Hỷ báo tam nguyên (Cát hanh)-Địa thiên thái (Càn khôn): Mọi việc sẽ diễn ra đúng như mong đợi hay hy vọng. Tương lai trông thật khả quan. Việc kinh doanh sẽ sung thịnh. Thậm chí có thể có cơ hội để vui chơi. Nhưng ko được vì lẽ đó mà trở nên kiêu ngạo, chểnh mảng, bất cần hay lơ là",
-      "chi_tiet": "",
-      "cat_hung": "Cát hanh"
+      "ten_que": "Địa Thiên Thái",
+      "cat_hung": "Cát hanh",
+      "hinh_tuong": "Hỷ báo tam nguyên",
+      "cau_truc": "Địa thiên thái (Càn khôn)",
+      "giai_nghia": "Mọi việc sẽ diễn ra đúng như mong đợi hay hy vọng. Tương lai trông thật khả quan. Việc kinh doanh sẽ sung thịnh. Thậm chí có thể có cơ hội để vui chơi. Nhưng ko được vì lẽ đó mà trở nên kiêu ngạo, chểnh mảng, bất cần hay lơ là",
+      "chi_tiet": ""
     },
     {
       "stt": 12,
-      "ten_que": "QUẺ 12: THIÊN ĐỊA BĨ",
-      "giai_nghia": "Hố lạc thâm khanh (hung)-Thiên địa bĩ (khôn càn): Vận rủi. Mọi việc sẽ không diễn ra đúng như mong đợi, sẽ có thể gặp vất vả và cam go. Kẻ tiểu nhân có thể gây tổn thương, mất mát, thiệt hại cho mình. Thậm chí bạn có thể phải trải qua vài nỗi đau khổ. Vận hội có thể thay đổi nếu ta vẫn trước sau như một, can đảm và cố gắng. Tốt nhất hãy giữ nguyên tình trạng hiện tại",
-      "chi_tiet": "",
-      "cat_hung": "hung"
+      "ten_que": "Thiên Địa Bĩ",
+      "cat_hung": "hung",
+      "hinh_tuong": "Hố lạc thâm khanh",
+      "cau_truc": "Thiên địa bĩ (khôn càn)",
+      "giai_nghia": "Vận rủi. Mọi việc sẽ không diễn ra đúng như mong đợi, sẽ có thể gặp vất vả và cam go. Kẻ tiểu nhân có thể gây tổn thương, mất mát, thiệt hại cho mình. Thậm chí bạn có thể phải trải qua vài nỗi đau khổ. Vận hội có thể thay đổi nếu ta vẫn trước sau như một, can đảm và cố gắng. Tốt nhất hãy giữ nguyên tình trạng hiện tại",
+      "chi_tiet": ""
     },
     {
       "stt": 13,
-      "ten_que": "QUẺ 13: THIÊN HỎA ĐỒNG NHÂN",
-      "giai_nghia": "Tiên nhân chỉ lộ (cát)- Thiên hỏa đồng nhân (Ly càn): An toàn, vững vàng, cát tường. Sự phối hợp với người khác sẽ thành công. Nên mở rộng thêm các mối quan hệ, kết giao thêm nhiều bạn bè. Khi đạt được hòa hợp với người, ko nên hành động ích kỷ, xem thường ý kiến, nếu ko sẽ gây phương hại. Tránh những cuộc tranh cãi hay bất hòa với người khác.",
-      "chi_tiet": "Muốn hòa đồng thì đừng có tinh thần đảng phái; phải tôn trọng đặc tính của mỗi hạng người, khả năng cùng nhu cầu của mỗi người. Công việc hòa động mọi người tuy rất chính đáng, mang hạnh phúc cho dân chúng nhưng cũng gian nan, bị nhiều kẻ phá.",
-      "cat_hung": "cát"
+      "ten_que": "Thiên Hỏa Đồng Nhân",
+      "cat_hung": "cát",
+      "hinh_tuong": "Tiên nhân chỉ lộ",
+      "cau_truc": "Thiên hỏa đồng nhân (Ly càn)",
+      "giai_nghia": "An toàn, vững vàng, cát tường. Sự phối hợp với người khác sẽ thành công. Nên mở rộng thêm các mối quan hệ, kết giao thêm nhiều bạn bè. Khi đạt được hòa hợp với người, ko nên hành động ích kỷ, xem thường ý kiến, nếu ko sẽ gây phương hại. Tránh những cuộc tranh cãi hay bất hòa với người khác.",
+      "chi_tiet": "Muốn hòa đồng thì đừng có tinh thần đảng phái; phải tôn trọng đặc tính của mỗi hạng người, khả năng cùng nhu cầu của mỗi người. Công việc hòa động mọi người tuy rất chính đáng, mang hạnh phúc cho dân chúng nhưng cũng gian nan, bị nhiều kẻ phá."
     },
     {
       "stt": 14,
-      "ten_que": "QUẺ 14: HỎA THIÊN ĐẠI HỮU",
-      "giai_nghia": "Khảm thụ mô tước (Đại cát)-Hỏa thiên đại hữu (Càn ly): Đang hưởng được vận may và sự kính trọng của mọi người. Sẽ gặt hái được rất nhiều lợi nhuận hay lợi ích. Nhưng trong tất cả mọi việc khi đạt được nhiều thành quả phải hết sức cẩn thận kỹ lưỡng, ko nên tự mãn  và hãy thật khiêm tốn không được khoe khoang để duy trì vận may của mình",
-      "chi_tiet": "Quẻ này khuyên chúng ta sống trong cảnh giàu có, nên khiêm, kiệm: giao thiệp với người , nên chí thành.",
-      "cat_hung": "Đại cát"
+      "ten_que": "Hỏa Thiên Đại Hữu",
+      "cat_hung": "Đại cát",
+      "hinh_tuong": "Khảm thụ mô tước",
+      "cau_truc": "Hỏa thiên đại hữu (Càn ly)",
+      "giai_nghia": "Đang hưởng được vận may và sự kính trọng của mọi người. Sẽ gặt hái được rất nhiều lợi nhuận hay lợi ích. Nhưng trong tất cả mọi việc khi đạt được nhiều thành quả phải hết sức cẩn thận kỹ lưỡng, ko nên tự mãn  và hãy thật khiêm tốn không được khoe khoang để duy trì vận may của mình",
+      "chi_tiet": "Quẻ này khuyên chúng ta sống trong cảnh giàu có, nên khiêm, kiệm: giao thiệp với người , nên chí thành."
     },
     {
       "stt": 15,
-      "ten_que": "QUẺ 15: ĐỊA SƠN KHIÊM",
-      "giai_nghia": "Nhị nhân phân kim (cát)-Địa sơn khiêm (Cấn khôn): An toàn và cát tường, mọi việc sẽ diễn ra đúng như mong đợi. Sự thịnh đạt sẽ đến nếu biết giữ gìn sự khiêm tốn và chân thật trong từng hành động của mình. Sẽ gặp thất bại nếu đánh mất lòng khiêm tốn và nhã nhặn. Phải thật nhún nhường",
-      "chi_tiet": "",
-      "cat_hung": "cát"
+      "ten_que": "Địa Sơn Khiêm",
+      "cat_hung": "cát",
+      "hinh_tuong": "Nhị nhân phân kim",
+      "cau_truc": "Địa sơn khiêm (Cấn khôn)",
+      "giai_nghia": "An toàn và cát tường, mọi việc sẽ diễn ra đúng như mong đợi. Sự thịnh đạt sẽ đến nếu biết giữ gìn sự khiêm tốn và chân thật trong từng hành động của mình. Sẽ gặp thất bại nếu đánh mất lòng khiêm tốn và nhã nhặn. Phải thật nhún nhường",
+      "chi_tiet": ""
     },
     {
       "stt": 16,
-      "ten_que": "QUẺ 16: LÔI ĐỊA DỰ",
-      "giai_nghia": "Thanh long đắc thủy (Lợi)-Lôi địa dự (khôn chấn): Mọi việc sẽ diễn ra đúng như mong đợi nhưng không nên lơ là, biếng nhác, sao lãng. Nếu ko sẽ tự mang đến cho mình vận rủi và đau khổ. Cùng lúc đó, phải biết làm chủ bản thân mình trong cuộc sống cá nhân, tự phòng và bảo vệ đồ vật của mình thoát khỏi sự rắc rối hay phiền phức bất ngờ.",
-      "chi_tiet": "Chúng ta nhận thấy tên quẻ là Vui, mà sáu hào chỉ có hai hào (2 và 4) là tốt, còn 4 hào kia xấu nhiều hay ít cả, xấu nhất là hào 1 vì kiêu mạn, khoe khoang ồn ào cái vui bất chính của mình; mà tốt nhất là hào 2, vì không ham vui mà giữ vững chí mình.",
-      "cat_hung": "Lợi"
+      "ten_que": "Lôi Địa Dự",
+      "cat_hung": "Lợi",
+      "hinh_tuong": "Thanh long đắc thủy",
+      "cau_truc": "Lôi địa dự (khôn chấn)",
+      "giai_nghia": "Mọi việc sẽ diễn ra đúng như mong đợi nhưng không nên lơ là, biếng nhác, sao lãng. Nếu ko sẽ tự mang đến cho mình vận rủi và đau khổ. Cùng lúc đó, phải biết làm chủ bản thân mình trong cuộc sống cá nhân, tự phòng và bảo vệ đồ vật của mình thoát khỏi sự rắc rối hay phiền phức bất ngờ.",
+      "chi_tiet": "Chúng ta nhận thấy tên quẻ là Vui, mà sáu hào chỉ có hai hào (2 và 4) là tốt, còn 4 hào kia xấu nhiều hay ít cả, xấu nhất là hào 1 vì kiêu mạn, khoe khoang ồn ào cái vui bất chính của mình; mà tốt nhất là hào 2, vì không ham vui mà giữ vững chí mình."
     },
     {
       "stt": 17,
-      "ten_que": "QUẺ 17: TRẠCH LÔI TÙY",
-      "giai_nghia": "Thôi xa kháo nhai (Bình hòa)-Trạch lôi tùy (Chấn đoài): Tùy tượng trưng cho cái cương kiện đang phục tùng theo cái âm nhu, do đó dành được sự sẵn lòng phục tùng của mọi người và thành công trong công việc. Hãy tôn trọng ý kiến của người khác, hãy nhận sự giúp đỡ của mọi người xung quanh khi đó sự nghiệp sẽ thành công, đồng thời danh vọng và giàu sang sẽ đến",
-      "chi_tiet": "Quẻ này khuyên chúng ta chỉ nên theo chính nghĩa (chứ đừng vì tư tình, vì lợi) và biết tùy thời, như vậy thì tốt tới cùng được (hào cuối, đạt đến cực điểm mà vẫn không xấu.)",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Trạch Lôi Tùy",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Thôi xa kháo nhai",
+      "cau_truc": "Trạch lôi tùy (Chấn đoài)",
+      "giai_nghia": "Tùy tượng trưng cho cái cương kiện đang phục tùng theo cái âm nhu, do đó dành được sự sẵn lòng phục tùng của mọi người và thành công trong công việc. Hãy tôn trọng ý kiến của người khác, hãy nhận sự giúp đỡ của mọi người xung quanh khi đó sự nghiệp sẽ thành công, đồng thời danh vọng và giàu sang sẽ đến",
+      "chi_tiet": "Quẻ này khuyên chúng ta chỉ nên theo chính nghĩa (chứ đừng vì tư tình, vì lợi) và biết tùy thời, như vậy thì tốt tới cùng được (hào cuối, đạt đến cực điểm mà vẫn không xấu.)"
     },
     {
       "stt": 18,
-      "ten_que": "QUẺ 18: SƠN PHONG CỔ",
-      "giai_nghia": "Thôi ma sá lộ (hung)-Sơn phong cổ (tốn cấn): Tình hình xung quanh cực kỳ rối loạn và phức tạp. Phải dụng công để dọn dẹp ngăn nắp hay duy trì trật tự bằng ko sẽ gặp thất bại. Mọi việc đều ngừng trệ, ách tắc, nhiều loại khó khăn và trở ngại xuất hiện. Cùng lúc đó, phải lo toan cho gia đình. Việc gia đình có thể cũng đang rối loạn và xáo trộn",
-      "chi_tiet": "",
-      "cat_hung": "hung"
+      "ten_que": "Sơn Phong Cổ",
+      "cat_hung": "hung",
+      "hinh_tuong": "Thôi ma sá lộ",
+      "cau_truc": "Sơn phong cổ (tốn cấn)",
+      "giai_nghia": "Tình hình xung quanh cực kỳ rối loạn và phức tạp. Phải dụng công để dọn dẹp ngăn nắp hay duy trì trật tự bằng ko sẽ gặp thất bại. Mọi việc đều ngừng trệ, ách tắc, nhiều loại khó khăn và trở ngại xuất hiện. Cùng lúc đó, phải lo toan cho gia đình. Việc gia đình có thể cũng đang rối loạn và xáo trộn",
+      "chi_tiet": ""
     },
     {
       "stt": 19,
-      "ten_que": "QUẺ 19: ĐỊA TRẠCH LÂM",
-      "giai_nghia": "Phát chính thi nhân (Bình hòa)- Địa trạch lâm (Đoài khôn): Nếu xử lý mọi việc với thái độ nhường nhịn và hợp tác, cư xử với người khác phù hợp với quy tắc đạo đức đúng đắn, sẽ hưởng được vận may. Tuy nhiên, để duy trì được vận may, phải biết khiêm tốn, không được ngạo mạn hay hống hách, đồng thời phải đối xử với người khác một cách hòa nhã và nồng hậu",
-      "chi_tiet": "",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Địa Trạch Lâm",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Phát chính thi nhân",
+      "cau_truc": "Địa trạch lâm (Đoài khôn)",
+      "giai_nghia": "Nếu xử lý mọi việc với thái độ nhường nhịn và hợp tác, cư xử với người khác phù hợp với quy tắc đạo đức đúng đắn, sẽ hưởng được vận may. Tuy nhiên, để duy trì được vận may, phải biết khiêm tốn, không được ngạo mạn hay hống hách, đồng thời phải đối xử với người khác một cách hòa nhã và nồng hậu",
+      "chi_tiet": ""
     },
     {
       "stt": 20,
-      "ten_que": "QUẺ 20: PHONG ĐỊA QUAN",
-      "giai_nghia": "Hạ hà đắc thủy (Bình hòa)- Phong địa quan (Khôn tốn): Bắt đầu sự suy tàn xuống dốc. Cần phải biết suy ngẫm và xem xét bản thân, cũng như phải biết đối xử với người khác bằng thái độ chân tình để đảm bảo sự bình an, yên tĩnh. Nếu có thể dành được sự ủng hộ hay giúp đỡ của các bậc trưởng thượng hoặc cấp trên của mình, sẽ có khả năng thăng tiến.",
-      "chi_tiet": "Quẻ Quán này khuyên người trên nêu gương cho dưới và người dưới noi gương người trên; nhưng trẻ con và tiểu nhân thì nhiều khi chưa biết noi gương.",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Phong Địa Quan",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Hạ hà đắc thủy",
+      "cau_truc": "Phong địa quan (Khôn tốn)",
+      "giai_nghia": "Bắt đầu sự suy tàn xuống dốc. Cần phải biết suy ngẫm và xem xét bản thân, cũng như phải biết đối xử với người khác bằng thái độ chân tình để đảm bảo sự bình an, yên tĩnh. Nếu có thể dành được sự ủng hộ hay giúp đỡ của các bậc trưởng thượng hoặc cấp trên của mình, sẽ có khả năng thăng tiến.",
+      "chi_tiet": "Quẻ Quán này khuyên người trên nêu gương cho dưới và người dưới noi gương người trên; nhưng trẻ con và tiểu nhân thì nhiều khi chưa biết noi gương."
     },
     {
       "stt": 21,
-      "ten_que": "QUẺ 21: HỎA LÔI PHỆ HẠP",
-      "giai_nghia": "Cơ nhân ngộ thực (Bình hòa)- Hỏa lôi phệ hạp (Chấn ly): Mọi việc sẽ không diễn ra đúng như mong đợi, nhiều khó khăn. Phải có hành động tích cực. Thái độ thụ động sẽ có nghĩa là thất bại giữa đường. Nếu can đảm tiến bước, nhất định có thể đi đến đích. Tránh phải tranh biện hay bất hòa với ai đó. Cách tốt nhất là tự thân xử trí vấn đề. Đừng trông dựa vào người khác",
-      "chi_tiet": "Người xử hình phải sáng suốt trước hết, cương quyết mà cũng cần có đức nhu (để bớt cương đi), có chút từ tâm, và luôn luôn phải giữ đạo chính, thận trọng (hào 5). Nên răn đe dân từ khi dân mới mắc phải tội nhỏ, nếu không dân sẽ quen làm bậy, ác cứ tích lũy mà mắc tội lớn.",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Hỏa Lôi Phệ Hạp",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Cơ nhân ngộ thực",
+      "cau_truc": "Hỏa lôi phệ hạp (Chấn ly)",
+      "giai_nghia": "Mọi việc sẽ không diễn ra đúng như mong đợi, nhiều khó khăn. Phải có hành động tích cực. Thái độ thụ động sẽ có nghĩa là thất bại giữa đường. Nếu can đảm tiến bước, nhất định có thể đi đến đích. Tránh phải tranh biện hay bất hòa với ai đó. Cách tốt nhất là tự thân xử trí vấn đề. Đừng trông dựa vào người khác",
+      "chi_tiet": "Người xử hình phải sáng suốt trước hết, cương quyết mà cũng cần có đức nhu (để bớt cương đi), có chút từ tâm, và luôn luôn phải giữ đạo chính, thận trọng (hào 5). Nên răn đe dân từ khi dân mới mắc phải tội nhỏ, nếu không dân sẽ quen làm bậy, ác cứ tích lũy mà mắc tội lớn."
     },
     {
       "stt": 22,
-      "ten_que": "QUẺ 22: SƠN HỎA BÍ",
-      "giai_nghia": "Hỷ khí doanh môn (cát)-Sơn hỏa bí (Ly cấn): Những gì người ta biết và thấy chỉ là thiển cận, ở trước mắt, chẳng có sự nhìn xa trông rộng hay suy nghĩ sâu xa. Bất kỳ việc gì có liên quan đến nghệ thuật hay mỹ thuật đều thuận lợi. Đối với những việc khác, việc nhỏ thì cát tường nhưng ở các việc lớn thì chưa làm được. Tránh để mắc bẫy hoặc bị vu khống.",
-      "chi_tiet": "Đại ý quẻ Bí này là có văn vẻ, có trang sức mới là văn minh, nhưng vẫn nên trọng chất hơn văn, lấy chất làm thể, lấy văn làm dụng, và không nên xa hoa, màu mè quá.",
-      "cat_hung": "cát"
+      "ten_que": "Sơn Hỏa Bí",
+      "cat_hung": "cát",
+      "hinh_tuong": "Hỷ khí doanh môn",
+      "cau_truc": "Sơn hỏa bí (Ly cấn)",
+      "giai_nghia": "Những gì người ta biết và thấy chỉ là thiển cận, ở trước mắt, chẳng có sự nhìn xa trông rộng hay suy nghĩ sâu xa. Bất kỳ việc gì có liên quan đến nghệ thuật hay mỹ thuật đều thuận lợi. Đối với những việc khác, việc nhỏ thì cát tường nhưng ở các việc lớn thì chưa làm được. Tránh để mắc bẫy hoặc bị vu khống.",
+      "chi_tiet": "Đại ý quẻ Bí này là có văn vẻ, có trang sức mới là văn minh, nhưng vẫn nên trọng chất hơn văn, lấy chất làm thể, lấy văn làm dụng, và không nên xa hoa, màu mè quá."
     },
     {
       "stt": 23,
-      "ten_que": "QUẺ 23: SƠN ĐỊA BÁC",
-      "giai_nghia": "Oanh thước đồng lâm (Hung)- Sơn địa bác (Khôn cấn): Vận may đang xuống dốc. Có thể xảy ra cảnh buồn bã, nghèo khổ hay suy vi trong công việc hoặc sự nghiệp. Thêm nữa thậm chí có thể bị lôi kéo vào nhiều chuyện ko may và do đó tránh để bị mất mát tiền bạc, tài sản. Phải cẩn thận và thậm trí nên rút lui để bảo toàn tình trạng hay địa vị của mình",
-      "chi_tiet": "Đó là luật âm dương trong vũ trụ; vũ trụ luôn luôn có đủ cả âm, dương ; khi âm cực thịnh, vẫn còn dương, khi dương cực thịnh cũng vẫn còn âm, âm dương cứ thay nhau lên xuống, thế thôi.",
-      "cat_hung": "Hung"
+      "ten_que": "Sơn Địa Bác",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Oanh thước đồng lâm",
+      "cau_truc": "Sơn địa bác (Khôn cấn)",
+      "giai_nghia": "Vận may đang xuống dốc. Có thể xảy ra cảnh buồn bã, nghèo khổ hay suy vi trong công việc hoặc sự nghiệp. Thêm nữa thậm chí có thể bị lôi kéo vào nhiều chuyện ko may và do đó tránh để bị mất mát tiền bạc, tài sản. Phải cẩn thận và thậm trí nên rút lui để bảo toàn tình trạng hay địa vị của mình",
+      "chi_tiet": "Đó là luật âm dương trong vũ trụ; vũ trụ luôn luôn có đủ cả âm, dương ; khi âm cực thịnh, vẫn còn dương, khi dương cực thịnh cũng vẫn còn âm, âm dương cứ thay nhau lên xuống, thế thôi."
     },
     {
       "stt": 24,
-      "ten_que": "QUẺ 24: ĐỊA LÔI PHỤC",
-      "giai_nghia": "Phu thê phản mục (Bình hòa) - Địa lôi phục (Chấn khôn): Gần đây vận hội của bạn thật xấu hay đại loại như vậy, nhưng giờ đây vận may đang đến gần. Hãy thận trọng tiến bước bằng những biện pháp có tính toán, biết cân nhắc và theo trình tự, tất cả sẽ chuyển biến tốt đẹp hơn. Đừng hành động liều lĩnh hay khinh suất. Quẻ này cũng gợi ý sự bắt đầu thành công của các kế hoạch",
-      "chi_tiet": "Quẻ này xét về sự sửa lỗi để trở về đường chính. Tốt nhất là hạng người tự nhận thấy lỗi rồi sửa liền, không mắc phải lần nữa, rồi tới hạng ở gần người tốt, mà bắt chước vui vẻ làm điều nhân, nghĩa; sau tới hạng có đức dày trở lại điều thiện, hạng ở giữa kẻ xấu mà một mình theo đạo; hạng không bền chí, giữ điều thiện được lâu, nhưng biết phục thiện thì cũng không lỗi.",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Địa Lôi Phục",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Phu thê phản mục",
+      "cau_truc": "Địa lôi phục (Chấn khôn)",
+      "giai_nghia": "Gần đây vận hội của bạn thật xấu hay đại loại như vậy, nhưng giờ đây vận may đang đến gần. Hãy thận trọng tiến bước bằng những biện pháp có tính toán, biết cân nhắc và theo trình tự, tất cả sẽ chuyển biến tốt đẹp hơn. Đừng hành động liều lĩnh hay khinh suất. Quẻ này cũng gợi ý sự bắt đầu thành công của các kế hoạch",
+      "chi_tiet": "Quẻ này xét về sự sửa lỗi để trở về đường chính. Tốt nhất là hạng người tự nhận thấy lỗi rồi sửa liền, không mắc phải lần nữa, rồi tới hạng ở gần người tốt, mà bắt chước vui vẻ làm điều nhân, nghĩa; sau tới hạng có đức dày trở lại điều thiện, hạng ở giữa kẻ xấu mà một mình theo đạo; hạng không bền chí, giữ điều thiện được lâu, nhưng biết phục thiện thì cũng không lỗi."
     },
     {
       "stt": 25,
-      "ten_que": "QUẺ 25: THIÊN LÔI VÔ VỌNG",
-      "giai_nghia": "Điểu bị long lao (Hung)-Thiên lôi vô vọng (Chấn càn): Đừng mê đắm việc giành lợi thế bản thân hay thỏa mãn các ước muốn hoặc thú vui riêng tư, nếu không sẽ gặp điều không may. Hãy đối đãi với mọi người và xử trí các công việc bằng sự thành thực hết mực. Thuận theo một cách tự nhiên, đồng thời vẫn giữ vững lập trường của mình thì sẽ tốt lành.",
-      "chi_tiet": "Quẻ này cũng nhấn mạnh vào lẽ tùy thời. Cả 6 hào đều là “vô vọng” cả, không càn bậy mà tùy thời, có lúc hoạt động thì tốt như hào 1, 2; có lúc lại nên thản nhiên, chẳng làm gì cả, như hào 5, có lúc không nên hành động như hào 4 (nếu hoạt động thì bị họa) và như hào trên cùng.",
-      "cat_hung": "Hung"
+      "ten_que": "Thiên Lôi Vô Vọng",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Điểu bị long lao",
+      "cau_truc": "Thiên lôi vô vọng (Chấn càn)",
+      "giai_nghia": "Đừng mê đắm việc giành lợi thế bản thân hay thỏa mãn các ước muốn hoặc thú vui riêng tư, nếu không sẽ gặp điều không may. Hãy đối đãi với mọi người và xử trí các công việc bằng sự thành thực hết mực. Thuận theo một cách tự nhiên, đồng thời vẫn giữ vững lập trường của mình thì sẽ tốt lành.",
+      "chi_tiet": "Quẻ này cũng nhấn mạnh vào lẽ tùy thời. Cả 6 hào đều là “vô vọng” cả, không càn bậy mà tùy thời, có lúc hoạt động thì tốt như hào 1, 2; có lúc lại nên thản nhiên, chẳng làm gì cả, như hào 5, có lúc không nên hành động như hào 4 (nếu hoạt động thì bị họa) và như hào trên cùng."
     },
     {
       "stt": 26,
-      "ten_que": "QUẺ 26: SƠN THIÊN ĐẠI SÚC",
-      "giai_nghia": "Trận thế đắc khai (Cát)-Sơn thiên đại súc (Càn chấn): Trong lúc này mọi việc đều ngưng đọng và thoái chào. Nhưng nếu ko xem sự làm việc chăm chỉ, siêng năng là khổ lao và vẫn giữ được sự điềm tĩnh, thanh thản, sẽ vượt qua được các khó khăn trong tương lai gần và thực hiện được mục tiêu của mình. Có thể tiết kiệm tiền bạc, giành được sự ủng hộ hay yêu mến.",
-      "chi_tiet": "Quẻ này Thoán từ nói về sự súc tích tài đức, mà Hào từ lại xét cách ngăn cản kẻ hung hãn. Hai hào có ý nghĩa nhất là 4 và 5: muốn ngăn thì phải ngăn từ khi mới manh nha; và muốn diệt ác thì phải diệt từ gốc, tìm nguyên nhân chính mà trừ thì mới không tốn công, kết quả chắc chắn",
-      "cat_hung": "Cát"
+      "ten_que": "Sơn Thiên Đại Súc",
+      "cat_hung": "Cát",
+      "hinh_tuong": "Trận thế đắc khai",
+      "cau_truc": "Sơn thiên đại súc (Càn chấn)",
+      "giai_nghia": "Trong lúc này mọi việc đều ngưng đọng và thoái chào. Nhưng nếu ko xem sự làm việc chăm chỉ, siêng năng là khổ lao và vẫn giữ được sự điềm tĩnh, thanh thản, sẽ vượt qua được các khó khăn trong tương lai gần và thực hiện được mục tiêu của mình. Có thể tiết kiệm tiền bạc, giành được sự ủng hộ hay yêu mến.",
+      "chi_tiet": "Quẻ này Thoán từ nói về sự súc tích tài đức, mà Hào từ lại xét cách ngăn cản kẻ hung hãn. Hai hào có ý nghĩa nhất là 4 và 5: muốn ngăn thì phải ngăn từ khi mới manh nha; và muốn diệt ác thì phải diệt từ gốc, tìm nguyên nhân chính mà trừ thì mới không tốn công, kết quả chắc chắn"
     },
     {
       "stt": 27,
-      "ten_que": "QUẺ 27: SƠN LÔI DI",
-      "giai_nghia": "Vị thủy phỏng hiền (cát)-Sơn lôi di (Chấn cấn): Những hành động hấp tấp sẽ dẫn đến thất bại. Phải giữ vững con đường chính đáng của mình, vun bồi nhân cách và khả năng để đạt được thành công. Những lời nói, hành động bất cẩn có thể mang đến điều ko may. Hãy học cách chăm sóc sức khỏe đúng đắn. Những đầu tư hợp tác thì thuận lợi và khả quan hơn.",
-      "chi_tiet": "Tóm lại ba hào cuối đều có nghĩa là nuôi về tinh thần, giúp đỡ dân chúng nên đều được “cát” hết. Ba hào đầu có nghĩa là nhờ người nuôi thể xác của mình, cho nên đều xấu .",
-      "cat_hung": "cát"
+      "ten_que": "Sơn Lôi Di",
+      "cat_hung": "cát",
+      "hinh_tuong": "Vị thủy phỏng hiền",
+      "cau_truc": "Sơn lôi di (Chấn cấn)",
+      "giai_nghia": "Những hành động hấp tấp sẽ dẫn đến thất bại. Phải giữ vững con đường chính đáng của mình, vun bồi nhân cách và khả năng để đạt được thành công. Những lời nói, hành động bất cẩn có thể mang đến điều ko may. Hãy học cách chăm sóc sức khỏe đúng đắn. Những đầu tư hợp tác thì thuận lợi và khả quan hơn.",
+      "chi_tiet": "Tóm lại ba hào cuối đều có nghĩa là nuôi về tinh thần, giúp đỡ dân chúng nên đều được “cát” hết. Ba hào đầu có nghĩa là nhờ người nuôi thể xác của mình, cho nên đều xấu ."
     },
     {
       "stt": 28,
-      "ten_que": "QUẺ 28: TRẠCH PHONG ĐẠI QUÁ",
-      "giai_nghia": "Dạ mộng kim tiền (Lợi)-Trạch phong đại quá (tốn đoài): Bởi các gánh nặng và trách nhiệm quá nặng nề, không thể cưu mang hay thực hiện một cách hoàn chỉnh hay trọn vẹn được, do đó gặp phải thất bại. Nên đánh giá những ưu điểm và khuyết điểm của mình sau đó chọn ra đường hướng hành động thích hợp. Có thể bị lôi kéo vào những phiền phức. Hành động hấp tấp và mù quáng sẽ khiến bạn gặp thất bại.",
-      "chi_tiet": "Tên quẻ là Đại quá (lớn quá), mà Hào từ lại ghét những người quá cương, (hào 3, 5) quá nhu như hào trên cùng tuy không có lỗi, nhưng cũng cho là xấu. Vây Kinh Dịch có ý trọng đức trung (vừa cương vừa nhu) hơn cả.",
-      "cat_hung": "Lợi"
+      "ten_que": "Trạch Phong Đại Quá",
+      "cat_hung": "Lợi",
+      "hinh_tuong": "Dạ mộng kim tiền",
+      "cau_truc": "Trạch phong đại quá (tốn đoài)",
+      "giai_nghia": "Bởi các gánh nặng và trách nhiệm quá nặng nề, không thể cưu mang hay thực hiện một cách hoàn chỉnh hay trọn vẹn được, do đó gặp phải thất bại. Nên đánh giá những ưu điểm và khuyết điểm của mình sau đó chọn ra đường hướng hành động thích hợp. Có thể bị lôi kéo vào những phiền phức. Hành động hấp tấp và mù quáng sẽ khiến bạn gặp thất bại.",
+      "chi_tiet": "Tên quẻ là Đại quá (lớn quá), mà Hào từ lại ghét những người quá cương, (hào 3, 5) quá nhu như hào trên cùng tuy không có lỗi, nhưng cũng cho là xấu. Vây Kinh Dịch có ý trọng đức trung (vừa cương vừa nhu) hơn cả."
     },
     {
       "stt": 29,
-      "ten_que": "QUẺ 29: THUẦN KHẢM",
-      "giai_nghia": "Thủy để lao nguyết (Bình hòa)-Khảm vi thủy (Khảm-Nước): Nhiều gian khổ và khó khăn. Phải có lòng tin chắc chắn và không sợ khó. Điều duy nhất cần làm là chờ đến lúc vận hội thay đổi. Không thể tiến tới cũng không thể thoái lui. Có lẽ thân tâm đều sẽ bất an, không thể sống yên ổn. Hãy tránh gặp phải lừa gạt, bệnh tật hoặc bị thương tích hay tổn thương.",
-      "chi_tiet": "Quẻ này là cái tượng quân tử bị tiểu nhân bao vây, chỉ có hai hào là tạm tốt (hào 2 và 5), còn các hào khác đều xấu. Lời khuyên quan trọng nhất gặp thời hiểm, phải giữ lòng chí thành, và biết tòng quyền",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Thuần Khảm",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Thủy để lao nguyết",
+      "cau_truc": "Khảm vi thủy (Khảm-Nước)",
+      "giai_nghia": "Nhiều gian khổ và khó khăn. Phải có lòng tin chắc chắn và không sợ khó. Điều duy nhất cần làm là chờ đến lúc vận hội thay đổi. Không thể tiến tới cũng không thể thoái lui. Có lẽ thân tâm đều sẽ bất an, không thể sống yên ổn. Hãy tránh gặp phải lừa gạt, bệnh tật hoặc bị thương tích hay tổn thương.",
+      "chi_tiet": "Quẻ này là cái tượng quân tử bị tiểu nhân bao vây, chỉ có hai hào là tạm tốt (hào 2 và 5), còn các hào khác đều xấu. Lời khuyên quan trọng nhất gặp thời hiểm, phải giữ lòng chí thành, và biết tòng quyền"
     },
     {
       "stt": 30,
-      "ten_que": "QUẺ 30: THUẦN LY",
-      "giai_nghia": "Thiên quan tứ phúc (Hanh)- Ly vi hỏa (Hỏa-hỏa): Vận may sẽ đến nếu hết lòng đi theo con đường chính đáng, giữ gìn tính khiêm tốn, có thái độ sẵn lòng giúp đỡ, biết tôn trọng ý kiến của người khác và hợp tác với người khác trong công việc. Những đầu tư hợp tác sẽ thành công. Nếu khinh suất, thiển cận hay dao động bởi tình cảm trong xử lý công việc, bạn sẽ thất bại.",
-      "chi_tiet": "Nhưng vì cương quá thì dễ hóa tàn bạo, nên Hào từ khuyên dẹp loạn thì chỉ nên giết những kẻ đầu sỏ, còn những kẻ đi theo thì bắt sống thôi. Như vậy sẽ không có lỗi.",
-      "cat_hung": "Hanh"
+      "ten_que": "Thuần Ly",
+      "cat_hung": "Hanh",
+      "hinh_tuong": "Thiên quan tứ phúc",
+      "cau_truc": "Ly vi hỏa (Hỏa-hỏa)",
+      "giai_nghia": "Vận may sẽ đến nếu hết lòng đi theo con đường chính đáng, giữ gìn tính khiêm tốn, có thái độ sẵn lòng giúp đỡ, biết tôn trọng ý kiến của người khác và hợp tác với người khác trong công việc. Những đầu tư hợp tác sẽ thành công. Nếu khinh suất, thiển cận hay dao động bởi tình cảm trong xử lý công việc, bạn sẽ thất bại.",
+      "chi_tiet": "Nhưng vì cương quá thì dễ hóa tàn bạo, nên Hào từ khuyên dẹp loạn thì chỉ nên giết những kẻ đầu sỏ, còn những kẻ đi theo thì bắt sống thôi. Như vậy sẽ không có lỗi."
     },
     {
       "stt": 31,
-      "ten_que": "QUẺ 31: TRẠCH SƠN HÀM",
-      "giai_nghia": "Manh nha xuất thổ (cát)- Trạch sơn hàm (cấn đoài): Toàn quẻ tượng trưng cho bình an và yên tịnh xuất phát từ sự hài lòng, kết quả của hạnh phúc hay vui vẻ. Trong đoán quẻ, điều này có nghĩa rằng mọi việc sẽ diễn ra đúng như hy vọng và sẽ có hạnh phúc. Tuy nhiên, phải tránh thái độ ngoan cố và bất chính, vì một tương tác như vậy sẽ gây ra ô uế.",
-      "chi_tiet": "Đạo cảm người phải chí thành, tự nhiên, không dùng trí tính toán, nhưng cũng không nên có tư ý, tư tâm.",
-      "cat_hung": "cát"
+      "ten_que": "Trạch Sơn Hàm",
+      "cat_hung": "cát",
+      "hinh_tuong": "Manh nha xuất thổ",
+      "cau_truc": "Trạch sơn hàm (cấn đoài)",
+      "giai_nghia": "Toàn quẻ tượng trưng cho bình an và yên tịnh xuất phát từ sự hài lòng, kết quả của hạnh phúc hay vui vẻ. Trong đoán quẻ, điều này có nghĩa rằng mọi việc sẽ diễn ra đúng như hy vọng và sẽ có hạnh phúc. Tuy nhiên, phải tránh thái độ ngoan cố và bất chính, vì một tương tác như vậy sẽ gây ra ô uế.",
+      "chi_tiet": "Đạo cảm người phải chí thành, tự nhiên, không dùng trí tính toán, nhưng cũng không nên có tư ý, tư tâm."
     },
     {
       "stt": 32,
-      "ten_que": "QUẺ 32: LÔI PHONG HẰNG",
+      "ten_que": "Lôi Phong Hằng",
+      "cat_hung": "",
+      "hinh_tuong": "",
+      "cau_truc": "",
       "giai_nghia": "",
-      "chi_tiet": "",
-      "cat_hung": ""
+      "chi_tiet": ""
     },
     {
       "stt": 33,
-      "ten_que": "QUẺ 33: THIÊN SƠN ĐỘN",
-      "giai_nghia": "Nồng vân tế nhật (Hung)-Thiên sơn độn (Cấn càn): Điểm báo trước cơ nghiệp suy vi. Xét về mọi mặt, hãy rút lui và giữ nguyên tình trạng đó. Hãy cực kỳ cẩn thận trọng lời nói, hành động và cách thức xử lý công việc, có thể an toàn cũng như vững vàng. Có thể bị vu khống bởi những kẻ nhỏ mọn, bị lôi kéo vào những phiền phức bởi kẻ tiểu nhân.",
-      "chi_tiet": "Ý nghĩa quẻ Độn: trốn phải hợp thời; trốn sau cùng là trễ, thì nguy (hào 1) trốn mà còn vương tư tình thì xấu (hảo 3); trốn một cách trung chính thì tốt (hào 5); trốn mà không bịn rịn thì được ung dung (hào 6) . Lại có trường hợp vì hoàn cảnh mà không được trốn đi (hào 2).",
-      "cat_hung": "Hung"
+      "ten_que": "Thiên Sơn Độn",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Nồng vân tế nhật",
+      "cau_truc": "Thiên sơn độn (Cấn càn)",
+      "giai_nghia": "Điểm báo trước cơ nghiệp suy vi. Xét về mọi mặt, hãy rút lui và giữ nguyên tình trạng đó. Hãy cực kỳ cẩn thận trọng lời nói, hành động và cách thức xử lý công việc, có thể an toàn cũng như vững vàng. Có thể bị vu khống bởi những kẻ nhỏ mọn, bị lôi kéo vào những phiền phức bởi kẻ tiểu nhân.",
+      "chi_tiet": "Ý nghĩa quẻ Độn: trốn phải hợp thời; trốn sau cùng là trễ, thì nguy (hào 1) trốn mà còn vương tư tình thì xấu (hảo 3); trốn một cách trung chính thì tốt (hào 5); trốn mà không bịn rịn thì được ung dung (hào 6) . Lại có trường hợp vì hoàn cảnh mà không được trốn đi (hào 2)."
     },
     {
       "stt": 34,
-      "ten_que": "QUẺ 34: LÔI THIÊN ĐẠI TRÁNG",
-      "giai_nghia": "Công sư đắc mộc (cát)-Lôi thiên đại tráng (càn chấn): Tài sản sung thịnh, công việc làm ăn phát đạt. Nếu xử lý công việc thiếu thân thiện hay thiếu lòng chân thành sẽ dẫn đến xung đột và những hành động lo lắng bốc đồng sẽ gây tổn thất hoặc thất bại. Phải có tấm lòng rộng mở và khiêm tốn trong xử sự với người khác hay trong xử lý công việc.",
-      "chi_tiet": "Quẻ này là thời âm suy, dương lớn mạnh lên, đáng lẽ tốt; mà sáu hào không có hào nào thật tốt, chỉ tốt với điều kiện là giữ đạo chính của quân tử; cổ nhân khuyên muốn gặp vận hội tốt thì phải coi chừng hoạ nấp ở đâu đó, nên đề phòng.",
-      "cat_hung": "cát"
+      "ten_que": "Lôi Thiên Đại Tráng",
+      "cat_hung": "cát",
+      "hinh_tuong": "Công sư đắc mộc",
+      "cau_truc": "Lôi thiên đại tráng (càn chấn)",
+      "giai_nghia": "Tài sản sung thịnh, công việc làm ăn phát đạt. Nếu xử lý công việc thiếu thân thiện hay thiếu lòng chân thành sẽ dẫn đến xung đột và những hành động lo lắng bốc đồng sẽ gây tổn thất hoặc thất bại. Phải có tấm lòng rộng mở và khiêm tốn trong xử sự với người khác hay trong xử lý công việc.",
+      "chi_tiet": "Quẻ này là thời âm suy, dương lớn mạnh lên, đáng lẽ tốt; mà sáu hào không có hào nào thật tốt, chỉ tốt với điều kiện là giữ đạo chính của quân tử; cổ nhân khuyên muốn gặp vận hội tốt thì phải coi chừng hoạ nấp ở đâu đó, nên đề phòng."
     },
     {
       "stt": 35,
-      "ten_que": "QUẺ 35: HỎA ĐỊA TẤN",
-      "giai_nghia": "Sư địa đắc kim (cát)-Hỏa địa tấn (Khôn lý): To lớn, thịnh đạt, sung túc, vận may. Có thể được trợ giúp bởi ai đó hay bậc trưởng thượng. Sự phát đạt trong kinh doanh, làm ăn và danh tiếng dần dần nổi trội, mọi việc sẽ được diễn ra đúng như mong đợi. Cũng thích hợp để cộng tác với người khác. Tuy nhiên có thể ai đó đang đố kỵ với mình.",
-      "chi_tiet": "",
-      "cat_hung": "cát"
+      "ten_que": "Hỏa Địa Tấn",
+      "cat_hung": "cát",
+      "hinh_tuong": "Sư địa đắc kim",
+      "cau_truc": "Hỏa địa tấn (Khôn lý)",
+      "giai_nghia": "To lớn, thịnh đạt, sung túc, vận may. Có thể được trợ giúp bởi ai đó hay bậc trưởng thượng. Sự phát đạt trong kinh doanh, làm ăn và danh tiếng dần dần nổi trội, mọi việc sẽ được diễn ra đúng như mong đợi. Cũng thích hợp để cộng tác với người khác. Tuy nhiên có thể ai đó đang đố kỵ với mình.",
+      "chi_tiet": ""
     },
     {
       "stt": 36,
-      "ten_que": "QUẺ 36: ĐỊA HỎA MINH DI",
-      "giai_nghia": "Quá hà sách kiều (Hung)- Địa hỏa minh di (Ly khôn): Giống như đêm tối, do đó phải nên hết sức cẩn thận cho đến khi bầu trời sáng tỏ. Hãy chờ đợi nhẫn lại cho đến khi vầng sáng trở lại trước khi hành động hay tiến bước. Vận rủi gian nan và vất vả. Có thể bị tổn thương. Phải thật cẩn thận và chờ đợi nhẫn nại với thái độ tự chủ cho đến khi vận hội thay đổi.",
-      "chi_tiet": "Quẻ này khuyên người quân tử ở thời hắc ám quá thì có thể bỏ nhà, nước mà đi; hoặc muốn ở lại thì giấu sự sáng suốt của mình mà giữ vững đạo chính để chờ thời.",
-      "cat_hung": "Hung"
+      "ten_que": "Địa Hỏa Minh Di",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Quá hà sách kiều",
+      "cau_truc": "Địa hỏa minh di (Ly khôn)",
+      "giai_nghia": "Giống như đêm tối, do đó phải nên hết sức cẩn thận cho đến khi bầu trời sáng tỏ. Hãy chờ đợi nhẫn lại cho đến khi vầng sáng trở lại trước khi hành động hay tiến bước. Vận rủi gian nan và vất vả. Có thể bị tổn thương. Phải thật cẩn thận và chờ đợi nhẫn nại với thái độ tự chủ cho đến khi vận hội thay đổi.",
+      "chi_tiet": "Quẻ này khuyên người quân tử ở thời hắc ám quá thì có thể bỏ nhà, nước mà đi; hoặc muốn ở lại thì giấu sự sáng suốt của mình mà giữ vững đạo chính để chờ thời."
     },
     {
       "stt": 37,
-      "ten_que": "QUẺ 37: PHONG HỎA GIA NHÂN",
-      "giai_nghia": "Kính lý quan hoa (cát)-Phong hỏa gia nhân (Ly tốn): Phải giữ mình tu dưỡng chứ không phải tiến lên làm việc nào đó. Gia đình đang đi trên con đường thích hợp và thịnh vượng, vận may to lớn và tràn đầy niềm vui. Hãy thực hiện bổn phận của mình",
-      "chi_tiet": "Chúng ta để ý: sáu hào không có hào nào xấu; nhưng ba hào dưới thuộc về bước đầu, có lời răn bảo (hào 1: phải phòng ngừa từ lúc đầu, hào 2: phải giữ đạo chính ; hào 3: coi chừng nghiêm quá thì hối hận, nguy); tới hào 4 và 5; kết quả rất tốt, hào cuối chỉ cách giữ được sự tốt đẹp đó tới cùng.",
-      "cat_hung": "cát"
+      "ten_que": "Phong Hỏa Gia Nhân",
+      "cat_hung": "cát",
+      "hinh_tuong": "Kính lý quan hoa",
+      "cau_truc": "Phong hỏa gia nhân (Ly tốn)",
+      "giai_nghia": "Phải giữ mình tu dưỡng chứ không phải tiến lên làm việc nào đó. Gia đình đang đi trên con đường thích hợp và thịnh vượng, vận may to lớn và tràn đầy niềm vui. Hãy thực hiện bổn phận của mình",
+      "chi_tiet": "Chúng ta để ý: sáu hào không có hào nào xấu; nhưng ba hào dưới thuộc về bước đầu, có lời răn bảo (hào 1: phải phòng ngừa từ lúc đầu, hào 2: phải giữ đạo chính ; hào 3: coi chừng nghiêm quá thì hối hận, nguy); tới hào 4 và 5; kết quả rất tốt, hào cuối chỉ cách giữ được sự tốt đẹp đó tới cùng."
     },
     {
       "stt": 38,
-      "ten_que": "QUẺ 38: HỎA TRẠCH KHUÊ",
-      "giai_nghia": "Phán trư mại dương (Hung)-Hỏa trạch khuê (Đoài ly): Diễn biến xấu, khó khăn, nhọc nhằn. Các khó khăn sẽ chi phối mọi việc và các kỳ vọng sẽ chẳng đi đến đâu. Hãy tránh sự tiến bước. Hãy an phận và hòa nhã thực hiện các công việc của mình. Khi đó, có thể biến nguy hiểm thành bình an và an toàn. Hãy tránh thực hiện những kế hoạch lầm lẫn, hay khiến bạn bè ghét bỏ.",
-      "chi_tiet": "Quẻ Khuê là quẻ xấu nhất trong Kinh Dịch nhưng kết quả lại không có gì xấu. Sáu hào thì có ba hào “vô cửu”, một hào “hối vong” một hào “hữu chung” (hòa hợp với nhau), nhất là hào cuối lại “cát nữa. Như vậy thì trong cái hoạ vẫn có mầm phúc.",
-      "cat_hung": "Hung"
+      "ten_que": "Hỏa Trạch Khuê",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Phán trư mại dương",
+      "cau_truc": "Hỏa trạch khuê (Đoài ly)",
+      "giai_nghia": "Diễn biến xấu, khó khăn, nhọc nhằn. Các khó khăn sẽ chi phối mọi việc và các kỳ vọng sẽ chẳng đi đến đâu. Hãy tránh sự tiến bước. Hãy an phận và hòa nhã thực hiện các công việc của mình. Khi đó, có thể biến nguy hiểm thành bình an và an toàn. Hãy tránh thực hiện những kế hoạch lầm lẫn, hay khiến bạn bè ghét bỏ.",
+      "chi_tiet": "Quẻ Khuê là quẻ xấu nhất trong Kinh Dịch nhưng kết quả lại không có gì xấu. Sáu hào thì có ba hào “vô cửu”, một hào “hối vong” một hào “hữu chung” (hòa hợp với nhau), nhất là hào cuối lại “cát nữa. Như vậy thì trong cái hoạ vẫn có mầm phúc."
     },
     {
       "stt": 39,
-      "ten_que": "QUẺ 39: THỦY SƠN KIỂN",
-      "giai_nghia": "Vũ tuyết mãn đồ (Hung)-Thủy sơn kiển (Cấn khảm): Còn những gian nan lẫn khốn khổ, đang gặp phải tình trạng lưỡng nan, tiến ko được mà lùi cũng không xong. Trong trường hợp này, muốn vượt qua được thời điểm gian nan phải nên cẩn thận. Hãy chờ đợi nhẫn lại bằng thái độ tự chủ, tuân theo những bậc tài giỏi và đức hạnh, trau dồi thêm cho bản thân chờ thời.",
-      "chi_tiet": "Gặp thời gian nan, nên thận trọng đợi thời. Riêng vị nguyên thủ phải tìm người tốt giúp mình, liên kết mọi tầng lớp để cùng mình chống đỡ.",
-      "cat_hung": "Hung"
+      "ten_que": "Thủy Sơn Kiển",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Vũ tuyết mãn đồ",
+      "cau_truc": "Thủy sơn kiển (Cấn khảm)",
+      "giai_nghia": "Còn những gian nan lẫn khốn khổ, đang gặp phải tình trạng lưỡng nan, tiến ko được mà lùi cũng không xong. Trong trường hợp này, muốn vượt qua được thời điểm gian nan phải nên cẩn thận. Hãy chờ đợi nhẫn lại bằng thái độ tự chủ, tuân theo những bậc tài giỏi và đức hạnh, trau dồi thêm cho bản thân chờ thời.",
+      "chi_tiet": "Gặp thời gian nan, nên thận trọng đợi thời. Riêng vị nguyên thủ phải tìm người tốt giúp mình, liên kết mọi tầng lớp để cùng mình chống đỡ."
     },
     {
       "stt": 40,
-      "ten_que": "QUẺ 40: LÔI THỦY GIẢI",
-      "giai_nghia": "Ngũ quan thoát nạn (cát)-Lôi thủy giải (Khảm chấn): Những gian nan khổ đang tan dần, sự vận động mới có thể bắt đầu. Sau một thời gian dài gian khổ, vận hội đang bắt đầu thay đổi và tiến triển theo hướng suôn sẻ tuyệt vời. Hãy hành động tích cực, hãy nắm bắt cơ hội này và hay đấu tranh cho danh tiếng cơ đồ. Một việc vui vẻ có thể xảy ra trong gia đình",
-      "chi_tiet": "Ý nghĩa quẻ này ở trong Thoán từ: dẹp loạn xong thì nên khoan hồng với kẻ lỡ lỗi lầm, đừng đa sự, chỉ cần khôi phục trật tự cũ, và củng cố nó bằng một số công việc, nhưng phải làm cho mau để khỏi phiền nhiễu dân.",
-      "cat_hung": "cát"
+      "ten_que": "Lôi Thủy Giải",
+      "cat_hung": "cát",
+      "hinh_tuong": "Ngũ quan thoát nạn",
+      "cau_truc": "Lôi thủy giải (Khảm chấn)",
+      "giai_nghia": "Những gian nan khổ đang tan dần, sự vận động mới có thể bắt đầu. Sau một thời gian dài gian khổ, vận hội đang bắt đầu thay đổi và tiến triển theo hướng suôn sẻ tuyệt vời. Hãy hành động tích cực, hãy nắm bắt cơ hội này và hay đấu tranh cho danh tiếng cơ đồ. Một việc vui vẻ có thể xảy ra trong gia đình",
+      "chi_tiet": "Ý nghĩa quẻ này ở trong Thoán từ: dẹp loạn xong thì nên khoan hồng với kẻ lỡ lỗi lầm, đừng đa sự, chỉ cần khôi phục trật tự cũ, và củng cố nó bằng một số công việc, nhưng phải làm cho mau để khỏi phiền nhiễu dân."
     },
     {
       "stt": 41,
-      "ten_que": "QUẺ 41: SƠN TRẠCH TỔN",
-      "giai_nghia": "Thôi xa điếu nhĩ (Bình hòa)-Sơn trạch tổn (Đoài cấn): Tuy hiện tại đang có sự tổn thất hay thiệt hại, nhưng chẳng bao lâu tình hình sẽ cân bằng trở lại và hanh thông. Mọi việc không diễn ra đúng nhu mong đợi. Nhưng dần dần dòng triều bất lợi này sẽ đổi chiều và những tia bình minh của sự thành công sẽ ló dạng. Những đầu tư hợp tác là cát tường.",
-      "chi_tiet": "Đại ý quẻ này là Tổn chưa chắc đã xấu, ích (tăng) chưa chắc đã tốt; còn tùy việc tùy thời, hễ quá thì nên tổn để được vừa phải, thiếu thì nên ích, và mình nên chịu thiệt hại cho mình mà giúp cho người .",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Sơn Trạch Tổn",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Thôi xa điếu nhĩ",
+      "cau_truc": "Sơn trạch tổn (Đoài cấn)",
+      "giai_nghia": "Tuy hiện tại đang có sự tổn thất hay thiệt hại, nhưng chẳng bao lâu tình hình sẽ cân bằng trở lại và hanh thông. Mọi việc không diễn ra đúng nhu mong đợi. Nhưng dần dần dòng triều bất lợi này sẽ đổi chiều và những tia bình minh của sự thành công sẽ ló dạng. Những đầu tư hợp tác là cát tường.",
+      "chi_tiet": "Đại ý quẻ này là Tổn chưa chắc đã xấu, ích (tăng) chưa chắc đã tốt; còn tùy việc tùy thời, hễ quá thì nên tổn để được vừa phải, thiếu thì nên ích, và mình nên chịu thiệt hại cho mình mà giúp cho người ."
     },
     {
       "stt": 42,
-      "ten_que": "QUẺ 42: PHONG LÔI ÍCH",
-      "giai_nghia": "Khó mộc khai hoa (cát)-Phong lôi ích (Chấn tốn): Hưởng được sự suôn sẻ và vận may, thời điểm thích hợp để khởi xướng. Hãy mạnh dạn tiến bước về phía trước. Đừng chần chừ hay do dự. Cùng lúc đó phải nghĩ đến người khác và nghĩ cách, làm sao cho đôi bên cùng có lợi. Hạnh phúc có thể diễn ra trong gia đình bạn. Đầu tư hợp tác cát tường.",
-      "chi_tiet": "Cũng chỉ là luật “mãn chiêu tổn, khiêm thụ ích”, tràn thì cuối cùng sẽ đổ (cuối quẻ Ích), vơi thì cuối cùng được thêm vào (cuối quẻ Tổn). Ðó là luật thiên nhiên mà Nho, Lão, Dịch học phái đều coi là qui tắc xử thế.",
-      "cat_hung": "cát"
+      "ten_que": "Phong Lôi Ích",
+      "cat_hung": "cát",
+      "hinh_tuong": "Khó mộc khai hoa",
+      "cau_truc": "Phong lôi ích (Chấn tốn)",
+      "giai_nghia": "Hưởng được sự suôn sẻ và vận may, thời điểm thích hợp để khởi xướng. Hãy mạnh dạn tiến bước về phía trước. Đừng chần chừ hay do dự. Cùng lúc đó phải nghĩ đến người khác và nghĩ cách, làm sao cho đôi bên cùng có lợi. Hạnh phúc có thể diễn ra trong gia đình bạn. Đầu tư hợp tác cát tường.",
+      "chi_tiet": "Cũng chỉ là luật “mãn chiêu tổn, khiêm thụ ích”, tràn thì cuối cùng sẽ đổ (cuối quẻ Ích), vơi thì cuối cùng được thêm vào (cuối quẻ Tổn). Ðó là luật thiên nhiên mà Nho, Lão, Dịch học phái đều coi là qui tắc xử thế."
     },
     {
       "stt": 43,
-      "ten_que": "QUẺ 43: TRẠCH THIÊN QUẢI",
-      "giai_nghia": "Du phong thoát võng (Hung)-Trạch thiên Quải (Đoài: đầm; Càn: trời): Mặc dù cơ đồ đang sung thịnh, nhưng chẳng bao lâu khó khăn và gian nan sẽ xuất hiện. Phải cẩn thận tự chủ và hết lòng đi theo con đường chính đáng. Có thể bị lôi kéo vào một trận tranh cãi. Bạn cũng có thể xử lý lầm lẫn về công việc và do đó bị tổn thất. Một người khác có thể đang ngấm ngầm gây khó khăn.",
-      "chi_tiet": "",
-      "cat_hung": "Hung"
+      "ten_que": "Trạch Thiên Quải",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Du phong thoát võng",
+      "cau_truc": "Trạch thiên Quải (Đoài",
+      "giai_nghia": "đầm; Càn: trời): Mặc dù cơ đồ đang sung thịnh, nhưng chẳng bao lâu khó khăn và gian nan sẽ xuất hiện. Phải cẩn thận tự chủ và hết lòng đi theo con đường chính đáng. Có thể bị lôi kéo vào một trận tranh cãi. Bạn cũng có thể xử lý lầm lẫn về công việc và do đó bị tổn thất. Một người khác có thể đang ngấm ngầm gây khó khăn.",
+      "chi_tiet": ""
     },
     {
       "stt": 44,
-      "ten_que": "QUẺ 44: THIÊN PHONG CẤU",
-      "giai_nghia": "Tha hương ngộ hữu (Bình hòa)-Thiên phong cấu (Tốn càn): Không nên hành động chỉ vì bị ảnh hưởng. Lực âm đang tăng lên và lực dương đang giảm xuống, vận hội đang thay đổi theo hướng xấu đi. Hãy cẩn thận và đề phòng để ngăn chặn sự bắt đầu của vận may đang hồi xuống dốc. Ai đó có thể gây hại hoặc vu khống, một phụ nữ có thể gây rắc rối và tổn hại",
-      "chi_tiet": "Phải chế ngự tiểu nhân (và tật của ta) từ khi nó mới xuất hiện hào 1). Muốn chế ngự tiểu nhân thì nên có độ lượng bao dụng có đức trung chính như hào 2, hào 5); nếu quá cương (như hào 3) bất trung bất chính (như hào 4) thì tiểu nhân sẽ không phục mình",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Thiên Phong Cấu",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Tha hương ngộ hữu",
+      "cau_truc": "Thiên phong cấu (Tốn càn)",
+      "giai_nghia": "Không nên hành động chỉ vì bị ảnh hưởng. Lực âm đang tăng lên và lực dương đang giảm xuống, vận hội đang thay đổi theo hướng xấu đi. Hãy cẩn thận và đề phòng để ngăn chặn sự bắt đầu của vận may đang hồi xuống dốc. Ai đó có thể gây hại hoặc vu khống, một phụ nữ có thể gây rắc rối và tổn hại",
+      "chi_tiet": "Phải chế ngự tiểu nhân (và tật của ta) từ khi nó mới xuất hiện hào 1). Muốn chế ngự tiểu nhân thì nên có độ lượng bao dụng có đức trung chính như hào 2, hào 5); nếu quá cương (như hào 3) bất trung bất chính (như hào 4) thì tiểu nhân sẽ không phục mình"
     },
     {
       "stt": 45,
-      "ten_que": "QUẺ 45: TRẠCH ĐỊA TỤY",
-      "giai_nghia": "Lý ngư biến long (hanh)-Trạch địa tụy (Khôn đoài): Tinh thần và tài vật lực của mọi người đang được tập hợp lại. Đây là quẻ rất cát tường. Sự tu tập của cải. Những người khác có thể mang lại sự hợp tác và những lợi nhuận rất lớn có thể biến thành hiện thực được. Tốt nhất là hãy nghe theo lời khuyên của những bậc trưởng thượng. Mùa gặt trúng đậm.",
-      "chi_tiet": "Đại ý quẻ này là muốn họp người, lập một đảng chẳng hạn thì phải là bậc đại nhân: có địa vị cao, có tài, có đức, phải có lòng chí thành, một chủ trương chính đáng.",
-      "cat_hung": "hanh"
+      "ten_que": "Trạch Địa Tụy",
+      "cat_hung": "hanh",
+      "hinh_tuong": "Lý ngư biến long",
+      "cau_truc": "Trạch địa tụy (Khôn đoài)",
+      "giai_nghia": "Tinh thần và tài vật lực của mọi người đang được tập hợp lại. Đây là quẻ rất cát tường. Sự tu tập của cải. Những người khác có thể mang lại sự hợp tác và những lợi nhuận rất lớn có thể biến thành hiện thực được. Tốt nhất là hãy nghe theo lời khuyên của những bậc trưởng thượng. Mùa gặt trúng đậm.",
+      "chi_tiet": "Đại ý quẻ này là muốn họp người, lập một đảng chẳng hạn thì phải là bậc đại nhân: có địa vị cao, có tài, có đức, phải có lòng chí thành, một chủ trương chính đáng."
     },
     {
       "stt": 46,
-      "ten_que": "QUẺ 46: ĐỊA PHONG THĂNG",
-      "giai_nghia": "Chỉ nhật cao thăng (Cát hanh)-Địa phong thăng (tốn khôn): Mọi việc đang diễn ra đúng như mong đợi. Đây là lúc cho sự tiến bước dần dần. Thực hiện các việc theo trình tự hợp lý hoặc như đã được hoạch định chu đáo là cát tường. Đừng hành động nông nổi hay vội vàng. Hữu ích để thuận theo người có quyền thế, ảnh hưởng và đức hạnh. Có thể thăng tiến cấp bậc hay địa vị.",
-      "chi_tiet": "Năm hào dưới đều tốt, chỉ có hào trên cùng là xấu vì quá tham, cứ muốn tiến lên hoài về danh lợi, địa vị.",
-      "cat_hung": "Cát hanh"
+      "ten_que": "Địa Phong Thăng",
+      "cat_hung": "Cát hanh",
+      "hinh_tuong": "Chỉ nhật cao thăng",
+      "cau_truc": "Địa phong thăng (tốn khôn)",
+      "giai_nghia": "Mọi việc đang diễn ra đúng như mong đợi. Đây là lúc cho sự tiến bước dần dần. Thực hiện các việc theo trình tự hợp lý hoặc như đã được hoạch định chu đáo là cát tường. Đừng hành động nông nổi hay vội vàng. Hữu ích để thuận theo người có quyền thế, ảnh hưởng và đức hạnh. Có thể thăng tiến cấp bậc hay địa vị.",
+      "chi_tiet": "Năm hào dưới đều tốt, chỉ có hào trên cùng là xấu vì quá tham, cứ muốn tiến lên hoài về danh lợi, địa vị."
     },
     {
       "stt": 47,
-      "ten_que": "QUẺ 47: TRẠCH THỦY KHỐN",
-      "giai_nghia": "Toát thê trừu can (Bình hòa) -  Trạch thủy khôn (Khảm đoài): Đang ở giữa cảnh khó khăn và thiếu thốn. Tuy nhiên có thể chờ đợi cho đến lúc hanh thông bằng cách lúc nào cũng giữ vững con đường chính trực, sự tự chủ và nhẫn nại. Thời điểm khó khăn, gieo neo, thất bại và cô độc. Sự tiến bước sẽ dẫn đến nghịch cảnh. Tốt nhất là hãy thoái lui và giữ nguyên trạng. Hãy kiên trì tự chủ chờ cho đến lúc thời vận thay đổi.",
-      "chi_tiet": "",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Trạch Thủy Khốn",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Toát thê trừu can",
+      "cau_truc": "Trạch thủy khôn (Khảm đoài)",
+      "giai_nghia": "Đang ở giữa cảnh khó khăn và thiếu thốn. Tuy nhiên có thể chờ đợi cho đến lúc hanh thông bằng cách lúc nào cũng giữ vững con đường chính trực, sự tự chủ và nhẫn nại. Thời điểm khó khăn, gieo neo, thất bại và cô độc. Sự tiến bước sẽ dẫn đến nghịch cảnh. Tốt nhất là hãy thoái lui và giữ nguyên trạng. Hãy kiên trì tự chủ chờ cho đến lúc thời vận thay đổi.",
+      "chi_tiet": ""
     },
     {
       "stt": 48,
-      "ten_que": "QUẺ 48: THỦY PHONG TỈNH",
-      "giai_nghia": "Khô tỉnh sinh tuyền (Bình hòa)-Thủy phong tỉnh (Tốn khảm): Người ta phải có những hành vi thiện lành để tạo lợi ích cho người khác. Cùng lúc đó, cũng cần phải giữ gìn sự an bình và yên tịnh giống như giếng. May mắn của sự yên tịnh và hòa nhã. Tốt nhất hãy tránh hành động cự đoan. Hãy giữ nguyên hiện trạng để gìn giữ sự bình an, yên tĩnh và chấp nhận hoàn toàn hiện tại.",
-      "chi_tiet": "",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Thủy Phong Tỉnh",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Khô tỉnh sinh tuyền",
+      "cau_truc": "Thủy phong tỉnh (Tốn khảm)",
+      "giai_nghia": "Người ta phải có những hành vi thiện lành để tạo lợi ích cho người khác. Cùng lúc đó, cũng cần phải giữ gìn sự an bình và yên tịnh giống như giếng. May mắn của sự yên tịnh và hòa nhã. Tốt nhất hãy tránh hành động cự đoan. Hãy giữ nguyên hiện trạng để gìn giữ sự bình an, yên tĩnh và chấp nhận hoàn toàn hiện tại.",
+      "chi_tiet": ""
     },
     {
       "stt": 49,
-      "ten_que": "QUẺ 49: TRẠCH HỎA CÁCH",
-      "giai_nghia": "Hán miêu đắc thủy (cát)-Trạch hỏa cách (Ly đoài): Đã đến lúc mọi việc đều có thể thay đổi được. Với sự can đảm và khôn ngoan, nên sắp xếp ngăn nắp mọi thứ, đồng thời có những sắp đặt mới. Nếu làm được như vậy, vận may sẽ bắt đầu và những triển vọng tươi sáng sẽ xuất hiện. Tuy nhiên, điều quan trọng nhất là phải giữ được chính đạo.",
-      "chi_tiet": "Phải có đủ những điều kiện: hợp thời, hợp đạo, có địa vị, có tài đức, sáng suốt rất thận trọng (tính toán, sắp đặt kế hoạch kỹ lưỡng ba lần), có lòng chí thành, tính hoà duyệt, được nhiều người tin thì làm công việc cải cách lớn mới được. Cần nhất là được lòng tin, chí công vô tư.",
-      "cat_hung": "cát"
+      "ten_que": "Trạch Hỏa Cách",
+      "cat_hung": "cát",
+      "hinh_tuong": "Hán miêu đắc thủy",
+      "cau_truc": "Trạch hỏa cách (Ly đoài)",
+      "giai_nghia": "Đã đến lúc mọi việc đều có thể thay đổi được. Với sự can đảm và khôn ngoan, nên sắp xếp ngăn nắp mọi thứ, đồng thời có những sắp đặt mới. Nếu làm được như vậy, vận may sẽ bắt đầu và những triển vọng tươi sáng sẽ xuất hiện. Tuy nhiên, điều quan trọng nhất là phải giữ được chính đạo.",
+      "chi_tiet": "Phải có đủ những điều kiện: hợp thời, hợp đạo, có địa vị, có tài đức, sáng suốt rất thận trọng (tính toán, sắp đặt kế hoạch kỹ lưỡng ba lần), có lòng chí thành, tính hoà duyệt, được nhiều người tin thì làm công việc cải cách lớn mới được. Cần nhất là được lòng tin, chí công vô tư."
     },
     {
       "stt": 50,
-      "ten_que": "QUẺ 50: HỎA PHONG ĐỈNH",
-      "giai_nghia": "Ngư ông đắc lợi (Cát hanh)-Hỏa phong đỉnh (Tốn ly): Đang trong tình trạng ngăn nắp, an toàn và vững chắc. Trong đoán quẻ, điều này có nghĩa là sự ổn định và hanh thông. Vận may an toàn, phong phú và ko bị cản trở. Cấp trên có thể đang quan tâm giúp mình phát huy hết khả năng. Các đầu tư hợp tác thì sẽ tốt hơn những dạng đầu tư cá nhân.",
-      "chi_tiet": "Quẻ này cũng như quẻ Tỉnh, hào trên cùng tốt nhất vì tới lúc thành công.",
-      "cat_hung": "Cát hanh"
+      "ten_que": "Hỏa Phong Đỉnh",
+      "cat_hung": "Cát hanh",
+      "hinh_tuong": "Ngư ông đắc lợi",
+      "cau_truc": "Hỏa phong đỉnh (Tốn ly)",
+      "giai_nghia": "Đang trong tình trạng ngăn nắp, an toàn và vững chắc. Trong đoán quẻ, điều này có nghĩa là sự ổn định và hanh thông. Vận may an toàn, phong phú và ko bị cản trở. Cấp trên có thể đang quan tâm giúp mình phát huy hết khả năng. Các đầu tư hợp tác thì sẽ tốt hơn những dạng đầu tư cá nhân.",
+      "chi_tiet": "Quẻ này cũng như quẻ Tỉnh, hào trên cùng tốt nhất vì tới lúc thành công."
     },
     {
       "stt": 51,
-      "ten_que": "QUẺ 51: THUẦN CHẤN",
-      "giai_nghia": "Kim chung dạ chàng (bình hòa)- Chấn vi lôi (Sấm sấm): Vận hội đang thay đổi từ bóng tối sang ánh sáng. Hãy thực hiện mọi việc cẩn thận, đồng thời theo trình tự hợp lý và khắc phục các khó khăn. Có thể gặt hái được danh tiếng lẫn của cải. Mặt khác, thái độ quá tự tin, sự bác bỏ ý kiến của người khác, hay sự thiển cận có thể dẫn đến xung đột hay thất bại. Phải thận trọng",
-      "chi_tiet": "",
-      "cat_hung": "bình hòa"
+      "ten_que": "Thuần Chấn",
+      "cat_hung": "bình hòa",
+      "hinh_tuong": "Kim chung dạ chàng",
+      "cau_truc": "Chấn vi lôi (Sấm sấm)",
+      "giai_nghia": "Vận hội đang thay đổi từ bóng tối sang ánh sáng. Hãy thực hiện mọi việc cẩn thận, đồng thời theo trình tự hợp lý và khắc phục các khó khăn. Có thể gặt hái được danh tiếng lẫn của cải. Mặt khác, thái độ quá tự tin, sự bác bỏ ý kiến của người khác, hay sự thiển cận có thể dẫn đến xung đột hay thất bại. Phải thận trọng",
+      "chi_tiet": ""
     },
     {
       "stt": 52,
-      "ten_que": "QUẺ 52: THUẦN CẤN",
-      "giai_nghia": "Ải nhân cấu táo (Bình Hòa)- Cấn vi sơn (Núi núi): Nhiều trở ngại. Vận hội đang đình trệ và bất động. Hãy bàng quan với các lợi ích thế gian, đừng nói năng quá nhiều, hãy cao thượng tôn quý giống như ngọn núi và hãy giữ vững những niềm tin hoặc nhận thức, không gì lay chuyển mình và chờ đến lúc thích hợp.",
-      "chi_tiet": "Chúng tôi nghĩ có thể cũng vì lẽ núi có đức “tĩnh” nữa. Dịch học phái như Khổng giáo chủ trương hữu vi (hành động để giúp đời), nhưng cũng trọng đức tĩnh, tĩnh như núi. Tĩnh là không bị thị dục dao động mà ít lỗi, tĩnh thì mới sáng suốt. Đạo Lão rất trong đức tĩnh. Dịch học phái trọng động mà cũng trọng tĩnh, là dung hoà được hai triết lý lớn nhất của Trung Hoa.",
-      "cat_hung": "Bình Hòa"
+      "ten_que": "Thuần Cấn",
+      "cat_hung": "Bình Hòa",
+      "hinh_tuong": "Ải nhân cấu táo",
+      "cau_truc": "Cấn vi sơn (Núi núi)",
+      "giai_nghia": "Nhiều trở ngại. Vận hội đang đình trệ và bất động. Hãy bàng quan với các lợi ích thế gian, đừng nói năng quá nhiều, hãy cao thượng tôn quý giống như ngọn núi và hãy giữ vững những niềm tin hoặc nhận thức, không gì lay chuyển mình và chờ đến lúc thích hợp.",
+      "chi_tiet": "Chúng tôi nghĩ có thể cũng vì lẽ núi có đức “tĩnh” nữa. Dịch học phái như Khổng giáo chủ trương hữu vi (hành động để giúp đời), nhưng cũng trọng đức tĩnh, tĩnh như núi. Tĩnh là không bị thị dục dao động mà ít lỗi, tĩnh thì mới sáng suốt. Đạo Lão rất trong đức tĩnh. Dịch học phái trọng động mà cũng trọng tĩnh, là dung hoà được hai triết lý lớn nhất của Trung Hoa."
     },
     {
       "stt": 53,
-      "ten_que": "QUẺ 53: PHONG SƠN TIỆM",
-      "giai_nghia": "Hành tẩu bạc băng (Cát)-Phong sơn tiệm (Cấn tốn): Vận may đang dần dần hé mở mọi việc đang từ từ trở nên suôn sẻ, êm đẹp. Tương lai đầy xán lạn và hy vọng. Thanh công sẽ đến từ sự tiến bước dần dần. Tiến tới phía trước quá nhanh hay khinh suất thì bất lợi. Đối với phụ nữ, quẻ này có nghĩa rằng có khả năng sẽ có 1 biến cố vui vẻ nào đó xảy ra.",
-      "chi_tiet": "",
-      "cat_hung": "Cát"
+      "ten_que": "Phong Sơn Tiệm",
+      "cat_hung": "Cát",
+      "hinh_tuong": "Hành tẩu bạc băng",
+      "cau_truc": "Phong sơn tiệm (Cấn tốn)",
+      "giai_nghia": "Vận may đang dần dần hé mở mọi việc đang từ từ trở nên suôn sẻ, êm đẹp. Tương lai đầy xán lạn và hy vọng. Thanh công sẽ đến từ sự tiến bước dần dần. Tiến tới phía trước quá nhanh hay khinh suất thì bất lợi. Đối với phụ nữ, quẻ này có nghĩa rằng có khả năng sẽ có 1 biến cố vui vẻ nào đó xảy ra.",
+      "chi_tiet": ""
     },
     {
       "stt": 54,
-      "ten_que": "QUẺ 54: LÔI TRẠCH QUY MUỘI",
-      "giai_nghia": "Duyên mộc cầu ngư (Hung)- Lôi trạch quy muội (Đoài chấn): Nếu mê đắm với lạc thú thể xác mà vi phạm các quy ước của xã hội, chẳng bao lâu sẽ gặp phải điều không may. Do đó phải thay đổi để trở thành người tốt hơn và phải sửa đổi bản thân mình để tránh tai họa. Có thể bị lôi kéo vào những phiền toái nào đó.",
-      "chi_tiet": "Hào đẹp nhất trong quẻ là hào 5. Việc kén dâu, kén vợ, trọng người có đức, không hợm mình cao sang, giàu có, coi thường phục sức, mà khiêm tốn.",
-      "cat_hung": "Hung"
+      "ten_que": "Lôi Trạch Quy Muội",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Duyên mộc cầu ngư",
+      "cau_truc": "Lôi trạch quy muội (Đoài chấn)",
+      "giai_nghia": "Nếu mê đắm với lạc thú thể xác mà vi phạm các quy ước của xã hội, chẳng bao lâu sẽ gặp phải điều không may. Do đó phải thay đổi để trở thành người tốt hơn và phải sửa đổi bản thân mình để tránh tai họa. Có thể bị lôi kéo vào những phiền toái nào đó.",
+      "chi_tiet": "Hào đẹp nhất trong quẻ là hào 5. Việc kén dâu, kén vợ, trọng người có đức, không hợm mình cao sang, giàu có, coi thường phục sức, mà khiêm tốn."
     },
     {
       "stt": 55,
-      "ten_que": "QUẺ 55: LÔI HỎA PHONG",
-      "giai_nghia": "Cổ kính trùng minh (Cát hanh)-Lôi hỏa phong (Ly chấn): Hưởng được vận may, sự suôn sẻ. Tuy nhiên sự tự mãn, lơ đễnh và thiếu cố gắng sẽ dẫn đến vận hội suy vi. Phải tránh sự hoang phí, khoa trương và tự đắc. Có khả năng việc làm cho người ta chú ý đến mình quá nhiều sẽ dẫn đến tình trạng bị lừa hay bị vướng vào sự rắc rối nào đó. Trong lĩnh vực nghệ thuật tương lai sẽ là những triển vọng vô hạn.",
-      "chi_tiet": "Các quẻ khác, thường hào dương ứng với âm, âm ứng với dương mới tốt; quẻ này trái lại, dương ứng với dương (như 1 và 4) mới tốt. Đó cũng là một lời khuyên nữa: ở thời thịnh, người ta thường vì quyền lợi chia rẽ nhau mà hoá suy, phải biết đồng đức, đồng tâm với nhau, thì mới tránh được hoạ.",
-      "cat_hung": "Cát hanh"
+      "ten_que": "Lôi Hỏa Phong",
+      "cat_hung": "Cát hanh",
+      "hinh_tuong": "Cổ kính trùng minh",
+      "cau_truc": "Lôi hỏa phong (Ly chấn)",
+      "giai_nghia": "Hưởng được vận may, sự suôn sẻ. Tuy nhiên sự tự mãn, lơ đễnh và thiếu cố gắng sẽ dẫn đến vận hội suy vi. Phải tránh sự hoang phí, khoa trương và tự đắc. Có khả năng việc làm cho người ta chú ý đến mình quá nhiều sẽ dẫn đến tình trạng bị lừa hay bị vướng vào sự rắc rối nào đó. Trong lĩnh vực nghệ thuật tương lai sẽ là những triển vọng vô hạn.",
+      "chi_tiet": "Các quẻ khác, thường hào dương ứng với âm, âm ứng với dương mới tốt; quẻ này trái lại, dương ứng với dương (như 1 và 4) mới tốt. Đó cũng là một lời khuyên nữa: ở thời thịnh, người ta thường vì quyền lợi chia rẽ nhau mà hoá suy, phải biết đồng đức, đồng tâm với nhau, thì mới tránh được hoạ."
     },
     {
       "stt": 56,
-      "ten_que": "QUẺ 56: HỎA SƠN LỮ",
-      "giai_nghia": "Túc điểu phần sào (Bình hòa)-Hỏa sơn nữ (Cấn ly): Hãy xử lý các vấn đề bằng thái độ hòa nhã, thân thiện. Nếu được như vậy, mọi việc sẽ ổn thỏa. Có thể xảy ra 1 sự thay đổi công việc, chỗ làm hay nghề nghiệp có thể rơi vào cảnh cô độc và ko có sự giúp đỡ, trong lúc đang thực hiện 1 chuyến đi, sự khó khăn hay rắc rối nào đó có thể nảy sinh trong nhà, sự thay đổi chỗ ở có thể dẫn đến rắc rối và buồn phiền.",
-      "chi_tiet": "Tuyền sáu hào không một chữ cát, chữ hanh nào cả . . Dở sinh gặp hồi đen rủi, gởi thân ở đất khách quê người . . may khỏi tai hoạ là hạnh phúc đã lớn rồi. Vậy nên trung chính như Lục Nhị (hào 2, âm), văn minh nhu trung như Lục ngũ (hào 5, âm) mà hào từ không có chữ cát hanh. Huống gì quá cương , bất trung như Cửu tam (hào 3, dương). Thượng cửu (hào trên cùng, dương) nữa ru? Vậy nên người ở vào thời Lữ, nên mang chặt lấy hai chữ nhu, trung làm bùa hộ thân”.",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Hỏa Sơn Lữ",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Túc điểu phần sào",
+      "cau_truc": "Hỏa sơn nữ (Cấn ly)",
+      "giai_nghia": "Hãy xử lý các vấn đề bằng thái độ hòa nhã, thân thiện. Nếu được như vậy, mọi việc sẽ ổn thỏa. Có thể xảy ra 1 sự thay đổi công việc, chỗ làm hay nghề nghiệp có thể rơi vào cảnh cô độc và ko có sự giúp đỡ, trong lúc đang thực hiện 1 chuyến đi, sự khó khăn hay rắc rối nào đó có thể nảy sinh trong nhà, sự thay đổi chỗ ở có thể dẫn đến rắc rối và buồn phiền.",
+      "chi_tiet": "Tuyền sáu hào không một chữ cát, chữ hanh nào cả . . Dở sinh gặp hồi đen rủi, gởi thân ở đất khách quê người . . may khỏi tai hoạ là hạnh phúc đã lớn rồi. Vậy nên trung chính như Lục Nhị (hào 2, âm), văn minh nhu trung như Lục ngũ (hào 5, âm) mà hào từ không có chữ cát hanh. Huống gì quá cương , bất trung như Cửu tam (hào 3, dương). Thượng cửu (hào trên cùng, dương) nữa ru? Vậy nên người ở vào thời Lữ, nên mang chặt lấy hai chữ nhu, trung làm bùa hộ thân”."
     },
     {
       "stt": 57,
-      "ten_que": "QUẺ 57: THUẦN TỐN",
-      "giai_nghia": "Cô chu đắc thủy (bình hòa)-Tốn vi phong (gió gió): Vận hội đang chuyển động giống như cơn gió. Bất ổn định và quanh co. Trong đối nhân hay xử thế, phải có thái độ khiêm cung, phục tùng và nhanh chóng thích ứng theo hoàn cảnh thay đổi. Có thể gặp nhiều rủi ro bất lợi vì chần chừ và thiếu dứt khoát, sự tổn thất do xung đột hay hành vì manh động.",
-      "chi_tiet": "",
-      "cat_hung": "bình hòa"
+      "ten_que": "Thuần Tốn",
+      "cat_hung": "bình hòa",
+      "hinh_tuong": "Cô chu đắc thủy",
+      "cau_truc": "Tốn vi phong (gió gió)",
+      "giai_nghia": "Vận hội đang chuyển động giống như cơn gió. Bất ổn định và quanh co. Trong đối nhân hay xử thế, phải có thái độ khiêm cung, phục tùng và nhanh chóng thích ứng theo hoàn cảnh thay đổi. Có thể gặp nhiều rủi ro bất lợi vì chần chừ và thiếu dứt khoát, sự tổn thất do xung đột hay hành vì manh động.",
+      "chi_tiet": ""
     },
     {
       "stt": 58,
-      "ten_que": "QUẺ 58: THUẦN ĐOÀI",
-      "giai_nghia": "Sấn thủy hòa nê (Cát hanh)-Đoài vi trạch (Đầm đầm): Vận hội cát tường với mọi sự diễn ra đúng như mong đợi. Ta có thể thấy cảm giác hạnh phúc. Mặt khác những lời lẽ bất cẩn có thể dẫn đến rắc rối, hoặc 1 phụ nữ có thể gây cho ta sự khổ sở hay đau đớn. Trong đối nhân xử thế, hãy hòa nhã, mềm mỏng và thành thật. Trong công việc hãy thận trọng và kỹ lưỡng.",
-      "chi_tiet": "",
-      "cat_hung": "Cát hanh"
+      "ten_que": "Thuần Đoài",
+      "cat_hung": "Cát hanh",
+      "hinh_tuong": "Sấn thủy hòa nê",
+      "cau_truc": "Đoài vi trạch (Đầm đầm)",
+      "giai_nghia": "Vận hội cát tường với mọi sự diễn ra đúng như mong đợi. Ta có thể thấy cảm giác hạnh phúc. Mặt khác những lời lẽ bất cẩn có thể dẫn đến rắc rối, hoặc 1 phụ nữ có thể gây cho ta sự khổ sở hay đau đớn. Trong đối nhân xử thế, hãy hòa nhã, mềm mỏng và thành thật. Trong công việc hãy thận trọng và kỹ lưỡng.",
+      "chi_tiet": ""
     },
     {
       "stt": 59,
-      "ten_que": "QUẺ 59: PHONG THỦY HOÁN",
-      "giai_nghia": "Cách hà vọng kim (Hanh)-Phong thủy hoán (Khảm tốn): Vận hội bắt đầu thay đổi và các gian nan đang tan dần nhưng cũng đừng quá dễ dãi, buông lỏng. Thất bại sẽ đến từ sự thiếu thận trọng, bất cẩn và quá phóng túng. Những điều sau đây có thể xảy ra một chuyến đi xa nhà, nhận được sự giúp đỡ của ai đó hoặc sự thất bại do thiếu ý chí  hay ko kiên định.",
-      "chi_tiet": "Sáu hào quẻ Hoán ý nghĩa rất phân minh: hào 1, còn mong cứu chữa được; hào 2 ly tán đã nhiều rồi, chưa cứu được; hào 3 có thể bắt tay làm việc, muốn vậy phải bỏ lòng vị kỷ đi; hào 4, phải giải tán bè phái để đoàn kết toàn dân; hào 5 phải ra hiệu lệnh mới, ban phát của riêng, hào 6 thì thành công. Quan trọng nhất là lời khuyên hào 4 và 5.",
-      "cat_hung": "Hanh"
+      "ten_que": "Phong Thủy Hoán",
+      "cat_hung": "Hanh",
+      "hinh_tuong": "Cách hà vọng kim",
+      "cau_truc": "Phong thủy hoán (Khảm tốn)",
+      "giai_nghia": "Vận hội bắt đầu thay đổi và các gian nan đang tan dần nhưng cũng đừng quá dễ dãi, buông lỏng. Thất bại sẽ đến từ sự thiếu thận trọng, bất cẩn và quá phóng túng. Những điều sau đây có thể xảy ra một chuyến đi xa nhà, nhận được sự giúp đỡ của ai đó hoặc sự thất bại do thiếu ý chí  hay ko kiên định.",
+      "chi_tiet": "Sáu hào quẻ Hoán ý nghĩa rất phân minh: hào 1, còn mong cứu chữa được; hào 2 ly tán đã nhiều rồi, chưa cứu được; hào 3 có thể bắt tay làm việc, muốn vậy phải bỏ lòng vị kỷ đi; hào 4, phải giải tán bè phái để đoàn kết toàn dân; hào 5 phải ra hiệu lệnh mới, ban phát của riêng, hào 6 thì thành công. Quan trọng nhất là lời khuyên hào 4 và 5."
     },
     {
       "stt": 60,
-      "ten_que": "QUẺ 60: THỦY TRẠCH TIẾT",
-      "giai_nghia": "Điểm tướng phong thần (cát) - Phong thủy hoán (Đoài thủy): Việc xem thường nguyên tắc thứ tự và chừng mực, lẫn những hành động bừa bãi bắt nguồn từ sự say sưa trong khoái lạc dẫn đến thất bại và bất hạnh. Trong kinh doanh, các chi tiêu có thể đang quá lớn. Có những khó khăn về tài chính. Những lời nói bất cẩn, những lời đàm tiếu hay những lời vu khống hoặc phỉ báng có thể gây tổn thương.",
-      "chi_tiet": "Sau một cuộc ly tán, phong tục suy đồi, kinh tế cùng quẩn, cho nên phải tiết dục, tiết chế nhu cầu. Nhưng tiết chế một cách vừa phải thôi (không nên thái quá) mà hợp thời thì mới tốt. Chúng ta nhận thấy 6 hào chia làm 3 cặp: 1 và 2 liền nhau mà 1 tốt, 2 xấu; 3 với 4 liền nhau mà 3 xấu, 4 tốt; 5 và 6 liền nhau mà 5 tốt 6 xấu; chỉ do lẽ hoặc hợp thời hay không, đắc trung, đắc chính hay không.",
-      "cat_hung": "cát"
+      "ten_que": "Thủy Trạch Tiết",
+      "cat_hung": "cát",
+      "hinh_tuong": "Điểm tướng phong thần",
+      "cau_truc": "Phong thủy hoán (Đoài thủy)",
+      "giai_nghia": "Việc xem thường nguyên tắc thứ tự và chừng mực, lẫn những hành động bừa bãi bắt nguồn từ sự say sưa trong khoái lạc dẫn đến thất bại và bất hạnh. Trong kinh doanh, các chi tiêu có thể đang quá lớn. Có những khó khăn về tài chính. Những lời nói bất cẩn, những lời đàm tiếu hay những lời vu khống hoặc phỉ báng có thể gây tổn thương.",
+      "chi_tiet": "Sau một cuộc ly tán, phong tục suy đồi, kinh tế cùng quẩn, cho nên phải tiết dục, tiết chế nhu cầu. Nhưng tiết chế một cách vừa phải thôi (không nên thái quá) mà hợp thời thì mới tốt. Chúng ta nhận thấy 6 hào chia làm 3 cặp: 1 và 2 liền nhau mà 1 tốt, 2 xấu; 3 với 4 liền nhau mà 3 xấu, 4 tốt; 5 và 6 liền nhau mà 5 tốt 6 xấu; chỉ do lẽ hoặc hợp thời hay không, đắc trung, đắc chính hay không."
     },
     {
       "stt": 61,
-      "ten_que": "QUẺ 61: PHONG TRẠCH TRUNG PHU",
-      "giai_nghia": "Tuấn điểu xuất lung (Cát hanh)-Phong trạch trung phu (Đoài tốn): Hãy xử trí với mọi công việc bằng lòng thành tín và thật lòng, hãy tin tưởng người khác. Những ý định xấu và sự xem thường lòng tin cậy sẽ dẫn đến điều không may. Khi cư xử với người khác, hãy đặc biệt chú ý đến lòng tin tưởng. Những cuộc đầu tư hợp tác là cát tường",
-      "chi_tiet": "Vậy lòng thành tín vẫn là tốt, nhưng phải đừng thái quá mà biết biến thông, Phan Bội Châu nhắc truyện ngụ ngôn anh chàng họ Vĩ (có sách nói là họ Vi) thời Xuân Thu hẹn với một người con gái ở dưới cầu; người đó không tới, nước lên cao, anh ta cứ ôm cột cầu chịu chêt. Tín như vậy là ngu, không biết biến thông.",
-      "cat_hung": "Cát hanh"
+      "ten_que": "Phong Trạch Trung Phu",
+      "cat_hung": "Cát hanh",
+      "hinh_tuong": "Tuấn điểu xuất lung",
+      "cau_truc": "Phong trạch trung phu (Đoài tốn)",
+      "giai_nghia": "Hãy xử trí với mọi công việc bằng lòng thành tín và thật lòng, hãy tin tưởng người khác. Những ý định xấu và sự xem thường lòng tin cậy sẽ dẫn đến điều không may. Khi cư xử với người khác, hãy đặc biệt chú ý đến lòng tin tưởng. Những cuộc đầu tư hợp tác là cát tường",
+      "chi_tiet": "Vậy lòng thành tín vẫn là tốt, nhưng phải đừng thái quá mà biết biến thông, Phan Bội Châu nhắc truyện ngụ ngôn anh chàng họ Vĩ (có sách nói là họ Vi) thời Xuân Thu hẹn với một người con gái ở dưới cầu; người đó không tới, nước lên cao, anh ta cứ ôm cột cầu chịu chêt. Tín như vậy là ngu, không biết biến thông."
     },
     {
       "stt": 62,
-      "ten_que": "QUẺ 62: LÔI SƠN TIỂU QUÁ",
-      "giai_nghia": "Cấp qua tiểu kiều (Bình hòa) - Lôi sơn tiểu quá (Cấn chấn): Ko hy vọng làm được điều gì đó bên ngoài phạm vi chuyên môn hay khả năng của mình. Hãy đặc biệt cẩn thận, đừng tranh biện với người khác hẳn với mình về thế mạnh hay khả năng nội tại, bởi vì điều này sẽ dẫn đến thất bại. Kiềm chế và giữ nguyên trạng là cát tường. Tiến bước đi lên là thất bại. Có khả năng sẽ phạm sai lầm trong công việc.",
-      "chi_tiet": "Quẻ này khuyên quân tử ở vào thời tiểu nhân quá nhiều thì đừng nên quá cương như hào 3, mà nên mềm mỏng một chút, biến thông như hào 4.",
-      "cat_hung": "Bình hòa"
+      "ten_que": "Lôi Sơn Tiểu Quá",
+      "cat_hung": "Bình hòa",
+      "hinh_tuong": "Cấp qua tiểu kiều",
+      "cau_truc": "Lôi sơn tiểu quá (Cấn chấn)",
+      "giai_nghia": "Ko hy vọng làm được điều gì đó bên ngoài phạm vi chuyên môn hay khả năng của mình. Hãy đặc biệt cẩn thận, đừng tranh biện với người khác hẳn với mình về thế mạnh hay khả năng nội tại, bởi vì điều này sẽ dẫn đến thất bại. Kiềm chế và giữ nguyên trạng là cát tường. Tiến bước đi lên là thất bại. Có khả năng sẽ phạm sai lầm trong công việc.",
+      "chi_tiet": "Quẻ này khuyên quân tử ở vào thời tiểu nhân quá nhiều thì đừng nên quá cương như hào 3, mà nên mềm mỏng một chút, biến thông như hào 4."
     },
     {
       "stt": 63,
-      "ten_que": "QUẺ 63: THỦY HỎA KÝ TẾ",
-      "giai_nghia": "Lúc thành công là lúc nguy hiểm nhất (Cát hanh)- Thủ hỏa ký tế (Ly khảm): Hoàn tất, đã xong. Sự việc đã đạt đến cực đỉnh, thời kỳ thái bình và ổn định. Mọi việc lớn nhỏ đều đang rất tốt, thuận buồm xuôi gió, cơ hội thành công đạt dễ dàng. Bạn sẽ nhanh chóng đạt được ước muốn. Đặc biệt khi có chút thành quả thì vẫn phải nỗ lực phát huy, giữ gìn sự ổn định. Không hưởng thụ, kiêu căn, lơ là, lười nhác thì bạn sẽ giữ được vận may.",
-      "chi_tiet": "Kí tế vốn là một quẻ tốt, nhưng chỉ ba hào đầu là khá tốt, còn ba hào sau thì càng tiến lên càng xấu: hào 5, kém phúc hào 2, mà hào trên cùng (ướt đầu) so với hào 1 (ướt đuôi) còn xấu hơn nhiều. Vẫn là lời khuyên gặp thời thịnh phải cẩn thận, đề phòng lúc suy.",
-      "cat_hung": "Cát hanh"
+      "ten_que": "Thủy Hỏa Ký Tế",
+      "cat_hung": "Cát hanh",
+      "hinh_tuong": "Lúc thành công là lúc nguy hiểm nhất",
+      "cau_truc": "Thủ hỏa ký tế (Ly khảm)",
+      "giai_nghia": "Hoàn tất, đã xong. Sự việc đã đạt đến cực đỉnh, thời kỳ thái bình và ổn định. Mọi việc lớn nhỏ đều đang rất tốt, thuận buồm xuôi gió, cơ hội thành công đạt dễ dàng. Bạn sẽ nhanh chóng đạt được ước muốn. Đặc biệt khi có chút thành quả thì vẫn phải nỗ lực phát huy, giữ gìn sự ổn định. Không hưởng thụ, kiêu căn, lơ là, lười nhác thì bạn sẽ giữ được vận may.",
+      "chi_tiet": "Kí tế vốn là một quẻ tốt, nhưng chỉ ba hào đầu là khá tốt, còn ba hào sau thì càng tiến lên càng xấu: hào 5, kém phúc hào 2, mà hào trên cùng (ướt đầu) so với hào 1 (ướt đuôi) còn xấu hơn nhiều. Vẫn là lời khuyên gặp thời thịnh phải cẩn thận, đề phòng lúc suy."
     },
     {
       "stt": 64,
-      "ten_que": "QUẺ 64: HỎA THỦY VỊ TẾ",
-      "giai_nghia": "Thái tuế nguyệt kiến (Hung)-Hỏa thủy vị tế (Khảm ly): Vận hội giờ đây đang không được tốt, nhưng sẽ dần dần thay đổi. Từ từ, hãy hòa thuận cùng với mọi người và vận may sẽ cải thiện. Sự khinh suất, liều lĩnh hay hấp tấp khi thực hiện các công việc sẽ dẫn đến thất bại. Không việc gì diễn ra đúng như mong đợi. Hãy bình tĩnh, hãy tiến bước 1 cách đều đặn",
-      "chi_tiet": "Kinh Dịch bắt đầu bằng hai quẻ Càn, Khôn, gốc của vạn vật; ở giữa là hai quẻ Hàm và Hằng, đạo vợ chồng, gốc của xã hội, tận cùng bằng hai quẻ Kí tế và Vị tế đã xong rồi lại chưa xong; như vậy là hàm cái nghĩa việc trời đất cũng như việc của loài người, không bao giờ xong, cái gì tớt chung rồi lại tiếp ngay tới thủy. Mà đạo Dịch cũng vậy không bao giờ hết. Dịch cho ta niềm hy vọng ở tương lai. Thật là một triết lý lạc quan.",
-      "cat_hung": "Hung"
+      "ten_que": "Hỏa Thủy Vị Tế",
+      "cat_hung": "Hung",
+      "hinh_tuong": "Thái tuế nguyệt kiến",
+      "cau_truc": "Hỏa thủy vị tế (Khảm ly)",
+      "giai_nghia": "Vận hội giờ đây đang không được tốt, nhưng sẽ dần dần thay đổi. Từ từ, hãy hòa thuận cùng với mọi người và vận may sẽ cải thiện. Sự khinh suất, liều lĩnh hay hấp tấp khi thực hiện các công việc sẽ dẫn đến thất bại. Không việc gì diễn ra đúng như mong đợi. Hãy bình tĩnh, hãy tiến bước 1 cách đều đặn",
+      "chi_tiet": "Kinh Dịch bắt đầu bằng hai quẻ Càn, Khôn, gốc của vạn vật; ở giữa là hai quẻ Hàm và Hằng, đạo vợ chồng, gốc của xã hội, tận cùng bằng hai quẻ Kí tế và Vị tế đã xong rồi lại chưa xong; như vậy là hàm cái nghĩa việc trời đất cũng như việc của loài người, không bao giờ xong, cái gì tớt chung rồi lại tiếp ngay tới thủy. Mà đạo Dịch cũng vậy không bao giờ hết. Dịch cho ta niềm hy vọng ở tương lai. Thật là một triết lý lạc quan."
     }
   ],
   "thien_can": [
     {
+      "stt": 1,
       "thien_can": "Giáp",
-      "y_nghia": "Vỏ cứng mầm tách ra khỏi vỏ",
-      "giai_nghia": "Dấu hiệu vạn vật được tách ra, bắt nguồn sự sống"
+      "am_duong": "Dương",
+      "y_nghia_goc": "Vỏ cứng mầm tách ra khỏi vỏ",
+      "giai_nghia_mo_rong": "Dấu hiệu vạn vật được tách ra, bắt nguồn sự sống"
     },
     {
+      "stt": 2,
       "thien_can": "Ất",
-      "y_nghia": "Mọc lên, hạt mầm bắt đầu mọc",
-      "giai_nghia": "Quá trình vạn vật bắt đầu quá trình nhú mầm, sinh trưởng"
+      "am_duong": "Âm",
+      "y_nghia_goc": "Mọc lên, hạt mầm bắt đầu mọc",
+      "giai_nghia_mo_rong": "Quá trình vạn vật bắt đầu quá trình nhú mầm, sinh trưởng"
     },
     {
+      "stt": 3,
       "thien_can": "Bính",
-      "y_nghia": "Đội lên, hạt mầm ra khỏi đất",
-      "giai_nghia": "Sự đột ngột, khi vạn vật bắt đầu lộ ra trên mặt đất"
+      "am_duong": "Dương",
+      "y_nghia_goc": "Đội lên, hạt mầm ra khỏi đất",
+      "giai_nghia_mo_rong": "Sự đột ngột, khi vạn vật bắt đầu lộ ra trên mặt đất"
     },
     {
+      "stt": 4,
       "thien_can": "Đinh",
-      "y_nghia": "Mạnh mẽ cây non bắt đầu lớn",
-      "giai_nghia": "Sự mạnh mẽ, khi vạn vật bước vào quá trình phát triển mạnh mẽ"
+      "am_duong": "Âm",
+      "y_nghia_goc": "Mạnh mẽ cây non bắt đầu lớn",
+      "giai_nghia_mo_rong": "Sự mạnh mẽ, khi vạn vật bước vào quá trình phát triển mạnh mẽ"
     },
     {
+      "stt": 5,
       "thien_can": "Mậu",
-      "y_nghia": "Rậm rạp, cây bắt đầu xanh tốt",
-      "giai_nghia": "Sự rậm rạp, tức chỉ giai đoạn vạn vật bắt đầu xanh tốt"
+      "am_duong": "Dương",
+      "y_nghia_goc": "Rậm rạp, cây bắt đầu xanh tốt",
+      "giai_nghia_mo_rong": "Sự rậm rạp, tức chỉ giai đoạn vạn vật bắt đầu xanh tốt"
     },
     {
+      "stt": 6,
       "thien_can": "Kỉ",
-      "y_nghia": "Ghi nhớ, cây ra hoa kết trái",
-      "giai_nghia": "Sự ghi nhớ, chỉ giai đoạn vạn vật bắt đầu thành hình để phân biệt"
+      "am_duong": "Dương",
+      "y_nghia_goc": "Ghi nhớ, cây ra hoa kết trái",
+      "giai_nghia_mo_rong": "Sự ghi nhớ, chỉ giai đoạn vạn vật bắt đầu thành hình để phân biệt"
     },
     {
+      "stt": 7,
       "thien_can": "Canh",
-      "y_nghia": "Chắc lại, hạt, quả đã mẩy",
-      "giai_nghia": "Sự chắc lại, khi vạn vật bắt đầu kết quả"
+      "am_duong": "Dương",
+      "y_nghia_goc": "Chắc lại, hạt, quả đã mẩy",
+      "giai_nghia_mo_rong": "Sự chắc lại, khi vạn vật bắt đầu kết quả"
     },
     {
+      "stt": 8,
       "thien_can": "Tân",
-      "y_nghia": "Vất vả, vàng lá, bắt đầu thu hoạch",
-      "giai_nghia": "Sự mới, vạn vật bước vào thời kỳ thu hoạch"
+      "am_duong": "Âm",
+      "y_nghia_goc": "Vất vả, vàng lá, bắt đầu thu hoạch",
+      "giai_nghia_mo_rong": "Sự mới, vạn vật bước vào thời kỳ thu hoạch"
     },
     {
+      "stt": 9,
       "thien_can": "Nhâm",
-      "y_nghia": "Gánh vác đảm nhiệm, thu hoạch để nuôi sống con người",
-      "giai_nghia": "Sự gánh vác, có tác dụng nuôi dưỡng vạn vật"
+      "am_duong": "Dương",
+      "y_nghia_goc": "Gánh vác đảm nhiệm, thu hoạch để nuôi sống con người",
+      "giai_nghia_mo_rong": "Sự gánh vác, có tác dụng nuôi dưỡng vạn vật"
     },
     {
+      "stt": 10,
       "thien_can": "Quý",
-      "y_nghia": "Lo toan, xếp đặt, cất vào kho, chuẩn bị ủ mầm",
-      "giai_nghia": "Chỉ sự vật khi đã có thể đo lường được"
-    },
-    {
-      "thien_can": "Thiên Can nói về Dương, ban ngày, mặt trời thì Địa Chi nói về Âm, ban đêm, mặt trăng. Mặc dù các yếu tố Âm – Dương, Trời – Đất, Ngày – Đêm, Mặt Trời – Mặt Trăng,… đối nhau nhưng lại luôn phối hợp, vận hành và thay thế nhau.",
-      "y_nghia": "",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Địa Chi",
-      "y_nghia": "Ý nghĩa",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Tý",
-      "y_nghia": "Nuôi dưỡng, tu bổ, tức vạn vật bắt đầu nảy nở nhờ có dương khí",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Sửu",
-      "y_nghia": "Kết lại, khi các mầm non tiếp tục quá trình lớn lên",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Dần",
-      "y_nghia": "Sự thay đổi, dẫn dắt, khi các mầm non bắt đầu vươn lên khỏi mặt đất",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Mão",
-      "y_nghia": "Đội, khi tất cả vạn vật đã nứt khỏi mặt đất để vươn lên",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Thìn",
-      "y_nghia": "Chấn động, chỉ quá trình phát triển của vạn vật sau khi trải qua biến động",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Tị",
-      "y_nghia": "Bắt đầu, khi vạn vật đã có sự khởi đầu",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Ngọ",
-      "y_nghia": "Tỏa ra, khi vạn vậy đã bắt đầu mọc cành lá",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Mùi",
-      "y_nghia": "Ám muội, khi khí âm bắt đầu xuất hiện, khiến vạn vật có chiều hướng phát triển yếu đi",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Thân",
-      "y_nghia": "Thân thể, khi vạn vật đều đã trưởng thành",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Dậu",
-      "y_nghia": "Sự già cỗi, khi vạn vật đã già đi",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Tuất",
-      "y_nghia": "Là diệt, tức chỉ đến một thời điểm nào đó, vạt vật sẽ đều suy yếu và diệt vong",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Hợi",
-      "y_nghia": "Là hạt, khi vạn vật lại quay trở về hình hài hạt cứng",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "2. Vai Trò Của Thiên Can Địa Chi Trong Ngũ Hành",
-      "y_nghia": "",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Thiên Can và Địa Chi là 2 yếu tố khác nhau nhưng chúng luôn song hành và có mối quan hệ mật thiết. Các yếu tố này thể hiện sự chuyển biến của vạn vật trong vũ trụ và vận mệnh con người.",
-      "y_nghia": "",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Trong Ngũ Hành phong thủy, Thiên Can và Địa Chi là sự kết hợp hài hòa giữa vận mệnh con người với trời đất, thiên nhiên. Các yếu tố của Thiên Can và Địa Chi được kết hợp để dự đoán về những sự kiện diễn ra trong tương lai đối với một người và tìm cách khắc phục vận hạn không tốt.",
-      "y_nghia": "",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Ngoài ra, trong Ngũ Hành, sự cân bằng về yếu tố Âm Dương sẽ ảnh hưởng đến các vấn đề về cuộc sống con người như sức khỏe, tài lộc, sự nghiệp,… Do đó, nhiều người phân tích các yếu tố Thiên Can và Địa Chi trong Ngũ Hành nhằm tận dụng tối đa tiềm năng của bản thân để tạo nên một cuộc sống an yên và thịnh vượng.",
-      "y_nghia": "",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Hiện nay, Thiên Can và Địa Chi được con người ứng dụng rộng rãi trong nhiều lĩnh vực cuộc sống như tính tuổi âm lịch, xem cung mệnh, tình duyên, kinh doanh,…",
-      "y_nghia": "",
-      "giai_nghia": ""
-    },
-    {
-      "thien_can": "Thiên Can Âm",
-      "y_nghia": "Thiên Can Dương",
-      "giai_nghia": "Cung mệnh"
-    },
-    {
-      "thien_can": "Nhâm",
-      "y_nghia": "Quý",
-      "giai_nghia": "Thủy"
-    },
+      "am_duong": "Âm",
+      "y_nghia_goc": "Lo toan, xếp đặt, cất vào kho, chuẩn bị ủ mầm",
+      "giai_nghia_mo_rong": "Chỉ sự vật khi đã có thể đo lường được"
+    }
+  ],
+  "dia_chi": [
     {
-      "thien_can": "Canh",
-      "y_nghia": "Tân",
-      "giai_nghia": "Kim"
+      "stt": 1,
+      "dia_chi": "Tý",
+      "am_duong": "Dương",
+      "y_nghia": "Nuôi dưỡng, tu bổ, tức vạn vật bắt đầu nảy nở nhờ có dương khí"
     },
     {
-      "thien_can": "Mậu",
-      "y_nghia": "Kỷ",
-      "giai_nghia": "Thổ"
+      "stt": 2,
+      "dia_chi": "Sửu",
+      "am_duong": "Âm",
+      "y_nghia": "Kết lại, khi các mầm non tiếp tục quá trình lớn lên"
     },
     {
-      "thien_can": "Bính",
-      "y_nghia": "Đinh",
-      "giai_nghia": "Hỏa"
+      "stt": 3,
+      "dia_chi": "Dần",
+      "am_duong": "Dương",
+      "y_nghia": "Sự thay đổi, dẫn dắt, khi các mầm non bắt đầu vươn lên khỏi mặt đất"
     },
     {
-      "thien_can": "Giáp",
-      "y_nghia": "Ất",
-      "giai_nghia": "Mộc"
+      "stt": 4,
+      "dia_chi": "Mão",
+      "am_duong": "Âm",
+      "y_nghia": "Đội, khi tất cả vạn vật đã nứt khỏi mặt đất để vươn lên"
     },
     {
-      "thien_can": "Thiên can tương xung gồm các cặp:",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 5,
+      "dia_chi": "Thìn",
+      "am_duong": "Dương",
+      "y_nghia": "Chấn động, chỉ quá trình phát triển của vạn vật sau khi trải qua biến động"
     },
     {
-      "thien_can": "Giáp – Canh",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 6,
+      "dia_chi": "Tị",
+      "am_duong": "Dương",
+      "y_nghia": "Bắt đầu, khi vạn vật đã có sự khởi đầu"
     },
     {
-      "thien_can": "Ất – Tân",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 7,
+      "dia_chi": "Ngọ",
+      "am_duong": "Dương",
+      "y_nghia": "Tỏa ra, khi vạn vậy đã bắt đầu mọc cành lá"
     },
     {
-      "thien_can": "Nhâm – Bính",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 8,
+      "dia_chi": "Mùi",
+      "am_duong": "Âm",
+      "y_nghia": "Ám muội, khi khí âm bắt đầu xuất hiện, khiến vạn vật có chiều hướng phát triển yếu đi"
     },
     {
-      "thien_can": "Quý – Đinh",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 9,
+      "dia_chi": "Thân",
+      "am_duong": "Dương",
+      "y_nghia": "Thân thể, khi vạn vật đều đã trưởng thành"
     },
     {
-      "thien_can": "Riêng Mậu, Kỷ đều thuộc trung cung nên không tương xung nhau",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 10,
+      "dia_chi": "Dậu",
+      "am_duong": "Âm",
+      "y_nghia": "Sự già cỗi, khi vạn vật đã già đi"
     },
     {
-      "thien_can": "Thiên can tương khắc gồm các cặp:",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 11,
+      "dia_chi": "Tuất",
+      "am_duong": "Dương",
+      "y_nghia": "Là diệt, tức chỉ đến một thời điểm nào đó, vạt vật sẽ đều suy yếu và diệt vong"
     },
     {
-      "thien_can": "Giáp, Ất – Mậu, Kỷ",
-      "y_nghia": "",
-      "giai_nghia": ""
-    },
+      "stt": 12,
+      "dia_chi": "Hợi",
+      "am_duong": "Âm",
+      "y_nghia": "Là hạt, khi vạn vật lại quay trở về hình hài hạt cứng"
+    }
+  ],
+  "ngu_hanh": [
     {
-      "thien_can": "Bính, Đinh – Canh, Tân",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "cung_menh": "Kim",
+      "can_am": "Canh",
+      "can_duong": "Tân",
+      "dia_chi": "Thân, Dậu",
+      "huong": "Tây",
+      "mua_vuong": "Thu",
+      "tang_phu": "Phổi và ruột già"
     },
     {
-      "thien_can": "Mậu, Kỷ – Nhâm, Quý",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "cung_menh": "Mộc",
+      "can_am": "Giáp",
+      "can_duong": "Ất",
+      "dia_chi": "Dần, Mão",
+      "huong": "Đông",
+      "mua_vuong": "Xuân",
+      "tang_phu": "Gan và mật"
     },
     {
-      "thien_can": "Canh, Tân – Giáp Ất",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "cung_menh": "Thủy",
+      "can_am": "Nhâm",
+      "can_duong": "Quý",
+      "dia_chi": "Hợi, Tý",
+      "huong": "Bắc",
+      "mua_vuong": "Đông",
+      "tang_phu": "Thận và bàng quang"
     },
     {
-      "thien_can": "Nhâm, Quý – Bính, Đinh",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "cung_menh": "Hỏa",
+      "can_am": "Bính",
+      "can_duong": "Đinh",
+      "dia_chi": "Tỵ, Ngọ",
+      "huong": "Nam",
+      "mua_vuong": "Hạ",
+      "tang_phu": "Tim và ruột"
     },
     {
-      "thien_can": "Địa Chi Xung Khắc",
-      "y_nghia": "",
-      "giai_nghia": ""
-    },
+      "cung_menh": "Thổ",
+      "can_am": "Mậu",
+      "can_duong": "Kỷ",
+      "dia_chi": "Thìn, Tuất, Sửu, Mùi",
+      "huong": "Ở giữa",
+      "mua_vuong": "Tháng cuối 4 mùa",
+      "tang_phu": "Lá lách và dạ dày"
+    }
+  ],
+  "xung_khac": [
     {
-      "thien_can": "12 Địa Chi được chia thành:",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "quan_he": "Thiên Can tương xung",
+      "noi_dung": "Giáp – Canh"
     },
     {
-      "thien_can": "Địa Chi Âm: Sửu, Hợi, Dậu, Mùi, Tỵ, Mão",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "quan_he": "Thiên Can tương xung",
+      "noi_dung": "Ất – Tân"
     },
     {
-      "thien_can": "Địa Chi Dương: Tý, Dần, Thìn, Ngọ, Thân, Tuất",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "quan_he": "Thiên Can tương xung",
+      "noi_dung": "Nhâm – Bính"
     },
     {
-      "thien_can": "Các cặp Địa Chi tạo thành 6 trực xung và 3 bộ tứ xung hành gồm:",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "quan_he": "Thiên Can tương xung",
+      "noi_dung": "Quý – Đinh"
     },
     {
-      "thien_can": "Dần xung Thân, Tỵ xung Hợi",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "quan_he": "Thiên Can tương xung",
+      "noi_dung": "Riêng Mậu, Kỷ đều thuộc trung cung nên không tương xung nhau"
     },
     {
-      "thien_can": "Thìn xung Tuất, Sửu xung Mùi",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "quan_he": "Thiên Can tương khắc",
+      "noi_dung": "Giáp, Ất – Mậu, Kỷ"
     },
     {
-      "thien_can": "Tý xung Ngọ, Mão xung Dậu",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "quan_he": "Thiên Can tương khắc",
+      "noi_dung": "Bính, Đinh – Canh, Tân"
     },
     {
-      "thien_can": "Trong bộ tứ xung hành có thể chứa các cặp xung khắc nhau. Điều này là do các cặp này có cùng tính chất dương hoặc âm dẫn đến mất cân bằng. Âm vượng hay dương vận quá lớn đều có thể gây xung khắc về nhiều yếu tố như tính chất, môi trường sống, công việc, hôn nhân,…",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "quan_he": "Thiên Can tương khắc",
+      "noi_dung": "Mậu, Kỷ – Nhâm, Quý"
     },
     {
-      "thien_can": "Cung mệnh",
-      "y_nghia": "Hướng",
-      "giai_nghia": "Thiên Can"
+      "quan_he": "Thiên Can tương khắc",
+      "noi_dung": "Canh, Tân – Giáp Ất"
     },
     {
-      "thien_can": "Kim",
-      "y_nghia": "Tây",
-      "giai_nghia": "Canh, Tân"
+      "quan_he": "Thiên Can tương khắc",
+      "noi_dung": "Nhâm, Quý – Bính, Đinh"
     },
     {
-      "thien_can": "Mộc",
-      "y_nghia": "Đông",
-      "giai_nghia": "Giáp, Ất"
+      "quan_he": "Địa Chi Âm Dương",
+      "noi_dung": "Địa Chi Âm: Sửu, Hợi, Dậu, Mùi, Tỵ, Mão"
     },
     {
-      "thien_can": "Thủy",
-      "y_nghia": "Bắc",
-      "giai_nghia": "Nhâm, Quý"
+      "quan_he": "Địa Chi Âm Dương",
+      "noi_dung": "Địa Chi Dương: Tý, Dần, Thìn, Ngọ, Thân, Tuất"
     },
     {
-      "thien_can": "Hỏa",
-      "y_nghia": "Nam",
-      "giai_nghia": "Bính, Đinh"
+      "quan_he": "Địa Chi tứ xung",
+      "noi_dung": "Dần xung Thân, Tỵ xung Hợi"
     },
     {
-      "thien_can": "Thổ",
-      "y_nghia": "Ở giữa",
-      "giai_nghia": "Mậu, Kỷ"
+      "quan_he": "Địa Chi tứ xung",
+      "noi_dung": "Thìn xung Tuất, Sửu xung Mùi"
     },
     {
-      "thien_can": "Cung mệnh",
-      "y_nghia": "Hướng",
-      "giai_nghia": "Mùa vượng"
+      "quan_he": "Địa Chi tứ xung",
+      "noi_dung": "Tý xung Ngọ, Mão xung Dậu"
     },
     {
-      "thien_can": "Mộc",
-      "y_nghia": "Đông",
-      "giai_nghia": "Xuân"
+      "quan_he": "Địa Chi tứ xung",
+      "noi_dung": "Trong bộ tứ xung hành có thể chứa các cặp xung khắc nhau. Điều này là do các cặp này có cùng tính chất dương hoặc âm dẫn đến mất cân bằng. Âm vượng hay dương vận quá lớn đều có thể gây xung khắc về nhiều yếu tố như tính chất, môi trường sống, công việc, hôn nhân,…"
     },
     {
-      "thien_can": "Hỏa",
-      "y_nghia": "Nam",
-      "giai_nghia": "Hạ"
+      "quan_he": "Địa Chi lục hại",
+      "noi_dung": "Địa Chi Lục hại:"
     },
     {
-      "thien_can": "Kim",
-      "y_nghia": "Tây",
-      "giai_nghia": "Thu"
+      "quan_he": "Địa Chi lục hại",
+      "noi_dung": "Tí hại Mùi – Sửu hại Ngọ – Dần hại Tỵ"
     },
     {
-      "thien_can": "Thủy",
-      "y_nghia": "Bắc",
-      "giai_nghia": "Đông"
-    },
+      "quan_he": "Địa Chi lục hại",
+      "noi_dung": "Mão hại Thìn – Thân hại Hợi – Dậu hại Tuất"
+    }
+  ],
+  "vong_giap_ty": [
     {
-      "thien_can": "Thổ",
-      "y_nghia": "Ở giữa",
-      "giai_nghia": "Tháng cuối 4 mùa"
+      "stt": 1,
+      "vong_giap_ty": "Vòng Giáp Tí",
+      "chi_tiet": "Giáp Tí, Ất Sửu, Bính Dần, Đinh Mão, Mậu Thìn, Kỷ Tỵ, Canh Ngọ, Tân Mùi, Nhâm Thân và Quý Dậu. Vòng Giáp Tí thiếu hai Địa Chi là Tuất Hợi. Tuất Hợi gọi là bị Không Vong."
     },
     {
-      "thien_can": "Lục thân: Huynh Đệ, Tử Tôn, Thê Tài, Quan Quỷ, Phụ Mẫu:\n - Tương sinh: Huynh Đệ sinh=> Tử Tôn => Thê Tài => Quan Quỷ => Phụ Mẫu => Huynh Đệ;\n - Tương khắc: Huynh Đệ <> Thê tài <> Phụ mẫu <> Tử tôn <> Quan quỷ <> Huynh đệ.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 2,
+      "vong_giap_ty": "Vòng Giáp Tuất",
+      "chi_tiet": "Giáp Tuất, Ất Hợi, Bính Tí, Đinh Sửu, Mậu Dần, Kỷ Mão, Canh Thìn, Tân Tỵ, Nhâm Ngọ và Quý Mùi . Vòng Giáp Tuất thiếu Hai Địa Chi Thân Dậu. Thân Dậu gọi là bị Không Vong."
     },
     {
-      "thien_can": "Ngũ thần là Dụng thần và 4 vệ tinh xung quanh Dụng thần bao gồm: Nguyên thần, Kỵ thần, Tiết thần và Cừu thần:\n - Tương sinh: Nguyên Thần sinh=> Dụng Thần => Tiết Thần => Cừu Thần => Kỵ Thần  => Nguyên Thần; \n - Tương khắc: Nguyên Thần Khắc<> Tiết Thần <> Kỵ Thần <> Dụng Thần <> Cừu Thần <> Nguyên Thần",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 3,
+      "vong_giap_ty": "Vòng Giáp Thân",
+      "chi_tiet": "Giáp Thân, Ất Dậu, Bính Tuất, Đinh Hợi, Mậu Tí, Kỷ Sửu, Canh Dần, Tân Mão, Nhâm Thìn và Quý Tỵ. Vòng Giáp Thân thiếu Hai Địa Chi Ngọ Mùi. Ngọ Mùi gọi là bị Không Vong."
     },
     {
-      "thien_can": "5 Can Dương: Giáp, Bính, Mậu, Canh và Nhâm.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 4,
+      "vong_giap_ty": "Vòng Giáp Ngọ",
+      "chi_tiet": "Giáp Ngọ, Ất Mùi, Bính Thân, Đinh Dậu, Mậu Tuất, Kỷ Hợi, Canh Tí, Tân Sửu, Nhâm Dần và Quý Mão. Vòng Giáp Ngọ thiếu Hai Địa Chi Thìn Tỵ. Thìn Tỵ gọi là bị Không Vong."
     },
     {
-      "thien_can": "5 Can âm: Ất, Đinh, Kỷ, Tân và Quý.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 5,
+      "vong_giap_ty": "Vòng Giáp Thìn",
+      "chi_tiet": "Giáp Thìn, Ất Tỵ, Bính Ngọ, Đinh Mùi, Mậu Thân, Kỷ Dậu, Canh Tuất, Tân Hợi, Nhâm Tí và Quý Sửu. Vòng Giáp Thìn thiếu Hai Địa Chi Dần Mão. Dần Mão gọi là bị không vong."
     },
     {
-      "thien_can": "Địa Chi Lục hại:",
-      "y_nghia": "",
-      "giai_nghia": ""
-    },
+      "stt": 6,
+      "vong_giap_ty": "Vòng Giáp Dần",
+      "chi_tiet": "Giáp Dần, Ất Mão, Bính Thìn, Đinh Tỵ, Mậu Ngọ, Kỷ Mùi, Canh Thân, Tân Dậu, Nhâm Tuất và Quý Hợi. Vòng Giáp Dần thiếu Hai Địa Chi Tí Sửu. Tí Sửu gọi là bị Không vong."
+    }
+  ],
+  "luc_than": [
     {
-      "thien_can": "Tí hại Mùi – Sửu hại Ngọ – Dần hại Tỵ",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 1,
+      "hao": "Phụ Mẫu",
+      "y_nghia": "đoán về nhà cửa thì nó là rường cột: đoán về phụ mẫu nó là hào dụng; đoán về anh em nó là tương sinh; đoán thê tài là người ngoài; đoán về tử tôn là sát, kỵ; đoán về hôn nhân nó là lời đề nghị cầu hôn; đoán về bản thản nó là Âm đức tổ tiên; đoán vế sĩ quan là tuyên lệnh; đoán về cầu quan là giấy tờ trợ giúp; đoán về kiện tụng nó là đơn khởi tố; đoán về giao dịch nó là giao kèo khế ước; đoán về người đi xa nó là thư tín; đoán về buôn bán nó là hương hướng; đoán về cầu mưu là đầu mối; đoán về xuất trận là tướng, hoặc là cờ."
     },
     {
-      "thien_can": "Mão hại Thìn – Thân hại Hợi – Dậu hại Tuất",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "stt": 2,
+      "hao": "Thê Tài",
+      "y_nghia": "đoán về nhà ở là nhà bếp, bếp núc; đoán về bản thân nó là nội trợ, đoán về buôn bán là hàng hóa; đoán về hôn nhân là đồ tư trang; đoán về sĩ quan là lộc tặng; đoán về cầu tài là tài hưng; đoán về phụ mẫu là sát kỵ; đoán về vợ là hào dụng; đoán về kho tàng là kho lương thực; đoán về kiện tụng là phát sinh; đoán về trộm cướp là vật tàng trữ; đoán về đi thuyền là vật chuyên chở; đoán về xuất trận là trọng xa (xe lớn)."
     },
     {
-      "thien_can": "Chi (+)",
-      "y_nghia": "",
-      "giai_nghia": "Chi (-)"
+      "stt": 3,
+      "hao": "Huynh Đệ",
+      "y_nghia": "đoán về nhà cửa là cửa ngõ, hành lang; đoán về bản thân là tai nạn; đoán về đi xa là bạn đường; đoán về buôn bán là bất lợi; đoán về mưu sự là cạnh tranh; đoán về vợ là sát kỵ; đoán về huynh đệ là hào dụng; đoán về tử tôn là hào trợ giúp; đoán về cầu tài là thần kiếp; đoán về mất mát là sự trắc trở không tìm thấy đoán về mở cửa hàng là người nắm quyền."
     },
     {
-      "thien_can": "Tý",
-      "y_nghia": 1,
-      "giai_nghia": "Sửu"
+      "stt": 4,
+      "hao": "Tử Tôn",
+      "y_nghia": "đoán về nhà cửa là nhà phụ; đoán về bản thân là bình yên; đoán về cất nhắc, đề bạt là đơn thư, đoán về buôn bán là đi chợ mua bán; đoán về hôn nhân là khắc chồng; đoán về vợ là nội trợ; đoán về người đi xa là người tùy tùng, phò tá; đoán về bệnh tật là bác sĩ; đoán về mưu vương là kết quả; đoán về trộm cướp là bắt người; đoán về ra trận là người lính; đoán về kiện tụng là hòa giải; đoán về tử tôn là hào dụng; đoán về đi thuyền là ở sâu dưới nước."
     },
     {
-      "thien_can": "Dần",
-      "y_nghia": 2,
-      "giai_nghia": "Mão"
-    },
+      "stt": 5,
+      "hao": "Quan Quỷ",
+      "y_nghia": "đoán về nhà cửa là dinh thự; đoán về bản thân và trở ngại trì trệ; đoán về hôn nhân và mối lái; đoán về sĩ quan và quan chức; đoán về bệnh tật và bệnh khác thường; đoán về kiện tụng và giặc cướp; đoán về ra trận là địch thủ; đoán về quan doanh là hào dụng; đoán về huynh đệ là sát kỵ; đoán về đi thuyền là cột buồm hay mái chèo."
+    }
+  ],
+  "ghi_chu": [
     {
-      "thien_can": "Thìn",
-      "y_nghia": 3,
-      "giai_nghia": "Tị"
+      "chu_de": "Tổng quan Thiên Can - Địa Chi",
+      "noi_dung": "Thiên can được phân theo thứ tự từ 1 đến 10 là: Giáp (1), Ất (2), Bính (3), Đinh (4), Mậu (5), Kỷ (6), Canh (7), Tân (8), Nhâm (9), Quý (10)."
     },
     {
-      "thien_can": "Ngọ",
-      "y_nghia": 4,
-      "giai_nghia": "Mùi"
+      "chu_de": "Tổng quan Thiên Can - Địa Chi",
+      "noi_dung": "Số lẻ là Dương can (Giáp, Bính, Mậu, Canh, Nhâm)."
     },
     {
-      "thien_can": "Thân",
-      "y_nghia": 5,
-      "giai_nghia": "Dậu"
+      "chu_de": "Tổng quan Thiên Can - Địa Chi",
+      "noi_dung": "Số chẵn là Âm (Ất, Đinh, Kỷ, Tân, Quý)."
     },
     {
-      "thien_can": "Tuất",
-      "y_nghia": 6,
-      "giai_nghia": "Hợi"
+      "chu_de": "Tổng quan Thiên Can - Địa Chi",
+      "noi_dung": "Địa chi gồm có 12 địa chi, theo thứ tự từ 1 đến 12 là : Tý (1), Sửu (2), Dần (3) , Mão (4), Thìn (5), Tỵ (6), Ngọ (7), Mùi (8), Thân (9), Dậu (10), Tuất (11), Hợi (12)."
     },
     {
-      "thien_can": "1 Càn, 2 Đoài, 3 Ly, 4 Chấn, 5 Tốn, 6 Khảm, 7 Cấn, 8 Khôn.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Tổng quan Thiên Can - Địa Chi",
+      "noi_dung": "Số lẻ là Dương chi, Số chẵn là Âm chi."
     },
     {
-      "thien_can": "1, Vòng Giáp Tí: Giáp Tí, Ất Sửu, Bính Dần, Đinh Mão, Mậu Thìn, Kỷ Tỵ, Canh Ngọ, Tân Mùi, Nhâm Thân và Quý Dậu. \nVòng Giáp Tí thiếu hai Địa Chi là Tuất Hợi. Tuất Hợi gọi là bị Không Vong.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Tổng quan Thiên Can - Địa Chi",
+      "noi_dung": "Trong khi quy luật bất biến bao giờ cũng phải xét từ Thiên, rồi mới đến Địa, sau đó mới đến Nhân."
     },
     {
-      "thien_can": "2, Vòng Giáp Tuất: Giáp Tuất, Ất Hợi, Bính Tí, Đinh Sửu, Mậu Dần, Kỷ Mão, Canh Thìn, Tân Tỵ, Nhâm Ngọ và Quý Mùi .\n Vòng Giáp Tuất thiếu Hai Địa Chi Thân Dậu. Thân Dậu gọi là bị Không Vong.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Tổng quan Thiên Can - Địa Chi",
+      "noi_dung": "Thời điểm có nghĩa là thiên thời. Vậy thì Địa và Nhân muốn tốt thì phải căn theo thiên thời, tức phụ thuộc yếu tố Thiên. Khi cả ba yếu tố đều tốt thì mọi việc sẽ thuận lợi, hanh thông. Người ta hay nói: Thiên thời, địa lợi, nhân hòa là vì thế."
     },
     {
-      "thien_can": "3, Vòng Giáp Thân: Giáp Thân, Ất Dậu, Bính Tuất, Đinh Hợi, Mậu Tí, Kỷ Sửu, Canh Dần, Tân Mão, Nhâm Thìn và Quý Tỵ. \nVòng Giáp Thân thiếu Hai Địa Chi Ngọ Mùi. Ngọ Mùi gọi là bị Không Vong.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Vai trò của Thiên Can - Địa Chi trong Ngũ Hành",
+      "noi_dung": "Thiên Can và Địa Chi là 2 yếu tố khác nhau nhưng chúng luôn song hành và có mối quan hệ mật thiết. Các yếu tố này thể hiện sự chuyển biến của vạn vật trong vũ trụ và vận mệnh con người."
     },
     {
-      "thien_can": "4, Vòng Giáp Ngọ: Giáp Ngọ, Ất Mùi, Bính Thân, Đinh Dậu, Mậu Tuất, Kỷ Hợi, Canh Tí, Tân Sửu, Nhâm Dần và Quý Mão. \nVòng Giáp Ngọ thiếu Hai Địa Chi Thìn Tỵ. Thìn Tỵ gọi là bị Không Vong.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Vai trò của Thiên Can - Địa Chi trong Ngũ Hành",
+      "noi_dung": "Trong Ngũ Hành phong thủy, Thiên Can và Địa Chi là sự kết hợp hài hòa giữa vận mệnh con người với trời đất, thiên nhiên. Các yếu tố của Thiên Can và Địa Chi được kết hợp để dự đoán về những sự kiện diễn ra trong tương lai đối với một người và tìm cách khắc phục vận hạn không tốt."
     },
     {
-      "thien_can": "5, Vòng Giáp Thìn: Giáp Thìn, Ất Tỵ, Bính Ngọ, Đinh Mùi, Mậu Thân, Kỷ Dậu, Canh Tuất, Tân Hợi, Nhâm Tí và Quý Sửu.\n Vòng Giáp Thìn thiếu Hai Địa Chi Dần Mão. Dần Mão gọi là bị không vong.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Vai trò của Thiên Can - Địa Chi trong Ngũ Hành",
+      "noi_dung": "Ngoài ra, trong Ngũ Hành, sự cân bằng về yếu tố Âm Dương sẽ ảnh hưởng đến các vấn đề về cuộc sống con người như sức khỏe, tài lộc, sự nghiệp,… Do đó, nhiều người phân tích các yếu tố Thiên Can và Địa Chi trong Ngũ Hành nhằm tận dụng tối đa tiềm năng của bản thân để tạo nên một cuộc sống an yên và thịnh vượng."
     },
     {
-      "thien_can": "6, Vòng Giáp Dần: Giáp Dần, Ất Mão, Bính Thìn, Đinh Tỵ, Mậu Ngọ, Kỷ Mùi, Canh Thân, Tân Dậu, Nhâm Tuất và Quý Hợi. \nVòng Giáp Dần thiếu Hai Địa Chi Tí Sửu. Tí Sửu gọi là bị Không vong.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Vai trò của Thiên Can - Địa Chi trong Ngũ Hành",
+      "noi_dung": "Hiện nay, Thiên Can và Địa Chi được con người ứng dụng rộng rãi trong nhiều lĩnh vực cuộc sống như tính tuổi âm lịch, xem cung mệnh, tình duyên, kinh doanh,…"
     },
     {
-      "thien_can": "Hào phụ mẫu: đoán về nhà cửa thì nó là rường cột: đoán về phụ mẫu nó là hào dụng; đoán về anh em nó là tương sinh; đoán thê tài là người ngoài; đoán về tử tôn là sát, kỵ; đoán về hôn nhân nó là lời đề nghị cầu hôn; đoán về bản thản nó là Âm đức tổ tiên; đoán vế sĩ quan là tuyên lệnh; đoán về cầu quan là giấy tờ trợ giúp; đoán về kiện tụng nó là đơn khởi tố; đoán về giao dịch nó là giao kèo khế ước; đoán về người đi xa nó là thư tín; đoán về buôn bán nó là hương hướng; đoán về cầu mưu là đầu mối; đoán về xuất trận là tướng, hoặc là cờ.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Lục Thân - nguyên tắc sinh khắc",
+      "noi_dung": "Lục thân: Huynh Đệ, Tử Tôn, Thê Tài, Quan Quỷ, Phụ Mẫu:\n - Tương sinh: Huynh Đệ sinh=> Tử Tôn => Thê Tài => Quan Quỷ => Phụ Mẫu => Huynh Đệ;\n - Tương khắc: Huynh Đệ <> Thê tài <> Phụ mẫu <> Tử tôn <> Quan quỷ <> Huynh đệ."
     },
     {
-      "thien_can": "Hào thê tài: đoán về nhà ở là nhà bếp, bếp núc; đoán về bản thân nó là nội trợ, đoán về buôn bán là hàng hóa; đoán về hôn nhân là đồ tư trang; đoán về sĩ quan là lộc tặng; đoán về cầu tài là tài hưng; đoán về phụ mẫu là sát kỵ; đoán về vợ là hào dụng; đoán về kho tàng là kho lương thực; đoán về kiện tụng là phát sinh; đoán về trộm cướp là vật tàng trữ; đoán về đi thuyền là vật chuyên chở; đoán về xuất trận là trọng xa (xe lớn).",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Lục Thân - nguyên tắc sinh khắc",
+      "noi_dung": "Ngũ thần là Dụng thần và 4 vệ tinh xung quanh Dụng thần bao gồm: Nguyên thần, Kỵ thần, Tiết thần và Cừu thần:\n - Tương sinh: Nguyên Thần sinh=> Dụng Thần => Tiết Thần => Cừu Thần => Kỵ Thần  => Nguyên Thần; \n - Tương khắc: Nguyên Thần Khắc<> Tiết Thần <> Kỵ Thần <> Dụng Thần <> Cừu Thần <> Nguyên Thần"
     },
     {
-      "thien_can": "Hào huynh đệ: đoán về nhà cửa là cửa ngõ, hành lang; đoán về bản thân là tai nạn; đoán về đi xa là bạn đường; đoán về buôn bán là bất lợi; đoán về mưu sự là cạnh tranh; đoán về vợ là sát kỵ; đoán về huynh đệ là hào dụng; đoán về tử tôn là hào trợ giúp; đoán về cầu tài là thần kiếp; đoán về mất mát là sự trắc trở không tìm thấy đoán về mở cửa hàng là người nắm quyền.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Thiên Can Âm Dương",
+      "noi_dung": "5 Can Dương: Giáp, Bính, Mậu, Canh và Nhâm."
     },
     {
-      "thien_can": "Hào tử tôn: đoán về nhà cửa là nhà phụ; đoán về bản thân là bình yên; đoán về cất nhắc, đề bạt là đơn thư, đoán về buôn bán là đi chợ mua bán; đoán về hôn nhân là khắc chồng; đoán về vợ là nội trợ; đoán về người đi xa là người tùy tùng, phò tá; đoán về bệnh tật là bác sĩ; đoán về mưu vương là kết quả; đoán về trộm cướp là bắt người; đoán về ra trận là người lính; đoán về kiện tụng là hòa giải; đoán về tử tôn là hào dụng; đoán về đi thuyền là ở sâu dưới nước.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Thiên Can Âm Dương",
+      "noi_dung": "5 Can âm: Ất, Đinh, Kỷ, Tân và Quý."
     },
     {
-      "thien_can": "Hào quan quỷ: đoán về nhà cửa là dinh thự; đoán về bản thân và trở ngại trì trệ; đoán về hôn nhân và mối lái; đoán về sĩ quan và quan chức; đoán về bệnh tật và bệnh khác thường; đoán về kiện tụng và giặc cướp; đoán về ra trận là địch thủ; đoán về quan doanh là hào dụng; đoán về huynh đệ là sát kỵ; đoán về đi thuyền là cột buồm hay mái chèo.",
-      "y_nghia": "",
-      "giai_nghia": ""
+      "chu_de": "Số thứ tự Bát Quái",
+      "noi_dung": "1 Càn, 2 Đoài, 3 Ly, 4 Chấn, 5 Tốn, 6 Khảm, 7 Cấn, 8 Khôn."
     }
   ]
 }
