@@ -901,12 +901,38 @@
       const text = mantraTextArea.innerText;
       if (!text) return;
       if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
+        if (window.speechSynthesis.speaking) {
+          window.speechSynthesis.cancel();
+          document.getElementById('btn-speak-mantra').classList.remove('bg-indigo-650', 'text-amber-400', 'animate-pulse');
+          return;
+        }
+        
         const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'vi-VN'; // Read in Vietnamese standard voice
-        window.speechSynthesis.speak(utterance);
+        utterance.lang = 'vi-VN';
+        
+        // Find a Vietnamese voice
+        const voices = window.speechSynthesis.getVoices();
+        const viVoice = voices.find(v => v.lang.includes('vi'));
+        if (viVoice) utterance.voice = viVoice;
+        
+        utterance.rate = 0.9; // reciting should be slightly slower
+        
+        utterance.onstart = function() {
+          document.getElementById('btn-speak-mantra').classList.add('bg-indigo-650', 'text-amber-400', 'animate-pulse');
+        };
+        utterance.onend = function() {
+          document.getElementById('btn-speak-mantra').classList.remove('bg-indigo-650', 'text-amber-400', 'animate-pulse');
+        };
+        utterance.onerror = function() {
+          document.getElementById('btn-speak-mantra').classList.remove('bg-indigo-650', 'text-amber-400', 'animate-pulse');
+        };
+        
+        window.speechSynthesis.cancel();
+        setTimeout(() => {
+          window.speechSynthesis.speak(utterance);
+        }, 100);
       } else {
-        alert("Trình duyệt không hỗ trợ phát âm tiếng Việt.");
+        alert("Trình duyệt không hỗ trợ phát âm tự động.");
       }
     };
 
@@ -914,9 +940,163 @@
     function renderChineseSheetsMenu() {
       const keys = Object.keys(chineseData);
       chineseSheetsTabs.innerHTML = keys.map(key => {
-        return `<button id="sheet-tab-${key}" onclick="selectChineseSheet('${key}')" class="chinese-sheet-badge shrink-0 px-4 py-2 rounded-xl text-xs font-semibold border transition-all duration-200">${chineseSheetNames[key] || key}</button>`;
+        return `<button id="sheet-tab-${key}" onclick="selectChineseSheet('${key}')" class="chinese-sheet-badge shrink-0 px-4 py-2 rounded-xl text-xs font-semibold border transition-all duration-200 bg-slate-900/50 text-slate-400 border-slate-800">${chineseSheetNames[key] || key}</button>`;
       }).join('');
     }
+
+    window.selectChineseSheet = function(key) {
+      activeChineseSheet = key;
+      currentChinesePage = 1;
+
+      document.querySelectorAll('.chinese-sheet-badge').forEach(btn => {
+        if (btn.id === `sheet-tab-${key}`) {
+          btn.classList.add('bg-indigo-500/20', 'text-indigo-300', 'border-indigo-500/50', 'shadow-inner');
+          btn.classList.remove('bg-slate-900/50', 'text-slate-400', 'border-slate-800');
+        } else {
+          btn.classList.remove('bg-indigo-500/20', 'text-indigo-300', 'border-indigo-500/50', 'shadow-inner');
+          btn.classList.add('bg-slate-900/50', 'text-slate-400', 'border-slate-800');
+        }
+      });
+
+      chineseSearchInput.value = '';
+      renderChinese();
+    };
+
+    window.changeChinesePage = function(offset) {
+      currentChinesePage += offset;
+      renderChinese();
+    };
+
+    window.renderChinese = function() {
+      if (!chineseData || !chineseData[activeChineseSheet]) return;
+      const searchVal = removeVietnameseTones(chineseSearchInput.value);
+      const hidePinyin = hidePinyinCheckbox.checked;
+      const hideViet = hideVietnameseCheckbox.checked;
+
+      const rawItems = chineseData[activeChineseSheet];
+      let filtered = rawItems.filter(item => {
+        if (!searchVal) return true;
+        return Object.values(item).some(val => removeVietnameseTones(String(val)).includes(searchVal));
+      });
+
+      chineseCategoryTitle.textContent = chineseSheetNames[activeChineseSheet] || activeChineseSheet;
+      chineseItemCount.textContent = `Tổng: ${filtered.length} kết quả`;
+
+      const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerChinesePage));
+      if (currentChinesePage > totalPages) currentChinesePage = totalPages;
+
+      txtPageInfo.textContent = `Trang ${currentChinesePage} / ${totalPages}`;
+      btnPrevPage.disabled = currentChinesePage === 1;
+      btnNextPage.disabled = currentChinesePage === totalPages;
+
+      const startIndex = (currentChinesePage - 1) * itemsPerChinesePage;
+      const paginated = filtered.slice(startIndex, startIndex + itemsPerChinesePage);
+
+      if (paginated.length === 0) {
+        chineseDisplayArea.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-medium text-slate-400">Không tìm thấy từ vựng phù hợp</p></div>`;
+        return;
+      }
+
+      chineseDisplayArea.innerHTML = paginated.map((item, idx) => {
+        const realStt = item.STT || (startIndex + idx + 1);
+        
+        let primaryText = "";
+        let pinyinText = "";
+        let transText = "";
+        let extraInfo = "";
+
+        if (activeChineseSheet === 'Mau_cau_giao_tiep') {
+          primaryText = item['Tieng Trung'];
+          pinyinText = item['Phien am'];
+          transText = item['Tieng Viet'];
+          extraInfo = item['Chu de'] ? `<span class="text-[9px] font-bold text-teal-400 tracking-wider bg-teal-500/10 px-2 py-0.5 rounded uppercase mb-2 block w-max">${item['Chu de']}</span>` : '';
+        } else if (activeChineseSheet === 'Tu_dien_1500') {
+          primaryText = item['Chu Han'];
+          pinyinText = item['Pinyin'] + (item['Am Han Viet'] ? ` (${item['Am Han Viet']})` : '');
+          transText = item['Nghia'];
+        } else if (activeChineseSheet === '3000_cau_giao_tiep') {
+          primaryText = item['Tieng Trung'];
+          pinyinText = item['Phien am'];
+          transText = item['Tieng Viet'];
+        } else if (activeChineseSheet === 'Cau_thuong_gap') {
+          primaryText = item['Cau (phien am boi)'];
+          transText = item['Chu thich tu'];
+        } else if (activeChineseSheet === 'Tu_vung_pho_bien') {
+          primaryText = item['Tu (phien am boi)'];
+          transText = item['Nghia'];
+        } else if (activeChineseSheet === 'Tu_hay_dung') {
+          primaryText = item['Chu Han'];
+          transText = item['Pinyin (am boi): Nghia'];
+        } else if (activeChineseSheet === '70_Dong_tu') {
+          primaryText = item['Han'];
+          pinyinText = item['Pinyin'] + (item['Doc (am boi)'] ? ` (Bồi: ${item['Doc (am boi)']})` : '');
+          transText = item['Dich'];
+        } else if (activeChineseSheet === '214_Bo_thu') {
+          primaryText = item['Ten bo'];
+          pinyinText = item['Phien am'];
+          transText = item['Y nghia'];
+        } else if (activeChineseSheet === 'Cach_doc_phat_am') {
+          primaryText = item['Van mau'] || item['Thanh mau'] || Object.values(item)[0] || '';
+          transText = item['Cach doc'];
+        } else if (activeChineseSheet === 'Ho_ten_thuong_gap') {
+          primaryText = `${item['Ho (VN)']} ${item['Ten dem/ten (VN)']}`;
+          pinyinText = `${item['Ho (Pinyin)']} ${item['Ten dem/ten (Pinyin)']}`;
+          transText = "Họ tên thường gặp";
+        }
+
+        const speakBtn = primaryText && /[a-zA-Z\u4e00-\u9fa5]/.test(primaryText) ? `
+          <button 
+            onclick="playTTS(event, '${primaryText.replace(/'/g, "\\'")}')" 
+            class="text-indigo-400 hover:text-white p-2 rounded-xl bg-slate-900 border border-slate-800 transition-colors"
+            title="Phát âm"
+          >
+            <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+          </button>
+        ` : '';
+
+        return `
+          <div class="glass-card p-5 rounded-2xl flex flex-col justify-between hover:border-indigo-500/30 transition-all">
+            <div>
+              <div class="flex justify-between items-start mb-2">
+                <span class="text-xs font-mono text-slate-550">#${realStt}</span>
+                ${extraInfo}
+              </div>
+              <h4 class="text-2xl font-bold font-hans text-white select-all mb-2">${primaryText}</h4>
+              ${pinyinText ? `<p class="text-xs font-medium text-teal-400 tracking-wide mb-2 ${hidePinyin ? 'invisible select-none blur-sm' : ''}">${pinyinText}</p>` : ''}
+              ${transText ? `<p class="text-sm text-slate-350 leading-relaxed font-sans mt-2 ${hideViet ? 'invisible select-none blur-sm' : ''}">${transText}</p>` : ''}
+            </div>
+            <div class="flex justify-end mt-4 pt-3 border-t border-slate-800/80">
+              ${speakBtn}
+            </div>
+          </div>
+        `;
+      }).join('');
+    };
+
+    window.playTTS = function(e, text) {
+      if (e) e.stopPropagation();
+      if (!text) return;
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        
+        const isChinese = /[\u4e00-\u9fa5]/.test(text);
+        utterance.lang = isChinese ? 'zh-CN' : 'vi-VN';
+        
+        const voices = window.speechSynthesis.getVoices();
+        const activeVoice = voices.find(v => isChinese ? (v.lang.includes('zh') || v.lang.includes('zho')) : v.lang.includes('vi'));
+        if (activeVoice) utterance.voice = activeVoice;
+        
+        window.speechSynthesis.speak(utterance);
+      }
+    };
+
+    chineseSearchInput.addEventListener('input', () => {
+      currentChinesePage = 1;
+      renderChinese();
+    });
+    hidePinyinCheckbox.addEventListener('change', renderChinese);
+    hideVietnameseCheckbox.addEventListener('change', renderChinese);
 
     // --- KINH DICH MODULE LOGIC ---
     function renderKinhDichSheetsMenu() {
