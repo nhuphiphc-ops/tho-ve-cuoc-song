@@ -141,11 +141,25 @@
           >
             Thần Chú
           </button>
+          <button 
+            id="tab-users" 
+            onclick="switchMainTab('users')" 
+            class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200 hidden"
+          >
+            Thành Viên
+          </button>
         </div>
 
         <div class="text-xs text-slate-400 hidden sm:flex items-center gap-2 bg-slate-900/80 px-3 py-2 rounded-xl border border-slate-800">
           <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
           <span id="header-status">Đang tải thơ...</span>
+        </div>
+        
+        <div id="header-user-area" class="flex items-center gap-2 hidden">
+          <span id="user-info-display" class="text-xs text-indigo-300 font-semibold bg-indigo-500/10 px-2.5 py-2 rounded-xl border border-indigo-500/20 max-w-[150px] truncate"></span>
+          <button id="btn-logout" onclick="handleLogout()" class="px-2.5 py-1.5 rounded-xl text-xs font-semibold bg-rose-950/30 hover:bg-rose-900/40 text-rose-300 hover:text-rose-200 border border-rose-950/40 transition-colors">
+            Đăng xuất
+          </button>
         </div>
       </div>
     </div>
@@ -492,7 +506,160 @@
         </div>
       </div>
     </div>
+
+    <!-- SECTION 5: MEMBER MANAGEMENT (ADMIN ONLY) -->
+    <div id="users-section" class="flex flex-col gap-6 hidden">
+      <!-- Section Header -->
+      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-indigo-950/40 to-slate-950/20 border border-indigo-900/30 p-6 sm:p-8">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-indigo-500/10 via-transparent to-transparent pointer-events-none"></div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold font-display text-white tracking-tight flex items-center gap-2">
+          👥 Quản Lý Thành Viên
+        </h2>
+        <p class="text-slate-350 text-xs sm:text-sm mt-1">
+          Thiết lập tài khoản người dùng và phân quyền truy cập chi tiết cho từng mô-đun bài học.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- Add New Member Form -->
+        <div class="glass-card p-6 rounded-3xl flex flex-col gap-5 lg:col-span-1">
+          <h3 class="text-base font-bold text-indigo-300 flex items-center gap-2 border-b border-slate-800 pb-3">
+            ➕ Thêm Thành Viên Mới
+          </h3>
+          
+          <div class="flex flex-col gap-1.5">
+            <label class="text-xs font-semibold text-slate-400">Email người dùng</label>
+            <input 
+              type="email" 
+              id="new-member-email" 
+              placeholder="nhap_email@vi-du.com"
+              class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-200 placeholder-slate-500 focus:outline-none text-sm"
+            >
+          </div>
+
+          <div class="flex flex-col gap-1.5">
+            <label class="text-xs font-semibold text-slate-400">Mật khẩu cấp</label>
+            <input 
+              type="password" 
+              id="new-member-password" 
+              placeholder="Nhập mật khẩu cho họ"
+              class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-200 placeholder-slate-500 focus:outline-none text-sm"
+            >
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label class="text-xs font-semibold text-slate-400">Quyền truy cập Mô-đun</label>
+            <div class="flex flex-col gap-2.5 bg-slate-950/40 p-3.5 rounded-2xl border border-slate-900 text-xs text-slate-300">
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white transition-colors">
+                <input type="checkbox" id="perm-poems" class="rounded border-slate-850 text-indigo-600 focus:ring-indigo-500 bg-slate-950">
+                <span>Thơ Triết Lý</span>
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white transition-colors">
+                <input type="checkbox" id="perm-chinese" class="rounded border-slate-850 text-indigo-600 focus:ring-indigo-500 bg-slate-950">
+                <span>Tự Học Tiếng Trung</span>
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white transition-colors">
+                <input type="checkbox" id="perm-kinhdich" class="rounded border-slate-850 text-indigo-600 focus:ring-indigo-500 bg-slate-950">
+                <span>Kinh Dịch Cổ Thư</span>
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white transition-colors">
+                <input type="checkbox" id="perm-thanchu" class="rounded border-slate-850 text-indigo-600 focus:ring-indigo-500 bg-slate-950">
+                <span>Thần Chú Phật Giáo</span>
+              </label>
+            </div>
+          </div>
+
+          <button 
+            onclick="addOrUpdateMember()"
+            class="px-5 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-lg shadow-indigo-600/10 mt-2"
+          >
+            Tạo & Cấp Quyền
+          </button>
+        </div>
+
+        <!-- Members List -->
+        <div class="glass-card p-6 rounded-3xl lg:col-span-2 flex flex-col gap-4">
+          <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+            <h3 class="text-base font-bold text-indigo-300">
+              👥 Danh Sách Thành Viên (<span id="members-count">0</span>)
+            </h3>
+            <button 
+              onclick="exportUsersConfig()" 
+              class="text-xs bg-slate-900 border border-slate-800 hover:bg-slate-800 text-slate-350 px-3 py-1.5 rounded-xl flex items-center gap-1.5"
+              title="Xuất cấu hình JSON của người dùng"
+            >
+              📥 Xuất File users.json
+            </button>
+          </div>
+
+          <div class="overflow-x-auto custom-scrollbar">
+            <table class="w-full text-left text-xs sm:text-sm text-slate-350">
+              <thead>
+                <tr class="border-b border-slate-850 text-slate-500 font-semibold text-[11px] uppercase tracking-wider">
+                  <th class="py-3 px-2">Email</th>
+                  <th class="py-3 px-2">Mật khẩu</th>
+                  <th class="py-3 px-2">Quyền Xem</th>
+                  <th class="py-3 px-2">Thao tác</th>
+                </tr>
+              </thead>
+              <tbody id="members-list-body">
+                <!-- Populated dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
+
+  <!-- Login Screen Overlay -->
+  <div id="login-overlay" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/95 backdrop-blur-md hidden" role="dialog" aria-modal="true">
+    <div class="glass-card p-8 rounded-3xl w-full max-w-md flex flex-col gap-6 shadow-2xl relative border-slate-800 bg-slate-900/40">
+      
+      <div class="text-center flex flex-col items-center">
+        <div class="h-12 w-12 rounded-2xl bg-gradient-to-tr from-indigo-500 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/20 mb-4">
+          <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold font-display text-white tracking-tight">ĐĂNG NHẬP HỆ THỐNG</h2>
+        <p class="text-xs text-slate-450 mt-1 uppercase tracking-wider">Trí Tuệ Cổ Nhân - Nguyễn Như Phi</p>
+      </div>
+
+      <div class="flex flex-col gap-4 mt-2">
+        <div class="flex flex-col gap-1.5">
+          <label class="text-xs font-semibold text-slate-400">Email thành viên</label>
+          <input 
+            type="email" 
+            id="login-email" 
+            placeholder="email@vi-du.com"
+            class="w-full px-4 py-3 rounded-2xl bg-slate-950/80 border border-slate-850 text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm shadow-inner"
+          >
+        </div>
+
+        <div class="flex flex-col gap-1.5">
+          <label class="text-xs font-semibold text-slate-400">Mật khẩu</label>
+          <input 
+            type="password" 
+            id="login-password" 
+            placeholder="••••••••"
+            class="w-full px-4 py-3 rounded-2xl bg-slate-950/80 border border-slate-850 text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm shadow-inner"
+          >
+        </div>
+        
+        <div id="login-error-msg" class="text-xs text-rose-400 font-medium hidden text-center bg-rose-500/10 py-2 rounded-xl border border-rose-500/20">
+          Email hoặc mật khẩu không chính xác!
+        </div>
+
+        <button 
+          onclick="handleLoginSubmit()"
+          class="px-5 py-3.5 rounded-2xl bg-indigo-650 hover:bg-indigo-700 text-white font-bold text-sm uppercase tracking-wider transition-colors shadow-lg shadow-indigo-600/15 mt-2"
+        >
+          Xác Nhận Truy Cập
+        </button>
+      </div>
+    </div>
+  </div>
 
   <!-- Gieo Que Overlay/Modal -->
   <div id="gieoque-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/90 backdrop-blur-sm hidden" role="dialog" aria-modal="true">
@@ -718,11 +885,13 @@
       chineseSection.classList.add('hidden');
       kinhdichSection.classList.add('hidden');
       thanchuSection.classList.add('hidden');
+      document.getElementById('users-section').classList.add('hidden');
 
       tabPoems.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
       tabChinese.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
       tabKinhdich.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
       tabThanchu.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
+      document.getElementById('tab-users').className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
 
       if (tab === 'poems') {
         poemsSection.classList.remove('hidden');
@@ -740,6 +909,10 @@
         thanchuSection.classList.remove('hidden');
         tabThanchu.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
         loadThanChuData();
+      } else if (tab === 'users') {
+        document.getElementById('users-section').classList.remove('hidden');
+        document.getElementById('tab-users').className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
+        renderMembersList();
       }
     };
 
@@ -1590,8 +1763,338 @@
       filterPoems();
     });
 
+    // --- AUTHENTICATION & MEMBER MANAGEMENT ---
+    let defaultUsers = [];
+    let localUsers = [];
+    let currentUser = null;
+
+    async function initAuth() {
+      // 1. Fetch default users from users.json
+      try {
+        const response = await fetch('users.json');
+        if (response.ok) {
+          defaultUsers = await response.json();
+        }
+      } catch (e) {
+        console.error("Lỗi khi tải users.json:", e);
+      }
+
+      // 2. Load local edits from localStorage
+      try {
+        const storedLocal = localStorage.getItem('localUsers');
+        if (storedLocal) {
+          localUsers = JSON.parse(storedLocal);
+        }
+      } catch (e) {
+        console.error("Lỗi khi tải localUsers:", e);
+      }
+
+      // 3. Merge users
+      const mergedUsers = getMergedUsers();
+
+      // 4. Check url parameters for auto-login
+      const urlParams = new URLSearchParams(window.location.search);
+      const autoEmail = urlParams.get('email');
+      const autoKey = urlParams.get('key');
+      
+      if (autoEmail && autoKey) {
+        const found = mergedUsers.find(u => u.email.toLowerCase() === autoEmail.toLowerCase() && u.mat_khau === autoKey);
+        if (found) {
+          localStorage.setItem('currentUser', JSON.stringify(found));
+          window.history.replaceState({}, document.title, window.location.pathname);
+        }
+      }
+
+      // 5. Check if logged in
+      const savedUser = localStorage.getItem('currentUser');
+      if (savedUser) {
+        const parsed = JSON.parse(savedUser);
+        const verified = mergedUsers.find(u => u.email.toLowerCase() === parsed.email.toLowerCase() && u.mat_khau === parsed.mat_khau);
+        if (verified) {
+          currentUser = verified;
+        } else {
+          localStorage.removeItem('currentUser');
+        }
+      }
+
+      applyAuthUI();
+    }
+
+    function getMergedUsers() {
+      const map = {};
+      defaultUsers.forEach(u => {
+        map[u.email.toLowerCase()] = { ...u };
+      });
+      localUsers.forEach(u => {
+        map[u.email.toLowerCase()] = { ...u };
+      });
+      return Object.values(map);
+    }
+
+    function applyAuthUI() {
+      const loginOverlay = document.getElementById('login-overlay');
+      const headerUserArea = document.getElementById('header-user-area');
+      const userInfoDisplay = document.getElementById('user-info-display');
+      
+      if (currentUser) {
+        loginOverlay.classList.add('hidden');
+        headerUserArea.classList.remove('hidden');
+        userInfoDisplay.textContent = currentUser.email;
+        userInfoDisplay.classList.remove('hidden');
+
+        const hasPoems = currentUser.quyen.includes('poems');
+        const hasChinese = currentUser.quyen.includes('chinese');
+        const hasKinhDich = currentUser.quyen.includes('kinhdich');
+        const hasThanChu = currentUser.quyen.includes('thanchu');
+        const hasUsers = currentUser.quyen.includes('users') || currentUser.vai_tro === 'Admin';
+
+        toggleTabButtonVisibility('tab-poems', hasPoems);
+        toggleTabButtonVisibility('tab-chinese', hasChinese);
+        toggleTabButtonVisibility('tab-kinhdich', hasKinhDich);
+        toggleTabButtonVisibility('tab-thanchu', hasThanChu);
+        toggleTabButtonVisibility('tab-users', hasUsers);
+
+        const activeTabMap = {
+          'poems': hasPoems,
+          'chinese': hasChinese,
+          'kinhdich': hasKinhDich,
+          'thanchu': hasThanChu,
+          'users': hasUsers
+        };
+
+        let currentTab = 'poems';
+        if (!poemsSection.classList.contains('hidden')) currentTab = 'poems';
+        else if (!chineseSection.classList.contains('hidden')) currentTab = 'chinese';
+        else if (!kinhdichSection.classList.contains('hidden')) currentTab = 'kinhdich';
+        else if (!thanchuSection.classList.contains('hidden')) currentTab = 'thanchu';
+        else if (!document.getElementById('users-section').classList.contains('hidden')) currentTab = 'users';
+
+        if (!activeTabMap[currentTab]) {
+          if (hasPoems) switchMainTab('poems');
+          else if (hasChinese) switchMainTab('chinese');
+          else if (hasKinhDich) switchMainTab('kinhdich');
+          else if (hasThanChu) switchMainTab('thanchu');
+          else if (hasUsers) switchMainTab('users');
+        }
+
+        if (hasUsers) {
+          renderMembersList();
+        }
+      } else {
+        loginOverlay.classList.remove('hidden');
+        headerUserArea.classList.add('hidden');
+        userInfoDisplay.classList.add('hidden');
+      }
+    }
+
+    function toggleTabButtonVisibility(id, visible) {
+      const btn = document.getElementById(id);
+      if (btn) {
+        if (visible) btn.classList.remove('hidden');
+        else btn.classList.add('hidden');
+      }
+    }
+
+    window.handleLoginSubmit = function() {
+      const emailInput = document.getElementById('login-email').value.trim();
+      const passwordInput = document.getElementById('login-password').value.trim();
+      const errorMsg = document.getElementById('login-error-msg');
+
+      if (!emailInput || !passwordInput) {
+        errorMsg.textContent = "Vui lòng nhập đầy đủ email và mật khẩu!";
+        errorMsg.classList.remove('hidden');
+        return;
+      }
+
+      const mergedUsers = getMergedUsers();
+      const found = mergedUsers.find(u => u.email.toLowerCase() === emailInput.toLowerCase() && u.mat_khau === passwordInput);
+      
+      if (found) {
+        currentUser = found;
+        localStorage.setItem('currentUser', JSON.stringify(found));
+        errorMsg.classList.add('hidden');
+        document.getElementById('login-email').value = '';
+        document.getElementById('login-password').value = '';
+        applyAuthUI();
+      } else {
+        errorMsg.textContent = "Email hoặc mật khẩu không chính xác!";
+        errorMsg.classList.remove('hidden');
+      }
+    };
+
+    window.handleLogout = function() {
+      currentUser = null;
+      localStorage.removeItem('currentUser');
+      applyAuthUI();
+    };
+
+    // --- MEMBER MANAGEMENT LOGIC ---
+    function renderMembersList() {
+      const tbody = document.getElementById('members-list-body');
+      const countSpan = document.getElementById('members-count');
+      if (!tbody) return;
+      
+      const merged = getMergedUsers();
+      countSpan.textContent = merged.length;
+
+      tbody.innerHTML = merged.map(u => {
+        const isDefaultAdmin = u.email.toLowerCase() === 'admin@gmail.com';
+        
+        const permsList = [];
+        if (u.quyen.includes('poems')) permsList.push('Thơ');
+        if (u.quyen.includes('chinese')) permsList.push('Tiếng Trung');
+        if (u.quyen.includes('kinhdich')) permsList.push('Kinh Dịch');
+        if (u.quyen.includes('thanchu')) permsList.push('Thần Chú');
+        if (u.quyen.includes('users')) permsList.push('Thành Viên');
+
+        const permsText = permsList.join(', ') || 'Không có';
+        
+        let actions = '';
+        if (isDefaultAdmin) {
+          actions = `<span class="text-slate-500 font-semibold italic text-[11px]">Mặc định (Admin)</span>`;
+        } else {
+          const autoLoginLink = `${window.location.origin}${window.location.pathname}?email=${encodeURIComponent(u.email)}&key=${encodeURIComponent(u.mat_khau)}`;
+          
+          actions = `
+            <div class="flex items-center gap-2">
+              <button 
+                onclick="copyLoginLink('${autoLoginLink.replace(/'/g, "\\'")}')" 
+                class="px-2.5 py-1 rounded bg-slate-900 border border-slate-800 text-[10px] text-teal-400 hover:text-white hover:bg-teal-900/20 transition-all font-semibold"
+                title="Sao chép link đăng nhập nhanh"
+              >
+                🔗 Sao chép Link
+              </button>
+              <button 
+                onclick="editMember('${u.email.replace(/'/g, "\\'")}')"
+                class="px-2.5 py-1 rounded bg-slate-900 border border-slate-800 text-[10px] text-indigo-400 hover:text-white hover:bg-indigo-900/20 transition-all font-semibold"
+              >
+                ✏️ Sửa
+              </button>
+              <button 
+                onclick="deleteMember('${u.email.replace(/'/g, "\\'")}')"
+                class="text-rose-500 hover:text-rose-450 p-1 bg-slate-905 border border-slate-850 rounded hover:bg-rose-950/20"
+                title="Xóa tài khoản"
+              >
+                🗑️
+              </button>
+            </div>
+          `;
+        }
+
+        return `
+          <tr class="border-b border-slate-850 hover:bg-slate-900/30 transition-colors">
+            <td class="py-3 px-2 font-semibold text-white select-all">${u.email}</td>
+            <td class="py-3 px-2 font-mono text-slate-400 select-all">${u.mat_khau}</td>
+            <td class="py-3 px-2">
+              <span class="text-xs text-indigo-300 bg-indigo-500/5 px-2.5 py-0.5 rounded-full border border-indigo-500/10">${permsText}</span>
+            </td>
+            <td class="py-3 px-2">${actions}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    window.copyLoginLink = function(link) {
+      navigator.clipboard.writeText(link).then(() => {
+        alert("Đã sao chép link đăng nhập nhanh cho thành viên này!");
+      }).catch(err => {
+        prompt("Sao chép link bên dưới:", link);
+      });
+    };
+
+    window.editMember = function(email) {
+      const merged = getMergedUsers();
+      const u = merged.find(user => user.email.toLowerCase() === email.toLowerCase());
+      if (!u) return;
+
+      document.getElementById('new-member-email').value = u.email;
+      document.getElementById('new-member-password').value = u.mat_khau;
+      
+      document.getElementById('perm-poems').checked = u.quyen.includes('poems');
+      document.getElementById('perm-chinese').checked = u.quyen.includes('chinese');
+      document.getElementById('perm-kinhdich').checked = u.quyen.includes('kinhdich');
+      document.getElementById('perm-thanchu').checked = u.quyen.includes('thanchu');
+    };
+
+    window.deleteMember = function(email) {
+      if (email.toLowerCase() === 'admin@gmail.com') {
+        alert("Không thể xóa tài khoản Admin mặc định!");
+        return;
+      }
+      if (!confirm(`Bạn có chắc muốn xóa thành viên ${email}?`)) return;
+
+      localUsers = localUsers.filter(u => u.email.toLowerCase() !== email.toLowerCase());
+      localStorage.setItem('localUsers', JSON.stringify(localUsers));
+      
+      if (currentUser && currentUser.email.toLowerCase() === email.toLowerCase()) {
+        handleLogout();
+      } else {
+        renderMembersList();
+        applyAuthUI();
+      }
+    };
+
+    window.addOrUpdateMember = function() {
+      const email = document.getElementById('new-member-email').value.trim();
+      const password = document.getElementById('new-member-password').value.trim();
+      
+      if (!email || !password) {
+        alert("Vui lòng nhập đầy đủ Email và Mật khẩu!");
+        return;
+      }
+
+      const quyen = [];
+      if (document.getElementById('perm-poems').checked) quyen.push('poems');
+      if (document.getElementById('perm-chinese').checked) quyen.push('chinese');
+      if (document.getElementById('perm-kinhdich').checked) quyen.push('kinhdich');
+      if (document.getElementById('perm-thanchu').checked) quyen.push('thanchu');
+
+      const isDefaultAdmin = email.toLowerCase() === 'admin@gmail.com';
+      if (isDefaultAdmin) {
+        quyen.push('users');
+      }
+
+      const newUser = {
+        email: email,
+        mat_khau: password,
+        vai_tro: isDefaultAdmin ? "Admin" : "Khách",
+        quyen: quyen
+      };
+
+      localUsers = localUsers.filter(u => u.email.toLowerCase() !== email.toLowerCase());
+      localUsers.push(newUser);
+      localStorage.setItem('localUsers', JSON.stringify(localUsers));
+
+      document.getElementById('new-member-email').value = '';
+      document.getElementById('new-member-password').value = '';
+      document.getElementById('perm-poems').checked = false;
+      document.getElementById('perm-chinese').checked = false;
+      document.getElementById('perm-kinhdich').checked = false;
+      document.getElementById('perm-thanchu').checked = false;
+
+      alert(`Đã lưu phân quyền thành công cho ${email}!`);
+      
+      renderMembersList();
+      applyAuthUI();
+    };
+
+    window.exportUsersConfig = function() {
+      const merged = getMergedUsers();
+      const jsonStr = JSON.stringify(merged, null, 2);
+      
+      const tempTextArea = document.createElement("textarea");
+      tempTextArea.value = jsonStr;
+      document.body.appendChild(tempTextArea);
+      tempTextArea.select();
+      document.execCommand("copy");
+      document.body.removeChild(tempTextArea);
+      
+      alert("Đã sao chép cấu hình users.json vào Clipboard!\nBạn có thể dán đè nội dung này vào tệp 'users.json' trong máy rồi chạy file bat.");
+    };
+
     // Initial Load
-    window.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener('DOMContentLoaded', async () => {
+      await initAuth();
       loadPoems();
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js')
