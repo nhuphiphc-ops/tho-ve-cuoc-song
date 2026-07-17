@@ -142,6 +142,13 @@
             Thần Chú
           </button>
           <button 
+            id="tab-phapcu" 
+            onclick="switchMainTab('phapcu')" 
+            class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200"
+          >
+            Pháp Cú
+          </button>
+          <button 
             id="tab-users" 
             onclick="switchMainTab('users')" 
             class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200 hidden"
@@ -427,10 +434,14 @@
 
         <!-- Sub Tabs (Select part of prayer) -->
         <div class="w-full mt-4 border-t border-slate-800/60 pt-5 flex flex-wrap gap-2 justify-center" id="thanchu-sub-tabs">
-          <button id="mantra-tab-phat_nguyen" onclick="selectMantraSection('phat_nguyen')" class="mantra-badge px-4 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">1. Phát Nguyện</button>
-          <button id="mantra-tab-chu_dai_bi" onclick="selectMantraSection('chu_dai_bi')" class="mantra-badge px-4 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">2. Chú Đại Bi</button>
-          <button id="mantra-tab-thap_than_chu" onclick="selectMantraSection('thap_than_chu')" class="mantra-badge px-4 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">3. Thập Thần Chú</button>
-          <button id="mantra-tab-hoi_huong" onclick="selectMantraSection('hoi_huong')" class="mantra-badge px-4 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">4. Hồi Hướng</button>
+          <button id="mantra-tab-phat_nguyen" onclick="selectMantraSection('phat_nguyen')" class="mantra-badge px-3 py-1.5 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">1. Phát Nguyện</button>
+          <button id="mantra-tab-chu_dai_bi" onclick="selectMantraSection('chu_dai_bi')" class="mantra-badge px-3 py-1.5 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">2. Chú Đại Bi</button>
+          <button id="mantra-tab-thap_than_chu" onclick="selectMantraSection('thap_than_chu')" class="mantra-badge px-3 py-1.5 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">3. Thập Thần Chú</button>
+          <button id="mantra-tab-bat_nha_tieng_phan" onclick="selectMantraSection('bat_nha_tieng_phan')" class="mantra-badge px-3 py-1.5 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">4. Bát Nhã (Phạn)</button>
+          <button id="mantra-tab-bat_nha_tieng_viet" onclick="selectMantraSection('bat_nha_tieng_viet')" class="mantra-badge px-3 py-1.5 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">5. Bát Nhã (Việt)</button>
+          <button id="mantra-tab-kim_cuong_tat_doa" onclick="selectMantraSection('kim_cuong_tat_doa')" class="mantra-badge px-3 py-1.5 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">6. Kim Cương Tát Đỏa</button>
+          <button id="mantra-tab-muoi_than_chu_linh_nghiem" onclick="selectMantraSection('muoi_than_chu_linh_nghiem')" class="mantra-badge px-3 py-1.5 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">7. 10 Chú Linh Nghiệm</button>
+          <button id="mantra-tab-hoi_huong" onclick="selectMantraSection('hoi_huong')" class="mantra-badge px-3 py-1.5 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/50 text-slate-400">8. Hồi Hướng</button>
         </div>
       </div>
 
@@ -507,7 +518,84 @@
       </div>
     </div>
 
-    <!-- SECTION 5: MEMBER MANAGEMENT (ADMIN ONLY) -->
+    <!-- SECTION 5: KINH PHAP CU -->
+    <div id="phapcu-section" class="flex flex-col gap-6 hidden">
+      <!-- Phap Cu Hero Section -->
+      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-indigo-950/40 to-slate-950/20 border border-indigo-900/30 p-6 sm:p-8 text-center flex flex-col items-center max-w-4xl mx-auto w-full">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-indigo-500/10 via-transparent to-transparent pointer-events-none"></div>
+        
+        <h2 class="text-2xl sm:text-3xl font-extrabold font-display text-white tracking-tight mb-2">
+          Kinh Pháp Cú (Dhammapada)
+        </h2>
+        <p class="text-slate-300 text-xs sm:text-sm max-w-xl leading-relaxed mb-4">
+          Tuyển tập các câu kệ ngôn tinh hoa của Đức Phật, là kim chỉ nam giúp chuyển hóa tâm thức và mang lại an lạc.
+        </p>
+      </div>
+
+      <!-- Search and settings -->
+      <div class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-4 items-center justify-between">
+        <div class="w-full md:max-w-md relative">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+          <input 
+            type="text" 
+            id="phapcu-search" 
+            placeholder="Tìm kiếm theo số Kệ hoặc từ khóa..."
+            class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-755 text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-sm shadow-inner"
+          >
+        </div>
+
+        <div class="flex items-center gap-2 select-none text-xs font-semibold text-slate-355">
+          <span>Cỡ chữ:</span>
+          <select 
+            id="phapcu-fontsize" 
+            onchange="adjustPhapCuFontSize()"
+            class="bg-slate-900 border border-slate-800 text-slate-200 rounded-xl px-3 py-1.5 focus:outline-none"
+          >
+            <option value="text-base">Mặc định</option>
+            <option value="text-lg">Lớn</option>
+            <option value="text-xl">Rất lớn</option>
+            <option value="text-2xl">Cực đại</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Display Grid -->
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-base font-semibold font-display text-slate-350" id="phapcu-title-info">Kệ Ngôn Pháp Cú</h3>
+          <span class="text-xs text-slate-505" id="phapcu-item-count">Tổng: -- kệ</span>
+        </div>
+
+        <div id="phapcu-display-area" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 min-h-[300px]">
+          <!-- Dhammapada cards will render here -->
+        </div>
+
+        <!-- Pagination -->
+        <div id="phapcu-pagination" class="flex items-center justify-between mt-6 bg-slate-900/30 border border-slate-900 p-3 rounded-2xl">
+          <button 
+            id="btn-prev-pc" 
+            onclick="changePhapCuPage(-1)" 
+            class="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white disabled:opacity-40 disabled:cursor-not-allowed text-xs font-semibold border border-slate-800 transition-colors"
+          >
+            Trang Trước
+          </button>
+          <span id="txt-page-info-pc" class="text-xs font-medium text-slate-450">Trang -- / --</span>
+          <button 
+            id="btn-next-pc" 
+            onclick="changePhapCuPage(1)" 
+            class="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white disabled:opacity-40 disabled:cursor-not-allowed text-xs font-semibold border border-slate-800 transition-colors"
+          >
+            Trang Sau
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 6: MEMBER MANAGEMENT (ADMIN ONLY) -->
     <div id="users-section" class="flex flex-col gap-6 hidden">
       <!-- Section Header -->
       <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-indigo-950/40 to-slate-950/20 border border-indigo-900/30 p-6 sm:p-8">
@@ -565,6 +653,10 @@
               <label class="flex items-center gap-2 cursor-pointer hover:text-white transition-colors">
                 <input type="checkbox" id="perm-thanchu" class="rounded border-slate-850 text-indigo-600 focus:ring-indigo-500 bg-slate-950">
                 <span>Thần Chú Phật Giáo</span>
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white transition-colors">
+                <input type="checkbox" id="perm-phapcu" class="rounded border-slate-850 text-indigo-600 focus:ring-indigo-500 bg-slate-950">
+                <span>Kinh Pháp Cú</span>
               </label>
             </div>
           </div>
@@ -768,6 +860,11 @@
     let activeMantraSection = 'phat_nguyen';
     let activeThapThanChuIndex = 0; // index inside list of 10
 
+    let phapCuData = null;
+    let phapCuFiltered = [];
+    let currentPhapCuPage = 1;
+    const itemsPerPhapCuPage = 12;
+
     // Pagination
     let currentChinesePage = 1;
     const itemsPerChinesePage = 48;
@@ -780,12 +877,14 @@
     const chineseSection = document.getElementById('chinese-section');
     const kinhdichSection = document.getElementById('kinhdich-section');
     const thanchuSection = document.getElementById('thanchu-section');
+    const phapcuSection = document.getElementById('phapcu-section');
 
     // Main buttons
     const tabPoems = document.getElementById('tab-poems');
     const tabChinese = document.getElementById('tab-chinese');
     const tabKinhdich = document.getElementById('tab-kinhdich');
     const tabThanchu = document.getElementById('tab-thanchu');
+    const tabPhapcu = document.getElementById('tab-phapcu');
     const headerStatus = document.getElementById('header-status');
 
     // Poems DOM
@@ -885,12 +984,14 @@
       chineseSection.classList.add('hidden');
       kinhdichSection.classList.add('hidden');
       thanchuSection.classList.add('hidden');
+      phapcuSection.classList.add('hidden');
       document.getElementById('users-section').classList.add('hidden');
 
       tabPoems.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
       tabChinese.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
       tabKinhdich.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
       tabThanchu.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
+      tabPhapcu.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
       document.getElementById('tab-users').className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all text-slate-400 hover:text-slate-200";
 
       if (tab === 'poems') {
@@ -909,6 +1010,10 @@
         thanchuSection.classList.remove('hidden');
         tabThanchu.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
         loadThanChuData();
+      } else if (tab === 'phapcu') {
+        phapcuSection.classList.remove('hidden');
+        tabPhapcu.className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
+        loadPhapCuData();
       } else if (tab === 'users') {
         document.getElementById('users-section').classList.remove('hidden');
         document.getElementById('tab-users').className = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold tracking-wide transition-all bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
@@ -978,6 +1083,95 @@
       }
     }
 
+    // --- KINH PHAP CU ---
+    async function loadPhapCuData() {
+      if (phapCuData) {
+        renderPhapCuCards();
+        return;
+      }
+      headerStatus.textContent = "Đang tải Kinh Pháp Cú...";
+      try {
+        const response = await fetch('phap_cu.json');
+        if (!response.ok) throw new Error("Không thể tải phap_cu.json");
+        phapCuData = await response.json();
+        headerStatus.textContent = `Kinh Pháp Cú: ${phapCuData.length} kệ ngôn sẵn sàng`;
+        renderPhapCuCards();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('phapcu-display-area').innerHTML =
+          `<p class="col-span-full py-12 text-center text-red-400">Không thể tải dữ liệu Kinh Pháp Cú.</p>`;
+      }
+    }
+
+    function renderPhapCuCards() {
+      const searchVal = removeVietnameseTones(
+        (document.getElementById('phapcu-search')?.value || '').toLowerCase()
+      );
+
+      phapCuFiltered = phapCuData.filter(v => {
+        const keStr = `ke ${v.ke} ${v.ke}`;
+        const combined = removeVietnameseTones(keStr + ' ' + v.noi_dung).toLowerCase();
+        return !searchVal || combined.includes(searchVal);
+      });
+
+      const totalPages = Math.max(1, Math.ceil(phapCuFiltered.length / itemsPerPhapCuPage));
+      if (currentPhapCuPage > totalPages) currentPhapCuPage = 1;
+
+      const start = (currentPhapCuPage - 1) * itemsPerPhapCuPage;
+      const slice = phapCuFiltered.slice(start, start + itemsPerPhapCuPage);
+
+      const area = document.getElementById('phapcu-display-area');
+      const countEl = document.getElementById('phapcu-item-count');
+      const pageInfoEl = document.getElementById('txt-page-info-pc');
+      const btnPrev = document.getElementById('btn-prev-pc');
+      const btnNext = document.getElementById('btn-next-pc');
+
+      countEl.textContent = `Hiển thị ${phapCuFiltered.length} / ${phapCuData.length} kệ`;
+      pageInfoEl.textContent = `Trang ${currentPhapCuPage} / ${totalPages}`;
+      btnPrev.disabled = currentPhapCuPage === 1;
+      btnNext.disabled = currentPhapCuPage >= totalPages;
+
+      if (slice.length === 0) {
+        area.innerHTML = `<p class="col-span-full py-12 text-center text-slate-500">Không tìm thấy kệ ngôn phù hợp.</p>`;
+        return;
+      }
+
+      const fontSize = document.getElementById('phapcu-fontsize')?.value || 'text-base';
+
+      area.innerHTML = slice.map(v => {
+        const lines = v.noi_dung.split('\n').map(l => `<p class="leading-relaxed">${l}</p>`).join('');
+        return `
+          <div class="glass-card rounded-2xl p-5 flex flex-col gap-3 hover:border-indigo-500/30 transition-all duration-300 border border-slate-800/60">
+            <div class="flex items-center gap-2">
+              <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-extrabold border border-indigo-500/30">
+                ${v.ke}
+              </span>
+              <span class="text-xs font-bold text-indigo-300 tracking-widest uppercase">Kệ ${v.ke}</span>
+            </div>
+            <div class="${fontSize} text-slate-200 font-serif italic leading-relaxed">
+              ${lines}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    window.changePhapCuPage = function(dir) {
+      const totalPages = Math.max(1, Math.ceil(phapCuFiltered.length / itemsPerPhapCuPage));
+      currentPhapCuPage = Math.min(totalPages, Math.max(1, currentPhapCuPage + dir));
+      renderPhapCuCards();
+      phapcuSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    window.adjustPhapCuFontSize = function() {
+      if (phapCuData) renderPhapCuCards();
+    };
+
+    document.getElementById('phapcu-search')?.addEventListener('input', () => {
+      currentPhapCuPage = 1;
+      if (phapCuData) renderPhapCuCards();
+    });
+
     // --- MANTRAS (THAN CHU) LOGIC ---
     window.selectMantraSection = function(section) {
       activeMantraSection = section;
@@ -993,7 +1187,7 @@
         }
       });
 
-      if (section === 'thap_than_chu') {
+      if (section === 'thap_than_chu' || section === 'muoi_than_chu_linh_nghiem') {
         mantraListSidebar.classList.remove('hidden');
         renderMantraSidebarList();
         selectMantraIndex(0);
@@ -1008,11 +1202,14 @@
       const titleMap = {
         'phat_nguyen': 'NGHI THỨC PHÁT NGUYỆN',
         'chu_dai_bi': 'CHÚ ĐẠI BI (ĐẠI BI TÂM ĐÀ LA NI)',
+        'bat_nha_tieng_phan': 'BÁT NHÃ TÂM KINH (TIẾNG PHẠN PHIÊN ÂM)',
+        'bat_nha_tieng_viet': 'BÁT NHÃ BA LA MẬT ĐA TÂM KINH',
+        'kim_cuong_tat_doa': 'KIM CƯƠNG TÁT ĐỎA TRĂM CHỮ BẢN PHẠN',
         'hoi_huong': 'NGHI THỨC HỒI HƯỚNG'
       };
       
       const content = thanChuData[activeMantraSection] || '';
-      const title = titleMap[activeMantraSection] || '';
+      const title = titleMap[activeMantraSection] || 'Kinh Chú';
       
       thanchuTitleHeader.textContent = title;
       mantraContentTitle.textContent = title;
@@ -1020,10 +1217,12 @@
     }
 
     function renderMantraSidebarList() {
-      if (!thanChuData || !thanChuData.thap_than_chu) return;
+      if (!thanChuData) return;
       const searchVal = removeVietnameseTones(thanchuSearchInput.value);
       
-      const list = thanChuData.thap_than_chu;
+      const list = activeMantraSection === 'thap_than_chu' 
+        ? thanChuData.thap_than_chu 
+        : (thanChuData.muoi_than_chu_linh_nghiem || []);
       
       mantraNamesList.innerHTML = list.map((m, idx) => {
         const text = m.ten;
@@ -1053,10 +1252,14 @@
         }
       });
 
-      const mantra = thanChuData.thap_than_chu[idx];
+      const list = activeMantraSection === 'thap_than_chu' 
+        ? thanChuData.thap_than_chu 
+        : (thanChuData.muoi_than_chu_linh_nghiem || []);
+        
+      const mantra = list[idx];
       if (!mantra) return;
       
-      thanchuTitleHeader.textContent = `Thập Thần Chú: ${mantra.ten}`;
+      thanchuTitleHeader.textContent = activeMantraSection === 'thap_than_chu' ? `Thập Thần Chú: ${mantra.ten}` : `10 Thần Chú Linh Nghiệm: ${mantra.ten}`;
       mantraContentTitle.textContent = `${mantra.stt}. ${mantra.ten}`;
       mantraTextArea.innerHTML = mantra.noi_dung;
     };
@@ -1846,12 +2049,14 @@
         const hasChinese = currentUser.quyen.includes('chinese');
         const hasKinhDich = currentUser.quyen.includes('kinhdich');
         const hasThanChu = currentUser.quyen.includes('thanchu');
+        const hasPhapCu = currentUser.quyen.includes('phapcu');
         const hasUsers = currentUser.quyen.includes('users') || currentUser.vai_tro === 'Admin';
 
         toggleTabButtonVisibility('tab-poems', hasPoems);
         toggleTabButtonVisibility('tab-chinese', hasChinese);
         toggleTabButtonVisibility('tab-kinhdich', hasKinhDich);
         toggleTabButtonVisibility('tab-thanchu', hasThanChu);
+        toggleTabButtonVisibility('tab-phapcu', hasPhapCu);
         toggleTabButtonVisibility('tab-users', hasUsers);
 
         const activeTabMap = {
@@ -1859,6 +2064,7 @@
           'chinese': hasChinese,
           'kinhdich': hasKinhDich,
           'thanchu': hasThanChu,
+          'phapcu': hasPhapCu,
           'users': hasUsers
         };
 
@@ -1867,6 +2073,7 @@
         else if (!chineseSection.classList.contains('hidden')) currentTab = 'chinese';
         else if (!kinhdichSection.classList.contains('hidden')) currentTab = 'kinhdich';
         else if (!thanchuSection.classList.contains('hidden')) currentTab = 'thanchu';
+        else if (!phapcuSection.classList.contains('hidden')) currentTab = 'phapcu';
         else if (!document.getElementById('users-section').classList.contains('hidden')) currentTab = 'users';
 
         if (!activeTabMap[currentTab]) {
@@ -1874,6 +2081,7 @@
           else if (hasChinese) switchMainTab('chinese');
           else if (hasKinhDich) switchMainTab('kinhdich');
           else if (hasThanChu) switchMainTab('thanchu');
+          else if (hasPhapCu) switchMainTab('phapcu');
           else if (hasUsers) switchMainTab('users');
         }
 
@@ -2014,6 +2222,7 @@
       document.getElementById('perm-chinese').checked = u.quyen.includes('chinese');
       document.getElementById('perm-kinhdich').checked = u.quyen.includes('kinhdich');
       document.getElementById('perm-thanchu').checked = u.quyen.includes('thanchu');
+      document.getElementById('perm-phapcu').checked = u.quyen.includes('phapcu');
     };
 
     window.deleteMember = function(email) {
@@ -2048,6 +2257,7 @@
       if (document.getElementById('perm-chinese').checked) quyen.push('chinese');
       if (document.getElementById('perm-kinhdich').checked) quyen.push('kinhdich');
       if (document.getElementById('perm-thanchu').checked) quyen.push('thanchu');
+      if (document.getElementById('perm-phapcu').checked) quyen.push('phapcu');
 
       const isDefaultAdmin = email.toLowerCase() === 'admin@gmail.com';
       if (isDefaultAdmin) {
@@ -2071,6 +2281,7 @@
       document.getElementById('perm-chinese').checked = false;
       document.getElementById('perm-kinhdich').checked = false;
       document.getElementById('perm-thanchu').checked = false;
+      document.getElementById('perm-phapcu').checked = false;
 
       alert(`Đã lưu phân quyền thành công cho ${email}!`);
       

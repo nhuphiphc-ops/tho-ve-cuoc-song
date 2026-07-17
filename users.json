@@ -3,7 +3,7 @@
     "email": "admin@gmail.com",
     "mat_khau": "admin",
     "vai_tro": "Admin",
-    "quyen": ["poems", "chinese", "kinhdich", "thanchu", "users"]
+    "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "users"]
   },
   {
     "email": "khach@gmail.com",

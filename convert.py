@@ -234,10 +234,16 @@ def convert_than_chu():
             else:
                 paragraphs.append("")
                 
-        phat_nguyen_lines = []
-        chu_dai_bi_lines = []
-        hoi_huong_lines = []
-        thap_than_chu_raw = []
+        sections = {
+            "phat_nguyen": [],
+            "chu_dai_bi": [],
+            "hoi_huong": [],
+            "thap_than_chu": [],
+            "bat_nha_tieng_phan": [],
+            "bat_nha_tieng_viet": [],
+            "kim_cuong_tat_doa": [],
+            "muoi_than_chu_linh_nghiem": []
+        }
         
         current_sec = None
         for p in paragraphs:
@@ -245,53 +251,82 @@ def convert_than_chu():
             if not p_clean:
                 continue
                 
-            if "PHÁT NGUYỆN" in p_clean.upper():
+            p_upper = p_clean.upper()
+            is_list_item = re.match(r"^\d+\.", p_clean)
+            
+            if p_upper == "PHÁT NGUYỆN":
                 current_sec = "phat_nguyen"
                 continue
-            elif "CHÚ ĐẠI BỊ" in p_clean.upper() or "CHÚ ĐẠI BI" in p_clean.upper():
+            elif p_upper in ["CHÚ ĐẠI BI", "CHÚ ĐẠI BỊ"]:
                 current_sec = "chu_dai_bi"
                 continue
-            elif "HỒI HƯỚNG" in p_clean.upper():
+            elif p_upper == "HỒI HƯỚNG":
                 current_sec = "hoi_huong"
                 continue
-            elif "THẬP THẦN CHÚ" in p_clean.upper():
+            elif p_upper == "THẬP THẦN CHÚ":
                 current_sec = "thap_than_chu"
                 continue
+            elif ("BÁT NHÃ TÂM KINH-TIẾNG PHẠN" in p_upper or "BÁT NHÃ TÂM KINH - TIẾNG PHẠN" in p_upper) and not is_list_item:
+                current_sec = "bat_nha_tieng_phan"
+                continue
+            elif "BÁT NHÃ TÂM KINH" in p_upper and not is_list_item:
+                current_sec = "bat_nha_tieng_viet"
+                continue
+            elif ("KIM CƯƠNG TẤT ĐỎA" in p_upper or "KIM CƯƠNG TÁT ĐỎA" in p_upper) and not is_list_item:
+                current_sec = "kim_cuong_tat_doa"
+                continue
+            elif "10 CÂU THẦN CHÚ LINH NGHIỆM" in p_upper and not is_list_item:
+                current_sec = "muoi_than_chu_linh_nghiem"
+                continue
                 
-            if current_sec == "phat_nguyen":
-                phat_nguyen_lines.append(p_clean)
-            elif current_sec == "chu_dai_bi":
-                chu_dai_bi_lines.append(p_clean)
-            elif current_sec == "hoi_huong":
-                hoi_huong_lines.append(p_clean)
-            elif current_sec == "thap_than_chu":
-                thap_than_chu_raw.append(p_clean)
+            if current_sec:
+                sections[current_sec].append(p_clean)
                 
-        mantras = []
-        for line in thap_than_chu_raw:
+        # Process Thập Thần Chú
+        thap_than_chu = []
+        for line in sections["thap_than_chu"]:
             match_first = re.match(r"^(NHƯ Ý BẢO LUÂN VƯƠNG ĐÀ LA NI)(.*)$", line)
             match_numbered = re.match(r"^(\d+)\.\s*(.*?)(THẦN CHÚ|ĐÀ LA NI|CHƠN NGÔN)(.*)$", line)
             
             if match_first:
                 title = match_first.group(1).strip()
                 content = match_first.group(2).strip()
-                mantras.append({"stt": 1, "ten": title, "noi_dung": content})
+                thap_than_chu.append({"stt": 1, "ten": title, "noi_dung": content})
             elif match_numbered:
                 stt = int(match_numbered.group(1))
                 title = (match_numbered.group(2) + match_numbered.group(3)).strip()
                 content = match_numbered.group(4).strip()
-                mantras.append({"stt": stt, "ten": title, "noi_dung": content})
+                thap_than_chu.append({"stt": stt, "ten": title, "noi_dung": content})
             else:
-                if mantras:
-                    mantras[-1]["noi_dung"] += "\n" + line
+                if thap_than_chu:
+                    thap_than_chu[-1]["noi_dung"] += "\n" + line
                 else:
-                    mantras.append({"stt": 0, "ten": "Khác", "noi_dung": line})
+                    thap_than_chu.append({"stt": 0, "ten": "Khác", "noi_dung": line})
+
+        # Process 10 Câu Thần Chú Linh Nghiệm
+        muoi_than_chu = []
+        for line in sections["muoi_than_chu_linh_nghiem"]:
+            match = re.match(r"^(\d+)\.\s*(.*?)(?::\s*)?(OM|GATE|ÔM)(.*)$", line, re.IGNORECASE)
+            if match:
+                stt = int(match.group(1))
+                title = match.group(2).strip()
+                content = (match.group(3) + match.group(4)).strip()
+                muoi_than_chu.append({"stt": stt, "ten": title, "noi_dung": content})
+            else:
+                if muoi_than_chu:
+                    muoi_than_chu[-1]["noi_dung"] += "\n" + line
+                else:
+                    muoi_than_chu.append({"stt": 0, "ten": "Khác", "noi_dung": line})
                     
         data = {
-            "phat_nguyen": "\n".join(phat_nguyen_lines),
-            "chu_dai_bi": "\n".join(chu_dai_bi_lines),
-            "hoi_huong": "\n".join(hoi_huong_lines),
-            "thap_than_chu": mantras
+            "phat_nguyen": "\n".join(sections["phat_nguyen"]),
+            "chu_dai_bi": "\n".join(sections["chu_dai_bi"]),
+            "hoi_huong": "\n".join(sections["hoi_huong"]),
+            "thap_than_chu": thap_than_chu,
+            "bat_nha_tieng_phan": "\n".join(sections["bat_nha_tieng_phan"]),
+            "bat_nha_tieng_viet": "\n".join(sections["bat_nha_tieng_viet"]),
+            "kim_cuong_tat_doa": "\n".join(sections["kim_cuong_tat_doa"]),
+            "muoi_than_chu_linh_nghiem": muoi_than_chu
         }
         
         output_file = "than_chu.json"
@@ -301,11 +336,78 @@ def convert_than_chu():
     except Exception as e:
         print("Error converting Mantra docx:", e)
 
+def convert_phap_cu():
+    paths_to_try = [
+        r"e:\IRPORT-ẢNH\KINH PHAP CU\Kinh Phap Cu - Tuyen tap ke ngon.docx",
+        "Kinh Phap Cu - Tuyen tap ke ngon.docx"
+    ]
+    docx_file = None
+    for p in paths_to_try:
+        if os.path.exists(p):
+            docx_file = p
+            break
+            
+    if not docx_file:
+        print("Dhammapada DOCX file not found. Skipping...")
+        return
+        
+    print(f"Reading Dhammapada data from {docx_file}...")
+    try:
+        doc = zipfile.ZipFile(docx_file)
+        xml_content = doc.read('word/document.xml')
+        root = ET.fromstring(xml_content)
+        
+        paragraphs = []
+        for paragraph in root.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}p'):
+            texts = [node.text for node in paragraph.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t') if node.text]
+            if texts:
+                paragraphs.append("".join(texts).strip())
+            else:
+                paragraphs.append("")
+                
+        verses = []
+        current_ke = None
+        current_content = []
+        
+        for p in paragraphs:
+            p_clean = p.strip()
+            if not p_clean:
+                continue
+                
+            match_ke = re.match(r"^Kệ\s+(\d+)", p_clean, re.IGNORECASE)
+            if match_ke:
+                if current_ke is not None:
+                    verses.append({
+                        "ke": current_ke,
+                        "noi_dung": "\n".join(current_content)
+                    })
+                current_ke = int(match_ke.group(1))
+                current_content = []
+            else:
+                if p_clean.upper() in ["KINH PHÁP CÚ", "TUYỂN TẬP CÁC KỆ NGÔN"]:
+                    continue
+                if current_ke is not None:
+                    current_content.append(p_clean)
+                    
+        if current_ke is not None:
+            verses.append({
+                "ke": current_ke,
+                "noi_dung": "\n".join(current_content)
+            })
+            
+        output_file = "phap_cu.json"
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(verses, f, ensure_ascii=False, indent=2)
+        print(f"Successfully converted Dhammapada document into {output_file}")
+    except Exception as e:
+        print("Error converting Dhammapada docx:", e)
+
 def main():
     convert_poems()
     convert_chinese()
     convert_kinh_dich()
     convert_than_chu()
+    convert_phap_cu()
 
 if __name__ == "__main__":
     main()
