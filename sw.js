@@ -1,20 +1,21 @@
-const CACHE_NAME = 'tho-ve-cuoc-song-v8';
+const CACHE_NAME = 'tho-ve-cuoc-song-v11';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/data.json',
-  '/tieng_trung.json',
-  '/kinh_dich.json',
-  '/than_chu.json',
-  '/phap_cu.json',
-  '/users.json',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png'
+  './',
+  './index.html',
+  './data.json',
+  './tieng_trung.json',
+  './kinh_dich.json',
+  './than_chu.json',
+  './phap_cu.json',
+  './co_nhan.json',
+  './users.json',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
-// Install Service Worker
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       console.log('[Service Worker] Caching static assets');
@@ -23,7 +24,6 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// Activate Service Worker & Clean old caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
@@ -35,35 +35,59 @@ self.addEventListener('activate', (event) => {
           }
         })
       );
-    })
+    }).then(() => self.clients.claim())
   );
 });
 
-// Fetch events with Network First Strategy (falling back to cache)
 self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    fetch(event.request)
-      .then((networkResponse) => {
-        // If successful, cache the response clone
-        if (networkResponse.status === 200) {
-          const cacheClone = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, cacheClone);
-          });
-        }
-        return networkResponse;
-      })
-      .catch(() => {
-        // Fallback to cache if network fails (offline mode)
-        return caches.match(event.request).then((cachedResponse) => {
-          if (cachedResponse) {
-            return cachedResponse;
-          }
-          // If resource not in cache and index.html was requested, fallback to root
-          if (event.request.mode === 'navigate') {
-            return caches.match('/index.html');
-          }
-        });
-      })
-  );
+  const { request } = event;
+
+  if (request.method !== 'GET') return;
+  if (request.url.startsWith('chrome-extension://') || request.url.startsWith('about:')) return;
+
+  const url = new URL(request.url);
+  const isSameOrigin = url.origin === self.location.origin;
+  const isStaticAsset = request.destination === 'document' || request.destination === 'script' || request.destination === 'style' || request.destination === 'image' || request.destination === 'manifest' || request.destination === 'font' || request.url.includes('.json') || request.url.includes('.png');
+
+  if (!isSameOrigin) return;
+
+  if (request.mode === 'navigate') {
+    event.respondWith(networkFirst(request));
+    return;
+  }
+
+  if (isStaticAsset) {
+    event.respondWith(cacheFirst(request));
+  }
 });
+
+async function networkFirst(request) {
+  try {
+    const networkResponse = await fetch(request);
+    if (networkResponse && networkResponse.status === 200) {
+      const cache = await caches.open(CACHE_NAME);
+      cache.put(request, networkResponse.clone());
+    }
+    return networkResponse;
+  } catch (error) {
+    const cachedResponse = await caches.match(request, { ignoreSearch: true });
+    if (cachedResponse) {
+      return cachedResponse;
+    }
+    return caches.match('./index.html');
+  }
+}
+
+async function cacheFirst(request) {
+  const cachedResponse = await caches.match(request, { ignoreSearch: true });
+  if (cachedResponse) {
+    return cachedResponse;
+  }
+
+  const networkResponse = await fetch(request);
+  if (networkResponse && networkResponse.status === 200) {
+    const cache = await caches.open(CACHE_NAME);
+    cache.put(request, networkResponse.clone());
+  }
+  return networkResponse;
+}
