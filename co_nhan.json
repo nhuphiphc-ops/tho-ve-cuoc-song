@@ -1,52 +1,902 @@
 [
-  { "id": 1, "tac_gia": "Khổng Tử", "cau_noi": "Học nhi bất tư tắc võng, tư nhi bất học tắc đãi.", "y_nghia": "Học mà không suy nghĩ thì mờ mịt, suy nghĩ mà không học thì nguy hại. Học và suy ngẫm phải song hành." },
-  { "id": 2, "tac_gia": "Khổng Tử", "cau_noi": "Kỷ sở bất dục, vật thi ư nhân.", "y_nghia": "Điều mình không muốn thì đừng làm cho người khác. Đây là nền tảng của lòng khoan dung." },
-  { "id": 3, "tac_gia": "Khổng Tử", "cau_noi": "Tam nhân hành, tất hữu ngã sư yên.", "y_nghia": "Trong ba người cùng đi, ắt có người là thầy ta. Ai cũng có điều đáng học hỏi." },
-  { "id": 4, "tac_gia": "Khổng Tử", "cau_noi": "Tri chi vi tri chi, bất tri vi bất tri, thị tri dã.", "y_nghia": "Biết thì nói biết, không biết thì nói không biết, đó mới là biết thật sự." },
-  { "id": 5, "tac_gia": "Khổng Tử", "cau_noi": "Quân tử cầu chư kỷ, tiểu nhân cầu chư nhân.", "y_nghia": "Người quân tử xét lỗi ở mình, kẻ tiểu nhân đổ lỗi cho người khác." },
-  { "id": 6, "tac_gia": "Khổng Tử", "cau_noi": "Xảo ngôn lệnh sắc, tiển hĩ nhân.", "y_nghia": "Lời nói khéo léo, vẻ mặt giả tạo, những kẻ ấy hiếm khi có lòng nhân." },
-  { "id": 7, "tac_gia": "Khổng Tử", "cau_noi": "Ôn cố nhi tri tân, khả dĩ vi sư hĩ.", "y_nghia": "Ôn lại điều cũ mà biết điều mới, người như vậy có thể làm thầy được." },
-  { "id": 8, "tac_gia": "Khổng Tử", "cau_noi": "Đức bất cô, tất hữu lân.", "y_nghia": "Người có đức không bao giờ cô độc, ắt sẽ có người đồng hành." },
-  { "id": 9, "tac_gia": "Khổng Tử", "cau_noi": "Quá nhi bất cải, thị vị quá hĩ.", "y_nghia": "Có lỗi mà không sửa, đó mới thật sự là lỗi lầm." },
-  { "id": 10, "tac_gia": "Khổng Tử", "cau_noi": "Bất hoạn nhân chi bất kỷ tri, hoạn bất tri nhân dã.", "y_nghia": "Không lo người khác không hiểu mình, chỉ lo mình không hiểu người khác." },
-  { "id": 11, "tac_gia": "Lão Tử", "cau_noi": "Đạo khả đạo, phi thường đạo.", "y_nghia": "Đạo mà có thể gọi tên được thì không phải là Đạo vĩnh hằng. Chân lý lớn vượt ngoài ngôn từ." },
-  { "id": 12, "tac_gia": "Lão Tử", "cau_noi": "Tri nhân giả trí, tự tri giả minh.", "y_nghia": "Hiểu người là trí tuệ, hiểu chính mình mới là sáng suốt thật sự." },
-  { "id": 13, "tac_gia": "Lão Tử", "cau_noi": "Thắng nhân giả hữu lực, tự thắng giả cường.", "y_nghia": "Thắng người là có sức mạnh, tự thắng chính mình mới là kẻ mạnh thật sự." },
-  { "id": 14, "tac_gia": "Lão Tử", "cau_noi": "Thiên hạ nan sự tất tác ư dị, thiên hạ đại sự tất tác ư tế.", "y_nghia": "Việc khó trong thiên hạ khởi từ việc dễ, việc lớn khởi từ việc nhỏ. Hãy bắt đầu từ những điều nhỏ nhặt." },
-  { "id": 15, "tac_gia": "Lão Tử", "cau_noi": "Thượng thiện nhược thủy.", "y_nghia": "Điều thiện cao nhất giống như nước, mềm mại mà nuôi dưỡng vạn vật, không tranh giành với ai." },
-  { "id": 16, "tac_gia": "Lão Tử", "cau_noi": "Tri túc giả phú.", "y_nghia": "Người biết đủ là người giàu có. Hạnh phúc đến từ sự tri túc, không phải từ sở hữu." },
-  { "id": 17, "tac_gia": "Lão Tử", "cau_noi": "Hợp bão chi mộc, sinh ư hào mạt; cửu tằng chi đài, khởi ư lũy thổ.", "y_nghia": "Cây to một ôm khởi từ mầm nhỏ, đài cao chín tầng khởi từ nắm đất. Việc lớn đều bắt đầu từ điều nhỏ bé." },
-  { "id": 18, "tac_gia": "Lão Tử", "cau_noi": "Khúc tắc toàn, uổng tắc trực.", "y_nghia": "Biết uốn mình thì được vẹn toàn, biết chịu thiệt thì sẽ được ngay thẳng." },
-  { "id": 19, "tac_gia": "Lão Tử", "cau_noi": "Đại xảo nhược chuyết, đại biện nhược nột.", "y_nghia": "Khéo léo tột cùng trông như vụng về, hùng biện tột cùng trông như ngập ngừng." },
-  { "id": 20, "tac_gia": "Lão Tử", "cau_noi": "Phúc hề họa chi sở phục, họa hề phúc chi sở ỷ.", "y_nghia": "Trong họa có phúc, trong phúc có họa. Được mất ở đời luôn xoay vần lẫn nhau." },
-  { "id": 21, "tac_gia": "Mạnh Tử", "cau_noi": "Thiên tương giáng đại nhiệm ư tư nhân dã, tất tiên khổ kỳ tâm chí.", "y_nghia": "Trời sắp giao trọng trách cho ai, ắt trước hết làm khổ tâm chí người đó để rèn giũa." },
-  { "id": 22, "tac_gia": "Mạnh Tử", "cau_noi": "Dân vi quý, xã tắc thứ chi, quân vi khinh.", "y_nghia": "Dân là quý nhất, đất nước đứng sau, vua chỉ là nhẹ nhất. Tư tưởng lấy dân làm gốc." },
-  { "id": 23, "tac_gia": "Mạnh Tử", "cau_noi": "Nhân giả vô địch.", "y_nghia": "Người có lòng nhân thì không có kẻ địch, vì đức nhân cảm hóa được lòng người." },
-  { "id": 24, "tac_gia": "Mạnh Tử", "cau_noi": "Phú quý bất năng dâm, bần tiện bất năng di, uy vũ bất năng khuất.", "y_nghia": "Giàu sang không làm mê hoặc, nghèo hèn không làm đổi chí, uy vũ không làm khuất phục - đó là đại trượng phu." },
-  { "id": 25, "tac_gia": "Trang Tử", "cau_noi": "Tỉnh oa bất khả dĩ ngữ ư hải giả, câu ư hư dã.", "y_nghia": "Ếch ngồi đáy giếng không thể bàn về biển cả, vì bị giới hạn bởi không gian nó sống." },
-  { "id": 26, "tac_gia": "Trang Tử", "cau_noi": "Ngô sinh dã hữu nhai, nhi tri dã vô nhai.", "y_nghia": "Đời người có hạn, mà tri thức thì vô hạn. Biết vậy để khiêm nhường và không ngừng học hỏi." },
-  { "id": 27, "tac_gia": "Trang Tử", "cau_noi": "Vô dụng chi dụng, thị vi đại dụng.", "y_nghia": "Cái tưởng như vô dụng đôi khi lại có công dụng lớn lao nhất." },
-  { "id": 28, "tac_gia": "Trang Tử", "cau_noi": "Bất khiển thị phi, dĩ dữ thế tục xử.", "y_nghia": "Không tranh cãi đúng sai, hòa mình cùng thế tục mà vẫn giữ được bản tâm thanh tịnh." },
-  { "id": 29, "tac_gia": "Tuân Tử", "cau_noi": "Thanh, thủ chi ư lam nhi thanh ư lam.", "y_nghia": "Màu xanh lấy từ cây chàm mà lại xanh hơn cây chàm. Học trò có thể vượt qua thầy nếu chuyên cần." },
-  { "id": 30, "tac_gia": "Tuân Tử", "cau_noi": "Bất tích khuể bộ, vô dĩ chí thiên lý.", "y_nghia": "Không tích lũy từng bước nhỏ thì không thể đi ngàn dặm. Thành công lớn đến từ sự kiên trì." },
-  { "id": 31, "tac_gia": "Hàn Phi Tử", "cau_noi": "Thiên lý chi đê, khởi ư nghĩ huyệt.", "y_nghia": "Con đê ngàn dặm sụp đổ bởi một tổ kiến nhỏ. Đừng xem thường những sai lầm nhỏ." },
-  { "id": 32, "tac_gia": "Mặc Tử", "cau_noi": "Kiêm ái, phi công.", "y_nghia": "Yêu thương khắp mọi người như nhau, phản đối chiến tranh xâm lược. Tư tưởng bác ái và hòa bình." },
-  { "id": 33, "tac_gia": "Tăng Tử", "cau_noi": "Ngô nhật tam tỉnh ngô thân.", "y_nghia": "Mỗi ngày ta tự xét mình ba lần: làm việc cho người có hết lòng không, giao thiệp với bạn có thành tín không, học hành có ôn tập không." },
-  { "id": 34, "tac_gia": "Gia Cát Lượng", "cau_noi": "Đạm bạc dĩ minh chí, ninh tĩnh dĩ trí viễn.", "y_nghia": "Sống đạm bạc mới sáng rõ chí hướng, tâm tĩnh lặng mới nhìn xa trông rộng được." },
-  { "id": 35, "tac_gia": "Gia Cát Lượng", "cau_noi": "Cúc cung tận tụy, tử nhi hậu dĩ.", "y_nghia": "Hết lòng hết sức cống hiến, đến chết mới thôi. Tinh thần tận trung, tận nghĩa." },
-  { "id": 36, "tac_gia": "Tôn Tử", "cau_noi": "Tri kỷ tri bỉ, bách chiến bất đãi.", "y_nghia": "Biết mình biết người, trăm trận không nguy. Hiểu rõ bản thân và đối phương là chìa khóa của thành công." },
-  { "id": 37, "tac_gia": "Tôn Tử", "cau_noi": "Bất chiến nhi khuất nhân chi binh, thiện chi thiện giả dã.", "y_nghia": "Không đánh mà khuất phục được quân địch, đó mới là điều khéo léo nhất trong dùng binh." },
-  { "id": 38, "tac_gia": "Khương Tử Nha", "cau_noi": "Dục tốc tắc bất đạt.", "y_nghia": "Muốn nhanh thì lại không đạt được. Việc lớn cần sự kiên nhẫn, không thể vội vàng." },
-  { "id": 39, "tac_gia": "Tư Mã Thiên", "cau_noi": "Nhân cố hữu nhất tử, hoặc trọng ư Thái Sơn, hoặc khinh ư hồng mao.", "y_nghia": "Người ta ai cũng chết một lần, có cái chết nặng tựa Thái Sơn, có cái chết nhẹ tựa lông hồng. Giá trị cuộc sống nằm ở ý nghĩa để lại." },
-  { "id": 40, "tac_gia": "Bạch Cư Dị", "cau_noi": "Đồng thị thiên nhai luân lạc nhân.", "y_nghia": "Cùng là những người trôi dạt nơi chân trời. Sự đồng cảm giữa những kiếp người cùng cảnh ngộ." },
-  { "id": 41, "tac_gia": "Chu Hy", "cau_noi": "Thiếu niên dị lão, học nan thành.", "y_nghia": "Tuổi trẻ chóng qua mà việc học khó thành, một tấc thời gian một tấc vàng cũng khó mua lại được." },
-  { "id": 42, "tac_gia": "Vương Dương Minh", "cau_noi": "Tri hành hợp nhất.", "y_nghia": "Biết và làm phải là một, hiểu biết chân chính ắt phải đi đôi với hành động thực tế." },
-  { "id": 43, "tac_gia": "Tăng Quốc Phiên", "cau_noi": "Hữu hằng vi thành công chi bản.", "y_nghia": "Có sự kiên trì bền bỉ mới là gốc rễ của thành công." },
-  { "id": 44, "tac_gia": "Khổng Tử", "cau_noi": "Tam thập nhi lập, tứ thập nhi bất hoặc, ngũ thập nhi tri thiên mệnh.", "y_nghia": "Ba mươi tuổi đã vững vàng, bốn mươi tuổi không còn nghi hoặc, năm mươi tuổi hiểu được mệnh trời." },
-  { "id": 45, "tac_gia": "Khổng Tử", "cau_noi": "Nhân vô viễn lự, tất hữu cận ưu.", "y_nghia": "Người không nghĩ xa ắt sẽ có lo gần. Cần có tầm nhìn dài hạn trong mọi việc." },
-  { "id": 46, "tac_gia": "Lão Tử", "cau_noi": "Cường lương giả bất đắc kỳ tử.", "y_nghia": "Kẻ cứng rắn, hung hãn thường không được chết yên lành. Mềm mỏng mới là đạo trường tồn." },
-  { "id": 47, "tac_gia": "Lão Tử", "cau_noi": "Tri nhân giả trí, thắng nhân giả hữu lực, tự thắng giả cường, tri túc giả phú.", "y_nghia": "Hiểu người là trí, thắng người là lực, thắng mình mới là mạnh, biết đủ mới là giàu." },
-  { "id": 48, "tac_gia": "Trang Tử", "cau_noi": "Thiên địa dữ ngã tịnh sinh, vạn vật dữ ngã vi nhất.", "y_nghia": "Trời đất cùng sinh với ta, vạn vật với ta là một. Tư tưởng hòa hợp giữa con người và vũ trụ." },
-  { "id": 49, "tac_gia": "Khổng Tử", "cau_noi": "Học nhi thời tập chi, bất diệc duyệt hồ?", "y_nghia": "Học rồi thường xuyên ôn tập, chẳng phải là điều vui sao? Câu mở đầu sách Luận Ngữ." },
-  { "id": 50, "tac_gia": "Khổng Tử", "cau_noi": "Hữu bằng tự viễn phương lai, bất diệc lạc hồ?", "y_nghia": "Có bạn từ phương xa đến thăm, chẳng phải là điều vui sao? Ca ngợi tình bạn tri kỷ." }
+  {
+    "id": 1,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Học nhi bất tư tắc võng, tư nhi bất học tắc đãi.",
+    "y_nghia": "Học mà không suy nghĩ thì mờ mịt, suy nghĩ mà không học thì nguy hại. Học và suy ngẫm phải song hành."
+  },
+  {
+    "id": 2,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Kỷ sở bất dục, vật thi ư nhân.",
+    "y_nghia": "Điều mình không muốn thì đừng làm cho người khác. Đây là nền tảng của lòng khoan dung."
+  },
+  {
+    "id": 3,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Tam nhân hành, tất hữu ngã sư yên.",
+    "y_nghia": "Trong ba người cùng đi, ắt có người là thầy ta. Ai cũng có điều đáng học hỏi."
+  },
+  {
+    "id": 4,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Tri chi vi tri chi, bất tri vi bất tri, thị tri dã.",
+    "y_nghia": "Biết thì nói biết, không biết thì nói không biết, đó mới là biết thật sự."
+  },
+  {
+    "id": 5,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Quân tử cầu chư kỷ, tiểu nhân cầu chư nhân.",
+    "y_nghia": "Người quân tử xét lỗi ở mình, kẻ tiểu nhân đổ lỗi cho người khác."
+  },
+  {
+    "id": 6,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Xảo ngôn lệnh sắc, tiển hĩ nhân.",
+    "y_nghia": "Lời nói khéo léo, vẻ mặt giả tạo, những kẻ ấy hiếm khi có lòng nhân."
+  },
+  {
+    "id": 7,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Ôn cố nhi tri tân, khả dĩ vi sư hĩ.",
+    "y_nghia": "Ôn lại điều cũ mà biết điều mới, người như vậy có thể làm thầy được."
+  },
+  {
+    "id": 8,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Đức bất cô, tất hữu lân.",
+    "y_nghia": "Người có đức không bao giờ cô độc, ắt sẽ có người đồng hành."
+  },
+  {
+    "id": 9,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Quá nhi bất cải, thị vị quá hĩ.",
+    "y_nghia": "Có lỗi mà không sửa, đó mới thật sự là lỗi lầm."
+  },
+  {
+    "id": 10,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Bất hoạn nhân chi bất kỷ tri, hoạn bất tri nhân dã.",
+    "y_nghia": "Không lo người khác không hiểu mình, chỉ lo mình không hiểu người khác."
+  },
+  {
+    "id": 11,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Đạo khả đạo, phi thường đạo.",
+    "y_nghia": "Đạo mà có thể gọi tên được thì không phải là Đạo vĩnh hằng. Chân lý lớn vượt ngoài ngôn từ."
+  },
+  {
+    "id": 12,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Tri nhân giả trí, tự tri giả minh.",
+    "y_nghia": "Hiểu người là trí tuệ, hiểu chính mình mới là sáng suốt thật sự."
+  },
+  {
+    "id": 13,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Thắng nhân giả hữu lực, tự thắng giả cường.",
+    "y_nghia": "Thắng người là có sức mạnh, tự thắng chính mình mới là kẻ mạnh thật sự."
+  },
+  {
+    "id": 14,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Thiên hạ nan sự tất tác ư dị, thiên hạ đại sự tất tác ư tế.",
+    "y_nghia": "Việc khó trong thiên hạ khởi từ việc dễ, việc lớn khởi từ việc nhỏ. Hãy bắt đầu từ những điều nhỏ nhặt."
+  },
+  {
+    "id": 15,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Thượng thiện nhược thủy.",
+    "y_nghia": "Điều thiện cao nhất giống như nước, mềm mại mà nuôi dưỡng vạn vật, không tranh giành với ai."
+  },
+  {
+    "id": 16,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Tri túc giả phú.",
+    "y_nghia": "Người biết đủ là người giàu có. Hạnh phúc đến từ sự tri túc, không phải từ sở hữu."
+  },
+  {
+    "id": 17,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Hợp bão chi mộc, sinh ư hào mạt; cửu tằng chi đài, khởi ư lũy thổ.",
+    "y_nghia": "Cây to một ôm khởi từ mầm nhỏ, đài cao chín tầng khởi từ nắm đất. Việc lớn đều bắt đầu từ điều nhỏ bé."
+  },
+  {
+    "id": 18,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Khúc tắc toàn, uổng tắc trực.",
+    "y_nghia": "Biết uốn mình thì được vẹn toàn, biết chịu thiệt thì sẽ được ngay thẳng."
+  },
+  {
+    "id": 19,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Đại xảo nhược chuyết, đại biện nhược nột.",
+    "y_nghia": "Khéo léo tột cùng trông như vụng về, hùng biện tột cùng trông như ngập ngừng."
+  },
+  {
+    "id": 20,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Phúc hề họa chi sở phục, họa hề phúc chi sở ỷ.",
+    "y_nghia": "Trong họa có phúc, trong phúc có họa. Được mất ở đời luôn xoay vần lẫn nhau."
+  },
+  {
+    "id": 21,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Thiên tương giáng đại nhiệm ư tư nhân dã, tất tiên khổ kỳ tâm chí.",
+    "y_nghia": "Trời sắp giao trọng trách cho ai, ắt trước hết làm khổ tâm chí người đó để rèn giũa."
+  },
+  {
+    "id": 22,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Dân vi quý, xã tắc thứ chi, quân vi khinh.",
+    "y_nghia": "Dân là quý nhất, đất nước đứng sau, vua chỉ là nhẹ nhất. Tư tưởng lấy dân làm gốc."
+  },
+  {
+    "id": 23,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Nhân giả vô địch.",
+    "y_nghia": "Người có lòng nhân thì không có kẻ địch, vì đức nhân cảm hóa được lòng người."
+  },
+  {
+    "id": 24,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Phú quý bất năng dâm, bần tiện bất năng di, uy vũ bất năng khuất.",
+    "y_nghia": "Giàu sang không làm mê hoặc, nghèo hèn không làm đổi chí, uy vũ không làm khuất phục - đó là đại trượng phu."
+  },
+  {
+    "id": 25,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Tỉnh oa bất khả dĩ ngữ ư hải giả, câu ư hư dã.",
+    "y_nghia": "Ếch ngồi đáy giếng không thể bàn về biển cả, vì bị giới hạn bởi không gian nó sống."
+  },
+  {
+    "id": 26,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Ngô sinh dã hữu nhai, nhi tri dã vô nhai.",
+    "y_nghia": "Đời người có hạn, mà tri thức thì vô hạn. Biết vậy để khiêm nhường và không ngừng học hỏi."
+  },
+  {
+    "id": 27,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Vô dụng chi dụng, thị vi đại dụng.",
+    "y_nghia": "Cái tưởng như vô dụng đôi khi lại có công dụng lớn lao nhất."
+  },
+  {
+    "id": 28,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Bất khiển thị phi, dĩ dữ thế tục xử.",
+    "y_nghia": "Không tranh cãi đúng sai, hòa mình cùng thế tục mà vẫn giữ được bản tâm thanh tịnh."
+  },
+  {
+    "id": 29,
+    "tac_gia": "Tuân Tử",
+    "cau_noi": "Thanh, thủ chi ư lam nhi thanh ư lam.",
+    "y_nghia": "Màu xanh lấy từ cây chàm mà lại xanh hơn cây chàm. Học trò có thể vượt qua thầy nếu chuyên cần."
+  },
+  {
+    "id": 30,
+    "tac_gia": "Tuân Tử",
+    "cau_noi": "Bất tích khuể bộ, vô dĩ chí thiên lý.",
+    "y_nghia": "Không tích lũy từng bước nhỏ thì không thể đi ngàn dặm. Thành công lớn đến từ sự kiên trì."
+  },
+  {
+    "id": 31,
+    "tac_gia": "Hàn Phi Tử",
+    "cau_noi": "Thiên lý chi đê, khởi ư nghĩ huyệt.",
+    "y_nghia": "Con đê ngàn dặm sụp đổ bởi một tổ kiến nhỏ. Đừng xem thường những sai lầm nhỏ."
+  },
+  {
+    "id": 32,
+    "tac_gia": "Mặc Tử",
+    "cau_noi": "Kiêm ái, phi công.",
+    "y_nghia": "Yêu thương khắp mọi người như nhau, phản đối chiến tranh xâm lược. Tư tưởng bác ái và hòa bình."
+  },
+  {
+    "id": 33,
+    "tac_gia": "Tăng Tử",
+    "cau_noi": "Ngô nhật tam tỉnh ngô thân.",
+    "y_nghia": "Mỗi ngày ta tự xét mình ba lần: làm việc cho người có hết lòng không, giao thiệp với bạn có thành tín không, học hành có ôn tập không."
+  },
+  {
+    "id": 34,
+    "tac_gia": "Gia Cát Lượng",
+    "cau_noi": "Đạm bạc dĩ minh chí, ninh tĩnh dĩ trí viễn.",
+    "y_nghia": "Sống đạm bạc mới sáng rõ chí hướng, tâm tĩnh lặng mới nhìn xa trông rộng được."
+  },
+  {
+    "id": 35,
+    "tac_gia": "Gia Cát Lượng",
+    "cau_noi": "Cúc cung tận tụy, tử nhi hậu dĩ.",
+    "y_nghia": "Hết lòng hết sức cống hiến, đến chết mới thôi. Tinh thần tận trung, tận nghĩa."
+  },
+  {
+    "id": 36,
+    "tac_gia": "Tôn Tử",
+    "cau_noi": "Tri kỷ tri bỉ, bách chiến bất đãi.",
+    "y_nghia": "Biết mình biết người, trăm trận không nguy. Hiểu rõ bản thân và đối phương là chìa khóa của thành công."
+  },
+  {
+    "id": 37,
+    "tac_gia": "Tôn Tử",
+    "cau_noi": "Bất chiến nhi khuất nhân chi binh, thiện chi thiện giả dã.",
+    "y_nghia": "Không đánh mà khuất phục được quân địch, đó mới là điều khéo léo nhất trong dùng binh."
+  },
+  {
+    "id": 38,
+    "tac_gia": "Khương Tử Nha",
+    "cau_noi": "Dục tốc tắc bất đạt.",
+    "y_nghia": "Muốn nhanh thì lại không đạt được. Việc lớn cần sự kiên nhẫn, không thể vội vàng."
+  },
+  {
+    "id": 39,
+    "tac_gia": "Tư Mã Thiên",
+    "cau_noi": "Nhân cố hữu nhất tử, hoặc trọng ư Thái Sơn, hoặc khinh ư hồng mao.",
+    "y_nghia": "Người ta ai cũng chết một lần, có cái chết nặng tựa Thái Sơn, có cái chết nhẹ tựa lông hồng. Giá trị cuộc sống nằm ở ý nghĩa để lại."
+  },
+  {
+    "id": 40,
+    "tac_gia": "Bạch Cư Dị",
+    "cau_noi": "Đồng thị thiên nhai luân lạc nhân.",
+    "y_nghia": "Cùng là những người trôi dạt nơi chân trời. Sự đồng cảm giữa những kiếp người cùng cảnh ngộ."
+  },
+  {
+    "id": 41,
+    "tac_gia": "Chu Hy",
+    "cau_noi": "Thiếu niên dị lão, học nan thành.",
+    "y_nghia": "Tuổi trẻ chóng qua mà việc học khó thành, một tấc thời gian một tấc vàng cũng khó mua lại được."
+  },
+  {
+    "id": 42,
+    "tac_gia": "Vương Dương Minh",
+    "cau_noi": "Tri hành hợp nhất.",
+    "y_nghia": "Biết và làm phải là một, hiểu biết chân chính ắt phải đi đôi với hành động thực tế."
+  },
+  {
+    "id": 43,
+    "tac_gia": "Tăng Quốc Phiên",
+    "cau_noi": "Hữu hằng vi thành công chi bản.",
+    "y_nghia": "Có sự kiên trì bền bỉ mới là gốc rễ của thành công."
+  },
+  {
+    "id": 44,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Tam thập nhi lập, tứ thập nhi bất hoặc, ngũ thập nhi tri thiên mệnh.",
+    "y_nghia": "Ba mươi tuổi đã vững vàng, bốn mươi tuổi không còn nghi hoặc, năm mươi tuổi hiểu được mệnh trời."
+  },
+  {
+    "id": 45,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Nhân vô viễn lự, tất hữu cận ưu.",
+    "y_nghia": "Người không nghĩ xa ắt sẽ có lo gần. Cần có tầm nhìn dài hạn trong mọi việc."
+  },
+  {
+    "id": 46,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Cường lương giả bất đắc kỳ tử.",
+    "y_nghia": "Kẻ cứng rắn, hung hãn thường không được chết yên lành. Mềm mỏng mới là đạo trường tồn."
+  },
+  {
+    "id": 47,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Tri nhân giả trí, thắng nhân giả hữu lực, tự thắng giả cường, tri túc giả phú.",
+    "y_nghia": "Hiểu người là trí, thắng người là lực, thắng mình mới là mạnh, biết đủ mới là giàu."
+  },
+  {
+    "id": 48,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Thiên địa dữ ngã tịnh sinh, vạn vật dữ ngã vi nhất.",
+    "y_nghia": "Trời đất cùng sinh với ta, vạn vật với ta là một. Tư tưởng hòa hợp giữa con người và vũ trụ."
+  },
+  {
+    "id": 49,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Học nhi thời tập chi, bất diệc duyệt hồ?",
+    "y_nghia": "Học rồi thường xuyên ôn tập, chẳng phải là điều vui sao? Câu mở đầu sách Luận Ngữ."
+  },
+  {
+    "id": 50,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Hữu bằng tự viễn phương lai, bất diệc lạc hồ?",
+    "y_nghia": "Có bạn từ phương xa đến thăm, chẳng phải là điều vui sao? Ca ngợi tình bạn tri kỷ."
+  },
+  {
+    "id": 51,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Kỷ dục lập nhi lập nhân, kỷ dục đạt nhi đạt nhân.",
+    "y_nghia": "Mình muốn thành công thì cũng giúp người khác thành công, mình muốn hiển đạt thì cũng giúp người khác hiển đạt."
+  },
+  {
+    "id": 52,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Nhân bất tri nhi bất uấn, bất diệc quân tử hồ?",
+    "y_nghia": "Người khác không hiểu mình mà mình không oán giận, chẳng phải là người quân tử sao?"
+  },
+  {
+    "id": 53,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Bất hoạn vô vị, hoạn sở dĩ lập.",
+    "y_nghia": "Không lo mình không có địa vị, chỉ lo mình không có đủ tài đức để đứng vững ở địa vị đó."
+  },
+  {
+    "id": 54,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Quân tử dụ ư nghĩa, tiểu nhân dụ ư lợi.",
+    "y_nghia": "Người quân tử hiểu rõ và coi trọng việc nghĩa, kẻ tiểu nhân chỉ hiểu rõ và coi trọng cái lợi."
+  },
+  {
+    "id": 55,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Dĩ trực báo oán, dĩ đức báo đức.",
+    "y_nghia": "Lấy sự ngay thẳng, công bằng để đáp lại oán hận, lấy ân đức để đáp lại ân đức."
+  },
+  {
+    "id": 56,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Quân tử bất khí.",
+    "y_nghia": "Người quân tử không như một món đồ dùng chỉ có một công dụng cố định, mà phải có tài năng và tầm nhìn toàn diện."
+  },
+  {
+    "id": 57,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Tam quân khả đoạt soái dã, thất phu bất khả đoạt chí dã.",
+    "y_nghia": "Có thể cướp được chủ tướng của ba quân, nhưng không thể cướp được chí hướng của một người dân thường."
+  },
+  {
+    "id": 58,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Tuế hàn, nhiên hậu tri tùng bách chi hậu điêu dã.",
+    "y_nghia": "Đến mùa đông giá rét mới biết cây tùng, cây bách là loài rụng lá sau cùng - khí tiết con người chỉ bộc lộ rõ trong nghịch cảnh."
+  },
+  {
+    "id": 59,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Kiến hiền tư tề yên, kiến bất hiền nhi nội tự tỉnh dã.",
+    "y_nghia": "Thấy người hiền thì nghĩ đến việc học theo cho bằng, thấy người không hiền thì tự xét lại chính mình."
+  },
+  {
+    "id": 60,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Quân tử thản đãng đãng, tiểu nhân trường thích thích.",
+    "y_nghia": "Người quân tử lòng dạ thanh thản, rộng rãi; kẻ tiểu nhân thường xuyên lo lắng, ưu sầu."
+  },
+  {
+    "id": 61,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Ngôn tất tín, hành tất quả.",
+    "y_nghia": "Nói ra thì phải giữ chữ tín, đã làm thì phải có kết quả, không bỏ dở giữa chừng."
+  },
+  {
+    "id": 62,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Tứ hải chi nội giai huynh đệ dã.",
+    "y_nghia": "Trong khắp bốn biển đều là anh em - tấm lòng nhân ái không phân biệt ranh giới."
+  },
+  {
+    "id": 63,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Bất phẫn bất khải, bất phỉ bất phát.",
+    "y_nghia": "Không thực sự trăn trở muốn hiểu thì chưa nên gợi mở, chưa cố gắng diễn đạt mà chưa được thì chưa nên khai thông - dạy học cần đúng lúc, đúng cách."
+  },
+  {
+    "id": 64,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Tri giả nhạo thủy, nhân giả nhạo sơn.",
+    "y_nghia": "Người có trí thích nước (linh hoạt, biến hóa), người có đức nhân thích núi (vững vàng, bao dung)."
+  },
+  {
+    "id": 65,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Dữ bằng hữu giao, ngôn nhi hữu tín.",
+    "y_nghia": "Kết giao với bạn bè, lời nói ra phải giữ được chữ tín."
+  },
+  {
+    "id": 66,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Quân tử vô chung thực chi gian vi nhân.",
+    "y_nghia": "Người quân tử không rời xa đức nhân dù chỉ trong khoảnh khắc một bữa ăn."
+  },
+  {
+    "id": 67,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Tị chi như Bắc Thần, cư kỳ sở nhi chúng tinh cung chi.",
+    "y_nghia": "Người cai trị có đức ví như sao Bắc Đẩu, cứ yên vị một chỗ mà các vì sao khác đều tự quy tụ chầu về."
+  },
+  {
+    "id": 68,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Dân vô tín bất lập.",
+    "y_nghia": "Dân không có lòng tin vào người cai trị thì đất nước không thể đứng vững."
+  },
+  {
+    "id": 69,
+    "tac_gia": "Khổng Tử",
+    "cau_noi": "Quá do bất cập.",
+    "y_nghia": "Làm thái quá cũng tai hại như làm chưa tới nơi, việc gì cũng cần giữ đúng chừng mực."
+  },
+  {
+    "id": 70,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Danh khả danh, phi thường danh.",
+    "y_nghia": "Cái tên có thể gọi ra được thì không phải là cái tên vĩnh hằng, chân lý lớn vượt ngoài danh xưng, khái niệm cố định."
+  },
+  {
+    "id": 71,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Vô vi nhi vô bất vi.",
+    "y_nghia": "Không làm gì trái với tự nhiên thì không có việc gì là không làm được - thuận theo lẽ tự nhiên thì mọi việc tự thành."
+  },
+  {
+    "id": 72,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Đại đạo phế, hữu nhân nghĩa.",
+    "y_nghia": "Khi đạo lớn của trời đất bị phế bỏ, người ta mới cần đặt ra nhân nghĩa để ràng buộc nhau."
+  },
+  {
+    "id": 73,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Nhân pháp địa, địa pháp thiên, thiên pháp đạo, đạo pháp tự nhiên.",
+    "y_nghia": "Con người noi theo đất, đất noi theo trời, trời noi theo đạo, đạo noi theo lẽ tự nhiên - gốc rễ của vạn vật là sự tự nhiên."
+  },
+  {
+    "id": 74,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Trọng vi khinh căn, tĩnh vi táo quân.",
+    "y_nghia": "Cái nặng là gốc của cái nhẹ, sự tĩnh lặng là chủ của sự náo động - giữ được cái gốc, cái tĩnh thì mới vững vàng."
+  },
+  {
+    "id": 75,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Kim ngọc mãn đường, mạc chi năng thủ.",
+    "y_nghia": "Vàng ngọc chất đầy nhà, cũng chẳng ai giữ được mãi mãi - của cải chỉ là tạm bợ."
+  },
+  {
+    "id": 76,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Công toại thân thoái, thiên chi đạo dã.",
+    "y_nghia": "Công việc đã thành thì nên lui về ẩn dật, đó chính là đạo trời."
+  },
+  {
+    "id": 77,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Tri kỳ hùng, thủ kỳ thư.",
+    "y_nghia": "Biết rõ cái mạnh mẽ, cứng rắn của mình mà vẫn chọn giữ sự mềm mỏng, khiêm nhường."
+  },
+  {
+    "id": 78,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Đại khí vãn thành.",
+    "y_nghia": "Người có tài năng lớn thường thành công muộn hơn người khác, cần thời gian để tôi luyện."
+  },
+  {
+    "id": 79,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Thiên võng khôi khôi, sơ nhi bất lậu.",
+    "y_nghia": "Lưới trời tuy thưa nhưng khó lọt - lẽ nhân quả, công lý ở đời tuy chậm nhưng không bỏ sót ai."
+  },
+  {
+    "id": 80,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Dân chi tùng sự, thường ư kỷ thành nhi bại chi.",
+    "y_nghia": "Người đời làm việc, thường thất bại ngay khi sắp đạt được thành công - vì thế cần cẩn trọng đến phút cuối như lúc mới bắt đầu."
+  },
+  {
+    "id": 81,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Ngã hữu tam bảo, trì nhi bảo chi: nhất viết từ, nhị viết kiệm, tam viết bất cảm vi thiên hạ tiên.",
+    "y_nghia": "Ta có ba báu vật gìn giữ suốt đời: một là lòng từ ái, hai là sự tiết kiệm, ba là không dám đứng trước tranh giành với thiên hạ."
+  },
+  {
+    "id": 82,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Tri giả bất ngôn, ngôn giả bất tri.",
+    "y_nghia": "Người thực sự hiểu biết thì không khoe khoang bằng lời, kẻ ba hoa nhiều lời thường là chưa hiểu biết thực sự."
+  },
+  {
+    "id": 83,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Khinh nặc tất quả tín, đa dị tất đa nan.",
+    "y_nghia": "Dễ dàng hứa hẹn thì thường ít giữ được lời, xem việc gì cũng dễ dàng thì ắt sẽ gặp nhiều khó khăn."
+  },
+  {
+    "id": 84,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Vi chi ư vị hữu, trị chi ư vị loạn.",
+    "y_nghia": "Hãy hành động từ khi sự việc chưa xảy ra, chỉnh trị từ khi mối loạn chưa hình thành - phòng ngừa hơn là chữa trị."
+  },
+  {
+    "id": 85,
+    "tac_gia": "Lão Tử",
+    "cau_noi": "Đa ngôn sổ cùng, bất như thủ trung.",
+    "y_nghia": "Nói nhiều rồi cũng có lúc đuối lý, chẳng bằng giữ sự trung dung, kiệm lời."
+  },
+  {
+    "id": 86,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Nhân giai khả dĩ vi Nghiêu Thuấn.",
+    "y_nghia": "Ai cũng có thể trở thành bậc thánh hiền như vua Nghiêu, vua Thuấn, nếu biết tu dưỡng và cố gắng."
+  },
+  {
+    "id": 87,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Sinh ư ưu hoạn, tử ư an lạc.",
+    "y_nghia": "Con người trưởng thành, tồn tại được là nhờ lo lắng gian khổ; suy vong, diệt vong là bởi an nhàn hưởng lạc."
+  },
+  {
+    "id": 88,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Đắc đạo giả đa trợ, thất đạo giả quả trợ.",
+    "y_nghia": "Người hợp với lẽ chính đạo được nhiều người giúp đỡ, kẻ trái với đạo lý thì ít người giúp đỡ."
+  },
+  {
+    "id": 89,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Ngô lão, dĩ cập nhân chi lão; ngô ấu, dĩ cập nhân chi ấu.",
+    "y_nghia": "Kính trọng người già trong nhà mình rồi mở rộng đến người già của người khác; yêu thương trẻ nhỏ nhà mình rồi mở rộng đến trẻ nhỏ của người khác."
+  },
+  {
+    "id": 90,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Ngư, ngã sở dục dã; hùng chưởng, diệc ngã sở dục dã; nhị giả bất khả đắc kiêm, xả ngư nhi thủ hùng chưởng giả dã.",
+    "y_nghia": "Cá là điều ta muốn, tay gấu cũng là điều ta muốn; nếu không thể có cả hai thì đành bỏ cá mà lấy tay gấu - phải biết lựa chọn điều quý giá hơn."
+  },
+  {
+    "id": 91,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Cùng tắc độc thiện kỳ thân, đạt tắc kiêm thiện thiên hạ.",
+    "y_nghia": "Lúc khốn cùng thì lo tu dưỡng tốt bản thân mình, lúc hiển đạt thì đem điều tốt đẹp giúp ích cho cả thiên hạ."
+  },
+  {
+    "id": 92,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Tận tín thư, bất như vô thư.",
+    "y_nghia": "Tin hết vào những gì sách viết, chẳng thà đừng có sách - đừng tin mù quáng mà phải biết suy xét."
+  },
+  {
+    "id": 93,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Thiên thời bất như địa lợi, địa lợi bất như nhân hòa.",
+    "y_nghia": "Thời cơ thuận lợi không bằng địa thế thuận lợi, địa thế thuận lợi không bằng lòng người đồng thuận, hòa hợp."
+  },
+  {
+    "id": 94,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Bất vi dã, phi bất năng dã.",
+    "y_nghia": "Đó là không chịu làm, chứ không phải là không có khả năng làm được."
+  },
+  {
+    "id": 95,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Dưỡng tâm mạc thiện ư quả dục.",
+    "y_nghia": "Nuôi dưỡng tâm tính, không có cách nào tốt hơn là giảm bớt lòng ham muốn."
+  },
+  {
+    "id": 96,
+    "tac_gia": "Mạnh Tử",
+    "cau_noi": "Tận kỳ tâm giả, tri kỳ tính dã; tri kỳ tính, tắc tri thiên hĩ.",
+    "y_nghia": "Ai dốc hết được cái tâm của mình thì hiểu được bản tính của mình; hiểu được bản tính của mình thì hiểu được lẽ trời."
+  },
+  {
+    "id": 97,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Bất tri Chu chi mộng vi hồ điệp dư, hồ điệp chi mộng vi Chu dư?",
+    "y_nghia": "Không biết là Trang Chu nằm mộng hóa thành bướm, hay bướm nằm mộng hóa thành Trang Chu? Đời người hư hay thực, khó mà phân định rạch ròi."
+  },
+  {
+    "id": 98,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Đắc ngư nhi vong thuyên.",
+    "y_nghia": "Bắt được cá rồi thì quên chiếc nơm - khi đã đạt được mục đích thì không nên câu nệ vào phương tiện, hình thức ban đầu."
+  },
+  {
+    "id": 99,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Dĩ hữu nhai tùy vô nhai, đãi hĩ.",
+    "y_nghia": "Lấy cái đời sống có hạn của mình mà đuổi theo tri thức vô hạn của vũ trụ, thật là điều nguy hiểm, mệt mỏi."
+  },
+  {
+    "id": 100,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Du nhận hữu dư.",
+    "y_nghia": "Đưa lưỡi dao đi mà vẫn còn thừa chỗ trống - làm việc đã thành thạo, hiểu thấu quy luật thì mọi việc trở nên nhẹ nhàng, dễ dàng."
+  },
+  {
+    "id": 101,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Tương nhu dĩ mạt, bất như tương vong ư giang hồ.",
+    "y_nghia": "Cùng nhau thấm ướt bằng nước bọt lúc ao cạn, chẳng bằng để nhau quên lãng mà tự do nơi sông hồ rộng lớn - đôi khi buông tay cho nhau tự tại còn tốt hơn ràng buộc nhau."
+  },
+  {
+    "id": 102,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Vô hà hữu chi hương.",
+    "y_nghia": "Xứ sở hư vô, nơi không vướng bận điều gì cả - hình ảnh biểu tượng cho cõi tự do tuyệt đối trong tâm hồn."
+  },
+  {
+    "id": 103,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Đường tý đương xa.",
+    "y_nghia": "Con bọ ngựa giơ càng ra cản xe - ví với kẻ tự lượng sức mình quá cao mà làm việc vượt quá khả năng."
+  },
+  {
+    "id": 104,
+    "tac_gia": "Trang Tử",
+    "cau_noi": "Cổ chi chân nhân, kỳ tẩm bất mộng, kỳ giác bất ưu.",
+    "y_nghia": "Bậc chân nhân thời xưa, ngủ thì không mộng mị, thức thì không lo âu - tâm hồn thuần khiết, an định tuyệt đối."
+  },
+  {
+    "id": 105,
+    "tac_gia": "Tuân Tử",
+    "cau_noi": "Nhân chi tính ác, kỳ thiện giả ngụy dã.",
+    "y_nghia": "Bản tính con người vốn là ác, cái thiện mà con người có được là nhờ giáo dục, rèn luyện mà thành."
+  },
+  {
+    "id": 106,
+    "tac_gia": "Tuân Tử",
+    "cau_noi": "Bất văn bất nhược văn chi, văn chi bất nhược kiến chi, kiến chi bất nhược tri chi, tri chi bất nhược hành chi.",
+    "y_nghia": "Không nghe chẳng bằng nghe, nghe chẳng bằng thấy, thấy chẳng bằng hiểu biết, hiểu biết chẳng bằng thực hành."
+  },
+  {
+    "id": 107,
+    "tac_gia": "Tuân Tử",
+    "cau_noi": "Tích thổ thành sơn, phong vũ hưng yên; tích thủy thành uyên, giao long sinh yên.",
+    "y_nghia": "Chứa đất thành núi thì gió mưa nổi lên, chứa nước thành vực sâu thì giao long sinh ra - tích lũy điều nhỏ mà nên việc lớn."
+  },
+  {
+    "id": 108,
+    "tac_gia": "Tuân Tử",
+    "cau_noi": "Quân tử sinh phi dị dã, thiện giả ư vật dã.",
+    "y_nghia": "Người quân tử vốn không có gì khác biệt bẩm sinh so với người thường, chỉ là biết khéo léo mượn sức từ ngoại vật, hoàn cảnh xung quanh."
+  },
+  {
+    "id": 109,
+    "tac_gia": "Tuân Tử",
+    "cau_noi": "Học bất khả dĩ dĩ.",
+    "y_nghia": "Việc học thì không thể ngừng lại, phải học suốt đời."
+  },
+  {
+    "id": 110,
+    "tac_gia": "Hàn Phi Tử",
+    "cau_noi": "Thủ chu đãi thỏ.",
+    "y_nghia": "Ôm gốc cây đợi thỏ - chỉ kẻ cố chấp, chỉ biết trông chờ vào may rủi ngẫu nhiên mà không chịu thay đổi, nỗ lực."
+  },
+  {
+    "id": 111,
+    "tac_gia": "Hàn Phi Tử",
+    "cau_noi": "Tự tương mâu thuẫn.",
+    "y_nghia": "Tự mình mâu thuẫn với chính mình - điển tích người bán mâu và thuẫn khoác lác, lời nói trước sau không khớp nhau."
+  },
+  {
+    "id": 112,
+    "tac_gia": "Hàn Phi Tử",
+    "cau_noi": "Pháp bất a quý, thằng bất nạo khúc.",
+    "y_nghia": "Pháp luật không được thiên vị kẻ quyền quý, cũng như dây mực không uốn cong theo vật cong - pháp luật phải công bằng, nghiêm minh với tất cả mọi người."
+  },
+  {
+    "id": 113,
+    "tac_gia": "Mặc Tử",
+    "cau_noi": "Thiên hạ kiêm tương ái tắc trị, giao tương ố tắc loạn.",
+    "y_nghia": "Thiên hạ nếu yêu thương lẫn nhau không phân biệt thì thái bình, nếu ghét bỏ, đối nghịch nhau thì loạn lạc."
+  },
+  {
+    "id": 114,
+    "tac_gia": "Mặc Tử",
+    "cau_noi": "Nghĩa, lợi dã.",
+    "y_nghia": "Điều nghĩa chính là điều lợi - Mặc Tử cho rằng cái nghĩa chân chính phải mang lại lợi ích thiết thực cho mọi người, không tách rời nhau."
+  },
+  {
+    "id": 115,
+    "tac_gia": "Mặc Tử",
+    "cau_noi": "Cường bất chấp nhược, chúng bất kiếp quả.",
+    "y_nghia": "Kẻ mạnh không được chèn ép, ức hiếp kẻ yếu; số đông không được cướp bóc, ăn hiếp số ít."
+  },
+  {
+    "id": 116,
+    "tac_gia": "Liệt Tử",
+    "cau_noi": "Tử tử tôn tôn, vô cùng quỹ dã, nhi sơn bất gia tăng, hà khổ nhi bất bình?",
+    "y_nghia": "Con cháu nối đời không dứt, mà ngọn núi thì không cao thêm lên, lo gì mà không san bằng được - kiên trì bền bỉ ắt sẽ thành công (điển tích Ngu Công dời núi)."
+  },
+  {
+    "id": 117,
+    "tac_gia": "Liệt Tử",
+    "cau_noi": "Kỷ nhân ưu thiên.",
+    "y_nghia": "Người nước Kỷ lo trời sập - ví với những nỗi lo lắng viển vông, không cần thiết, không có căn cứ thực tế."
+  },
+  {
+    "id": 118,
+    "tac_gia": "Tôn Tử",
+    "cau_noi": "Binh giả, quỷ đạo dã.",
+    "y_nghia": "Việc dùng binh là đạo lý của mưu kế, biến hóa khôn lường, không thể câu nệ theo khuôn phép cứng nhắc."
+  },
+  {
+    "id": 119,
+    "tac_gia": "Tôn Tử",
+    "cau_noi": "Thượng binh phạt mưu, kỳ thứ phạt giao, kỳ thứ phạt binh, kỳ hạ công thành.",
+    "y_nghia": "Cách đánh giặc cao minh nhất là dùng mưu lược để thắng địch, kế đó là phá vỡ liên minh của địch, kế nữa là đối đầu trực tiếp với quân địch, thấp nhất mới là công phá thành trì."
+  },
+  {
+    "id": 120,
+    "tac_gia": "Tôn Tử",
+    "cau_noi": "Binh quý thần tốc.",
+    "y_nghia": "Việc dùng binh quý ở sự nhanh chóng, thần tốc, không để lỡ thời cơ."
+  },
+  {
+    "id": 121,
+    "tac_gia": "Tôn Tử",
+    "cau_noi": "Tri thiên tri địa, thắng nãi khả toàn.",
+    "y_nghia": "Biết rõ thiên thời, hiểu rõ địa lợi thì mới có thể giành chiến thắng trọn vẹn."
+  },
+  {
+    "id": 122,
+    "tac_gia": "Tôn Tử",
+    "cau_noi": "Thị tốt như ái tử, cố khả dữ chi câu tử.",
+    "y_nghia": "Xem quân lính như con cái yêu quý của mình, thì họ mới sẵn lòng cùng ta liều chết vì đại nghĩa."
+  },
+  {
+    "id": 123,
+    "tac_gia": "Tôn Tử",
+    "cau_noi": "Thiện chiến giả, lập ư bất bại chi địa.",
+    "y_nghia": "Người giỏi cầm quân đánh trận luôn biết đặt mình vào thế vững chắc, không thể bị đánh bại trước khi giao tranh."
+  },
+  {
+    "id": 124,
+    "tac_gia": "Gia Cát Lượng",
+    "cau_noi": "Phù học tu tĩnh dã, tài tu học dã.",
+    "y_nghia": "Việc học cần phải có sự tĩnh tâm, tài năng cần phải thông qua học tập mới có được."
+  },
+  {
+    "id": 125,
+    "tac_gia": "Gia Cát Lượng",
+    "cau_noi": "Dâm mạn tắc bất năng lệ tinh, hiểm táo tắc bất năng trị tính.",
+    "y_nghia": "Buông thả, lười biếng thì không thể phấn chấn được tinh thần; nóng nảy, hiểm ác thì không thể tu dưỡng được tính tình."
+  },
+  {
+    "id": 126,
+    "tac_gia": "Gia Cát Lượng",
+    "cau_noi": "Niên dữ thời trì, ý dữ nhật khứ.",
+    "y_nghia": "Tuổi tác trôi đi theo năm tháng, ý chí phai nhạt dần theo ngày qua - nhắc nhở con người phải nỗ lực ngay khi còn trẻ."
+  },
+  {
+    "id": 127,
+    "tac_gia": "Gia Cát Lượng",
+    "cau_noi": "Tĩnh dĩ tu thân, kiệm dĩ dưỡng đức.",
+    "y_nghia": "Lấy sự tĩnh lặng trong tâm để tu dưỡng bản thân, lấy đức tính tiết kiệm để bồi dưỡng phẩm hạnh."
+  },
+  {
+    "id": 128,
+    "tac_gia": "Vương Dương Minh",
+    "cau_noi": "Tri thị hành chi thủy, hành thị tri chi thành.",
+    "y_nghia": "Biết là khởi đầu của việc làm, làm là sự hoàn thành trọn vẹn của cái biết - tri và hành vốn không thể tách rời."
+  },
+  {
+    "id": 129,
+    "tac_gia": "Vương Dương Minh",
+    "cau_noi": "Tâm ngoại vô vật.",
+    "y_nghia": "Ngoài tâm ra thì không có sự vật nào tồn tại có ý nghĩa - mọi sự vật đều gắn liền với nhận thức, tâm ý của con người."
+  },
+  {
+    "id": 130,
+    "tac_gia": "Chu Hy",
+    "cau_noi": "Vấn cừ na đắc thanh như hứa? Vị hữu nguồn đầu hoạt thủy lai.",
+    "y_nghia": "Hỏi vì sao ao nước lại trong veo đến thế? Ấy là vì có nguồn nước sống từ đầu nguồn không ngừng chảy tới - tri thức, tâm hồn luôn trong sáng là nhờ không ngừng được bồi đắp cái mới."
+  },
+  {
+    "id": 131,
+    "tac_gia": "Chu Hy",
+    "cau_noi": "Nhất thốn quang âm nhất thốn kim.",
+    "y_nghia": "Một tấc thời gian là một tấc vàng - thời gian quý giá như vàng bạc, phải biết trân trọng, không để lãng phí."
+  },
+  {
+    "id": 132,
+    "tac_gia": "Tô Thức",
+    "cau_noi": "Đãn nguyện nhân trường cửu, thiên lý cộng thiền quyên.",
+    "y_nghia": "Chỉ mong người thân yêu được bình an, trường thọ, dù cách xa ngàn dặm vẫn cùng nhau ngắm chung một vầng trăng đẹp."
+  },
+  {
+    "id": 133,
+    "tac_gia": "Tô Thức",
+    "cau_noi": "Bất thức Lư Sơn chân diện mục, chỉ duyên thân tại thử sơn trung.",
+    "y_nghia": "Không nhận ra được diện mạo thật của núi Lư Sơn, chỉ vì bản thân đang đứng ngay giữa ngọn núi ấy - đứng trong cuộc thì khó lòng nhìn thấu được toàn cảnh sự việc."
+  },
+  {
+    "id": 134,
+    "tac_gia": "Tô Thức",
+    "cau_noi": "Nhân sinh đáo xứ tri hà tự, ưng tự phi hồng đạp tuyết nê.",
+    "y_nghia": "Đời người đi khắp nơi rốt cuộc giống như điều gì? Có lẽ giống như cánh chim hồng bay qua để lại dấu chân thoáng qua trên bùn tuyết - vô thường, chóng tan."
+  },
+  {
+    "id": 135,
+    "tac_gia": "Tô Thức",
+    "cau_noi": "Hồi thủ hướng lai tiêu sắt xứ, quy khứ, dã vô phong vũ dã vô tình.",
+    "y_nghia": "Ngoảnh đầu nhìn lại nơi tiêu điều, gió mưa vừa trải qua, trở về thôi, xem như chẳng còn mưa gió mà cũng chẳng còn nắng ráo - tâm thái an nhiên, bình thản trước mọi biến động của cuộc đời."
+  },
+  {
+    "id": 136,
+    "tac_gia": "Âu Dương Tu",
+    "cau_noi": "Túy ông chi ý bất tại tửu, tại hồ sơn thủy chi gian dã.",
+    "y_nghia": "Ý của Túy Ông không phải ở chỗ rượu, mà gửi gắm nơi cảnh sắc núi sông - ý nghĩa sâu xa thường nằm ngoài lời nói trực tiếp."
+  },
+  {
+    "id": 137,
+    "tac_gia": "Âu Dương Tu",
+    "cau_noi": "Ưu lao khả dĩ hưng quốc, dật dự khả dĩ vong thân.",
+    "y_nghia": "Biết lo lắng, nhọc nhằn vì việc chung có thể làm hưng thịnh đất nước; an nhàn, hưởng lạc quá mức có thể làm mất thân, mất nước."
+  },
+  {
+    "id": 138,
+    "tac_gia": "Đào Uyên Minh",
+    "cau_noi": "Thái cúc đông ly hạ, du nhiên kiến Nam Sơn.",
+    "y_nghia": "Hái cúc dưới giậu phía đông, ung dung ngắm nhìn núi Nam - hình ảnh cuộc sống ẩn dật, an nhiên, tự tại giữa thiên nhiên."
+  },
+  {
+    "id": 139,
+    "tac_gia": "Đào Uyên Minh",
+    "cau_noi": "Điểu quyện phi nhi tri hoàn.",
+    "y_nghia": "Chim bay mỏi cánh thì biết đường quay về tổ - con người cũng nên biết dừng lại, biết trở về khi đã mệt mỏi với chốn công danh."
+  },
+  {
+    "id": 140,
+    "tac_gia": "Khuất Nguyên",
+    "cau_noi": "Lộ mạn mạn kỳ tu viễn hề, ngô tương thượng hạ nhi cầu sách.",
+    "y_nghia": "Con đường phía trước còn dài xa thăm thẳm, ta sẽ trên dưới mà tìm tòi, khám phá không ngừng - kiên trì theo đuổi lý tưởng đến cùng."
+  },
+  {
+    "id": 141,
+    "tac_gia": "Khuất Nguyên",
+    "cau_noi": "Cử thế giai trọc ngã độc thanh, chúng nhân giai túy ngã độc tỉnh.",
+    "y_nghia": "Cả đời đều đục ngầu chỉ riêng ta trong sạch, mọi người đều say sưa chỉ riêng ta tỉnh táo - giữ vững khí tiết thanh cao giữa cuộc đời hỗn tạp."
+  },
+  {
+    "id": 142,
+    "tac_gia": "Hoài Nam Tử",
+    "cau_noi": "Tái ông thất mã, yên tri phi phúc.",
+    "y_nghia": "Ông lão biên ải mất ngựa, biết đâu chẳng phải là điều may - họa và phúc ở đời luôn chuyển hóa khôn lường, không nên vội mừng hay vội buồn."
+  },
+  {
+    "id": 143,
+    "tac_gia": "Hoài Nam Tử",
+    "cau_noi": "Nhất diệp tri thu.",
+    "y_nghia": "Thấy một chiếc lá rụng mà biết mùa thu đã đến - từ một dấu hiệu nhỏ mà nhận biết được xu thế lớn sắp xảy ra."
+  },
+  {
+    "id": 144,
+    "tac_gia": "Vương An Thạch",
+    "cau_noi": "Xuân phong hựu lục Giang Nam ngạn, minh nguyệt hà thời chiếu ngã hoàn?",
+    "y_nghia": "Gió xuân lại thổi xanh bến bờ Giang Nam, ánh trăng sáng biết khi nào mới soi ta trở về quê cũ - nỗi nhớ quê hương da diết."
+  },
+  {
+    "id": 145,
+    "tac_gia": "Phạm Trọng Yêm",
+    "cau_noi": "Tiên thiên hạ chi ưu nhi ưu, hậu thiên hạ chi lạc nhi lạc.",
+    "y_nghia": "Lo trước cái lo của thiên hạ, vui sau cái vui của thiên hạ - tinh thần trách nhiệm, đặt lợi ích chung lên trên bản thân."
+  },
+  {
+    "id": 146,
+    "tac_gia": "Phạm Trọng Yêm",
+    "cau_noi": "Bất dĩ vật hỷ, bất dĩ kỷ bi.",
+    "y_nghia": "Không vì được vật chất bên ngoài mà vui mừng, không vì bản thân gặp chuyện mà buồn bã - giữ tâm thái điềm tĩnh trước mọi được mất ở đời."
+  },
+  {
+    "id": 147,
+    "tac_gia": "Chu Đôn Di",
+    "cau_noi": "Xuất ứ nê nhi bất nhiễm, trạc thanh liên nhi bất yêu.",
+    "y_nghia": "Mọc lên từ bùn lầy mà không hề nhiễm bẩn, tắm trong làn nước trong mà không hề lẳng lơ - ví như hoa sen, giữ được khí tiết thanh cao giữa hoàn cảnh ô trọc."
+  },
+  {
+    "id": 148,
+    "tac_gia": "Trương Tái",
+    "cau_noi": "Vị thiên địa lập tâm, vị sinh dân lập mệnh, vị vãng thánh kế tuyệt học, vị vạn thế khai thái bình.",
+    "y_nghia": "Vì trời đất mà xác lập cái tâm, vì dân sinh mà xác lập lẽ sống, vì các bậc thánh hiền xưa mà nối tiếp học thuyết đã đứt đoạn, vì muôn đời sau mà mở ra nền thái bình - hoài bão lớn lao của kẻ sĩ."
+  },
+  {
+    "id": 149,
+    "tac_gia": "Tư Mã Quang",
+    "cau_noi": "Do kiệm nhập xa dị, do xa nhập kiệm nan.",
+    "y_nghia": "Từ tiết kiệm chuyển sang xa hoa thì dễ dàng, nhưng từ xa hoa quay về tiết kiệm thì rất khó khăn - nhắc nhở con người giữ nếp sống giản dị ngay từ đầu."
+  },
+  {
+    "id": 150,
+    "tac_gia": "Hồng Ứng Minh",
+    "cau_noi": "Phong lai sơ trúc, phong quá nhi trúc bất lưu thanh; nhạn độ hàn đàm, nhạn khứ nhi đàm bất lưu ảnh.",
+    "y_nghia": "Gió đến khóm trúc thưa, gió qua rồi trúc không giữ lại tiếng; nhạn bay qua đầm lạnh, nhạn đi rồi đầm không giữ lại bóng - tâm người quân tử: việc đến thì tâm hiện, việc qua thì tâm lại rỗng không, không vướng bận."
+  }
 ]
