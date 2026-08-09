@@ -1039,7 +1039,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v12';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v13';
 
     async function fetchJsonWithCache(url, fallbackMessage = 'Không thể tải dữ liệu.') {
       const requestUrl = new URL(url, window.location.href).toString();
@@ -1067,6 +1067,8 @@
     }
 
     const chineseSheetNames = {
+      'Lo_Trinh_Hoc': 'Lộ trình học',
+      'Ngu_Phap_Co_Ban': 'Ngữ pháp cơ bản',
       'Mau_cau_giao_tiep': 'Mẫu câu giao tiếp',
       'Tu_dien_1500': 'Từ điển 1500 chữ Hán',
       '3000_cau_giao_tiep': '3000 câu giao tiếp',
@@ -1576,10 +1578,50 @@
       const paginated = filtered.slice(startIndex, startIndex + itemsPerChinesePage);
 
       if (paginated.length === 0) {
+        chineseDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]";
         chineseDisplayArea.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-medium text-slate-400">Không tìm thấy từ vựng phù hợp</p></div>`;
         return;
       }
 
+      if (activeChineseSheet === 'Lo_Trinh_Hoc') {
+        chineseDisplayArea.className = "grid grid-cols-1 gap-4 min-h-[300px]";
+        chineseDisplayArea.innerHTML = paginated.map(item => `
+          <div class="glass-card p-6 rounded-2xl flex flex-col gap-3 border-l-4 border-teal-500/60">
+            <div class="flex items-center gap-3">
+              <span class="w-8 h-8 shrink-0 flex items-center justify-center rounded-full bg-teal-500/15 text-teal-300 font-bold text-sm">${item.stt}</span>
+              <h4 class="text-base sm:text-lg font-bold text-white">${item.giai_doan}</h4>
+            </div>
+            <p class="text-xs sm:text-sm text-amber-300 font-semibold">🎯 Mục tiêu: ${item.muc_tieu}</p>
+            <p class="text-sm text-slate-300 leading-relaxed">${item.noi_dung}</p>
+            <span class="text-[10px] text-slate-500 uppercase tracking-wide mt-1">⏱ Thời lượng gợi ý: ${item.thoi_luong}</span>
+          </div>
+        `).join('');
+        return;
+      }
+
+      if (activeChineseSheet === 'Ngu_Phap_Co_Ban') {
+        chineseDisplayArea.className = "grid grid-cols-1 lg:grid-cols-2 gap-4 min-h-[300px]";
+        chineseDisplayArea.innerHTML = paginated.map(item => `
+          <div class="glass-card p-5 rounded-2xl flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-bold text-indigo-300 bg-indigo-500/10 px-2 py-0.5 rounded uppercase tracking-wide">${item.cap_do}</span>
+              <button onclick="playTTS(event, '${String(item.vi_du_han).replace(/'/g, "\\'")}')" class="text-indigo-400 hover:text-white p-1.5 rounded-lg bg-slate-900 border border-slate-800 transition-colors" title="Phát âm ví dụ">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+              </button>
+            </div>
+            <h4 class="text-base font-bold text-white font-hans">${item.diem_ngu_phap}</h4>
+            <p class="text-xs font-mono text-teal-400 bg-slate-900/60 px-2 py-1 rounded-lg border border-slate-850 w-max">${item.cau_truc}</p>
+            <p class="text-xs text-slate-350 leading-relaxed">${item.giai_thich}</p>
+            <div class="mt-1 pt-2 border-t border-slate-800/60">
+              <p class="font-hans text-white text-base">${item.vi_du_han} <span class="text-slate-500 font-sans text-xs">(${item.vi_du_pinyin})</span></p>
+              <p class="text-slate-400 text-xs mt-0.5">${item.vi_du_nghia}</p>
+            </div>
+          </div>
+        `).join('');
+        return;
+      }
+
+      chineseDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]";
       chineseDisplayArea.innerHTML = paginated.map((item, idx) => {
         const realStt = item.STT || (startIndex + idx + 1);
         

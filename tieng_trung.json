@@ -1,4 +1,383 @@
 {
+  "Lo_Trinh_Hoc": [
+    {
+      "stt": 1,
+      "giai_doan": "Giai đoạn 1: Nhập môn - Phát âm & Bộ thủ nền tảng",
+      "muc_tieu": "Nắm vững hệ thống phiên âm Pinyin, 4 thanh điệu, và các bộ thủ cơ bản để tra từ điển, ghi nhớ mặt chữ Hán dễ dàng hơn.",
+      "noi_dung": "Học hết mục \"Cách Đọc Phát Âm\" (các vần mẫu); học thuộc trước 50 bộ thủ thường gặp nhất trong mục \"214 Bộ Thủ\"; dùng nút phát âm (loa) ở các thẻ từ để luyện nghe - nhại theo giọng chuẩn.",
+      "thoi_luong": "1 - 2 tuần"
+    },
+    {
+      "stt": 2,
+      "giai_doan": "Giai đoạn 2: Từ vựng nền tảng & Ngữ pháp HSK1",
+      "muc_tieu": "Ghi nhớ vài trăm từ vựng thông dụng nhất, dựng được câu đơn giản đúng ngữ pháp.",
+      "noi_dung": "Học 200 - 300 chữ đầu tần suất cao trong \"Từ Điển 1500 Chữ Hán\"; học hết \"70 Động Từ Cơ Bản\"; học các điểm ngữ pháp có nhãn HSK1 trong mục \"Ngữ Pháp Cơ Bản\" (是, 的, 吗, 呢, 有, 在, lượng từ, từ để hỏi...).",
+      "thoi_luong": "3 - 4 tuần"
+    },
+    {
+      "stt": 3,
+      "giai_doan": "Giai đoạn 3: Giao tiếp hằng ngày & Ngữ pháp HSK2",
+      "muc_tieu": "Thực hiện được hội thoại cơ bản: chào hỏi, mua sắm, hỏi đường, giới thiệu bản thân và gia đình.",
+      "noi_dung": "Học hết \"Mẫu Câu Giao Tiếp\" theo từng chủ đề; chọn lọc luyện thêm 300 - 500 câu phù hợp trong \"3000 Câu Giao Tiếp\"; học các điểm ngữ pháp HSK2 (了, 正在...呢, 过, 比, các động từ năng nguyện 想/要/能/可以/会, 从...到...).",
+      "thoi_luong": "1 - 2 tháng"
+    },
+    {
+      "stt": 4,
+      "giai_doan": "Giai đoạn 4: Mở rộng vốn từ & Ngữ pháp HSK3",
+      "muc_tieu": "Diễn đạt được ý kiến cá nhân, kể lại một sự việc, viết đoạn văn ngắn mạch lạc.",
+      "noi_dung": "Hoàn thành \"Từ Điển 1500 Chữ Hán\"; học thêm \"Từ Vựng Phổ Biến\" và \"Từ Hay Dùng\"; học các điểm ngữ pháp HSK3 (把, 被, bổ ngữ kết quả, bổ ngữ khả năng, các cặp liên từ 虽然...但是, 因为...所以, 如果...就, 不但...而且).",
+      "thoi_luong": "2 - 3 tháng"
+    },
+    {
+      "stt": 5,
+      "giai_doan": "Giai đoạn 5: Nâng cao & Ứng dụng thực tế",
+      "muc_tieu": "Đọc hiểu đoạn văn dài hơn, giao tiếp linh hoạt trong công việc và du lịch, sẵn sàng cho kỳ thi HSK4.",
+      "noi_dung": "Luyện hết phần còn lại của \"3000 Câu Giao Tiếp\"; học các điểm ngữ pháp HSK4 (除了...以外, 只有...才, 是...的, bổ ngữ thời lượng); tham khảo \"Họ Tên Thường Gặp\" nếu cần làm quen, giao tiếp với người Trung Quốc.",
+      "thoi_luong": "Duy trì liên tục"
+    }
+  ],
+  "Ngu_Phap_Co_Ban": [
+    {
+      "stt": 1,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "是 (shì) - Động từ \"là\"",
+      "cau_truc": "S + 是 + N",
+      "giai_thich": "Dùng để khẳng định danh tính, thân phận, chủng loại của chủ ngữ. Phủ định thêm 不 trước 是.",
+      "vi_du_han": "我是学生。",
+      "vi_du_pinyin": "Wǒ shì xuéshēng.",
+      "vi_du_nghia": "Tôi là học sinh."
+    },
+    {
+      "stt": 2,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "的 (de) - Trợ từ sở hữu, định ngữ",
+      "cau_truc": "N1/Đại từ + 的 + N2",
+      "giai_thich": "Nối giữa định ngữ và trung tâm ngữ, tương đương \"của\" trong tiếng Việt. Với quan hệ thân thiết (gia đình, bạn bè) có thể lược bỏ 的.",
+      "vi_du_han": "这是我的书。",
+      "vi_du_pinyin": "Zhè shì wǒ de shū.",
+      "vi_du_nghia": "Đây là sách của tôi."
+    },
+    {
+      "stt": 3,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "吗 (ma) - Trợ từ nghi vấn có/không",
+      "cau_truc": "Câu trần thuật + 吗？",
+      "giai_thich": "Đặt cuối câu trần thuật để biến thành câu hỏi có/không, không thay đổi trật tự từ trong câu.",
+      "vi_du_han": "你是学生吗？",
+      "vi_du_pinyin": "Nǐ shì xuéshēng ma?",
+      "vi_du_nghia": "Bạn có phải là học sinh không?"
+    },
+    {
+      "stt": 4,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "呢 (ne) - Hỏi lại, hỏi tỉnh lược",
+      "cau_truc": "N/Cụm từ + 呢？",
+      "giai_thich": "Dùng để hỏi lại một vấn đề vừa được nhắc đến, hoặc hỏi \"còn... thì sao?\".",
+      "vi_du_han": "我很好，你呢？",
+      "vi_du_pinyin": "Wǒ hěn hǎo, nǐ ne?",
+      "vi_du_nghia": "Tôi khỏe, còn bạn thì sao?"
+    },
+    {
+      "stt": 5,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "不 và 没(有) - Hai cách phủ định",
+      "cau_truc": "不 + V/Adj  |  没(有) + V",
+      "giai_thich": "不 dùng để phủ định thói quen, tính chất, ý muốn, hoặc việc trong tương lai. 没(有) dùng để phủ định hành động đã/đang xảy ra hoặc phủ định sự sở hữu, không dùng 没 với 是.",
+      "vi_du_han": "我不是老师。我没有钱。",
+      "vi_du_pinyin": "Wǒ bú shì lǎoshī. Wǒ méiyǒu qián.",
+      "vi_du_nghia": "Tôi không phải là giáo viên. Tôi không có tiền."
+    },
+    {
+      "stt": 6,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "有 (yǒu) - Có (sở hữu / tồn tại)",
+      "cau_truc": "S + 有 + O",
+      "giai_thich": "Diễn tả sự sở hữu hoặc sự tồn tại của sự vật, sự việc. Phủ định dùng 没有 (không dùng 不有).",
+      "vi_du_han": "我有一本书。",
+      "vi_du_pinyin": "Wǒ yǒu yì běn shū.",
+      "vi_du_nghia": "Tôi có một quyển sách."
+    },
+    {
+      "stt": 7,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "Số từ + Lượng từ + Danh từ",
+      "cau_truc": "Số + Lượng từ (量词) + N",
+      "giai_thich": "Khác với tiếng Việt, tiếng Trung bắt buộc phải có lượng từ phù hợp đứng giữa số đếm và danh từ, mỗi loại danh từ thường đi với một lượng từ riêng (个, 本, 杯, 张, 只...).",
+      "vi_du_han": "一个人，两本书，三杯茶。",
+      "vi_du_pinyin": "Yí gè rén, liǎng běn shū, sān bēi chá.",
+      "vi_du_nghia": "Một người, hai quyển sách, ba cốc trà."
+    },
+    {
+      "stt": 8,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "很 (hěn) trước tính từ làm vị ngữ",
+      "cau_truc": "S + 很 + Adj",
+      "giai_thich": "Khi tính từ làm vị ngữ trực tiếp (không có 是), thường phải thêm 很 phía trước cho câu tự nhiên; ở đây 很 không nhất thiết mang nghĩa nhấn mạnh \"rất\" mà chỉ là yêu cầu ngữ pháp.",
+      "vi_du_han": "她很漂亮。",
+      "vi_du_pinyin": "Tā hěn piàoliang.",
+      "vi_du_nghia": "Cô ấy xinh đẹp."
+    },
+    {
+      "stt": 9,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "Các từ để hỏi cơ bản",
+      "cau_truc": "谁 / 什么 / 哪 / 哪里 / 怎么 / 为什么 / 几 / 多少",
+      "giai_thich": "谁 (ai), 什么 (cái gì), 哪 (nào), 哪里 (ở đâu), 怎么 (như thế nào), 为什么 (tại sao), 几 (mấy, dùng cho số nhỏ dự đoán dưới 10), 多少 (bao nhiêu, dùng cho số lượng bất kỳ).",
+      "vi_du_han": "你叫什么名字？你去哪里？",
+      "vi_du_pinyin": "Nǐ jiào shénme míngzi? Nǐ qù nǎlǐ?",
+      "vi_du_nghia": "Bạn tên gì? Bạn đi đâu?"
+    },
+    {
+      "stt": 10,
+      "cap_do": "HSK1",
+      "diem_ngu_phap": "在 (zài) chỉ nơi chốn",
+      "cau_truc": "S + 在 + nơi chốn (+ V)",
+      "giai_thich": "在 làm động từ nghĩa là \"ở tại\", hoặc làm giới từ chỉ địa điểm xảy ra hành động phía trước động từ chính.",
+      "vi_du_han": "我在家看电视。",
+      "vi_du_pinyin": "Wǒ zài jiā kàn diànshì.",
+      "vi_du_nghia": "Tôi ở nhà xem tivi."
+    },
+    {
+      "stt": 11,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "了 (le) - Hoàn thành / biến đổi trạng thái",
+      "cau_truc": "V + 了 (+O)  |  Câu + 了 (cuối câu)",
+      "giai_thich": "了 đứng sau động từ biểu thị hành động đã hoàn thành; 了 đứng cuối câu biểu thị sự biến đổi trạng thái, tình huống mới xuất hiện.",
+      "vi_du_han": "我吃饭了。天冷了。",
+      "vi_du_pinyin": "Wǒ chīfàn le. Tiān lěng le.",
+      "vi_du_nghia": "Tôi ăn cơm rồi. Trời lạnh rồi."
+    },
+    {
+      "stt": 12,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "正在...呢 - Đang diễn ra",
+      "cau_truc": "S + (正)在 + V + (呢)",
+      "giai_thich": "Diễn tả một hành động đang xảy ra tại thời điểm nói, tương đương thì tiếp diễn trong tiếng Anh.",
+      "vi_du_han": "我正在吃饭呢。",
+      "vi_du_pinyin": "Wǒ zhèngzài chīfàn ne.",
+      "vi_du_nghia": "Tôi đang ăn cơm."
+    },
+    {
+      "stt": 13,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "过 (guo) - Đã từng (kinh nghiệm)",
+      "cau_truc": "S + V + 过 + O",
+      "giai_thich": "Diễn tả một hành động đã từng xảy ra trong quá khứ, nhấn mạnh kinh nghiệm chứ không nhấn mạnh thời điểm hoàn thành.",
+      "vi_du_han": "我去过中国。",
+      "vi_du_pinyin": "Wǒ qùguo Zhōngguó.",
+      "vi_du_nghia": "Tôi đã từng đến Trung Quốc."
+    },
+    {
+      "stt": 14,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "也 (yě) và 都 (dōu) - Cũng và Đều",
+      "cau_truc": "S + 也/都 + V/Adj",
+      "giai_thich": "也 và 都 là phó từ, luôn đứng trước động từ hoặc tính từ, không đứng trước chủ ngữ. Nếu dùng cả hai thì 也 đứng trước 都.",
+      "vi_du_han": "我们也都是学生。",
+      "vi_du_pinyin": "Wǒmen yě dōu shì xuéshēng.",
+      "vi_du_nghia": "Chúng tôi cũng đều là học sinh."
+    },
+    {
+      "stt": 15,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "比 (bǐ) - So sánh hơn",
+      "cau_truc": "A + 比 + B + Adj (+ mức độ chênh lệch)",
+      "giai_thich": "Cấu trúc so sánh hơn cơ bản nhất trong tiếng Trung; không dùng 很 trước tính từ trong câu so sánh này.",
+      "vi_du_han": "他比我高一点儿。",
+      "vi_du_pinyin": "Tā bǐ wǒ gāo yìdiǎnr.",
+      "vi_du_nghia": "Anh ấy cao hơn tôi một chút."
+    },
+    {
+      "stt": 16,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "一点儿 và 有点儿",
+      "cau_truc": "Adj + 一点儿  |  有点儿 + Adj",
+      "giai_thich": "一点儿 đặt sau tính từ trong câu so sánh, nghĩa là \"một chút\". 有点儿 đặt trước tính từ, thường mang sắc thái không hài lòng, hơi tiêu cực.",
+      "vi_du_han": "这个大一点儿。我有点儿累。",
+      "vi_du_pinyin": "Zhège dà yìdiǎnr. Wǒ yǒudiǎnr lèi.",
+      "vi_du_nghia": "Cái này to hơn một chút. Tôi hơi mệt."
+    },
+    {
+      "stt": 17,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "想/要/能/可以/会 - Động từ năng nguyện",
+      "cau_truc": "S + 想/要/能/可以/会 + V",
+      "giai_thich": "想 (muốn, mong muốn chủ quan), 要 (muốn/sắp, ý chí mạnh hơn), 能 (có khả năng do thể chất/hoàn cảnh), 可以 (được phép), 会 (biết làm do học được, hoặc khả năng xảy ra).",
+      "vi_du_han": "我想去，但是我不会说汉语。",
+      "vi_du_pinyin": "Wǒ xiǎng qù, dànshì wǒ bú huì shuō Hànyǔ.",
+      "vi_du_nghia": "Tôi muốn đi, nhưng tôi không biết nói tiếng Hán."
+    },
+    {
+      "stt": 18,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "从...到... - Từ...đến...",
+      "cau_truc": "从 + điểm bắt đầu + 到 + điểm kết thúc",
+      "giai_thich": "Dùng cho cả thời gian và địa điểm để chỉ phạm vi bắt đầu - kết thúc.",
+      "vi_du_han": "我从八点到十点上班。",
+      "vi_du_pinyin": "Wǒ cóng bā diǎn dào shí diǎn shàngbān.",
+      "vi_du_nghia": "Tôi làm việc từ 8 giờ đến 10 giờ."
+    },
+    {
+      "stt": 19,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "快...了 / 要...了 - Sắp... rồi",
+      "cau_truc": "(快)要 + V + 了",
+      "giai_thich": "Diễn tả một sự việc sắp sửa xảy ra trong tương lai gần.",
+      "vi_du_han": "火车快到了。",
+      "vi_du_pinyin": "Huǒchē kuài dào le.",
+      "vi_du_nghia": "Tàu sắp đến rồi."
+    },
+    {
+      "stt": 20,
+      "cap_do": "HSK2",
+      "diem_ngu_phap": "Bổ ngữ chỉ phương hướng đơn giản",
+      "cau_truc": "V + 上/下/进/出/回/过 + 来/去",
+      "giai_thich": "Bổ ngữ chỉ phương hướng đứng sau động từ để chỉ hướng di chuyển của hành động, hướng về phía người nói (来) hoặc rời xa người nói (去).",
+      "vi_du_han": "请进来！他回去了。",
+      "vi_du_pinyin": "Qǐng jìnlái! Tā huíqù le.",
+      "vi_du_nghia": "Mời vào! Anh ấy đã về rồi."
+    },
+    {
+      "stt": 21,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "把 (bǎ) - Câu chữ Bả",
+      "cau_truc": "S + 把 + O + V + bổ ngữ/thành phần khác",
+      "giai_thich": "Dùng khi muốn nhấn mạnh kết quả tác động lên tân ngữ xác định; động từ không được đứng trơ trọi một mình mà phải có thành phần bổ sung phía sau (bổ ngữ, 了, trùng điệp...).",
+      "vi_du_han": "我把书放在桌子上了。",
+      "vi_du_pinyin": "Wǒ bǎ shū fàng zài zhuōzi shàng le.",
+      "vi_du_nghia": "Tôi đã đặt sách lên bàn."
+    },
+    {
+      "stt": 22,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "被 (bèi) - Câu bị động",
+      "cau_truc": "S(bị tác động) + 被 + (tác nhân) + V + bổ ngữ",
+      "giai_thich": "Diễn tả chủ ngữ chịu sự tác động của hành động, thường mang sắc thái không mong muốn hoặc bị ảnh hưởng. Tác nhân gây ra hành động có thể được lược bỏ.",
+      "vi_du_han": "我的手机被他拿走了。",
+      "vi_du_pinyin": "Wǒ de shǒujī bèi tā ná zǒu le.",
+      "vi_du_nghia": "Điện thoại của tôi bị anh ấy lấy đi rồi."
+    },
+    {
+      "stt": 23,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "Bổ ngữ kết quả (结果补语)",
+      "cau_truc": "V + 完/好/到/懂/见/错",
+      "giai_thich": "Đứng ngay sau động từ chính để bổ sung kết quả của hành động: 完 (xong), 好 (xong, ổn thỏa), 到 (đạt tới), 懂 (hiểu), 见 (thấy, cảm nhận được), 错 (sai, nhầm).",
+      "vi_du_han": "我做完作业了。",
+      "vi_du_pinyin": "Wǒ zuò wán zuòyè le.",
+      "vi_du_nghia": "Tôi làm xong bài tập rồi."
+    },
+    {
+      "stt": 24,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "Bổ ngữ khả năng (可能补语)",
+      "cau_truc": "V + 得/不 + bổ ngữ",
+      "giai_thich": "Chèn 得 (có thể) hoặc 不 (không thể) vào giữa động từ và bổ ngữ kết quả/xu hướng để diễn tả khả năng thực hiện được hay không.",
+      "vi_du_han": "我听得懂，他听不懂。",
+      "vi_du_pinyin": "Wǒ tīng de dǒng, tā tīng bu dǒng.",
+      "vi_du_nghia": "Tôi nghe hiểu được, anh ấy nghe không hiểu."
+    },
+    {
+      "stt": 25,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "虽然...但是... - Tuy...nhưng...",
+      "cau_truc": "虽然 + Mệnh đề 1，但是 + Mệnh đề 2",
+      "giai_thich": "Liên từ chỉ sự nhượng bộ, dùng để nối hai mệnh đề có ý nghĩa tương phản.",
+      "vi_du_han": "虽然很累，但是很开心。",
+      "vi_du_pinyin": "Suīrán hěn lèi, dànshì hěn kāixīn.",
+      "vi_du_nghia": "Tuy mệt nhưng rất vui."
+    },
+    {
+      "stt": 26,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "因为...所以... - Vì...nên...",
+      "cau_truc": "因为 + Nguyên nhân，所以 + Kết quả",
+      "giai_thich": "Liên từ chỉ quan hệ nhân quả, có thể lược bỏ một trong hai vế nếu ngữ cảnh đã rõ.",
+      "vi_du_han": "因为下雨，所以我们不去了。",
+      "vi_du_pinyin": "Yīnwèi xiàyǔ, suǒyǐ wǒmen bú qù le.",
+      "vi_du_nghia": "Vì trời mưa nên chúng tôi không đi nữa."
+    },
+    {
+      "stt": 27,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "如果...就... - Nếu...thì...",
+      "cau_truc": "如果 + Điều kiện，就 + Kết quả",
+      "giai_thich": "Liên từ chỉ quan hệ giả thiết - kết quả.",
+      "vi_du_han": "如果你有空，就来找我。",
+      "vi_du_pinyin": "Rúguǒ nǐ yǒu kòng, jiù lái zhǎo wǒ.",
+      "vi_du_nghia": "Nếu bạn rảnh thì đến tìm tôi."
+    },
+    {
+      "stt": 28,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "越来越 / 越...越... - Càng ngày càng / Càng...càng...",
+      "cau_truc": "越来越 + Adj/V  |  越 + A，越 + B",
+      "giai_thich": "越来越 diễn tả một xu hướng thay đổi tăng dần theo thời gian; 越...越... diễn tả hai sự việc tăng/giảm tương ứng với nhau.",
+      "vi_du_han": "天气越来越冷了。你越说我越不明白。",
+      "vi_du_pinyin": "Tiānqì yuè lái yuè lěng le. Nǐ yuè shuō wǒ yuè bù míngbái.",
+      "vi_du_nghia": "Thời tiết càng ngày càng lạnh. Bạn càng nói tôi càng không hiểu."
+    },
+    {
+      "stt": 29,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "一边...一边... - Vừa...vừa...",
+      "cau_truc": "S + 一边 + V1 + 一边 + V2",
+      "giai_thich": "Diễn tả hai hành động xảy ra đồng thời, do cùng một chủ thể thực hiện.",
+      "vi_du_han": "他一边吃饭一边看电视。",
+      "vi_du_pinyin": "Tā yìbiān chīfàn yìbiān kàn diànshì.",
+      "vi_du_nghia": "Anh ấy vừa ăn cơm vừa xem tivi."
+    },
+    {
+      "stt": 30,
+      "cap_do": "HSK3",
+      "diem_ngu_phap": "不但...而且... - Không những...mà còn...",
+      "cau_truc": "不但 + Vế 1，而且 + Vế 2",
+      "giai_thich": "Liên từ chỉ quan hệ tăng tiến, vế sau bổ sung thêm ý nghĩa cho vế trước theo chiều hướng mạnh hơn.",
+      "vi_du_han": "她不但漂亮，而且聪明。",
+      "vi_du_pinyin": "Tā búdàn piàoliang, érqiě cōngmíng.",
+      "vi_du_nghia": "Cô ấy không những xinh đẹp mà còn thông minh."
+    },
+    {
+      "stt": 31,
+      "cap_do": "HSK4",
+      "diem_ngu_phap": "除了...以外，都/也... - Ngoại trừ...ra...",
+      "cau_truc": "除了 + A + 以外，(S còn lại) + 都/也 + V",
+      "giai_thich": "除了...都 nghĩa là loại trừ đối tượng A ra khỏi nhóm còn lại; 除了...也/还 nghĩa là bổ sung thêm ngoài A ra còn có thêm B nữa (không loại trừ).",
+      "vi_du_han": "除了他以外，我们都去了。",
+      "vi_du_pinyin": "Chúle tā yǐwài, wǒmen dōu qù le.",
+      "vi_du_nghia": "Ngoài anh ấy ra, chúng tôi đều đã đi."
+    },
+    {
+      "stt": 32,
+      "cap_do": "HSK4",
+      "diem_ngu_phap": "只有...才... - Chỉ có...mới...",
+      "cau_truc": "只有 + Điều kiện duy nhất，才 + Kết quả",
+      "giai_thich": "Nhấn mạnh đây là điều kiện duy nhất để đạt được kết quả, ngữ khí mạnh hơn 如果...就.",
+      "vi_du_han": "只有努力，才能成功。",
+      "vi_du_pinyin": "Zhǐyǒu nǔlì, cái néng chénggōng.",
+      "vi_du_nghia": "Chỉ có nỗ lực, mới có thể thành công."
+    },
+    {
+      "stt": 33,
+      "cap_do": "HSK4",
+      "diem_ngu_phap": "是...的 - Nhấn mạnh thời gian/địa điểm/cách thức",
+      "cau_truc": "S + 是 + (thời gian/địa điểm/cách thức) + V + 的",
+      "giai_thich": "Dùng để nhấn mạnh một chi tiết cụ thể (khi nào, ở đâu, bằng cách nào) của một hành động đã xảy ra rồi, chứ không dùng để hỏi hành động có xảy ra hay không.",
+      "vi_du_han": "我是昨天来的。",
+      "vi_du_pinyin": "Wǒ shì zuótiān lái de.",
+      "vi_du_nghia": "Tôi đến là vào hôm qua (nhấn mạnh thời điểm)."
+    },
+    {
+      "stt": 34,
+      "cap_do": "HSK4",
+      "diem_ngu_phap": "Bổ ngữ thời lượng (时量补语)",
+      "cau_truc": "V + (了) + khoảng thời gian + (O)",
+      "giai_thich": "Đứng sau động từ để chỉ khoảng thời gian hành động đã kéo dài, khác với bổ ngữ chỉ thời điểm.",
+      "vi_du_han": "我学了三年汉语。",
+      "vi_du_pinyin": "Wǒ xuéle sān nián Hànyǔ.",
+      "vi_du_nghia": "Tôi đã học tiếng Hán ba năm."
+    }
+  ],
   "Mau_cau_giao_tiep": [
     {
       "Chu de": "1. Chào hỏi (打招呼 – Dǎ zhāohū)",
@@ -34577,238 +34956,231 @@
   ],
   "Ho_ten_thuong_gap": [
     {
-      "STT": 1.0,
+      "STT": 1,
       "Ho (VN)": "Lâm",
       "Ho (Pinyin)": "Lín",
       "Ten dem/ten (VN)": "Cao",
       "Ten dem/ten (Pinyin)": "Xáo"
     },
     {
-      "STT": 2.0,
+      "STT": 2,
       "Ho (VN)": "Anh",
       "Ho (Pinyin)": "Ding",
       "Ten dem/ten (VN)": "Bùi",
       "Ten dem/ten (Pinyin)": "Pấy"
     },
     {
-      "STT": 3.0,
+      "STT": 3,
       "Ho (VN)": "Tùng",
       "Ho (Pinyin)": "Xung",
       "Ten dem/ten (VN)": "Cao",
       "Ten dem/ten (Pinyin)": "Cao"
     },
     {
-      "STT": 4.0,
+      "STT": 4,
       "Ho (VN)": "Phúc",
       "Ho (Pinyin)": "Phú",
       "Ten dem/ten (VN)": "Trần",
       "Ten dem/ten (Pinyin)": "Trân"
     },
     {
-      "STT": 5.0,
+      "STT": 5,
       "Ho (VN)": "Chinh",
       "Ho (Pinyin)": "Trâng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 6.0,
+      "STT": 6,
       "Ho (VN)": "Tưởng",
       "Ho (Pinyin)": "Xẻng",
       "Ten dem/ten (VN)": "Trần",
       "Ten dem/ten (Pinyin)": "Trân"
     },
     {
-      "STT": 7.0,
+      "STT": 7,
       "Ho (VN)": "Dung",
       "Ho (Pinyin)": "Rúng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 8.0,
+      "STT": 8,
       "Ho (VN)": "Chính",
       "Ho (Pinyin)": "Trâng",
       "Ten dem/ten (VN)": "Nguyễn",
       "Ten dem/ten (Pinyin)": "Roản"
     },
     {
-      "STT": 9.0,
+      "STT": 9,
       "Ho (VN)": "Điệp",
       "Ho (Pinyin)": "Tế",
       "Ten dem/ten (VN)": "Nguyễn",
       "Ten dem/ten (Pinyin)": "Roản"
     },
     {
-      "STT": 10.0,
+      "STT": 10,
       "Ho (VN)": "Điệp",
       "Ho (Pinyin)": "Tế",
       "Ten dem/ten (VN)": "Tô",
       "Ten dem/ten (Pinyin)": "Su"
     },
     {
-      "STT": 11.0,
+      "STT": 11,
       "Ho (VN)": "Hùng",
       "Ho (Pinyin)": "Súng",
       "Ten dem/ten (VN)": "Nguyễn",
       "Ten dem/ten (Pinyin)": "Roản"
     },
     {
-      "STT": 12.0,
+      "STT": 12,
       "Ho (VN)": "Hùng",
       "Ho (Pinyin)": "Súng",
       "Ten dem/ten (VN)": "Lê",
       "Ten dem/ten (Pinyin)": "Lý"
     },
     {
-      "STT": 13.0,
+      "STT": 13,
       "Ho (VN)": "Bảo",
       "Ho (Pinyin)": "pảo",
       "Ten dem/ten (VN)": "Cao",
       "Ten dem/ten (Pinyin)": "Cao"
     },
     {
-      "STT": 14.0,
+      "STT": 14,
       "Ho (VN)": "Hoa",
       "Ho (Pinyin)": "Hóa",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 15.0,
+      "STT": 15,
       "Ho (VN)": "Hưởng",
       "Ho (Pinyin)": "Xẻng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 16.0,
+      "STT": 16,
       "Ho (VN)": "Thành",
       "Ho (Pinyin)": "Trấng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 17.0,
+      "STT": 17,
       "Ho (VN)": "Dũng",
       "Ho (Pinyin)": "Dủng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 18.0,
+      "STT": 18,
       "Ho (VN)": "Đức",
       "Ho (Pinyin)": "Tứa",
       "Ten dem/ten (VN)": "Đặng",
       "Ten dem/ten (Pinyin)": "Tâng"
     },
     {
-      "STT": 19.0,
+      "STT": 19,
       "Ho (VN)": "Đức",
       "Ho (Pinyin)": "Tứa",
       "Ten dem/ten (VN)": "Lương",
       "Ten dem/ten (Pinyin)": "Láng"
     },
     {
-      "STT": 20.0,
+      "STT": 20,
       "Ho (VN)": "Phi",
       "Ho (Pinyin)": "Phây",
       "Ten dem/ten (VN)": "Nguyễn",
       "Ten dem/ten (Pinyin)": "Roản"
     },
     {
-      "STT": 21.0,
+      "STT": 21,
       "Ho (VN)": "Hiệp",
       "Ho (Pinyin)": "Xiế",
       "Ten dem/ten (VN)": "Phạm",
       "Ten dem/ten (Pinyin)": "Phan"
     },
     {
-      "STT": 22.0,
+      "STT": 22,
       "Ho (VN)": "Linh",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 23.0,
+      "STT": 23,
       "Ho (VN)": "Hạnh",
       "Ho (Pinyin)": "Xính",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 24.0,
+      "STT": 24,
       "Ho (VN)": "Hương",
       "Ho (Pinyin)": "Xeng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 25.0,
+      "STT": 25,
       "Ho (VN)": "Vũ",
       "Ho (Pinyin)": "ủ",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 26.0,
+      "STT": 26,
       "Ho (VN)": "Chung",
       "Ho (Pinyin)": "Trung",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 27.0,
+      "STT": 27,
       "Ho (VN)": "Thủy",
       "Ho (Pinyin)": "Sủi",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 28.0,
+      "STT": 28,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 29.0,
+      "STT": 29,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 30.0,
+      "STT": 30,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 31.0,
+      "STT": 31,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 32.0,
+      "STT": 32,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 33.0,
-      "Ho (VN)": "",
-      "Ho (Pinyin)": "",
-      "Ten dem/ten (VN)": "",
-      "Ten dem/ten (Pinyin)": ""
-    },
-    {
-      "STT": "",
+      "STT": 33,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
@@ -34850,217 +35222,224 @@
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 1.0,
+      "STT": "",
+      "Ho (VN)": "",
+      "Ho (Pinyin)": "",
+      "Ten dem/ten (VN)": "",
+      "Ten dem/ten (Pinyin)": ""
+    },
+    {
+      "STT": 1,
       "Ho (VN)": "Nhi, nhập, bát, quynh, mịch",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 2.0,
+      "STT": 2,
       "Ho (VN)": "Băng, kỷ, khảm, bao, chủy",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 3.0,
+      "STT": 3,
       "Ho (VN)": "Phương, hệ, thập, bốc, tiết",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 4.0,
+      "STT": 4,
       "Ho (VN)": "Hán, tư, hựu, sỹ, truy",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 5.0,
+      "STT": 5,
       "Ho (VN)": "Tuy, tịch, tử, thốn, tiểu",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 6.0,
+      "STT": 6,
       "Ho (VN)": "Uông, thi, triệt, xuyên, công",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 7.0,
+      "STT": 7,
       "Ho (VN)": "Kỷ, can, yêu, dẫn, củng",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 8.0,
+      "STT": 8,
       "Ho (VN)": "Dặc, cung, kệ, sam, qua",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 9.0,
+      "STT": 9,
       "Ho (VN)": "Hộ, chi, văn, đẩu, cẩn",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 10.0,
+      "STT": 10,
       "Ho (VN)": "Phương, vô, viết, nguyệt, khiếm",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 11.0,
+      "STT": 11,
       "Ho (VN)": "Chỉ, đãi, thù, vô, tỷ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 12.0,
+      "STT": 12,
       "Ho (VN)": "Mao, thị, khí, trảo, phụ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 13.0,
+      "STT": 13,
       "Ho (VN)": "Hào, tường, phiến, nha, huyền",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 14.0,
+      "STT": 14,
       "Ho (VN)": "Qua, ngõa, cam, sinh, dụng",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 15.0,
+      "STT": 15,
       "Ho (VN)": "Thất, bát, mạch, bì, mãnh",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 16.0,
+      "STT": 16,
       "Ho (VN)": "Mâu, thỉ, thị, nhựu, huyệt",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 17.0,
+      "STT": 17,
       "Ho (VN)": "Lập, phẫu, võng, dương, vũ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 18.0,
+      "STT": 18,
       "Ho (VN)": "Lão, nhi, lỗi, nhĩ, duật",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 19.0,
+      "STT": 19,
       "Ho (VN)": "Thần, cự, trí, cửu, thiệt",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 20.0,
+      "STT": 20,
       "Ho (VN)": "Xuyễn, chu, cấn, sắc, hổ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 21.0,
+      "STT": 21,
       "Ho (VN)": "Huyết, hành, á, kiến, giác",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 22.0,
+      "STT": 22,
       "Ho (VN)": "Cốc, đậu, thỉ, trãi, xích",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 23.0,
+      "STT": 23,
       "Ho (VN)": "Tẩu, thân, tân, thần, dậu",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 24.0,
+      "STT": 24,
       "Ho (VN)": "Biện, lý, trường, đãi, chuy",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 25.0,
+      "STT": 25,
       "Ho (VN)": "Thanh, phi, diện, cách, vi",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 26.0,
+      "STT": 26,
       "Ho (VN)": "Phỉ, âm, phong, phi, thủ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 27.0,
+      "STT": 27,
       "Ho (VN)": "Hương, cốt, cao, bưu, đấu",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 28.0,
+      "STT": 28,
       "Ho (VN)": "Sưởng, cách, quỷ, lỗ, lộc",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 29.0,
+      "STT": 29,
       "Ho (VN)": "Mạch, ma, hoàng, thử, hắc",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 30.0,
+      "STT": 30,
       "Ho (VN)": "Chỉ, mãnh, đỉnh, cổ, thử",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 31.0,
+      "STT": 31,
       "Ho (VN)": "Tỵ, tề, xỉ, long, quy, dược",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
