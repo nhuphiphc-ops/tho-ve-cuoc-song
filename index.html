@@ -822,10 +822,33 @@
 
         <button 
           onclick="handleLoginSubmit()"
-          class="px-5 py-3.5 rounded-2xl bg-indigo-650 hover:bg-indigo-700 text-white font-bold text-sm uppercase tracking-wider transition-colors shadow-lg shadow-indigo-600/15 mt-2"
+          class="px-5 py-3.5 rounded-2xl bg-indigo-650 hover:bg-indigo-700 text-white font-bold text-sm uppercase tracking-wider transition-colors shadow-lg shadow-indigo-600/15 mt-1 cursor-pointer active:scale-95"
         >
-          Xác Nhận Truy Cập
+          Xác Nhận Đăng Nhập
         </button>
+
+        <div class="flex items-center my-1">
+          <div class="flex-grow border-t border-slate-800"></div>
+          <span class="px-3 text-[11px] text-slate-500 uppercase tracking-widest font-semibold">Hoặc truy cập nhanh</span>
+          <div class="flex-grow border-t border-slate-800"></div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2.5">
+          <button 
+            type="button"
+            onclick="quickLoginAdmin()"
+            class="py-2.5 px-3 rounded-xl bg-indigo-500/15 hover:bg-indigo-500/25 border border-indigo-500/30 text-indigo-300 hover:text-white text-xs font-bold transition-all text-center flex items-center justify-center gap-1.5 cursor-pointer active:scale-95 shadow-sm"
+          >
+            ⚡ Quyền Admin
+          </button>
+          <button 
+            type="button"
+            onclick="quickLoginGuest()"
+            class="py-2.5 px-3 rounded-xl bg-slate-800/60 hover:bg-slate-800 border border-slate-700 text-slate-300 hover:text-white text-xs font-bold transition-all text-center flex items-center justify-center gap-1.5 cursor-pointer active:scale-95 shadow-sm"
+          >
+            👤 Quyền Khách
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -1039,31 +1062,38 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v14';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v15';
 
     async function fetchJsonWithCache(url, fallbackMessage = 'Không thể tải dữ liệu.') {
-      const requestUrl = new URL(url, window.location.href).toString();
       try {
-        const cache = await caches.open(APP_CACHE_NAME);
-        const cachedResponse = await cache.match(requestUrl);
-        if (cachedResponse) {
-          return await cachedResponse.json();
-        }
-
         const response = await fetch(url);
-        if (!response.ok) throw new Error(fallbackMessage);
-
-        const data = await response.json();
-        await cache.put(requestUrl, response.clone());
-        return data;
-      } catch (err) {
-        const cache = await caches.open(APP_CACHE_NAME);
-        const cachedResponse = await cache.match(requestUrl);
-        if (cachedResponse) {
-          return await cachedResponse.json();
+        if (response && response.ok) {
+          const cloneForCache = response.clone();
+          const data = await response.json();
+          if ('caches' in window) {
+            caches.open(APP_CACHE_NAME).then(cache => {
+              cache.put(url, cloneForCache).catch(() => {});
+            }).catch(() => {});
+          }
+          return data;
         }
-        throw err;
+      } catch (networkErr) {
+        console.warn(`Lỗi mạng khi tải ${url}, chuyển sang bộ nhớ cache offline:`, networkErr);
       }
+
+      // Fallback to cache
+      if ('caches' in window) {
+        try {
+          const cache = await caches.open(APP_CACHE_NAME);
+          const cachedResponse = await cache.match(url, { ignoreSearch: true });
+          if (cachedResponse) {
+            return await cachedResponse.json();
+          }
+        } catch (cacheErr) {
+          console.warn(`Không tìm thấy trong cache cho ${url}:`, cacheErr);
+        }
+      }
+      throw new Error(fallbackMessage);
     }
 
     const chineseSheetNames = {
@@ -2379,19 +2409,34 @@
     });
 
     // --- AUTHENTICATION & MEMBER MANAGEMENT ---
+    const BUILTIN_USERS = [
+      {
+        "email": "admin@gmail.com",
+        "mat_khau": "admin",
+        "vai_tro": "Admin",
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "users"]
+      },
+      {
+        "email": "khach@gmail.com",
+        "mat_khau": "123456",
+        "vai_tro": "Khách",
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan"]
+      }
+    ];
+
     let defaultUsers = [];
     let localUsers = [];
     let currentUser = null;
 
     async function initAuth() {
-      // 1. Fetch default users from users.json
+      // 1. Fetch default users from users.json with safe fallback
       try {
         const response = await fetch('./users.json');
-        if (response.ok) {
+        if (response && response.ok) {
           defaultUsers = await response.json();
         }
       } catch (e) {
-        console.error("Lỗi khi tải users.json:", e);
+        console.warn("Dùng danh sách người dùng mặc định:", e);
       }
 
       // 2. Load local edits from localStorage
@@ -2401,7 +2446,7 @@
           localUsers = JSON.parse(storedLocal);
         }
       } catch (e) {
-        console.error("Lỗi khi tải localUsers:", e);
+        console.warn("Lỗi khi tải localUsers:", e);
       }
 
       // 3. Merge users
@@ -2415,6 +2460,7 @@
       if (autoEmail && autoKey) {
         const found = mergedUsers.find(u => u.email.toLowerCase() === autoEmail.toLowerCase() && u.mat_khau === autoKey);
         if (found) {
+          currentUser = found;
           localStorage.setItem('currentUser', JSON.stringify(found));
           window.history.replaceState({}, document.title, window.location.pathname);
         }
@@ -2423,11 +2469,15 @@
       // 5. Check if logged in
       const savedUser = localStorage.getItem('currentUser');
       if (savedUser) {
-        const parsed = JSON.parse(savedUser);
-        const verified = mergedUsers.find(u => u.email.toLowerCase() === parsed.email.toLowerCase() && u.mat_khau === parsed.mat_khau);
-        if (verified) {
-          currentUser = verified;
-        } else {
+        try {
+          const parsed = JSON.parse(savedUser);
+          const verified = mergedUsers.find(u => u.email.toLowerCase() === parsed.email.toLowerCase() && u.mat_khau === parsed.mat_khau);
+          if (verified) {
+            currentUser = verified;
+          } else {
+            currentUser = parsed;
+          }
+        } catch (err) {
           localStorage.removeItem('currentUser');
         }
       }
@@ -2437,6 +2487,9 @@
 
     function getMergedUsers() {
       const map = {};
+      BUILTIN_USERS.forEach(u => {
+        map[u.email.toLowerCase()] = { ...u };
+      });
       defaultUsers.forEach(u => {
         map[u.email.toLowerCase()] = { ...u };
       });
@@ -2457,13 +2510,19 @@
         userInfoDisplay.textContent = currentUser.email;
         userInfoDisplay.classList.remove('hidden');
 
-        const hasPoems = currentUser.quyen.includes('poems');
-        const hasChinese = currentUser.quyen.includes('chinese');
-        const hasKinhDich = currentUser.quyen.includes('kinhdich');
-        const hasThanChu = currentUser.quyen.includes('thanchu');
-        const hasPhapCu = currentUser.quyen.includes('phapcu');
-        const hasConhan = currentUser.quyen.includes('conhan');
-        const hasUsers = currentUser.quyen.includes('users') || currentUser.vai_tro === 'Admin';
+        // Ensure Admin always has 100% full permissions for all current & future modules
+        const isAdmin = currentUser.vai_tro === 'Admin' || currentUser.email.toLowerCase() === 'admin@gmail.com';
+        if (isAdmin) {
+          currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'users'];
+        }
+
+        const hasPoems = isAdmin || currentUser.quyen.includes('poems');
+        const hasChinese = isAdmin || currentUser.quyen.includes('chinese');
+        const hasKinhDich = isAdmin || currentUser.quyen.includes('kinhdich');
+        const hasThanChu = isAdmin || currentUser.quyen.includes('thanchu');
+        const hasPhapCu = isAdmin || currentUser.quyen.includes('phapcu');
+        const hasConhan = isAdmin || currentUser.quyen.includes('conhan');
+        const hasUsers = isAdmin || currentUser.quyen.includes('users');
 
         toggleTabButtonVisibility('tab-poems', hasPoems);
         toggleTabButtonVisibility('tab-chinese', hasChinese);
@@ -2519,6 +2578,24 @@
         else btn.classList.add('hidden');
       }
     }
+
+    window.quickLoginAdmin = function() {
+      const mergedUsers = getMergedUsers();
+      const admin = mergedUsers.find(u => u.email.toLowerCase() === 'admin@gmail.com') || BUILTIN_USERS[0];
+      currentUser = admin;
+      localStorage.setItem('currentUser', JSON.stringify(admin));
+      document.getElementById('login-error-msg').classList.add('hidden');
+      applyAuthUI();
+    };
+
+    window.quickLoginGuest = function() {
+      const mergedUsers = getMergedUsers();
+      const guest = mergedUsers.find(u => u.email.toLowerCase() === 'khach@gmail.com') || BUILTIN_USERS[1];
+      currentUser = guest;
+      localStorage.setItem('currentUser', JSON.stringify(guest));
+      document.getElementById('login-error-msg').classList.add('hidden');
+      applyAuthUI();
+    };
 
     window.handleLoginSubmit = function() {
       const emailInput = document.getElementById('login-email').value.trim();
