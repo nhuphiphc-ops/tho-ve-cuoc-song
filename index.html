@@ -1062,7 +1062,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v15';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v16';
 
     async function fetchJsonWithCache(url, fallbackMessage = 'Không thể tải dữ liệu.') {
       try {
@@ -1614,7 +1614,7 @@
     };
 
     function playSingleOnlineTTS(text, lang, onFinish) {
-      const url = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${lang}&q=${encodeURIComponent(text)}`;
+      const url = `/api/tts?text=${encodeURIComponent(text)}&lang=${encodeURIComponent(lang)}`;
       const audio = new Audio();
       currentTtsAudio = audio;
       audio.src = url;
