@@ -1254,13 +1254,23 @@
 
       area.innerHTML = slice.map(v => {
         const lines = v.noi_dung.split('\n').map(l => `<p class="leading-relaxed">${l}</p>`).join('');
+        const speakText = `Kệ ${v.ke}. ${v.noi_dung.replace(/\n/g, ' ')}`;
         return `
           <div class="glass-card rounded-2xl p-5 flex flex-col gap-3 hover:border-indigo-500/30 transition-all duration-300 border border-slate-800/60">
-            <div class="flex items-center gap-2">
-              <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-extrabold border border-indigo-500/30">
-                ${v.ke}
-              </span>
-              <span class="text-xs font-bold text-indigo-300 tracking-widest uppercase">Kệ ${v.ke}</span>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-extrabold border border-indigo-500/30">
+                  ${v.ke}
+                </span>
+                <span class="text-xs font-bold text-indigo-300 tracking-widest uppercase">Kệ ${v.ke}</span>
+              </div>
+              <button 
+                onclick="playTTS(event, '${speakText.replace(/'/g, "\\'")}', 'vi')"
+                class="text-indigo-400 hover:text-white p-1.5 rounded-lg bg-slate-900 border border-slate-800 transition-colors cursor-pointer active:scale-95 flex items-center justify-center"
+                title="Nghe đọc kệ"
+              >
+                <svg class="w-3.5 h-3.5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+              </button>
             </div>
             <div class="${fontSize} text-slate-200 font-serif italic leading-relaxed">
               ${lines}
@@ -1482,43 +1492,191 @@
       mantraTextArea.classList.add(size);
     };
 
+    // --- AUDIO & SPEECH ENGINE (OPTIMIZED FOR SAMSUNG & MOBILE PHONES) ---
+    let currentTtsAudio = null;
+    let currentTtsButton = null;
+    let currentAudioQueue = [];
+    let isPlayingAudioQueue = false;
+
+    function stopAllAudio() {
+      if (currentTtsAudio) {
+        try {
+          currentTtsAudio.pause();
+          currentTtsAudio.currentTime = 0;
+          currentTtsAudio.src = "";
+        } catch (e) {}
+        currentTtsAudio = null;
+      }
+      currentAudioQueue = [];
+      isPlayingAudioQueue = false;
+      if ('speechSynthesis' in window) {
+        try {
+          window.speechSynthesis.cancel();
+        } catch (e) {}
+      }
+      resetTtsVisuals();
+    }
+
+    function resetTtsVisuals() {
+      if (currentTtsButton) {
+        currentTtsButton.classList.remove('bg-indigo-600', 'text-white', 'border-indigo-400', 'animate-pulse', 'scale-105');
+        const icon = currentTtsButton.querySelector('svg');
+        if (icon) {
+          icon.classList.remove('text-white');
+          icon.classList.add('text-indigo-400');
+        }
+        currentTtsButton = null;
+      }
+      const mantraBtn = document.getElementById('btn-speak-mantra');
+      if (mantraBtn) {
+        mantraBtn.classList.remove('bg-indigo-650', 'text-amber-400', 'animate-pulse');
+      }
+    }
+
+    window.playTTS = function(e, text, forceLang) {
+      if (e) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+      if (!text) return;
+
+      const cleanText = String(text).trim();
+      if (!cleanText) return;
+
+      const btn = e ? (e.currentTarget || (e.target && e.target.closest('button'))) : null;
+      if (btn && btn === currentTtsButton && (currentTtsAudio || isPlayingAudioQueue || (window.speechSynthesis && window.speechSynthesis.speaking))) {
+        stopAllAudio();
+        return;
+      }
+
+      stopAllAudio();
+
+      if (btn) {
+        currentTtsButton = btn;
+        btn.classList.add('bg-indigo-600', 'text-white', 'border-indigo-400', 'animate-pulse', 'scale-105');
+        const icon = btn.querySelector('svg');
+        if (icon) {
+          icon.classList.remove('text-indigo-400');
+          icon.classList.add('text-white');
+        }
+      }
+
+      const hasChineseChar = /[\u4e00-\u9fa5]/.test(cleanText);
+      const isChinese = forceLang ? forceLang.startsWith('zh') : (hasChineseChar || (!/[áàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]/i.test(cleanText) && /[a-zA-Z]/.test(cleanText)));
+      const targetLang = forceLang || (isChinese ? 'zh-CN' : 'vi');
+
+      if (cleanText.length <= 150) {
+        playSingleOnlineTTS(cleanText, targetLang, () => {
+          resetTtsVisuals();
+        });
+      } else {
+        const chunks = cleanText.split(/[\n.;!?]+/).map(s => s.trim()).filter(s => s.length > 0);
+        if (chunks.length <= 1) {
+          playSingleOnlineTTS(cleanText.substring(0, 150), targetLang, () => {
+            resetTtsVisuals();
+          });
+        } else {
+          playQueueOnlineTTS(chunks, targetLang, () => {
+            resetTtsVisuals();
+          });
+        }
+      }
+    };
+
+    function playSingleOnlineTTS(text, lang, onFinish) {
+      const url = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${lang}&q=${encodeURIComponent(text)}`;
+      const audio = new Audio();
+      currentTtsAudio = audio;
+      audio.src = url;
+      audio.playbackRate = 1.0;
+
+      let finished = false;
+      const done = () => {
+        if (!finished) {
+          finished = true;
+          if (onFinish) onFinish();
+        }
+      };
+
+      audio.onended = done;
+      audio.onerror = function() {
+        fallbackSpeechSynthesis(text, lang, done);
+      };
+
+      const p = audio.play();
+      if (p !== undefined) {
+        p.catch(err => {
+          fallbackSpeechSynthesis(text, lang, done);
+        });
+      }
+    }
+
+    function playQueueOnlineTTS(chunks, lang, onFinish) {
+      isPlayingAudioQueue = true;
+      let currentIndex = 0;
+
+      function playNext() {
+        if (!isPlayingAudioQueue || currentIndex >= chunks.length) {
+          isPlayingAudioQueue = false;
+          if (onFinish) onFinish();
+          return;
+        }
+
+        const chunk = chunks[currentIndex++];
+        playSingleOnlineTTS(chunk, lang, () => {
+          if (isPlayingAudioQueue) {
+            setTimeout(playNext, 250);
+          }
+        });
+      }
+
+      playNext();
+    }
+
+    function fallbackSpeechSynthesis(text, lang, onFinish) {
+      if (!('speechSynthesis' in window)) {
+        if (onFinish) onFinish();
+        return;
+      }
+      try {
+        window.speechSynthesis.resume();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = lang === 'zh-CN' ? 'zh-CN' : 'vi-VN';
+        utterance.rate = 0.9;
+
+        const voices = window.speechSynthesis.getVoices();
+        if (voices && voices.length > 0) {
+          const isZh = lang.startsWith('zh');
+          const matched = voices.find(v => isZh ? (v.lang.includes('zh') || v.lang.includes('zho') || v.lang.includes('cmn')) : v.lang.includes('vi'));
+          if (matched) utterance.voice = matched;
+        }
+
+        utterance.onend = function() {
+          if (onFinish) onFinish();
+        };
+        utterance.onerror = function() {
+          if (onFinish) onFinish();
+        };
+
+        window.speechSynthesis.speak(utterance);
+      } catch (e) {
+        console.error("Speech synthesis fallback error:", e);
+        if (onFinish) onFinish();
+      }
+    }
+
     window.playMantraSpeech = function() {
       const text = mantraTextArea.innerText;
       if (!text) return;
-      if ('speechSynthesis' in window) {
-        if (window.speechSynthesis.speaking) {
-          window.speechSynthesis.cancel();
-          document.getElementById('btn-speak-mantra').classList.remove('bg-indigo-650', 'text-amber-400', 'animate-pulse');
+      const btn = document.getElementById('btn-speak-mantra');
+      if (btn) {
+        if (btn.classList.contains('animate-pulse') || isPlayingAudioQueue || currentTtsAudio || (window.speechSynthesis && window.speechSynthesis.speaking)) {
+          stopAllAudio();
           return;
         }
-        
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'vi-VN';
-        
-        // Find a Vietnamese voice
-        const voices = window.speechSynthesis.getVoices();
-        const viVoice = voices.find(v => v.lang.includes('vi'));
-        if (viVoice) utterance.voice = viVoice;
-        
-        utterance.rate = 0.9; // reciting should be slightly slower
-        
-        utterance.onstart = function() {
-          document.getElementById('btn-speak-mantra').classList.add('bg-indigo-650', 'text-amber-400', 'animate-pulse');
-        };
-        utterance.onend = function() {
-          document.getElementById('btn-speak-mantra').classList.remove('bg-indigo-650', 'text-amber-400', 'animate-pulse');
-        };
-        utterance.onerror = function() {
-          document.getElementById('btn-speak-mantra').classList.remove('bg-indigo-650', 'text-amber-400', 'animate-pulse');
-        };
-        
-        window.speechSynthesis.cancel();
-        setTimeout(() => {
-          window.speechSynthesis.speak(utterance);
-        }, 100);
-      } else {
-        alert("Trình duyệt không hỗ trợ phát âm tự động.");
+        btn.classList.add('bg-indigo-650', 'text-amber-400', 'animate-pulse');
       }
+      playTTS({ currentTarget: btn }, text, 'vi');
     };
 
     // --- CHINESE SUB-TABS ---
@@ -1605,7 +1763,7 @@
           <div class="glass-card p-5 rounded-2xl flex flex-col gap-2">
             <div class="flex items-center justify-between">
               <span class="text-[10px] font-bold text-indigo-300 bg-indigo-500/10 px-2 py-0.5 rounded uppercase tracking-wide">${item.cap_do}</span>
-              <button onclick="playTTS(event, '${String(item.vi_du_han).replace(/'/g, "\\'")}')" class="text-indigo-400 hover:text-white p-1.5 rounded-lg bg-slate-900 border border-slate-800 transition-colors" title="Phát âm ví dụ">
+              <button onclick="playTTS(event, '${String(item.vi_du_han || '').replace(/'/g, "\\'")}', 'zh-CN')" class="text-indigo-400 hover:text-white p-1.5 rounded-lg bg-slate-900 border border-slate-800 transition-colors cursor-pointer active:scale-95 flex items-center justify-center" title="Phát âm ví dụ">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
               </button>
             </div>
@@ -1631,49 +1789,56 @@
         let extraInfo = "";
 
         if (activeChineseSheet === 'Mau_cau_giao_tiep') {
-          primaryText = item['Tieng Trung'];
-          pinyinText = item['Phien am'];
-          transText = item['Tieng Viet'];
+          primaryText = item['Tieng Trung'] || '';
+          pinyinText = item['Phien am'] || '';
+          transText = item['Tieng Viet'] || '';
           extraInfo = item['Chu de'] ? `<span class="text-[9px] font-bold text-teal-400 tracking-wider bg-teal-500/10 px-2 py-0.5 rounded uppercase mb-2 block w-max">${item['Chu de']}</span>` : '';
         } else if (activeChineseSheet === 'Tu_dien_1500') {
-          primaryText = item['Chu Han'];
-          pinyinText = item['Pinyin'] + (item['Am Han Viet'] ? ` (${item['Am Han Viet']})` : '');
-          transText = item['Nghia'];
+          primaryText = item['Chu Han'] || '';
+          pinyinText = (item['Pinyin'] || '') + (item['Am Han Viet'] ? ` (${item['Am Han Viet']})` : '');
+          transText = item['Nghia'] || '';
         } else if (activeChineseSheet === '3000_cau_giao_tiep') {
-          primaryText = item['Tieng Trung'];
-          pinyinText = item['Phien am'];
-          transText = item['Tieng Viet'];
+          primaryText = item['Tieng Trung'] || '';
+          pinyinText = item['Phien am'] || '';
+          transText = item['Tieng Viet'] || '';
         } else if (activeChineseSheet === 'Cau_thuong_gap') {
-          primaryText = item['Cau (phien am boi)'];
-          transText = item['Chu thich tu'];
+          primaryText = item['Cau (phien am boi)'] || '';
+          transText = item['Chu thich tu'] || '';
         } else if (activeChineseSheet === 'Tu_vung_pho_bien') {
-          primaryText = item['Tu (phien am boi)'];
-          transText = item['Nghia'];
+          primaryText = item['Tu (phien am boi)'] || '';
+          transText = item['Nghia'] || '';
         } else if (activeChineseSheet === 'Tu_hay_dung') {
-          primaryText = item['Chu Han'];
-          transText = item['Pinyin (am boi): Nghia'];
+          primaryText = item['Chu Han'] || '';
+          transText = item['Pinyin (am boi): Nghia'] || '';
         } else if (activeChineseSheet === '70_Dong_tu') {
-          primaryText = item['Han'];
-          pinyinText = item['Pinyin'] + (item['Doc (am boi)'] ? ` (Bồi: ${item['Doc (am boi)']})` : '');
-          transText = item['Dich'];
+          primaryText = item['Han'] || '';
+          pinyinText = (item['Pinyin'] || '') + (item['Doc (am boi)'] ? ` (Bồi: ${item['Doc (am boi)']})` : '');
+          transText = item['Dich'] || '';
         } else if (activeChineseSheet === '214_Bo_thu') {
-          primaryText = item['Ten bo'];
-          pinyinText = item['Phien am'];
-          transText = item['Y nghia'];
+          primaryText = item['Ten bo'] || '';
+          pinyinText = item['Phien am'] || '';
+          transText = item['Y nghia'] || '';
         } else if (activeChineseSheet === 'Cach_doc_phat_am') {
           primaryText = item['Van mau'] || item['Thanh mau'] || Object.values(item)[0] || '';
-          transText = item['Cach doc'];
+          transText = item['Cach doc'] || '';
         } else if (activeChineseSheet === 'Ho_ten_thuong_gap') {
-          primaryText = `${item['Ho (VN)']} ${item['Ten dem/ten (VN)']}`;
-          pinyinText = `${item['Ho (Pinyin)']} ${item['Ten dem/ten (Pinyin)']}`;
+          primaryText = `${item['Ho (VN)'] || ''} ${item['Ten dem/ten (VN)'] || ''}`.trim();
+          pinyinText = `${item['Ho (Pinyin)'] || ''} ${item['Ten dem/ten (Pinyin)'] || ''}`.trim();
           transText = "Họ tên thường gặp";
         }
 
-        const speakBtn = primaryText && /[a-zA-Z\u4e00-\u9fa5]/.test(primaryText) ? `
+        let speakText = primaryText;
+        if (activeChineseSheet === '214_Bo_thu' && item['Phien am']) {
+          speakText = item['Phien am'];
+        } else if (activeChineseSheet === 'Ho_ten_thuong_gap' && pinyinText) {
+          speakText = pinyinText;
+        }
+
+        const speakBtn = speakText && /[a-zA-Z\u4e00-\u9fa5]/.test(speakText) ? `
           <button 
-            onclick="playTTS(event, '${primaryText.replace(/'/g, "\\'")}')" 
-            class="text-indigo-400 hover:text-white p-2 rounded-xl bg-slate-900 border border-slate-800 transition-colors"
-            title="Phát âm"
+            onclick="playTTS(event, '${speakText.replace(/'/g, "\\'")}', 'zh-CN')" 
+            class="text-indigo-400 hover:text-white p-2 rounded-xl bg-slate-900 border border-slate-800 transition-colors cursor-pointer active:scale-95 flex items-center justify-center"
+            title="Phát âm tiếng Trung"
           >
             <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
           </button>
@@ -1696,24 +1861,6 @@
           </div>
         `;
       }).join('');
-    };
-
-    window.playTTS = function(e, text) {
-      if (e) e.stopPropagation();
-      if (!text) return;
-      if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(text);
-        
-        const isChinese = /[\u4e00-\u9fa5]/.test(text);
-        utterance.lang = isChinese ? 'zh-CN' : 'vi-VN';
-        
-        const voices = window.speechSynthesis.getVoices();
-        const activeVoice = voices.find(v => isChinese ? (v.lang.includes('zh') || v.lang.includes('zho')) : v.lang.includes('vi'));
-        if (activeVoice) utterance.voice = activeVoice;
-        
-        window.speechSynthesis.speak(utterance);
-      }
     };
 
     chineseSearchInput.addEventListener('input', () => {
