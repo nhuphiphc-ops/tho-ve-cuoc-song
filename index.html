@@ -994,7 +994,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v18';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v19';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -1446,8 +1446,6 @@
     // --- AUDIO / SPEECH ENGINE ---
     let currentTtsAudio = null;
     let currentTtsButton = null;
-    let currentAudioQueue = [];
-    let isPlayingAudioQueue = false;
 
     function stopAllAudio() {
       if (currentTtsAudio) {
@@ -1458,8 +1456,6 @@
         } catch (e) {}
         currentTtsAudio = null;
       }
-      currentAudioQueue = [];
-      isPlayingAudioQueue = false;
       if ('speechSynthesis' in window) {
         try {
           window.speechSynthesis.cancel();
@@ -1470,17 +1466,19 @@
 
     function resetTtsVisuals() {
       if (currentTtsButton) {
-        currentTtsButton.classList.remove('bg-indigo-600', 'text-white', 'border-indigo-400', 'animate-pulse', 'scale-105');
+        currentTtsButton.classList.remove('bg-indigo-600', 'text-white', 'border-indigo-400', 'animate-pulse', 'scale-105', 'bg-amber-500', 'text-slate-950');
         const icon = currentTtsButton.querySelector('svg');
         if (icon) {
-          icon.classList.remove('text-white');
-          icon.classList.add('text-indigo-400');
+          icon.classList.remove('text-white', 'text-slate-950');
+          icon.classList.add('text-amber-400');
         }
         currentTtsButton = null;
       }
       const mantraBtn = document.getElementById('btn-speak-mantra');
       if (mantraBtn) {
         mantraBtn.classList.remove('bg-amber-500', 'text-slate-950', 'animate-pulse');
+        const mantraSpan = mantraBtn.querySelector('span');
+        if (mantraSpan) mantraSpan.textContent = "Nghe Tụng";
       }
     }
 
@@ -1495,8 +1493,9 @@
       if (!cleanText) return;
 
       const btn = e ? (e.currentTarget || (e.target && e.target.closest('button'))) : null;
-      if (btn && btn === currentTtsButton && (currentTtsAudio || isPlayingAudioQueue || (window.speechSynthesis && window.speechSynthesis.speaking))) {
+      if (btn && btn === currentTtsButton && (currentTtsAudio || (window.speechSynthesis && window.speechSynthesis.speaking))) {
         stopAllAudio();
+        showToast("Đã dừng âm thanh", "⏹️");
         return;
       }
 
@@ -1504,11 +1503,13 @@
 
       if (btn) {
         currentTtsButton = btn;
-        btn.classList.add('bg-indigo-600', 'text-white', 'border-indigo-400', 'animate-pulse', 'scale-105');
-        const icon = btn.querySelector('svg');
-        if (icon) {
-          icon.classList.remove('text-indigo-400');
-          icon.classList.add('text-white');
+        btn.classList.add('animate-pulse', 'scale-105');
+        if (btn.id === 'btn-speak-mantra') {
+          btn.classList.add('bg-amber-500', 'text-slate-950');
+          const mantraSpan = btn.querySelector('span');
+          if (mantraSpan) mantraSpan.textContent = "Đang Tụng...";
+        } else {
+          btn.classList.add('bg-indigo-600', 'text-white', 'border-indigo-400');
         }
       }
 
@@ -1516,73 +1517,53 @@
       const isChinese = forceLang ? forceLang.startsWith('zh') : (hasChineseChar || (!/[áàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]/i.test(cleanText) && /[a-zA-Z]/.test(cleanText)));
       const targetLang = forceLang || (isChinese ? 'zh-CN' : 'vi');
 
-      if (cleanText.length <= 150) {
-        playSingleOnlineTTS(cleanText, targetLang, () => {
-          resetTtsVisuals();
-        });
-      } else {
-        const chunks = cleanText.split(/[\n.;!?]+/).map(s => s.trim()).filter(s => s.length > 0);
-        if (chunks.length <= 1) {
-          playSingleOnlineTTS(cleanText.substring(0, 150), targetLang, () => {
-            resetTtsVisuals();
-          });
-        } else {
-          playQueueOnlineTTS(chunks, targetLang, () => {
-            resetTtsVisuals();
-          });
-        }
-      }
-    };
-
-    function playSingleOnlineTTS(text, lang, onFinish) {
-      const url = `/api/tts?text=${encodeURIComponent(text)}&lang=${encodeURIComponent(lang)}`;
+      // Create audio object synchronously inside user click event to satisfy mobile autoplay policies
       const audio = new Audio();
       currentTtsAudio = audio;
-      audio.src = url;
-      audio.playbackRate = 1.0;
 
-      let finished = false;
       const done = () => {
-        if (!finished) {
-          finished = true;
-          if (onFinish) onFinish();
-        }
+        resetTtsVisuals();
+        if (currentTtsAudio === audio) currentTtsAudio = null;
       };
 
       audio.onended = done;
-      audio.onerror = function() {
-        fallbackSpeechSynthesis(text, lang, done);
+      audio.onerror = function(err) {
+        console.warn("Audio stream error, falling back to speech synthesis:", err);
+        fallbackSpeechSynthesis(cleanText, targetLang, done);
       };
 
-      const p = audio.play();
-      if (p !== undefined) {
-        p.catch(err => {
-          fallbackSpeechSynthesis(text, lang, done);
-        });
-      }
-    }
-
-    function playQueueOnlineTTS(chunks, lang, onFinish) {
-      isPlayingAudioQueue = true;
-      let currentIndex = 0;
-
-      function playNext() {
-        if (!isPlayingAudioQueue || currentIndex >= chunks.length) {
-          isPlayingAudioQueue = false;
-          if (onFinish) onFinish();
-          return;
+      if (cleanText.length <= 600) {
+        audio.src = `/api/tts?text=${encodeURIComponent(cleanText)}&lang=${encodeURIComponent(targetLang)}`;
+        const p = audio.play();
+        if (p !== undefined) {
+          p.catch(err => {
+            console.warn("Audio play rejected:", err);
+            fallbackSpeechSynthesis(cleanText, targetLang, done);
+          });
         }
-
-        const chunk = chunks[currentIndex++];
-        playSingleOnlineTTS(chunk, lang, () => {
-          if (isPlayingAudioQueue) {
-            setTimeout(playNext, 250);
-          }
+      } else {
+        // Unlock audio for mobile then stream full payload
+        fetch('/api/tts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: cleanText, lang: targetLang })
+        })
+        .then(res => {
+          if (!res.ok) throw new Error("TTS status: " + res.status);
+          return res.blob();
+        })
+        .then(blob => {
+          if (!currentTtsAudio || currentTtsAudio !== audio) return;
+          const blobUrl = URL.createObjectURL(blob);
+          audio.src = blobUrl;
+          return audio.play();
+        })
+        .catch(err => {
+          console.warn("POST audio failed:", err);
+          fallbackSpeechSynthesis(cleanText, targetLang, done);
         });
       }
-
-      playNext();
-    }
+    };
 
     function fallbackSpeechSynthesis(text, lang, onFinish) {
       if (!('speechSynthesis' in window)) {
@@ -1591,7 +1572,7 @@
       }
       try {
         window.speechSynthesis.resume();
-        const utterance = new SpeechSynthesisUtterance(text);
+        const utterance = new SpeechSynthesisUtterance(text.substring(0, 300));
         utterance.lang = lang === 'zh-CN' ? 'zh-CN' : 'vi-VN';
         utterance.rate = 0.9;
 
@@ -1618,15 +1599,11 @@
 
     window.playMantraSpeech = function() {
       const text = mantraTextArea.innerText;
-      if (!text) return;
-      const btn = document.getElementById('btn-speak-mantra');
-      if (btn) {
-        if (btn.classList.contains('animate-pulse') || isPlayingAudioQueue || currentTtsAudio || (window.speechSynthesis && window.speechSynthesis.speaking)) {
-          stopAllAudio();
-          return;
-        }
-        btn.classList.add('bg-amber-500', 'text-slate-950', 'animate-pulse');
+      if (!text) {
+        showToast("Chưa có nội dung để đọc!", "⚠️");
+        return;
       }
+      const btn = document.getElementById('btn-speak-mantra');
       playTTS({ currentTarget: btn }, text, 'vi');
     };
 
