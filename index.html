@@ -8,7 +8,7 @@
   
   <!-- PWA Manifest -->
   <link rel="manifest" href="./manifest.json">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#030712">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -38,7 +38,6 @@
   </script>
   
   <style>
-    /* Global Styling & Ambient Light Mesh */
     :root {
       --glow-primary: rgba(99, 102, 241, 0.15);
       --glow-secondary: rgba(168, 85, 247, 0.12);
@@ -55,9 +54,8 @@
       -webkit-tap-highlight-color: transparent;
     }
 
-    /* Glassmorphism Luxury Cards */
     .glass-card {
-      background: rgba(17, 24, 39, 0.65);
+      background: rgba(17, 24, 39, 0.7);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
       border: 1px solid rgba(255, 255, 255, 0.08);
@@ -75,7 +73,6 @@
       transform: scale(0.985);
     }
 
-    /* Custom Scrollbar */
     .custom-scrollbar::-webkit-scrollbar {
       width: 6px;
       height: 6px;
@@ -91,16 +88,6 @@
       background: rgba(99, 102, 241, 0.8);
     }
 
-    /* Audio Waves Effect */
-    @keyframes wave-pulse {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(1.18); opacity: 0.8; }
-    }
-    .animate-wave {
-      animation: wave-pulse 1.2s ease-in-out infinite;
-    }
-
-    /* 3D Coin Shaker Animation */
     @keyframes coin-shake {
       0%, 100% { transform: translateY(0) rotate(0deg) scale(1); }
       20% { transform: translateY(-18px) rotate(45deg) scale(1.1); }
@@ -112,7 +99,6 @@
       animation: coin-shake 0.85s ease-in-out infinite;
     }
 
-    /* Module Themes Accent Classes */
     .theme-glow-poems { --glow-primary: rgba(244, 63, 94, 0.2); --glow-secondary: rgba(217, 70, 239, 0.15); }
     .theme-glow-chinese { --glow-primary: rgba(20, 184, 166, 0.2); --glow-secondary: rgba(16, 185, 129, 0.15); }
     .theme-glow-kinhdich { --glow-primary: rgba(245, 158, 11, 0.2); --glow-secondary: rgba(234, 88, 12, 0.15); }
@@ -121,7 +107,6 @@
     .theme-glow-conhan { --glow-primary: rgba(225, 29, 72, 0.2); --glow-secondary: rgba(180, 83, 9, 0.15); }
     .theme-glow-users { --glow-primary: rgba(99, 102, 241, 0.2); --glow-secondary: rgba(139, 92, 246, 0.15); }
 
-    /* Toast Notification */
     #toast-notification {
       transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     }
@@ -136,7 +121,7 @@
   </div>
 
   <!-- Header -->
-  <header class="border-b border-slate-800/80 bg-slate-950/70 backdrop-blur-xl sticky top-0 z-40 transition-all duration-300">
+  <header class="border-b border-slate-800/80 bg-slate-950/75 backdrop-blur-xl sticky top-0 z-40 transition-all duration-300">
     <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-4 flex flex-col xl:flex-row items-center justify-between gap-3 sm:gap-4">
       
       <!-- Brand Logo -->
@@ -170,7 +155,7 @@
         </div>
       </div>
       
-      <!-- Main Tabs Switcher (Scrollable horizontally on phones) -->
+      <!-- Main Tabs Switcher -->
       <div class="w-full xl:w-auto flex items-center gap-2 sm:gap-4 justify-between xl:justify-end overflow-x-auto custom-scrollbar pb-1 xl:pb-0">
         <nav class="flex items-center gap-1.5 bg-slate-900/90 p-1.5 rounded-2xl border border-slate-800/90 shadow-2xl shrink-0" role="tablist">
           <button 
@@ -315,7 +300,7 @@
           Kho Tri Thức & Giao Tiếp Tiếng Hán
         </h2>
         <p class="text-slate-300 text-xs sm:text-sm max-w-xl leading-relaxed">
-          Hơn 6.800 từ vựng, ngữ pháp HSK, bộ thủ, câu giao tiếp thực tế kèm <strong>phát âm giọng Bắc Kinh chuẩn bản xứ</strong>.
+          Hơn 6.800 từ vựng, bộ thủ, mẫu câu giao tiếp kèm <strong>phát âm giọng Bắc Kinh chuẩn bản xứ</strong>.
         </p>
 
         <!-- Category Tabs Carousel -->
@@ -533,7 +518,6 @@
         <!-- Scripture Book Display Pane -->
         <div class="flex-grow w-full">
           <div class="glass-card p-6 sm:p-10 rounded-3xl relative overflow-hidden border-amber-500/30" id="mantra-parchment">
-            <!-- Ornamental Border Lines -->
             <div class="absolute inset-3 sm:inset-4 border border-amber-500/20 pointer-events-none rounded-2xl"></div>
             <div class="absolute inset-5 sm:inset-6 border border-amber-500/10 pointer-events-none rounded-xl"></div>
             
@@ -542,7 +526,6 @@
                 <span>🕉️</span> Nội Dung Kinh Chú
               </h3>
               
-              <!-- Speak Button -->
               <button 
                 id="btn-speak-mantra"
                 onclick="playMantraSpeech()"
@@ -660,7 +643,7 @@
           <input
             type="text"
             id="conhan-search"
-            placeholder="Tìm kiếm danh ngôn theo từ khóa hoặc bài học..."
+            placeholder="Tìm kiếm danh ngôn theo từ khóa hoặc tác giả..."
             class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-750 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-rose-500 text-sm shadow-inner"
           >
         </div>
@@ -693,7 +676,6 @@
 
     <!-- ==================== SECTION 7: ADMIN USERS ==================== -->
     <div id="users-section" class="flex flex-col gap-6 hidden">
-      <!-- Header -->
       <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-indigo-950/50 via-purple-950/25 to-slate-950/40 border border-indigo-500/30 p-6 sm:p-8 shadow-2xl">
         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-indigo-500/20 via-transparent to-transparent pointer-events-none"></div>
         <div class="flex items-center gap-3">
@@ -728,7 +710,7 @@
 
           <div class="flex flex-col gap-2">
             <label class="text-xs font-bold text-slate-400">Quyền truy cập Mô-đun:</label>
-            <div class="grid grid-cols-2 gap-2 bg-slate-950/60 p-3 rounded-2xl border border-slate-855 text-xs text-slate-300">
+            <div class="grid grid-cols-2 gap-2 bg-slate-950/60 p-3 rounded-2xl border border-slate-850 text-xs text-slate-300">
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-poems" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🌸 Thơ</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-chinese" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🇨🇳 Tiếng Trung</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-kinhdich" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>☯️ Kinh Dịch</span></label>
@@ -881,7 +863,7 @@
 
       <div class="p-4 border-t border-slate-800 bg-slate-900/80 flex items-center justify-between text-xs text-slate-400 font-semibold">
         <span id="modal-stt">STT: --</span>
-        <span id="modal-khostho">Thông tin thêm: --</span>
+        <span id="modal-khostho">Thể loại: Thơ triết lý</span>
       </div>
     </div>
   </div>
@@ -1012,9 +994,8 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v17';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v18';
 
-    // Toast Function
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
       const msgEl = document.getElementById('toast-message');
@@ -1047,7 +1028,6 @@
         console.warn(`Lỗi mạng khi tải ${url}, chuyển sang bộ nhớ cache offline:`, networkErr);
       }
 
-      // Fallback to cache
       if ('caches' in window) {
         try {
           const cache = await caches.open(APP_CACHE_NAME);
@@ -1063,8 +1043,6 @@
     }
 
     const chineseSheetNames = {
-      'Lo_Trinh_Hoc': 'Lộ trình học',
-      'Ngu_Phap_Co_Ban': 'Ngữ pháp cơ bản',
       'Mau_cau_giao_tiep': 'Mẫu câu giao tiếp',
       'Tu_dien_1500': 'Từ điển 1500 chữ Hán',
       '3000_cau_giao_tiep': '3000 câu giao tiếp',
@@ -1079,7 +1057,6 @@
 
     const kinhDichSheetNames = {
       'que_64': '64 Quẻ Dịch',
-      'bat_quai': 'Bát Quái Đồ',
       'thien_can': 'Thiên Can',
       'dia_chi': 'Địa Chi',
       'ngu_hanh': 'Cung Mệnh Ngũ Hành',
@@ -1089,7 +1066,7 @@
       'ghi_chu': 'Ghi Chú Tổng Quan'
     };
 
-    // Main Tab Switcher with Thematic Glow Transitions
+    // Main Tab Switcher
     window.switchMainTab = function(tab) {
       poemsSection.classList.add('hidden');
       chineseSection.classList.add('hidden');
@@ -1102,7 +1079,6 @@
       const appBody = document.getElementById('app-body');
       appBody.className = `min-h-full flex flex-col theme-glow-${tab} transition-all duration-700`;
 
-      // Reset all tab buttons
       const inactiveClass = "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200";
       tabPoems.className = inactiveClass;
       tabChinese.className = inactiveClass;
@@ -1116,6 +1092,12 @@
         poemsSection.classList.remove('hidden');
         tabPoems.className = "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-rose-500 to-pink-600 text-white shadow-lg shadow-rose-500/25";
         headerStatus.textContent = `${poems.length} bài thơ sẵn sàng`;
+        if (poems.length > 0) {
+          renderTopicFilters();
+          filterPoems();
+        } else {
+          loadPoems();
+        }
       } else if (tab === 'chinese') {
         chineseSection.classList.remove('hidden');
         tabChinese.className = "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-teal-500 to-emerald-600 text-white shadow-lg shadow-teal-500/25";
@@ -1143,10 +1125,19 @@
       }
     };
 
-    // Load Poems Data
+    // Load & Normalize Poems Data
     async function loadPoems() {
       try {
-        poems = await fetchJsonWithCache('./data.json', 'Không thể tải tệp dữ liệu thơ.');
+        const raw = await fetchJsonWithCache('./data.json', 'Không thể tải tệp dữ liệu thơ.');
+        poems = (raw || []).map((p, idx) => ({
+          stt: p.STT || p.stt || (idx + 1),
+          ten_bai_tho: p["Tên Bài Thơ"] || p.ten_bai_tho || "Bài Thơ",
+          chu_de: p["Chủ Đề Chính"] || p.chu_de || "Triết Lý",
+          so_kho: p["Số Khổ Thơ"] || p.so_kho || 0,
+          cam_xuc: p["Từ Khóa Cảm Xúc"] || p.cam_xuc || "",
+          noi_dung: p["ĐỌC BÀI THƠ"] || p.noi_dung || "",
+          khuyen_doc: p["Gợi Ý Đọc"] || p.khuyen_doc || ""
+        }));
         headerStatus.textContent = `${poems.length} bài thơ sẵn sàng`;
         document.getElementById('poem-count-badge').textContent = `Tổng: ${poems.length} bài`;
         renderTopicFilters();
@@ -1159,13 +1150,17 @@
 
     // Lazy load Chinese
     async function loadChineseData() {
-      if (chineseData) return;
+      if (chineseData) {
+        renderChineseSheetsMenu();
+        renderChinese();
+        return;
+      }
       headerStatus.textContent = "Đang tải dữ liệu tiếng Trung...";
       try {
         chineseData = await fetchJsonWithCache('./tieng_trung.json', 'Không thể tải dữ liệu tiếng Trung.');
         headerStatus.textContent = "Kho Tiếng Trung sẵn sàng";
         renderChineseSheetsMenu();
-        selectChineseSheet('Mau_cau_giao_tiep');
+        selectChineseSheet(activeChineseSheet || 'Mau_cau_giao_tiep');
       } catch (err) {
         console.error(err);
         headerStatus.textContent = 'Mở offline (chưa có tiếng Trung)';
@@ -1174,13 +1169,17 @@
 
     // Lazy load Kinh Dich
     async function loadKinhDichData() {
-      if (kinhDichData) return;
+      if (kinhDichData) {
+        renderKinhDichSheetsMenu();
+        renderKinhDich();
+        return;
+      }
       headerStatus.textContent = "Đang tải cổ thư Kinh Dịch...";
       try {
         kinhDichData = await fetchJsonWithCache('./kinh_dich.json', 'Không thể tải kinh_dich.json');
         headerStatus.textContent = "Kinh Dịch cổ thư sẵn sàng";
         renderKinhDichSheetsMenu();
-        selectKinhDichSheet('que_64');
+        selectKinhDichSheet(activeKinhDichSheet || 'que_64');
       } catch (err) {
         console.error(err);
         headerStatus.textContent = 'Mở offline (chưa có Kinh Dịch)';
@@ -1189,12 +1188,15 @@
 
     // Lazy load Than Chu
     async function loadThanChuData() {
-      if (thanChuData) return;
+      if (thanChuData) {
+        selectMantraSection(activeMantraSection || 'phat_nguyen');
+        return;
+      }
       headerStatus.textContent = "Đang tải linh chú...";
       try {
         thanChuData = await fetchJsonWithCache('./than_chu.json', 'Không thể tải than_chu.json');
         headerStatus.textContent = "Linh chú Phật giáo sẵn sàng";
-        selectMantraSection('phat_nguyen');
+        selectMantraSection(activeMantraSection || 'phat_nguyen');
       } catch (err) {
         console.error(err);
         mantraTextArea.innerHTML = `<p class="text-rose-400">Không thể khởi tạo mô-đun Kinh Chú.</p>`;
@@ -1209,7 +1211,12 @@
       }
       headerStatus.textContent = "Đang tải Kinh Pháp Cú...";
       try {
-        phapCuData = await fetchJsonWithCache('./phap_cu.json', 'Không thể tải phap_cu.json');
+        const raw = await fetchJsonWithCache('./phap_cu.json', 'Không thể tải phap_cu.json');
+        phapCuData = (raw || []).map((v, idx) => ({
+          stt: v.stt || (idx + 1),
+          ke: v.ke || (idx + 1),
+          noi_dung: v.noi_dung || ""
+        }));
         headerStatus.textContent = `Kinh Pháp Cú: ${phapCuData.length} kệ sẵn sàng`;
         renderPhapCuCards();
       } catch (err) {
@@ -1222,12 +1229,20 @@
     // Lazy load Co Nhan
     async function loadConhanData() {
       if (conhanData) {
+        renderConhanAuthorFilter();
         renderConhanCards();
         return;
       }
       headerStatus.textContent = "Đang tải trí tuệ cổ nhân...";
       try {
-        conhanData = await fetchJsonWithCache('./co_nhan.json', 'Không thể tải co_nhan.json');
+        const raw = await fetchJsonWithCache('./co_nhan.json', 'Không thể tải co_nhan.json');
+        conhanData = (raw || []).map((c, idx) => ({
+          stt: c.id || c.stt || (idx + 1),
+          tac_gia: c.tac_gia || "Khuyết danh",
+          cau_noi: c.cau_noi || c.noi_dung || "",
+          y_nghia: c.y_nghia || "",
+          chu_de: c.chu_de || "Minh Triết"
+        }));
         headerStatus.textContent = `Trí Tuệ Cổ Nhân: ${conhanData.length} câu sẵn sàng`;
         renderConhanAuthorFilter();
         renderConhanCards();
@@ -1271,7 +1286,7 @@
 
       conhanFiltered = conhanData.filter(v => {
         const matchAuthor = activeConhanAuthor === 'all' || v.tac_gia === activeConhanAuthor;
-        const combined = removeVietnameseTones(`${v.stt} ${v.tac_gia} ${v.noi_dung} ${v.chu_de || ''}`).toLowerCase();
+        const combined = removeVietnameseTones(`${v.stt} ${v.tac_gia} ${v.cau_noi} ${v.y_nghia} ${v.chu_de}`).toLowerCase();
         const matchSearch = !searchVal || combined.includes(searchVal);
         return matchAuthor && matchSearch;
       });
@@ -1299,24 +1314,24 @@
       }
 
       area.innerHTML = slice.map(v => {
-        const lines = v.noi_dung.split('\n').map(l => `<p class="leading-relaxed mb-1.5">${l}</p>`).join('');
-        const speakText = `${v.tac_gia ? v.tac_gia + ' từng nói: ' : ''}${v.noi_dung.replace(/\n/g, ' ')}`;
+        const speakText = `${v.tac_gia ? v.tac_gia + ' từng dạy: ' : ''}${v.cau_noi} ${v.y_nghia}`;
         return `
           <div class="glass-card rounded-3xl p-5 sm:p-6 flex flex-col justify-between hover:border-rose-500/40 border-slate-800/80 transition-all duration-300 group">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
                 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-500/10 text-rose-300 text-xs font-bold border border-rose-500/20">
-                  <span>📜</span> ${v.tac_gia || 'Khuyết danh'}
+                  <span>📜</span> ${v.tac_gia}
                 </span>
-                <span class="text-xs font-mono text-slate-500">#${v.stt}</span>
+                <span class="text-xs font-mono text-slate-500 font-bold">#${v.stt}</span>
               </div>
               <div class="text-slate-100 font-serif italic text-base leading-relaxed py-2 relative">
                 <span class="text-3xl text-rose-500/20 absolute -top-2 -left-1 font-serif select-none">“</span>
-                <div class="pl-3">${lines}</div>
+                <p class="pl-3 font-semibold text-amber-200/90 leading-relaxed mb-2">${v.cau_noi}</p>
+                ${v.y_nghia ? `<p class="pl-3 text-xs sm:text-sm text-slate-300 font-sans not-italic leading-relaxed border-t border-slate-800/60 pt-2">${v.y_nghia}</p>` : ''}
               </div>
             </div>
             <div class="flex items-center justify-between mt-4 pt-3 border-t border-slate-800/80">
-              <span class="text-[11px] font-bold text-amber-400/80 bg-amber-500/10 px-2 py-0.5 rounded-md">${v.chu_de || 'Minh Triết'}</span>
+              <span class="text-[11px] font-bold text-amber-400/80 bg-amber-500/10 px-2 py-0.5 rounded-md">${v.chu_de}</span>
               <button 
                 onclick="playTTS(event, '${speakText.replace(/'/g, "\\'")}', 'vi')"
                 class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-rose-400 hover:text-white hover:bg-rose-950/40 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold"
@@ -1428,7 +1443,7 @@
       if (phapCuData) renderPhapCuCards();
     });
 
-    // --- AUDIO / SPEECH ENGINE (BACKEND STREAMING VIA /api/tts) ---
+    // --- AUDIO / SPEECH ENGINE ---
     let currentTtsAudio = null;
     let currentTtsButton = null;
     let currentAudioQueue = [];
@@ -1619,7 +1634,6 @@
     window.selectMantraSection = function(section) {
       activeMantraSection = section;
       
-      // Update visual active tabs
       document.querySelectorAll('.mantra-badge').forEach(btn => {
         if (btn.id === `mantra-tab-${section}`) {
           btn.className = "mantra-badge px-3.5 py-1.5 rounded-xl text-xs font-bold border border-amber-500 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 shadow-lg shadow-amber-500/20";
@@ -1649,11 +1663,13 @@
       }
 
       const filtered = list.filter(item => {
-        return !searchVal || removeVietnameseTones(item.ten_chu.toLowerCase()).includes(searchVal);
+        const title = item.ten || item.ten_chu || '';
+        return !searchVal || removeVietnameseTones(title.toLowerCase()).includes(searchVal);
       });
 
       mantraNamesList.innerHTML = filtered.map((item, idx) => {
         const isSelected = idx === activeThapThanChuIndex;
+        const title = item.ten || item.ten_chu || `Bài Chú #${idx + 1}`;
         return `
           <button 
             onclick="selectThapThanChuItem(${idx})"
@@ -1663,7 +1679,7 @@
               <span class="w-5 h-5 rounded-full ${isSelected ? 'bg-amber-500 text-slate-950' : 'bg-slate-800 text-slate-400'} flex items-center justify-center text-[10px] font-black shrink-0">
                 ${item.stt || (idx + 1)}
               </span>
-              <span class="truncate">${item.ten_chu}</span>
+              <span class="truncate">${title}</span>
             </div>
           </button>
         `;
@@ -1683,8 +1699,8 @@
     };
 
     function showThapThanChuContent(item) {
-      mantraContentTitle.textContent = item.ten_chu;
-      let displayContent = item.noi_dung;
+      mantraContentTitle.textContent = item.ten || item.ten_chu || 'Thần Chú';
+      let displayContent = item.noi_dung || '';
       if (item.y_nghia) {
         displayContent += `\n\n--- Ý NGHĨA & CÔNG ĐỨC ---\n${item.y_nghia}`;
       }
@@ -1716,9 +1732,19 @@
 
     // --- CHINESE MODULE LOGIC ---
     function renderChineseSheetsMenu() {
+      if (!chineseData) return;
       const keys = Object.keys(chineseData);
       chineseSheetsTabs.innerHTML = keys.map(key => {
-        return `<button id="sheet-tab-${key}" onclick="selectChineseSheet('${key}')" class="chinese-sheet-badge shrink-0 px-4 py-2 rounded-xl text-xs font-bold border transition-all duration-200 bg-slate-900/60 text-slate-400 border-slate-800 cursor-pointer">${chineseSheetNames[key] || key}</button>`;
+        const isCurrent = key === activeChineseSheet;
+        return `
+          <button 
+            id="sheet-tab-${key}" 
+            onclick="selectChineseSheet('${key}')" 
+            class="chinese-sheet-badge shrink-0 px-4 py-2 rounded-xl text-xs font-bold border transition-all duration-200 cursor-pointer ${isCurrent ? 'border-teal-500 bg-gradient-to-r from-teal-500 to-emerald-600 text-white shadow-lg shadow-teal-500/20' : 'bg-slate-900/60 text-slate-400 border-slate-800 hover:text-slate-200'}"
+          >
+            ${chineseSheetNames[key] || key}
+          </button>
+        `;
       }).join('');
     }
 
@@ -1772,45 +1798,6 @@
       if (paginated.length === 0) {
         chineseDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]";
         chineseDisplayArea.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy từ vựng phù hợp</p></div>`;
-        return;
-      }
-
-      if (activeChineseSheet === 'Lo_Trinh_Hoc') {
-        chineseDisplayArea.className = "grid grid-cols-1 gap-4 min-h-[300px]";
-        chineseDisplayArea.innerHTML = paginated.map(item => `
-          <div class="glass-card p-6 rounded-3xl flex flex-col gap-3 border-l-4 border-teal-500 shadow-lg">
-            <div class="flex items-center gap-3">
-              <span class="w-9 h-9 shrink-0 flex items-center justify-center rounded-2xl bg-teal-500/20 text-teal-300 font-black text-sm border border-teal-500/30">${item.stt}</span>
-              <h4 class="text-base sm:text-lg font-black text-white font-display">${item.giai_doan}</h4>
-            </div>
-            <p class="text-xs sm:text-sm text-amber-300 font-bold bg-amber-500/10 px-3 py-1.5 rounded-xl border border-amber-500/20 w-max">🎯 Mục tiêu: ${item.muc_tieu}</p>
-            <p class="text-sm text-slate-200 leading-relaxed">${item.noi_dung}</p>
-            <span class="text-[11px] text-teal-400 font-semibold uppercase tracking-wider mt-1">⏱ Thời lượng gợi ý: ${item.thoi_luong}</span>
-          </div>
-        `).join('');
-        return;
-      }
-
-      if (activeChineseSheet === 'Ngu_Phap_Co_Ban') {
-        chineseDisplayArea.className = "grid grid-cols-1 lg:grid-cols-2 gap-4 min-h-[300px]";
-        chineseDisplayArea.innerHTML = paginated.map(item => `
-          <div class="glass-card p-5 sm:p-6 rounded-3xl flex flex-col gap-2.5 border-teal-500/20">
-            <div class="flex items-center justify-between">
-              <span class="text-[10px] font-black text-teal-300 bg-teal-500/15 px-2.5 py-1 rounded-full uppercase tracking-wider border border-teal-500/30">${item.cap_do}</span>
-              <button onclick="playTTS(event, '${String(item.vi_du_han || '').replace(/'/g, "\\'")}', 'zh-CN')" class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-teal-400 hover:text-white hover:bg-teal-950/40 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold" title="Phát âm ví dụ">
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                <span>Đọc</span>
-              </button>
-            </div>
-            <h4 class="text-base font-black text-white font-hans">${item.diem_ngu_phap}</h4>
-            <p class="text-xs font-mono font-bold text-teal-300 bg-slate-950/80 px-3 py-1.5 rounded-xl border border-slate-800 w-max">${item.cau_truc}</p>
-            <p class="text-xs text-slate-350 leading-relaxed">${item.giai_thich}</p>
-            <div class="mt-1 pt-2.5 border-t border-slate-800/80">
-              <p class="font-hans text-white text-base font-bold">${item.vi_du_han} <span class="text-teal-400 font-sans text-xs font-normal">(${item.vi_du_pinyin})</span></p>
-              <p class="text-slate-400 text-xs mt-0.5">${item.vi_du_nghia}</p>
-            </div>
-          </div>
-        `).join('');
         return;
       }
 
@@ -1908,9 +1895,19 @@
 
     // --- KINH DICH MODULE LOGIC ---
     function renderKinhDichSheetsMenu() {
+      if (!kinhDichData) return;
       const keys = Object.keys(kinhDichData);
       kinhdichSheetsTabs.innerHTML = keys.map(key => {
-        return `<button id="kd-sheet-tab-${key}" onclick="selectKinhDichSheet('${key}')" class="kinhdich-sheet-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border transition-all duration-200 bg-slate-900/60 text-slate-400 border-slate-800 cursor-pointer">${kinhDichSheetNames[key] || key}</button>`;
+        const isCurrent = key === activeKinhDichSheet;
+        return `
+          <button 
+            id="kd-sheet-tab-${key}" 
+            onclick="selectKinhDichSheet('${key}')" 
+            class="kinhdich-sheet-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border transition-all duration-200 cursor-pointer ${isCurrent ? 'border-amber-500 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 font-black shadow-lg shadow-amber-500/20' : 'bg-slate-900/60 text-slate-400 border-slate-800 hover:text-slate-200'}"
+          >
+            ${kinhDichSheetNames[key] || key}
+          </button>
+        `;
       }).join('');
     }
 
@@ -1950,8 +1947,9 @@
       const rawItems = kinhDichData[activeKinhDichSheet];
       let filtered = rawItems.filter(item => {
         let matchCatHung = true;
+        const ch = item.cat_hung || item['Cát/hung'] || '';
         if (activeKinhDichSheet === 'que_64' && catHungFilter) {
-          matchCatHung = (item['Cát/hung'] || '').toLowerCase().includes(catHungFilter.toLowerCase());
+          matchCatHung = ch.toLowerCase().includes(catHungFilter.toLowerCase());
         }
         if (!matchCatHung) return false;
 
@@ -1981,8 +1979,14 @@
       if (activeKinhDichSheet === 'que_64') {
         kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-h-[300px]";
         kinhdichDisplayArea.innerHTML = paginated.map(item => {
+          const realStt = item.stt || item.STT || 1;
+          const tenQue = item.ten_que || item['Tên quẻ'] || 'Quẻ Dịch';
+          const ch = item.cat_hung || item['Cát/hung'] || 'Bình hòa';
+          const hinhTuong = item.hinh_tuong || item['Hình tượng'] || '';
+          const cauTruc = item.cau_truc || item['Cấu trúc'] || item['Họ quẻ'] || '';
+          const giaiNghia = item.giai_nghia || item['Ý nghĩa cơ bản'] || '';
+
           let catHungBg = "bg-slate-800 text-slate-300 border-slate-700";
-          const ch = item['Cát/hung'] || '';
           if (ch.includes('Đại cát')) catHungBg = "bg-emerald-500/20 text-emerald-300 border-emerald-500/40";
           else if (ch.includes('Cát')) catHungBg = "bg-amber-500/20 text-amber-300 border-amber-500/40";
           else if (ch.includes('Hung')) catHungBg = "bg-rose-500/20 text-rose-300 border-rose-500/40";
@@ -1992,20 +1996,20 @@
             <div class="glass-card p-5 sm:p-6 rounded-3xl flex flex-col justify-between hover:border-amber-500/40 border-slate-800/80 transition-all duration-300">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="text-xs font-mono font-bold text-slate-500">Quẻ #${item.STT}</span>
-                  <span class="text-[11px] font-black px-2.5 py-0.5 rounded-full border ${catHungBg}">${ch || 'Bình hòa'}</span>
+                  <span class="text-xs font-mono font-bold text-slate-500">Quẻ #${realStt}</span>
+                  <span class="text-[11px] font-black px-2.5 py-0.5 rounded-full border ${catHungBg}">${ch}</span>
                 </div>
-                <h4 class="text-xl font-black font-display text-white mb-1">${item['Tên quẻ']}</h4>
-                <p class="text-xs font-bold text-amber-300/90 mb-3">${item['Tên Hán'] || ''}</p>
+                <h4 class="text-xl font-black font-display text-white mb-1">${tenQue}</h4>
+                ${cauTruc ? `<p class="text-xs font-bold text-amber-300/90 mb-2">${cauTruc}</p>` : ''}
+                ${hinhTuong ? `<p class="text-[11px] font-bold text-slate-400 bg-slate-900/80 px-2.5 py-1 rounded-lg border border-slate-800 w-max mb-3">🖼 ${hinhTuong}</p>` : ''}
                 <div class="text-xs text-slate-300 leading-relaxed space-y-2 mt-2">
-                  ${item['Ý nghĩa cơ bản'] ? `<p><strong class="text-amber-200">Ý nghĩa:</strong> ${item['Ý nghĩa cơ bản']}</p>` : ''}
-                  ${item['Thoán từ'] ? `<p class="line-clamp-2 italic text-slate-400 font-serif">"${item['Thoán từ']}"</p>` : ''}
+                  ${giaiNghia ? `<p class="line-clamp-3 leading-relaxed text-slate-200">${giaiNghia}</p>` : ''}
                 </div>
               </div>
               <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between items-center">
-                <span class="text-[11px] text-slate-400 font-bold uppercase">${item['Họ quẻ'] || 'Chu Dịch'}</span>
-                <button onclick="openKinhDichDetailModal(${item.STT})" class="text-xs font-bold text-amber-400 hover:text-white flex items-center gap-1 cursor-pointer">
-                  Xem chi tiết 6 hào ➔
+                <span class="text-[11px] text-slate-400 font-bold uppercase">Chu Dịch</span>
+                <button onclick="openKinhDichDetailModal(${realStt})" class="text-xs font-bold text-amber-400 hover:text-white flex items-center gap-1 cursor-pointer">
+                  Xem chi tiết quẻ ➔
                 </button>
               </div>
             </div>
@@ -2014,13 +2018,13 @@
         return;
       }
 
-      // Default table/card for other sheets
+      // Other sheets
       kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]";
       kinhdichDisplayArea.innerHTML = paginated.map((item, idx) => {
         const entries = Object.entries(item).filter(([k, v]) => v !== undefined && v !== '');
-        const titleKey = entries[0] ? entries[0][1] : `Mục #${startIndex + idx + 1}`;
+        const titleKey = entries[1] ? entries[1][1] : (entries[0] ? entries[0][1] : `Mục #${startIndex + idx + 1}`);
         
-        const detailsHtml = entries.slice(1).map(([k, v]) => {
+        const detailsHtml = entries.map(([k, v]) => {
           return `
             <div class="text-xs">
               <span class="text-slate-400 font-bold">${k}:</span>
@@ -2049,16 +2053,24 @@
 
     window.openKinhDichDetailModal = function(stt) {
       if (!kinhDichData || !kinhDichData['que_64']) return;
-      const que = kinhDichData['que_64'].find(q => q.STT === stt);
+      const que = kinhDichData['que_64'].find(q => (q.stt || q.STT) === stt);
       if (!que) return;
 
-      modalTheme.textContent = `Quẻ #${que.STT} • ${que['Cát/hung'] || 'Chu Dịch'}`;
+      const tenQue = que.ten_que || que['Tên quẻ'] || 'Quẻ Dịch';
+      const ch = que.cat_hung || que['Cát/hung'] || 'Bình hòa';
+      const cauTruc = que.cau_truc || que['Cấu trúc'] || que['Họ quẻ'] || '';
+      const hinhTuong = que.hinh_tuong || que['Hình tượng'] || '';
+      const giaiNghia = que.giai_nghia || que['Ý nghĩa cơ bản'] || '';
+      const chiTiet = que.chi_tiet || que['Thoán từ'] || que['Lời bàn tổng quát'] || '';
+
+      modalTheme.textContent = `Quẻ #${stt} • ${ch}`;
       modalTheme.className = "text-xs font-bold tracking-wider text-amber-300 uppercase bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20";
-      modalTitle.textContent = `${que['Tên quẻ']} (${que['Tên Hán'] || ''})`;
+      modalTitle.textContent = `${tenQue} ${cauTruc ? '(' + cauTruc + ')' : ''}`;
 
       modalTags.innerHTML = `
-        <span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-slate-300">Họ quẻ: ${que['Họ quẻ'] || 'Chu Dịch'}</span>
-        <span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-amber-300">Cát/Hung: ${que['Cát/hung'] || 'Bình hòa'}</span>
+        <span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-slate-300">Chu Dịch</span>
+        <span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-amber-300">Cát/Hung: ${ch}</span>
+        ${hinhTuong ? `<span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-slate-400">Hình tượng: ${hinhTuong}</span>` : ''}
       `;
 
       modalSuggestionBox.classList.add('hidden');
@@ -2066,33 +2078,21 @@
       let bodyContent = `
         <div class="text-left font-sans text-xs sm:text-sm text-slate-200 space-y-4">
           <div class="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20">
-            <h4 class="text-sm font-bold text-amber-300 mb-1">Ý nghĩa tổng quan:</h4>
-            <p class="leading-relaxed">${que['Ý nghĩa cơ bản'] || 'Không có ghi chú'}</p>
+            <h4 class="text-sm font-bold text-amber-300 mb-1">Ý nghĩa quẻ dịch:</h4>
+            <p class="leading-relaxed">${giaiNghia || 'Đang cập nhật giải nghĩa...'}</p>
           </div>
-          ${que['Thoán từ'] ? `
+          ${chiTiet ? `
             <div>
-              <h4 class="font-bold text-amber-400 text-xs uppercase tracking-wider mb-1">Thoán Từ:</h4>
-              <p class="font-serif italic text-slate-300 bg-slate-900/60 p-3 rounded-xl border border-slate-800 leading-relaxed">${que['Thoán từ']}</p>
-            </div>
-          ` : ''}
-          ${que['Đại tượng'] ? `
-            <div>
-              <h4 class="font-bold text-amber-400 text-xs uppercase tracking-wider mb-1">Đại Tượng:</h4>
-              <p class="font-serif italic text-slate-300 bg-slate-900/60 p-3 rounded-xl border border-slate-800 leading-relaxed">${que['Đại tượng']}</p>
-            </div>
-          ` : ''}
-          ${que['Lời bàn tổng quát'] ? `
-            <div>
-              <h4 class="font-bold text-amber-400 text-xs uppercase tracking-wider mb-1">Lời Bàn:</h4>
-              <p class="leading-relaxed text-slate-300">${que['Lời bàn tổng quát']}</p>
+              <h4 class="font-bold text-amber-400 text-xs uppercase tracking-wider mb-1">Chi tiết & Lời bàn:</h4>
+              <p class="font-serif italic text-slate-300 bg-slate-900/60 p-3 rounded-xl border border-slate-800 leading-relaxed">${chiTiet}</p>
             </div>
           ` : ''}
         </div>
       `;
 
       modalBody.innerHTML = bodyContent;
-      modalStt.textContent = `Thứ tự quẻ: ${que.STT} / 64`;
-      modalKhosTho.textContent = `Họ: ${que['Họ quẻ'] || 'Bát thuần'}`;
+      modalStt.textContent = `Quẻ số: ${stt} / 64`;
+      modalKhosTho.textContent = `Hệ thống: Chu Dịch Toàn Thư`;
 
       modal.classList.remove('hidden');
       setTimeout(() => {
@@ -2128,8 +2128,13 @@
           const list = kinhDichData['que_64'];
           const randomQue = list[Math.floor(Math.random() * list.length)];
           
-          gqTitle.textContent = `${randomQue['Tên quẻ']} (${randomQue['Tên Hán'] || ''})`;
-          const ch = randomQue['Cát/hung'] || 'Cát';
+          const tenQue = randomQue.ten_que || randomQue['Tên quẻ'] || 'Quẻ Dịch';
+          const cauTruc = randomQue.cau_truc || randomQue['Cấu trúc'] || '';
+          const ch = randomQue.cat_hung || randomQue['Cát/hung'] || 'Cát';
+          const giaiNghia = randomQue.giai_nghia || randomQue['Ý nghĩa cơ bản'] || '';
+          const hinhTuong = randomQue.hinh_tuong || randomQue['Hình tượng'] || '';
+
+          gqTitle.textContent = `${tenQue} ${cauTruc ? '(' + cauTruc + ')' : ''}`;
           gqCathung.textContent = ch;
           
           if (ch.includes('Đại cát')) gqCathung.className = "text-xs font-black px-3 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40";
@@ -2137,8 +2142,8 @@
           else if (ch.includes('Hung')) gqCathung.className = "text-xs font-black px-3 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40";
           else gqCathung.className = "text-xs font-black px-3 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/40";
 
-          gqMeaning.textContent = randomQue['Ý nghĩa cơ bản'] || 'Ý nghĩa quẻ dịch linh ứng';
-          gqDetails.textContent = randomQue['Thoán từ'] || randomQue['Lời bàn tổng quát'] || '';
+          gqMeaning.textContent = `Hình tượng: ${hinhTuong || 'Cát tường'}`;
+          gqDetails.textContent = giaiNghia;
 
           gieoqueResult.classList.remove('hidden');
           gieoqueStatus.textContent = "Đã đắc được quẻ!";
@@ -2205,7 +2210,7 @@
         if (!matchTopic) return false;
 
         if (!searchVal) return true;
-        const combined = removeVietnameseTones(`${p.ten_bai_tho} ${p.chu_de} ${p.noi_dung} ${p.cam_xuc || ''} ${p.khuyen_doc || ''}`).toLowerCase();
+        const combined = removeVietnameseTones(`${p.ten_bai_tho} ${p.chu_de} ${p.noi_dung} ${p.cam_xuc} ${p.khuyen_doc}`).toLowerCase();
         return combined.includes(searchVal);
       });
 
@@ -2343,7 +2348,6 @@
 
       const mergedUsers = getMergedUsers();
 
-      // Check URL parameters for auto-login
       const urlParams = new URLSearchParams(window.location.search);
       const autoEmail = urlParams.get('email');
       const autoKey = urlParams.get('key');
@@ -2708,7 +2712,7 @@
       showToast("Đã sao chép cấu hình users.json vào Clipboard!", "📥");
     };
 
-    // Initial Load & Offline sync
+    // Initial Load & Preload All Data
     const updateNetworkStatus = () => {
       const statusEl = document.getElementById('header-status');
       if (statusEl) {
@@ -2720,17 +2724,64 @@
     window.addEventListener('offline', updateNetworkStatus);
 
     async function preloadAllData() {
-      const preloadTasks = [
-        loadPoems(),
-        fetchJsonWithCache('./tieng_trung.json').catch(() => null),
-        fetchJsonWithCache('./kinh_dich.json').catch(() => null),
-        fetchJsonWithCache('./than_chu.json').catch(() => null),
-        fetchJsonWithCache('./phap_cu.json').catch(() => null),
-        fetchJsonWithCache('./co_nhan.json').catch(() => null)
-      ];
-
       try {
-        await Promise.all(preloadTasks);
+        const [rawP, c, k, t, rawPc, rawCn] = await Promise.all([
+          fetchJsonWithCache('./data.json').catch(() => []),
+          fetchJsonWithCache('./tieng_trung.json').catch(() => null),
+          fetchJsonWithCache('./kinh_dich.json').catch(() => null),
+          fetchJsonWithCache('./than_chu.json').catch(() => null),
+          fetchJsonWithCache('./phap_cu.json').catch(() => []),
+          fetchJsonWithCache('./co_nhan.json').catch(() => [])
+        ]);
+
+        if (rawP && rawP.length > 0) {
+          poems = rawP.map((p, idx) => ({
+            stt: p.STT || p.stt || (idx + 1),
+            ten_bai_tho: p["Tên Bài Thơ"] || p.ten_bai_tho || "Bài Thơ",
+            chu_de: p["Chủ Đề Chính"] || p.chu_de || "Triết Lý",
+            so_kho: p["Số Khổ Thơ"] || p.so_kho || 0,
+            cam_xuc: p["Từ Khóa Cảm Xúc"] || p.cam_xuc || "",
+            noi_dung: p["ĐỌC BÀI THƠ"] || p.noi_dung || "",
+            khuyen_doc: p["Gợi Ý Đọc"] || p.khuyen_doc || ""
+          }));
+          document.getElementById('poem-count-badge').textContent = `Tổng: ${poems.length} bài`;
+          renderTopicFilters();
+          filterPoems();
+        }
+
+        if (c) {
+          chineseData = c;
+          renderChineseSheetsMenu();
+        }
+
+        if (k) {
+          kinhDichData = k;
+          renderKinhDichSheetsMenu();
+        }
+
+        if (t) {
+          thanChuData = t;
+        }
+
+        if (rawPc && rawPc.length > 0) {
+          phapCuData = rawPc.map((v, idx) => ({
+            stt: v.stt || (idx + 1),
+            ke: v.ke || (idx + 1),
+            noi_dung: v.noi_dung || ""
+          }));
+        }
+
+        if (rawCn && rawCn.length > 0) {
+          conhanData = rawCn.map((cn, idx) => ({
+            stt: cn.id || cn.stt || (idx + 1),
+            tac_gia: cn.tac_gia || "Khuyết danh",
+            cau_noi: cn.cau_noi || cn.noi_dung || "",
+            y_nghia: cn.y_nghia || "",
+            chu_de: cn.chu_de || "Minh Triết"
+          }));
+          renderConhanAuthorFilter();
+        }
+
         headerStatus.textContent = 'Đã nạp toàn bộ kho tri thức';
       } catch (err) {
         console.error('Preload failed', err);
