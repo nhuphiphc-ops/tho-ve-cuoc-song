@@ -838,15 +838,21 @@
   <div id="poem-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-xl hidden" role="dialog" aria-modal="true">
     <div class="bg-slate-900 border border-slate-800 rounded-3xl w-full max-w-2xl max-h-[85vh] flex flex-col shadow-2xl overflow-hidden transform scale-95 transition-transform duration-300" id="modal-container">
       
-      <div class="p-6 border-b border-slate-800 flex justify-between items-start">
+      <div class="p-6 border-b border-slate-800 flex justify-between items-start gap-3">
         <div>
           <span id="modal-theme" class="text-xs font-bold tracking-wider text-rose-300 uppercase bg-rose-500/10 px-3 py-1 rounded-full border border-rose-500/20">Chủ Đề</span>
           <h2 id="modal-title" class="text-2xl font-black font-display text-white mt-2.5 leading-snug">Tên</h2>
           <div class="flex flex-wrap gap-2 mt-3" id="modal-tags"></div>
         </div>
-        <button id="close-modal" class="text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-750 p-2 rounded-xl transition-colors cursor-pointer" aria-label="Đóng">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
-        </button>
+        <div class="flex items-center gap-2">
+          <button id="modal-btn-speak-poem" onclick="playCurrentModalPoem()" class="p-2 sm:px-3.5 sm:py-2 rounded-xl bg-slate-900 border border-rose-500/30 text-rose-400 hover:text-white hover:bg-rose-950/40 transition-all cursor-pointer flex items-center gap-1.5 text-xs font-bold shadow-lg" title="Nghe đọc bài thơ này">
+            <svg class="w-4 h-4 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+            <span class="hidden sm:inline">Nghe Đọc</span>
+          </button>
+          <button id="close-modal" class="text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-750 p-2 rounded-xl transition-colors cursor-pointer" aria-label="Đóng">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+          </button>
+        </div>
       </div>
 
       <div class="p-6 overflow-y-auto custom-scrollbar flex-grow bg-slate-950/40">
@@ -994,7 +1000,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v19';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v20';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -1466,11 +1472,11 @@
 
     function resetTtsVisuals() {
       if (currentTtsButton) {
-        currentTtsButton.classList.remove('bg-indigo-600', 'text-white', 'border-indigo-400', 'animate-pulse', 'scale-105', 'bg-amber-500', 'text-slate-950');
+        currentTtsButton.classList.remove('bg-indigo-600', 'text-white', 'border-indigo-400', 'animate-pulse', 'scale-105', 'bg-amber-500', 'text-slate-950', 'bg-rose-600');
         const icon = currentTtsButton.querySelector('svg');
         if (icon) {
           icon.classList.remove('text-white', 'text-slate-950');
-          icon.classList.add('text-amber-400');
+          icon.classList.add('text-rose-400', 'text-amber-400', 'text-teal-400', 'text-indigo-400', 'text-emerald-400');
         }
         currentTtsButton = null;
       }
@@ -1479,6 +1485,12 @@
         mantraBtn.classList.remove('bg-amber-500', 'text-slate-950', 'animate-pulse');
         const mantraSpan = mantraBtn.querySelector('span');
         if (mantraSpan) mantraSpan.textContent = "Nghe Tụng";
+      }
+      const modalPoemBtn = document.getElementById('modal-btn-speak-poem');
+      if (modalPoemBtn) {
+        modalPoemBtn.classList.remove('bg-rose-600', 'text-white', 'animate-pulse');
+        const poemSpan = modalPoemBtn.querySelector('span');
+        if (poemSpan) poemSpan.textContent = "Nghe Đọc";
       }
     }
 
@@ -1508,6 +1520,10 @@
           btn.classList.add('bg-amber-500', 'text-slate-950');
           const mantraSpan = btn.querySelector('span');
           if (mantraSpan) mantraSpan.textContent = "Đang Tụng...";
+        } else if (btn.id === 'modal-btn-speak-poem') {
+          btn.classList.add('bg-rose-600', 'text-white');
+          const poemSpan = btn.querySelector('span');
+          if (poemSpan) poemSpan.textContent = "Đang Đọc...";
         } else {
           btn.classList.add('bg-indigo-600', 'text-white', 'border-indigo-400');
         }
@@ -2051,6 +2067,8 @@
       `;
 
       modalSuggestionBox.classList.add('hidden');
+      const poemSpeakerBtn = document.getElementById('modal-btn-speak-poem');
+      if (poemSpeakerBtn) poemSpeakerBtn.classList.add('hidden');
 
       let bodyContent = `
         <div class="text-left font-sans text-xs sm:text-sm text-slate-200 space-y-4">
@@ -2195,6 +2213,8 @@
       renderPoemsGrid(filtered);
     }
 
+    let currentOpenPoem = null;
+
     function renderPoemsGrid(list) {
       if (list.length === 0) {
         gridEl.innerHTML = `
@@ -2222,7 +2242,15 @@
             </div>
             <div class="mt-2 pt-3 border-t border-slate-800/80 flex items-center justify-between">
               <span class="text-[11px] text-slate-400 font-bold uppercase">Nguyễn Như Phi</span>
-              <div class="flex items-center gap-2">
+              <div class="flex items-center gap-1.5 sm:gap-2">
+                <button 
+                  onclick="playPoemAudio(event, '${p.ten_bai_tho.replace(/'/g, "\\'")}', '${p.noi_dung.replace(/\n/g, '\\n').replace(/'/g, "\\'")}')" 
+                  class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-rose-400 hover:text-white hover:bg-rose-950/40 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold" 
+                  title="Nghe đọc bài thơ"
+                >
+                  <svg class="w-3.5 h-3.5 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span class="hidden sm:inline">Nghe</span>
+                </button>
                 <button onclick="copyPoemText('${p.ten_bai_tho.replace(/'/g, "\\'")}', '${p.noi_dung.replace(/\n/g, '\\n').replace(/'/g, "\\'")}')" class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white transition-all cursor-pointer" title="Sao chép bài thơ">
                   📋
                 </button>
@@ -2245,9 +2273,27 @@
       });
     };
 
+    window.playPoemAudio = function(e, title, content) {
+      if (e) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+      const fullText = `Bài thơ: ${title}. ${content.replace(/\n/g, '. ')}`;
+      const btn = e ? (e.currentTarget || (e.target && e.target.closest('button'))) : null;
+      playTTS(e, fullText, 'vi');
+    };
+
+    window.playCurrentModalPoem = function() {
+      if (!currentOpenPoem) return;
+      const fullText = `Bài thơ: ${currentOpenPoem.ten_bai_tho}. ${currentOpenPoem.noi_dung.replace(/\n/g, '. ')}`;
+      const btn = document.getElementById('modal-btn-speak-poem');
+      playTTS({ currentTarget: btn }, fullText, 'vi');
+    };
+
     window.openPoemModal = function(stt) {
       const poem = poems.find(p => p.stt === stt);
       if (!poem) return;
+      currentOpenPoem = poem;
 
       modalTheme.textContent = poem.chu_de || 'Triết Lý Cuộc Sống';
       modalTheme.className = "text-xs font-bold tracking-wider text-rose-300 uppercase bg-rose-500/10 px-3 py-1 rounded-full border border-rose-500/20";
@@ -2257,6 +2303,9 @@
         <span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-slate-300">Tác giả: Nguyễn Như Phi</span>
         ${poem.cam_xuc ? `<span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-rose-300">Cảm xúc: ${poem.cam_xuc}</span>` : ''}
       `;
+
+      const poemSpeakerBtn = document.getElementById('modal-btn-speak-poem');
+      if (poemSpeakerBtn) poemSpeakerBtn.classList.remove('hidden');
 
       if (poem.khuyen_doc) {
         modalSuggestionBox.classList.remove('hidden');
