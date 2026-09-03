@@ -224,8 +224,9 @@
         </nav>
 
         <!-- Status & Desktop Profile -->
-        <div class="hidden xl:flex items-center gap-2.5">
-          <div class="text-[11px] font-semibold text-slate-350 flex items-center gap-2 bg-slate-900/80 px-3.5 py-2 rounded-xl border border-slate-800">
+        <div class="hidden xl:flex items-center gap-2.5 shrink-0">
+          <!-- Chi hien o man hinh rat rong: tu 8 tab tro len, thanh nav khong con cho -->
+          <div class="text-[11px] font-semibold text-slate-350 hidden 2xl:flex items-center gap-2 bg-slate-900/80 px-3.5 py-2 rounded-xl border border-slate-800 shrink-0 whitespace-nowrap">
             <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             <span id="header-status">Sẵn sàng</span>
           </div>
@@ -768,13 +769,24 @@
           <div class="flex items-end gap-2">
             <textarea id="ai-input" rows="1" placeholder="Hỏi bất cứ điều gì về kho tri thức trong ứng dụng..."
               class="flex-1 resize-none max-h-32 px-4 py-3 rounded-2xl bg-slate-900/90 border border-slate-800 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 text-sm custom-scrollbar"></textarea>
+            <button id="ai-mic-btn" onclick="toggleAiMic()" title="Nhấn để nói (nhập bằng giọng nói)"
+              class="p-3 rounded-2xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-cyan-300 hover:text-white transition-all cursor-pointer active:scale-95 shrink-0">
+              <svg id="ai-mic-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-14 0m7 7v3m0-3a7 7 0 007-7m-7 7a7 7 0 01-7-7m7-9a3 3 0 013 3v6a3 3 0 01-6 0V5a3 3 0 013-3z"/>
+              </svg>
+            </button>
             <button id="ai-send-btn" onclick="sendAiMessage()"
               class="px-5 py-3 rounded-2xl bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 disabled:opacity-40 disabled:cursor-not-allowed text-white font-bold text-sm transition-all shadow-lg shadow-cyan-600/20 cursor-pointer active:scale-95 shrink-0">
               Gửi ➤
             </button>
           </div>
+          <p id="ai-mic-hint" class="text-[11px] font-bold text-rose-300 px-1 hidden flex items-center gap-2">
+            <span class="inline-block w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+            <span id="ai-mic-hint-text">Đang nghe... hãy nói câu hỏi của bạn</span>
+          </p>
           <p class="text-[10px] text-slate-500 px-1">
-            Nhấn <span class="font-bold text-slate-400">Enter</span> để gửi, <span class="font-bold text-slate-400">Shift + Enter</span> để xuống dòng.
+            Nhấn <span class="font-bold text-slate-400">Enter</span> để gửi, <span class="font-bold text-slate-400">Shift + Enter</span> để xuống dòng,
+            bấm <span class="font-bold text-cyan-400">🎤</span> để nói thay vì gõ.
             Nội dung do AI tạo ra chỉ mang tính tham khảo, hãy đối chiếu lại với dữ liệu gốc trong các mô-đun.
           </p>
         </div>
@@ -1118,7 +1130,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v22';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v23';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -3587,8 +3599,12 @@
       input.value = '';
       input.style.height = 'auto';
 
+      // Dang gui thi dung thu am va khoa nut mic
+      if (aiMicActive) stopAiMic();
       aiIsSending = true;
       if (sendBtn) sendBtn.disabled = true;
+      const micBtn = document.getElementById('ai-mic-btn');
+      if (micBtn) micBtn.disabled = true;
 
       const useContext = document.getElementById('ai-use-context');
       const wantContext = !useContext || useContext.checked;
@@ -3613,8 +3629,147 @@
       } finally {
         aiIsSending = false;
         if (sendBtn) sendBtn.disabled = false;
+        if (micBtn) micBtn.disabled = false;
         saveAiChat();
         renderAiChat();
+      }
+    };
+
+    // --- Nhap bang giong noi (Web Speech API) ---
+    let aiRecognition = null;
+    let aiMicActive = false;
+    let aiMicBaseText = '';
+    let aiMicFinalText = '';
+
+    function aiSpeechSupported() {
+      return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
+    }
+
+    function aiIsSecureForMic() {
+      return window.isSecureContext
+        || location.protocol === 'https:'
+        || ['localhost', '127.0.0.1'].indexOf(location.hostname) !== -1;
+    }
+
+    function setAiMicUI(listening, hintText) {
+      const btn = document.getElementById('ai-mic-btn');
+      const hint = document.getElementById('ai-mic-hint');
+      const hintText_ = document.getElementById('ai-mic-hint-text');
+      if (!btn) return;
+
+      if (listening) {
+        btn.className = 'p-3 rounded-2xl bg-rose-600 hover:bg-rose-500 border border-rose-400/50 text-white transition-all cursor-pointer active:scale-95 shrink-0 animate-pulse';
+        btn.title = 'Đang nghe - bấm lại để dừng';
+      } else {
+        btn.className = 'p-3 rounded-2xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-cyan-300 hover:text-white transition-all cursor-pointer active:scale-95 shrink-0';
+        btn.title = 'Nhấn để nói (nhập bằng giọng nói)';
+      }
+
+      if (hint) {
+        if (hintText) {
+          if (hintText_) hintText_.textContent = hintText;
+          hint.classList.remove('hidden');
+        } else {
+          hint.classList.add('hidden');
+        }
+      }
+    }
+
+    function aiResizeInput() {
+      const input = document.getElementById('ai-input');
+      if (!input) return;
+      input.style.height = 'auto';
+      input.style.height = Math.min(input.scrollHeight, 128) + 'px';
+    }
+
+    function stopAiMic() {
+      aiMicActive = false;
+      if (aiRecognition) {
+        try { aiRecognition.stop(); } catch (e) {}
+      }
+      setAiMicUI(false, '');
+    }
+
+    window.toggleAiMic = function () {
+      if (aiIsSending) return;
+
+      if (!aiSpeechSupported()) {
+        alert('Trình duyệt này chưa hỗ trợ nhập bằng giọng nói.\n\nHãy dùng Chrome hoặc Edge (trên máy tính và Android), hoặc Safari phiên bản mới trên iPhone.');
+        return;
+      }
+      if (!aiIsSecureForMic()) {
+        alert('Nhập bằng giọng nói chỉ hoạt động trên kết nối bảo mật (https).\n\nHãy mở trang qua địa chỉ https://tho-ve-cuoc-song.vercel.app');
+        return;
+      }
+
+      if (aiMicActive) {
+        stopAiMic();
+        return;
+      }
+
+      const input = document.getElementById('ai-input');
+      if (!input) return;
+
+      // Tranh viec loa dang doc bi micro thu lai
+      if (window.speechSynthesis) {
+        try { window.speechSynthesis.cancel(); } catch (e) {}
+      }
+
+      const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+      aiRecognition = new SR();
+      aiRecognition.lang = 'vi-VN';
+      aiRecognition.interimResults = true;
+      aiRecognition.continuous = false;
+      aiRecognition.maxAlternatives = 1;
+
+      aiMicBaseText = input.value.trim();
+      aiMicFinalText = '';
+
+      aiRecognition.onstart = function () {
+        aiMicActive = true;
+        setAiMicUI(true, 'Đang nghe... hãy nói câu hỏi của bạn');
+      };
+
+      aiRecognition.onresult = function (event) {
+        let interim = '';
+        for (let i = event.resultIndex; i < event.results.length; i++) {
+          const chunk = event.results[i][0].transcript;
+          if (event.results[i].isFinal) aiMicFinalText += chunk;
+          else interim += chunk;
+        }
+        const parts = [aiMicBaseText, (aiMicFinalText + interim).trim()].filter(Boolean);
+        input.value = parts.join(' ');
+        aiResizeInput();
+        if (interim) setAiMicUI(true, 'Đang nghe: ' + interim.trim());
+      };
+
+      aiRecognition.onerror = function (event) {
+        const messages = {
+          'not-allowed': 'Bạn chưa cho phép dùng micro. Hãy bấm vào biểu tượng ổ khoá 🔒 trên thanh địa chỉ và cho phép Microphone, rồi thử lại.',
+          'service-not-allowed': 'Trình duyệt đang chặn dịch vụ nhận dạng giọng nói. Hãy kiểm tra lại quyền Microphone.',
+          'no-speech': 'Không nghe thấy giọng nói nào. Hãy bấm micro và nói to, rõ hơn một chút.',
+          'audio-capture': 'Không tìm thấy micro. Hãy kiểm tra lại thiết bị thu âm.',
+          'network': 'Lỗi mạng khi nhận dạng giọng nói. Hãy kiểm tra kết nối rồi thử lại.'
+        };
+        aiMicActive = false;
+        if (event.error === 'aborted') { setAiMicUI(false, ''); return; }
+        setAiMicUI(false, '');
+        alert(messages[event.error] || ('Không dùng được micro (' + event.error + '). Hãy thử lại.'));
+      };
+
+      aiRecognition.onend = function () {
+        aiMicActive = false;
+        setAiMicUI(false, '');
+        const input2 = document.getElementById('ai-input');
+        // San sang gui ngay: chi can nhan Enter hoac bam Gui
+        if (input2 && input2.value.trim()) input2.focus();
+      };
+
+      try {
+        aiRecognition.start();
+      } catch (e) {
+        aiMicActive = false;
+        setAiMicUI(false, '');
       }
     };
 
@@ -3630,6 +3785,12 @@
       loadAiChat();
       renderAiSuggestions();
       renderAiChat();
+
+      const micBtnInit = document.getElementById('ai-mic-btn');
+      if (micBtnInit && !(aiSpeechSupported() && aiIsSecureForMic())) {
+        micBtnInit.classList.add('opacity-40');
+        micBtnInit.title = 'Trình duyệt này chưa hỗ trợ nhập bằng giọng nói';
+      }
 
       const input = document.getElementById('ai-input');
       if (input) {
