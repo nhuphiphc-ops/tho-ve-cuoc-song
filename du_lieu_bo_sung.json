@@ -1,0 +1,185 @@
+{
+  "_README": [
+    "DU LIEU BO SUNG THU CONG - duoc convert.py tu dong ghep vao sau khi sinh JSON tu Excel.",
+    "Muc dich: cac noi dung bien soan bang tay (Bat Quai Do, Ngu Phap Co Ban, Lo Trinh Hoc,",
+    "cac ban va sua loi du lieu que Dich) KHONG bi mat khi chay lai cap_nhat_tho.bat / convert.py.",
+    "",
+    "Cach hoat dong voi moi file dich:",
+    "  - 'sections'      : them (hoac ghi de) han mot muc du lieu moi, khong co trong Excel.",
+    "  - 'section_order' : thu tu cac muc trong file JSON ket qua; dau '*' = giu nguyen thu tu",
+    "                      cac muc con lai sinh ra tu Excel.",
+    "  - 'row_overrides' : sua tung dong theo khoa dinh danh (vd stt cua que Dich); chi cac",
+    "                      truong duoc liet ke bi ghi de, cac truong khac giu nguyen tu Excel.",
+    "  - 'value_map'     : chuan hoa gia tri cua mot truong (vd cat_hung viet hoa/thuong lan lon).",
+    "",
+    "Neu sua du lieu goc trong Excel roi, hay xoa muc tuong ung o day de tranh ghi de lai."
+  ],
+
+  "kinh_dich": {
+    "target": "kinh_dich.json",
+    "section_order": ["que_64", "bat_quai", "*"],
+
+    "row_overrides": {
+      "collection": "que_64",
+      "key": "stt",
+      "rows": {
+        "1": {
+          "chi_tiet": "Quẻ Càn gồm 6 hào dương, tượng trưng hình ảnh con rồng qua từng giai đoạn: hào 1 là rồng còn ẩn mình (tiềm long), chưa nên vội hành động; hào 2 là rồng xuất hiện trên đồng ruộng, đã có thể thi triển tài năng; hào 5 là rồng bay lượn trên trời (phi long tại thiên), ứng với thời cực thịnh; đến hào 6 thì rồng lên quá cao (kháng long), cảnh báo rằng thịnh cực dễ sinh kiêu mãn mà chuốc lấy hối hận. Đạo Càn dạy người quân tử phải tự cường không ngừng nhưng luôn biết tiến thoái đúng thời."
+        },
+        "2": {
+          "chi_tiet": "Khôn là đạo của Đất, nhu thuận mà rộng lớn, bao dung để nuôi dưỡng muôn vật. Hào 1 dạy rằng khi thấy giẫm phải lớp sương mỏng, nên hiểu ngay rằng chẳng lâu nữa băng dày sẽ đến - ý khuyên phải biết đề phòng họa loạn ngay từ dấu hiệu nhỏ nhặt đầu tiên. Đạo làm người dưới, làm vợ, làm tôi cũng noi theo đức Khôn: nhu thuận, kiên trinh, tận tâm giúp việc mà không tranh công, ắt được lâu bền, tốt đẹp."
+        },
+        "3": {
+          "cau_truc": "Thủy lôi truân (Khảm: nước; Chấn: sấm)",
+          "giai_nghia": "Hãy cố gắng chịu đựng những khó khăn hiện tại, nỗ lực trong thầm lặng. Nếu khởi lập đại nghiệp, sẽ gặp nhiều rủi ro và gian nan. Đừng hành động liều lĩnh hay mù quáng. Phải có lòng dũng cảm chịu đựng để đấu tranh bằng quyết tâm và sự hết lòng. Nếu đã nỗ lực toàn tâm toàn ý những khó khăn sẽ dần dần được giải quyết.",
+          "chi_tiet": "Truân là quẻ nói về gian nan lúc khởi sự, như mầm cây vừa nhô khỏi đất đã gặp ngay sấm động, mưa dồn. Hào 1 khuyên nên bàn hoàn - tạm dừng quan sát, giữ vững chính đạo, chưa nên vội tiến; hào 5 dạy rằng lúc gian truân chỉ nên lo việc nhỏ trước, chưa thể mưu tính việc lớn ngay. Cái khó của thời Truân không đáng sợ, chỉ cần kiên trì nhẫn nại thì gian truân rồi cũng sẽ qua."
+        },
+        "4": {
+          "cau_truc": "Sơn thủy mông (Khảm: nước; Cấn: núi)",
+          "chi_tiet": "Mông là quẻ nói về đạo khai sáng sự dại dột, như trẻ nhỏ còn mờ tối chưa hiểu biết. Hào 1 dạy dùng phép tắc, khuôn khổ để dạy dỗ từ đầu thì có lợi, nhưng nếu buông thả sẽ sinh hư hỏng về sau; đến hào 6 lại răn rằng dạy dỗ mà quá nghiêm khắc, trừng trị như đánh giặc thì không có lợi, chỉ nên uốn nắn vừa đủ để ngăn ngừa cái xấu. Đạo thầy trò cốt ở lòng thành tín và sự kiên nhẫn, không nên cưỡng ép, nhồi nhét."
+        },
+        "11": {
+          "chi_tiet": "Thái là quẻ thông suốt: khí Trời ở dưới giao hòa cùng khí Đất ở trên, trên dưới cảm thông, vạn vật sinh sôi, đây là thời thịnh trị. Nhưng cổ nhân vẫn răn rằng thịnh cực rồi sẽ suy: hào 6 nói thành cao rồi cũng có ngày đổ sụp trở lại hào cũ, nhắc người ở thời thái bình vẫn phải giữ lòng cẩn trọng, đừng vì yên vui mà quên phòng loạn, có vậy cái thịnh mới giữ được lâu."
+        },
+        "12": {
+          "chi_tiet": "Bĩ trái ngược với Thái: khí Trời ở trên, khí Đất ở dưới, không giao hòa được với nhau, trên dưới cách trở, đạo tiểu nhân thịnh mà đạo quân tử bị chèn ép. Người quân tử gặp thời Bĩ nên ẩn nhẫn, giữ khí tiết, không vì bổng lộc mà cộng tác với kẻ xấu. Đến hào 6, khi Bĩ đã đến cùng cực thì tất chuyển sang Thái - họa hết thì phúc lại đến, đó là lẽ tuần hoàn của trời đất."
+        },
+        "15": {
+          "chi_tiet": "Khiêm là quẻ đặc biệt trong Kinh Dịch vì cả 6 hào đều được luận là tốt lành - điều hiếm thấy trong 64 quẻ. Tượng quẻ là núi cao nhưng lại ẩn mình dưới đất, ý nói người có tài đức lớn mà vẫn biết hạ mình khiêm nhường. Đạo trời vốn ghét đầy mà ưa khiêm: vật gì đầy tất sẽ bị hao tổn, vật gì khiêm nhường tất được bồi đắp thêm, cho nên khiêm nhường là gốc của mọi sự cát tường bền vững."
+        },
+        "18": {
+          "chi_tiet": "Cổ là quẻ nói về sự hư hỏng, mối mọt tích tụ lâu ngày mà thành, nay cần chỉnh đốn, sửa sang lại. Lời quẻ có câu 'tiên Cổ tam nhật, hậu Cổ tam nhật' - trước ba ngày và sau ba ngày khi bắt tay sửa việc hỏng, ý khuyên phải suy xét kỹ đầu đuôi, nguyên nhân trước khi hành động, không nên sửa chữa nửa vời mà phải làm đến cùng, có vậy việc hư hỏng mới được chấn chỉnh triệt để."
+        },
+        "19": {
+          "chi_tiet": "Lâm có nghĩa là đến gần, là trông coi, cai quản - tượng đầm nước ở dưới đất, nước dâng lên gần đất là hình ảnh người trên đến gần, chăm lo cho người dưới. Đạo trị dân của quẻ Lâm là dùng đức để cảm hóa, dùng sự khoan hòa để thu phục lòng người, chứ không phải dùng uy quyền áp đặt. Hào 5 được luận là 'tri lâm' - biết lấy sự sáng suốt mà cai quản, ấy là điều tốt lành nhất của quẻ này."
+        },
+        "32": {
+          "cat_hung": "Bình hòa",
+          "hinh_tuong": "Nhật nguyệt hằng minh",
+          "cau_truc": "Lôi phong hằng (Chấn: sấm; Tốn: gió)",
+          "giai_nghia": "Sấm động ở trên, gió thổi ở dưới, cả hai cùng vận động thuận theo lẽ tự nhiên mà không dứt, đó là hình ảnh của sự lâu bền, kiên định. Mọi việc nên giữ vững lập trường đã chọn, kiên trì theo đuổi mục tiêu lâu dài, tránh thay đổi ý chí nửa đường. Đạo vợ chồng, đạo bạn bè, đạo làm việc đều cần đến chữ Hằng - có giữ được lòng chung thủy, bền chí thì mới gặp điều tốt lành lâu dài.",
+          "chi_tiet": "Đạo Hằng không có nghĩa là cứng nhắc, bảo thủ, mà là biết giữ vững cái gốc trong khi vẫn biến chuyển thích ứng với hoàn cảnh, như sấm gió tuy động mà vẫn tuần hoàn theo quy luật. Hào 3 răn người không giữ được đức thường xuyên, sớm đổi dạ đổi lòng ắt sẽ chịu hổ nhục; hào 6 cảnh báo sự dao động bất định đến cuối cùng thì hung. Cho nên giữ được sự bền vững trong đạo đức và tình nghĩa mới đáng gọi là Hằng."
+        },
+        "35": {
+          "chi_tiet": "Tấn là quẻ nói về sự tiến lên, như ánh sáng mặt trời mọc dần trên mặt đất, càng lên cao càng rực rỡ. Đạo bề tôi của quẻ Tấn là tiến thân bằng chính đạo, lấy sự trung thành và tài năng để được người trên tin dùng, chứ không phải bằng luồn lọt. Hào 1 dạy rằng dù mới tiến mà bị nghi ngờ, chê bai, chỉ cần giữ vững lòng chính trực thì cuối cùng vẫn được tốt lành."
+        },
+        "43": {
+          "cau_truc": "Trạch thiên Quải (Đoài: đầm; Càn: trời)",
+          "giai_nghia": "Mặc dù cơ đồ đang sung thịnh, nhưng chẳng bao lâu khó khăn và gian nan sẽ xuất hiện. Phải cẩn thận tự chủ và hết lòng đi theo con đường chính đáng. Có thể bị lôi kéo vào một trận tranh cãi. Bạn cũng có thể xử lý lầm lẫn về công việc và do đó bị tổn thất. Một người khác có thể đang ngấm ngầm gây khó khăn.",
+          "chi_tiet": "Quải nghĩa là quyết đoán, trừ bỏ - tượng 5 hào dương ở dưới cùng quyết tâm trừ bỏ 1 hào âm còn lại ở trên cùng, ví như người quân tử quyết trừ kẻ tiểu nhân cuối cùng. Lời quẻ dạy rằng phải công khai bày tỏ ý định trừ ác (cáo tự ấp - báo cho người trong ấp mình biết) chứ không nên dùng vũ lực lén lút, đồng thời phải luôn đề cao cảnh giác, lo lắng trước khi hành động thì mới tránh được họa hại bất ngờ."
+        },
+        "47": {
+          "cau_truc": "Trạch thủy Khốn (Khảm: nước; Đoài: đầm)",
+          "chi_tiet": "Khốn là quẻ nói về cảnh khốn cùng, bế tắc - tượng nước ở dưới đầm mà đầm đã cạn, không còn gì để nương tựa. Tuy hoàn cảnh khó khăn nhưng người quân tử gặp thời Khốn vẫn giữ được chí hướng, không đổi lòng; lời quẻ có ý 'khốn hanh' - khốn mà vẫn hanh thông, nếu biết giữ vững đức tin. Cổ nhân cũng khuyên lúc khốn cùng nên ít lời, vì nói nhiều dễ mất lòng tin của người khác, chỉ có sự im lặng, kiên trì mới đưa được ra khỏi cảnh khốn."
+        },
+        "48": {
+          "chi_tiet": "Tỉnh là hình ảnh cái giếng - nước giếng dùng mãi không cạn, ai đến cũng được chia sẻ không phân biệt, tượng cho đạo nuôi dưỡng dân không bao giờ ngừng. Lời quẻ dạy rằng giếng phải được giữ sạch, khơi thông thường xuyên, đừng để giếng bị lấp, có vậy mới phục vụ được lâu dài; cũng như người giúp đời phải làm đến cùng, đừng bỏ giữa đường thì công lao mới trọn vẹn."
+        },
+        "51": {
+          "chi_tiet": "Chấn là quẻ sấm động liên tiếp (hai lần Chấn chồng lên nhau), gây kinh sợ thoạt đầu nhưng sau đó lại trở về yên ổn, cười nói như thường. Lời quẻ có ý: sấm đến khiến run sợ, sau đó lại cười nói vui vẻ - ngụ ý rằng biến động bất ngờ ban đầu làm người ta lo sợ, nhưng nếu biết giữ được sự cẩn trọng, tự xét mình trong lúc biến động, thì qua cơn kinh hãi, phúc lành lại đến."
+        },
+        "53": {
+          "chi_tiet": "Tiệm nghĩa là tiến từ từ, dần dần, như đàn chim nhạn bay theo thứ tự, không đàn nào rối loạn. Các hào trong quẻ đều ví việc tiến bước của con chim nhạn: từ bờ nước, đến gò đất, đến cây cao, đến ngọn đồi... đi từng bước theo trình tự - ý dạy rằng việc lớn, đặc biệt là hôn nhân và sự nghiệp, cần được xây dựng từ từ, đúng lễ nghĩa, đúng trình tự, không nên đốt cháy giai đoạn thì mới bền vững, tốt đẹp."
+        },
+        "57": {
+          "chi_tiet": "Tốn là quẻ của Gió - hai lần Tốn chồng lên nhau, tượng cho sự thâm nhập nhẹ nhàng nhưng khắp nơi, không chỗ nào gió không lọt vào được. Đạo Tốn dạy sự mềm mỏng, khiêm nhu, biết thuận theo hoàn cảnh mà thích ứng, nhưng lời quẻ ở hào 1 cũng răn rằng nhu thuận thái quá, cứ tiến thoái do dự không quyết đoán thì lại thành nhu nhược - người quân tử cần có sự mềm mỏng bên ngoài nhưng vẫn giữ được chí khí kiên định bên trong."
+        },
+        "58": {
+          "chi_tiet": "Đoài là quẻ của Đầm nước - hai lần Đoài chồng lên nhau, tượng cho niềm vui, sự hòa hợp nhân đôi. Tuy nhiên lời quẻ cũng răn rằng niềm vui phải chính đáng, không nên vui vẻ vì xu nịnh, a dua hay vì lời ngọt của kẻ xấu; hào 5 có ý cảnh báo việc tin theo kẻ chỉ biết bóc lột, lợi dụng sẽ gặp nguy. Vui mà giữ được chính đạo, hòa mà không mất lập trường, đó mới là niềm vui bền lâu của quẻ Đoài."
+        },
+        "60": {
+          "cau_truc": "Thủy trạch tiết (Khảm: nước; Đoài: đầm)"
+        }
+      }
+    },
+
+    "value_map": {
+      "collection": "que_64",
+      "field": "cat_hung",
+      "map": {
+        "Đại cát": "Đại cát",
+        "đại cát": "Đại cát",
+        "Cát": "Cát",
+        "cát": "Cát",
+        "Lợi": "Cát",
+        "lợi": "Cát",
+        "Cát hanh": "Cát hanh",
+        "cát hanh": "Cát hanh",
+        "Bình hòa": "Bình hòa",
+        "bình hòa": "Bình hòa",
+        "Bình Hòa": "Bình hòa",
+        "Hanh": "Bình hòa",
+        "hanh": "Bình hòa",
+        "Hung": "Hung",
+        "hung": "Hung",
+        "Đại hung": "Hung",
+        "đại hung": "Hung"
+      }
+    },
+
+    "sections": {
+      "bat_quai": [
+        { "stt": 1, "ten": "Càn", "ky_hieu": "☰", "y_nghia": "Trời", "ngu_hanh": "Kim", "gia_dao": "Cha (Lão phụ)", "tinh_chat": "Cương kiện, mạnh mẽ, sáng tạo không ngừng", "huong_hau_thien": "Tây Bắc" },
+        { "stt": 2, "ten": "Đoài", "ky_hieu": "☱", "y_nghia": "Đầm, Ao hồ", "ngu_hanh": "Kim", "gia_dao": "Thiếu nữ (con gái út)", "tinh_chat": "Vui vẻ, hòa duyệt, có sức thu hút", "huong_hau_thien": "Tây" },
+        { "stt": 3, "ten": "Ly", "ky_hieu": "☲", "y_nghia": "Lửa, Ánh sáng", "ngu_hanh": "Hỏa", "gia_dao": "Trung nữ", "tinh_chat": "Sáng rực, lệ thuộc (bám vào vật khác mà sáng), văn minh", "huong_hau_thien": "Nam" },
+        { "stt": 4, "ten": "Chấn", "ky_hieu": "☳", "y_nghia": "Sấm, Sét", "ngu_hanh": "Mộc", "gia_dao": "Trưởng nam", "tinh_chat": "Chấn động, phấn khởi, khởi đầu mạnh mẽ", "huong_hau_thien": "Đông" },
+        { "stt": 5, "ten": "Tốn", "ky_hieu": "☴", "y_nghia": "Gió", "ngu_hanh": "Mộc", "gia_dao": "Trưởng nữ", "tinh_chat": "Thuận theo, thâm nhập nhẹ nhàng nhưng khắp nơi", "huong_hau_thien": "Đông Nam" },
+        { "stt": 6, "ten": "Khảm", "ky_hieu": "☵", "y_nghia": "Nước", "ngu_hanh": "Thủy", "gia_dao": "Trung nam", "tinh_chat": "Hiểm trở, gian nan, nhưng cũng là trí tuệ sâu sắc", "huong_hau_thien": "Bắc" },
+        { "stt": 7, "ten": "Cấn", "ky_hieu": "☶", "y_nghia": "Núi", "ngu_hanh": "Thổ", "gia_dao": "Thiếu nam (con trai út)", "tinh_chat": "Dừng lại, tĩnh lặng, giữ vững lập trường", "huong_hau_thien": "Đông Bắc" },
+        { "stt": 8, "ten": "Khôn", "ky_hieu": "☷", "y_nghia": "Đất", "ngu_hanh": "Thổ", "gia_dao": "Mẹ", "tinh_chat": "Nhu thuận, bao dung, chở che nuôi dưỡng muôn vật", "huong_hau_thien": "Tây Nam" }
+      ]
+    }
+  },
+
+  "tieng_trung": {
+    "target": "tieng_trung.json",
+    "section_order": ["Lo_Trinh_Hoc", "Ngu_Phap_Co_Ban", "*"],
+
+    "sections": {
+      "Lo_Trinh_Hoc": [
+        { "stt": 1, "giai_doan": "Giai đoạn 1: Nhập môn - Phát âm & Bộ thủ nền tảng", "muc_tieu": "Nắm vững hệ thống phiên âm Pinyin, 4 thanh điệu, và các bộ thủ cơ bản để tra từ điển, ghi nhớ mặt chữ Hán dễ dàng hơn.", "noi_dung": "Học hết mục \"Cách Đọc Phát Âm\" (các vần mẫu); học thuộc trước 50 bộ thủ thường gặp nhất trong mục \"214 Bộ Thủ\"; dùng nút phát âm (loa) ở các thẻ từ để luyện nghe - nhại theo giọng chuẩn.", "thoi_luong": "1 - 2 tuần" },
+        { "stt": 2, "giai_doan": "Giai đoạn 2: Từ vựng nền tảng & Ngữ pháp HSK1", "muc_tieu": "Ghi nhớ vài trăm từ vựng thông dụng nhất, dựng được câu đơn giản đúng ngữ pháp.", "noi_dung": "Học 200 - 300 chữ đầu tần suất cao trong \"Từ Điển 1500 Chữ Hán\"; học hết \"70 Động Từ Cơ Bản\"; học các điểm ngữ pháp có nhãn HSK1 trong mục \"Ngữ Pháp Cơ Bản\" (是, 的, 吗, 呢, 有, 在, lượng từ, từ để hỏi...).", "thoi_luong": "3 - 4 tuần" },
+        { "stt": 3, "giai_doan": "Giai đoạn 3: Giao tiếp hằng ngày & Ngữ pháp HSK2", "muc_tieu": "Thực hiện được hội thoại cơ bản: chào hỏi, mua sắm, hỏi đường, giới thiệu bản thân và gia đình.", "noi_dung": "Học hết \"Mẫu Câu Giao Tiếp\" theo từng chủ đề; chọn lọc luyện thêm 300 - 500 câu phù hợp trong \"3000 Câu Giao Tiếp\"; học các điểm ngữ pháp HSK2 (了, 正在...呢, 过, 比, các động từ năng nguyện 想/要/能/可以/会, 从...到...).", "thoi_luong": "1 - 2 tháng" },
+        { "stt": 4, "giai_doan": "Giai đoạn 4: Mở rộng vốn từ & Ngữ pháp HSK3", "muc_tieu": "Diễn đạt được ý kiến cá nhân, kể lại một sự việc, viết đoạn văn ngắn mạch lạc.", "noi_dung": "Hoàn thành \"Từ Điển 1500 Chữ Hán\"; học thêm \"Từ Vựng Phổ Biến\" và \"Từ Hay Dùng\"; học các điểm ngữ pháp HSK3 (把, 被, bổ ngữ kết quả, bổ ngữ khả năng, các cặp liên từ 虽然...但是, 因为...所以, 如果...就, 不但...而且).", "thoi_luong": "2 - 3 tháng" },
+        { "stt": 5, "giai_doan": "Giai đoạn 5: Nâng cao & Ứng dụng thực tế", "muc_tieu": "Đọc hiểu đoạn văn dài hơn, giao tiếp linh hoạt trong công việc và du lịch, sẵn sàng cho kỳ thi HSK4.", "noi_dung": "Luyện hết phần còn lại của \"3000 Câu Giao Tiếp\"; học các điểm ngữ pháp HSK4 (除了...以外, 只有...才, 是...的, bổ ngữ thời lượng); tham khảo \"Họ Tên Thường Gặp\" nếu cần làm quen, giao tiếp với người Trung Quốc.", "thoi_luong": "Duy trì liên tục" }
+      ],
+
+      "Ngu_Phap_Co_Ban": [
+        { "stt": 1, "cap_do": "HSK1", "diem_ngu_phap": "是 (shì) - Động từ \"là\"", "cau_truc": "S + 是 + N", "giai_thich": "Dùng để khẳng định danh tính, thân phận, chủng loại của chủ ngữ. Phủ định thêm 不 trước 是.", "vi_du_han": "我是学生。", "vi_du_pinyin": "Wǒ shì xuéshēng.", "vi_du_nghia": "Tôi là học sinh." },
+        { "stt": 2, "cap_do": "HSK1", "diem_ngu_phap": "的 (de) - Trợ từ sở hữu, định ngữ", "cau_truc": "N1/Đại từ + 的 + N2", "giai_thich": "Nối giữa định ngữ và trung tâm ngữ, tương đương \"của\" trong tiếng Việt. Với quan hệ thân thiết (gia đình, bạn bè) có thể lược bỏ 的.", "vi_du_han": "这是我的书。", "vi_du_pinyin": "Zhè shì wǒ de shū.", "vi_du_nghia": "Đây là sách của tôi." },
+        { "stt": 3, "cap_do": "HSK1", "diem_ngu_phap": "吗 (ma) - Trợ từ nghi vấn có/không", "cau_truc": "Câu trần thuật + 吗？", "giai_thich": "Đặt cuối câu trần thuật để biến thành câu hỏi có/không, không thay đổi trật tự từ trong câu.", "vi_du_han": "你是学生吗？", "vi_du_pinyin": "Nǐ shì xuéshēng ma?", "vi_du_nghia": "Bạn có phải là học sinh không?" },
+        { "stt": 4, "cap_do": "HSK1", "diem_ngu_phap": "呢 (ne) - Hỏi lại, hỏi tỉnh lược", "cau_truc": "N/Cụm từ + 呢？", "giai_thich": "Dùng để hỏi lại một vấn đề vừa được nhắc đến, hoặc hỏi \"còn... thì sao?\".", "vi_du_han": "我很好，你呢？", "vi_du_pinyin": "Wǒ hěn hǎo, nǐ ne?", "vi_du_nghia": "Tôi khỏe, còn bạn thì sao?" },
+        { "stt": 5, "cap_do": "HSK1", "diem_ngu_phap": "不 và 没(有) - Hai cách phủ định", "cau_truc": "不 + V/Adj  |  没(有) + V", "giai_thich": "不 dùng để phủ định thói quen, tính chất, ý muốn, hoặc việc trong tương lai. 没(有) dùng để phủ định hành động đã/đang xảy ra hoặc phủ định sự sở hữu, không dùng 没 với 是.", "vi_du_han": "我不是老师。我没有钱。", "vi_du_pinyin": "Wǒ bú shì lǎoshī. Wǒ méiyǒu qián.", "vi_du_nghia": "Tôi không phải là giáo viên. Tôi không có tiền." },
+        { "stt": 6, "cap_do": "HSK1", "diem_ngu_phap": "有 (yǒu) - Có (sở hữu / tồn tại)", "cau_truc": "S + 有 + O", "giai_thich": "Diễn tả sự sở hữu hoặc sự tồn tại của sự vật, sự việc. Phủ định dùng 没有 (không dùng 不有).", "vi_du_han": "我有一本书。", "vi_du_pinyin": "Wǒ yǒu yì běn shū.", "vi_du_nghia": "Tôi có một quyển sách." },
+        { "stt": 7, "cap_do": "HSK1", "diem_ngu_phap": "Số từ + Lượng từ + Danh từ", "cau_truc": "Số + Lượng từ (量词) + N", "giai_thich": "Khác với tiếng Việt, tiếng Trung bắt buộc phải có lượng từ phù hợp đứng giữa số đếm và danh từ, mỗi loại danh từ thường đi với một lượng từ riêng (个, 本, 杯, 张, 只...).", "vi_du_han": "一个人，两本书，三杯茶。", "vi_du_pinyin": "Yí gè rén, liǎng běn shū, sān bēi chá.", "vi_du_nghia": "Một người, hai quyển sách, ba cốc trà." },
+        { "stt": 8, "cap_do": "HSK1", "diem_ngu_phap": "很 (hěn) trước tính từ làm vị ngữ", "cau_truc": "S + 很 + Adj", "giai_thich": "Khi tính từ làm vị ngữ trực tiếp (không có 是), thường phải thêm 很 phía trước cho câu tự nhiên; ở đây 很 không nhất thiết mang nghĩa nhấn mạnh \"rất\" mà chỉ là yêu cầu ngữ pháp.", "vi_du_han": "她很漂亮。", "vi_du_pinyin": "Tā hěn piàoliang.", "vi_du_nghia": "Cô ấy xinh đẹp." },
+        { "stt": 9, "cap_do": "HSK1", "diem_ngu_phap": "Các từ để hỏi cơ bản", "cau_truc": "谁 / 什么 / 哪 / 哪里 / 怎么 / 为什么 / 几 / 多少", "giai_thich": "谁 (ai), 什么 (cái gì), 哪 (nào), 哪里 (ở đâu), 怎么 (như thế nào), 为什么 (tại sao), 几 (mấy, dùng cho số nhỏ dự đoán dưới 10), 多少 (bao nhiêu, dùng cho số lượng bất kỳ).", "vi_du_han": "你叫什么名字？你去哪里？", "vi_du_pinyin": "Nǐ jiào shénme míngzi? Nǐ qù nǎlǐ?", "vi_du_nghia": "Bạn tên gì? Bạn đi đâu?" },
+        { "stt": 10, "cap_do": "HSK1", "diem_ngu_phap": "在 (zài) chỉ nơi chốn", "cau_truc": "S + 在 + nơi chốn (+ V)", "giai_thich": "在 làm động từ nghĩa là \"ở tại\", hoặc làm giới từ chỉ địa điểm xảy ra hành động phía trước động từ chính.", "vi_du_han": "我在家看电视。", "vi_du_pinyin": "Wǒ zài jiā kàn diànshì.", "vi_du_nghia": "Tôi ở nhà xem tivi." },
+        { "stt": 11, "cap_do": "HSK2", "diem_ngu_phap": "了 (le) - Hoàn thành / biến đổi trạng thái", "cau_truc": "V + 了 (+O)  |  Câu + 了 (cuối câu)", "giai_thich": "了 đứng sau động từ biểu thị hành động đã hoàn thành; 了 đứng cuối câu biểu thị sự biến đổi trạng thái, tình huống mới xuất hiện.", "vi_du_han": "我吃饭了。天冷了。", "vi_du_pinyin": "Wǒ chīfàn le. Tiān lěng le.", "vi_du_nghia": "Tôi ăn cơm rồi. Trời lạnh rồi." },
+        { "stt": 12, "cap_do": "HSK2", "diem_ngu_phap": "正在...呢 - Đang diễn ra", "cau_truc": "S + (正)在 + V + (呢)", "giai_thich": "Diễn tả một hành động đang xảy ra tại thời điểm nói, tương đương thì tiếp diễn trong tiếng Anh.", "vi_du_han": "我正在吃饭呢。", "vi_du_pinyin": "Wǒ zhèngzài chīfàn ne.", "vi_du_nghia": "Tôi đang ăn cơm." },
+        { "stt": 13, "cap_do": "HSK2", "diem_ngu_phap": "过 (guo) - Đã từng (kinh nghiệm)", "cau_truc": "S + V + 过 + O", "giai_thich": "Diễn tả một hành động đã từng xảy ra trong quá khứ, nhấn mạnh kinh nghiệm chứ không nhấn mạnh thời điểm hoàn thành.", "vi_du_han": "我去过中国。", "vi_du_pinyin": "Wǒ qùguo Zhōngguó.", "vi_du_nghia": "Tôi đã từng đến Trung Quốc." },
+        { "stt": 14, "cap_do": "HSK2", "diem_ngu_phap": "也 (yě) và 都 (dōu) - Cũng và Đều", "cau_truc": "S + 也/都 + V/Adj", "giai_thich": "也 và 都 là phó từ, luôn đứng trước động từ hoặc tính từ, không đứng trước chủ ngữ. Nếu dùng cả hai thì 也 đứng trước 都.", "vi_du_han": "我们也都是学生。", "vi_du_pinyin": "Wǒmen yě dōu shì xuéshēng.", "vi_du_nghia": "Chúng tôi cũng đều là học sinh." },
+        { "stt": 15, "cap_do": "HSK2", "diem_ngu_phap": "比 (bǐ) - So sánh hơn", "cau_truc": "A + 比 + B + Adj (+ mức độ chênh lệch)", "giai_thich": "Cấu trúc so sánh hơn cơ bản nhất trong tiếng Trung; không dùng 很 trước tính từ trong câu so sánh này.", "vi_du_han": "他比我高一点儿。", "vi_du_pinyin": "Tā bǐ wǒ gāo yìdiǎnr.", "vi_du_nghia": "Anh ấy cao hơn tôi một chút." },
+        { "stt": 16, "cap_do": "HSK2", "diem_ngu_phap": "一点儿 và 有点儿", "cau_truc": "Adj + 一点儿  |  有点儿 + Adj", "giai_thich": "一点儿 đặt sau tính từ trong câu so sánh, nghĩa là \"một chút\". 有点儿 đặt trước tính từ, thường mang sắc thái không hài lòng, hơi tiêu cực.", "vi_du_han": "这个大一点儿。我有点儿累。", "vi_du_pinyin": "Zhège dà yìdiǎnr. Wǒ yǒudiǎnr lèi.", "vi_du_nghia": "Cái này to hơn một chút. Tôi hơi mệt." },
+        { "stt": 17, "cap_do": "HSK2", "diem_ngu_phap": "想/要/能/可以/会 - Động từ năng nguyện", "cau_truc": "S + 想/要/能/可以/会 + V", "giai_thich": "想 (muốn, mong muốn chủ quan), 要 (muốn/sắp, ý chí mạnh hơn), 能 (có khả năng do thể chất/hoàn cảnh), 可以 (được phép), 会 (biết làm do học được, hoặc khả năng xảy ra).", "vi_du_han": "我想去，但是我不会说汉语。", "vi_du_pinyin": "Wǒ xiǎng qù, dànshì wǒ bú huì shuō Hànyǔ.", "vi_du_nghia": "Tôi muốn đi, nhưng tôi không biết nói tiếng Hán." },
+        { "stt": 18, "cap_do": "HSK2", "diem_ngu_phap": "从...到... - Từ...đến...", "cau_truc": "从 + điểm bắt đầu + 到 + điểm kết thúc", "giai_thich": "Dùng cho cả thời gian và địa điểm để chỉ phạm vi bắt đầu - kết thúc.", "vi_du_han": "我从八点到十点上班。", "vi_du_pinyin": "Wǒ cóng bā diǎn dào shí diǎn shàngbān.", "vi_du_nghia": "Tôi làm việc từ 8 giờ đến 10 giờ." },
+        { "stt": 19, "cap_do": "HSK2", "diem_ngu_phap": "快...了 / 要...了 - Sắp... rồi", "cau_truc": "(快)要 + V + 了", "giai_thich": "Diễn tả một sự việc sắp sửa xảy ra trong tương lai gần.", "vi_du_han": "火车快到了。", "vi_du_pinyin": "Huǒchē kuài dào le.", "vi_du_nghia": "Tàu sắp đến rồi." },
+        { "stt": 20, "cap_do": "HSK2", "diem_ngu_phap": "Bổ ngữ chỉ phương hướng đơn giản", "cau_truc": "V + 上/下/进/出/回/过 + 来/去", "giai_thich": "Bổ ngữ chỉ phương hướng đứng sau động từ để chỉ hướng di chuyển của hành động, hướng về phía người nói (来) hoặc rời xa người nói (去).", "vi_du_han": "请进来！他回去了。", "vi_du_pinyin": "Qǐng jìnlái! Tā huíqù le.", "vi_du_nghia": "Mời vào! Anh ấy đã về rồi." },
+        { "stt": 21, "cap_do": "HSK3", "diem_ngu_phap": "把 (bǎ) - Câu chữ Bả", "cau_truc": "S + 把 + O + V + bổ ngữ/thành phần khác", "giai_thich": "Dùng khi muốn nhấn mạnh kết quả tác động lên tân ngữ xác định; động từ không được đứng trơ trọi một mình mà phải có thành phần bổ sung phía sau (bổ ngữ, 了, trùng điệp...).", "vi_du_han": "我把书放在桌子上了。", "vi_du_pinyin": "Wǒ bǎ shū fàng zài zhuōzi shàng le.", "vi_du_nghia": "Tôi đã đặt sách lên bàn." },
+        { "stt": 22, "cap_do": "HSK3", "diem_ngu_phap": "被 (bèi) - Câu bị động", "cau_truc": "S(bị tác động) + 被 + (tác nhân) + V + bổ ngữ", "giai_thich": "Diễn tả chủ ngữ chịu sự tác động của hành động, thường mang sắc thái không mong muốn hoặc bị ảnh hưởng. Tác nhân gây ra hành động có thể được lược bỏ.", "vi_du_han": "我的手机被他拿走了。", "vi_du_pinyin": "Wǒ de shǒujī bèi tā ná zǒu le.", "vi_du_nghia": "Điện thoại của tôi bị anh ấy lấy đi rồi." },
+        { "stt": 23, "cap_do": "HSK3", "diem_ngu_phap": "Bổ ngữ kết quả (结果补语)", "cau_truc": "V + 完/好/到/懂/见/错", "giai_thich": "Đứng ngay sau động từ chính để bổ sung kết quả của hành động: 完 (xong), 好 (xong, ổn thỏa), 到 (đạt tới), 懂 (hiểu), 见 (thấy, cảm nhận được), 错 (sai, nhầm).", "vi_du_han": "我做完作业了。", "vi_du_pinyin": "Wǒ zuò wán zuòyè le.", "vi_du_nghia": "Tôi làm xong bài tập rồi." },
+        { "stt": 24, "cap_do": "HSK3", "diem_ngu_phap": "Bổ ngữ khả năng (可能补语)", "cau_truc": "V + 得/不 + bổ ngữ", "giai_thich": "Chèn 得 (có thể) hoặc 不 (không thể) vào giữa động từ và bổ ngữ kết quả/xu hướng để diễn tả khả năng thực hiện được hay không.", "vi_du_han": "我听得懂，他听不懂。", "vi_du_pinyin": "Wǒ tīng de dǒng, tā tīng bu dǒng.", "vi_du_nghia": "Tôi nghe hiểu được, anh ấy nghe không hiểu." },
+        { "stt": 25, "cap_do": "HSK3", "diem_ngu_phap": "虽然...但是... - Tuy...nhưng...", "cau_truc": "虽然 + Mệnh đề 1，但是 + Mệnh đề 2", "giai_thich": "Liên từ chỉ sự nhượng bộ, dùng để nối hai mệnh đề có ý nghĩa tương phản.", "vi_du_han": "虽然很累，但是很开心。", "vi_du_pinyin": "Suīrán hěn lèi, dànshì hěn kāixīn.", "vi_du_nghia": "Tuy mệt nhưng rất vui." },
+        { "stt": 26, "cap_do": "HSK3", "diem_ngu_phap": "因为...所以... - Vì...nên...", "cau_truc": "因为 + Nguyên nhân，所以 + Kết quả", "giai_thich": "Liên từ chỉ quan hệ nhân quả, có thể lược bỏ một trong hai vế nếu ngữ cảnh đã rõ.", "vi_du_han": "因为下雨，所以我们不去了。", "vi_du_pinyin": "Yīnwèi xiàyǔ, suǒyǐ wǒmen bú qù le.", "vi_du_nghia": "Vì trời mưa nên chúng tôi không đi nữa." },
+        { "stt": 27, "cap_do": "HSK3", "diem_ngu_phap": "如果...就... - Nếu...thì...", "cau_truc": "如果 + Điều kiện，就 + Kết quả", "giai_thich": "Liên từ chỉ quan hệ giả thiết - kết quả.", "vi_du_han": "如果你有空，就来找我。", "vi_du_pinyin": "Rúguǒ nǐ yǒu kòng, jiù lái zhǎo wǒ.", "vi_du_nghia": "Nếu bạn rảnh thì đến tìm tôi." },
+        { "stt": 28, "cap_do": "HSK3", "diem_ngu_phap": "越来越 / 越...越... - Càng ngày càng / Càng...càng...", "cau_truc": "越来越 + Adj/V  |  越 + A，越 + B", "giai_thich": "越来越 diễn tả một xu hướng thay đổi tăng dần theo thời gian; 越...越... diễn tả hai sự việc tăng/giảm tương ứng với nhau.", "vi_du_han": "天气越来越冷了。你越说我越不明白。", "vi_du_pinyin": "Tiānqì yuè lái yuè lěng le. Nǐ yuè shuō wǒ yuè bù míngbái.", "vi_du_nghia": "Thời tiết càng ngày càng lạnh. Bạn càng nói tôi càng không hiểu." },
+        { "stt": 29, "cap_do": "HSK3", "diem_ngu_phap": "一边...一边... - Vừa...vừa...", "cau_truc": "S + 一边 + V1 + 一边 + V2", "giai_thich": "Diễn tả hai hành động xảy ra đồng thời, do cùng một chủ thể thực hiện.", "vi_du_han": "他一边吃饭一边看电视。", "vi_du_pinyin": "Tā yìbiān chīfàn yìbiān kàn diànshì.", "vi_du_nghia": "Anh ấy vừa ăn cơm vừa xem tivi." },
+        { "stt": 30, "cap_do": "HSK3", "diem_ngu_phap": "不但...而且... - Không những...mà còn...", "cau_truc": "不但 + Vế 1，而且 + Vế 2", "giai_thich": "Liên từ chỉ quan hệ tăng tiến, vế sau bổ sung thêm ý nghĩa cho vế trước theo chiều hướng mạnh hơn.", "vi_du_han": "她不但漂亮，而且聪明。", "vi_du_pinyin": "Tā búdàn piàoliang, érqiě cōngmíng.", "vi_du_nghia": "Cô ấy không những xinh đẹp mà còn thông minh." },
+        { "stt": 31, "cap_do": "HSK4", "diem_ngu_phap": "除了...以外，都/也... - Ngoại trừ...ra...", "cau_truc": "除了 + A + 以外，(S còn lại) + 都/也 + V", "giai_thich": "除了...都 nghĩa là loại trừ đối tượng A ra khỏi nhóm còn lại; 除了...也/还 nghĩa là bổ sung thêm ngoài A ra còn có thêm B nữa (không loại trừ).", "vi_du_han": "除了他以外，我们都去了。", "vi_du_pinyin": "Chúle tā yǐwài, wǒmen dōu qù le.", "vi_du_nghia": "Ngoài anh ấy ra, chúng tôi đều đã đi." },
+        { "stt": 32, "cap_do": "HSK4", "diem_ngu_phap": "只有...才... - Chỉ có...mới...", "cau_truc": "只有 + Điều kiện duy nhất，才 + Kết quả", "giai_thich": "Nhấn mạnh đây là điều kiện duy nhất để đạt được kết quả, ngữ khí mạnh hơn 如果...就.", "vi_du_han": "只有努力，才能成功。", "vi_du_pinyin": "Zhǐyǒu nǔlì, cái néng chénggōng.", "vi_du_nghia": "Chỉ có nỗ lực, mới có thể thành công." },
+        { "stt": 33, "cap_do": "HSK4", "diem_ngu_phap": "是...的 - Nhấn mạnh thời gian/địa điểm/cách thức", "cau_truc": "S + 是 + (thời gian/địa điểm/cách thức) + V + 的", "giai_thich": "Dùng để nhấn mạnh một chi tiết cụ thể (khi nào, ở đâu, bằng cách nào) của một hành động đã xảy ra rồi, chứ không dùng để hỏi hành động có xảy ra hay không.", "vi_du_han": "我是昨天来的。", "vi_du_pinyin": "Wǒ shì zuótiān lái de.", "vi_du_nghia": "Tôi đến là vào hôm qua (nhấn mạnh thời điểm)." },
+        { "stt": 34, "cap_do": "HSK4", "diem_ngu_phap": "Bổ ngữ thời lượng (时量补语)", "cau_truc": "V + (了) + khoảng thời gian + (O)", "giai_thich": "Đứng sau động từ để chỉ khoảng thời gian hành động đã kéo dài, khác với bổ ngữ chỉ thời điểm.", "vi_du_han": "我学了三年汉语。", "vi_du_pinyin": "Wǒ xuéle sān nián Hànyǔ.", "vi_du_nghia": "Tôi đã học tiếng Hán ba năm." }
+      ]
+    }
+  }
+}

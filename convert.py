@@ -13,6 +13,97 @@ def clean_df(df):
             df[col] = df[col].apply(lambda x: x.strip() if isinstance(x, str) else x)
     return df
 
+SUPPLEMENT_FILE = "du_lieu_bo_sung.json"
+
+
+def load_supplement(section_key):
+    """Doc phan du lieu bo sung thu cong cho mot file dich (neu co)."""
+    if not os.path.exists(SUPPLEMENT_FILE):
+        return None
+    try:
+        with open(SUPPLEMENT_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f).get(section_key)
+    except Exception as e:
+        print(f"  [CANH BAO] Khong doc duoc {SUPPLEMENT_FILE}: {e}")
+        return None
+
+
+def apply_supplement(data, section_key):
+    """Ghep du lieu bien soan thu cong vao dict sinh ra tu Excel.
+
+    Giu Excel lam nguon chinh cho du lieu hang loat, dong thoi bao toan cac noi dung
+    them/sua bang tay (Bat Quai Do, Ngu Phap Co Ban, Lo Trinh Hoc, ban va que Dich...)
+    de chung khong bi mat moi lan chay lai script nay.
+    """
+    sup = load_supplement(section_key)
+    if not sup:
+        return data
+
+    # 1. Chuan hoa gia tri mot truong (vd cat_hung viet hoa/thuong khong nhat quan)
+    vm = sup.get("value_map")
+    if vm:
+        coll, field, mapping = vm.get("collection"), vm.get("field"), vm.get("map") or {}
+        rows = data.get(coll) or []
+        changed = 0
+        for row in rows:
+            cur = row.get(field)
+            if cur in mapping and mapping[cur] != cur:
+                row[field] = mapping[cur]
+                changed += 1
+        if changed:
+            print(f"  + Chuan hoa '{field}' cho {changed} dong trong '{coll}'")
+
+    # 2. Ghi de tung truong theo khoa dinh danh
+    ro = sup.get("row_overrides")
+    if ro:
+        coll, key, rows_map = ro.get("collection"), ro.get("key"), ro.get("rows") or {}
+        rows = data.get(coll) or []
+        index = {str(r.get(key)): r for r in rows}
+        hit = 0
+        for rid, fields in rows_map.items():
+            target = index.get(str(rid))
+            if target is None:
+                print(f"  [CANH BAO] Khong tim thay {coll}.{key}={rid} de ghi de")
+                continue
+            for fname, fval in fields.items():
+                target[fname] = fval
+            hit += 1
+        if hit:
+            print(f"  + Ap dung ban va thu cong cho {hit} dong trong '{coll}'")
+
+        # Chuan hoa lai sau khi ghi de (vd que 32 vua duoc cap cat_hung)
+        if vm:
+            coll2, field2, mapping2 = vm.get("collection"), vm.get("field"), vm.get("map") or {}
+            for row in (data.get(coll2) or []):
+                cur = row.get(field2)
+                if cur in mapping2:
+                    row[field2] = mapping2[cur]
+
+    # 3. Them cac muc du lieu khong co trong Excel
+    for name, rows in (sup.get("sections") or {}).items():
+        data[name] = rows
+        print(f"  + Them muc bien soan thu cong '{name}' ({len(rows)} dong)")
+
+    # 4. Sap xep lai thu tu cac muc; '*' = giu nguyen phan con lai
+    order = sup.get("section_order")
+    if order:
+        ordered = {}
+        explicit = [k for k in order if k != "*"]
+        for name in order:
+            if name == "*":
+                for k in data:
+                    if k not in explicit and k not in ordered:
+                        ordered[k] = data[k]
+            elif name in data:
+                ordered[name] = data[name]
+        for k in data:
+            if k not in ordered:
+                ordered[k] = data[k]
+        data = ordered
+
+    return data
+
+
 def convert_poems():
     excel_file = "Tho_chiet_ly_cuoc_song_FullVersion.xlsx"
     if not os.path.exists(excel_file):
@@ -69,6 +160,8 @@ def convert_chinese():
         df = clean_df(df)
         data[sheet] = df.to_dict(orient='records')
         
+    data = apply_supplement(data, "tieng_trung")
+
     output_file = "tieng_trung.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -200,6 +293,8 @@ def convert_kinh_dich():
         "ghi_chu": notes_list
     }
     
+    data = apply_supplement(data, "kinh_dich")
+
     output_file = "kinh_dich.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
