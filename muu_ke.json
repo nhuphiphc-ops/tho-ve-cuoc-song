@@ -1,0 +1,922 @@
+{
+  "tong_quan": {
+    "tieu_de": "⚔️ 100 Mưu Kế & Trí Tuệ Cổ Nhân Ứng Dụng Trong Đời Sống Hàng Ngày",
+    "loi_dan": "Mưu kế của cổ nhân không phải là thủ đoạn xảo quyệt hại người, mà là đỉnh cao của trí tuệ thấu hiểu nhân tâm, thuận thế mà hành, lấy nhu thắng cương và bảo vệ bản thân bình an giữa dòng đời biến chuyển.",
+    "nguyen_tac_vang": [
+      {
+        "tieu_de": "Mưu trí để phòng thân, không dùng để hại người",
+        "noi_dung": "Bậc quân tử học mưu kế là để nhìn thấu cạm bẫy, bảo vệ sự lương thiện của chính mình và người thân, chứ không dùng để lừa gạt, chèn ép hay làm hại kẻ khác."
+      },
+      {
+        "tieu_de": "Biết người biết ta, thuận thế mà đi",
+        "noi_dung": "Thấu hiểu lòng người, nắm rõ điểm mạnh điểm yếu của đối phương và chính mình. Không bao giờ đối đầu trực diện khi chưa đủ lực, mượn gió đẩy thuyền ắt thành công."
+      },
+      {
+        "tieu_de": "Đại trí nhược ngu, tùy cơ ứng biến",
+        "noi_dung": "Người thực sự khôn ngoan bên ngoài khiêm nhường mộc mạc, bên trong sáng suốt tinh tường. Giữ tâm bất biến trước vạn biến để đưa ra quyết định sáng suốt nhất."
+      }
+    ]
+  },
+  "danh_sach_100_ke": [
+    {
+      "so_thu_tu": 1,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Dĩ Nhu Thắng Cương (Lấy mềm thắng cứng)",
+      "nguon_goc": "Lão Tử — Đạo Đức Kinh",
+      "nguyen_ly_co_nhan": "Nước là thứ mềm mại nhất thế gian nhưng không gì có thể ngăn cản sức mạnh của nó. Lấy sự nhẫn nhịn, mềm mỏng hóa giải xung đột thay vì đối đầu bạo lực.",
+      "ung_dung_doi_song": "Khi đối phương đang giận dữ, nếu ta cãi lại sẽ thổi bùng ngọn lửa tranh chấp. Hãy lắng nghe trong ôn hòa, chờ họ hạ hỏa rồi mới dùng lý lẽ thuyết phục.",
+      "loi_khuyen_hanh_dong": "Giữ giọng điệu điềm đạm, hạ thấp tông giọng và không ngắt lời khi người khác đang bức xúc."
+    },
+    {
+      "so_thu_tu": 2,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Dục Cầm Cố Túng (Muốn bắt buông lỏng trước)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 16) — Gia Cát Lượng 7 lần bắt tha Mạnh Hoạch",
+      "nguyen_ly_co_nhan": "Dồn đối phương vào chân tường sẽ khiến họ phản kháng quyết liệt tới cùng. Cho họ lối thoát và thời gian tự ngẫm để tâm phục khẩu phục.",
+      "ung_dung_doi_song": "Trong quản lý nhân sự hay dạy con, không nên trừng phạt quá gắt gao. Hãy cho họ cơ hội tự nhận ra lỗi lầm và sửa đổi, lòng trung thành sẽ tự khắc nảy nở.",
+      "loi_khuyen_hanh_dong": "Thay vì chỉ trích gay gắt, hãy đặt câu hỏi gợi mở để người khác tự thấy điểm chưa đúng."
+    },
+    {
+      "so_thu_tu": 3,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Đại Trí Nhược Ngu (Khôn khéo giấu trong vụng về)",
+      "nguon_goc": "Tô Đông Pha — Trí Tuệ Cổ Nhân",
+      "nguyen_ly_co_nhan": "Người có tài năng xuất chúng chớ khoe khoang phô trương để tránh sự đố kỵ, gièm pha và đề phòng của kẻ tiểu nhân.",
+      "ung_dung_doi_song": "Trong tập thể, người luôn tỏ ra thông minh hơn người khác rất dễ bị cô lập. Biết khiêm tốn học hỏi, lắng nghe nhiều hơn nói sẽ giúp xây dựng quan hệ bền chặt.",
+      "loi_khuyen_hanh_dong": "Hạn chế phô trương thành tích; khen ngợi đóng góp của đồng nghiệp nhiều hơn khẳng định công lao của mình."
+    },
+    {
+      "so_thu_tu": 4,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Hạ Kỷ Tôn Nhân (Hạ mình tôn người)",
+      "nguon_goc": "Khổng Tử — Luận Ngữ",
+      "nguyen_ly_co_nhan": "Biển thấp mới là nơi quy tụ của trăm sông. Người biết hạ cái tôi xuống và tôn trọng phẩm giá người khác sẽ được muôn người kính trọng.",
+      "ung_dung_doi_song": "Khi giao tiếp với bất kỳ ai (kể cả người phục vụ hay cấp dưới), thái độ lịch sự, tôn trọng sẽ tạo nên thiện cảm vô giá mở đường cho mọi hợp tác.",
+      "loi_khuyen_hanh_dong": "Chào hỏi niềm nở, gọi đúng tên đối phương và cảm ơn chân thành với sự giúp đỡ nhỏ nhất."
+    },
+    {
+      "so_thu_tu": 5,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Đào Mận Thay Nhau (Lý đại đào cương)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 11)",
+      "nguyen_ly_co_nhan": "Cây mận chịu sâu thay cây đào. Biết hy sinh lợi ích nhỏ trước mắt để bảo vệ mục tiêu lớn lao và giữ gìn đại cục.",
+      "ung_dung_doi_song": "Trong làm ăn hoặc hôn nhân, đôi khi cần chủ động nhường nhịn một chút quyền lợi hoặc chịu thiệt thòi nhỏ để giữ vững mối quan hệ hợp tác lâu dài.",
+      "loi_khuyen_hanh_dong": "Không so đo tính toán những chuyện vặt vãnh; luôn hướng tầm mắt về mục tiêu dài hạn."
+    },
+    {
+      "so_thu_tu": 6,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Thuận Thủy Thôi Chu (Thuận nước đẩy thuyền)",
+      "nguon_goc": "Quỷ Cốc Tử — Tung Hoành Thuật",
+      "nguyen_ly_co_nhan": "Không bơi ngược dòng nước chảy xiết. Nương theo xu thế tự nhiên và tâm lý đối phương để dẫn dắt họ theo hướng mình mong muốn.",
+      "ung_dung_doi_song": "Khi muốn góp ý với ai đó, trước hết hãy công nhận điểm mạnh và ý định tốt của họ, sau đó mới khéo léo lồng ghép đề xuất cải tiến của mình.",
+      "loi_khuyen_hanh_dong": "Sử dụng công thức 'Khen ngợi chân thành - Đồng cảm - Đề xuất phương án mới'."
+    },
+    {
+      "so_thu_tu": 7,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Tá Lực Đả Lực (Mượn sức đánh sức)",
+      "nguon_goc": "Thái Cực Quyền — Võ Học Cổ Truyền",
+      "nguyen_ly_co_nhan": "Không dùng sức mạnh đối chọi với sức mạnh. Khéo léo chuyển hướng lực đẩy của đối phương để giải tỏa áp lực và giành thế chủ động.",
+      "ung_dung_doi_song": "Khi bị người khác công kích hoặc phản bác vô lý nơi đông người, đừng tranh cãi gay gắt; hãy đặt câu hỏi ngược lại một cách lịch sự để họ tự giải thích mâu thuẫn của chính mình.",
+      "loi_khuyen_hanh_dong": "Đáp lại sự mỉa mai bằng câu hỏi: 'Bạn có thể giải thích rõ hơn ý của bạn để mọi người cùng hiểu không?'."
+    },
+    {
+      "so_thu_tu": 8,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Kính Nhi Viễn Chi (Kính trọng nhưng giữ khoảng cách)",
+      "nguon_goc": "Khổng Tử — Luận Ngữ",
+      "nguyen_ly_co_nhan": "Với những người tâm tính bất định hoặc kẻ tiểu nhân, bề ngoài vẫn giữ lễ độ tôn trọng nhưng tuyệt đối không kết thân hay tâm sự chuyện riêng tư.",
+      "ung_dung_doi_song": "Nơi công sở có người hay buôn chuyện, đâm chọc; hãy luôn mỉm cười lịch sự, hợp tác đúng công việc nhưng không chia sẻ đời tư hay tham gia bè phái.",
+      "loi_khuyen_hanh_dong": "Giữ ranh giới rõ ràng trong giao tiếp công việc và việc riêng."
+    },
+    {
+      "so_thu_tu": 9,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Trắc Ẩn Chi Tâm (Lấy chân thành cảm hóa lòng người)",
+      "nguon_goc": "Mạnh Tử — Tính Thiện Thuyết",
+      "nguyen_ly_co_nhan": "Con người ai cũng có hạt giống lương thiện và lòng trắc ẩn. Dùng sự chân thành và giúp đỡ lúc người ta khốn khó sẽ đổi lại sự cảm kích trọn đời.",
+      "ung_dung_doi_song": "Khi đối tác hoặc đồng nghiệp gặp khó khăn hoạn nạn, một lời thăm hỏi hoặc sự giúp đỡ vô tư sẽ tạo nên sợi dây gắn kết sâu sắc nhất.",
+      "loi_khuyen_hanh_dong": "Chủ động gửi lời động viên hoặc hỗ trợ cụ thể khi thấy người xung quanh gặp chuyện không may."
+    },
+    {
+      "so_thu_tu": 10,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Dĩ Dật Đãi Lao (Lấy nhàn đợi mệt trong ứng xử)",
+      "nguon_goc": "Binh Pháp Tôn Tử (Thiên Quân Tranh)",
+      "nguyen_ly_co_nhan": "Giữ cho mình sự thong dong, sung mãn năng lượng và tinh thần minh mẫn để ứng phó với sự nôn nóng, hấp tấp của đối phương.",
+      "ung_dung_doi_song": "Trong các cuộc tranh luận hay họp căng thẳng, người giữ được sự điềm tĩnh và để người khác nói hết thường là người nắm quyền quyết định cuối cùng.",
+      "loi_khuyen_hanh_dong": "Ngồi thẳng lưng, hít thở đều và mỉm cười lắng nghe trọn vẹn trước khi phản hồi."
+    },
+    {
+      "so_thu_tu": 11,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Thính Kỳ Ngôn Quan Kỳ Hành (Nghe lời nói, xem hành động)",
+      "nguon_goc": "Khổng Tử — Luận Ngữ",
+      "nguyen_ly_co_nhan": "Lời nói có thể hoa mỹ dối lừa, nhưng hành vi thực tế và cách xử sự lúc hoạn nạn mới bộc lộ bản chất chân thực của một con người.",
+      "ung_dung_doi_song": "Đừng vội tin những lời hứa hẹn bùi tai khi hợp tác làm ăn. Hãy quan sát cách họ đối xử với gia đình, người phục vụ và các cam kết nhỏ hàng ngày.",
+      "loi_khuyen_hanh_dong": "Thẩm định đối tác qua những việc làm thực tế trong quá khứ thay vì chỉ tin vào lời thuyết trình."
+    },
+    {
+      "so_thu_tu": 12,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Đồng Thanh Tương Ứng (Tìm điểm chung để gắn kết)",
+      "nguon_goc": "Kinh Dịch — Quẻ Càn",
+      "nguyen_ly_co_nhan": "Cùng âm thanh thì vang ứng với nhau, cùng chí hướng thì tìm đến với nhau. Muốn kết giao phải tìm ra điểm tương đồng trong sở thích và lý tưởng.",
+      "ung_dung_doi_song": "Bắt đầu cuộc trò chuyện với người mới quen bằng chủ đề họ yêu thích (thể thao, sách vở, quê hương) để phá vỡ khoảng cách ban đầu.",
+      "loi_khuyen_hanh_dong": "Quan sát và lắng nghe để tìm ra sở thích chung trước khi đi vào chủ đề chính."
+    },
+    {
+      "so_thu_tu": 13,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Bão Phác Thủ Chân (Giữ trọn sự mộc mạc chân thật)",
+      "nguon_goc": "Lão Tử — Đạo Đức Kinh",
+      "nguyen_ly_co_nhan": "Khéo léo quá sinh ra xảo quyệt. Sự chân thật, mộc mạc và trung thực là vũ khí tối thượng chiếm trọn lòng tin của thiên hạ.",
+      "ung_dung_doi_song": "Trong bán hàng và quan hệ đối tác, thẳng thắn thừa nhận hạn chế của sản phẩm/dịch vụ sẽ khiến khách hàng tin tưởng bạn gấp nhiều lần.",
+      "loi_khuyen_hanh_dong": "Nói sự thật một cách khéo léo, không nói quá sự thật để lấy lòng."
+    },
+    {
+      "so_thu_tu": 14,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Nặc Ẩn Kỳ Đoản (Tránh chọc vào điểm yếu người khác)",
+      "nguon_goc": "Quỷ Cốc Tử — Bản Kinh Âm Phù",
+      "nguyen_ly_co_nhan": "Người khôn ngoan không bao giờ vạch trần khuyết điểm hay quá khứ đau buồn của người khác trước chốn đông người.",
+      "ung_dung_doi_song": "Bảo vệ thể diện cho người khác là cách tích đức và tạo dựng đồng minh trung thành nhất. Chê bai nơi riêng tư, khen ngợi chốn đông người.",
+      "loi_khuyen_hanh_dong": "Tuyệt đối không lấy khuyết điểm ngoại hình hay gia cảnh của bạn bè ra làm trò đùa."
+    },
+    {
+      "so_thu_tu": 15,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Trọng Nặc Tích Phúc (Giữ lời hứa như giữ vàng)",
+      "nguon_goc": "Bách Gia Chư Tử — Tín Nghĩa Luận",
+      "nguyen_ly_co_nhan": "Người không có chữ Tín thì không thể đứng vững trong trời đất. Một lời hứa nặng tựa ngàn vàng tạo nên uy tín bất khả xâm phạm.",
+      "ung_dung_doi_song": "Đã nhận lời làm việc gì thì dốc sức hoàn thành đúng hạn; nếu không làm được phải chủ động thông báo xin lỗi từ sớm.",
+      "loi_khuyen_hanh_dong": "Cân nhắc kỹ trước khi gật đầu; chỉ hứa những gì mình chắc chắn làm được."
+    },
+    {
+      "so_thu_tu": 16,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Thi Ân Bất Cầu Báo (Làm ơn không mong trả ơn)",
+      "nguon_goc": "Liệt Tử — Dưỡng Sinh Thuật",
+      "nguyen_ly_co_nhan": "Giúp người mà trong lòng luôn mong cầu báo đáp sẽ sinh ra oán hận khi không như ý. Giúp đỡ vì tâm thiện tự nhiên phước lành sẽ đến theo cách khác.",
+      "ung_dung_doi_song": "Hỗ trợ bạn bè, đồng nghiệp với tâm thế thoải mái, không coi họ là con nợ ân tình để tránh làm rạn nứt mối quan hệ.",
+      "loi_khuyen_hanh_dong": "Sau khi giúp đỡ ai đó, hãy quên đi việc mình vừa làm và tiếp tục công việc của mình."
+    },
+    {
+      "so_thu_tu": 17,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Cảm Đồng Thân Thụ (Đặt mình vào hoàn cảnh người khác)",
+      "nguon_goc": "Khổng Tử — Kỷ sở bất dục vật thi ư nhân",
+      "nguyen_ly_co_nhan": "Điều gì mình không muốn người khác làm với mình thì tuyệt đối đừng làm cho người khác. Sự thấu cảm là gốc rễ của mọi nghệ thuật ứng xử.",
+      "ung_dung_doi_song": "Trước khi phán xét một ai đó đi làm muộn hay làm sai, hãy tự hỏi nếu mình ở trong hoàn cảnh gia đình của họ lúc này mình sẽ thế nào.",
+      "loi_khuyen_hanh_dong": "Dành 1 phút hình dung cảm xúc của người đối diện trước khi đưa ra lời nhận xét."
+    },
+    {
+      "so_thu_tu": 18,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Tiếu Nhi Bất Ngữ (Mỉm cười không tranh biện)",
+      "nguon_goc": "Phật Giáo Thiền Tông & Trí Tuệ Xử Thế",
+      "nguyen_ly_co_nhan": "Có những chuyện không cần giải thích, có những người không đáng để tranh luận. Một nụ cười an nhiên vượt trên mọi lời giải thích dài dòng.",
+      "ung_dung_doi_song": "Khi gặp những lời đồn thổi vô căn cứ hoặc kẻ cố tình khiêu khích trên mạng xã hội, sự im lặng và nụ cười là câu trả lời mạnh mẽ nhất.",
+      "loi_khuyen_hanh_dong": "Không tốn thời gian đôi co với các bình luận tiêu cực, ác ý."
+    },
+    {
+      "so_thu_tu": 19,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Tùy Phong Tiềm Nhập Dạ (Mưa dầm thấm lâu)",
+      "nguon_goc": "Đỗ Phủ — Xuân Dạ Hỷ Vũ",
+      "nguyen_ly_co_nhan": "Như cơn mưa xuân âm thầm nuôi dưỡng vạn vật trong đêm. Cảm hóa và thay đổi suy nghĩ của người khác bằng sự kiên trì, nhẹ nhàng mỗi ngày.",
+      "ung_dung_doi_song": "Muốn khuyên người thân bỏ thói quen xấu (hút thuốc, thức khuya), đừng cằn nhằn gay gắt. Hãy làm gương tốt và nhắc nhở ân cần từng chút một.",
+      "loi_khuyen_hanh_dong": "Kiên nhẫn tác động bằng hành động thực tế của chính mình mỗi ngày."
+    },
+    {
+      "so_thu_tu": 20,
+      "chu_de": "Giao Tiếp & Ứng Xử",
+      "ten_ke": "Hòa Nhi Bất Đồng (Hòa hợp nhưng giữ bản sắc)",
+      "nguon_goc": "Khổng Tử — Luận Ngữ",
+      "nguyen_ly_co_nhan": "Người quân tử hòa nhã với mọi người nhưng giữ vững nguyên tắc đạo đức của mình; kẻ tiểu nhân a dua hùa theo số đông nhưng trong lòng mâu thuẫn.",
+      "ung_dung_doi_song": "Hòa đồng vui vẻ với tập thể nhưng kiên quyết từ chối những hành vi sai trái, phi pháp hoặc trái với lương tâm.",
+      "loi_khuyen_hanh_dong": "Lịch sự nói 'Không' với các lời mời nhậu nhẹt bê tha hay làm việc sai nguyên tắc."
+    },
+    {
+      "so_thu_tu": 21,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Kim Thiền Thoát Xác (Ve sầu lột xác rút lui êm đẹp)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 21)",
+      "nguyen_ly_co_nhan": "Để lại vỏ ngoài nghi binh đánh lừa sự chú ý của đối thủ để bản thân bí mật rút lui bảo toàn lực lượng.",
+      "ung_dung_doi_song": "Khi nhận thấy một dự án hay môi trường làm việc có dấu hiệu lừa đảo hoặc vi phạm pháp luật, hãy bàn giao công việc êm thấm và rút lui an toàn.",
+      "loi_khuyen_hanh_dong": "Chuẩn bị phương án dự phòng và rút khỏi các mối quan hệ độc hại một cách lịch sự, không gây xích mích."
+    },
+    {
+      "so_thu_tu": 22,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Phủ Đê Trừu Tân (Rút củi đáy nồi)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 19)",
+      "nguyen_ly_co_nhan": "Nước sôi sùng sục thì múc bớt nước không bằng rút củi dưới đáy nồi. Giải quyết tận gốc rễ nguồn cơn của rắc rối.",
+      "ung_dung_doi_song": "Khi nảy sinh mâu thuẫn lớn trong nhóm, hãy tìm đúng nguyên nhân cốt lõi (sự phân chia lợi ích không đều hoặc hiểu lầm thông tin) để tháo gỡ triệt để.",
+      "loi_khuyen_hanh_dong": "Tập trung xử lý nguồn gốc vấn đề thay vì chỉ đi dập các vụ tranh cãi bề nổi."
+    },
+    {
+      "so_thu_tu": 23,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Đả Thảo Kinh Xà (Đánh cỏ động rắn để thăm dò)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 13)",
+      "nguyen_ly_co_nhan": "Chưa rõ tình hình thì tạo ra biến động nhỏ để đối phương bộc lộ sơ hở và ý đồ thực sự.",
+      "ung_dung_doi_song": "Khi nghi ngờ đối tác không trung thực, đưa ra một câu hỏi tình huống bất ngờ để quan sát phản ứng ngôn ngữ cơ thể của họ.",
+      "loi_khuyen_hanh_dong": "Đặt câu hỏi mở bất ngờ và chú ý ánh mắt, giọng nói của người được hỏi."
+    },
+    {
+      "so_thu_tu": 24,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Quan Môn Tróc Tặc (Đóng cửa bắt giặc)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 22)",
+      "nguyen_ly_co_nhan": "Chặn hết mọi đường tẩu tán của mối nguy hại để tiêu trừ dứt điểm, không để lại hậu họa về sau.",
+      "ung_dung_doi_song": "Khi phát hiện lỗ hổng bảo mật thông tin hoặc thói quen xấu làm hao hụt tiền bạc, phải lập tức bịt kín mọi kẽ hở trước khi xử lý phần còn lại.",
+      "loi_khuyen_hanh_dong": "Rà soát và khóa ngay các quyền truy cập nhạy cảm khi có sự cố dữ liệu."
+    },
+    {
+      "so_thu_tu": 25,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Cố Nhược Kim Thang (Thành cao hào sâu phòng thủ)",
+      "nguon_goc": "Hán Thư — Khoái Triệt Truyện",
+      "nguyen_ly_co_nhan": "Bảo vệ mình vững chắc như tường đồng vách sắt trước khi nghĩ đến việc tấn công hay mở rộng địa bàn.",
+      "ung_dung_doi_song": "Trong tài chính cá nhân, luôn xây dựng quỹ dự phòng khẩn cấp 6 tháng sinh hoạt và bảo hiểm sức khỏe trước khi đem tiền đi đầu tư mạo hiểm.",
+      "loi_khuyen_hanh_dong": "Dành 15-20% thu nhập hàng tháng cất vào tài khoản an toàn tuyệt đối."
+    },
+    {
+      "so_thu_tu": 26,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Vị Vũ Trù Mâu (Phòng khi chưa mưa chuẩn bị áo tơi)",
+      "nguon_goc": "Thi Kinh — Ban Tước Thi",
+      "nguyen_ly_co_nhan": "Lúc trời quang mây tạnh phải lo sửa sang nhà cửa, chuẩn bị đồ đạc dự phòng trước khi giông bão ập tới.",
+      "ung_dung_doi_song": "Trong sự nghiệp, khi đang có việc làm ổn định hãy tranh thủ học thêm kỹ năng mới và ngoại ngữ để không bị động khi thị trường biến động.",
+      "loi_khuyen_hanh_dong": "Dành 1 giờ mỗi ngày nâng cấp kỹ năng nghề nghiệp và kiến thức tài chính."
+    },
+    {
+      "so_thu_tu": 27,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Vô Trung Sinh Hữu (Cảnh giác trước chuyện không thành có)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 7)",
+      "nguyen_ly_co_nhan": "Kẻ mưu mô thường thêu dệt tin đồn thất thiệt từ con số 0 để làm lung lạc ý chí và chia rẽ nội bộ đối phương.",
+      "ung_dung_doi_song": "Trước những thông tin giật gân, nói xấu đồng nghiệp trên mạng, hãy giữ bình tĩnh, kiểm chứng qua nhiều nguồn độc lập trước khi tin tưởng.",
+      "loi_khuyen_hanh_dong": "Áp dụng nguyên tắc 'Kiểm chứng 3 nguồn' trước khi chia sẻ hoặc đưa ra quyết định dựa trên tin đồn."
+    },
+    {
+      "so_thu_tu": 28,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Thao Quang Dưỡng Hối (Giấu mình chờ thời)",
+      "nguon_goc": "Tam Quốc Diễn Nghĩa — Lưu Bị trồng rau vườn sau",
+      "nguyen_ly_co_nhan": "Khi thế lực còn yếu và đang ở trong tầm ngắm của đối thủ mạnh, hãy tỏ ra an phận, chăm chỉ làm việc bình thường để bí mật tích lũy sức mạnh.",
+      "ung_dung_doi_song": "Khi mới chuyển sang một công ty mới hoặc lĩnh vực mới, hãy khiêm tốn học việc, không vội thể hiện tham vọng lớn để tránh bị ganh ghét.",
+      "loi_khuyen_hanh_dong": "Tập trung hoàn thành xuất sắc công việc được giao trong thầm lặng suốt 6 tháng đầu."
+    },
+    {
+      "so_thu_tu": 29,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Cẩn Ngôn Thận Hành (Cẩn thận lời ăn tiếng nói và việc làm)",
+      "nguon_goc": "Khổng Tử — Luận Ngữ",
+      "nguyen_ly_co_nhan": "Họa từ miệng mà ra, bệnh từ miệng mà vào. Người giữ được miệng lưỡi sẽ tránh được 90% tai họa trong cuộc đời.",
+      "ung_dung_doi_song": "Không bàn luận chuyện chính trị nhạy cảm, đời tư sếp hay nói xấu người vắng mặt trong các buổi liên hoan công ty.",
+      "loi_khuyen_hanh_dong": "Tự đặt câu hỏi trước khi nói: 'Lời này có thật không? Có cần thiết không? Có làm tổn thương ai không?'."
+    },
+    {
+      "so_thu_tu": 30,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Trực Nhi Bất Kích (Ngay thẳng nhưng không sắc nhọn)",
+      "nguon_goc": "Lão Tử — Đạo Đức Kinh",
+      "nguyen_ly_co_nhan": "Giữ tấm lòng cương trực ngay thẳng nhưng cách thể hiện phải uyển chuyển, không được làm tổn thương người khác như mũi gai nhọn.",
+      "ung_dung_doi_song": "Khi chỉ ra sai sót của cấp dưới hay đối tác, hãy tập trung vào sự việc và quy trình, không xúc phạm danh dự hay nhân cách cá nhân của họ.",
+      "loi_khuyen_hanh_dong": "Dùng từ ngữ mang tính xây dựng: 'Chúng ta có thể tối ưu điểm này như thế nào?' thay vì 'Bạn làm việc quá ẩu!'."
+    },
+    {
+      "so_thu_tu": 31,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Nhất Diệp Tri Thu (Thấy một chiếc lá rơi biết mùa thu tới)",
+      "nguon_goc": "Hoài Nam Tử — Thuyết Sơn Huấn",
+      "nguyen_ly_co_nhan": "Quan sát những biến chuyển rất nhỏ ở thời điểm hiện tại để dự đoán trước chiều hướng thay đổi lớn của tương lai.",
+      "ung_dung_doi_song": "Để ý những thay đổi nhỏ trong hành vi thanh toán của đối tác hoặc sự chuyển dịch công nghệ mới để chủ động chuyển đổi mô hình kinh doanh.",
+      "loi_khuyen_hanh_dong": "Định kỳ mỗi quý dành 1 ngày nhìn nhận lại xu hướng ngành nghề và thị trường."
+    },
+    {
+      "so_thu_tu": 32,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Minh Triết Bảo Thân (Sáng suốt giữ gìn bản thân)",
+      "nguon_goc": "Thi Kinh — Đại Nhã",
+      "nguyen_ly_co_nhan": "Người có trí tuệ biết phân biệt thị phi, thấy nơi nguy hiểm không bước vào, thấy việc sai trái không can dự để giữ mình trong sạch.",
+      "ung_dung_doi_song": "Tuyệt đối không đứng tên giùm tài sản không rõ nguồn gốc, không ký hợp đồng khống dù là người thân hay bạn bè nhờ vả.",
+      "loi_khuyen_hanh_dong": "Từ chối khéo léo nhưng dứt khoát với mọi yêu cầu vi phạm quy định pháp luật."
+    },
+    {
+      "so_thu_tu": 33,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Hại Nhân Chi Tâm Bất Khả Hữu (Tâm hại người không nên có, tâm phòng người không thể thiếu)",
+      "nguon_goc": "Tăng Quảng Hiền Văn",
+      "nguyen_ly_co_nhan": "Tuyệt đối không mưu tính hại ai, nhưng luôn có sự cảnh giác trước lòng dạ khó lường của người đời.",
+      "ung_dung_doi_song": "Khi ký kết hợp đồng, mọi điều khoản về trách nhiệm, bồi thường và thanh toán phải được ghi rõ ràng trên văn bản, không tin vào hứa suông bằng miệng.",
+      "loi_khuyen_hanh_dong": "Luôn lập văn bản và sao lưu tin nhắn/email trong các giao dịch tài chính quan trọng."
+    },
+    {
+      "so_thu_tu": 34,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Tri Chỉ Bất Đãi (Biết dừng lại sẽ không nguy khốn)",
+      "nguon_goc": "Lão Tử — Đạo Đức Kinh",
+      "nguyen_ly_co_nhan": "Biết đủ là vinh, biết dừng là không nguy. Tham lam quá đà khi đang thắng thế sẽ dẫn tới thất bại thảm hại.",
+      "ung_dung_doi_song": "Trong đầu tư chứng khoán hoặc kinh doanh, đặt ra mức chốt lời và cắt lỗ rõ ràng; không để lòng tham cuốn vào cơn sốt ảo của đám đông.",
+      "loi_khuyen_hanh_dong": "Tuân thủ kỷ luật đầu tư: Cắt lỗ khi chạm ngưỡng 7-10% và chốt lời theo kế hoạch."
+    },
+    {
+      "so_thu_tu": 35,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Phản Phác Quy Chân (Trở về với sự đơn giản thuần khiết)",
+      "nguon_goc": "Trang Tử — Nam Hoa Kinh",
+      "nguyen_ly_co_nhan": "Rũ bỏ những mưu mô tính toán phức tạp làm mệt mỏi thân tâm, giữ một lối sống giản dị để tâm trí luôn sáng suốt tự tại.",
+      "ung_dung_doi_song": "Giảm bớt các cuộc nhậu vô bổ, tập trung vào gia đình, sức khỏe và phát triển chuyên môn cốt lõi.",
+      "loi_khuyen_hanh_dong": "Dọn dẹp không gian sống và thanh lọc danh bạ điện thoại những mối quan hệ độc hại."
+    },
+    {
+      "so_thu_tu": 36,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Giả Si Bất Điên (Giả ngây ngô chứ không điên loạn)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 27) — Tư Mã Ý giả ốm lừa Tào Sảng",
+      "nguyen_ly_co_nhan": "Tỏ ra khờ khạo, không màng thế sự để kẻ thù mất cảnh giác, chờ đợi thời cơ chín muồi mới ra tay xoay chuyển tình thế.",
+      "ung_dung_doi_song": "Khi đối mặt với đối thủ đang hống hách chèn ép, đừng bộc lộ sự chống đối; hãy giả vờ chấp nhận tạm thời để âm thầm tìm phương án tự giải thoát.",
+      "loi_khuyen_hanh_dong": "Kiềm chế cảm xúc, không để lộ kế hoạch tác chiến cho người ngoài biết."
+    },
+    {
+      "so_thu_tu": 37,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Độc Thiện Kỳ Thân (Giữ mình lương thiện khi chưa thể giúp đời)",
+      "nguon_goc": "Mạnh Tử — Tận Tâm Thượng",
+      "nguyen_ly_co_nhan": "Lúc chưa đắc chí thì tu dưỡng đạo đức bản thân; khi đắc chí thì đem tài năng giúp ích cho muôn dân.",
+      "ung_dung_doi_song": "Khi chưa có điều kiện làm từ thiện lớn, hãy bắt đầu bằng việc làm tốt công việc của mình, đối xử hiếu thảo với cha mẹ và giúp đỡ người thân cận.",
+      "loi_khuyen_hanh_dong": "Mỗi ngày làm một việc tử tế nhỏ cho gia đình và đồng nghiệp."
+    },
+    {
+      "so_thu_tu": 38,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Lâm Nạn Vô Cẩu Miễn (Gặp nạn không hèn hạ trốn tránh)",
+      "nguon_goc": "Lễ Ký — Khúc Lễ Thượng",
+      "nguyen_ly_co_nhan": "Gặp khó khăn hoạn nạn phải dũng cảm đối mặt tìm đường giải quyết, không bán đứng bạn bè hay làm điều trái đạo để thoát thân.",
+      "ung_dung_doi_song": "Khi công ty xảy ra sự cố do mình phụ trách, dũng cảm đứng ra nhận trách nhiệm và đề xuất giải pháp khắc phục sẽ được tôn trọng hơn là đổ lỗi.",
+      "loi_khuyen_hanh_dong": "Chủ động nói: 'Tôi chịu trách nhiệm về việc này và đây là kế hoạch sửa sai của tôi'."
+    },
+    {
+      "so_thu_tu": 39,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Vật Tùy Ba Trục Lưu (Không trôi theo dòng nước cuốn)",
+      "nguon_goc": "Khuất Nguyên — Ngư Phủ",
+      "nguyen_ly_co_nhan": "Thiên hạ dù có đảo điên chạy theo cám dỗ, người có bản lĩnh vẫn kiên định giữ vững lý tưởng và phẩm giá trong sạch của mình.",
+      "ung_dung_doi_song": "Không vì áp lực đám đông hay thói hư tật xấu trong tập thể mà thỏa hiệp với những hành vi hối lộ, lừa dối khách hàng.",
+      "loi_khuyen_hanh_dong": "Giữ vững nguyên tắc cốt lõi trong kinh doanh dù có phải mất đi một đơn hàng ngắn hạn."
+    },
+    {
+      "so_thu_tu": 40,
+      "chu_de": "Phòng Thân & Giữ Mình",
+      "ten_ke": "Đoạn Tí Tự Cứu (Chặt tay để cứu toàn mạng sống)",
+      "nguon_goc": "Dược Vương & Binh Thư Cổ Điển",
+      "nguyen_ly_co_nhan": "Rắn độc cắn vào ngón tay thì phải chặt ngón tay để nọc độc không chạy vào tim. Dám dứt khoát cắt bỏ phần hư hại để cứu toàn bộ cơ nghiệp.",
+      "ung_dung_doi_song": "Khi một khoản đầu tư hoặc mối quan hệ làm ăn bị vỡ lở không thể cứu vãn, hãy dứt khoát cắt lỗ, giải thể kịp thời để bảo tồn số vốn còn lại.",
+      "loi_khuyen_hanh_dong": "Dũng cảm từ bỏ một dự án thất bại để tập trung nguồn lực tái khởi nghiệp dự án mới."
+    },
+    {
+      "so_thu_tu": 41,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Dương Đông Kích Tây (Giương đông đánh tây)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 6)",
+      "nguyen_ly_co_nhan": "Làm như muốn tấn công ở phía đông nhưng thực chất lại dồn lực đánh vào điểm yếu phía tây của đối phương.",
+      "ung_dung_doi_song": "Trong đàm phán hợp đồng, hãy nhấn mạnh vào một điều khoản phụ để đối phương nhượng bộ điều khoản cốt lõi mà bạn thực sự quan tâm.",
+      "loi_khuyen_hanh_dong": "Đưa ra danh sách nhiều yêu cầu để có thể dễ dàng nhượng bộ các yêu cầu phụ nhằm lấy được yêu cầu chính."
+    },
+    {
+      "so_thu_tu": 42,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Phản Khách Vi Chủ (Đổi khách làm chủ)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 30)",
+      "nguyen_ly_co_nhan": "Ban đầu ở vị thế khách đến sau, nhưng từng bước nắm bắt tâm lý, dẫn dắt câu chuyện và biến mình thành người làm chủ cuộc đàm phán.",
+      "ung_dung_doi_song": "Trong buổi phỏng vấn xin việc, thay vì chỉ bị động trả lời câu hỏi, hãy khéo léo đặt câu hỏi về tầm nhìn công ty để dẫn dắt người phỏng vấn theo câu chuyện chuyên môn của bạn.",
+      "loi_khuyen_hanh_dong": "Chuẩn bị 3 câu hỏi chiến lược về định hướng của đối tác để chủ động dẫn dắt cuộc họp."
+    },
+    {
+      "so_thu_tu": 43,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Viễn Giao Cận Công (Xa thân gần đánh / Xa liên kết gần củng cố)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 23) — Phạm Thư hiến kế cho Tần Chiêu Vương",
+      "nguyen_ly_co_nhan": "Liên kết với các đối tác ở xa có cùng mục tiêu chiến lược để cùng tạo thế gọng kìm phát triển kinh doanh.",
+      "ung_dung_doi_song": "Trong kinh doanh, tìm kiếm đối tác liên minh ở các phân khúc hoặc khu vực thị trường khác để cùng chia sẻ tệp khách hàng và bổ trợ dịch vụ.",
+      "loi_khuyen_hanh_dong": "Xây dựng mạng lưới đối tác chéo (cross-marketing) với các đơn vị cùng nhóm khách hàng mục tiêu."
+    },
+    {
+      "so_thu_tu": 44,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Phản Gián Kế (Biến bẫy của đối phương thành cơ hội của mình)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 33) — Chu Du dùng Tưởng Cán",
+      "nguyen_ly_co_nhan": "Lợi dụng chính người hoặc mưu kế mà đối thủ phái đến để truyền đi thông điệp có lợi cho mình.",
+      "ung_dung_doi_song": "Khi đối thủ cử người sang dò la giá cả hay chiến lược của bạn, hãy khéo léo tiết lộ một định hướng sản phẩm mới để đánh lạc hướng cạnh tranh của họ.",
+      "loi_khuyen_hanh_dong": "Bình tĩnh đón nhận mọi thông tin rò rỉ và xử lý thận trọng có tính toán."
+    },
+    {
+      "so_thu_tu": 45,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Khích Tướng Kế (Khéo léo khơi dậy lòng tự trọng)",
+      "nguon_goc": "Gia Cát Lượng khích Chu Du quyết chiến Xích Bích",
+      "nguyen_ly_co_nhan": "Dùng lời nói tác động vào niềm tự hào, danh dự để thúc đẩy đối phương phát huy tối đa tiềm năng và tinh thần chiến đấu.",
+      "ung_dung_doi_song": "Khi muốn khích lệ nhân viên bứt phá chỉ tiêu khó, hãy nhấn mạnh rằng: 'Tôi tin chỉ có năng lực và sự nhạy bén của bạn mới giải quyết được thử thách này'.",
+      "loi_khuyen_hanh_dong": "Trao quyền và bày tỏ niềm tin tuyệt đối vào năng lực của đồng đội."
+    },
+    {
+      "so_thu_tu": 46,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Vãng Giả Bất Khả Gián (Chuyện đã qua không nhắc lại)",
+      "nguon_goc": "Khổng Tử — Luận Ngữ",
+      "nguyen_ly_co_nhan": "Chuyện cũ đã lỡ làng thì không nhắc đi nhắc lại làm tổn thương hòa khí; tập trung toàn lực bàn về giải pháp tương lai.",
+      "ung_dung_doi_song": "Khi hòa giải tranh chấp gia đình hay hợp đồng, dừng việc bới móc lỗi lầm quá khứ mà cùng ngồi lại xây dựng lộ trình khắc phục tiếp theo.",
+      "loi_khuyen_hanh_dong": "Nói: 'Chuyện đã qua chúng ta rút kinh nghiệm, bây giờ việc quan trọng nhất là làm sao để ngày mai tốt hơn'."
+    },
+    {
+      "so_thu_tu": 47,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Hạp Khai Thuật (Đóng mở nhịp nhàng trong đối thoại)",
+      "nguon_goc": "Quỷ Cốc Tử — Hạp Khai Thiên",
+      "nguyen_ly_co_nhan": "Lúc mở thì lắng nghe, khơi gợi để đối phương bộc bạch hết tâm can; lúc đóng thì đúc kết, chốt lại điểm then chốt của cuộc thương lượng.",
+      "ung_dung_doi_song": "Trong tư vấn bán hàng, giai đoạn đầu hãy đặt câu hỏi mở để khách nói 80% nhu cầu; giai đoạn sau đúc kết súc tích và đưa ra giải pháp giải quyết đúng nỗi đau đó.",
+      "loi_khuyen_hanh_dong": "Thực hành quy tắc 80/20: Khách hàng nói 80%, bạn lắng nghe và chốt lại 20% cốt lõi."
+    },
+    {
+      "so_thu_tu": 48,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Hề Phong Thụ Khả (Nương theo ngọn gió mà thuyết phục)",
+      "nguon_goc": "Chiến Quốc Sách — Tô Tần Thuyết Lục Quốc",
+      "nguyen_ly_co_nhan": "Tùy thuộc vào tính cách của người đối diện (thích danh tiếng, chuộng thực tế hay sợ rủi ro) mà dùng ngôn từ và lập luận phù hợp.",
+      "ung_dung_doi_song": "Thuyết phục sếp thích số liệu bằng biểu đồ doanh thu; thuyết phục sếp thích tầm nhìn bằng câu chuyện định vị thương hiệu tương lai.",
+      "loi_khuyen_hanh_dong": "Tìm hiểu trước phong cách ra quyết định của người nghe để soạn thảo tài liệu phù hợp."
+    },
+    {
+      "so_thu_tu": 49,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Trữ Bị Thối Lộ (Luôn chừa cho đối phương một bậc thang đi xuống)",
+      "nguon_goc": "Tôn Tử Binh Pháp — Vây thành tất phải mở lối thoát",
+      "nguyen_ly_co_nhan": "Khi chứng minh đối phương sai, đừng dồn họ vào thế mất hết mặt mũi. Hãy cho họ một lý do chính đáng để họ tự nhận sai trong êm đẹp.",
+      "ung_dung_doi_song": "Khi đối tác phạm lỗi, hãy nói: 'Tôi hiểu do quy trình đợt này gấp gáp nên anh mới bị nhầm lẫn', giúp họ giữ được thể diện và vui vẻ hợp tác sửa chữa.",
+      "loi_khuyen_hanh_dong": "Tách biệt giữa 'hành vi sai' và 'con người' để đối phương không cảm thấy bị sỉ nhục."
+    },
+    {
+      "so_thu_tu": 50,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Hóa Địch Vi Hữu (Biến đối thủ cạnh tranh thành bạn đồng hành)",
+      "nguon_goc": "Chiến Quốc Sách — Lạn Tương Như & Liêm Pha",
+      "nguyen_ly_co_nhan": "Lấy đại nghĩa và sự nhẫn nhịn cảm hóa đối thủ, biến sự ganh ghét thành mối quan hệ hợp tác sống còn cùng phát triển.",
+      "ung_dung_doi_song": "Trong kinh doanh, thay vì giảm giá triệt hạ nhau, hãy cùng đối thủ bắt tay thiết lập tiêu chuẩn chất lượng ngành để cùng mở rộng miếng bánh thị trường.",
+      "loi_khuyen_hanh_dong": "Chủ động mời đối thủ cạnh tranh tham gia các diễn đàn, hội thảo hiệp hội ngành nghề."
+    },
+    {
+      "so_thu_tu": 51,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Tá Đao Sát Nhân (Mượn lực lượng bên thứ ba khách quan)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 3)",
+      "nguyen_ly_co_nhan": "Mượn sức mạnh và uy tín của bên thứ ba uy tín để giải quyết vấn đề mà bản thân không tiện trực tiếp can thiệp.",
+      "ung_dung_doi_song": "Trong thuyết phục khách hàng, thay vì tự khen sản phẩm của mình, hãy trích dẫn chứng nhận của cơ quan kiểm định độc lập và đánh giá của các chuyên gia đầu ngành.",
+      "loi_khuyen_hanh_dong": "Sử dụng các bằng chứng chứng thực xã hội (social proof) và số liệu kiểm toán độc lập."
+    },
+    {
+      "so_thu_tu": 52,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Man Thiên Quá Hải (Che giấu ý định lớn bằng hành động quen thuộc)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 1)",
+      "nguyen_ly_co_nhan": "Những hành động quen thuộc thường ngày sẽ làm giảm sự đề phòng của đối phương, từ đó tiến hành việc lớn một cách trót lọt.",
+      "ung_dung_doi_song": "Khi muốn cải tổ một quy trình làm việc lớn, hãy bắt đầu từ những thay đổi nhỏ nhẹ hàng ngày để nhân viên quen dần, không gây sốc tâm lý.",
+      "loi_khuyen_hanh_dong": "Chia nhỏ mục tiêu lớn thành các bước vi mô không gây áp lực phản kháng."
+    },
+    {
+      "so_thu_tu": 53,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Tiên Lễ Hậu Binh (Lễ nghĩa đi trước, cứng rắn theo sau)",
+      "nguon_goc": "Tam Quốc Diễn Nghĩa — Lưu Bị cầu hiền",
+      "nguyen_ly_co_nhan": "Trước hết dùng sự tôn trọng, ôn hòa và lễ độ để đàm phán; nếu đối phương cố tình lấn lướt mới dùng biện pháp cương quyết theo luật định.",
+      "ung_dung_doi_song": "Khi đòi nợ khó đòi, lần đầu hãy gửi thư nhắc nhở lịch sự và hỗ trợ giãn tiến độ; nếu họ cố tình trốn tránh mới đưa ra cơ quan pháp luật.",
+      "loi_khuyen_hanh_dong": "Thực hiện đầy đủ quy trình hòa giải bằng văn bản trước khi khởi kiện."
+    },
+    {
+      "so_thu_tu": 54,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Bào Đinh Giải Ngưu (Nắm rõ quy luật thì việc khó hóa dễ)",
+      "nguon_goc": "Trang Tử — Dưỡng Sinh Chủ",
+      "nguyen_ly_co_nhan": "Người đầu bếp mổ bò giỏi tìm đúng khe hở giữa các khớp xương mà đưa dao lách vào nhẹ nhàng, dao dùng 19 năm vẫn bén ngót.",
+      "ung_dung_doi_song": "Khi xử lý một vụ việc phức tạp, hãy tìm đúng người nắm quyền quyết định then chốt và điểm mấu chốt của luật lệ để giải quyết êm đẹp.",
+      "loi_khuyen_hanh_dong": "Vẽ sơ đồ luồng ra quyết định và xác định đúng 'người giữ chìa khóa' của vấn đề."
+    },
+    {
+      "so_thu_tu": 55,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Lập Tín Ư Tiền (Xây dựng lòng tin trước khi đưa ra đề xuất)",
+      "nguon_goc": "Thương Ưỡng Biến Pháp — Vác cây gỗ nhận năm mươi lượng vàng",
+      "nguyen_ly_co_nhan": "Muốn ban bố chính sách mới, trước hết phải làm một việc nhỏ để chứng minh lời nói của mình là tuyệt đối đáng tin cậy.",
+      "ung_dung_doi_song": "Muốn bán sản phẩm giá trị cao, hãy bắt đầu bằng việc cung cấp các tài liệu tư vấn miễn phí cực kỳ chất lượng và thực hiện trọn vẹn cam kết nhỏ.",
+      "loi_khuyen_hanh_dong": "Hoàn thành cam kết nhỏ sớm hơn thời hạn để xây dựng uy tín ban đầu."
+    },
+    {
+      "so_thu_tu": 56,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Tịnh Quán Kỳ Biến (Ngồi yên quan sát sự biến chuyển)",
+      "nguon_goc": "Chiến Quốc Sách — Biện Thuật",
+      "nguyen_ly_co_nhan": "Khi các bên đang tranh chấp gay gắt và thông tin còn hỗn loạn, người giữ được sự im lặng quan sát sẽ nhìn thấu toàn cảnh ván cờ.",
+      "ung_dung_doi_song": "Trong cuộc họp tranh cãi nội bộ, hãy để các bên phát biểu hết quan điểm; bạn đúc kết lại bằng một giải pháp trung gian hòa hợp.",
+      "loi_khuyen_hanh_dong": "Ghi chép cẩn thận luận điểm của từng bên và chỉ lên tiếng khi bức tranh đã sáng rõ."
+    },
+    {
+      "so_thu_tu": 57,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Đồng Lương Chi Lực (Tập hợp sức mạnh của đa số)",
+      "nguon_goc": "Tuân Tử — Vương Chế",
+      "nguyen_ly_co_nhan": "Một cây gỗ nhỏ không chống nổi ngôi nhà lớn, nhưng trăm cây ghép lại sẽ tạo nên rường cột vững chãi.",
+      "ung_dung_doi_song": "Khi muốn đề xuất một cải tiến lớn với ban giám đốc, hãy bàn bạc và nhận được sự đồng thuận của các trưởng bộ phận khác trước khi trình lên cấp trên.",
+      "loi_khuyen_hanh_dong": "Lấy ý kiến phản hồi và chữ ký ủng hộ từ các bên liên quan trước cuộc họp quyết định."
+    },
+    {
+      "so_thu_tu": 58,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Tùy Cơ Ứng Biến (Linh hoạt như nước chảy không hình tướng)",
+      "nguon_goc": "Tôn Tử Binh Pháp — Thiên Hư Thực",
+      "nguyen_ly_co_nhan": "Nước không có hình dáng cố định, tùy vào hình dạng của bình chứa mà biến đổi. Chiến lược phải linh hoạt theo từng tình huống cụ thể.",
+      "ung_dung_doi_song": "Kịch bản đàm phán chỉ là tham khảo; khi bước vào bàn họp phải quan sát thái độ thực tế của đối tác để linh hoạt điều chỉnh chiến thuật.",
+      "loi_khuyen_hanh_dong": "Chuẩn bị sẵn 3 phương án A, B, C cho mỗi buổi đàm phán quan trọng."
+    },
+    {
+      "so_thu_tu": 59,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Bất Chiến Tự Nhiên Thành (Thắng mà không cần giao tranh)",
+      "nguon_goc": "Tôn Tử Binh Pháp — Thiên Mưu Công",
+      "nguyen_ly_co_nhan": "Đỉnh cao nhất của mưu lược là dùng uy tín, đức độ và lợi ích đôi bên để đối phương tự nguyện hợp tác mà không cần tốn một binh một tốt.",
+      "ung_dung_doi_song": "Xây dựng thương hiệu cá nhân uy tín đến mức đối tác tự tìm đến đề nghị ký hợp đồng mà bạn không cần phải chào mời chèo kéo.",
+      "loi_khuyen_hanh_dong": "Tập trung tạo ra giá trị sản phẩm vượt trội thay vì dồn tiền chạy quảng cáo lôi kéo."
+    },
+    {
+      "so_thu_tu": 60,
+      "chu_de": "Đàm Phán & Thuyết Phục",
+      "ten_ke": "Dĩ Lợi Dụ Chi (Dùng lợi ích song phương làm cầu nối)",
+      "nguon_goc": "Hàn Phi Tử — Thuyết Nan",
+      "nguyen_ly_co_nhan": "Thuyết phục người khác không thể chỉ dựa vào tình cảm suông mà phải chỉ rõ họ sẽ nhận được lợi ích cụ thể gì từ kế hoạch này.",
+      "ung_dung_doi_song": "Khi đề xuất dự án mới, hãy trình bày rõ ràng bảng tính lợi nhuận và sự an toàn vốn cho nhà đầu tư trước khi nói về đam mê cá nhân.",
+      "loi_khuyen_hanh_dong": "Mở đầu bản đề xuất bằng chương: 'Lợi ích đối tác nhận được khi tham gia dự án'."
+    },
+    {
+      "so_thu_tu": 61,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Ám Độ Trần Thương (Lặng lẽ đi đường vòng lập kỳ tích)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 8) — Hàn Tín sửa đường sạn đạo nhưng ngầm vượt Trần Thương",
+      "nguyen_ly_co_nhan": "Bề ngoài phô trương một việc tầm thường để đánh lạc hướng, bên trong âm thầm đi một con đường ngách độc đáo để bứt phá.",
+      "ung_dung_doi_song": "Khi thị trường chính cạnh tranh quá khốc liệt, hãy tìm một thị trường ngách ít đối thủ để âm thầm phát triển trước khi mở rộng quy mô.",
+      "loi_khuyen_hanh_dong": "Tìm kiếm các nhu cầu chưa được phục vụ tốt của khách hàng và tập trung giải quyết xuất sắc."
+    },
+    {
+      "so_thu_tu": 62,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Thuận Thủ Khiên Dương (Tiện tay dắt dê / Nhanh nhạy chớp thời cơ)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 12)",
+      "nguyen_ly_co_nhan": "Nhìn thấy cơ hội nhỏ xuất hiện bên đường phải nhanh chóng nắm bắt để gia tăng lợi thế mà không tốn nhiều công sức.",
+      "ung_dung_doi_song": "Khi đi dự hội thảo công việc, tranh thủ kết nối thêm 3 mối quan hệ tiềm năng và học hỏi mô hình trưng bày gian hàng của các đơn vị bạn.",
+      "loi_khuyen_hanh_dong": "Luôn mang theo danh thiếp và mở rộng mạng lưới giao lưu trong mọi sự kiện tham gia."
+    },
+    {
+      "so_thu_tu": 63,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Sáp Xí Nan Đào (Xây dựng quy trình chặt chẽ)",
+      "nguon_goc": "Quản Tử — Hình Thế",
+      "nguyen_ly_co_nhan": "Xây dựng hệ thống kỷ luật và quy trình minh bạch, chặt chẽ để mọi công việc vận hành trơn tru mà không phụ thuộc vào cá nhân đơn lẻ.",
+      "ung_dung_doi_song": "Chuẩn hóa mọi công việc thường nhật thành bảng hướng dẫn (checklist) rõ ràng, giúp nhân viên mới có thể tiếp quản ngay lập tức.",
+      "loi_khuyen_hanh_dong": "Viết quy trình làm việc chuẩn (SOP) cho 5 công việc quan trọng nhất bạn thực hiện mỗi tuần."
+    },
+    {
+      "so_thu_tu": 64,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Khai Nguyên Tiết Lưu (Mở rộng nguồn thu, tiết kiệm chi tiêu)",
+      "nguon_goc": "Tuân Tử — Phú Quốc Thiên",
+      "nguyen_ly_co_nhan": "Bí quyết giàu có bền vững của quốc gia và gia đình là mở rộng nhiều nguồn thu nhập mới đi đôi với việc cắt giảm chi phí lãng phí.",
+      "ung_dung_doi_song": "Xây dựng thêm nguồn thu nhập thứ hai (từ chuyên môn tự do, đầu tư) đồng thời rà soát cắt bỏ các khoản chi tiêu định kỳ không thực sự cần thiết.",
+      "loi_khuyen_hanh_dong": "Kiểm tra sao kê ngân hàng hàng tháng và hủy ngay các gói đăng ký dịch vụ không sử dụng."
+    },
+    {
+      "so_thu_tu": 65,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Điệu Hổ Ly Sơn (Rút bớt mối nguy ra khỏi vùng an toàn)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 15)",
+      "nguyen_ly_co_nhan": "Dụ hổ rời khỏi hang núi hiểm trở để tiêu trừ nguy hiểm; kéo đối phương ra khỏi môi trường quen thuộc để làm việc hiệu quả.",
+      "ung_dung_doi_song": "Khi cần thảo luận chiến lược lớn hoặc giải quyết khúc mắc căng thẳng với đối tác, hãy mời họ ra một quán cà phê yên tĩnh hoặc không gian trung lập.",
+      "loi_khuyen_hanh_dong": "Tổ chức các buổi họp chiến lược quan trọng ở một địa điểm mới mẻ ngoài văn phòng."
+    },
+    {
+      "so_thu_tu": 66,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Lương Cầm Trạch Mộc (Chim khôn chọn cây lành mà đậu)",
+      "nguon_goc": "Tam Quốc Diễn Nghĩa — Triệu Tử Long theo Lưu Bị",
+      "nguyen_ly_co_nhan": "Người có tài năng phải biết chọn đúng minh chủ có tâm có tầm và môi trường lành mạnh để cống hiến và phát triển sự nghiệp.",
+      "ung_dung_doi_song": "Khi chọn công ty để làm việc, hãy quan sát đạo đức và tầm nhìn của người lãnh đạo trực tiếp hơn là chỉ nhìn vào mức lương trước mắt.",
+      "loi_khuyen_hanh_dong": "Đánh giá văn hóa doanh nghiệp và phong cách của sếp trước khi nhận lời mời làm việc."
+    },
+    {
+      "so_thu_tu": 67,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Thưởng Phạt Phân Minh (Công bằng trong quản trị)",
+      "nguon_goc": "Hàn Phi Tử — Nhị Bính Thiên",
+      "nguyen_ly_co_nhan": "Người có công phải được khen thưởng xứng đáng ngay lập tức; người có lỗi phải xử lý công bằng theo quy chế để giữ nghiêm kỷ cương.",
+      "ung_dung_doi_song": "Trong quản lý đội nhóm, khen thưởng minh bạch và công khai cho thành viên có thành tích xuất sắc, tạo động lực thi đua lành mạnh.",
+      "loi_khuyen_hanh_dong": "Thiết lập bảng tiêu chí KPI rõ ràng và chi trả thưởng đúng cam kết không chậm trễ."
+    },
+    {
+      "so_thu_tu": 68,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Tụ Sa Thành Tháp (Góp cát thành tháp / Tích lũy liên tục)",
+      "nguon_goc": "Kinh Pháp Hoa — Trí Tuệ Tích Lũy",
+      "nguyen_ly_co_nhan": "Mỗi ngày một hạt cát, kiên trì không ngừng nghỉ thì ngọn tháp cao vạn trượng cũng xây thành. Sức mạnh của lãi kép và sự kiên trì.",
+      "ung_dung_doi_song": "Đọc 10 trang sách mỗi ngày, tập thể dục 30 phút mỗi ngày; sau 1 năm bạn sẽ vượt xa 95% những người xung quanh.",
+      "loi_khuyen_hanh_dong": "Duy trì một thói quen tốt nhỏ mỗi ngày theo phương pháp nguyên tử (Atomic Habits)."
+    },
+    {
+      "so_thu_tu": 69,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Lược Lãnh Cố Động (Bình tĩnh quan sát giữa cơn sốt thị trường)",
+      "nguon_goc": "Quản Tử — Trí Tuệ Thương Trường",
+      "nguyen_ly_co_nhan": "Khi thiên hạ đang điên cuồng lao vào một cơn sốt, người đại trí phải giữ một cái đầu lạnh để không bị chôn vốn khi bong bóng tan vỡ.",
+      "ung_dung_doi_song": "Tham lam khi người khác sợ hãi, thận trọng khi người khác tham lam. Tránh mua tài sản ở vùng giá đỉnh do truyền thông thổi phồng.",
+      "loi_khuyen_hanh_dong": "Không đầu tư vào bất kỳ lĩnh vực nào mà bản thân chưa hiểu rõ cơ chế vận hành."
+    },
+    {
+      "so_thu_tu": 70,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Trọng Dụng Hiền Năng (Giao việc đúng người đúng việc)",
+      "nguon_goc": "Khổng Tử — Vi Chính Thiên",
+      "nguyen_ly_co_nhan": "Người làm lãnh đạo không cần phải giỏi tất cả mọi việc chuyên môn, điều quan trọng nhất là biết dùng đúng người vào đúng vị trí phù hợp.",
+      "ung_dung_doi_song": "Người giỏi giao tiếp cho làm đối ngoại; người tỉ mỉ chu đáo cho làm tài chính kiểm toán; người sáng tạo cho làm nghiên cứu phát triển.",
+      "loi_khuyen_hanh_dong": "Phỏng vấn và giao việc dựa trên sở trường tự nhiên của từng nhân sự."
+    },
+    {
+      "so_thu_tu": 71,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Binh Quý Thần Tốc (Tốc độ là vũ khí sinh tử)",
+      "nguon_goc": "Tôn Tử Binh Pháp — Thiên Cửu Địa",
+      "nguyen_ly_co_nhan": "Cơ hội xuất hiện chỉ trong tích tắc. Ra quyết định nhanh và triển khai thần tốc sẽ chiếm lĩnh thị phần trước khi đối thủ kịp nhận ra.",
+      "ung_dung_doi_song": "Khi có một ý tưởng sản phẩm khả thi, hãy ra mắt bản thử nghiệm tối thiểu (MVP) trong vòng 2 tuần để đo lường phản hồi thực tế của khách hàng.",
+      "loi_khuyen_hanh_dong": "Hoàn thành phiên bản thử nghiệm sớm tốt hơn chờ đợi một kế hoạch hoàn hảo trên giấy."
+    },
+    {
+      "so_thu_tu": 72,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Giá Kiều Dẫn Thủy (Bắc cầu dẫn nước / Tận dụng nguồn lực có sẵn)",
+      "nguon_goc": "Chiến Quốc Sách — Biện Kế",
+      "nguyen_ly_co_nhan": "Không cần tự mình đào mương từ đầu nếu đã có sẵn con sông lớn. Biết hợp tác tận dụng hạ tầng và nền tảng sẵn có để tăng tốc.",
+      "ung_dung_doi_song": "Bán hàng trên các sàn thương mại điện tử lớn (Shopee, Amazon) hoặc dùng các công cụ AI tự động hóa để tiết kiệm 80% chi phí vận hành ban đầu.",
+      "loi_khuyen_hanh_dong": "Tích hợp các nền tảng công nghệ sẵn có vào công việc thay vì tự xây dựng từ con số 0."
+    },
+    {
+      "so_thu_tu": 73,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Nhất Cổ Tác Khí (Đánh một hồi trống dốc toàn lực)",
+      "nguon_goc": "Tả Truyện — Tào Quế Luận Chiến",
+      "nguyen_ly_co_nhan": "Tiếng trống trận đầu tiên tinh thần binh sĩ hăng hái nhất. Khi bắt tay vào việc quan trọng nhất trong ngày, hãy tập trung giải quyết dứt điểm.",
+      "ung_dung_doi_song": "Áp dụng kỹ thuật 'Nuốt con ếch' (Eat that frog): Dành 2 tiếng đầu buổi sáng tập trung làm xong nhiệm vụ khó nhất mà không bị xao nhãng.",
+      "loi_khuyen_hanh_dong": "Tắt thông báo điện thoại từ 8h30 đến 10h30 để hoàn thành việc quan trọng nhất."
+    },
+    {
+      "so_thu_tu": 74,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Thân Tiên Sĩ Tốt (Lãnh đạo làm gương đi đầu)",
+      "nguon_goc": "Ngô Tử Binh Pháp — Thiên Đồ Quốc",
+      "nguyen_ly_co_nhan": "Vị tướng cùng ăn một nồi cơm, cùng chịu rét với binh lính thì ba quân sẽ liều chết xông pha trận mạc vì đại nghiệp.",
+      "ung_dung_doi_song": "Muốn nhân viên làm việc chăm chỉ và đúng giờ, người quản lý phải là người đến sớm nhất và giữ trọn sự chính trực trong công việc.",
+      "loi_khuyen_hanh_dong": "Làm gương trước trong mọi nội quy mà bạn đề ra cho tập thể."
+    },
+    {
+      "so_thu_tu": 75,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Cư An Tư Nguy (Ở nơi yên ổn nghĩ đến lúc nguy nan)",
+      "nguon_goc": "Tả Truyện — Tương Công Thập Nhất Niên",
+      "nguyen_ly_co_nhan": "Lúc công ty đang trên đỉnh cao doanh thu phải chủ động đầu tư nghiên cứu sản phẩm mới để không bị đào thải khi thị trường bão hòa.",
+      "ung_dung_doi_song": "Dành 10% lợi nhuận tái đầu tư vào công nghệ mới và đào tạo nhân sự ngay cả khi công việc kinh doanh đang rất thuận lợi.",
+      "loi_khuyen_hanh_dong": "Thường xuyên thảo luận về các kịch bản rủi ro và giải pháp dự phòng trong các buổi họp quản trị."
+    },
+    {
+      "so_thu_tu": 76,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Phân Quyền Thụ Nhậm (Giao quyền đi đôi với trách nhiệm)",
+      "nguon_goc": "Hàn Phi Tử — Chủ Đạo",
+      "nguyen_ly_co_nhan": "Bậc minh chủ không ôm đồm việc vặt. Giao việc rõ ràng, trao đủ quyền hạn và chỉ kiểm tra kết quả cuối cùng.",
+      "ung_dung_doi_song": "Ủy quyền cho cấp phó quyết định các khoản chi dưới định mức để giải phóng thời gian cho bản thân tập trung vào chiến lược mở rộng.",
+      "loi_khuyen_hanh_dong": "Xác định rõ phạm vi quyền hạn và chỉ số nghiệm thu khi bàn giao công việc cho cấp dưới."
+    },
+    {
+      "so_thu_tu": 77,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Quy Củ Thành Phương Viên (Không có quy củ không thành vuông tròn)",
+      "nguon_goc": "Mạnh Tử — Ly Lâu Thượng",
+      "nguyen_ly_co_nhan": "Thợ giỏi đến đâu không có thước kẻ com-pa cũng không vẽ được hình vuông hình tròn chuẩn. Mọi tổ chức phải có quy chế hoạt động minh bạch.",
+      "ung_dung_doi_song": "Ngay từ khi thành lập nhóm khởi nghiệp, hãy ký cam kết về tỷ lệ cổ phần, trách nhiệm đóng góp và điều khoản thoái vốn rõ ràng.",
+      "loi_khuyen_hanh_dong": "Lập thỏa thuận đồng sáng lập (Co-founder Agreement) bằng văn bản trước khi bắt đầu kinh doanh."
+    },
+    {
+      "so_thu_tu": 78,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Văn Võ Trọng Đạo (Kết hợp cương nhu trong quản trị)",
+      "nguon_goc": "Lễ Ký — Tạp Ký Hạ",
+      "nguyen_ly_co_nhan": "Chỉ dùng kỷ luật thép sẽ khiến lòng người oán thán; chỉ dùng tình cảm sẽ làm tổ chức vô kỷ luật. Kết hợp hài hòa giữa nguyên tắc và sự bao dung.",
+      "ung_dung_doi_song": "Nghiêm túc trong quy chuẩn chất lượng công việc nhưng ấm áp, quan tâm đến đời sống cá nhân và gia đình của nhân viên.",
+      "loi_khuyen_hanh_dong": "Thăm hỏi và tặng quà nhân viên vào các dịp sinh nhật, hiếu hỷ của gia đình họ."
+    },
+    {
+      "so_thu_tu": 79,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Nhật Tân Hựu Nhật Tân (Mỗi ngày đổi mới, ngày ngày đổi mới)",
+      "nguon_goc": "Đại Học — Thương Thang Bàn Minh",
+      "nguyen_ly_co_nhan": "Không ngừng cải tiến, đổi mới bản thân mỗi ngày để không bao giờ bị tụt lại phía sau trong dòng chảy biến đổi không ngừng của xã hội.",
+      "ung_dung_doi_song": "Áp dụng triết lý Kaizen của Nhật Bản: Cải tiến một chi tiết nhỏ 1% trong quy trình bán hàng hoặc sản xuất mỗi tuần.",
+      "loi_khuyen_hanh_dong": "Hỏi bản thân vào cuối tuần: 'Tuần này mình đã cải tiến được điều gì tốt hơn tuần trước?'."
+    },
+    {
+      "so_thu_tu": 80,
+      "chu_de": "Quản Trị & Sự Nghiệp",
+      "ten_ke": "Công Thành Thân Thoái (Việc lớn đã thành, biết rút lui giữ phúc)",
+      "nguon_goc": "Lão Tử — Đạo Đức Kinh — Phạm Lãi sau khi giúp Câu Tiễn",
+      "nguyen_ly_co_nhan": "Đạt đến đỉnh cao danh vọng phải biết chia sẻ thành quả, nhường sân khấu cho thế hệ kế cận để giữ trọn vẹn danh tiếng và bình an trọn đời.",
+      "ung_dung_doi_song": "Sau khi dự án thành công, hãy chia sẻ công lao cho toàn bộ đội ngũ và chủ động đào tạo người kế nhiệm trước khi chuyển sang thử thách mới.",
+      "loi_khuyen_hanh_dong": "Tôn vinh đóng góp của tập thể trong lễ tổng kết dự án."
+    },
+    {
+      "so_thu_tu": 81,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Không Thành Kế (Bình tĩnh vô úy giữa vòng vây hiểm nguy)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 32) — Gia Cát Lượng mở toang cổng thành gảy đàn",
+      "nguyen_ly_co_nhan": "Khi ở thế yếu nhất, sự bình tĩnh tuyệt đối và phong thái ung dung sẽ khiến đối phương nghi ngờ có mai phục mà chủ động thoái lui.",
+      "ung_dung_doi_song": "Khi đối mặt với khủng hoảng truyền thông hoặc sự cố bất ngờ, người đứng đầu giữ được vẻ mặt điềm tĩnh, tự tin sẽ trấn an toàn bộ nhân viên và khách hàng.",
+      "loi_khuyen_hanh_dong": "Hít thở sâu, giữ giọng nói vững vàng và không phát ngôn hoảng loạn khi có khủng hoảng."
+    },
+    {
+      "so_thu_tu": 82,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Khổ Nhục Kế (Chấp nhận chịu khổ để đạt đại nghiệp)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 34) — Hoàng Cái chịu đòn trá hàng Tào Tháo",
+      "nguyen_ly_co_nhan": "Sẵn sàng chịu đựng sự gian khổ, thiệt thòi hoặc hiểu lầm tạm thời để tích lũy sức mạnh và hoàn thành mục tiêu lớn lao.",
+      "ung_dung_doi_song": "Những năm đầu khởi nghiệp, chấp nhận làm việc 14 tiếng/ngày, ăn uống đạm bạc và không mua sắm xa xỉ để dồn toàn lực xây dựng doanh nghiệp.",
+      "loi_khuyen_hanh_dong": "Kiên định chịu đựng gian khổ trong giai đoạn gieo hạt của sự nghiệp."
+    },
+    {
+      "so_thu_tu": 83,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Tẩu Vi Thượng Sách (Biết rút lui đúng lúc là kế sách cao nhất)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 36)",
+      "nguyen_ly_co_nhan": "Khi tương quan lực lượng quá chênh lệch và không có cơ hội thắng, rút lui bảo toàn sinh mạng và vốn liếng là thượng sách khôn ngoan nhất.",
+      "ung_dung_doi_song": "Gặp kẻ say rượu gây sự hoặc một dự án đầu tư có dấu hiệu lừa đảo đa cấp rõ ràng, hãy nhanh chóng rời đi ngay lập tức, không cố hơn thua.",
+      "loi_khuyen_hanh_dong": "Rời khỏi hiện trường xung đột nguy hiểm càng nhanh càng tốt."
+    },
+    {
+      "so_thu_tu": 84,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Phá Phủ Trầm Châu (Đập nồi dìm thuyền / Quyết tâm không đường lùi)",
+      "nguon_goc": "Sử Ký — Hạng Vũ đánh trận Cự Lộc",
+      "nguyen_ly_co_nhan": "Cắt đứt mọi con đường rút lui để kích hoạt 200% tiềm năng sinh tồn và ý chí chiến đấu quật cường của con người.",
+      "ung_dung_doi_song": "Khi đã chuẩn bị kỹ lưỡng và quyết định khởi nghiệp, hãy từ bỏ các công việc bán thời gian gây phân tâm để dốc toàn tâm toàn ý vào mục tiêu chính.",
+      "loi_khuyen_hanh_dong": "Đặt ra hạn chót (deadline) bắt buộc và công khai mục tiêu với mọi người để tạo động lực cam kết."
+    },
+    {
+      "so_thu_tu": 85,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Tuyệt Xứ Phùng Sinh (Trong chỗ tuyệt vọng tìm thấy đường sống)",
+      "nguon_goc": "Tôn Tử Binh Pháp — Đặt vào đất chết thì sống sót",
+      "nguyen_ly_co_nhan": "Rơi vào nghịch cảnh cùng cực nhất chính là lúc con người phát huy sự sáng tạo và nội lực mạnh mẽ nhất để xoay chuyển cờ thế.",
+      "ung_dung_doi_song": "Khi doanh nghiệp đứng trước nguy cơ phá sản, đó là thời điểm vàng để tái cấu trúc toàn diện, cắt bỏ sản phẩm cũ và tung ra dịch vụ mang tính cách mạng.",
+      "loi_khuyen_hanh_dong": "Xem thất bại như bài học đắt giá và tìm kiếm góc nhìn mới để lội ngược dòng."
+    },
+    {
+      "so_thu_tu": 86,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Tá Thi Hoàn Hồn (Hồi sinh cơ hội từ nền tảng cũ)",
+      "nguon_goc": "Tam Thập Lục Kế (Kế thứ 14)",
+      "nguyen_ly_co_nhan": "Mượn danh nghĩa hoặc cơ sở hạ tầng của một mô hình cũ nhưng thổi vào đó linh hồn, công nghệ và giá trị mới hoàn toàn.",
+      "ung_dung_doi_song": "Tiếp quản một cửa hàng truyền thống ế ẩm và ứng dụng chuyển đổi số, bán hàng đa kênh trên TikTok/Shopee để biến nó thành cỗ máy sinh lời mạnh mẽ.",
+      "loi_khuyen_hanh_dong": "Ứng dụng công nghệ mới để nâng cấp các ngành nghề truyền thống."
+    },
+    {
+      "so_thu_tu": 87,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Lý Ứng Ngoại Hợp (Trong ứng ngoài hợp tạo sức mạnh tổng lực)",
+      "nguon_goc": "Tam Quốc Diễn Nghĩa — Phá thành",
+      "nguyen_ly_co_nhan": "Kết hợp nhịp nhàng giữa sự nỗ lực tự thân bên trong và sự hỗ trợ của các nguồn lực, cố vấn bên ngoài để giải quyết nhanh khủng hoảng.",
+      "ung_dung_doi_song": "Khi giải quyết rủi ro pháp lý công ty, nội bộ củng cố hồ sơ chứng từ kết hợp thuê luật sư đầu ngành đại diện đàm phán.",
+      "loi_khuyen_hanh_dong": "Tìm kiếm sự tham vấn của chuyên gia có kinh nghiệm ngay khi gặp bài toán khó."
+    },
+    {
+      "so_thu_tu": 88,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Man Thiên Quá Độ (Nhẫn nại đi qua cầu độc mộc)",
+      "nguon_goc": "Trang Tử — Đức Sung Phù",
+      "nguyen_ly_co_nhan": "Đi qua cây cầu cheo leo nguy hiểm thì chỉ nhìn thẳng vào từng bước chân, không nhìn xuống vực sâu để giữ thăng bằng tuyệt đối.",
+      "ung_dung_doi_song": "Khi nợ nần hoặc công việc chồng chất, đừng hoảng loạn nghĩ đến cả núi khó khăn; hãy chia nhỏ và tập trung giải quyết dứt điểm từng việc mỗi ngày.",
+      "loi_khuyen_hanh_dong": "Lập danh sách việc cần làm (To-do list) và chỉ tập trung làm tốt một việc tại một thời điểm."
+    },
+    {
+      "so_thu_tu": 89,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Sáp Xí Phục Sinh (Tái sinh từ tro tàn như chim Phượng Hoàng)",
+      "nguon_goc": "Sử Ký — Câu Tiễn Nếm Mật Nằm Gai",
+      "nguyen_ly_co_nhan": "Thất bại thảm hại không phải là dấu chấm hết. Kiên trì chịu nhục, nếm mật nằm gai suốt 10 năm để gây dựng lại đại nghiệp.",
+      "ung_dung_doi_song": "Không bao giờ suy sụp sau một lần kinh doanh thất bại. Rút ra bài học, tích lũy vốn và kiên trì làm lại với phiên bản thông thái hơn.",
+      "loi_khuyen_hanh_dong": "Viết nhật ký phân tích nguyên nhân sai lầm và kế hoạch tái khởi động."
+    },
+    {
+      "so_thu_tu": 90,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Chuyển Bại Vi Thắng (Biến bất lợi thành lợi thế cạnh tranh)",
+      "nguon_goc": "Tôn Tử Binh Pháp — Thiên Quân Tranh",
+      "nguyen_ly_co_nhan": "Biết biến con đường vòng vèo hiểm trở thành con đường thẳng thuận lợi; biến nhược điểm của mình thành nét độc đáo riêng biệt.",
+      "ung_dung_doi_song": "Khi quy mô công ty nhỏ không thể cạnh tranh về giá với tập đoàn lớn, hãy biến sự nhỏ gọn đó thành ưu thế: Phục vụ khách hàng nhanh hơn, cá nhân hóa tận tâm hơn.",
+      "loi_khuyen_hanh_dong": "Biến điểm yếu thành điểm bán hàng độc nhất (USP) trong chiến dịch tiếp thị."
+    },
+    {
+      "so_thu_tu": 91,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Phản Phục Thao Túng (Kiểm soát nhịp độ tình huống)",
+      "nguon_goc": "Quỷ Cốc Tử — Thao Tung Kế",
+      "nguyen_ly_co_nhan": "Không để cảm xúc bị cuốn theo diễn biến dồn dập của đối thủ. Chủ động làm chậm nhịp độ để lấy lại quyền kiểm soát tình thế.",
+      "ung_dung_doi_song": "Khi bị đối tác ép ký hợp đồng gấp, hãy bình tĩnh nói: 'Chúng tôi cần 24 giờ để ban pháp chế rà soát lại điều khoản', tránh quyết định bốc đồng.",
+      "loi_khuyen_hanh_dong": "Áp dụng quy tắc trì hoãn 24 giờ trước các quyết định tài chính quan trọng."
+    },
+    {
+      "so_thu_tu": 92,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Tái Ông Thất Mã (Họa là chỗ dựa của phúc, phúc là mầm mống của họa)",
+      "nguon_goc": "Hoài Nam Tử — Nhân Gian Huấn",
+      "nguyen_ly_co_nhan": "Mất ngựa chưa chắc là họa, được ngựa chưa chắc là phúc. Giữ tâm thái an nhiên trước mọi được mất vì vạn sự đều có sự an bài kỳ diệu.",
+      "ung_dung_doi_song": "Bị từ chối một công việc tưởng chừng lý tưởng có thể là cơ hội mở ra cho bạn tìm được một công việc khác phù hợp và đãi ngộ tốt hơn gấp bội.",
+      "loi_khuyen_hanh_dong": "Luôn giữ niềm tin: 'Mọi sự xảy ra đều là sự sắp đặt tốt nhất cho sự trưởng thành của mình'."
+    },
+    {
+      "so_thu_tu": 93,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Hóa Kích Khí Vi Tường Hòa (Biến gươm giáo thành ngọc lụa)",
+      "nguon_goc": "Chu Dịch & Lễ Ký",
+      "nguyen_ly_co_nhan": "Thay vì dùng oán trả oán khiến hận thù nhân đôi, hãy dùng sự độ lượng và lợi ích chung để giải trừ tận gốc sự thù địch.",
+      "ung_dung_doi_song": "Khi xảy ra hiểu lầm với hàng xóm hay đồng nghiệp, chủ động mang tặng món quà quê ấm áp để hóa giải không khí căng thẳng.",
+      "loi_khuyen_hanh_dong": "Chủ động bước tới mỉm cười và bắt tay làm hòa trước trong các cuộc tranh luận nhỏ."
+    },
+    {
+      "so_thu_tu": 94,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Ẩn Nhẫn Bất Phát (Nhẫn nhịn giữ kín sức mạnh)",
+      "nguon_goc": "Tam Quốc Diễn Nghĩa — Tư Mã Ý nhẫn nhịn Gia Cát Lượng gửi váy phụ nữ",
+      "nguyen_ly_co_nhan": "Khi đối phương dùng mọi chiêu trò chọc tức để ta mất bình tĩnh, sự nhẫn nhịn và phớt lờ sẽ khiến mưu kế của họ hoàn toàn phá sản.",
+      "ung_dung_doi_song": "Trước những lời chê bai khiêu khích vô căn cứ, không phản ứng giận dữ; giữ vững sự tập trung làm tốt công việc chuyên môn của mình.",
+      "loi_khuyen_hanh_dong": "Im lặng và dùng kết quả công việc vượt trội làm câu trả lời đanh thép nhất."
+    },
+    {
+      "so_thu_tu": 95,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Cứu Hỏa Bất Đãi (Chữa cháy không thể chần chừ)",
+      "nguon_goc": "Hàn Phi Tử — Lục Phản",
+      "nguyen_ly_co_nhan": "Đốm lửa nhỏ không dập tắt ngay sẽ thiêu rụi cả cánh rừng. Sai sót nhỏ trong vận hành phải sửa chữa ngay lập tức.",
+      "ung_dung_doi_song": "Khi khách hàng phàn nàn về chất lượng dịch vụ, hãy xin lỗi và đổi mới sản phẩm ngay trong vòng 2 giờ thay vì dây dưa giải trình.",
+      "loi_khuyen_hanh_dong": "Xử lý triệt để các khiếu nại khách hàng trong vòng 24 giờ đầu tiên."
+    },
+    {
+      "so_thu_tu": 96,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Chuyển Di Trận Địa (Thay đổi môi trường để giải tỏa bế tắc)",
+      "nguon_goc": "Binh Pháp Tôn Tử — Thiên Địa Hình",
+      "nguyen_ly_co_nhan": "Ở địa hình bất lợi không nên dây dưa. Chủ động di chuyển sang vùng đất mới rộng rãi hơn để phát huy sở trường.",
+      "ung_dung_doi_song": "Nếu làm việc nhiều năm trong môi trường trì trệ không có cơ hội phát triển, hãy dũng cảm chuyển sang một thành phố mới hoặc công ty mới.",
+      "loi_khuyen_hanh_dong": "Lên kế hoạch chuyển đổi môi trường sống hoặc làm việc khi đã cố gắng hết sức mà không có tiến triển."
+    },
+    {
+      "so_thu_tu": 97,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Vạn Vật Giai Vi Ngã Dụng (Vạn vật quanh mình đều có thể dùng)",
+      "nguon_goc": "Tuân Tử — Khuyến Học",
+      "nguyen_ly_co_nhan": "Người thông minh không phải sinh ra đã có cánh bay, mà biết mượn sức gió, mượn thuyền bè để đi xa ngàn dặm.",
+      "ung_dung_doi_song": "Tận dụng triệt để các công cụ công nghệ miễn phí, mạng xã hội và các khóa học mở trên internet để tự đào tạo bản thân thành chuyên gia.",
+      "loi_khuyen_hanh_dong": "Khai thác tối đa các công cụ trí tuệ nhân tạo (AI) để nâng cao gấp 3 lần hiệu suất làm việc."
+    },
+    {
+      "so_thu_tu": 98,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Hóa Giải Oán Thù (Lấy đức báo oán, giải trừ ác duyên)",
+      "nguon_goc": "Lão Tử — Đạo Đức Kinh",
+      "nguyen_ly_co_nhan": "Lấy oán báo oán oán chất chồng; lấy đức hóa oán ắt tiêu tan. Khoan dung độ lượng là phương pháp triệt tiêu đối thủ vĩnh viễn.",
+      "ung_dung_doi_song": "Khi người từng gây khó dễ cho bạn gặp hoạn nạn, hãy sẵn lòng giúp đỡ họ một tay; bạn sẽ có thêm một người bạn tri kỷ trung thành suốt đời.",
+      "loi_khuyen_hanh_dong": "Gạt bỏ thù cũ và chủ động mở lời giúp đỡ người từng có xích mích với mình."
+    },
+    {
+      "so_thu_tu": 99,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Tự Cường Bất Tức (Tự lực tự cường, không ngừng vươn lên)",
+      "nguon_goc": "Kinh Dịch — Quẻ Càn: Thiên hành kiện, quân tử dĩ tự cường bất tức",
+      "nguyen_ly_co_nhan": "Trời đất vận hành mạnh mẽ không ngừng nghỉ, người quân tử noi theo đó mà tự lập tự cường, không dựa dẫm vào ai.",
+      "ung_dung_doi_song": "Chỗ dựa vững chắc nhất trên đời này là năng lực, nhân cách và bản lĩnh của chính bạn. Không trông chờ vào may mắn hay ân huệ của người khác.",
+      "loi_khuyen_hanh_dong": "Mỗi ngày rèn luyện thân thể khỏe mạnh, trau dồi tri thức và làm chủ tài chính cá nhân."
+    },
+    {
+      "so_thu_tu": 100,
+      "chu_de": "Biến Nguy Thành An",
+      "ten_ke": "Vô Mưu Chi Mưu (Cảnh giới cao nhất của mưu lược là Chân Thành & Đạo Đức)",
+      "nguon_goc": "Bách Gia Chư Tử — Đại Đạo Vô Hình",
+      "nguyen_ly_co_nhan": "Trăm mưu ngàn kế suy cho cùng cũng chỉ là kỹ thuật bề ngoài. Sống chân thành, giữ trọn lương tâm và làm việc thiện lành mới là mưu kế tối thượng trường tồn cùng trời đất.",
+      "ung_dung_doi_song": "Dù đi đâu làm gì, luôn giữ tâm thiện lương, đối xử tử tế với mọi người, sống quang minh chính đại. Đó là tấm khiên vững chắc nhất bảo vệ bạn trọn đời bình an.",
+      "loi_khuyen_hanh_dong": "Kiên định giữ trọn sự lương thiện và trung thực trong mọi hoàn cảnh cuộc sống."
+    }
+  ]
+}
