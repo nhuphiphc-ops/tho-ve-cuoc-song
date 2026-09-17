@@ -1,0 +1,436 @@
+{
+  "tong_quan": {
+    "tieu_de": "⚖️ Hệ Thống Pháp Luật Việt Nam — Từ Cao Đến Thấp",
+    "loi_dan": "Pháp luật không phải là điều xa lạ. Là quy tắc chung do Nhà nước ban hành, mọi người đều phải tuân theo — từ Hiến pháp cao nhất đến quy định cụ thể tại từng địa phương.",
+    "nguyen_tac_vang": "Văn bản cấp thấp không được trái văn bản cấp cao hơn. Nếu trái → văn bản thấp hơn không có hiệu lực và bị bãi bỏ.",
+    "loi_nhac_nho": "Khi có việc liên quan đến pháp luật: Tìm Luật trước → Xem Nghị định hướng dẫn → Đọc Thông tư chi tiết → Cuối cùng là Quy định địa phương. Đúng thứ tự thì không bị lạc.",
+    "cau_ket_chot": "Pháp luật không phải để sợ, mà để mọi người sống chung công bằng, an toàn. Hiểu pháp luật là bảo vệ chính mình.",
+    "so_do_tang_bac": [
+      {
+        "cap": 1,
+        "ten": "HIẾN PHÁP — CAO NHẤT",
+        "co_quan": "Quốc hội",
+        "pham_vi": "Toàn quốc",
+        "mau": "rose"
+      },
+      {
+        "cap": 2,
+        "ten": "LUẬT / NGHỊ QUYẾT",
+        "co_quan": "Quốc hội / UBTV Quốc hội",
+        "pham_vi": "Toàn quốc",
+        "mau": "amber"
+      },
+      {
+        "cap": 3,
+        "ten": "NGHỊ ĐỊNH CHÍNH PHỦ",
+        "co_quan": "Chính phủ (Thủ tướng ký)",
+        "pham_vi": "Toàn quốc",
+        "mau": "yellow"
+      },
+      {
+        "cap": 4,
+        "ten": "THÔNG TƯ BỘ NGÀNH",
+        "co_quan": "Bộ trưởng / Thủ trưởng cơ quan ngang Bộ",
+        "pham_vi": "Toàn quốc theo ngành",
+        "mau": "emerald"
+      },
+      {
+        "cap": 5,
+        "ten": "QUYẾT ĐỊNH CẤP TỈNH",
+        "co_quan": "UBND Tỉnh / TP trực thuộc TW",
+        "pham_vi": "Toàn tỉnh / thành phố",
+        "mau": "teal"
+      },
+      {
+        "cap": 6,
+        "ten": "QUYẾT ĐỊNH CẤP HUYỆN",
+        "co_quan": "UBND Huyện / Quận / Thị xã",
+        "pham_vi": "Toàn huyện / quận",
+        "mau": "cyan"
+      },
+      {
+        "cap": 7,
+        "ten": "QUY CHẾ CẤP XÃ, PHƯỜNG",
+        "co_quan": "UBND Xã / Phường / Thị trấn",
+        "pham_vi": "Toàn xã / phường",
+        "mau": "blue"
+      }
+    ]
+  },
+  "thu_tu_cap_bac": [
+    {
+      "thu_tu": 1,
+      "bieu_tuong": "🥇",
+      "loai_van_ban": "Hiến pháp",
+      "co_quan_ban_hanh": "Quốc hội",
+      "pham_vi_ap_dung": "Toàn quốc",
+      "tinh_chat_chinh": "Đạo luật cơ bản, gốc rễ của mọi quy định pháp luật trong cả nước."
+    },
+    {
+      "thu_tu": 2,
+      "bieu_tuong": "🥈",
+      "loai_van_ban": "Luật / Bộ luật / Nghị quyết",
+      "co_quan_ban_hanh": "Quốc hội / Ủy ban Thường vụ Quốc hội",
+      "pham_vi_ap_dung": "Toàn quốc",
+      "tinh_chat_chinh": "Xương sống hệ thống pháp luật, quy định các nguyên tắc chung và quan hệ xã hội trọng yếu."
+    },
+    {
+      "thu_tu": 3,
+      "bieu_tuong": "🥉",
+      "loai_van_ban": "Nghị định / Nghị quyết Chính phủ",
+      "co_quan_ban_hanh": "Chính phủ (Thủ tướng Chính phủ ký)",
+      "pham_vi_ap_dung": "Toàn quốc",
+      "tinh_chat_chinh": "Hướng dẫn thi hành Luật, quy định chi tiết biện pháp và điều kiện thực hiện."
+    },
+    {
+      "thu_tu": 4,
+      "bieu_tuong": "4️⃣",
+      "loai_van_ban": "Thông tư / Thông tư liên tịch",
+      "co_quan_ban_hanh": "Bộ trưởng, Thủ trưởng cơ quan ngang Bộ",
+      "pham_vi_ap_dung": "Toàn quốc theo lĩnh vực chuyên môn",
+      "tinh_chat_chinh": "Hướng dẫn chuyên môn, quy trình kỹ thuật, biểu mẫu và thủ tục cụ thể."
+    },
+    {
+      "thu_tu": 5,
+      "bieu_tuong": "5️⃣",
+      "loai_van_ban": "Quyết định của UBND cấp Tỉnh",
+      "co_quan_ban_hanh": "UBND Tỉnh / Thành phố trực thuộc TW",
+      "pham_vi_ap_dung": "Toàn tỉnh / thành phố đó",
+      "tinh_chat_chinh": "Quy định áp dụng chính sách của Trung ương phù hợp đặc thù địa phương."
+    },
+    {
+      "thu_tu": 6,
+      "bieu_tuong": "6️⃣",
+      "loai_van_ban": "Quyết định của UBND cấp Huyện",
+      "co_quan_ban_hanh": "UBND Huyện / Quận / Thị xã / TP thuộc tỉnh",
+      "pham_vi_ap_dung": "Toàn huyện / quận đó",
+      "tinh_chat_chinh": "Triển khai nhiệm vụ, hướng dẫn thực hiện trên địa bàn quận, huyện."
+    },
+    {
+      "thu_tu": 7,
+      "bieu_tuong": "7️⃣",
+      "loai_van_ban": "Quy chế / Quyết định cấp Xã",
+      "co_quan_ban_hanh": "UBND Xã / Phường / Thị trấn",
+      "pham_vi_ap_dung": "Toàn xã / phường đó",
+      "tinh_chat_chinh": "Quy định cụ thể các việc hàng ngày, gần gũi trực tiếp với đời sống nhân dân."
+    }
+  ],
+  "chi_tiet_van_ban": [
+    {
+      "id": "hien_phap",
+      "thu_tu": 1,
+      "ten": "1. HIẾN PHÁP — Đầu Tàu Của Toàn Bộ Hệ Thống",
+      "bieu_tuong": "🏛️",
+      "co_quan_ban_hanh": "Quốc hội — Cơ quan quyền lực Nhà nước cao nhất",
+      "vi_tri_phap_ly": "Giá trị pháp lý cao nhất — Mọi văn bản khác đều phải phù hợp với Hiến pháp",
+      "y_nghia": "Hiến pháp là đạo luật gốc của một quốc gia. Nó xác lập nền tảng chế độ, quyền con người và phân chia quyền lực Nhà nước.",
+      "noi_dung_chinh": [
+        "Chế độ chính trị, kinh tế, văn hóa, giáo dục, quốc phòng và an ninh của đất nước.",
+        "Quyền con người, quyền và nghĩa vụ cơ bản của mọi công dân.",
+        "Cơ cấu tổ chức, nhiệm vụ và quyền hạn của Quốc hội, Chủ tịch nước, Chính phủ, Tòa án, Viện kiểm sát và Chính quyền địa phương."
+      ],
+      "vi_du": [
+        "\"Mọi người đều bình đẳng trước pháp luật.\" (Điều 16 Hiến pháp 2013)",
+        "\"Công dân có quyền có nơi ở hợp pháp; nhà ở hợp pháp được Nhà nước bảo hộ.\" (Điều 22 Hiến pháp 2013)"
+      ],
+      "dac_diem": "Quy trình sửa đổi vô cùng nghiêm ngặt — phải có ít nhất 2/3 tổng số đại biểu Quốc hội biểu quyết tán thành hoặc tổ chức trưng cầu ý dân."
+    },
+    {
+      "id": "luat",
+      "thu_tu": 2,
+      "ten": "2. LUẬT & BỘ LUẬT — Xương Sống Của Hệ Thống",
+      "bieu_tuong": "📜",
+      "co_quan_ban_hanh": "Quốc hội (thông qua Luật, Bộ luật) / Ủy ban Thường vụ Quốc hội (thông qua Pháp lệnh, Nghị quyết)",
+      "vi_tri_phap_ly": "Đứng ngay sau Hiến pháp — Mọi văn bản dưới luật tuyệt đối không được trái Luật",
+      "y_nghia": "Luật cụ thể hóa các nguyên tắc của Hiến pháp, điều chỉnh các quan hệ xã hội quan trọng nhất trong đời sống nhân dân.",
+      "noi_dung_chinh": [
+        "Quy định quyền lợi, nghĩa vụ, điều cấm và chế tài xử phạt đối với từng lĩnh vực cụ thể.",
+        "Tạo hành lang pháp lý an toàn, minh bạch cho công dân sinh sống, học tập và kinh doanh."
+      ],
+      "vi_du": [
+        "Luật Đất đai: Quy định quyền sử dụng đất, thu hồi đất, cấp sổ đỏ, chuyển mục đích sử dụng đất.",
+        "Luật Hôn nhân & Gia đình: Quy định điều kiện kết hôn, quyền tài sản vợ chồng, ly hôn và nuôi con.",
+        "Luật Trật tự an toàn giao thông đường bộ: Quy tắc đi đường, nồng độ cồn, giấy phép lái xe, tốc độ."
+      ],
+      "dac_diem": "Được Quốc hội thảo luận công khai qua nhiều kỳ họp, lấy ý kiến rộng rãi của nhân dân trước khi bấm nút biểu quyết thông qua."
+    },
+    {
+      "id": "nghi_dinh",
+      "thu_tu": 3,
+      "ten": "3. NGHỊ ĐỊNH — Chính Phủ Hướng Dẫn Thi Hành Luật",
+      "bieu_tuong": "🏛️",
+      "co_quan_ban_hanh": "Chính phủ (do Thủ tướng Chính phủ ký ban hành)",
+      "vi_tri_phap_ly": "Dưới Luật, đứng trên Thông tư của các Bộ",
+      "y_nghia": "Luật thường chỉ nêu các nguyên tắc lớn mang tính khung. Nghị định có nhiệm vụ điền chi tiết, giải thích cụ thể các điều khoản và quy định biện pháp thi hành.",
+      "noi_dung_chinh": [
+        "Quy định chi tiết các điều, khoản, điểm được giao trong Luật.",
+        "Quy định mức xử phạt vi phạm hành chính (tiền phạt, tước giấy phép...).",
+        "Quy định cơ chế hoạt động của bộ máy hành chính và các chính sách kinh tế - xã hội."
+      ],
+      "vi_du": [
+        "Luật Xử lý vi phạm hành chính ➔ Nghị định 100/2019/NĐ-CP (và NĐ 123) quy định mức phạt nồng độ cồn, vượt đèn đỏ cụ thể bằng tiền.",
+        "Luật Đất đai ➔ Nghị định quy định chi tiết về bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất."
+      ],
+      "dac_diem": "Nghị định không được tự ý đặt ra các nghĩa vụ hay hạn chế quyền công dân vượt ra ngoài phạm vi mà Luật cho phép."
+    },
+    {
+      "id": "thong_tu",
+      "thu_tu": 4,
+      "ten": "4. THÔNG TƯ — Bộ Hướng Dẫn Chuyên Môn & Thủ Tục",
+      "bieu_tuong": "📋",
+      "co_quan_ban_hanh": "Bộ trưởng các Bộ (Bộ Tài chính, Xây dựng, Y tế, Giáo dục, Công an...)",
+      "vi_tri_phap_ly": "Dưới Nghị định, đứng trên các văn bản của chính quyền địa phương",
+      "y_nghia": "Thông tư giải thích cặn kẽ kỹ thuật chuyên môn, ban hành biểu mẫu, hồ sơ, trình tự thời gian giải quyết thủ tục hành chính.",
+      "noi_dung_chinh": [
+        "Quy chuẩn kỹ thuật, tiêu chuẩn an toàn trong ngành nghề.",
+        "Hồ sơ gồm những giấy tờ gì, nộp mẫu đơn nào, thời hạn giải quyết bao nhiêu ngày.",
+        "Hướng dẫn cán bộ, công chức các bước tác nghiệp chuẩn xác."
+      ],
+      "vi_du": [
+        "Nghị định về đăng ký xe ➔ Thông tư của Bộ Công an quy định mẫu biển số xe, thủ tục sang tên, đổi biển số.",
+        "Nghị định về thuế ➔ Thông tư của Bộ Tài chính ban hành mẫu tờ khai thuế thu nhập cá nhân."
+      ],
+      "dac_diem": "Rất cụ thể, mang tính nghiệp vụ cao. Cán bộ trực tiếp giải quyết thủ tục cho người dân chủ yếu căn cứ vào Thông tư để thực hiện."
+    },
+    {
+      "id": "quyet_dinh_tinh",
+      "thu_tu": 5,
+      "ten": "5. QUYẾT ĐỊNH CỦA UBND CẤP TỈNH — Phù Hợp Địa Phương",
+      "bieu_tuong": "🏢",
+      "co_quan_ban_hanh": "UBND Tỉnh / Thành phố trực thuộc Trung ương (Chủ tịch UBND tỉnh/thành phố ký)",
+      "vi_tri_phap_ly": "Dưới Thông tư Trung ương, đứng trên văn bản cấp huyện",
+      "y_nghia": "Cụ thể hóa các văn bản của Trung ương sao cho phù hợp nhất với điều kiện kinh tế, địa lý và phong tục của từng tỉnh, thành phố.",
+      "noi_dung_chinh": [
+        "Ban hành Bảng giá đất cụ thể áp dụng trên địa bàn tỉnh.",
+        "Quy định diện tích tối thiểu được phép tách thửa đất tại địa phương.",
+        "Quy định mức thu học phí, giá vé xe buýt công cộng, chính sách an sinh xã hội của tỉnh."
+      ],
+      "vi_du": [
+        "Quyết định của UBND TP. Hà Nội / TP. Hồ Chí Minh quy định về bảng giá đất định kỳ 5 năm.",
+        "Quyết định quy định thời gian hoạt động của các cơ sở kinh doanh dịch vụ ban đêm trên địa bàn tỉnh."
+      ],
+      "dac_diem": "Chỉ có hiệu lực trong phạm vi địa giới hành chính của tỉnh/thành phố đó. Tỉnh này không áp dụng cho tỉnh khác."
+    },
+    {
+      "id": "quyet_dinh_huyen",
+      "thu_tu": 6,
+      "ten": "6. QUYẾT ĐỊNH CỦA UBND CẤP HUYỆN — Triển Khai Địa Bàn",
+      "bieu_tuong": "🏘️",
+      "co_quan_ban_hanh": "UBND Huyện / Quận / Thị xã / Thành phố thuộc tỉnh",
+      "vi_tri_phap_ly": "Dưới văn bản cấp tỉnh, đứng trên cấp xã",
+      "y_nghia": "Triển khai cụ thể các chỉ tiêu phát triển kinh tế, trật tự đô thị và kế hoạch hành động trên địa bàn quận, huyện.",
+      "noi_dung_chinh": [
+        "Phân tuyến tuyển sinh học sinh đầu cấp (lớp 1, lớp 6) vào các trường trên địa bàn.",
+        "Kế hoạch sử dụng đất hàng năm của cấp huyện.",
+        "Quy định quản lý trật tự vỉa hè, lòng đường, chợ dân sinh trên địa bàn."
+      ],
+      "vi_du": [
+        "Quyết định phân luồng giao thông tạm thời trong dịp lễ hội tại huyện.",
+        "Quyết định phê duyệt phương án bồi thường giải phóng mặt bằng một dự án cụ thể."
+      ],
+      "dac_diem": "Chỉ áp dụng trong địa giới hành chính của huyện/quận ban hành."
+    },
+    {
+      "id": "quy_che_xa",
+      "thu_tu": 7,
+      "ten": "7. QUY CHẾ / QUYẾT ĐỊNH CẤP XÃ, PHƯỜNG — Gần Dân Nhất",
+      "bieu_tuong": "🏡",
+      "co_quan_ban_hanh": "UBND Xã / Phường / Thị trấn",
+      "vi_tri_phap_ly": "Cấp cơ sở, trực tiếp nhất trong hệ thống quản lý",
+      "y_nghia": "Quy định những việc sát sườn hàng ngày tại thôn, xóm, tổ dân phố, nơi người dân trực tiếp sinh sống.",
+      "noi_dung_chinh": [
+        "Quy chế giữ gìn vệ sinh môi trường, đổ rác đúng giờ, đúng nơi quy định.",
+        "Hương ước, quy ước nếp sống văn minh trong cưới hỏi, tang lễ.",
+        "Bảo vệ công trình công cộng, an ninh trật tự khu dân cư."
+      ],
+      "vi_du": [
+        "Quy định giờ thu gom rác thải sinh hoạt hàng ngày tại các tổ dân phố.",
+        "Quy chế bảo tồn di tích đình, chùa, nhà văn hóa thôn tại xã."
+      ],
+      "dac_diem": "Rất linh hoạt, mang tính cộng đồng cao, gắn liền với nếp sống văn hóa của bà con xóm làng."
+    }
+  ],
+  "quy_tac_uu_tien": [
+    {
+      "nguyen_tac": "1. Cấp cao hơn bao giờ cũng \"nặng\" hơn",
+      "bieu_tuong": "⚖️",
+      "giai_thich": "Văn bản cấp dưới không được trái văn bản cấp trên. Thông tư không được trái Nghị định; Nghị định không được trái Luật; Luật không được trái Hiến pháp.",
+      "he_qua": "Nếu có sự mâu thuẫn, văn bản cấp cao hơn luôn được ưu tiên áp dụng. Văn bản cấp dưới vi phạm sẽ bị đình chỉ hoặc bãi bỏ."
+    },
+    {
+      "nguyen_tac": "2. Cùng cấp → Cái ra sau thay thế cái ra trước",
+      "bieu_tuong": "🔄",
+      "giai_thich": "Khi hai văn bản do cùng một cơ quan ban hành (ví dụ 2 Nghị định của Chính phủ) có quy định khác nhau về cùng một vấn đề, thì áp dụng văn bản được ban hành sau.",
+      "he_qua": "Quy định mới cập nhật sẽ phủ quyết quy định cũ đã lỗi thời."
+    },
+    {
+      "nguyen_tac": "3. Quy định chuyên ngành ưu tiên hơn quy định chung",
+      "bieu_tuong": "🎯",
+      "giai_thich": "Trong các văn bản có cùng hiệu lực pháp lý, quy định về một lĩnh vực chuyên môn cụ thể sẽ được ưu tiên áp dụng trước quy định mang tính đại trà chung chung.",
+      "he_qua": "Ví dụ: Tranh chấp hợp đồng thương mại sẽ ưu tiên áp dụng Luật Thương mại trước, nếu Luật Thương mại không quy định mới dẫn chiếu về Bộ luật Dân sự."
+    },
+    {
+      "nguyen_tac": "4. Địa phương tuyệt đối không được trái Trung ương",
+      "bieu_tuong": "🌐",
+      "giai_thich": "Chính quyền địa phương (Tỉnh, Huyện, Xã) chỉ được ra quy định trong phạm vi thẩm quyền được phân cấp và không được ban hành điều khoản xung đột với Luật, Nghị định của Trung ương.",
+      "he_qua": "Quy định của Tỉnh trái Luật của Quốc hội sẽ bị Bộ Tư pháp tuýt còi và Thủ tướng hủy bỏ."
+    },
+    {
+      "nguyen_tac": "5. Không có hiệu lực hồi tố (ngược thời gian)",
+      "bieu_tuong": "⏳",
+      "giai_thich": "Văn bản pháp luật chỉ áp dụng cho các hành vi xảy ra kể từ ngày nó có hiệu lực trở đi, không quay ngược lại quá khứ để xử lý việc đã xong.",
+      "he_qua": "Ngoại lệ duy nhất: Khi quy định mới có lợi hơn cho người vi phạm (như giảm mức phạt, bãi bỏ tội danh)."
+    },
+    {
+      "nguyen_tac": "6. Phải công bố công khai mới có hiệu lực thi hành",
+      "bieu_tuong": "📢",
+      "giai_thich": "Văn bản pháp luật sau khi ký phải được đăng Công báo hoặc Cổng thông tin điện tử công khai đủ số ngày quy định để toàn dân được biết trước khi bắt đầu có hiệu lực.",
+      "he_qua": "Văn bản mật nội bộ không được dùng làm căn cứ để xử phạt người dân."
+    }
+  ],
+  "vi_du_thuc_te": {
+    "chu_de": "🏠 Quy Trình Pháp Lý Khi Xây Dựng Nhà Ở Riêng Lẻ",
+    "mo_ta": "Minh họa sống động cách các tầng nấc pháp luật cùng phối hợp để điều chỉnh một việc quen thuộc trong đời sống: Xây một căn nhà.",
+    "cac_buoc": [
+      {
+        "cap": "1. Hiến pháp",
+        "van_ban": "Hiến pháp nước CHXHCN Việt Nam (Điều 22)",
+        "noi_dung_dieu_chinh": "Khẳng định quyền cơ bản: Công dân có quyền có nơi ở hợp pháp, quyền sở hữu nhà ở được pháp luật công nhận và bảo vệ."
+      },
+      {
+        "cap": "2. Luật",
+        "van_ban": "Luật Xây dựng & Luật Nhà ở (Quốc hội ban hành)",
+        "noi_dung_dieu_chinh": "Đặt ra nguyên tắc chung: Xây dựng nhà ở phải có Giấy phép xây dựng (trừ trường hợp miễn phép), bảo đảm an toàn kết cấu và phòng cháy chữa cháy."
+      },
+      {
+        "cap": "3. Nghị định",
+        "van_ban": "Nghị định 15/2021/NĐ-CP & Nghị định 16/2022/NĐ-CP (Chính phủ)",
+        "noi_dung_dieu_chinh": "Quy định chi tiết: Điều kiện cấp phép, hồ sơ kỹ thuật cần nộp và mức xử phạt tiền nếu xây dựng không phép, sai phép."
+      },
+      {
+        "cap": "4. Thông tư",
+        "van_ban": "Thông tư của Bộ Xây dựng",
+        "noi_dung_dieu_chinh": "Ban hành biểu mẫu đơn xin cấp phép, quy chuẩn diện tích thông thủy, khoảng cách an toàn điện nước và thời hạn trả kết quả hồ sơ."
+      },
+      {
+        "cap": "5. Cấp Tỉnh",
+        "van_ban": "Quyết định của UBND Tỉnh / Thành phố",
+        "noi_dung_dieu_chinh": "Quy định cụ thể chiều cao tối đa số tầng, khoảng lùi công trình, cốt xây dựng phù hợp với quy hoạch chung của đô thị tỉnh."
+      },
+      {
+        "cap": "6. Cấp Huyện",
+        "van_ban": "Quyết định của UBND Huyện / Quận (Phòng Quản lý Đô thị)",
+        "noi_dung_dieu_chinh": "Bộ phận một cửa cấp huyện tiếp nhận hồ sơ, thẩm định thực địa và Chủ tịch UBND huyện ký cấp Giấy phép xây dựng cho chủ nhà."
+      },
+      {
+        "cap": "7. Cấp Xã",
+        "van_ban": "Quy chế của UBND Xã / Phường (Tổ Trật tự xây dựng)",
+        "noi_dung_dieu_chinh": "Giám sát thi công hàng ngày: Che chắn bụi bặm, tập kết vật liệu không lấn chiếm lòng đường xóm, không làm nứt tường nhà hàng xóm."
+      }
+    ],
+    "nhan_xet": "Từ trên xuống dưới: Đi từ quyền cơ bản trong Hiến pháp ➔ khung nguyên tắc trong Luật ➔ hướng dẫn kỹ thuật của Bộ ➔ giải quyết cụ thể tại nơi mình cư trú."
+  },
+  "tu_vung_co_ban": [
+    {
+      "thuat_ngu": "Văn bản QPPL",
+      "ten_day_du": "Văn bản quy phạm pháp luật",
+      "nghia_don_gian": "Tài liệu chính thức do cơ quan Nhà nước có thẩm quyền ban hành, chứa đựng các quy tắc xử sự chung, bắt buộc mọi người phải tuân theo nhiều lần."
+    },
+    {
+      "thuat_ngu": "Thẩm quyền",
+      "ten_day_du": "Thẩm quyền ban hành / Thẩm quyền xử lý",
+      "nghia_don_gian": "Quyền hạn và trách nhiệm được pháp luật giao cho một cơ quan hoặc chức danh nhất định (Ví dụ: Chỉ Quốc hội mới có quyền làm Luật)."
+    },
+    {
+      "thuat_ngu": "Hiệu lực pháp lý",
+      "ten_day_du": "Hiệu lực của văn bản",
+      "nghia_don_gian": "Giá trị bắt buộc thi hành của văn bản trong một khoảng thời gian nhất định (từ ngày có hiệu lực đến ngày hết hiệu lực)."
+    },
+    {
+      "thuat_ngu": "Phạm vi áp dụng",
+      "ten_day_du": "Phạm vi không gian & đối tượng",
+      "nghia_don_gian": "Văn bản được áp dụng ở đâu (toàn quốc hay một tỉnh) và áp dụng cho ai (toàn thể người dân hay một nhóm ngành nghề riêng)."
+    },
+    {
+      "thuat_ngu": "Bãi bỏ",
+      "ten_day_du": "Bãi bỏ văn bản / điều khoản",
+      "nghia_don_gian": "Hủy bỏ hoàn toàn giá trị của văn bản cũ hoặc điều khoản cũ, không còn áp dụng nữa."
+    },
+    {
+      "thuat_ngu": "Sửa đổi, bổ sung",
+      "ten_day_du": "Sửa đổi, bổ sung văn bản",
+      "nghia_don_gian": "Giữ nguyên phần lớn văn bản nhưng thay đổi hoặc thêm vào một số điều khoản mới cho phù hợp với tình hình thực tế."
+    },
+    {
+      "thuat_ngu": "Hồi tố",
+      "ten_day_du": "Hiệu lực trở về trước",
+      "nghia_don_gian": "Áp dụng quy định mới cho các sự việc, hành vi đã xảy ra trong quá khứ trước ngày văn bản được ban hành."
+    },
+    {
+      "thuat_ngu": "Công báo",
+      "ten_day_du": "Công báo nước CHXHCN Việt Nam",
+      "nghia_don_gian": "Ấn phẩm chính thức của Nhà nước chuyên đăng tải toàn văn các văn bản pháp luật để mọi người dân và cơ quan cùng biết."
+    },
+    {
+      "thuat_ngu": "Dưới luật",
+      "ten_day_du": "Văn bản dưới luật",
+      "nghia_don_gian": "Tất cả các văn bản pháp lý có hiệu lực xếp sau Luật (như Nghị định, Thông tư, Quyết định các cấp), dùng để thi hành Luật."
+    },
+    {
+      "thuat_ngu": "Chế tài",
+      "ten_day_du": "Chế tài pháp lý",
+      "nghia_don_gian": "Hình thức xử phạt hoặc hậu quả bất lợi mà người vi phạm pháp luật phải gánh chịu (phạt tiền, cải tạo, phạt tù...)."
+    }
+  ],
+  "bang_tom_tat": [
+    {
+      "cap": 1,
+      "loai": "Hiến pháp",
+      "ai_ra": "Quốc hội",
+      "noi_ap_dung": "Toàn quốc",
+      "vai_tro": "Đạo luật cơ bản, giá trị pháp lý cao nhất, nền tảng mọi quy định."
+    },
+    {
+      "cap": 2,
+      "loai": "Luật / Nghị quyết",
+      "ai_ra": "Quốc hội / UBTV Quốc hội",
+      "noi_ap_dung": "Toàn quốc",
+      "vai_tro": "Xương sống hệ thống, quy định nguyên tắc và quan hệ trọng yếu."
+    },
+    {
+      "cap": 3,
+      "loai": "Nghị định",
+      "ai_ra": "Chính phủ (Thủ tướng ký)",
+      "noi_ap_dung": "Toàn quốc",
+      "vai_tro": "Hướng dẫn chi tiết thi hành Luật, quy định mức phạt và điều kiện."
+    },
+    {
+      "cap": 4,
+      "loai": "Thông tư",
+      "ai_ra": "Bộ trưởng các Bộ",
+      "noi_ap_dung": "Toàn quốc",
+      "vai_tro": "Hướng dẫn chuyên môn ngành, ban hành quy trình biểu mẫu thủ tục."
+    },
+    {
+      "cap": 5,
+      "loai": "Quyết định cấp Tỉnh",
+      "ai_ra": "UBND cấp Tỉnh",
+      "noi_ap_dung": "Toàn tỉnh / thành phố",
+      "vai_tro": "Áp dụng quy định Trung ương phù hợp đặc thù địa phương."
+    },
+    {
+      "cap": 6,
+      "loai": "Quyết định cấp Huyện",
+      "ai_ra": "UBND cấp Huyện",
+      "noi_ap_dung": "Toàn huyện / quận",
+      "vai_tro": "Triển khai cụ thể các chỉ tiêu và nhiệm vụ trên địa bàn quận/huyện."
+    },
+    {
+      "cap": 7,
+      "loai": "Quy chế cấp Xã",
+      "ai_ra": "UBND cấp Xã",
+      "noi_ap_dung": "Toàn xã / phường",
+      "vai_tro": "Quy định việc hàng ngày, gần gũi nhất với đời sống xóm làng."
+    }
+  ]
+}
