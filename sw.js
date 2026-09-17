@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tho-ve-cuoc-song-v23';
+const CACHE_NAME = 'tho-ve-cuoc-song-v25';
 const ASSETS = [
   './',
   './index.html',
@@ -8,6 +8,7 @@ const ASSETS = [
   './than_chu.json',
   './phap_cu.json',
   './co_nhan.json',
+  './nhan_nhan.json',
   './users.json',
   './manifest.json',
   './icon-192.png',

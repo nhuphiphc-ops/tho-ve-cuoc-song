@@ -1,0 +1,124 @@
+{
+  "tong_quan": {
+    "tieu_de": "👀 Nhìn Nhận Con Người — Từ Tướng Mạo Đến Tính Cách & Phúc Khí",
+    "loi_dan": "Tướng mạo là gương phản chiếu nội tâm, nhưng hành động mới tạo ra phúc đức. Quan sát để hiểu, không để phán xét — đó là cách nhìn đúng đắn nhất.",
+    "nguyen_tac_vang": [
+      {
+        "tieu_de": "Tướng tốt mà không đức → phúc không bền",
+        "noi_dung": "Dù sinh ra có tướng mạo thanh tú, phúc hậu nhưng nếu tâm tính kiêu ngạo, làm việc hại người thì phúc khí sẽ tiêu hao dần theo năm tháng."
+      },
+      {
+        "tieu_de": "Tướng bình thường mà đức độ → ngày càng có phúc",
+        "noi_dung": "Người có dung mạo bình dị nhưng một lòng hướng thiện, bao dung, biết nghĩ cho người khác thì thần thái ngày càng tươi sáng, hậu vận an lạc viên mãn."
+      },
+      {
+        "tieu_de": "Con người luôn thay đổi, không phải cố định một đời",
+        "noi_dung": "Tâm đổi thì tướng đổi, tướng đổi thì vận đổi. Mọi nhận định quan sát chỉ mang tính tham khảo ở hiện tại; sự tu dưỡng của mỗi người mới là then chốt."
+      }
+    ]
+  },
+  "ngu_quan": [
+    {
+      "bo_phan": "Mắt — Cửa Sổ Nội Tâm",
+      "icon": "👁️",
+      "danh_sach": [
+        { "dac_diem": "Mắt trong sáng, nhìn thẳng, ôn hòa", "nhan_dinh": "Thật thà, ngay thẳng, đáng tin cậy" },
+        { "dac_diem": "Mắt lướt nhanh, không dám nhìn thẳng", "nhan_dinh": "Dễ ngại ngùng, hoặc có điều giấu giếm" },
+        { "dac_diem": "Mắt to, mở rộng, ánh sáng thẳng", "nhan_dinh": "Thẳng thắn, cởi mở, nhiệt tình" },
+        { "dac_diem": "Mắt hẹp, chăm chú, nhìn kỹ cẩn thận", "nhan_dinh": "Tư duy tỉ mỉ, cẩn trọng, hay suy nghĩ" },
+        { "dac_diem": "Nhìn người khác từ trên xuống", "nhan_dinh": "Tự cao, hay xem xét, ít tin người ngay" },
+        { "dac_diem": "Nhìn người từ dưới lên", "nhan_dinh": "Tự ti, hoặc kính trọng, dè dặt" },
+        { "dac_diem": "Thường nháy mắt nhiều, không yên", "nhan_dinh": "Dễ hồi hộp, không tự tin, hay lo lắng" }
+      ]
+    },
+    {
+      "bo_phan": "Lời Nói & Miệng",
+      "icon": "🗣️",
+      "danh_sach": [
+        { "dac_diem": "Nói vừa phải, rõ ràng, tốc độ đều", "nhan_dinh": "Tính cách ổn định, suy nghĩ chín chắn" },
+        { "dac_diem": "Nói nhanh, liên tục, ngắt lời người khác", "nhan_dinh": "Tính hấp tấp, hơi vội vàng, hay hấp tể" },
+        { "dac_diem": "Nói chậm, điềm đạm, suy nghĩ trước nói", "nhan_dinh": "Cẩn trọng, chắc chắn, đáng tin cậy" },
+        { "dac_diem": "Nói nhỏ, úp úp mở mở", "nhan_dinh": "Thiếu tự tin, hoặc có điều chưa muốn nói" },
+        { "dac_diem": "Luôn nói tốt về người khác", "nhan_dinh": "Tấm lòng rộng mở, phúc đức" },
+        { "dac_diem": "Luôn nói xấu, chê bai người khác", "nhan_dinh": "Tâm trí hẹp hòi, dễ tạo oán giận" },
+        { "dac_diem": "Nói giữ lời, hứa làm được", "nhan_dinh": "Tín nghĩa, có phúc, người kính trọng" }
+      ]
+    },
+    {
+      "bo_phan": "Mũi — Khí Lực & Ý Chí",
+      "icon": "👃",
+      "danh_sach": [
+        { "dac_diem": "Mũi thẳng, cân đối, đầu mũi tròn đầy", "nhan_dinh": "Tư duy rõ ràng, bình yên, có phúc phần" },
+        { "dac_diem": "Mũi cao mà gầy, xương nhô ra", "nhan_dinh": "Tính mạnh mẽ nhưng dễ gắt gỏng, cần kiềm chế" },
+        { "dac_diem": "Lỗ mũi to, thở đều", "nhan_dinh": "Tâm trạng cởi mở, khỏe mạnh, khí lực tốt" },
+        { "dac_diem": "Luôn chạm tay lên mũi khi nói", "nhan_dinh": "Dễ ngại, hoặc chưa hoàn toàn thành thật" }
+      ]
+    },
+    {
+      "bo_phan": "Tai — Phước Thọ & Lắng Nghe",
+      "icon": "👂",
+      "danh_sach": [
+        { "dac_diem": "Tai tròn đầy, dày, dái tai to rõ", "nhan_dinh": "Thường có phúc, sống thọ, được người yêu quý" },
+        { "dac_diem": "Tai nhỏ, mỏng", "nhan_dinh": "Dễ suy nghĩ nhiều, cần giữ gìn sức khỏe" },
+        { "dac_diem": "Nghe người khác nói chăm chú, không ngắt", "nhan_dinh": "Khiêm tốn, học hỏi, có quý nhân giúp đỡ" },
+        { "dac_diem": "Nghe nửa lời đã vội phản bác", "nhan_dinh": "Tự cao, khó nghe lời hay, dễ mất cơ hội" }
+      ]
+    },
+    {
+      "bo_phan": "Trán & Cằm — Tiền Vận & Hậu Vận",
+      "icon": "👤",
+      "danh_sach": [
+        { "dac_diem": "Trán rộng, phẳng, sáng sạch", "nhan_dinh": "Thông minh, tư duy rộng, có học thức" },
+        { "dac_diem": "Cằm tròn đầy, cân đối", "nhan_dinh": "Tính ôn hòa, kiên nhẫn, có hậu vận tốt" },
+        { "dac_diem": "Cằm nhọn, hẹp", "nhan_dinh": "Tính nhanh nhạy nhưng dễ thiếu kiên nhẫn" }
+      ]
+    }
+  ],
+  "voc_dang": [
+    { "dac_diem": "Vai rộng, lưng thẳng, đi đứng vững chãi", "nhan_dinh": "Chịu được áp lực, có trách nhiệm, đáng tin cậy" },
+    { "dac_diem": "Vai gù, lưng khòm, đi cúi đầu", "nhan_dinh": "Dễ tự ti, hoặc gánh vác nhiều việc, cần chăm sóc" },
+    { "dac_diem": "Tay dài, ngón tay thon đều", "nhan_dinh": "Khéo léo, có năng khiếu, làm gì cũng tỉ mỉ" },
+    { "dac_diem": "Tay ngắn, chắc chắn", "nhan_dinh": "Thực tế, bền bỉ, làm việc chắc chắn" },
+    { "dac_diem": "Đi bước đều, thẳng, không vội không chậm", "nhan_dinh": "Đời vững vàng, có kế hoạch, đi đến đâu cũng ổn" },
+    { "dac_diem": "Đi bước nhẹ, nhanh, liên tục", "nhan_dinh": "Năng động, nhiều việc, nhưng dễ vội vàng" },
+    { "dac_diem": "Đi kéo chân, bước không đều", "nhan_dinh": "Dễ thiếu quyết đoán, cần tự tin hơn" },
+    { "dac_diem": "Đứng thẳng, hai tay đặt tự nhiên trước người", "nhan_dinh": "Tự tin, kính trọng người khác" },
+    { "dac_diem": "Đứng dựa tường, chéo chân, không yên", "nhan_dinh": "Thiếu tự tin, hoặc chưa thực sự tập trung" }
+  ],
+  "cu_chi": [
+    { "cu_chi": "Khi nghe người nói: gật đầu, nhìn thẳng, không ngắt", "y_nghia": "Biết lắng nghe, kính trọng — đây là phúc đức lớn" },
+    { "cu_chi": "Khi nói: tay vung quá nhiều, chỉ vào người", "y_nghia": "Tính hấp tấp, muốn áp đặt, dễ gây phản cảm" },
+    { "cu_chi": "Khi ngồi: lưng thẳng, hai tay đặt yên trên đùi", "y_nghia": "Tự trọng, có giáo dục, người ta kính nể" },
+    { "cu_chi": "Khi ngồi: vắt chéo chân, rung chân liên tục", "y_nghia": "Thiếu tự chủ, dễ thiếu kiên nhẫn" },
+    { "cu_chi": "Khi gặp người: mỉm cười tự nhiên, chào trước", "y_nghia": "Tấm lòng ấm áp, phúc khí tự nhiên tỏa ra" },
+    { "cu_chi": "Khi nhận lỗi: cúi đầu, xin lỗi thật lòng", "y_nghia": "Biết sửa đổi — đây là tướng tiến bộ nhất" },
+    { "cu_chi": "Khi có thành công: không kiêu, chia sẻ cho mọi người", "y_nghia": "Phúc đức dày, phúc khí ngày càng dày thêm" },
+    { "cu_chi": "Khi thấy người tốt: khen thật lòng, không ghen", "y_nghia": "Tâm rộng — phúc tự tìm đến" },
+    { "cu_chi": "Khi thấy người gặp khó: giúp tay, không bỏ mặc", "y_nghia": "Phúc đức thật, con cháu cũng được hưởng" }
+  ],
+  "phuc_khi": [
+    { "dau_hieu": "Mặt thường tươi sáng, không cần trang điểm cũng ấm áp", "giai_thich": "Tâm bình yên, phúc khí tự tỏa" },
+    { "dau_hieu": "Nói nhẹ nhàng, không ai bị tổn thương khi nghe", "giai_thich": "Lời lành tạo phúc — miệng là cửa phúc họa" },
+    { "dau_hieu": "Đi đâu cũng được người giúp, gặp khó có người nâng đỡ", "giai_thich": "Tốt bụng lâu ngày nên người quý mến" },
+    { "dau_hieu": "Vẻ mặt bình tĩnh dù gặp việc không mong muốn", "giai_thich": "Tâm vững vàng, không để sự vật lắc lư" },
+    { "dau_hieu": "Luôn biết ơn, không coi gì là đương nhiên", "giai_thich": "Biết ơn là nền tảng của phúc đức" },
+    { "dau_hieu": "Sống tiết độ, không phô trương, không khoe khoang", "giai_thich": "Khiêm tốn — phúc đức càng dày càng kín" },
+    { "dau_hieu": "Gia đình hòa thuận, người thân yêu gắn bó", "giai_thich": "Phúc khí gốc từ gia đình — đây là quý nhất" }
+  ],
+  "can_luu_y": [
+    { "dau_hieu": "Thường nói dối, che giấu sự thật", "nhan_dinh_ung_xu": "Tín nghĩa mỏng, khó bền lâu — giữ khoảng cách, không phó thác quá sớm" },
+    { "dau_hieu": "Thường chỉ trích, đổ lỗi cho người khác", "nhan_dinh_ung_xu": "Tâm hẹp, khó hòa hợp — không tranh cãi, giữ bình yên" },
+    { "dau_hieu": "Khiêm tốn khi có, kiêu ngạo khi hơn", "nhan_dinh_ung_xu": "Tính bất ổn — vui cùng được, khó cùng không" },
+    { "dau_hieu": "Nói một đường, làm một nẻo", "nhan_dinh_ung_xu": "Không nhất quán — xem hành động, không nghe lời nói" },
+    { "dau_hieu": "Thường ganh tị, thấy người tốt không vui", "nhan_dinh_ung_xu": "Tâm bị che — khó mở rộng đường tiến" },
+    { "dau_hieu": "Nóng giận dễ, nói lời tổn thương rồi hối hận", "nhan_dinh_ung_xu": "Tính cần rèn luyện — kiềm chế là tự bảo vệ mình" }
+  ],
+  "su_that_tuong_phuc": [
+    { "nguyen_tac": "Tướng tốt không bằng đức tốt", "giai_thich": "Người có tướng đẹp mà làm ác → phúc hao dần" },
+    { "nguyen_tac": "Tướng bình thường mà đức dày → ngày càng tươi sáng", "giai_thich": "Hàng trăm năm trước xấu xí mà nhân đức → sau đổi tướng, thay số" },
+    { "nguyen_tac": "Phúc đức do mình tạo ra, không ai tặng", "giai_thich": "Lời lành, việc tốt, lòng từ → mỗi ngày tích một chút, lâu ngày thành phúc" },
+    { "nguyen_tac": "Họa thường từ lời nói thiếu suy nghĩ", "giai_thich": "Nóng giận, lời gắt, nói xấu người → gieo hạt không tốt" },
+    { "nguyen_tac": "Thay đổi được tính cách → thay đổi được vận số", "giai_thich": "Không thể chọn sinh ra, nhưng có thể chọn sống thế nào" },
+    { "nguyen_tac": "Đối nhân xử thế chính là tạo tướng mới", "giai_thich": "Mỗi ngày tử tế, bình yên → nét mặt ngày càng đẹp, phúc khí tự đến" }
+  ]
+}
