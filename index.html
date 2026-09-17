@@ -108,6 +108,7 @@
     .theme-glow-nhannhan { --glow-primary: rgba(245, 158, 11, 0.22); --glow-secondary: rgba(168, 85, 247, 0.16); }
     .theme-glow-thany { --glow-primary: rgba(16, 185, 129, 0.22); --glow-secondary: rgba(20, 184, 166, 0.16); }
     .theme-glow-muuke { --glow-primary: rgba(147, 51, 234, 0.22); --glow-secondary: rgba(219, 39, 119, 0.16); }
+    .theme-glow-chuyenranday { --glow-primary: rgba(245, 158, 11, 0.22); --glow-secondary: rgba(234, 88, 12, 0.16); }
     .theme-glow-users { --glow-primary: rgba(99, 102, 241, 0.2); --glow-secondary: rgba(139, 92, 246, 0.15); }
     .theme-glow-aiagent { --glow-primary: rgba(6, 182, 212, 0.22); --glow-secondary: rgba(59, 130, 246, 0.16); }
     @keyframes ai-typing { 0%, 60%, 100% { transform: translateY(0); opacity: .45; } 30% { transform: translateY(-4px); opacity: 1; } }
@@ -230,6 +231,13 @@
             class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
           >
             <span>⚔️</span> <span>Mưu Kế</span>
+          </button>
+          <button
+            id="tab-chuyenranday"
+            onclick="switchMainTab('chuyenranday')"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+          >
+            <span>📜</span> <span>Chuyện Răn Dạy</span>
           </button>
           <button
             id="tab-aiagent"
@@ -1203,7 +1211,164 @@
       </div>
     </div>
 
-    <!-- ==================== SECTION 10: AI AGENT ==================== -->
+    <!-- ==================== SECTION 10: CHUYEN RAN DAY ==================== -->
+    <div id="chuyenranday-section" class="flex flex-col gap-6 hidden">
+      <!-- Hero Banner -->
+      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-amber-950/50 via-orange-950/25 to-slate-950/40 border border-amber-500/30 p-6 sm:p-8 shadow-2xl">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-amber-500/20 via-transparent to-transparent pointer-events-none"></div>
+        <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <span class="px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/25 text-amber-300 text-xs font-bold tracking-wide">
+                📜 Tinh Hoa Nhân Sinh
+              </span>
+              <span class="text-xs text-slate-400 font-medium">| 100 Câu Chuyện Răn Dạy Về Cuộc Sống</span>
+            </div>
+            <h2 class="text-2xl sm:text-3xl font-black font-display text-white tracking-tight">
+              100 Câu Chuyện Răn Dạy Về Cuộc Sống
+            </h2>
+            <p class="text-slate-350 text-xs sm:text-sm mt-1 max-w-3xl leading-relaxed">
+              Mượn tích xưa răn mình, thấu suốt đạo lý làm người, tu tâm dưỡng tính, gìn giữ tình thân và sống đời an nhiên tự tại giữa nhân gian.
+            </p>
+          </div>
+          <div class="shrink-0 flex items-center gap-2">
+            <span class="px-3.5 py-2 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-bold font-mono">
+              100 Câu Chuyện
+            </span>
+          </div>
+        </div>
+
+        <!-- 3 Core Principles -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5 mt-6 pt-6 border-t border-slate-800/80">
+          <div class="p-3.5 rounded-2xl bg-slate-900/60 border border-amber-500/15">
+            <div class="text-amber-400 font-black text-xs flex items-center gap-1.5 mb-1">
+              <span>🌱</span> 1. MƯỢN CHUYỆN RĂN MÌNH
+            </div>
+            <p class="text-slate-300 text-[11px] leading-relaxed">
+              Đọc chuyện người để soi lại tâm mình, nhận ra những thiên lệch, nóng vội hay lòng tham vô cớ để kịp thời sửa đổi.
+            </p>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-slate-900/60 border border-amber-500/15">
+            <div class="text-amber-400 font-black text-xs flex items-center gap-1.5 mb-1">
+              <span>💡</span> 2. THẤU SUỐT ĐẠO LÝ
+            </div>
+            <p class="text-slate-300 text-[11px] leading-relaxed">
+              Hiểu rõ quy luật nhân quả, luật vô thường và đạo trung dung để giữ tâm thái vững vàng trước mọi biến động cuộc đời.
+            </p>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-slate-900/60 border border-amber-500/15">
+            <div class="text-amber-400 font-black text-xs flex items-center gap-1.5 mb-1">
+              <span>✨</span> 3. CHUYỂN HÓA HÀNH ĐỘNG
+            </div>
+            <p class="text-slate-300 text-[11px] leading-relaxed">
+              Tri thức chỉ có giá trị khi được thực hành mỗi ngày qua lời ăn tiếng nói hòa nhã, lòng biết ơn và sự sẻ chia chân thành.
+            </p>
+          </div>
+        </div>
+
+        <!-- Sub-tabs ribbon -->
+        <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between gap-2">
+          <div class="flex gap-2 overflow-x-auto pb-2 scrollbar-none custom-scrollbar" id="chuyenranday-sub-tabs">
+            <button onclick="selectChuyenRanDaySubTab('all')" id="crd-tab-all" class="crd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-amber-500 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black shadow-lg shadow-amber-500/20 cursor-pointer">✨ Tất Cả (100 Chuyện)</button>
+            <button onclick="selectChuyenRanDaySubTab('Đạo Làm Người & Nhân Cách')" id="crd-tab-nhancach" class="crd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🌱 1. Đạo Làm Người</button>
+            <button onclick="selectChuyenRanDaySubTab('Trí Tuệ & Góc Nhìn Cuộc Sống')" id="crd-tab-tritue" class="crd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">💡 2. Trí Tuệ & Góc Nhìn</button>
+            <button onclick="selectChuyenRanDaySubTab('Tu Tâm & Kiểm Soát Bản Thân')" id="crd-tab-tutam" class="crd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🧘 3. Tu Tâm Dưỡng Tính</button>
+            <button onclick="selectChuyenRanDaySubTab('Gia Đình, Tình Thân & Bạn Bè')" id="crd-tab-giadinh" class="crd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🏡 4. Gia Đình & Tình Thân</button>
+            <button onclick="selectChuyenRanDaySubTab('Tiền Tài, Danh Lợi & Hạnh Phúc')" id="crd-tab-hanhphuc" class="crd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">💎 5. Tiền Tài & Hạnh Phúc</button>
+            <button onclick="selectChuyenRanDaySubTab('so_tay')" id="crd-tab-so_tay" class="crd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📝 6. Sổ Tay Chiêm Nghiệm</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls & Search -->
+      <div id="chuyenranday-controls" class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-4 items-center justify-between border-amber-500/20">
+        <div class="relative w-full md:w-96">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-slate-500">
+            🔍
+          </span>
+          <input
+            type="text"
+            id="chuyenranday-search"
+            placeholder="Tìm theo tiêu đề, nhân vật, bài học răn dạy..."
+            class="w-full pl-10 pr-4 py-2 bg-slate-900/80 border border-slate-800 rounded-xl text-xs sm:text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-500 transition-colors"
+          />
+        </div>
+        <div class="flex items-center gap-3 w-full md:w-auto justify-between md:justify-end">
+          <span class="text-xs font-semibold text-amber-400 bg-amber-500/10 px-3 py-1.5 rounded-full border border-amber-500/20" id="chuyenranday-item-count">Tổng: 0 câu chuyện</span>
+        </div>
+      </div>
+
+      <!-- Display Area Grid -->
+      <div id="chuyenranday-display-container">
+        <div id="chuyenranday-display-area" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-h-[300px]"></div>
+      </div>
+
+      <!-- Notebook Area -->
+      <div id="chuyenranday-notebook-area" class="hidden flex flex-col gap-6">
+        <div class="glass-card p-6 rounded-3xl border-amber-500/20">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-4 mb-5">
+            <div>
+              <h3 class="text-lg font-bold text-amber-300 flex items-center gap-2">
+                <span>📝</span> Sổ Tay Chiêm Nghiệm Cá Nhân
+              </h3>
+              <p class="text-slate-400 text-xs mt-1">
+                Lưu lại những câu chuyện tâm đắc, bài học thức tỉnh và định hướng thay đổi hành vi của bản thân.
+              </p>
+            </div>
+            <button onclick="exportChuyenRanDayNotes()" class="text-xs bg-slate-900 hover:bg-slate-800 border border-slate-800 text-amber-300 px-3.5 py-2 rounded-xl flex items-center gap-1.5 transition-all cursor-pointer">
+              <span>📋</span> Sao chép Sổ Tay
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-4">
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Chuyện / Tình huống</label>
+              <input type="text" id="crd-note-tinhhuong" placeholder="Ví dụ: Vừa nổi giận với đồng nghiệp..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Chuyện răn dạy liên hệ</label>
+              <input type="text" id="crd-note-chuyenlienhe" placeholder="Ví dụ: Cốc trà nóng & cơn giận (#41)..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Tâm đắc / Bài học</label>
+              <input type="text" id="crd-note-baihoc" placeholder="Bài học rút ra cho bản thân..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Hành động cam kết</label>
+              <input type="text" id="crd-note-hanhdong" placeholder="Hành động sửa đổi cụ thể..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+            </div>
+          </div>
+
+          <div class="flex justify-end">
+            <button onclick="addChuyenRanDayNote()" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black text-xs uppercase tracking-wider shrink-0 transition-all cursor-pointer active:scale-95 shadow-lg shadow-amber-500/20">
+              ➕ Thêm Ghi Chép Mới
+            </button>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-3xl border-slate-800 overflow-hidden">
+          <h4 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span>📚</span> Các Chiêm Nghiệm Đã Lưu
+          </h4>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs text-slate-300">
+              <thead>
+                <tr class="border-b border-slate-850 text-slate-500 font-bold text-[11px] uppercase tracking-wider">
+                  <th class="py-3 px-2">Tình huống</th>
+                  <th class="py-3 px-2">Chuyện liên hệ</th>
+                  <th class="py-3 px-2">Bài học</th>
+                  <th class="py-3 px-2">Hành động cam kết</th>
+                  <th class="py-3 px-2 text-right">Xoá</th>
+                </tr>
+              </thead>
+              <tbody id="chuyenranday-notes-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== SECTION 11: AI AGENT ==================== -->
     <div id="aiagent-section" class="flex flex-col gap-6 hidden">
       <!-- Hero -->
       <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-cyan-950/50 via-blue-950/25 to-slate-950/40 border border-cyan-500/30 p-6 sm:p-8 shadow-2xl">
@@ -1353,6 +1518,7 @@
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-nhannhan" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>👀 Nhìn Nhận</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-thany" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🌿 Thần Y</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-muuke" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>⚔️ Mưu Kế</span></label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-chuyenranday" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>📜 Chuyện Răn Dạy</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-aiagent" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🤖 Trợ Lý AI</span></label>
             </div>
           </div>
@@ -1563,6 +1729,7 @@
     const nhannhanSection = document.getElementById('nhannhan-section');
     const thanySection = document.getElementById('thany-section');
     const muukeSection = document.getElementById('muuke-section');
+    const chuyenrandaySection = document.getElementById('chuyenranday-section');
     const aiagentSection = document.getElementById('aiagent-section');
 
     // Nhan Nhan state
@@ -1579,6 +1746,11 @@
     let muuKeData = null;
     let activeMuuKeSubTab = 'all';
     let muuKeNotes = [];
+
+    // Chuyen Ran Day state
+    let chuyenRanDayData = null;
+    let activeChuyenRanDaySubTab = 'all';
+    let chuyenRanDayNotes = [];
 
     // AI Agent state
     let aiMessages = [];
@@ -1598,6 +1770,7 @@
     const tabNhannhan = document.getElementById('tab-nhannhan');
     const tabThany = document.getElementById('tab-thany');
     const tabMuuke = document.getElementById('tab-muuke');
+    const tabChuyenRanDay = document.getElementById('tab-chuyenranday');
     const tabAiagent = document.getElementById('tab-aiagent');
     const headerStatus = document.getElementById('header-status');
 
@@ -1668,7 +1841,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v29';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v30';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -1767,6 +1940,7 @@
       nhannhanSection.classList.add('hidden');
       thanySection.classList.add('hidden');
       muukeSection.classList.add('hidden');
+      chuyenrandaySection.classList.add('hidden');
       aiagentSection.classList.add('hidden');
       document.getElementById('users-section').classList.add('hidden');
 
@@ -1785,6 +1959,7 @@
       setTabClass(tabNhannhan, inactiveClass);
       setTabClass(tabThany, inactiveClass);
       setTabClass(tabMuuke, inactiveClass);
+      setTabClass(tabChuyenRanDay, inactiveClass);
       setTabClass(tabAiagent, inactiveClass);
       setTabClass(document.getElementById('tab-users'), inactiveClass);
 
@@ -1830,6 +2005,10 @@
         muukeSection.classList.remove('hidden');
         setTabClass(tabMuuke, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold shadow-lg shadow-purple-600/25");
         loadMuuKeData();
+      } else if (tab === 'chuyenranday') {
+        chuyenrandaySection.classList.remove('hidden');
+        setTabClass(tabChuyenRanDay, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black shadow-lg shadow-amber-500/25");
+        loadChuyenRanDayData();
       } else if (tab === 'aiagent') {
         aiagentSection.classList.remove('hidden');
         setTabClass(tabAiagent, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25");
@@ -2820,6 +2999,239 @@
 
     document.getElementById('muuke-search')?.addEventListener('input', () => {
       renderMuuKe();
+    });
+
+    // ==================== 100 CAU CHUYEN RAN DAY VỀ CUỘC SỐNG ====================
+    async function loadChuyenRanDayData() {
+      loadChuyenRanDayNotes();
+      if (chuyenRanDayData && Array.isArray(chuyenRanDayData.danh_sach_100_cau_chuyen) && chuyenRanDayData.danh_sach_100_cau_chuyen.length >= 100) {
+        renderChuyenRanDay();
+        return;
+      }
+      try {
+        document.getElementById('chuyenranday-display-area').innerHTML = '<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><div class="inline-block animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-amber-500 mb-3"></div><p>Đang tải 100 Câu Chuyện Răn Dạy...</p></div>';
+        chuyenRanDayData = await fetchJsonWithCache('./chuyen_ran_day.json', 'Không thể tải chuyen_ran_day.json');
+        renderChuyenRanDay();
+      } catch (err) {
+        console.error('Lỗi khi tải dữ liệu Chuyện Răn Dạy:', err);
+        document.getElementById('chuyenranday-display-area').innerHTML =
+          '<div class="col-span-full py-12 text-center text-rose-400 glass-card rounded-2xl"><p class="font-bold">Không thể tải dữ liệu Chuyện Răn Dạy.</p><p class="text-xs text-slate-400 mt-1">' + (err.message || '') + '</p></div>';
+      }
+    }
+
+    window.selectChuyenRanDaySubTab = function(subTab) {
+      activeChuyenRanDaySubTab = subTab;
+      document.querySelectorAll('.crd-badge').forEach(b => {
+        b.className = "crd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer";
+      });
+
+      const tabMap = {
+        'all': 'crd-tab-all',
+        'Đạo Làm Người & Nhân Cách': 'crd-tab-nhancach',
+        'Trí Tuệ & Góc Nhìn Cuộc Sống': 'crd-tab-tritue',
+        'Tu Tâm & Kiểm Soát Bản Thân': 'crd-tab-tutam',
+        'Gia Đình, Tình Thân & Bạn Bè': 'crd-tab-giadinh',
+        'Tiền Tài, Danh Lợi & Hạnh Phúc': 'crd-tab-hanhphuc',
+        'so_tay': 'crd-tab-so_tay'
+      };
+
+      const activeBtn = document.getElementById(tabMap[subTab]);
+      if (activeBtn) {
+        activeBtn.className = "crd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-amber-500 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black shadow-lg shadow-amber-500/20 cursor-pointer";
+      }
+
+      const container = document.getElementById('chuyenranday-display-container');
+      const controls = document.getElementById('chuyenranday-controls');
+      const notebook = document.getElementById('chuyenranday-notebook-area');
+
+      if (subTab === 'so_tay') {
+        if (container) container.classList.add('hidden');
+        if (controls) controls.classList.add('hidden');
+        if (notebook) {
+          notebook.classList.remove('hidden');
+          renderChuyenRanDayNotes();
+        }
+      } else {
+        if (container) container.classList.remove('hidden');
+        if (controls) controls.classList.remove('hidden');
+        if (notebook) notebook.classList.add('hidden');
+        renderChuyenRanDay();
+      }
+    };
+
+    window.renderChuyenRanDay = function() {
+      if (!chuyenRanDayData || !chuyenRanDayData.danh_sach_100_cau_chuyen) return;
+      const searchVal = removeVietnameseTones((document.getElementById('chuyenranday-search')?.value || '').toLowerCase());
+      const area = document.getElementById('chuyenranday-display-area');
+      const countEl = document.getElementById('chuyenranday-item-count');
+      if (!area) return;
+
+      let cardsHtml = [];
+
+      const iconMap = {
+        'Đạo Làm Người & Nhân Cách': '🌱',
+        'Trí Tuệ & Góc Nhìn Cuộc Sống': '💡',
+        'Tu Tâm & Kiểm Soát Bản Thân': '🧘',
+        'Gia Đình, Tình Thân & Bạn Bè': '🏡',
+        'Tiền Tài, Danh Lợi & Hạnh Phúc': '💎'
+      };
+
+      (chuyenRanDayData.danh_sach_100_cau_chuyen || []).forEach(item => {
+        if (activeChuyenRanDaySubTab !== 'all' && item.chu_de !== activeChuyenRanDaySubTab) {
+          return;
+        }
+
+        const fullContent = `${item.so_thu_tu} ${item.tieu_de} ${item.nhan_vat_nguon_goc} ${item.noi_dung_cau_chuyen} ${item.bai_hoc_ran_day} ${item.loi_khuyen_ung_dung} ${item.chu_de}`;
+        if (searchVal && !removeVietnameseTones(fullContent.toLowerCase()).includes(searchVal)) {
+          return;
+        }
+
+        const icon = iconMap[item.chu_de] || '📜';
+        const speakText = `Câu chuyện thứ ${item.so_thu_tu}: ${item.tieu_de}. Nguồn gốc: ${item.nhan_vat_nguon_goc}. Nội dung câu chuyện: ${item.noi_dung_cau_chuyen}. Bài học răn dạy: ${item.bai_hoc_ran_day}. Lời khuyên ứng dụng: ${item.loi_khuyen_ung_dung}`;
+
+        cardsHtml.push(`
+          <div class="glass-card rounded-3xl p-5 sm:p-6 flex flex-col justify-between hover:border-amber-500/40 border-slate-800/80 transition-all duration-300 group">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-300 text-xs font-bold border border-amber-500/20">
+                  <span>${icon}</span> ${item.chu_de}
+                </span>
+                <span class="text-xs font-mono text-amber-400/90 font-black bg-amber-950/40 px-2 py-0.5 rounded-lg border border-amber-500/20">Chuyện #${item.so_thu_tu}</span>
+              </div>
+              <div class="py-1">
+                <p class="text-[11px] font-bold text-orange-400/90 mb-1 flex items-center gap-1"><span>🏛️</span> ${item.nhan_vat_nguon_goc}</p>
+                <h4 class="text-base font-black font-display text-white mb-2 group-hover:text-amber-200 transition-colors leading-snug">${item.tieu_de}</h4>
+                <p class="text-xs sm:text-sm text-slate-300 font-sans leading-relaxed mb-3 bg-slate-950/40 p-3 rounded-2xl border border-slate-850/60">${item.noi_dung_cau_chuyen}</p>
+                <p class="text-xs text-amber-200/90 font-medium italic border-l-2 border-amber-500/40 pl-3 leading-relaxed mb-2"><strong class="text-amber-300 not-italic">📖 Bài học răn dạy:</strong> ${item.bai_hoc_ran_day}</p>
+                <p class="text-xs text-emerald-300 font-sans pl-3 leading-relaxed mt-2 border-t border-slate-800/60 pt-2"><strong class="text-emerald-400">⚡ Lời khuyên ứng dụng:</strong> ${item.loi_khuyen_ung_dung}</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-3 border-t border-slate-800/80">
+              <span class="text-[11px] font-bold text-amber-400/80 bg-amber-500/10 px-2 py-0.5 rounded-md">Đạo Lý Làm Người</span>
+              <button 
+                onclick="playTTS(event, '${speakText.replace(/'/g, "\\'")}', 'vi')"
+                class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-amber-400 hover:text-white hover:bg-amber-950/40 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold"
+                title="Nghe đọc câu chuyện"
+              >
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                <span>Nghe</span>
+              </button>
+            </div>
+          </div>
+        `);
+      });
+
+      if (countEl) countEl.textContent = `Tổng: ${cardsHtml.length} câu chuyện`;
+
+      if (cardsHtml.length === 0) {
+        area.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy câu chuyện phù hợp với từ khóa.</p></div>`;
+      } else {
+        area.innerHTML = cardsHtml.join('');
+      }
+    };
+
+    function loadChuyenRanDayNotes() {
+      try {
+        const raw = localStorage.getItem('user_chuyenranday_notes');
+        chuyenRanDayNotes = raw ? JSON.parse(raw) : [];
+      } catch (e) {
+        chuyenRanDayNotes = [];
+      }
+    }
+
+    function saveChuyenRanDayNotes() {
+      try {
+        localStorage.setItem('user_chuyenranday_notes', JSON.stringify(chuyenRanDayNotes));
+      } catch (e) {
+        console.warn('Không thể lưu sổ tay chiêm nghiệm:', e);
+      }
+    }
+
+    function renderChuyenRanDayNotes() {
+      const tbody = document.getElementById('chuyenranday-notes-tbody');
+      if (!tbody) return;
+
+      if (chuyenRanDayNotes.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="5" class="py-8 text-center text-slate-500 italic">
+              Chưa có ghi chép nào trong sổ tay chiêm nghiệm. Hãy ghi lại bài học tâm đắc và hành động của bạn ở trên!
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      tbody.innerHTML = chuyenRanDayNotes.map((note) => `
+        <tr class="border-b border-slate-850 hover:bg-slate-900/40 transition-colors">
+          <td class="py-3 px-2 font-bold text-white">${note.tinhhuong || '-'}</td>
+          <td class="py-3 px-2 text-amber-300 font-medium">${note.chuyenlienhe || '-'}</td>
+          <td class="py-3 px-2 text-slate-300 italic">${note.baihoc || '-'}</td>
+          <td class="py-3 px-2 text-emerald-300">${note.hanhdong || '-'}</td>
+          <td class="py-3 px-2 text-right">
+            <button onclick="deleteChuyenRanDayNote('${note.id}')" class="text-rose-400 hover:text-rose-300 p-1 rounded-lg hover:bg-rose-950/30 cursor-pointer" title="Xóa dòng này">
+              🗑️
+            </button>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    window.addChuyenRanDayNote = function() {
+      const tinhhuong = document.getElementById('crd-note-tinhhuong')?.value.trim();
+      const chuyenlienhe = document.getElementById('crd-note-chuyenlienhe')?.value.trim();
+      const baihoc = document.getElementById('crd-note-baihoc')?.value.trim();
+      const hanhdong = document.getElementById('crd-note-hanhdong')?.value.trim();
+
+      if (!tinhhuong && !chuyenlienhe && !baihoc && !hanhdong) {
+        alert('Vui lòng nhập ít nhất tình huống, chuyện liên hệ hoặc bài học!');
+        return;
+      }
+
+      const newNote = {
+        id: 'crd_' + Date.now(),
+        tinhhuong: tinhhuong || 'Tình huống thường nhật',
+        chuyenlienhe: chuyenlienhe,
+        baihoc: baihoc,
+        hanhdong: hanhdong,
+        created: new Date().toLocaleDateString('vi-VN')
+      };
+
+      chuyenRanDayNotes.unshift(newNote);
+      saveChuyenRanDayNotes();
+      renderChuyenRanDayNotes();
+
+      if (document.getElementById('crd-note-tinhhuong')) document.getElementById('crd-note-tinhhuong').value = '';
+      if (document.getElementById('crd-note-chuyenlienhe')) document.getElementById('crd-note-chuyenlienhe').value = '';
+      if (document.getElementById('crd-note-baihoc')) document.getElementById('crd-note-baihoc').value = '';
+      if (document.getElementById('crd-note-hanhdong')) document.getElementById('crd-note-hanhdong').value = '';
+
+      showToast('Đã lưu chiêm nghiệm vào sổ tay!', '📜');
+    };
+
+    window.deleteChuyenRanDayNote = function(id) {
+      if (!confirm('Bạn có chắc muốn xóa dòng ghi chép này khỏi sổ tay chiêm nghiệm?')) return;
+      chuyenRanDayNotes = chuyenRanDayNotes.filter(n => n.id !== id);
+      saveChuyenRanDayNotes();
+      renderChuyenRanDayNotes();
+      showToast('Đã xóa ghi chép', '🗑️');
+    };
+
+    window.exportChuyenRanDayNotes = function() {
+      if (chuyenRanDayNotes.length === 0) {
+        alert('Sổ tay hiện chưa có ghi chú nào để xuất!');
+        return;
+      }
+      const jsonStr = JSON.stringify(chuyenRanDayNotes, null, 2);
+      navigator.clipboard.writeText(jsonStr).then(() => {
+        showToast('Đã sao chép nội dung Sổ Tay Chiêm Nghiệm vào Clipboard!', '📋');
+      }).catch(() => {
+        prompt('Sao chép dữ liệu sổ tay bên dưới:', jsonStr);
+      });
+    };
+
+    document.getElementById('chuyenranday-search')?.addEventListener('input', () => {
+      renderChuyenRanDay();
     });
 
     // --- KINH PHAP CU LOGIC ---
@@ -3855,13 +4267,13 @@
         "email": "admin@gmail.com",
         "mat_khau": "admin",
         "vai_tro": "Admin",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "aiagent", "users"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "aiagent", "users"]
       },
       {
         "email": "khach@gmail.com",
         "mat_khau": "123456",
         "vai_tro": "Khách",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "aiagent"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "aiagent"]
       }
     ];
 
@@ -3957,7 +4369,7 @@
 
         const isAdmin = currentUser.vai_tro === 'Admin' || currentUser.email.toLowerCase() === 'admin@gmail.com';
         if (isAdmin) {
-          currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'nhannhan', 'thany', 'muuke', 'aiagent', 'users'];
+          currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'nhannhan', 'thany', 'muuke', 'chuyenranday', 'aiagent', 'users'];
         }
 
         const hasPoems = isAdmin || currentUser.quyen.includes('poems');
@@ -3969,6 +4381,7 @@
         const hasNhanNhan = isAdmin || currentUser.quyen.includes('nhannhan');
         const hasThanY = isAdmin || currentUser.quyen.includes('thany');
         const hasMuuKe = isAdmin || currentUser.quyen.includes('muuke');
+        const hasChuyenRanDay = isAdmin || currentUser.quyen.includes('chuyenranday');
         const hasAiAgent = isAdmin || currentUser.quyen.includes('aiagent');
         const hasUsers = isAdmin || currentUser.quyen.includes('users');
 
@@ -3981,6 +4394,7 @@
         toggleTabButtonVisibility('tab-nhannhan', hasNhanNhan);
         toggleTabButtonVisibility('tab-thany', hasThanY);
         toggleTabButtonVisibility('tab-muuke', hasMuuKe);
+        toggleTabButtonVisibility('tab-chuyenranday', hasChuyenRanDay);
         toggleTabButtonVisibility('tab-aiagent', hasAiAgent);
         toggleTabButtonVisibility('tab-users', hasUsers);
 
@@ -3994,6 +4408,7 @@
           'nhannhan': hasNhanNhan,
           'thany': hasThanY,
           'muuke': hasMuuKe,
+          'chuyenranday': hasChuyenRanDay,
           'aiagent': hasAiAgent,
           'users': hasUsers
         };
@@ -4008,6 +4423,7 @@
         else if (!nhannhanSection.classList.contains('hidden')) currentTab = 'nhannhan';
         else if (!thanySection.classList.contains('hidden')) currentTab = 'thany';
         else if (!muukeSection.classList.contains('hidden')) currentTab = 'muuke';
+        else if (!chuyenrandaySection.classList.contains('hidden')) currentTab = 'chuyenranday';
         else if (!aiagentSection.classList.contains('hidden')) currentTab = 'aiagent';
         else if (!document.getElementById('users-section').classList.contains('hidden')) currentTab = 'users';
 
@@ -4021,6 +4437,7 @@
           else if (hasNhanNhan) switchMainTab('nhannhan');
           else if (hasThanY) switchMainTab('thany');
           else if (hasMuuKe) switchMainTab('muuke');
+          else if (hasChuyenRanDay) switchMainTab('chuyenranday');
           else if (hasAiAgent) switchMainTab('aiagent');
           else if (hasUsers) switchMainTab('users');
         }
@@ -4122,6 +4539,7 @@
         if (u.quyen.includes('nhannhan')) permsList.push('Nhìn Nhận');
         if (u.quyen.includes('thany')) permsList.push('Thần Y');
         if (u.quyen.includes('muuke')) permsList.push('Mưu Kế');
+        if (u.quyen.includes('chuyenranday')) permsList.push('Chuyện Răn Dạy');
         if (u.quyen.includes('aiagent')) permsList.push('Trợ Lý AI');
         if (u.quyen.includes('users')) permsList.push('Quản Trị');
 
@@ -4197,6 +4615,7 @@
       if (document.getElementById('perm-nhannhan')) document.getElementById('perm-nhannhan').checked = u.quyen.includes('nhannhan');
       if (document.getElementById('perm-thany')) document.getElementById('perm-thany').checked = u.quyen.includes('thany');
       if (document.getElementById('perm-muuke')) document.getElementById('perm-muuke').checked = u.quyen.includes('muuke');
+      if (document.getElementById('perm-chuyenranday')) document.getElementById('perm-chuyenranday').checked = u.quyen.includes('chuyenranday');
       document.getElementById('perm-aiagent').checked = u.quyen.includes('aiagent');
 
       showToast(`Đang chỉnh sửa quyền cho ${u.email}`, "✏️");
@@ -4240,6 +4659,7 @@
       if (document.getElementById('perm-nhannhan')?.checked) quyen.push('nhannhan');
       if (document.getElementById('perm-thany')?.checked) quyen.push('thany');
       if (document.getElementById('perm-muuke')?.checked) quyen.push('muuke');
+      if (document.getElementById('perm-chuyenranday')?.checked) quyen.push('chuyenranday');
       if (document.getElementById('perm-aiagent').checked) quyen.push('aiagent');
 
       const isDefaultAdmin = email.toLowerCase() === 'admin@gmail.com';
@@ -4269,6 +4689,7 @@
       if (document.getElementById('perm-nhannhan')) document.getElementById('perm-nhannhan').checked = false;
       if (document.getElementById('perm-thany')) document.getElementById('perm-thany').checked = false;
       if (document.getElementById('perm-muuke')) document.getElementById('perm-muuke').checked = false;
+      if (document.getElementById('perm-chuyenranday')) document.getElementById('perm-chuyenranday').checked = false;
       document.getElementById('perm-aiagent').checked = false;
 
       renderMembersList();
@@ -4303,7 +4724,7 @@
 
     async function preloadAllData() {
       try {
-        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk] = await Promise.all([
+        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd] = await Promise.all([
           fetchJsonWithCache('./data.json').catch(() => []),
           fetchJsonWithCache('./tieng_trung.json').catch(() => null),
           fetchJsonWithCache('./kinh_dich.json').catch(() => null),
@@ -4312,7 +4733,8 @@
           fetchJsonWithCache('./co_nhan.json').catch(() => []),
           fetchJsonWithCache('./nhan_nhan.json').catch(() => null),
           fetchJsonWithCache('./than_y.json').catch(() => null),
-          fetchJsonWithCache('./muu_ke.json').catch(() => null)
+          fetchJsonWithCache('./muu_ke.json').catch(() => null),
+          fetchJsonWithCache('./chuyen_ran_day.json').catch(() => null)
         ]);
 
         if (rawP && rawP.length > 0) {
@@ -4373,6 +4795,10 @@
 
         if (rawMk) {
           muuKeData = rawMk;
+        }
+
+        if (rawCrd) {
+          chuyenRanDayData = rawCrd;
         }
 
         headerStatus.textContent = 'Đã nạp toàn bộ kho tri thức';
@@ -4457,7 +4883,9 @@
       ['chinese', [' tieng trung', ' chu han', ' pinyin', ' ngu phap', ' hsk', ' bo thu', ' han tu',
         ' phat am', ' lo trinh', ' tu vung', ' dong tu', ' han viet']],
       ['muuke', [' muu ke', ' ke sach', ' muu luoc', ' binh phap', ' 36 ke', ' tam thap luc ke', ' quy coc tu',
-        ' ton tu', ' han phi tu', ' ke so', ' muu tri', ' phong than', ' dam phan', ' xu the']]
+        ' ton tu', ' han phi tu', ' ke so', ' muu tri', ' phong than', ' dam phan', ' xu the']],
+      ['chuyenranday', [' cau chuyen', ' chuyen ran day', ' bai hoc cuoc song', ' dao ly', ' ngu ngon', ' ran day',
+        ' triet ly song', ' thuc tinh', ' nhan sinh', ' nhan vat', ' chuyen so', ' chiec binh nut', ' tai ong', ' con lua', ' hac']]
     ];
 
     function aiDetectModules(question) {
@@ -4699,6 +5127,15 @@
           add('muuke', item.so_thu_tu,
             '[MƯU KẾ CỔ NHÂN - Kế #' + item.so_thu_tu + ' - ' + (item.chu_de || '') + '] ' + item.ten_ke,
             'Nguồn gốc: ' + item.nguon_goc + '. Nguyên lý: ' + item.nguyen_ly_co_nhan + '. Ứng dụng đời sống: ' + item.ung_dung_doi_song + '. Hành động: ' + item.loi_khuyen_hanh_dong);
+        });
+      }
+
+      // 10. 100 Câu Chuyện Răn Dạy Về Cuộc Sống
+      if (chuyenRanDayData && chuyenRanDayData.danh_sach_100_cau_chuyen) {
+        chuyenRanDayData.danh_sach_100_cau_chuyen.forEach(function (item) {
+          add('chuyenranday', item.so_thu_tu,
+            '[CHUYỆN RĂN DẠY - Chuyện #' + item.so_thu_tu + ' - ' + (item.chu_de || '') + '] ' + item.tieu_de,
+            'Bối cảnh/Nhân vật: ' + item.nhan_vat_nguon_goc + '. Nội dung: ' + item.noi_dung_cau_chuyen + '. Bài học răn dạy: ' + item.bai_hoc_ran_day + '. Lời khuyên ứng dụng: ' + item.loi_khuyen_ung_dung);
         });
       }
 

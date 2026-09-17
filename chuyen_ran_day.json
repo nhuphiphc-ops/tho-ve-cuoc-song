@@ -1,0 +1,913 @@
+{
+  "mo_ta": "100 Câu Chuyện Răn Dạy Về Cuộc Sống - Tuyển tập tinh hoa các câu chuyện ngụ ngôn, triết lý, thiền môn và nhân sinh kinh điển giúp người đọc soi chiếu, thức tỉnh và hoàn thiện bản thân.",
+  "tong_so_cau_chuyen": 100,
+  "danh_muc_chu_de": [
+    "Đạo Làm Người & Nhân Cách",
+    "Trí Tuệ & Góc Nhìn Cuộc Sống",
+    "Tu Tâm & Kiểm Soát Bản Thân",
+    "Gia Đình, Tình Thân & Bạn Bè",
+    "Tiền Tài, Danh Lợi & Hạnh Phúc"
+  ],
+  "danh_sach_100_cau_chuyen": [
+    {
+      "so_thu_tu": 1,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Chiếc Bình Nứt",
+      "nhan_vat_nguon_goc": "Ngụ ngôn phương Đông",
+      "noi_dung_cau_chuyen": "Người gánh nước có hai chiếc bình lớn. Một chiếc hoàn hảo mang đủ nước về nhà, chiếc kia bị nứt nên dọc đường luôn làm rỉ mất nửa thùng nước. Chiếc bình nứt rất xấu hổ và xin lỗi người gánh nước. Ông mỉm cười chỉ cho nó thấy: bên vệ đường phía chiếc bình nứt nước chảy qua, hoa cỏ nở rộ tươi đẹp rực rỡ, còn bên kia thì khô cằn. Nhờ những giọt nước rỉ ra mà ông luôn có hoa tươi cắm trên bàn.",
+      "bai_hoc_ran_day": "Mỗi con người đều có những khiếm khuyết riêng biệt. Nếu biết nhìn nhận bằng sự bao dung và tận dụng đúng chỗ, khiếm khuyết cũng có thể tạo nên những giá trị tốt đẹp cho cuộc đời.",
+      "loi_khuyen_ung_dung": "Đừng tự ti về điểm yếu của mình hay chê cười khuyết điểm của người khác. Hãy tìm kiếm góc nhìn tích cực để biến nhược điểm thành giá trị riêng."
+    },
+    {
+      "so_thu_tu": 2,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Người Ăn Xin Và Đồng Tiền Vàng",
+      "nhan_vat_nguon_goc": "Triết lý nhân sinh dân gian",
+      "noi_dung_cau_chuyen": "Một nhà buôn giàu có đi qua người ăn xin cụt tay liền ném cho ông ta một đồng vàng với vẻ khinh khỉnh. Người ăn xin từ chối nhặt và nói: 'Tôi xin lòng trắc ẩn chứ không xin sự bố thí kiêu ngạo.' Nhà buôn sững sờ, cúi người nhặt đồng tiền lên, đặt nhẹ nhàng vào lòng bàn tay người ăn xin bằng hai tay với sự tôn trọng chân thành.",
+      "bai_hoc_ran_day": "Của cho không bằng cách cho. Sự tôn trọng nhân phẩm của người khác mới là món quà cao quý nhất, vượt qua mọi giá trị vật chất.",
+      "loi_khuyen_ung_dung": "Khi giúp đỡ ai, hãy xuất phát từ lòng thấu cảm và thái độ khiêm cung, tuyệt đối tránh thái độ trịch thượng hay khoe khoang lòng tốt."
+    },
+    {
+      "so_thu_tu": 3,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Chú Tiểu Và Đóa Hoa Hồng",
+      "nhan_vat_nguon_goc": "Tích truyện Thiền môn",
+      "noi_dung_cau_chuyen": "Chú tiểu tưới hoa hồng bị gai đâm chảy máu liền bực bội định bẻ cành gai. Sư phụ thấy vậy nhẹ nhàng bảo: 'Con nhìn xem, hoa hồng thơm ngát và rực rỡ như thế nhưng vẫn phải có gai để tự vệ. Con chỉ vì một chút đau đớn nơi đầu ngón tay mà muốn hủy hoại cả vẻ đẹp của đóa hoa sao?'. Chú tiểu cúi đầu thấu hiểu.",
+      "bai_hoc_ran_day": "Không có ai trên đời là hoàn hảo tuyệt đối. Muốn đón nhận vẻ đẹp và lòng tốt của người khác, ta cũng phải học cách chấp nhận những góc cạnh và gai góc của họ.",
+      "loi_khuyen_ung_dung": "Học cách bao dung và thấu hiểu những khiếm khuyết trong tính cách của bạn bè, người thân thay vì chỉ chăm chăm chỉ trích."
+    },
+    {
+      "so_thu_tu": 4,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Người Thợ Mộc Già Và Ngôi Nhà Cuối Cùng",
+      "nhan_vat_nguon_goc": "Bài học phương Tây",
+      "noi_dung_cau_chuyen": "Một bác thợ mộc lành nghề xin nghỉ hưu. Người chủ thầu tiếc nuối và nhờ ông dựng nốt một ngôi nhà cuối cùng. Nghĩ mình sắp nghỉ, bác thợ làm việc qua loa, dùng vật liệu tạm bợ. Khi ngôi nhà hoàn thành, người chủ trao chìa khóa cho bác và nói: 'Đây là món quà tri ân tôi tặng bác'. Bác thợ mộc bàng hoàng và hối hận vì đã tự tay dựng nên ngôi nhà tồi tàn cho chính mình.",
+      "bai_hoc_ran_day": "Cuộc đời là công trình do chính bạn kiến tạo mỗi ngày. Dù làm việc gì, ở thời điểm nào, hãy dồn hết tâm huyết và trách nhiệm, bởi kết quả cuối cùng chính bạn là người thừa hưởng.",
+      "loi_khuyen_ung_dung": "Luôn giữ tinh thần trách nhiệm và sự chỉn chu trong từng công việc dù là nhỏ nhất, không bao giờ làm việc qua loa tắc trách."
+    },
+    {
+      "so_thu_tu": 5,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Vết Đinh Trên Hàng Rào",
+      "nhan_vat_nguon_goc": "Ngụ ngôn giáo dục nhân cách",
+      "noi_dung_cau_chuyen": "Một cậu bé rất nóng tính. Người cha đưa cho cậu một túi đinh và bảo mỗi khi giận dữ hãy đóng một chiếc đinh vào hàng rào gỗ. Khi cậu học được cách kiềm chế, cha bảo cậu mỗi ngày nhổ một chiếc đinh ra. Khi chiếc đinh cuối cùng được nhổ, cha dẫn cậu lại hàng rào và nói: 'Những chiếc đinh đã rút hết, nhưng những lỗ thủng trên hàng rào mãi mãi còn đó. Lời nói cay độc khi giận dữ cũng giống như vết đinh găm vào tim người khác'.",
+      "bai_hoc_ran_day": "Vết thương thể xác có thể lành lặn, nhưng vết thương do lời nói sắc nhọn gây ra sẽ để lại sẹo sâu trong tâm hồn người nghe, dù bạn có xin lỗi bao nhiêu lần.",
+      "loi_khuyen_ung_dung": "Khi cơn giận bùng phát, hãy im lặng, hít thở sâu và rời đi. Tuyệt đối không buông lời xúc phạm người khác lúc mất bình tĩnh."
+    },
+    {
+      "so_thu_tu": 6,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Tách Trà Tràn Của Thiền Sư",
+      "nhan_vat_nguon_goc": "Nan-in (Thiền tông Nhật Bản)",
+      "noi_dung_cau_chuyen": "Một giáo sư đại học đến gặp thiền sư Nan-in để hỏi về Thiền. Trong khi đàm đạo, thiền sư rót trà vào chén của vị khách. Nước trà đã đầy nhưng ngài vẫn tiếp tục rót khiến nước tràn lênh láng. Vị giáo sư ngạc nhiên kêu lên: 'Trà tràn rồi, không chứa thêm được nữa đâu!'. Thiền sư mỉm cười: 'Tâm trí ông cũng đầy ắp những định kiến như chén trà này, nếu không đổ bớt đi thì làm sao tôi dạy Thiền cho ông được?'.",
+      "bai_hoc_ran_day": "Muốn tiếp thu tri thức mới và nhìn nhận sự việc khách quan, con người cần phải có tâm thế khiêm nhường, buông bỏ cái tôi và những định kiến cố hữu.",
+      "loi_khuyen_ung_dung": "Luôn giữ tâm thế 'chiếc cốc rỗng' khi lắng nghe và học hỏi từ người khác, bất kể họ ở độ tuổi hay vị trí nào."
+    },
+    {
+      "so_thu_tu": 7,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Hai Người Bạn Và Bãi Cát Sa Mạc",
+      "nhan_vat_nguon_goc": "Truyện ngụ ngôn Ả Rập",
+      "noi_dung_cau_chuyen": "Hai người bạn đi qua sa mạc. Trong lúc tranh cãi, người này tát người kia một cái. Người bị tát im lặng viết lên cát: 'Hôm nay bạn thân nhất tát tôi'. Đến một ốc đảo, người bị tát bị sa lầy và được bạn cứu sống. Lần này anh khắc lên tảng đá: 'Hôm nay bạn thân nhất cứu sống mạng tôi'. Người bạn hỏi vì sao, anh trả lời: 'Nỗi đau hãy viết lên cát để gió xóa đi, còn ân tình phải khắc vào đá để mãi không phai mờ'.",
+      "bai_hoc_ran_day": "Oán hờn nên mau chóng quên đi như cát bụi, còn ân nghĩa phải khắc sâu vào tận đáy lòng. Sống biết ơn là cội nguồn của hạnh phúc và đạo làm người.",
+      "loi_khuyen_ung_dung": "Ghi nhớ những sự giúp đỡ của người khác dù nhỏ nhất, đồng thời học cách tha thứ và bỏ qua những xích mích không đáng có."
+    },
+    {
+      "so_thu_tu": 8,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Cậu Bé Và Con Sao Biển",
+      "nhan_vat_nguon_goc": "Loren Eiseley",
+      "noi_dung_cau_chuyen": "Sau một đêm bão lớn, hàng ngàn con sao biển bị sóng đánh dạt lên bờ cát. Một cụ già thấy một cậu bé đang cặm cụi nhặt từng con sao biển ném trả về đại dương. Cụ già nói: 'Bờ biển dài vô tận, có hàng vạn con sao biển, làm sao cháu cứu hết được? Việc làm của cháu có ý nghĩa gì đâu!'. Cậu bé nhặt một con sao biển khác ném xuống nước rồi mỉm cười đáp: 'Nhưng nó có ý nghĩa rất lớn với con sao biển này ạ'.",
+      "bai_hoc_ran_day": "Đừng vì thấy việc thiện nhỏ bé mà không làm. Mỗi hành động tử tế dù khiêm nhường đến đâu cũng đều mang lại sự thay đổi to lớn cho sinh mệnh được giúp đỡ.",
+      "loi_khuyen_ung_dung": "Hãy tích cực làm những việc tốt nhỏ bé mỗi ngày, đừng chờ đợi phải làm việc vĩ đại mới bắt đầu lan tỏa lòng nhân ái."
+    },
+    {
+      "so_thu_tu": 9,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Bài Học Từ Cây Tre",
+      "nhan_vat_nguon_goc": "Triết lý tự nhiên Á Đông",
+      "noi_dung_cau_chuyen": "Hạt giống cây tre sau khi gieo xuống đất, suốt 4 năm đầu chỉ nhú lên được vài centimet nhỏ nhoi. Nhưng bên dưới lòng đất, bộ rễ của nó đã âm thầm đâm sâu và lan rộng hàng trăm mét. Đến năm thứ 5, cây tre vươn mình phát triển thần tốc, mỗi ngày có thể cao thêm 30cm và chỉ trong 6 tuần đã cao tới hơn 15 mét.",
+      "bai_hoc_ran_day": "Thành công bền vững đòi hỏi quá trình tích lũy nội lực âm thầm và bền bỉ. Đừng nản lòng khi nỗ lực chưa thấy kết quả ngay, bởi bạn đang bén rễ thật sâu vào cuộc đời.",
+      "loi_khuyen_ung_dung": "Kiên trì rèn luyện kỹ năng, đạo đức và tri thức mỗi ngày, không nóng vội tìm kiếm thành công chớp nhoáng thiếu nền tảng."
+    },
+    {
+      "so_thu_tu": 10,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Con Bướm Và Cái Kén",
+      "nhan_vat_nguon_goc": "Ngụ ngôn giáo dục",
+      "noi_dung_cau_chuyen": "Một người đàn ông thấy con bướm đang cố gắng chui qua chiếc lỗ nhỏ trên kén. Thấy nó vùng vẫy đau đớn mãi không ra được, ông thương hại lấy kéo cắt rách cái kén giúp nó thoát ra dễ dàng. Nhưng con bướm chỉ có cơ thể sưng phồng và đôi cánh teo tóp, nó không bao giờ có thể bay lên được. Sự co bóp ép mình qua kén chính là quy luật tự nhiên giúp chất lỏng từ thân chảy vào cánh để bướm có sức bay.",
+      "bai_hoc_ran_day": "Những thử thách, gian nan trong cuộc sống là điều kiện tất yếu để tôi luyện ý chí và sức mạnh nội tại. Trốn tránh khó khăn sẽ khiến ta mãi mãi yếu đuối.",
+      "loi_khuyen_ung_dung": "Dũng cảm đối mặt với thử thách cá nhân và để con cái, cấp dưới tự vượt qua khó khăn để trưởng thành thực sự."
+    },
+    {
+      "so_thu_tu": 11,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Ngọn Nến Leo Lét Trong Gió",
+      "nhan_vat_nguon_goc": "Ngụ ngôn đạo đức",
+      "noi_dung_cau_chuyen": "Bốn ngọn nến cùng cháy trong căn phòng: ngọn nến Hòa Bình, ngọn nến Niềm Tin, ngọn nến Tình Yêu và ngọn nến Hy Vọng. Ba ngọn nến đầu lần lượt bị gió thổi tắt vì sự vô cảm và thù hận của con người. Một đứa trẻ bước vào khóc nức nở. Ngọn nến thứ tư dịu dàng nói: 'Đừng sợ, chừng nào tôi còn cháy thì chúng ta vẫn có thể thắp sáng lại Hòa Bình, Niềm Tin và Tình Yêu'. Đứa trẻ vui mừng dùng ngọn nến Hy Vọng thắp sáng lại cả ba ngọn nến.",
+      "bai_hoc_ran_day": "Dù cuộc sống có rơi vào hoàn cảnh tăm tối và bế tắc đến đâu, chỉ cần không đánh mất niềm hy vọng, ta luôn có thể dựng xây lại tất cả.",
+      "loi_khuyen_ung_dung": "Giữ vững niềm tin và tinh thần lạc quan trước nghịch cảnh, đồng thời trở thành điểm tựa tinh thần tiếp thêm hy vọng cho người khác."
+    },
+    {
+      "so_thu_tu": 12,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Vị Vua Và Bức Tranh Bình Yên",
+      "nhan_vat_nguon_goc": "Tích truyện nghệ thuật phương Đông",
+      "noi_dung_cau_chuyen": "Nhà vua mở cuộc thi vẽ bức tranh về sự 'Bình Yên Thật Sự'. Nhiều họa sĩ vẽ cảnh hồ nước phẳng lặng như gương hay thảo nguyên thanh bình. Nhưng bức tranh đoạt giải nhất lại vẽ một vách đá cheo leo giữa cơn bão giông gầm rú, trên khe đá có một tổ chim nhỏ, chim mẹ đang bình thản ủ ấm cho đàn con say ngủ giữa sấm chớp.",
+      "bai_hoc_ran_day": "Bình yên không phải là ở một nơi không có tiếng ồn ào, không có khó khăn hay giông bão. Bình yên đích thực là ngay giữa tâm bão, tâm hồn ta vẫn tĩnh lặng và vững vàng.",
+      "loi_khuyen_ung_dung": "Rèn luyện sự vững vàng nội tâm trước những áp lực và biến động cuộc sống, không để ngoại cảnh chi phối cảm xúc."
+    },
+    {
+      "so_thu_tu": 13,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Cậu Bé Và Hũ Kẹo",
+      "nhan_vat_nguon_goc": "Ngụ ngôn Aesop",
+      "noi_dung_cau_chuyen": "Một cậu bé thò tay vào chiếc hũ cổ hẹp và nắm chặt một nắm kẹo thật lớn. Nhưng cổ hũ quá hẹp, bàn tay nắm chặt kẹo không thể rút ra được. Cậu bé vừa đau vừa sợ liền òa khóc nức nở. Một người lớn đi qua bảo: 'Cháu chỉ cần buông bớt một nửa số kẹo ra, nắm tay nhỏ lại sẽ dễ dàng rút ra thôi'. Cậu bé làm theo và rút tay ra nhẹ nhàng.",
+      "bai_hoc_ran_day": "Lòng tham quá lớn chính là chiếc còng tự trói buộc sự tự do và niềm vui của con người. Biết buông bỏ lòng tham là khởi đầu của sự thanh thản.",
+      "loi_khuyen_ung_dung": "Học cách biết đủ, không cố chấp ôm đồm quá nhiều mục tiêu hay ham muốn vật chất vượt quá khả năng."
+    },
+    {
+      "so_thu_tu": 14,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Đôi Giày Rơi Trên Tàu Của Gandhi",
+      "nhan_vat_nguon_goc": "Mahatma Gandhi",
+      "noi_dung_cau_chuyen": "Khi Mahatma Gandhi vừa bước lên một chuyến tàu hỏa đang chuyển bánh, một chiếc giày của ông vô tình trượt khỏi chân và rơi xuống đường ray. Không thể xuống lấy lại, ông liền bình thản cởi nốt chiếc giày còn lại và ném xuống cùng vị trí với chiếc đầu tiên. Người bên cạnh ngạc nhiên hỏi lý do, ông mỉm cười: 'Nếu một người nghèo nào đó nhặt được, họ sẽ có trọn vẹn cả một đôi giày để đi'.",
+      "bai_hoc_ran_day": "Tâm hồn cao thượng luôn biết nghĩ cho lợi ích của người khác ngay trong những hoàn cảnh mất mát của chính mình.",
+      "loi_khuyen_ung_dung": "Khi gặp chuyện không may mất mát, thay vì đau buồn vô ích, hãy chuyển hóa suy nghĩ để biến điều đó thành cơ hội giúp ích cho ai đó."
+    },
+    {
+      "so_thu_tu": 15,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Người Mù Và Ngọn Đèn Lồng",
+      "nhan_vat_nguon_goc": "Thiền học phương Đông",
+      "noi_dung_cau_chuyen": "Một người mù đi trong đêm tối luôn xách theo một chiếc đèn lồng sáng rực. Người qua đường thấy lạ liền chế giễu: 'Ông không nhìn thấy đường, xách đèn lồng làm gì cho phí công?'. Người mù điềm đạm trả lời: 'Tôi xách đèn lồng không phải để tôi thấy đường, mà là để người sáng mắt trong đêm nhìn thấy tôi và không vô tình đâm sầm vào tôi'.",
+      "bai_hoc_ran_day": "Nghĩ cho người khác và thấu hiểu góc nhìn của cộng đồng cũng chính là cách bảo vệ và đem lại sự an toàn cho chính bản thân mình.",
+      "loi_khuyen_ung_dung": "Trong giao tiếp và hành xử nơi công cộng, hãy luôn chủ động tạo điều kiện thuận lợi và an toàn cho mọi người xung quanh."
+    },
+    {
+      "so_thu_tu": 16,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Ba Câu Hỏi Của Vị Vua",
+      "nhan_vat_nguon_goc": "Lev Tolstoy",
+      "noi_dung_cau_chuyen": "Một vị vua luôn trăn trở 3 câu hỏi: Thời điểm nào quan trọng nhất? Ai là người quan trọng nhất? Việc gì quan trọng nhất? Sau khi gặp nhà thông thái trên núi, ông đã tự nghiệm ra: Thời điểm quan trọng nhất là HIỆN TẠI; Người quan trọng nhất là NGƯỜI ĐANG Ở TRƯỚC MẶT; Việc quan trọng nhất là LÀM ĐIỀU TỐT ĐẸP CHO NGƯỜI ĐÓ.",
+      "bai_hoc_ran_day": "Đừng sống trong tiếc nuối quá khứ hay lo âu tương lai. Hãy sống trọn vẹn từng giây phút của hiện tại bằng tình yêu thương và sự chân thành.",
+      "loi_khuyen_ung_dung": "Tập trung 100% sự chú ý và lòng trắc ẩn cho người bạn đang trò chuyện và việc bạn đang thực hiện ngay lúc này."
+    },
+    {
+      "so_thu_tu": 17,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Nước Và Tảng Đá",
+      "nhan_vat_nguon_goc": "Đạo Đức Kinh - Lão Tử",
+      "noi_dung_cau_chuyen": "Nước mềm mại, không có hình thù cố định, luôn chảy xuống chỗ thấp và len lỏi qua mọi kẽ hở. Nhưng từng giọt nước nhỏ đều đặn ngày qua ngày có thể xuyên thủng tảng đá hoa cương cứng rắn nhất. Dòng nước lũ có thể cuốn phăng mọi chướng ngại vật sừng sững.",
+      "bai_hoc_ran_day": "Nhu thắng cương, mềm dẻo thắng cứng rắn. Sự khiêm nhường, linh hoạt và kiên trì có sức mạnh to lớn hơn bạo lực và sự cứng nhắc thô bạo.",
+      "loi_khuyen_ung_dung": "Ứng xử nhã nhặn, linh hoạt trong mọi tình huống tranh chấp; kiên trì theo đuổi mục tiêu thay vì dùng sự đối đầu gay gắt."
+    },
+    {
+      "so_thu_tu": 18,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Hai Con Sói Trong Tâm",
+      "nhan_vat_nguon_goc": "Truyền thuyết thổ dân Cherokee",
+      "noi_dung_cau_chuyen": "Một già làng dạy đứa cháu về cuộc chiến nội tâm: 'Trong mỗi con người luôn có hai con sói đang cắn xé nhau dữ dội. Một con đại diện cho sự giận dữ, ghen ghét, ích kỷ, dối trá và kiêu ngạo. Con kia đại diện cho tình yêu, lòng trắc ẩn, sự khiêm tốn, biết ơn và chân thật'. Cậu bé hỏi: 'Vậy con sói nào sẽ thắng hả ông?'. Già làng trả lời: 'Con sói mà cháu thường xuyên cho nó ăn'.",
+      "bai_hoc_ran_day": "Nhân cách con người phụ thuộc vào những suy nghĩ và cảm xúc mà ta dung dưỡng hàng ngày. Nuôi dưỡng thiện niệm thì tâm tính an lành, dung dưỡng ác niệm thì tâm hồn mục ruỗng.",
+      "loi_khuyen_ung_dung": "Có ý thức chọn lọc những điều tích cực để đọc, nghe và suy ngẫm; chủ động loại bỏ cảm xúc ghen tị và đố kỵ."
+    },
+    {
+      "so_thu_tu": 19,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Gánh Nặng Quá Khứ Và Hai Nhà Sư",
+      "nhan_vat_nguon_goc": "Thiền thoại Á Đông",
+      "noi_dung_cau_chuyen": "Hai nhà sư đi qua con suối nước dâng cao. Thấy một cô gái trẻ không dám qua, sư huynh liền bế cô qua suối rồi đặt xuống, hai người tiếp tục đi. Đi suốt nửa ngày trời, sư đệ bực dọc không chịu nổi liền trách: 'Người tu hành sao huynh dám ôm ấp đàn bà như thế?'. Sư huynh mỉm cười: 'Ta đã đặt cô ấy xuống bên bờ suối từ trưa rồi, sao đệ vẫn còn vác cô ấy trong lòng đến tận bây giờ?'.",
+      "bai_hoc_ran_day": "Những chuyện đã qua hãy để nó qua đi. Ôm giữ những phán xét, chấp niệm và định kiến trong lòng chỉ tự làm nặng nề bước chân cuộc đời mình.",
+      "loi_khuyen_ung_dung": "Học cách buông xả những hiểu lầm, phán xét và ấm ức quá khứ để tâm hồn được nhẹ nhõm bước tiếp."
+    },
+    {
+      "so_thu_tu": 20,
+      "chu_de": "Đạo Làm Người & Nhân Cách",
+      "tieu_de": "Hạt Giống Không Nảy Mầm",
+      "nhan_vat_nguon_goc": "Tích xưa phương Đông",
+      "noi_dung_cau_chuyen": "Vua già muốn tìm người kế vị liền phát cho mỗi chàng trai trong vương quốc một hạt giống hoa và hẹn năm sau ai mang đến chậu hoa đẹp nhất sẽ được chọn. Một chàng trai chăm chỉ tưới nước nhưng hạt giống mãi không nảy mầm. Đến hẹn, mọi người đều mang đến chậu hoa rực rỡ, chỉ riêng chàng mang đến chậu đất trống không. Nhà vua mỉm cười chọn chàng làm vua và tuyên bố: 'Tất cả hạt giống ta phát đều đã được luộc chín. Sự trung thực của con quý hơn vạn đóa hoa dối trá'.",
+      "bai_hoc_ran_day": "Trung thực là phẩm chất cao quý nhất của con người. Có thể bạn sẽ chịu thiệt thòi trước mắt, nhưng chữ tín và sự ngay thẳng sẽ mang lại phần thưởng vô giá lâu dài.",
+      "loi_khuyen_ung_dung": "Giữ vững sự trung thực trong lời nói và hành động, không vì chạy theo thành tích hay hư danh mà gian lận."
+    },
+    {
+      "so_thu_tu": 21,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Bốn Người Thầy Mù Xem Voi",
+      "nhan_vat_nguon_goc": "Phật giáo & Dân gian Ấn Độ",
+      "noi_dung_cau_chuyen": "Bốn người mù sờ một con voi. Người sờ vòi bảo voi giống con đỉa khổng lồ; người sờ ngà bảo voi như cái đòn càn; người sờ chân bảo voi như cái cột đình; người sờ tai bảo voi như cái quạt nan. Họ cãi nhau kịch liệt và cho rằng người khác sai. Một người sáng mắt đi qua bảo: 'Các ông ai cũng đúng một phần, nhưng con voi tổng thể chứa đựng tất cả những điều đó'.",
+      "bai_hoc_ran_day": "Góc nhìn của mỗi cá nhân luôn bị giới hạn bởi kinh nghiệm và hiểu biết hạn hẹp. Đừng vội vàng phán xét hay khẳng định mình là người duy nhất nắm giữ chân lý toàn diện.",
+      "loi_khuyen_ung_dung": "Lắng nghe quan điểm đa chiều của người khác trước khi đưa ra quyết định, tránh định kiến phiến diện 'thầy bói xem voi'."
+    },
+    {
+      "so_thu_tu": 22,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Con Lừa Rơi Xuống Giếng",
+      "nhan_vat_nguon_goc": "Triết lý xử thế hiện đại",
+      "noi_dung_cau_chuyen": "Một con lừa già sẩy chân rơi xuống đáy giếng cạn. Người chủ thấy không cứu được liền quyết định xúc đất lấp giếng để chôn nó. Từng xẻng đất đổ lên lưng, con lừa hoảng loạn nhưng rồi nó quyết định: mỗi khi đất rơi xuống, nó lắc mình cho đất rơi xuống chân rồi dẫm lên đó bước lên một bước. Cuối cùng, nhờ chính những xẻng đất vùi dập, con lừa đã trèo lên miệng giếng và thoát chết.",
+      "bai_hoc_ran_day": "Những khó khăn, bùn đất mà cuộc đời ném vào bạn có thể trở thành nấc thang giúp bạn bước lên tầm cao mới, miễn là bạn biết rũ bỏ và bước lên trên nó.",
+      "loi_khuyen_ung_dung": "Biến áp lực và chỉ trích thành động lực phát triển bản thân, không chịu đầu hàng trước nghịch cảnh."
+    },
+    {
+      "so_thu_tu": 23,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Bí Quyết Của Hạnh Phúc Và Hai Giọt Dầu",
+      "nhan_vat_nguon_goc": "Nhà Giả Kim - Paulo Coelho",
+      "noi_dung_cau_chuyen": "Chàng trai đến lâu đài của nhà thông thái hỏi bí quyết hạnh phúc. Nhà thông thái trao cho chàng một chiếc muỗng chứa hai giọt dầu và bảo đi dạo ngắm lâu đài nhưng không được làm đổ dầu. Lần đầu, chàng chỉ chăm chú nhìn muỗng dầu nên chẳng thấy được vẻ đẹp của lâu đài. Lần thứ hai, mải ngắm cảnh đẹp chàng lại làm rớt hết dầu. Nhà thông thái nói: 'Hạnh phúc là chiêm ngưỡng mọi kỳ quan thế gian nhưng không bao giờ quên hai giọt dầu trên muỗng'.",
+      "bai_hoc_ran_day": "Hạnh phúc đích thực là sự cân bằng: vừa tận hưởng những vẻ đẹp tuyệt diệu của cuộc sống, vừa giữ tròn trách nhiệm và những giá trị cốt lõi của bản thân.",
+      "loi_khuyen_ung_dung": "Cân bằng giữa công việc, đam mê và trách nhiệm đối với bản thân, gia đình."
+    },
+    {
+      "so_thu_tu": 24,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Chiếc Cầu Thang Lên Đỉnh Tháp",
+      "nhan_vat_nguon_goc": "Triết lý hành động",
+      "noi_dung_cau_chuyen": "Một lữ khách đứng dưới chân ngọn tháp cao nghìn bậc cảm thấy choáng ngợp và tuyệt vọng không dám bước tiếp. Một cụ già đi qua nói: 'Con đâu cần phải leo một lúc nghìn bậc, con chỉ cần bước một bậc ngay trước mắt con thôi'. Lữ khách nghe lời, tập trung vào từng bước chân và chẳng mấy chốc đã đứng trên đỉnh tháp ngắm nhìn toàn cảnh huy hoàng.",
+      "bai_hoc_ran_day": "Hành trình vạn dặm bắt đầu từ một bước chân. Đừng để sự vĩ đại của mục tiêu làm bạn sợ hãi, hãy chia nhỏ và hoàn thành xuất sắc từng bước hiện tại.",
+      "loi_khuyen_ung_dung": "Chia nhỏ kế hoạch lớn thành những nhiệm vụ cụ thể hàng ngày và kiên trì thực hiện từng bước."
+    },
+    {
+      "so_thu_tu": 25,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Hòn Đá Giữa Đường",
+      "nhan_vat_nguon_goc": "Tích cổ phương Tây",
+      "noi_dung_cau_chuyen": "Một vị vua đặt một tảng đá lớn chắn giữa con đường đông đúc rồi nấp sau bụi cây quan sát. Nhiều thương nhân và quan lại đi qua chỉ bực bội phàn nàn và đi vòng qua. Cuối cùng, một người nông dân gánh rau đi tới, ông đặt gánh xuống và dồn hết sức lực đẩy tảng đá vào lề đường. Dưới chỗ tảng đá vừa nằm là một túi vàng của nhà vua cùng lá thư: 'Dành tặng người dũng cảm dọn sạch chướng ngại vật'.",
+      "bai_hoc_ran_day": "Mỗi trở ngại và khó khăn trong cuộc đời đều ẩn chứa một cơ hội ngầm giúp ta phát triển và nhận được những phần thưởng xứng đáng.",
+      "loi_khuyen_ung_dung": "Thay vì than phiền khi gặp vấn đề, hãy chủ động xắn tay áo tìm giải pháp tháo gỡ."
+    },
+    {
+      "so_thu_tu": 26,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Người Tiều Phu Và Chiếc Rìu Cùn",
+      "nhan_vat_nguon_goc": "Bài học quản trị thời gian",
+      "noi_dung_cau_chuyen": "Một tiều phu cặm cụi đốn cây suốt từ sáng đến tối, mồ hôi nhễ nhại nhưng số lượng cây đốn được ngày càng ít đi vì lưỡi rìu đã cùn vẹt. Người qua đường khuyên ông nên dừng lại mài sắc lưỡi rìu. Tiều phu gắt gỏng: 'Tôi bận đốn cây đến mức không có thời gian đâu mà mài rìu!'.",
+      "bai_hoc_ran_day": "Làm việc chăm chỉ mà thiếu phương pháp và không chịu nâng cấp bản thân sẽ chỉ dẫn đến kiệt sức và hiệu quả thấp. Dành thời gian học tập, bồi dưỡng tri thức chính là hành động 'mài sắc lưỡi rìu'.",
+      "loi_khuyen_ung_dung": "Dành thời gian cố định mỗi tuần để học tập, rèn luyện kỹ năng và nạp lại năng lượng cho cơ thể và trí óc."
+    },
+    {
+      "so_thu_tu": 27,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Đàn Ếch Và Cái Hố Sâu",
+      "nhan_vat_nguon_goc": "Ngụ ngôn tâm lý học",
+      "noi_dung_cau_chuyen": "Hai con ếch không may rơi xuống hố sâu. Cả đàn ếch trên miệng hố nhao nhao hét lên: 'Hố sâu quá, không nhảy lên được đâu, bỏ cuộc đi!'. Một con ếch nghe vậy nản lòng buông xuôi và kiệt sức chết. Con ếch còn lại vẫn miệt mài nhảy và cuối cùng nhảy thoát ra ngoài. Khi đàn ếch xúm lại khen ngợi, chúng mới phát hiện ra con ếch này bị điếc, nó tưởng cả đàn ở trên đang vỗ tay cổ vũ cho nó.",
+      "bai_hoc_ran_day": "Lời nói tiêu cực của đám đông có thể dập tắt ý chí của bạn. Đôi khi trong cuộc sống, bạn phải học cách 'bị điếc' trước những lời bàn lùi để kiên định tiến tới mục tiêu.",
+      "loi_khuyen_ung_dung": "Bỏ ngoài tai những lời phán xét tiêu cực, hoài nghi của người khác về ước mơ và con đường chân chính của bạn."
+    },
+    {
+      "so_thu_tu": 28,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Con Đại Bàng Nuôi Trong Chuồng Gà",
+      "nhan_vat_nguon_goc": "Triết lý phát triển tiềm năng",
+      "noi_dung_cau_chuyen": "Một quả trứng đại bàng rơi vào ổ gà và được gà mẹ ấp nở. Đại bàng con lớn lên cùng bầy gà, bới giun và chỉ đập cánh bay là là dưới đất. Một ngày nọ, nó nhìn lên bầu trời thấy một loài chim dũng mãnh sải cánh lượn giữa tầng mây. Nó trầm trồ hỏi: 'Đó là chim gì mà oai vệ thế?'. Gà mẹ bảo: 'Đó là chúa tể đại bàng, còn chúng ta chỉ là gà, đừng mơ mộng'. Đại bàng con tin lời và sống trọn đời như một con gà.",
+      "bai_hoc_ran_day": "Môi trường và niềm tin giới hạn có thể chôn vùi tiềm năng vĩ đại của bạn. Bạn là ai phụ thuộc vào niềm tin và khát vọng bên trong bạn chứ không phải định kiến xung quanh.",
+      "loi_khuyen_ung_dung": "Dám ước mơ lớn, tìm kiếm môi trường tích cực và những người thầy giỏi để phát huy hết năng lực bản thân."
+    },
+    {
+      "so_thu_tu": 29,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Cây Sồi Và Cây Lau Sậy",
+      "nhan_vat_nguon_goc": "Ngụ ngôn Jean de La Fontaine",
+      "noi_dung_cau_chuyen": "Cây sồi khổng lồ tự hào về thân hình vững chãi, luôn chế giễu bụi lau sậy bên bờ suối là yếu ớt, chỉ một cơn gió nhẹ cũng phải cúi rạp mình. Khi một trận cuồng phong bão táp ập tới, cây sồi cứng nhắc gồng mình chống cự và bị bẻ gãy bật gốc đổ rạp. Trong khi đó, bụi lau sậy mềm dẻo uốn mình theo chiều gió, khi bão tan lại hiên ngang vươn thẳng tươi tốt.",
+      "bai_hoc_ran_day": "Sự cứng nhắc, bảo thủ và kiêu ngạo sẽ dễ bị gãy đổ trước những biến cố lớn. Linh hoạt, thích nghi và biết nhẫn nhịn đúng lúc là trí tuệ sinh tồn cao nhất.",
+      "loi_khuyen_ung_dung": "Học cách thích nghi linh hoạt với những thay đổi của hoàn cảnh, không cố chấp bám víu vào những gì đã lỗi thời."
+    },
+    {
+      "so_thu_tu": 30,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Cốc Nước Muối Và Hồ Nước Lớn",
+      "nhan_vat_nguon_goc": "Bài học Phật giáo",
+      "noi_dung_cau_chuyen": "Một chàng trai đau khổ tìm đến thiền sư xin lời khuyên. Thiền sư lấy một nắm muối bỏ vào cốc nước rồi bảo chàng trai uống. Chàng nhăn mặt: 'Chát đắng không nuốt nổi!'. Thiền sư lại dẫn chàng ra bờ hồ lớn, ném một nắm muối xuống nước rồi bảo chàng múc uống. Chàng trai khen: 'Nước ngọt mát lành lắm thưa thầy'. Thiền sư dạy: 'Nỗi khổ đau trong đời như nắm muối, còn tâm hồn con như cốc nước hay hồ nước là do con quyết định'.",
+      "bai_hoc_ran_day": "Khi dung lượng trái tim và tâm hồn đủ rộng lớn, những cay đắng, ấm ức trong cuộc đời sẽ chẳng thể làm vẫn đục sự an lạc của bạn.",
+      "loi_khuyen_ung_dung": "Mở rộng lòng bao dung và tầm nhìn, không để những xích mích nhỏ nhen làm tổn thương tâm hồn."
+    },
+    {
+      "so_thu_tu": 31,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Mài Gạch Thành Gương",
+      "nhan_vat_nguon_goc": "Thiền thoại Nam Nhạc Hoài Nhượng",
+      "noi_dung_cau_chuyen": "Thiền sư Mã Tổ ngày đêm ngồi thiền mong thành Phật. Sư phụ Nam Nhạc thấy vậy liền lấy một viên gạch ra mài liên tục trước mặt ông. Mã Tổ tò mò hỏi: 'Thầy mài gạch làm gì thế ạ?'. Sư phụ đáp: 'Ta mài gạch thành gương soi'. Mã Tổ cười: 'Mài gạch sao thành gương được?'. Sư phụ đáp: 'Mài gạch không thể thành gương, vậy ngồi thiền sao có thể thành Phật nếu tâm trí còn u mê bám chấp vào hình thức?'.",
+      "bai_hoc_ran_day": "Phương pháp đúng và nhận thức cốt lõi quan trọng hơn sự nỗ lực mù quáng vào hình thức bên ngoài.",
+      "loi_khuyen_ung_dung": "Luôn xem xét bản chất cốt lõi của công việc và phương pháp tiếp cận trước khi dồn sức hành động."
+    },
+    {
+      "so_thu_tu": 32,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Con Rùa Và Con Đại Bàng",
+      "nhan_vat_nguon_goc": "Triết lý tôn trọng sự khác biệt",
+      "noi_dung_cau_chuyen": "Con rùa thấy đại bàng bay lượn trên trời liền cầu xin đại bàng dạy mình bay. Đại bàng từ chối bảo rùa sinh ra không có cánh. Rùa nài nỉ mãi, đại bàng đành cắp rùa lên cao rồi thả ra. Rùa rơi thẳng xuống vách đá vỡ nát mai. Rùa hấp hối hối hận: 'Ta vốn có chiếc mai vững chắc bảo vệ trên mặt đất, sao lại dại dột đòi bay lượn trên trời?'.",
+      "bai_hoc_ran_day": "Mỗi cá nhân sinh ra đều có sở trường và vị trí riêng biệt. Chạy theo những điều hào nhoáng không phù hợp với bản chất sẽ tự rước họa vào thân.",
+      "loi_khuyen_ung_dung": "Thấu hiểu năng lực cốt lõi của bản thân, phát huy tối đa thế mạnh riêng thay vì ghen tị và bắt chước người khác mù quáng."
+    },
+    {
+      "so_thu_tu": 33,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Căn Phòng Nghìn Chiếc Gương",
+      "nhan_vat_nguon_goc": "Ngụ ngôn tâm thức",
+      "noi_dung_cau_chuyen": "Có một căn phòng được lắp một nghìn chiếc gương xung quanh. Một chú chó hung dữ bước vào, nhìn thấy nghìn con chó khác đang nhe nanh gầm gừ với mình liền sủa điên cuồng và lăn lộn cắn xé đến kiệt sức chết. Một chú chó vui vẻ khác bước vào, nhìn thấy nghìn chú chó đang vẫy đuôi mỉm cười với mình liền nhảy múa hân hoan và tràn ngập niềm vui.",
+      "bai_hoc_ran_day": "Thế giới xung quanh chính là tấm gương phản chiếu tâm hồn bạn. Bạn trao đi nụ cười và thiện chí, thế giới sẽ đáp lại bằng yêu thương. Bạn trao đi thù hận, bạn sẽ nhận lại sự cay đắng.",
+      "loi_khuyen_ung_dung": "Chủ động mỉm cười và lan tỏa năng lượng tích cực đến mọi người xung quanh mỗi ngày."
+    },
+    {
+      "so_thu_tu": 34,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Hai Người Bệnh Nhân Bên Cửa Sổ",
+      "nhan_vat_nguon_goc": "Câu chuyện cảm động phương Tây",
+      "noi_dung_cau_chuyen": "Hai người bệnh nặng nằm cùng phòng. Người nằm cạnh cửa sổ mỗi ngày đều say sưa miêu tả cho người bạn liệt giường cảnh tượng bên ngoài: công viên xanh ngát, hồ nước có bầy thiên nga bơi lội, những đôi lứa hạnh phúc nắm tay nhau. Khi người bạn bên cửa sổ qua đời, người kia xin chuyển giường lại gần để ngắm nhìn. Anh bàng hoàng phát hiện bên ngoài cửa sổ chỉ là một bức tường gạch xám xịt trơ trọi.",
+      "bai_hoc_ran_day": "Vẻ đẹp cuộc sống được kiến tạo từ tình yêu thương và sự lạc quan bên trong tâm hồn. Biết đem lại niềm vui và hy vọng cho người khác là phẩm chất tuyệt đẹp.",
+      "loi_khuyen_ung_dung": "Dùng lời nói và sự lạc quan để khích lệ những người đang gặp khó khăn, tuyệt vọng."
+    },
+    {
+      "so_thu_tu": 35,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Tái Ông Thất Mã",
+      "nhan_vat_nguon_goc": "Hoài Nam Tử - Cổ học Tinh hoa",
+      "noi_dung_cau_chuyen": "Tái Ông mất con ngựa quý, hàng xóm đến chia buồn, ông bảo: 'Biết đâu là phúc?'. Vài tháng sau ngựa trở về dắt theo đàn ngựa hoang tuyệt đẹp, hàng xóm chúc mừng, ông bảo: 'Biết đâu là họa?'. Con trai ông cưỡi ngựa ngã gãy chân, hàng xóm chia buồn, ông bảo: 'Biết đâu là phúc?'. Giặc ngoại xâm kéo đến, trai tráng trong làng đều phải đi lính và tử trận, chỉ riêng con trai ông tàn tật được ở nhà sống sót.",
+      "bai_hoc_ran_day": "Họa và phúc trong đời luôn chuyển hóa khôn lường. Trong họa có phúc, trong phúc có họa. Giữ tâm thái an nhiên, không quá bi quan khi gặp nạn, không kiêu căng khi đắc chí.",
+      "loi_khuyen_ung_dung": "Bình thản đón nhận mọi biến cố cuộc đời với tâm thế điềm tĩnh, lạc quan và tìm kiếm cơ hội ẩn giấu trong khó khăn."
+    },
+    {
+      "so_thu_tu": 36,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Chiếc Xe Chở Rác Cảm Xúc",
+      "nhan_vat_nguon_goc": "David J. Pollay",
+      "noi_dung_cau_chuyen": "Một hành khách đi taxi, bất ngờ một chiếc xe khác tạt đầu suýt gây tai nạn rồi tài xế xe kia còn thò đầu ra chửi bới thậm tệ. Bác tài taxi chỉ mỉm cười và vẫy tay chào thân thiện. Hành khách ngạc nhiên hỏi sao không mắng lại, bác tài đáp: 'Nhiều người như những chiếc xe chở đầy rác rưởi (thất vọng, giận dữ). Họ cần tìm nơi để xả rác. Nếu mình tiếp nhận, mình sẽ biến thành thùng rác của họ'.",
+      "bai_hoc_ran_day": "Đừng để sự tiêu cực và tức giận của người khác làm hủy hoại một ngày tốt lành của bạn. Mỉm cười, bỏ qua và bước tiếp.",
+      "loi_khuyen_ung_dung": "Không tranh cãi với những người đang trút giận vô cớ; giữ vững năng lượng tích cực cho riêng mình."
+    },
+    {
+      "so_thu_tu": 37,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Người Bắt Bướm Và Khu Vườn Hoa",
+      "nhan_vat_nguon_goc": "Triết lý nhân sinh Á Đông",
+      "noi_dung_cau_chuyen": "Một người cầm vợt chạy đuổi theo từng con bướm cả ngày mệt mỏi nhưng chẳng bắt được con nào, bướm lại sợ hãi bay mất. Một người khác thong thả dành thời gian gieo hạt, chăm sóc một khu vườn hoa rực rỡ ngát hương. Chẳng bao lâu sau, hàng ngàn đàn bướm xinh đẹp tự bay đến rập rờn trong khu vườn của anh.",
+      "bai_hoc_ran_day": "Thay vì tốn công sức mải miết đuổi theo những thứ bên ngoài (tiền tài, danh vọng, các mối quan hệ ảo), hãy tập trung đầu tư hoàn thiện và làm đẹp giá trị nội tại của bản thân. Những điều tốt đẹp sẽ tự nhiên tìm đến bạn.",
+      "loi_khuyen_ung_dung": "Tập trung nâng cao năng lực, tri thức và nhân cách bản thân thay vì nịnh nọt hay theo đuổi các mối quan hệ xã giao hời hợt."
+    },
+    {
+      "so_thu_tu": 38,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Viên Ngọc Trong Bùn Lầy",
+      "nhan_vat_nguon_goc": "Triết lý Phật giáo",
+      "noi_dung_cau_chuyen": "Một viên ngọc quý rơi xuống vũng bùn lầy tăm tối. Nó đau khổ khóc lóc vì bị bùn đất dơ bẩn vùi lấp. Đất mẹ dịu dàng an ủi: 'Bùn đất chỉ bám ngoài vỏ, không thể làm thay đổi được bản chất trong sáng lấp lánh bên trong con. Khi có dòng nước mát rửa trôi, con sẽ lại tỏa sáng rực rỡ hơn xưa'.",
+      "bai_hoc_ran_day": "Hoàn cảnh sống khắc nghiệt hay những lời gièm pha bên ngoài không thể làm lu mờ nhân cách và phẩm giá chân chính nếu bạn giữ vững tâm hồn trong sạch.",
+      "loi_khuyen_ung_dung": "Giữ vững đạo đức và lý tưởng sống ngay cả khi phải làm việc trong môi trường phức tạp, tiêu cực."
+    },
+    {
+      "so_thu_tu": 39,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Con Chim Ưng Không Chịu Bay",
+      "nhan_vat_nguon_goc": "Bài học lãnh đạo phương Tây",
+      "noi_dung_cau_chuyen": "Nhà vua nuôi một con chim ưng quý nhưng nó chỉ đậu lì trên cành cây cao suốt nhiều tháng không chịu sải cánh bay. Các bậc thầy huấn luyện đều bất lực. Một người nông dân vào cung xin thử sức, chỉ sau nửa ngày con chim ưng đã bay vút lên trời xanh. Nhà vua kinh ngạc hỏi bí quyết, người nông dân đáp: 'Thần chỉ đơn giản là chặt đứt cành cây mà nó đang bám víu vào'.",
+      "bai_hoc_ran_day": "Vùng an toàn chính là chiếc bẫy kìm hãm sự phát triển. Đôi khi con người cần phải từ bỏ sự an nhàn quen thuộc để buộc bản thân phải bung hết sức mạnh tự lập và bay cao.",
+      "loi_khuyen_ung_dung": "Dám bước ra khỏi vùng an toàn, thử sức với những mục tiêu mới và đón nhận thử thách."
+    },
+    {
+      "so_thu_tu": 40,
+      "chu_de": "Trí Tuệ & Góc Nhìn Cuộc Sống",
+      "tieu_de": "Cây Chuối Sau Vườn Của Thiền Sư",
+      "nhan_vat_nguon_goc": "Thiền học phương Đông",
+      "noi_dung_cau_chuyen": "Chú tiểu hỏi sư phụ vì sao cây chuối dốc hết dinh dưỡng nuôi buồng quả ngọt ngào rồi thân cây héo rũ tàn lụi. Sư phụ mỉm cười chỉ vào gốc chuối: bên cạnh thân cây mẹ sắp tàn là những chồi non xanh mướt mọc lên khỏe khoắn. Cuộc đời của cây chuối mẹ không hề chấm dứt, nó đã truyền trọn vẹn sinh mệnh cho thế hệ mai sau.",
+      "bai_hoc_ran_day": "Ý nghĩa cuộc sống không nằm ở độ dài của thời gian mà ở những giá trị và tình thương yêu bạn trao truyền lại cho cuộc đời và thế hệ sau.",
+      "loi_khuyen_ung_dung": "Sống có trách nhiệm và cống hiến những điều tốt đẹp cho gia đình, cộng đồng và thế hệ tương lai."
+    },
+    {
+      "so_thu_tu": 41,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Cốc Trà Nóng Và Cơn Giận",
+      "nhan_vat_nguon_goc": "Triết lý Phật giáo",
+      "noi_dung_cau_chuyen": "Một đệ tử tức tối kể cho sư phụ về kẻ đã lăng mạ mình và muốn tìm cách trả thù. Sư phụ rót một cốc nước sôi nóng rực đưa cho đệ tử cầm. Nước nóng làm bỏng tay, đệ tử vội buông tay làm vỡ cốc. Sư phụ bảo: 'Cơn giận cũng như cốc nước sôi này, khi con cố ôm giữ nó để ném vào người khác, người bị bỏng đầu tiên chính là bản thân con'.",
+      "bai_hoc_ran_day": "Giữ cơn giận trong lòng cũng như tự mình uống thuốc độc nhưng lại mong người khác chết. Buông bỏ giận hờn là tự giải thoát cho chính mình.",
+      "loi_khuyen_ung_dung": "Khi bị người khác xúc phạm, hãy bình tâm hít thở sâu, không vội phản ứng để tránh làm tổn thương chính mình và người khác."
+    },
+    {
+      "so_thu_tu": 42,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Người Gánh Hũ Sành Bị Vỡ",
+      "nhan_vat_nguon_goc": "Tích truyện Phật giáo Ấn Độ",
+      "noi_dung_cau_chuyen": "Một người nông dân gánh gánh hũ sành ra chợ bán. Dọc đường không may trượt chân, một chiếc hũ rơi xuống đất vỡ tan tành. Người nông dân không dừng lại một giây, tiếp tục cất bước đi thẳng. Người đi đường ngạc nhiên hỏi sao không ngoái lại nhìn, ông đáp: 'Hũ đã vỡ rồi, nhìn lại có lành lại được đâu? Cứ tiếc nuối ngoái nhìn chỉ làm tôi vấp ngã thêm lần nữa'.",
+      "bai_hoc_ran_day": "Những mất mát, sai lầm trong quá khứ không thể thay đổi được. Thay vì chìm đắm trong đau khổ và dằn vặt vô ích, hãy tập trung vào chặng đường phía trước.",
+      "loi_khuyen_ung_dung": "Chấp nhận những thất bại đã qua như một bài học kinh nghiệm và dồn tâm sức làm tốt công việc hiện tại."
+    },
+    {
+      "so_thu_tu": 43,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Ngọn Cỏ Dại Kiên Cường",
+      "nhan_vat_nguon_goc": "Triết lý thiên nhiên",
+      "noi_dung_cau_chuyen": "Bị đè dưới tảng bê tông dày đặc, ngọn cỏ dại không hề bỏ cuộc. Nó uốn mình theo từng khe nứt nhỏ nhất, âm thầm chắt chiu từng giọt sương đêm và vươn mình đón ánh mặt trời. Sau một thời gian, ngọn cỏ xanh tươi đã vươn lên kiêu hãnh trên nền bê tông xám xịt.",
+      "bai_hoc_ran_day": "Sức sống tiềm tàng và ý chí kiên cường có thể phá vỡ mọi nghịch cảnh nghiệt ngã nhất. Không có hoàn cảnh nào bế tắc tuyệt đối, chỉ có ý chí con người tự đầu hàng.",
+      "loi_khuyen_ung_dung": "Giữ vững niềm tin và nỗ lực tìm kiếm giải pháp vượt qua khó khăn, không bỏ cuộc trước áp lực cuộc sống."
+    },
+    {
+      "so_thu_tu": 44,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Ba Chiếc Rây Lọc Của Socrates",
+      "nhan_vat_nguon_goc": "Socrates (Hy Lạp Cổ Đại)",
+      "noi_dung_cau_chuyen": "Một người hớt hải chạy đến bảo Socrates: 'Tôi có chuyện về bạn ông muốn kể cho ông nghe!'. Socrates ngăn lại: 'Trước khi kể, anh hãy lọc câu chuyện qua 3 chiếc rây: Thứ nhất, chuyện đó có THẬT SỰ ĐÚNG ĐẮN không? Thứ hai, chuyện đó có TỐT ĐẸP không? Thứ ba, chuyện đó có CẦN THIẾT và mang lại lợi ích cho ai không?'. Người kia ngập ngừng thú nhận là không. Socrates bảo: 'Vậy thì đừng kể làm gì cho tốn thời gian và gây hại cho người khác'.",
+      "bai_hoc_ran_day": "Trước khi nói về người khác, hãy dùng trí tuệ để sàng lọc qua ba tiêu chí: Chân thật, Thiện lành và Hữu ích.",
+      "loi_khuyen_ung_dung": "Nói lời chân thành, có tính xây dựng; tuyệt đối không tham gia buôn chuyện thị phi, thêu dệt đời tư người khác."
+    },
+    {
+      "so_thu_tu": 45,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Chiếc Lông Vũ Bay Trong Gió",
+      "nhan_vat_nguon_goc": "Ngụ ngôn phương Tây",
+      "noi_dung_cau_chuyen": "Một người phụ nữ hay đặt điều nói xấu hàng xóm cảm thấy cắn rứt lương tâm liền đến xin linh mục tha tội. Linh mục bảo bà mang một bao lông vũ thả rải rác khắp thị trấn, sau đó đi nhặt lại từng chiếc không được thiếu chiếc nào. Bà bật khóc: 'Gió đã cuốn lông vũ bay khắp nơi, làm sao con nhặt lại được?'. Linh mục nói: 'Lời nói xấu vu khống đã tung ra cũng như lông vũ vậy, không bao giờ thu hồi lại được'.",
+      "bai_hoc_ran_day": "Lời nói ác ý gây tổn hại khôn lường đến danh dự và cuộc đời của người khác. Cẩn trọng trong lời ăn tiếng nói là đạo đức căn bản của con người.",
+      "loi_khuyen_ung_dung": "Uốn lưỡi bảy lần trước khi nói, không tùy tiện phán xét hay lan truyền tin đồn thất thiệt."
+    },
+    {
+      "so_thu_tu": 46,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Vị Thiền Sư Và Tên Trộm Áo",
+      "nhan_vat_nguon_goc": "Ryokan (Nhật Bản)",
+      "noi_dung_cau_chuyen": "Thiền sư Ryokan sống trong túp lều tranh nghèo nàn. Một đêm, tên trộm lẻn vào nhưng lục lọi mãi chẳng có gì đáng giá. Thiền sư đi thiền về thấy vậy liền cởi chiếc áo duy nhất đang mặc trao cho tên trộm và bảo: 'Ngươi lặn lội đêm hôm đến đây, ta chẳng có gì ngoài chiếc áo này, hãy cầm lấy cho đỡ lạnh'. Tên trộm bàng hoàng cầm áo bỏ chạy. Thiền sư ngồi ngắm trăng thở dài: 'Ước gì ta có thể tặng cho anh ta cả vầng trăng tuyệt đẹp này'.",
+      "bai_hoc_ran_day": "Lấy ân báo oán, dùng lòng từ bi vô lượng để cảm hóa lòng người có sức mạnh lay động sâu xa hơn mọi sự trừng phạt gay gắt.",
+      "loi_khuyen_ung_dung": "Ứng xử với người mắc lỗi bằng sự thấu cảm và thiện tâm để giúp họ nhận ra sai lầm và thay đổi."
+    },
+    {
+      "so_thu_tu": 47,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Con Khỉ Và Hạt Đậu Rơi",
+      "nhan_vat_nguon_goc": "Kinh Bản Sanh (Jataka)",
+      "noi_dung_cau_chuyen": "Một con khỉ hai tay bưng hai vốc đậu to đầy ắp. Khi trèo lên cây, một hạt đậu vô tình rơi xuống đất. Tiếc hạt đậu, con khỉ buông tay định nhặt lại. Nào ngờ cả hai vốc đậu trong tay rơi tung tóe khắp bụi rậm và bị bầy chim sà xuống ăn sạch. Cuối cùng con khỉ chẳng còn lại hạt nào.",
+      "bai_hoc_ran_day": "Tham bát bỏ mâm, chỉ vì tiếc nuối một cái lợi nhỏ nhặt trước mắt mà đánh mất đi những giá trị to lớn và bền vững đang có trong tay.",
+      "loi_khuyen_ung_dung": "Có tầm nhìn dài hạn, biết buông bỏ những mối lợi nhỏ không đáng kể để bảo vệ mục tiêu chiến lược lớn."
+    },
+    {
+      "so_thu_tu": 48,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Dây Đàn Chùng Và Dây Đàn Căng",
+      "nhan_vat_nguon_goc": "Đức Phật và Tỳ-kheo Sona",
+      "noi_dung_cau_chuyen": "Tỳ-kheo Sona tu tập quá căng thẳng đến kiệt sức muốn bỏ cuộc. Đức Phật hỏi: 'Khi xưa con chơi đàn tranh, nếu dây đàn quá căng thì sao?'. Sona đáp: 'Dạ, dây đàn sẽ đứt'. Đức Phật hỏi tiếp: 'Còn nếu dây đàn quá chùng?'. Sona đáp: 'Dạ, tiếng đàn sẽ không kêu'. Đức Phật dạy: 'Tu tập và sống cũng vậy, dây đàn vừa phải mới tạo nên khúc nhạc hay. Hãy giữ sự cân bằng, không quá căng thẳng cũng không quá buông thả'.",
+      "bai_hoc_ran_day": "Đạo Trung Dung - sự cân bằng, hài hòa là chìa khóa của thành công và hạnh phúc bền lâu trong mọi lĩnh vực cuộc sống.",
+      "loi_khuyen_ung_dung": "Biết cân đối giữa nỗ lực làm việc và nghỉ ngơi thư giãn, tránh đẩy bản thân vào trạng thái kiệt quệ (burnout)."
+    },
+    {
+      "so_thu_tu": 49,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Đốt Đuốc Tìm Bóng Tối",
+      "nhan_vat_nguon_goc": "Triết lý Thiền học",
+      "noi_dung_cau_chuyen": "Một người cầm ngọn đuốc sáng rực đi khắp hang cùng ngõ hẻm để tìm bóng tối nhưng đi đến đâu ánh sáng cũng xua tan bóng tối đến đó. Anh ta bực bội than thở không thể tìm thấy. Thiền sư nói: 'Ngươi muốn tìm bóng tối nhưng tay lại cầm đuốc. Muốn trừ bỏ phiền não cũng vậy, khi trong tâm ngươi tỏa sáng trí tuệ và tình thương, phiền não tự khắc tan biến'.",
+      "bai_hoc_ran_day": "Thay vì cố gắng đấu tranh tiêu diệt những điều tiêu cực, hãy thắp sáng tâm trí bằng tri thức, tình thương và sự tích cực. Bóng tối tự khắc lui bước trước ánh sáng.",
+      "loi_khuyen_ung_dung": "Tập trung năng lượng vào việc kiến tạo những điều tốt đẹp thay vì tốn thời gian chìm đắm trong việc chống phá tiêu cực."
+    },
+    {
+      "so_thu_tu": 50,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Con Nhện Dệt Mạng Sau Mưa Bão",
+      "nhan_vat_nguon_goc": "Bài học ý chí tự nhiên",
+      "noi_dung_cau_chuyen": "Cơn mưa bão dữ dội cuốn phăng chiếc mạng nhện tinh xảo mà con nhện đã mất cả tuần để dệt. Ngay khi giọt mưa cuối cùng vừa dứt, con nhện lẳng lặng bò ra đầu cành cây, kiên nhẫn kéo từng sợi tơ đầu tiên để dệt lại chiếc mạng mới từ đầu mà không một chút nản lòng.",
+      "bai_hoc_ran_day": "Thất bại chỉ là sự tạm dừng. Lòng kiên trì bền bỉ bắt đầu lại từ đầu là phẩm chất tối quan trọng của những người làm nên việc lớn.",
+      "loi_khuyen_ung_dung": "Sẵn sàng đứng lên làm lại từ đầu sau mỗi lần vấp ngã, xem thất bại là bài học quý giá."
+    },
+    {
+      "so_thu_tu": 51,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Chiếc Áo Rách Của Vị Thiền Tăng",
+      "nhan_vat_nguon_goc": "Thiền phái Trúc Lâm",
+      "noi_dung_cau_chuyen": "Vị thiền tăng mặc chiếc áo vải thô vá nhiều mảnh nhưng khuôn mặt luôn rạng rỡ nụ cười thanh thoát. Một quan chức giàu có xúng xính áo lụa hỏi: 'Mặc áo rách thế này ngài không thấy xấu hổ sao?'. Thiền tăng cười đáp: 'Áo rách thì vá lại là lành, tâm hồn rách nát vì tham lam danh vọng mới khó vá lành được'.",
+      "bai_hoc_ran_day": "Giá trị con người nằm ở tâm hồn thanh sạch và trí tuệ, không nằm ở vẻ hào nhoáng của trang phục hay của cải bên ngoài.",
+      "loi_khuyen_ung_dung": "Sống giản dị, chú trọng tu dưỡng đạo đức nội tâm hơn là chạy theo thói đua đòi phù phiếm."
+    },
+    {
+      "so_thu_tu": 52,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Tự Thắng Chính Mình",
+      "nhan_vat_nguon_goc": "Kinh Pháp Cú - Đức Phật",
+      "noi_dung_cau_chuyen": "Một võ sĩ bách chiến bách thắng đến hỏi Phật cách chiến thắng vĩ đại nhất. Đức Phật dạy: 'Chiến thắng vạn quân trên chiến trường không bằng tự chiến thắng chính mình. Tự thắng bản thân mới là chiến công oanh liệt nhất'.",
+      "bai_hoc_ran_day": "Chiến thắng lớn nhất của một đời người là vượt qua được thói hư tật xấu, sự lười biếng, lòng tham lam và sự nóng giận của chính bản thân.",
+      "loi_khuyen_ung_dung": "Rèn luyện tính kỷ luật tự giác mỗi ngày, kiểm soát cảm xúc và hành vi của bản thân."
+    },
+    {
+      "so_thu_tu": 53,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Rễ Cây Trong Lòng Đất",
+      "nhan_vat_nguon_goc": "Triết lý sống thầm lặng",
+      "noi_dung_cau_chuyen": "Hoa lá cành trên cây quanh năm khoe sắc, đùa vui cùng nắng gió và nhận được muôn vàn lời khen ngợi. Bộ rễ âm thầm nằm sâu dưới lòng đất tối tăm, kiên trì hút từng giọt nước nuôi cây mà chẳng ai nhìn thấy. Nhưng khi bão tới, chính bộ rễ âm thầm đó giữ cho cả cây không bị quật ngã.",
+      "bai_hoc_ran_day": "Những giá trị nền tảng cốt lõi (đạo đức, tri thức, tình thân) tuy âm thầm nhưng là trụ cột nâng đỡ toàn bộ thành công của cuộc đời.",
+      "loi_khuyen_ung_dung": "Tập trung xây dựng nền tảng vững chắc, không màng đến những lời khen ngợi hời hợt bên ngoài."
+    },
+    {
+      "so_thu_tu": 54,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Chiếc Thuyền Rỗng",
+      "nhan_vat_nguon_goc": "Trang Tử (Đạo Gia)",
+      "noi_dung_cau_chuyen": "Một người đang chèo thuyền qua sông, bỗng có một chiếc thuyền khác trôi đến đâm sầm vào thuyền của anh. Anh ta nổi giận lôi đình định chửi mắng người lái thuyền kia, nhưng nhìn lại thấy đó chỉ là một chiếc thuyền rỗng trôi dạt tự do. Cơn giận của anh ta lập tức tan biến. Trang Tử nói: 'Nếu bạn có thể biến mình thành một chiếc thuyền rỗng giữa cuộc đời (không có cái tôi kiêu ngạo), thì ai có thể làm tổn thương bạn được?'.",
+      "bai_hoc_ran_day": "Hầu hết những nỗi bực bội, giận dữ phát sinh từ cái tôi quá lớn. Hạ thấp cái tôi xuống thì tâm hồn sẽ luôn tự do và an nhiên.",
+      "loi_khuyen_ung_dung": "Không cá nhân hóa mọi va chạm trong cuộc sống; xem những va chạm vô ý như 'chiếc thuyền rỗng' để tha thứ nhẹ nhàng."
+    },
+    {
+      "so_thu_tu": 55,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Tiếng Vang Trong Hẻm Núi",
+      "nhan_vat_nguon_goc": "Ngụ ngôn phương Đông",
+      "noi_dung_cau_chuyen": "Cậu bé đi dạo cùng cha trong núi. Vấp ngã đau, cậu hét lên: 'Tôi ghét người!'. Ngay lập tức từ hẻm núi vọng lại: 'Tôi ghét người!'. Cậu bé hoảng sợ. Người cha mỉm cười hét to: 'Tôi yêu bạn!'. Tiếng vọng lại: 'Tôi yêu bạn!'. Người cha giải thích: 'Đó là tiếng vang của cuộc đời. Con trao đi điều gì, cuộc đời sẽ gửi trả lại con đúng điều đó'.",
+      "bai_hoc_ran_day": "Luật nhân quả luôn hiện hữu trong từng ý nghĩ và lời nói. Muốn nhận được yêu thương và tôn trọng, trước hết hãy trao đi yêu thương và tôn trọng.",
+      "loi_khuyen_ung_dung": "Gieo những hạt mầm thiện lành qua lời nói và hành động để gặt hái cuộc sống an vui."
+    },
+    {
+      "so_thu_tu": 56,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Bình Sữa Đổ",
+      "nhan_vat_nguon_goc": "Bài học tâm lý giáo dục",
+      "noi_dung_cau_chuyen": "Một cậu bé vô ý làm rơi bình sữa đầy xuống sàn bếp vỡ tung tóe. Cậu sợ hãi co rúm người chờ bị mắng. Người mẹ bước vào nhẹ nhàng bảo: 'Ồ, sữa đã đổ rồi, con nhìn xem nó chảy thành hình vũng nước đẹp chưa kìa. Giờ hai mẹ con mình cùng dọn dẹp sạch sẽ nhé, sau đó mẹ chỉ cho con cách cầm bình chắc hơn'.",
+      "bai_hoc_ran_day": "Đừng khóc vì bình sữa đã đổ. Sai lầm là cơ hội tuyệt vời nhất để học hỏi nếu được đón nhận bằng sự bình tĩnh và tình yêu thương.",
+      "loi_khuyen_ung_dung": "Bình tĩnh xử lý hậu quả khi người khác hoặc bản thân mắc lỗi, tập trung vào giải pháp khắc phục."
+    },
+    {
+      "so_thu_tu": 57,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Lặng Nhìn Hoa Nở Hoa Tàn",
+      "nhan_vat_nguon_goc": "Triết lý Vô thường Á Đông",
+      "noi_dung_cau_chuyen": "Một học trò đau buồn vì hoa trong vườn rụng ráo sau cơn gió đông. Sư phụ mỉm cười bảo: 'Hoa tàn là để kết quả ngọt, lá rụng là để nuôi dưỡng đất mẹ cho mùa xuân năm sau mọc chồi biếc mới. Vạn vật biến chuyển tuần hoàn, có sinh thì có diệt, sao phải đau buồn trước quy luật tự nhiên?'.",
+      "bai_hoc_ran_day": "Vô thường là quy luật của vạn vật. Thấu hiểu lẽ vô thường giúp con người không bi lụy trước mất mát và trân quý từng phút giây hiện tại.",
+      "loi_khuyen_ung_dung": "Thanh thản đón nhận những đổi thay của thời cuộc, không bi lụy tiếc nuối những điều không thể giữ lại."
+    },
+    {
+      "so_thu_tu": 58,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Viên Đá Mài Ngọc",
+      "nhan_vat_nguon_goc": "Cổ học Á Đông",
+      "noi_dung_cau_chuyen": "Ngọc thô nếu không chịu sự mài giũa, cọ xát đau đớn của đá ráp và lưỡi đục thì mãi mãi chỉ là một hòn đá xù xì vô giá trị. Nhờ chịu đựng qua ngàn lần cắt gọt, viên ngọc mới tỏa ra ánh hào quang thuần khiết quý giá.",
+      "bai_hoc_ran_day": "Khổ luyện thành tài. Những va đập và áp lực trong cuộc sống chính là chiếc đục mài giũa nên nhân cách và bản lĩnh phi thường của con người.",
+      "loi_khuyen_ung_dung": "Đón nhận những nhiệm vụ khó khăn như cơ hội quý giá để rèn luyện và tỏa sáng năng lực."
+    },
+    {
+      "so_thu_tu": 59,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Tâm Bình Thế Giới Bình",
+      "nhan_vat_nguon_goc": "Thiền tông",
+      "noi_dung_cau_chuyen": "Một người đi trên đường bị một viên đá rơi trúng đầu liền ngẩng lên trời nguyền rủa kẻ ném đá. Nhìn quanh chỉ thấy gió thổi làm rơi đá từ sườn đồi, anh ta bỗng im bặt. Thiền sư nói: 'Nếu biết sự việc là do tự nhiên, cơn giận tự khắc biến mất. Vậy tại sao với con người, con lại nuôi giữ hận thù?'.",
+      "bai_hoc_ran_day": "Tâm sinh vạn pháp. Giữ cho tâm trí tĩnh lặng thì mọi sóng gió thế gian đều không thể lay chuyển được sự bình an của bạn.",
+      "loi_khuyen_ung_dung": "Thực hành quan sát tâm trí, không vội phản ứng tiêu cực trước những va chạm bất ngờ."
+    },
+    {
+      "so_thu_tu": 60,
+      "chu_de": "Tu Tâm & Kiểm Soát Bản Thân",
+      "tieu_de": "Chiếc Thuyền Vượt Biển",
+      "nhan_vat_nguon_goc": "Ngụ ngôn biển cả",
+      "noi_dung_cau_chuyen": "Nước bao quanh chiếc thuyền không thể làm thuyền chìm. Thuyền chỉ chìm khi nước tràn vào bên trong nó. Cũng vậy, những khó khăn, thị phi bủa vây bên ngoài không thể làm gục ngã con người, bạn chỉ gục ngã khi để sự tiêu cực xâm chiếm tâm hồn mình.",
+      "bai_hoc_ran_day": "Bảo vệ sự bình yên và trong sáng của thế giới nội tâm là chìa khóa giúp bạn vững vàng vượt qua mọi đại dương sóng gió cuộc đời.",
+      "loi_khuyen_ung_dung": "Không để những lời bàn tán hay năng lượng độc hại xâm nhập vào suy nghĩ và cảm xúc của mình."
+    },
+    {
+      "so_thu_tu": 61,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Câu Chuyện Bó Đũa",
+      "nhan_vat_nguon_goc": "Cổ tích Dân gian Việt Nam",
+      "noi_dung_cau_chuyen": "Người cha già gọi các con lại, đưa cho mỗi người một chiếc đũa và bảo bẻ gãy, ai cũng bẻ dễ dàng. Sau đó ông buộc cả bó đũa lại thành một bó lớn và bảo các con bẻ thử, không ai có thể bẻ gãy được. Người cha ân cần khuyên: 'Các con chia rẽ thì yếu ớt dễ bị hại, nhưng nếu yêu thương đoàn kết lại thì không sức mạnh nào phá vỡ được'.",
+      "bai_hoc_ran_day": "Đoàn kết là sức mạnh tối thượng. Gia đình hòa thuận, anh em đồng lòng thì muôn việc đều hưng thịnh vững vàng.",
+      "loi_khuyen_ung_dung": "Luôn vun đắp sự gắn kết, hòa thuận và chia sẻ giữa các thành viên trong gia đình và tập thể."
+    },
+    {
+      "so_thu_tu": 62,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Bữa Cơm Chiều Của Mẹ",
+      "nhan_vat_nguon_goc": "Triết lý gia đình",
+      "noi_dung_cau_chuyen": "Người con trai đi làm xa về nhà chỉ mải mê bấm điện thoại, ăn vội vàng bữa cơm mẹ nấu rồi lại đi nhậu cùng bạn bè. Một ngày kia mẹ mất, anh trở về căn nhà trống, đứng trước gian bếp lạnh tanh và nhận ra: trên đời này không còn ai kiên nhẫn nấu từng bữa cơm nóng chờ anh về nữa. Anh òa khóc hối hận vì những bữa cơm sum vầy đã bỏ lỡ.",
+      "bai_hoc_ran_day": "Gia đình và tình mẹ là điều thiêng liêng nhất. Đừng để sự bận rộn hời hợt cướp đi những khoảnh khắc quý giá bên cạnh người thân khi họ còn sống.",
+      "loi_khuyen_ung_dung": "Dành trọn vẹn sự chú ý, cất điện thoại và cùng trò chuyện ấm áp bên gia đình trong mỗi bữa cơm sum họp."
+    },
+    {
+      "so_thu_tu": 63,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Đôi Giày Cũ Của Người Cha",
+      "nhan_vat_nguon_goc": "Chuyện ngắn cảm động",
+      "noi_dung_cau_chuyen": "Người cha làm phụ hồ gom góp từng đồng mua cho con trai đôi giày thể thao hàng hiệu đắt tiền đi học. Con trai vô tình thấy cha đi đôi giày rách bươm đã mòn vẹt đế lội trong mưa tuyết. Cậu nghẹn ngào ôm lấy cha và nhận ra: mỗi bước đi êm ái của con hôm nay đều được đánh đổi bằng sự hy sinh thầm lặng của đôi chân cha.",
+      "bai_hoc_ran_day": "Tình yêu thương của cha mẹ luôn bao la và thầm lặng như núi cao. Biết ơn công ơn sinh thành dưỡng dục là gốc rễ của đạo làm người.",
+      "loi_khuyen_ung_dung": "Quan tâm, phụng dưỡng và thể hiện lòng biết ơn chân thành đến cha mẹ khi còn có thể."
+    },
+    {
+      "so_thu_tu": 64,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Hai Anh Em Và Cánh Đồng Lúa",
+      "nhan_vat_nguon_goc": "Ngụ ngôn Do Thái",
+      "noi_dung_cau_chuyen": "Hai anh em chia đôi cánh đồng lúa gặt được. Đêm đến, người anh nghĩ: 'Em mình còn độc thân, cần tích lũy nhiều hơn' liền vác bao thóc sang đổ vào kho của em. Người em nghĩ: 'Anh mình có vợ con đông đúc, cần nhiều thóc hơn' liền vác bao thóc sang đổ vào kho của anh. Sáng ra kho thóc của cả hai vẫn đầy nguyên. Một đêm nọ, hai người chạm mặt nhau giữa cánh đồng khi đang vác thóc, họ ôm chầm lấy nhau khóc trong hạnh phúc.",
+      "bai_hoc_ran_day": "Tình anh em chân thành luôn biết nghĩ cho nhau trước khi nghĩ cho mình. Sự sẻ chia biến cuộc sống thành thiên đường tràn ngập phước lành.",
+      "loi_khuyen_ung_dung": "Nhường nhịn và hỗ trợ anh chị em ruột thịt trong gia đình, không so đo tính toán thiệt hơn."
+    },
+    {
+      "so_thu_tu": 65,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Vị Khách Quý Nhất Trong Nhà",
+      "nhan_vat_nguon_goc": "Ngụ ngôn đạo hiếu",
+      "noi_dung_cau_chuyen": "Một gia đình chuẩn bị đón một vị khách quý, cả nhà lau dọn sạch sẽ, nói năng hòa nhã, dâng trà thơm bánh ngọt. Người ông già yếu vô tình làm vỡ chén trà, người con quát tháo ầm ĩ. Vị khách bước vào chứng kiến liền nói: 'Người khách quý nhất trong ngôi nhà này chính là cha mẹ của các bạn, tại sao các bạn đối xử với người ngoài hòa nhã mà lại đối xử với cha mẹ mình bằng sự gắt gỏng?'.",
+      "bai_hoc_ran_day": "Sự hiếu kính và hòa nhã với người thân trong gia đình chính là thước đo đạo đức chân thực nhất của một con người.",
+      "loi_khuyen_ung_dung": "Dành sự kiên nhẫn, dịu dàng và tôn trọng cao nhất cho cha mẹ và người thân trong gia đình."
+    },
+    {
+      "so_thu_tu": 66,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Cây Táo Và Cậu Bé",
+      "nhan_vat_nguon_goc": "Shel Silverstein",
+      "noi_dung_cau_chuyen": "Cậu bé thuở nhỏ chơi cùng cây táo. Lớn lên, cậu cần tiền, cây táo cho hái hết quả đi bán; cậu cần làm nhà, cây táo cho chặt hết cành; cậu cần làm thuyền đi xa, cây táo cho đốn cả thân cây. Cuối cùng, cậu bé già nua mỏi mệt quay về, cây táo chỉ còn trơ lại chiếc gốc khô nhưng vẫn mỉm cười đón cậu ngồi nghỉ ngơi trong an bình.",
+      "bai_hoc_ran_day": "Tình cảm cha mẹ hiến dâng cả đời cho con cái không một lời đòi hỏi. Hãy trân trọng và quay về bên cha mẹ trước khi quá muộn.",
+      "loi_khuyen_ung_dung": "Thường xuyên thăm hỏi, chăm sóc và dành thời gian bên cha mẹ, đừng để họ phải cô đơn chờ đợi."
+    },
+    {
+      "so_thu_tu": 67,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Đôi Cánh Của Đàn Ngỗng Trời",
+      "nhan_vat_nguon_goc": "Bài học sinh học tự nhiên",
+      "noi_dung_cau_chuyen": "Khi bay di cư, đàn ngỗng luôn bay theo đội hình chữ V. Nhờ sự cản gió và tạo lực đẩy của con đầu đàn, cả đàn ngỗng bay xa hơn 71% so với khi bay đơn độc. Khi con đầu đàn mệt, nó lùi về sau và con khác lên thay. Khi một con bị thương rơi xuống, luôn có hai con khác bay theo bảo vệ và đồng hành cho đến khi nó bình phục.",
+      "bai_hoc_ran_day": "Tình bạn và tình đồng đội chân chính là cùng chia sẻ gánh nặng, nâng đỡ nhau và không bao giờ bỏ rơi bạn bè trong lúc hoạn nạn.",
+      "loi_khuyen_ung_dung": "Sát cánh cùng bạn bè, đồng nghiệp; sẵn sàng chia sẻ khó khăn và tương trợ lẫn nhau khi làm việc nhóm."
+    },
+    {
+      "so_thu_tu": 68,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Người Bạn Trong Cơn Bão",
+      "nhan_vat_nguon_goc": "Cổ tích ngụ ngôn",
+      "noi_dung_cau_chuyen": "Chàng trai có trăm người bạn tiệc tùng. Khi phá sản bị truy nợ, anh đến gõ cửa từng nhà nhưng ai cũng đóng chặt cửa từ chối. Cuối cùng anh tìm đến người bạn lầm lũi ít nói ngày xưa, người bạn mở rộng cửa đón anh vào, chia sẻ nửa gia sản và bảo: 'Nhà tôi cũng là nhà của bạn'.",
+      "bai_hoc_ran_day": "Hoạn nạn mới thấy chân tình. Bạn bè ngàn người nâng chén dễ tìm, một người tri kỷ cùng chung hoạn nạn mới ngàn vàng khó mua.",
+      "loi_khuyen_ung_dung": "Trân trọng những người bạn thật lòng bên cạnh lúc bạn khó khăn, không chạy theo những mối quan hệ xã giao phù phiếm."
+    },
+    {
+      "so_thu_tu": 69,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Bức Tường Vô Hình Trong Ngôi Nhà",
+      "nhan_vat_nguon_goc": "Tâm lý học gia đình hiện đại",
+      "noi_dung_cau_chuyen": "Hai vợ chồng giận nhau, không ai nói với ai một lời suốt cả tháng trời, giao tiếp chỉ qua những mẩu giấy dán trên tủ lạnh. Dần dần khoảng cách lạnh lùng biến thành bức tường ngăn cách vô hình không thể phá bỏ. Chỉ một lời xin lỗi chân thành lúc đầu đã có thể cứu vãn một cuộc hôn nhân tan vỡ.",
+      "bai_hoc_ran_day": "Sự im lặng lạnh nhạt là thứ độc dược giết chết tình cảm gia đình. Lắng nghe, thấu cảm và mở lòng chia sẻ là chìa khóa giữ gìn hạnh phúc.",
+      "loi_khuyen_ung_dung": "Chủ động giải quyết mâu thuẫn bằng đối thoại chân thành, không dùng chiến tranh lạnh làm tổn thương nhau."
+    },
+    {
+      "so_thu_tu": 70,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Món Quà Tặng Mẹ Bằng Giấy Vụn",
+      "nhan_vat_nguon_goc": "Chuyện ngắn gia đình",
+      "noi_dung_cau_chuyen": "Người cha nghèo phạt cô con gái nhỏ vì lãng phí cuộn giấy gói quà vàng lấp lánh để gói một chiếc hộp rỗng. Sáng hôm sau, cô bé chạy lại trao chiếc hộp cho cha: 'Con tặng cha món quà sinh nhật ạ'. Khi cha mở ra thấy trống rỗng liền cau mày, cô bé rơi nước mắt nói: 'Cha ơi, con đã thổi đầy những nụ hôn yêu thương của con vào chiếc hộp này dành riêng cho cha đó ạ'. Người cha nghẹn ngào ôm con vào lòng.",
+      "bai_hoc_ran_day": "Giá trị của món quà nằm ở tấm lòng chân thành và tình yêu thương sâu sắc, không nằm ở giá trị vật chất của chiếc hộp.",
+      "loi_khuyen_ung_dung": "Trân trọng tình cảm chân thành của người khác, đặc biệt là sự ngây thơ và tình yêu của con trẻ."
+    },
+    {
+      "so_thu_tu": 71,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Lời Xin Lỗi Của Người Cha",
+      "nhan_vat_nguon_goc": "Tâm lý giáo dục",
+      "noi_dung_cau_chuyen": "Vì áp lực công việc, người cha đã mắng oan đứa con trai làm cậu bé khóc nấc. Đêm đến ngắm con ngủ say với đôi mi ướt, người cha nhận ra sai lầm. Sáng hôm sau, ông đã cúi xuống ôm con và chân thành nói lời xin lỗi. Đứa trẻ mỉm cười ôm chặt lấy cổ cha, mọi tổn thương tan biến trong tích tắc.",
+      "bai_hoc_ran_day": "Biết dũng cảm nhận lỗi và xin lỗi người thân không làm giảm đi uy quyền mà càng làm sâu sắc thêm tình yêu thương và sự kính trọng.",
+      "loi_khuyen_ung_dung": "Thẳng thắn nhận lỗi khi mình làm sai, không để cái tôi sĩ diện làm rạn nứt tình cảm gia đình."
+    },
+    {
+      "so_thu_tu": 72,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Chiếc Ô Che Mưa Của Người Bạn",
+      "nhan_vat_nguon_goc": "Ngụ ngôn tình bạn",
+      "noi_dung_cau_chuyen": "Hai người bạn đi chung dưới trời mưa to chỉ có một chiếc ô nhỏ. Người cầm ô luôn nghiêng hẳn chiếc ô về phía bạn mình, để mặc bờ vai áo mình ướt đẫm nước mưa. Người bạn được che chở nhìn thấy nghẹn ngào cảm động.",
+      "bai_hoc_ran_day": "Tình bạn đích thực không nằm ở những lời hứa hẹn hoa mỹ mà thể hiện qua sự hy sinh và chăm sóc thầm lặng trong từng hành động nhỏ.",
+      "loi_khuyen_ung_dung": "Sẵn lòng sẻ chia và chịu thiệt thòi một chút vì những người bạn và người thân yêu của mình."
+    },
+    {
+      "so_thu_tu": 73,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Cơm Nguội Và Tình Làng Nghĩa Xóm",
+      "nhan_vat_nguon_goc": "Nếp sống làng quê Việt Nam",
+      "noi_dung_cau_chuyen": "Nhà hàng xóm nghèo hết gạo, người mẹ nấu cơm cố tình nấu thêm một bát cơm đầy rồi bảo con mang sang biếu: 'Bảo là mẹ nấu thừa, nhờ bác ăn giúp cho đỡ phí'. Người mẹ khéo léo giúp đỡ mà không làm tổn thương lòng tự trọng của người hàng xóm nghèo.",
+      "bai_hoc_ran_day": "Tương thân tương ái, tối lửa tắt đèn có nhau với một tấm lòng tinh tế và tôn trọng là nét đẹp văn hóa cao quý.",
+      "loi_khuyen_ung_dung": "Giúp đỡ láng giềng và người xung quanh một cách khéo léo, tế nhị và tràn đầy sự trân trọng."
+    },
+    {
+      "so_thu_tu": 74,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Ngôi Nhà Có Bếp Lửa Hồng",
+      "nhan_vat_nguon_goc": "Triết lý tổ ấm",
+      "noi_dung_cau_chuyen": "Một người đàn ông đi chu du khắp thế gian tìm kiếm nơi hoàn hảo nhất. Sau hàng chục năm bôn ba mỏi gối, anh trở về căn nhà nhỏ của mình nơi quê nghèo, thấy mẹ già đang nhóm bếp lửa hồng và vợ con đang tươi cười chờ đón. Anh nhận ra: thiên đường mà anh tìm kiếm bấy lâu chính là mái ấm gia đình này.",
+      "bai_hoc_ran_day": "Gia đình là bến đỗ bình yên nhất che chở ta sau mọi giông bão của cuộc đời. Không có nơi nào bằng chính tổ ấm yêu thương.",
+      "loi_khuyen_ung_dung": "Biết trân trọng mái ấm gia đình, dành thời gian chăm lo cho người thân thay vì mải mê tìm kiếm những giá trị ảo ảnh xa xôi."
+    },
+    {
+      "so_thu_tu": 75,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Tiếng Cười Trẻ Thơ Và Nụ Cười Tuổi Già",
+      "nhan_vat_nguon_goc": "Triết lý nhân sinh",
+      "noi_dung_cau_chuyen": "Ngôi nhà ba thế hệ sống chung. Đứa cháu nhỏ hay líu lo làm trò, ông bà ngồi bên móm mém cười hiền từ. Dù bữa ăn chỉ có rau dưa đạm bạc nhưng ngôi nhà luôn tràn ngập sinh khí và ánh sáng yêu thương, bệnh tật và phiền não đều tiêu tan.",
+      "bai_hoc_ran_day": "Hòa khí gia đình là nguồn năng lượng nuôi dưỡng tâm hồn và sức khỏe tốt nhất. Một gia đình hòa thuận quý hơn ngàn lượng vàng.",
+      "loi_khuyen_ung_dung": "Gìn giữ hòa khí, sự kính trên nhường dưới và không khí vui vẻ trong gia đình."
+    },
+    {
+      "so_thu_tu": 76,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Chữ Hiếu Đứng Đầu Trăm Nết Thiện",
+      "nhan_vat_nguon_goc": "Khổng Tử - Luận Ngữ",
+      "noi_dung_cau_chuyen": "Học trò hỏi Khổng Tử: 'Thế nào là người con có hiếu?'. Khổng Tử đáp: 'Ngày nay người ta cho rằng nuôi dưỡng được cha mẹ là có hiếu. Nhưng loài chó ngựa cũng được nuôi dưỡng như thế. Nếu không có lòng kính trọng và thái độ hòa nhã, thì nuôi dưỡng cha mẹ khác gì nuôi dưỡng cầm thú?'.",
+      "bai_hoc_ran_day": "Chữ hiếu không chỉ ở việc cung cấp vật chất mà cốt lõi nằm ở thái độ kính trọng, nét mặt vui vẻ và sự ân cần đối với cha mẹ.",
+      "loi_khuyen_ung_dung": "Luôn giữ thái độ hòa nhã, tôn kính và lắng nghe khi trò chuyện với cha mẹ."
+    },
+    {
+      "so_thu_tu": 77,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Nhìn Vào Vết Bẩn Trên Áo Người Thân",
+      "nhan_vat_nguon_goc": "Ngụ ngôn giáo dục",
+      "noi_dung_cau_chuyen": "Người chồng đi làm về mệt mỏi, người vợ nhìn thấy vệt bùn trên áo anh liền cằn nhằn chỉ trích. Chị không nhìn thấy chiếc áo đã ướt đẫm mồ hôi và những vết chai sần trên tay anh vì làm việc cật lực để lo cho tổ ấm. Khi hiểu ra, chị ân cần rót nước mời chồng với ánh mắt xót xa.",
+      "bai_hoc_ran_day": "Đừng chỉ nhìn vào một vài lỗi lầm nhỏ nhặt của người thân mà quên đi cả quá trình cống hiến và tình yêu thương họ dành cho bạn.",
+      "loi_khuyen_ung_dung": "Học cách bao dung, thấu hiểu nỗi vất vả của người bạn đời và các thành viên trong gia đình."
+    },
+    {
+      "so_thu_tu": 78,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Ngồi Lại Bên Tách Trà",
+      "nhan_vat_nguon_goc": "Văn hóa ứng xử phương Đông",
+      "noi_dung_cau_chuyen": "Hai người bạn thân có hiểu lầm sâu sắc suýt từ mặt nhau. Một người chủ động pha ấm trà ngon mang sang mời bạn: 'Dù có chuyện gì, chúng ta hãy ngồi xuống uống hết tuần trà này rồi hãy tính tiếp'. Sau chén trà ấm áp và những lời tâm sự chân thành, mọi hiểu lầm tan biến như sương khói.",
+      "bai_hoc_ran_day": "Sự chân thành và kiên nhẫn đối thoại có thể hàn gắn mọi rạn nứt trong các mối quan hệ.",
+      "loi_khuyen_ung_dung": "Chủ động mở lời hòa giải khi xảy ra mâu thuẫn, không để cái tôi ngăn cản tình cảm chân quý."
+    },
+    {
+      "so_thu_tu": 79,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Cái Ôm Chữa Lành",
+      "nhan_vat_nguon_goc": "Tâm lý trị liệu",
+      "noi_dung_cau_chuyen": "Một cô gái trẻ trầm cảm sau biến cố cuộc đời, mọi lời khuyên răn đều vô tác dụng. Người bà già không nói một lời lý thuyết nào, chỉ nhẹ nhàng kéo cháu gái vào lòng ôm thật chặt và vuốt tóc. Trong vòng tay ấm áp của bà, cô gái òa khóc nức nở và tìm lại được cảm giác bình an để đứng dậy.",
+      "bai_hoc_ran_day": "Tình thương yêu chân thành và sự hiện diện thầm lặng có sức mạnh chữa lành kỳ diệu hơn vạn lời thuyết giảng sáo rỗng.",
+      "loi_khuyen_ung_dung": "Lắng nghe và ở bên cạnh người thân khi họ gặp bế tắc, trao cho họ sự vỗ về ấm áp."
+    },
+    {
+      "so_thu_tu": 80,
+      "chu_de": "Gia Đình, Tình Thân & Bạn Bè",
+      "tieu_de": "Bát Canh Nóng Trong Đêm Mưa",
+      "nhan_vat_nguon_goc": "Triết lý gia đình",
+      "noi_dung_cau_chuyen": "Đứa con giận dỗi cha mẹ bỏ nhà đi lang thang giữa trời mưa đói lả. Một bà lão bán hàng ven đường thương tình múc cho bát canh nóng. Đứa con cảm động khóc: 'Bà tốt hơn cha mẹ cháu gấp trăm lần'. Bà lão mắng: 'Bà chỉ cho cháu một bát canh mà cháu cảm ơn khôn xiết, cha mẹ cháu nuôi cháu mười mấy năm ròng sao cháu lại oán giận?'. Đứa con bừng tỉnh chạy vội về nhà.",
+      "bai_hoc_ran_day": "Con người thường dễ biết ơn người dưng vì một ân huệ nhỏ, nhưng lại coi sự hy sinh to lớn cả đời của cha mẹ là điều hiển nhiên.",
+      "loi_khuyen_ung_dung": "Luôn biết ơn và trân trọng sự chăm sóc, hy sinh của cha mẹ mỗi ngày."
+    },
+    {
+      "so_thu_tu": 81,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Triệu Phú Và Người Đánh Cá",
+      "nhan_vat_nguon_goc": "Heinrich Böll",
+      "noi_dung_cau_chuyen": "Một triệu phú thấy người đánh cá nằm sưởi nắng thảnh thơi bên bờ biển liền khuyên: 'Sao anh không câu thêm cá để mua tàu lớn, mở công ty chế biến rồi kiếm hàng triệu đô la?'. Người đánh cá hỏi: 'Để làm gì?'. Triệu phú đáp: 'Để lúc đó anh có thể thảnh thơi nằm sưởi nắng ngắm biển!'. Người đánh cá mỉm cười: 'Chẳng phải bây giờ tôi đang được làm việc đó rồi sao?'.",
+      "bai_hoc_ran_day": "Đích đến cuối cùng của đời người là sự tự do và an lạc tâm hồn. Đừng mải mê chạy theo danh lợi để rồi bỏ lỡ niềm hạnh phúc bình dị ngay trước mắt.",
+      "loi_khuyen_ung_dung": "Học cách tận hưởng những niềm vui giản dị trong hiện tại, không biến cuộc đời thành cuộc đua mệt mỏi vì tiền bạc."
+    },
+    {
+      "so_thu_tu": 82,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Chiếc Áo Của Người Hạnh Phúc Nhất",
+      "nhan_vat_nguon_goc": "Ngụ ngôn Lev Tolstoy",
+      "noi_dung_cau_chuyen": "Vua lâm bệnh nặng, thầy phán chỉ cần mặc chiếc áo của người đàn ông hạnh phúc nhất vương quốc là khỏi bệnh. Quân lính đi khắp nơi từ quan lớn, phú thương đến học giả đều thấy họ than phiền đau khổ. Cuối cùng họ tìm thấy một chàng trai nghèo chăn cừu đang ca hát vui vẻ, chàng khẳng định mình hoàn toàn hạnh phúc. Nhưng khi xin áo, họ mới phát hiện chàng nghèo đến mức... không có lấy một chiếc áo nào trên người.",
+      "bai_hoc_ran_day": "Hạnh phúc không nằm ở của cải vật chất hay địa vị quyền thế, mà bắt nguồn từ tâm hồn thanh thản, biết đủ và không tham cầu.",
+      "loi_khuyen_ung_dung": "Thực hành tâm biết đủ (tri túc), trân trọng những gì mình đang có thay vì luôn khao khát những thứ ngoài tầm tay."
+    },
+    {
+      "so_thu_tu": 83,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Túi Vàng Chìm Đáy Biển",
+      "nhan_vat_nguon_goc": "Ngụ ngôn Aesop",
+      "noi_dung_cau_chuyen": "Chiếc tàu gặp bão sắp chìm, mọi người đều vứt bỏ hành lý để bơi vào bờ thoát thân. Một thương nhân vì tiếc túi vàng lớn đã buộc chặt vào thắt lưng rồi nhảy xuống biển. Sức nặng của vàng kéo ông chìm thẳng xuống đáy biển sâu. Trước khi chết chìm, ông mới cay đắng nhận ra: vàng bạc không thể mua lại được mạng sống.",
+      "bai_hoc_ran_day": "Lòng tham mù quáng sẽ biến của cải thành chiếc thòng lọng hủy hoại sinh mệnh của chính mình. Sinh mệnh và sức khỏe mới là tài sản quý giá nhất.",
+      "loi_khuyen_ung_dung": "Biết buông bỏ tiền tài vật chất khi cần thiết để bảo vệ sức khỏe, tính mạng và danh dự."
+    },
+    {
+      "so_thu_tu": 84,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Viên Kim Cương Và Hạt Lúa Mì Trên Sa Mạc",
+      "nhan_vat_nguon_goc": "Ngụ ngôn Ả Rập",
+      "noi_dung_cau_chuyen": "Một người bị lạc giữa sa mạc nắng cháy, đói khát kiệt sức. Anh ta tìm thấy một chiếc túi lữ khách bỏ lại, mừng rỡ mở ra hy vọng có bánh mì và nước uống. Nhưng trong túi chỉ toàn là những viên kim cương lấp lánh vô giá. Anh ta tuyệt vọng ném chiếc túi đi và thốt lên: 'Hàng ngàn viên kim cương này cũng không đáng giá bằng một mẩu bánh mì và giọt nước lã!'.",
+      "bai_hoc_ran_day": "Giá trị đích thực của vạn vật tùy thuộc vào hoàn cảnh và nhu cầu sinh tồn cơ bản. Tiền tài, châu báu chỉ là phù phiếm khi con người đối mặt với sự sống còn.",
+      "loi_khuyen_ung_dung": "Trân trọng những nhu cầu giản dị thiết thực trong đời sống: sức khỏe, bữa cơm gia đình và nước sạch."
+    },
+    {
+      "so_thu_tu": 85,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Đổi Thanh Xuân Lấy Túi Vàng",
+      "nhan_vat_nguon_goc": "Triết lý nhân sinh",
+      "noi_dung_cau_chuyen": "Chàng trai trẻ bán linh hồn và tuổi trẻ cho thần chết để đổi lấy kho vàng khổng lồ. Anh làm việc quần quật suốt 40 năm, không bạn bè, không tình yêu, không niềm vui. Đến tuổi 60 khi đã giàu nứt đố đổ vách, anh mang cả túi vàng xin thần chết mua lại 1 ngày tuổi trẻ nhưng bị từ chối lạnh lùng: 'Thời gian đã qua không một đồng tiền nào mua lại được'.",
+      "bai_hoc_ran_day": "Thời gian và tuổi trẻ là tài sản vô giá duy nhất một đi không trở lại. Đừng bán rẻ cả đời mình chỉ để tích lũy những con số trong tài khoản.",
+      "loi_khuyen_ung_dung": "Sống có ý nghĩa, yêu thương và trải nghiệm cuộc sống ngay từ khi còn trẻ, cân bằng giữa kiếm tiền và tận hưởng cuộc sống."
+    },
+    {
+      "so_thu_tu": 86,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Người Làm Vườn Hạnh Phúc",
+      "nhan_vat_nguon_goc": "Voltaire - Candide",
+      "noi_dung_cau_chuyen": "Một vị vua giàu sang nhưng luôn u sầu đi vi hành, gặp một ông lão làm vườn già đang say sưa xới đất, trồng hoa và mỉm cười thanh thản. Vua hỏi bí quyết, ông lão đáp: 'Tôi chỉ tập trung chăm sóc mảnh vườn nhỏ của mình mỗi ngày, ngắm hoa nở, ăn trái ngọt từ mồ hôi mình làm ra, lòng không màng đến chuyện tranh đoạt thiên hạ'.",
+      "bai_hoc_ran_day": "Hạnh phúc nằm trong lao động chân chính và sự an nhiên với công việc hiện tại của mình. Biết 'chăm sóc khu vườn của chính mình' là bí quyết an lạc.",
+      "loi_khuyen_ung_dung": "Yêu thích và dồn tâm huyết vào công việc bạn đang làm, không so đo đố kỵ với vị trí của người khác."
+    },
+    {
+      "so_thu_tu": 87,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Khẩu Vị Ngon Nhất Trên Đời",
+      "nhan_vat_nguon_goc": "Tích xưa phương Đông",
+      "noi_dung_cau_chuyen": "Vua ăn sơn hào hải vị quanh năm cảm thấy nhạt miệng chán ngấy. Một ngày vua đi săn bị lạc trong rừng đói lả, được người tiều phu mời bát cơm nguội độn sắn với chút muối vừng. Vua ăn ngon lành và khen là món ngon nhất trần đời. Tiều phu cười nói: 'Gia vị ngon nhất trên đời chính là sự đói và tâm hồn thanh thản'.",
+      "bai_hoc_ran_day": "Sự ngon miệng và hạnh phúc bắt nguồn từ nhu cầu tự nhiên và tâm thái thanh thản, không phải do món ăn đắt tiền hay sự xa hoa thừa mứa.",
+      "loi_khuyen_ung_dung": "Sống điều độ, trân trọng từng bữa ăn giản dị và giữ tinh thần thoải mái."
+    },
+    {
+      "so_thu_tu": 88,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Đồng Tiền Đẫm Mồ Hôi Và Đồng Tiền Bất Chính",
+      "nhan_vat_nguon_goc": "Cổ tích giáo dục",
+      "noi_dung_cau_chuyen": "Người cha muốn dạy con quý trọng sức lao động liền bảo con đi kiếm 1 đồng tiền về. Con trai lười biếng xin mẹ 1 đồng đem về nộp, người cha lập tức ném đồng tiền vào bếp lửa, con trai dửng dưng không tiếc. Lần sau cậu phải đi vác lúa cật lực cả ngày mới kiếm được 1 đồng tiền. Khi cha ném vào lửa, cậu bé hốt hoảng lao vào bới than nhặt lại, tay phồng rộp. Người cha mỉm cười: 'Đó mới chính là đồng tiền do mồ hôi nước mắt của con làm ra'.",
+      "bai_hoc_ran_day": "Chỉ những đồng tiền kiếm được bằng mồ hôi, công sức và lương tâm chân chính mới mang lại giá trị và sự trân trọng thực sự.",
+      "loi_khuyen_ung_dung": "Lao động chân chính, tự lập kiếm sống và trân quý giá trị mồ hôi công sức của mình và người khác."
+    },
+    {
+      "so_thu_tu": 89,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Lâu Đài Xây Trên Cát",
+      "nhan_vat_nguon_goc": "Tân Ước - Ngụ ngôn Kinh Thánh",
+      "noi_dung_cau_chuyen": "Một người xây lâu đài lộng lẫy trên cát mịn ven biển. Công trình hoàn thành nhanh chóng và ai cũng trầm trồ khen ngợi. Nhưng khi mùa mưa bão tới, sóng biển dâng cao cuốn phăng nền cát, toàn bộ lâu đài sụp đổ tan tành trong chớp mắt. Người khôn ngoan thì nhẫn nại đào móng sâu và xây nhà trên nền đá tảng vững chắc.",
+      "bai_hoc_ran_day": "Thành công hay danh vọng xây dựng trên sự giả dối và nền tảng nông cạn sẽ nhanh chóng sụp đổ trước phong ba bão táp. Phải xây dựng cuộc đời trên nền tảng đạo đức và năng lực vững chắc.",
+      "loi_khuyen_ung_dung": "Tập trung xây dựng nền tảng đạo đức, kiến thức và kỹ năng thực chất, không chuộng hư danh hình thức."
+    },
+    {
+      "so_thu_tu": 90,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Người Ôm Vàng Không Dám Tiêu",
+      "nhan_vat_nguon_goc": "Ngụ ngôn Aesop",
+      "noi_dung_cau_chuyen": "Một kẻ hà tiện bán hết gia tài đổi lấy một thỏi vàng lớn rồi chôn dưới gốc cây. Hàng ngày ông ta ra ngắm nhìn thỏi vàng mà không dám ăn tiêu một đồng. Một tên trộm rình mò đào mất thỏi vàng. Kẻ hà tiện khóc lóc thảm thiết. Người hàng xóm bảo: 'Ông hãy chôn một hòn đá vào chỗ đó rồi hàng ngày ra ngắm, vì có vàng mà ông cũng đâu có dùng tới, hòn đá với thỏi vàng với ông có khác gì nhau?'.",
+      "bai_hoc_ran_day": "Tiền bạc chỉ có giá trị thực sự khi nó được sử dụng để tạo ra giá trị, giúp đỡ cuộc sống và đem lại hạnh phúc. Tích lũy mà không dùng chỉ biến mình thành nô lệ canh giữ của cải.",
+      "loi_khuyen_ung_dung": "Sử dụng tài chính một cách thông minh, đầu tư cho sức khỏe, tri thức và phụng sự xã hội."
+    },
+    {
+      "so_thu_tu": 91,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Chiếc Hòm Kho Báu Rỗng",
+      "nhan_vat_nguon_goc": "Chuyện cổ tích Ba Tư",
+      "noi_dung_cau_chuyen": "Một vị vua trước khi lâm chung để lại bản đồ kho báu bí mật cho hoàng tử. Hoàng tử trải qua muôn vàn gian nan, vượt sa mạc, băng rừng sâu, kết giao với nhiều người tốt và học được cách sinh tồn. Khi tìm được chiếc hòm kho báu, mở ra bên trong chỉ có một chiếc gương và dòng chữ: 'Kho báu lớn nhất không phải là vàng bạc, mà là sự trưởng thành, ý chí và những người bạn con đã có trên suốt hành trình'.",
+      "bai_hoc_ran_day": "Kho báu lớn nhất của đời người chính là sự trải nghiệm, bản lĩnh tôi luyện và những tình cảm chân thành tích lũy được trên đường đời.",
+      "loi_khuyen_ung_dung": "Tận hưởng từng chặng đường phấn đấu và trân trọng những trải nghiệm quý báu trên hành trình cuộc sống."
+    },
+    {
+      "so_thu_tu": 92,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Giọt Mật Trên Ngọn Cỏ",
+      "nhan_vat_nguon_goc": "Kinh Thí Dụ - Phật giáo",
+      "noi_dung_cau_chuyen": "Một người bị voi dữ đuổi chạy tụt xuống giếng sâu, may mắn bám được vào sợi dây leo. Dưới đáy giếng là bốn con rắn độc ngóc đầu chờ đợi, trên miệng giếng có hai con chuột trắng và đen đang gặm đứt dần sợi dây leo. Bỗng trên ngọn cỏ có vài giọt mật ong rừng nhỏ xuống môi. Người đó liền say sưa liếm từng giọt mật ngọt ngào mà quên sạch mọi hiểm nguy chết chóc đang rình rập quanh mình.",
+      "bai_hoc_ran_day": "Vì mải mê đắm chìm trong những khoái lạc vật chất và danh vọng nhất thời (như giọt mật) mà con người thường quên đi sự trôi chảy của thời gian và cái chết đang cận kề.",
+      "loi_khuyen_ung_dung": "Tỉnh thức trước những cám dỗ dục vọng nhất thời, sống tỉnh giác và có trách nhiệm với sinh mệnh của mình."
+    },
+    {
+      "so_thu_tu": 93,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Người Trả Lại Túi Vàng",
+      "nhan_vat_nguon_goc": "Gương sáng đạo đức",
+      "noi_dung_cau_chuyen": "Một bác lao công nghèo nhặt được chiếc túi chứa hàng trăm triệu đồng của một thương gia đánh rơi ở sân ga. Dù con đang ốm nặng, bác vẫn kiên quyết nộp lại cho công an để trả người mất. Thương gia cảm kích tặng bác một số tiền lớn và nhận bác vào làm việc. Thương gia hỏi sao bác không giữ lại, bác cười đáp: 'Tiền nghèo thì kiếm lại được, nhưng lương tâm mất đi thì ngàn vàng không chuộc lại được'.",
+      "bai_hoc_ran_day": "Lương tâm trong sạch là chiếc gối êm ái nhất để có giấc ngủ ngon. Sống ngay thẳng, không tham của phi nghĩa là phước báu vô lượng.",
+      "loi_khuyen_ung_dung": "Tuyệt đối không tham lam của rơi, giữ gìn danh dự và sự liêm chính trong mọi hoàn cảnh."
+    },
+    {
+      "so_thu_tu": 94,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Cây Đa Cổ Thụ Và Giàn Hoa Dại",
+      "nhan_vat_nguon_goc": "Triết lý thiên nhiên",
+      "noi_dung_cau_chuyen": "Cây đa cổ thụ che bóng mát cho cả ngôi làng, giàn hoa dại nép mình dưới gốc tỏa hương thơm ngát dịu dàng. Cây đa không vì mình to lớn mà khinh hoa dại, hoa dại không vì mình nhỏ bé mà tự ti. Cả hai cùng hòa hợp làm đẹp cho góc làng thanh bình.",
+      "bai_hoc_ran_day": "Mỗi con người sinh ra đều có giá trị và sứ mệnh riêng biệt trong bức tranh tổng thể của cuộc đời. Không so sánh, không tự ti, hãy sống trọn vẹn với giá trị của mình.",
+      "loi_khuyen_ung_dung": "Tự tin phát huy giá trị riêng của bản thân và tôn trọng sự đóng góp của mọi người trong xã hội."
+    },
+    {
+      "so_thu_tu": 95,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Phú Quý Như Mây Bay",
+      "nhan_vat_nguon_goc": "Tào Tháo & Cổ nhân Trung Hoa",
+      "noi_dung_cau_chuyen": "Vị tể tướng quyền nghiêng thiên hạ khi về già đứng ngắm nhìn hoàng hôn trên đỉnh núi liền than thở với học trò: 'Trăm năm trước không có ta, trăm năm sau ta cũng chẳng còn. Quyền thế danh vọng tranh giành cả đời, cuối cùng cũng như đám mây bay qua đỉnh núi, tan biến vào hư không'.",
+      "bai_hoc_ran_day": "Danh lợi phù du như mây gió. Nhìn thấu sự vô thường của quyền lực giúp ta sống an nhiên, tự tại và bớt tham vọng mù quáng.",
+      "loi_khuyen_ung_dung": "Xem nhẹ hơn thua được mất trong danh lợi, chú trọng vun đắp giá trị tinh thần và tình thương."
+    },
+    {
+      "so_thu_tu": 96,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Chiếc Áo Liệm Không Có Túi",
+      "nhan_vat_nguon_goc": "Alexander Đại Đế",
+      "noi_dung_cau_chuyen": "Alexander Đại Đế chinh phục cả thế giới, trước khi qua đời ở tuổi 32 đã căn dặn 3 điều: Để các danh y giỏi nhất khiêng quan tài (để thấy y học không cứu nổi số mệnh); Rải toàn bộ vàng bạc châu báu trên đường đi (để thấy của cải chẳng mang theo được); Để hai bàn tay buông thõng ra ngoài quan tài cho mọi người thấy: Ta đến thế giới bằng hai bàn tay trắng, và rời đi cũng với hai bàn tay trắng.",
+      "bai_hoc_ran_day": "Con người sinh ra với hai bàn tay trắng và ra đi cũng với hai bàn tay trắng. Đừng vì tích lũy của cải hư vô mà đánh mất nhân phẩm và tình yêu thương.",
+      "loi_khuyen_ung_dung": "Sống hào sảng, biết sẻ chia của cải cho những hoàn cảnh khó khăn thay vì ôm giữ khư khư cho riêng mình."
+    },
+    {
+      "so_thu_tu": 97,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Hạnh Phúc Đến Từ Lòng Biết Ơn",
+      "nhan_vat_nguon_goc": "Triết lý sống hiện đại",
+      "noi_dung_cau_chuyen": "Một người đàn ông luôn than thở mình bất hạnh vì chỉ có một đôi giày cũ rách. Đến một ngày ở góc phố, anh nhìn thấy một chàng trai cụt cả hai chân đang ngồi xe lăn mỉm cười rạng rỡ đàn hát kiếm sống. Anh bàng hoàng cúi đầu và thầm cảm ơn vì mình vẫn còn trọn vẹn đôi chân để bước đi trên cõi đời.",
+      "bai_hoc_ran_day": "Lòng biết ơn biến những gì chúng ta đang có trở nên đủ đầy. Khi biết trân trọng những điều bình dị hiện tại, bạn sẽ luôn thấy mình giàu có và hạnh phúc.",
+      "loi_khuyen_ung_dung": "Mỗi sáng thức dậy hãy ghi nhớ 3 điều bạn cảm thấy biết ơn trong cuộc sống."
+    },
+    {
+      "so_thu_tu": 98,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Cốc Nước Lọc Giữa Trưa Hè",
+      "nhan_vat_nguon_goc": "Ngụ ngôn đời thường",
+      "noi_dung_cau_chuyen": "Giữa trưa hè nắng gắt cháy da, người khách bộ hành khát khô cổ họng được một cô bé ven đường trao tặng một cốc nước lọc mát lành. Uống xong từng ngụm nước trong veo, ông cảm thấy như được hồi sinh toàn bộ năng lượng. Ông nhận ra: thứ quý giá nhất cứu sống con người đôi khi chỉ là một cốc nước lọc bình dị không tốn một đồng.",
+      "bai_hoc_ran_day": "Hạnh phúc đích thực và sự sống được nuôi dưỡng từ những điều giản dị, thuần khiết nhất của tự nhiên và tình người.",
+      "loi_khuyen_ung_dung": "Trân trọng môi trường thiên nhiên, nguồn nước sạch và những điều giản dị quanh mình."
+    },
+    {
+      "so_thu_tu": 99,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Bẻ Đôi Ổ Bánh Mì",
+      "nhan_vat_nguon_goc": "Chuyện cảm động thời chiến",
+      "noi_dung_cau_chuyen": "Trong nạn đói, người lính chỉ còn đúng một mẩu bánh mì cuối cùng trong ba lô. Thấy một đứa trẻ đói lả ngồi nép bên đường, anh không ngần ngại bẻ đôi ổ bánh mì trao cho đứa trẻ cùng một nụ cười hiền hậu. Đứa trẻ ăn xong nở nụ cười và trao lại cho anh một bông hoa dại nhỏ. Nụ cười của đứa trẻ đã tiếp thêm cho anh sức mạnh phi thường để sống sót qua chiến tranh.",
+      "bai_hoc_ran_day": "Cho đi là còn mãi. Hạnh phúc khi sẻ chia niềm vui và sự sống cho người khác là thứ hạnh phúc cao thượng và trường tồn nhất.",
+      "loi_khuyen_ung_dung": "Tích cực tham gia các hoạt động thiện nguyện, giúp đỡ người hoạn nạn bằng khả năng của mình."
+    },
+    {
+      "so_thu_tu": 100,
+      "chu_de": "Tiền Tài, Danh Lợi & Hạnh Phúc",
+      "tieu_de": "Tâm Không Vướng Bận Là Ngày Đẹp Nhất",
+      "nhan_vat_nguon_goc": "Vô Môn Huệ Khai - Thiền Tông",
+      "noi_dung_cau_chuyen": "Thiền sư Vô Môn Huệ Khai để lại bài kệ bất hủ: 'Xuân có trăm hoa, thu có trăng. Hạ có gió mát, đông có tuyết. Nếu không vướng bận chuyện phiền não trong tâm, thì ngày ngày trên cõi thế gian đều là ngày đẹp nhất'.",
+      "bai_hoc_ran_day": "Cuộc sống mỗi mùa, mỗi ngày đều có vẻ đẹp riêng biệt. Chỉ cần gột rửa phiền não và giữ cho tâm trí thanh thản, tự tại, mỗi ngày bạn sống đều là một ngày rực rỡ và hạnh phúc.",
+      "loi_khuyen_ung_dung": "Thực hành buông xả muộn phiền, trân quý từng phút giây hiện tại, mỉm cười đón nhận cuộc sống an vui."
+    }
+  ]
+}
