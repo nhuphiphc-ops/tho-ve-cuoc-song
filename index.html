@@ -1739,6 +1739,14 @@
         </div>
         <p id="gq-meaning" class="text-sm text-amber-200 font-medium italic border-l-2 border-amber-500 pl-3 leading-relaxed"></p>
         <p id="gq-details" class="text-xs text-slate-350 leading-relaxed font-sans mt-2"></p>
+        <div class="mt-2 pt-3 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2">
+          <button id="btn-gq-view-detail" onclick="viewGieoQueDetail()" class="text-xs font-bold text-amber-400 hover:text-white bg-amber-500/15 hover:bg-amber-500/25 px-3 py-1.5 rounded-xl border border-amber-500/30 transition-all cursor-pointer flex items-center gap-1">
+            <span>🔍</span> Xem chi tiết quẻ dịch ➔
+          </button>
+          <button id="btn-gq-save-note" onclick="saveGieoQueToNotebook()" class="text-xs font-bold text-slate-300 hover:text-white bg-slate-900 hover:bg-slate-800 px-3 py-1.5 rounded-xl border border-slate-800 transition-all cursor-pointer flex items-center gap-1">
+            <span>📝</span> Lưu vào sổ tay
+          </button>
+        </div>
       </div>
 
       <button id="btn-gieoque-action" onclick="runGieoQueAnimation()" class="mt-6 px-6 py-3 w-full rounded-2xl bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-950 font-black text-sm shadow-lg shadow-amber-500/20 transition-all uppercase tracking-wider cursor-pointer active:scale-95">
@@ -3918,6 +3926,10 @@
       } catch (e) {
         kinhDichNotes = [];
       }
+      const dateEl = document.getElementById('kd-note-date');
+      if (dateEl && !dateEl.value) {
+        dateEl.value = new Date().toISOString().split('T')[0];
+      }
     }
 
     function saveKinhDichNotes() {
@@ -4813,6 +4825,7 @@
         </div>
       `;
 
+      modalBody.className = "text-slate-100 py-2 not-italic font-sans text-left leading-normal whitespace-normal";
       modalBody.innerHTML = bodyContent;
       modalStt.textContent = `Quẻ số: ${stt} / 64`;
       modalKhosTho.textContent = `Hệ thống: Chu Dịch Toàn Thư`;
@@ -4825,6 +4838,9 @@
     };
 
     // --- GIEO QUE MODAL LOGIC ---
+    let lastGieoQueStt = null;
+    let lastGieoQueName = '';
+
     window.triggerGieoQue = function() {
       gieoqueModal.classList.remove('hidden');
       gieoqueResult.classList.add('hidden');
@@ -4836,6 +4852,28 @@
 
     window.closeGieoQue = function() {
       gieoqueModal.classList.add('hidden');
+    };
+
+    window.viewGieoQueDetail = function() {
+      if (lastGieoQueStt) {
+        closeGieoQue();
+        openKinhDichDetailModal(lastGieoQueStt);
+      }
+    };
+
+    window.saveGieoQueToNotebook = function() {
+      closeGieoQue();
+      switchMainTab('kinhdich');
+      selectKinhDichSubModule('sub_so_tay');
+      const hexagramEl = document.getElementById('kd-note-hexagram');
+      const dateEl = document.getElementById('kd-note-date');
+      if (hexagramEl && lastGieoQueName) {
+        hexagramEl.value = `Quẻ #${lastGieoQueStt} ${lastGieoQueName}`;
+      }
+      if (dateEl && !dateEl.value) {
+        dateEl.value = new Date().toISOString().split('T')[0];
+      }
+      document.getElementById('kinhdich-notebook-area')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
 
     window.runGieoQueAnimation = function() {
@@ -4851,7 +4889,9 @@
           const list = kinhDichData['que_64'];
           const randomQue = list[Math.floor(Math.random() * list.length)];
           
+          lastGieoQueStt = randomQue.stt || randomQue.STT || 1;
           const tenQue = randomQue.ten_que || randomQue['Tên quẻ'] || 'Quẻ Dịch';
+          lastGieoQueName = tenQue;
           const cauTruc = randomQue.cau_truc || randomQue['Cấu trúc'] || '';
           const ch = randomQue.cat_hung || randomQue['Cát/hung'] || 'Cát';
           const giaiNghia = randomQue.giai_nghia || randomQue['Ý nghĩa cơ bản'] || '';
@@ -5042,6 +5082,7 @@
         modalSuggestionBox.classList.add('hidden');
       }
 
+      modalBody.className = "text-slate-100 text-lg leading-relaxed whitespace-pre-line italic font-serif py-4 text-center";
       modalBody.textContent = poem.noi_dung;
       modalStt.textContent = `Bài thơ số: ${poem.stt} / ${poems.length}`;
       modalKhosTho.textContent = `Thể loại: Thơ triết lý`;
@@ -5053,10 +5094,27 @@
       }, 10);
     };
 
-    closeModalBtn.addEventListener('click', () => {
+    function closeMainModal() {
       modalContainer.classList.remove('scale-100');
       modalContainer.classList.add('scale-95');
       setTimeout(() => modal.classList.add('hidden'), 150);
+    }
+
+    closeModalBtn.addEventListener('click', closeMainModal);
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeMainModal();
+    });
+
+    gieoqueModal.addEventListener('click', (e) => {
+      if (e.target === gieoqueModal) closeGieoQue();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        if (!gieoqueModal.classList.contains('hidden')) closeGieoQue();
+        if (!modal.classList.contains('hidden')) closeMainModal();
+      }
     });
 
     searchInput.addEventListener('input', filterPoems);
