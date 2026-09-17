@@ -923,7 +923,8 @@
             <button onclick="selectThanYSubTab('than_y_bien_thuoc')" id="ty-tab-than_y_bien_thuoc" class="ty-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🔍 4. Thần Y Biển Thước</button>
             <button onclick="selectThanYSubTab('ly_thoi_tran_thuc_duong')" id="ty-tab-ly_thoi_tran_thuc_duong" class="ty-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🌿 5. Lý Thời Trân & Thực Dưỡng</button>
             <button onclick="selectThanYSubTab('hoang_de_noi_kinh_4_mua')" id="ty-tab-hoang_de_noi_kinh_4_mua" class="ty-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">☯️ 6. Hoàng Đế Nội Kinh 4 Mùa</button>
-            <button onclick="selectThanYSubTab('so_tay')" id="ty-tab-so_tay" class="ty-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🍵 7. Sổ Tay Dưỡng Sinh</button>
+            <button onclick="selectThanYSubTab('danh_y_123_tuoi')" id="ty-tab-danh_y_123_tuoi" class="ty-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">👴 7. 100 Lời Khuyên Danh Y 123 Tuổi</button>
+            <button onclick="selectThanYSubTab('so_tay')" id="ty-tab-so_tay" class="ty-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🍵 8. Sổ Tay Dưỡng Sinh</button>
           </div>
         </div>
       </div>
@@ -1488,7 +1489,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v26';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v27';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -2270,6 +2271,13 @@
       if (activeThanYSubTab === 'all' || activeThanYSubTab === 'hoang_de_noi_kinh_4_mua') {
         (thanYData.hoang_de_noi_kinh_4_mua || []).forEach(item => {
           addCard(item.mua, '☯️', item.nguon, item.loi_khuyen, item.chi_tiet, item.bai_hoc);
+        });
+      }
+
+      // 7. 100 Loi Khuyen Danh Y 123 Tuoi
+      if (activeThanYSubTab === 'all' || activeThanYSubTab === 'danh_y_123_tuoi') {
+        (thanYData.danh_y_123_tuoi || []).forEach(item => {
+          addCard(item.chu_de || 'Danh Y 123 Tuổi', '👴', item.danh_y, item.loi_khuyen, item.chi_tiet, item.bai_hoc);
         });
       }
 
@@ -4235,6 +4243,10 @@
         (thanYData.hoang_de_noi_kinh_4_mua || []).forEach(function (item) {
           add('thany', null, '[DƯỠNG SINH - ' + item.mua + '] ' + item.loi_khuyen,
             item.chi_tiet + ' Bài học: ' + item.bai_hoc);
+        });
+        (thanYData.danh_y_123_tuoi || []).forEach(function (item) {
+          add('thany', null, '[DANH Y 123 TUỔI - ' + (item.chu_de || '') + '] ' + item.loi_khuyen,
+            item.chi_tiet + ' Lời khuyên thực hành: ' + item.bai_hoc);
         });
       }
 

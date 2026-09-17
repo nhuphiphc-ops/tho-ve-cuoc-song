@@ -193,5 +193,807 @@
       "chi_tiet": "23h - 1h (Giờ Tý - Can Đởm thải độc, nhất định phải ngủ say) | 3h - 5h (Giờ Dần - Phế khí phân bổ) | 5h - 7h (Giờ Mão - Đại tràng thải độc, uống nước ấm đi vệ sinh) | 7h - 9h (Giờ Thìn - Dạ dày hấp thụ tốt nhất, ăn sáng ấm) | 11h - 13h (Giờ Ngọ - Tâm kinh vượng, chợp mắt 15-30 phút) | 17h - 19h (Giờ Dậu - Thận kinh nạp tinh).",
       "bai_hoc": "Ngủ trước 23h đêm là bí quyết chống lão hóa và hồi phục sinh lực tốt nhất."
     }
+  ],
+  "danh_y_123_tuoi": [
+    {
+      "so_thu_tu": 1,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 1: Cảnh giới cao nhất của dưỡng sinh chính là Dưỡng Tâm",
+      "chi_tiet": "Thân thể phụ thuộc vào khí huyết, nhưng khí huyết lại hoàn toàn do tâm sai khiến. Tâm bình khí hòa thì máu huyết lưu thông, bách bệnh tự lui. Tâm loạn thì trăm mạch đều tắc.",
+      "bai_hoc": "Mỗi ngày dành ít nhất 15 phút ngồi yên tĩnh lặng, buông xả mọi lo toan, thở sâu và điều hòa tâm trí."
+    },
+    {
+      "so_thu_tu": 2,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 2: Oán giận và nóng giận là ngọn lửa thiêu đốt ngũ tạng",
+      "chi_tiet": "Một cơn giận dữ làm khí bốc ngược lên đầu, tổn thương gan, hại tim và làm đứt gãy kinh mạch. Người hay oán trách thì khí trệ huyết ứ, dễ sinh u bướu.",
+      "bai_hoc": "Khi sắp nổi giận, hãy hít thở sâu 3 hơi, uống một ngụm nước ấm và chậm lại 10 giây trước khi mở lời."
+    },
+    {
+      "so_thu_tu": 3,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 3: Tâm không vướng bận việc đời thì thân thể nhẹ như mây",
+      "chi_tiet": "Lo nghĩ quá nhiều hại tỳ vị, sợ hãi hại thận, buồn bã hại phổi, suy tính thiệt hơn làm cạn kiệt tâm huyết. Người vô tư ít dục vọng tự nhiên sống lâu.",
+      "bai_hoc": "Việc đã qua không tiếc nuối, việc chưa đến không lo âu, việc hiện tại hết lòng làm với tâm bình thản."
+    },
+    {
+      "so_thu_tu": 4,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 4: Thượng sĩ dưỡng tâm, Trung sĩ dưỡng khí, Hạ sĩ dưỡng thân",
+      "chi_tiet": "Chỉ biết tẩm bổ thân xác mà tâm trí đầy phiền muộn là hạ sách. Biết điều khí luyện thở là trung sách. Giữ tâm từ bi, trong sáng, thanh tịnh là thượng sách cao nhất.",
+      "bai_hoc": "Nuôi dưỡng tâm hồn bằng thiện lương, đọc sách thánh hiền và thực hành lòng biết ơn mỗi ngày."
+    },
+    {
+      "so_thu_tu": 5,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 5: Bệnh từ tâm sinh thì phải từ tâm mà chữa",
+      "chi_tiet": "Uống thuốc ngàn thang không bằng gỡ bỏ một nút thắt trong lòng. Tâm bệnh nếu chưa giải thì thuốc tiên cũng chỉ chữa được phần ngọn bên ngoài.",
+      "bai_hoc": "Học cách tha thứ cho người khác cũng chính là đang tự giải độc và cứu lấy mạng sống của chính mình."
+    },
+    {
+      "so_thu_tu": 6,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 6: Giữ nụ cười trên môi là phương thuốc bổ huyết tự nhiên",
+      "chi_tiet": "Tiếng cười làm giãn nở lồng ngực, tăng dung tích phổi, kích thích tạng phủ hoạt động và giải tỏa mọi u uất của can khí.",
+      "bai_hoc": "Mỗi sáng thức dậy hãy mỉm cười trước gương, chào ngày mới với lòng hoan hỷ và trân trọng sự sống."
+    },
+    {
+      "so_thu_tu": 7,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 7: Bớt lời nói để dưỡng khí, bớt nhìn ngó để dưỡng thần",
+      "chi_tiet": "Nói nhiều làm hao tổn phế khí và chân khí; nhìn màn hình, xem tin tức tiêu cực quá nhiều làm mỏi mắt và tán loạn tinh thần.",
+      "bai_hoc": "Tập giữ thói quen 'ít nói lời vô ích', bớt lướt mạng vô bổ, nhắm mắt dưỡng thần những lúc rảnh rỗi."
+    },
+    {
+      "so_thu_tu": 8,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 8: Người có lòng từ bi thì hào quang tự tỏa, tà khí không xâm nhập",
+      "chi_tiet": "Lòng trắc ẩn, yêu thương muôn loài tạo ra trường năng lượng dương khí cực kỳ mạnh mẽ, giúp nâng cao sức đề kháng tự nhiên của cơ thể.",
+      "bai_hoc": "Thường xuyên làm việc thiện, nói lời ái ngữ và cầu chúc an lành cho mọi người xung quanh."
+    },
+    {
+      "so_thu_tu": 9,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 9: Đừng đem lỗi lầm của người khác trừng phạt thân thể mình",
+      "chi_tiet": "Uất ức vì người khác đối xử tệ bạc với mình là hành vi dại dột nhất, khiến gan sưng đau, dạ dày viêm loét và mất ngủ triền miên.",
+      "bai_hoc": "Hiểu rằng nghiệp ai nấy gánh, buông bỏ phán xét để tâm trí được nhẹ nhõm như mây trời."
+    },
+    {
+      "so_thu_tu": 10,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 10: Bình tĩnh là đại trí tuệ, chậm rãi là đại dưỡng sinh",
+      "chi_tiet": "Vội vàng, hấp tấp làm tim đập nhanh, huyết áp tăng vọt và khí huyết đảo lộn. Làm việc gì cũng giữ phong thái ung dung, khoan thai.",
+      "bai_hoc": "Đi chậm lại một chút, ăn chậm lại một chút, nói chậm lại một chút để cảm nhận từng nhịp đập của sự sống."
+    },
+    {
+      "so_thu_tu": 11,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 11: Chớ để lòng tham vô đáy làm kiệt quệ tinh tủy",
+      "chi_tiet": "Ham muốn tiền tài, danh vọng quá mức khiến con người ngày đêm toan tính, mất ăn mất ngủ, hao mòn tinh tủy dẫn đến đoản thọ.",
+      "bai_hoc": "Biết đủ là giàu, biết dừng là yên. Sống tri túc tiện túc, hưởng trọn niềm vui giản dị đời thường."
+    },
+    {
+      "so_thu_tu": 12,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 12: Đón nhận nghịch cảnh như bài thuốc đắng giã tật",
+      "chi_tiet": "Khi gặp khó khăn hay bệnh tật, tâm không sợ hãi oán thán thì dương khí còn nguyên vẹn, cơ thể sẽ nhanh chóng vượt qua thử thách.",
+      "bai_hoc": "Luôn giữ thái độ lạc quan: Mọi chuyện xảy ra đều có lý do và là cơ hội để rèn luyện tâm tính kiên cường."
+    },
+    {
+      "so_thu_tu": 13,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 13: Âm thầm sám hối lỗi lầm để tiêu trừ bệnh căn",
+      "chi_tiet": "Cảm giác tội lỗi giấu kín sinh ra độc tố tinh thần ứ trệ tại các tạng phủ. Thành tâm sám hối và sửa mình giúp giải tỏa mọi ách tắc nội tâm.",
+      "bai_hoc": "Mỗi tối trước khi ngủ, tự soi chiếu lại hành vi trong ngày, nhận sai và quyết tâm sửa đổi những điều chưa tốt."
+    },
+    {
+      "so_thu_tu": 14,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 14: Tĩnh lặng sinh trí tuệ, định tâm sinh chân khí",
+      "chi_tiet": "Khi tâm đạt đến độ tĩnh lặng tuyệt đối, các tế bào trong cơ thể được nghỉ ngơi và tự sửa chữa những hư tổn vi mô một cách hoàn hảo.",
+      "bai_hoc": "Dành thời gian hòa mình vào thiên nhiên, lắng nghe tiếng gió thổi, lá rơi để gột rửa tâm hồn."
+    },
+    {
+      "so_thu_tu": 15,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 15: Chớ so bì hơn thua với đời",
+      "chi_tiet": "Tâm đố kỵ sinh ra hỏa bốc, làm tổn thương tâm bào và can mộc. Người luôn so sánh mình với kẻ khác sẽ chẳng bao giờ có được giấc ngủ ngon.",
+      "bai_hoc": "Tập trung hoàn thiện chính mình ngày hôm nay tốt hơn ngày hôm qua thay vì nhìn sang thành công của người khác."
+    },
+    {
+      "so_thu_tu": 16,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 16: Giữ khí sắc ôn hòa là bí quyết trẻ mãi không già",
+      "chi_tiet": "Tướng tùy tâm sinh. Tâm bình thản, ánh mắt dịu hiền thì khí sắc hồng hào, cơ mặt thư giãn, nếp nhăn tự nhiên ít xuất hiện.",
+      "bai_hoc": "Luôn đối xử với mọi người bằng ánh mắt bao dung và thái độ nhã nhặn, hòa ái."
+    },
+    {
+      "so_thu_tu": 17,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 17: U sầu kéo dài là mầm mống của chứng tích tụ",
+      "chi_tiet": "Nỗi buồn sâu kín làm phế khí suy kiệt, dẫn đến suy giảm miễn dịch và tạo điều kiện cho các khối u ác tính hình thành.",
+      "bai_hoc": "Khi có chuyện buồn, hãy chia sẻ với bạn tri kỷ, đi dạo dưới ánh nắng hoặc nghe nhạc êm dịu để giải tỏa."
+    },
+    {
+      "so_thu_tu": 18,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 18: Lòng biết ơn là nguồn năng lượng tái sinh mạnh nhất",
+      "chi_tiet": "Khi biết ơn từng hơi thở, chén cơm, ngụm nước, cơ thể sẽ tiết ra những hormone hạnh phúc nuôi dưỡng từng tế bào khỏe mạnh.",
+      "bai_hoc": "Viết ra 3 điều bạn cảm thấy biết ơn sâu sắc vào mỗi buổi sáng khi vừa thức dậy."
+    },
+    {
+      "so_thu_tu": 19,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 19: Tránh tranh cãi vô ích để bảo tồn nguyên khí",
+      "chi_tiet": "Tranh luận gay gắt khiến thần kinh căng thẳng, tim đập loạn nhịp và hao tổn rất nhiều chân khí của cơ thể.",
+      "bai_hoc": "Gặp người bất đồng quan điểm, chỉ cần mỉm cười gật đầu; không cố chứng minh mình đúng bằng mọi giá."
+    },
+    {
+      "so_thu_tu": 20,
+      "chu_de": "Dưỡng Tâm & Khí Huyết",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 20: Tự do nội tâm là cảnh giới trường thọ cao nhất",
+      "chi_tiet": "Không bị ràng buộc bởi danh lợi, khen chê, được mất; tâm an nhiên tự tại giữa dòng đời biến chuyển chính là liều thuốc tiên trường sinh.",
+      "bai_hoc": "Học cách sống tự tại, xem vạn sự như mây trôi nước chảy, giữ tâm bất biến giữa dòng đời vạn biến."
+    },
+    {
+      "so_thu_tu": 21,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 21: Giấc ngủ là liều thuốc bổ đệ nhất thiên hạ",
+      "chi_tiet": "Thuốc bổ vạn thang không bằng một giấc ngủ sâu đúng giờ. Ngủ là lúc cơ thể hồi phục nguyên khí, lọc sạch độc tố và tái tạo tế bào mới.",
+      "bai_hoc": "Coi giấc ngủ là ưu tiên số một của sức khỏe, không hy sinh giấc ngủ cho công việc hay giải trí."
+    },
+    {
+      "so_thu_tu": 22,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 22: Nhất định phải ngủ trước 23h đêm (Giờ Tý dưỡng Đởm)",
+      "chi_tiet": "Từ 23h đến 1h sáng là giờ của kinh Đởm (mật). Đởm chủ quyết đoán và sinh phát dương khí. Thức qua giờ Tý làm dương khí hư tổn, mắt mờ, tóc bạc sớm.",
+      "bai_hoc": "Lên giường nằm thư giãn từ 22h30 để chìm vào giấc ngủ sâu trước 23h đêm."
+    },
+    {
+      "so_thu_tu": 23,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 23: Giấc ngủ từ 1h đến 3h sáng giúp Can tạng lọc sạch máu huyết",
+      "chi_tiet": "Giờ Sửu (1h-3h) là lúc máu dồn về Gan để giải độc và sinh huyết mới. Thức khuya giờ này khiến gan xơ cứng, độc tố tích tụ gây mụn nhọt và nám da.",
+      "bai_hoc": "Tuyệt đối không thức khuya làm việc hoặc ăn đêm trong khung giờ này."
+    },
+    {
+      "so_thu_tu": 24,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 24: Chợp mắt 15-30 phút giờ Ngọ (11h - 13h) để dưỡng Tâm",
+      "chi_tiet": "Giờ Ngọ là lúc âm dương giao hòa, tâm hỏa vượng nhất. Một giấc ngủ ngắn giờ Ngọ giúp an định thần kinh, phòng ngừa đột quỵ và nhồi máu cơ tim.",
+      "bai_hoc": "Dù bận rộn đến đâu cũng nên nhắm mắt ngồi tựa lưng nghỉ ngơi 20 phút sau bữa trưa."
+    },
+    {
+      "so_thu_tu": 25,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 25: Ngủ trước ngủ tâm, sau mới ngủ thân",
+      "chi_tiet": "Trước khi đặt lưng xuống giường mà đầu óc còn toan tính công việc thì trằn trọc thâu đêm. Phải để tâm trí rỗng rang, thanh tịnh rồi giấc ngủ tự đến.",
+      "bai_hoc": "Trước khi ngủ 30 phút, tắt điện thoại, nghe nhạc thiền hoặc đọc vài trang sách đạo đức nhẹ nhàng."
+    },
+    {
+      "so_thu_tu": 26,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 26: Tư thế ngủ tốt nhất là nằm nghiêng như cánh cung (Cát Tường Ngọa)",
+      "chi_tiet": "Nằm nghiêng bên phải giúp tim không bị chèn ép, dạ dày dễ tiêu hóa tống xuất thức ăn và đường thở thông suốt, tránh ngáy ngủ.",
+      "bai_hoc": "Tập thói quen nằm nghiêng sang phải, hai chân hơi co nhẹ, tay đặt thoải mái bên hông."
+    },
+    {
+      "so_thu_tu": 27,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 27: Dậy sớm vào giờ Dần (5h - 7h sáng) để đón sinh khí đất trời",
+      "chi_tiet": "Giờ Dần và Mão là lúc phế khí khai thông và đại tràng thải độc. Dậy sớm hít thở không khí trong lành giúp cả ngày tràn đầy năng lượng tích cực.",
+      "bai_hoc": "Duy trì thói quen dậy lúc 5h30 sáng, mở cửa sổ đón ánh bình minh và uống một ly nước ấm."
+    },
+    {
+      "so_thu_tu": 28,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 28: Phòng ngủ phải thoáng khí nhưng tuyệt đối tránh gió lùa (Phong tà)",
+      "chi_tiet": "Khi ngủ lỗ chân lông mở rộng, gió lùa vào gáy hay lưng sẽ gây trúng phong, méo miệng, đau nhức cổ vai gáy và cảm lạnh.",
+      "bai_hoc": "Không để quạt hoặc điều hòa thổi thẳng trực tiếp vào đầu và mặt khi ngủ; giữ nhiệt độ phòng vừa phải."
+    },
+    {
+      "so_thu_tu": 29,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 29: Không ăn quá no trước khi đi ngủ 3 tiếng",
+      "chi_tiet": "'Dạ dày bất hòa thì ngủ không yên'. Ăn đêm làm tỳ vị phải gồng mình làm việc, nhiệt lượng bốc lên làm mộng mị và gan nhiễm mỡ.",
+      "bai_hoc": "Kết thúc bữa tối trước 19h; nếu đói đêm chỉ nên uống nửa cốc nước ấm hoặc sữa hạt không đường."
+    },
+    {
+      "so_thu_tu": 30,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 30: Giữ ấm đôi chân và vùng bụng khi ngủ",
+      "chi_tiet": "Chân là gốc rễ của kinh lạc, bụng là nơi chứa nguyên khí đan điền. Nhiễm lạnh vùng chân và bụng sẽ tổn thương tỳ thận dương khí.",
+      "bai_hoc": "Luôn đắp chăn mỏng ngang bụng; mùa đông nên đi tất mềm ấm khi đi ngủ."
+    },
+    {
+      "so_thu_tu": 31,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 31: Ngâm chân nước ấm với gừng muối trước khi ngủ",
+      "chi_tiet": "Dưới lòng bàn chân có huyệt Dũng Tuyền nối liền thận kinh. Ngâm chân nước ấm 15 phút giúp dẫn hỏa quy nguyên, an thần và ngủ sâu như trẻ thơ.",
+      "bai_hoc": "Đun nước ấm với vài lát gừng tươi và chút muối hạt ngâm chân mỗi tối trước khi ngủ 30 phút."
+    },
+    {
+      "so_thu_tu": 32,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 32: Đầu nên để mát, chân phải giữ ấm",
+      "chi_tiet": "Đầu là nơi hội tụ dương khí nên cần thoáng mát; chân là nơi âm khí dễ xâm nhập nên cần ấm áp. Đó là bí quyết âm dương điều hòa.",
+      "bai_hoc": "Chọn gối nằm thông thoáng, độ cao vừa phải (7-9cm), không trùm chăn kín đầu khi ngủ."
+    },
+    {
+      "so_thu_tu": 33,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 33: Không mang điện thoại và thiết bị điện tử lên giường",
+      "chi_tiet": "Ánh sáng xanh ức chế sản sinh melatonin gây rối loạn nhịp sinh học, sóng điện từ làm nhiễu loạn sóng não khiến giấc ngủ chập chờn.",
+      "bai_hoc": "Đặt điện thoại cách xa giường ngủ ít nhất 2 mét hoặc để chế độ máy bay trước khi ngủ."
+    },
+    {
+      "so_thu_tu": 34,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 34: Đừng nằm nướng quá lâu trên giường sau khi thức giấc",
+      "chi_tiet": "Nằm lâu trên giường làm tiêu hao khí lực, cơ bắp nhão xệ và đầu óc mụ mẫm. Dậy ngay khi tỉnh giấc giúp tinh thần minh mẫn.",
+      "bai_hoc": "Thức giấc thì xoa hai bàn tay cho nóng, xoa mặt 10 lần rồi vươn vai bước xuống giường nhẹ nhàng."
+    },
+    {
+      "so_thu_tu": 35,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 35: Thuận theo bốn mùa để điều chỉnh giờ ngủ",
+      "chi_tiet": "Mùa xuân hè ngủ muộn dậy sớm để đón dương khí; mùa thu ngủ sớm dậy sớm giữ gìn phế khí; mùa đông ngủ sớm dậy muộn bảo tồn thận tinh.",
+      "bai_hoc": "Linh hoạt điều chỉnh nhịp sinh hoạt theo tiết trời từng mùa trong năm."
+    },
+    {
+      "so_thu_tu": 36,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 36: Tránh tức giận hoặc bàn chuyện căng thẳng trên giường ngủ",
+      "chi_tiet": "Giường ngủ phải là nơi bình yên tuyệt đối. Mang cảm xúc tiêu cực lên giường sẽ gieo hạt giống mất ngủ mãn tính vào tiềm thức.",
+      "bai_hoc": "Gác lại mọi bất đồng trước khi bước vào phòng ngủ; chỉ nói những lời yêu thương êm dịu."
+    },
+    {
+      "so_thu_tu": 37,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 37: Chải đầu 100 cái bằng các ngón tay trước khi ngủ",
+      "chi_tiet": "Trên đầu có hàng chục huyệt đạo quan trọng như Bách Hội, Thần Đình. Dùng 10 đầu ngón tay cào nhẹ từ trán ra sau gáy giúp lưu thông máu não.",
+      "bai_hoc": "Cào đầu nhẹ nhàng 3-5 phút trước khi đi ngủ giúp giảm rụng tóc và dễ ngủ."
+    },
+    {
+      "so_thu_tu": 38,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 38: Không tắm gội bằng nước lạnh vào ban đêm",
+      "chi_tiet": "Đêm xuống dương khí thu vào trong, tắm đêm khiến hàn thấp xâm nhập sâu vào kinh lạc gây đau nhức xương khớp và nguy cơ đột quỵ cao.",
+      "bai_hoc": "Tắm rửa trước 20h bằng nước ấm, lau khô tóc hoàn toàn trước khi đi ngủ."
+    },
+    {
+      "so_thu_tu": 39,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 39: Không uống trà đặc hay cà phê sau 15h chiều",
+      "chi_tiet": "Chất kích thích làm hưng phấn hệ thần kinh trung ương kéo dài suốt 8 tiếng, khiến tâm hỏa vượng và thận thủy cạn kiệt.",
+      "bai_hoc": "Sau 15h chỉ nên uống nước lọc ấm, nước đậu đen rang hoặc trà hoa cúc nhẹ."
+    },
+    {
+      "so_thu_tu": 40,
+      "chu_de": "Giấc Ngủ & Sinh Hoạt",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 40: Thức giấc giữa đêm chớ vội nhìn đồng hồ",
+      "chi_tiet": "Nhìn đồng hồ đếm giờ sẽ tạo tâm lý lo lắng, sốt ruột khiến não bộ tỉnh táo hoàn toàn và khó ngủ lại.",
+      "bai_hoc": "Nếu tỉnh giấc ban đêm, giữ nguyên tư thế nằm, tập trung vào nhịp thở nhẹ nhàng và tự nhủ cơ thể đang được nghỉ ngơi."
+    },
+    {
+      "so_thu_tu": 41,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 41: Ăn bảy phần no, giữ ba phần đói để sống lâu",
+      "chi_tiet": "Ăn quá no làm tỳ vị quá tải, thức ăn ứ trệ sinh đàm nhiệt, làm tắc nghẽn huyết quản. Giữ bụng hơi đói nhẹ giúp khí huyết thông suốt và đầu óc thanh tỉnh.",
+      "bai_hoc": "Khi cảm thấy vừa hết đói thì dừng đũa ngay, không cố ăn thêm vì tiếc thức ăn thừa."
+    },
+    {
+      "so_thu_tu": 42,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 42: Nhai kỹ nuốt chậm là phương thuốc dưỡng dạ dày tốt nhất",
+      "chi_tiet": "Nhai 30 lần mỗi miếng ăn giúp nước bọt (ngọc dịch) tiết ra hòa quyện enzym tiêu hóa, giảm 50% gánh nặng cho dạ dày và hấp thu trọn vẹn tinh hoa.",
+      "bai_hoc": "Tập trung khi ăn cơm, không vừa ăn vừa xem điện thoại hay tivi; nhai thật nhuyễn trước khi nuốt."
+    },
+    {
+      "so_thu_tu": 43,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 43: Sáng ăn như vua, trưa ăn như quan, tối ăn như kẻ khất thực",
+      "chi_tiet": "Buổi sáng dương khí mới sinh cần nhiều năng lượng; buổi trưa bổ sung vừa phải; buổi tối dương khí thu tàng nên ăn thật thanh đạm.",
+      "bai_hoc": "Bữa sáng đầy đủ dinh dưỡng ấm nóng, bữa trưa cân bằng rau đạm, bữa tối chỉ ăn nhẹ rau luộc hoặc cháo loãng."
+    },
+    {
+      "so_thu_tu": 44,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 44: Kiêng tuyệt đối đồ ăn lạnh và nước đá",
+      "chi_tiet": "Dạ dày ưa ấm ghét lạnh. Nước đá dội vào làm tắt ngọn lửa tiêu hóa (Tỳ dương), sinh hàn thấp, mỡ bụng và làm suy yếu buồng trứng, tuyến tiền liệt.",
+      "bai_hoc": "Uống nước ấm quanh năm; hạn chế tối đa các loại đồ uống có đá lạnh."
+    },
+    {
+      "so_thu_tu": 45,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 45: Thanh đạm là cội nguồn của sức khỏe và trường thọ",
+      "chi_tiet": "Thức ăn nhiều dầu mỡ, chiên rán làm tắc nghẽn mạch máu, tích tụ độc tố. Rau củ quả tươi, ngũ cốc nguyên hạt giúp máu huyết trong sạch.",
+      "bai_hoc": "Tăng cường rau xanh, đậu hạt trong bữa ăn hàng ngày; giảm thiểu thịt đỏ và đồ chiên xào."
+    },
+    {
+      "so_thu_tu": 46,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 46: Bớt muối để dưỡng Thận, bớt đường để dưỡng Tỳ",
+      "chi_tiet": "Ăn quá mặn làm hại thận khí, tăng huyết áp và cứng mạch máu. Ăn quá ngọt sinh đàm thấp, gây tiểu đường và làm nhanh lão hóa da.",
+      "bai_hoc": "Nêm nếm gia vị vừa phải, ưu tiên vị ngọt và mặn tự nhiên từ rau củ quả tươi sống."
+    },
+    {
+      "so_thu_tu": 47,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 47: Ăn uống thuận theo mùa (Mùa nào thức nấy)",
+      "chi_tiet": "Trời đất sinh ra sản vật nào trong mùa nào thì sản vật đó mang khí chất thích hợp nhất để bồi bổ cơ thể trong mùa ấy.",
+      "bai_hoc": "Ăn rau củ quả đúng vụ mùa bản địa, tránh ăn đồ trái mùa dùng nhiều hóa chất bảo quản."
+    },
+    {
+      "so_thu_tu": 48,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 48: Uống một ly nước ấm ngay sau khi thức dậy",
+      "chi_tiet": "Sau một đêm dài máu bị cô đặc. Một ly nước ấm 300ml giúp làm loãng máu, thanh lọc đường ruột và đánh thức toàn bộ hệ tiêu hóa.",
+      "bai_hoc": "Uống từng ngụm nhỏ nước ấm vào mỗi sáng trước khi đánh răng hoặc sau khi súc miệng."
+    },
+    {
+      "so_thu_tu": 49,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 49: 'Sáng ăn ba lát gừng, tốt hơn uống canh sâm'",
+      "chi_tiet": "Gừng tươi tính ấm cay, giúp khai vị trợ dương, trừ phong hàn và kích thích tuần hoàn máu hiệu quả vào buổi sáng.",
+      "bai_hoc": "Thêm vài lát gừng vào nước ấm hoặc món ăn sáng; không nên ăn nhiều gừng vào buổi tối."
+    },
+    {
+      "so_thu_tu": 50,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 50: 'Tối ăn một củ cải, khỏi phiền thầy thuốc bốc đơn'",
+      "chi_tiet": "Củ cải trắng tính mát, giúp hạ khí tiêu thực, giải độc và thông đàm, rất thích hợp để làm sạch ruột sau bữa tối.",
+      "bai_hoc": "Nấu canh củ cải thanh đạm cho bữa tối mùa thu đông để tiêu trừ tích trệ."
+    },
+    {
+      "so_thu_tu": 51,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 51: Khi ăn tâm phải vui vẻ, chớ bàn chuyện buồn bực",
+      "chi_tiet": "Vừa ăn vừa cãi nhau hoặc xem tin dữ làm co thắt dạ dày, đình trệ dịch vị, biến thức ăn bổ dưỡng thành chất độc gây hại.",
+      "bai_hoc": "Giữ không khí gia đình ấm áp, vui tươi, hòa nhã trong suốt bữa cơm."
+    },
+    {
+      "so_thu_tu": 52,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 52: Sau khi ăn không nên vận động mạnh hay nằm ngay",
+      "chi_tiet": "Vận động mạnh làm máu phân tán ra cơ bắp gây đau dạ dày; nằm ngay làm thức ăn trào ngược thực quản.",
+      "bai_hoc": "Sau ăn nên ngồi nghỉ 15 phút hoặc đi dạo chậm rãi 100 bước nhẹ nhàng."
+    },
+    {
+      "so_thu_tu": 53,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 53: Ngũ cốc nguyên hạt là cội nguồn của nguyên khí",
+      "chi_tiet": "Gạo lứt, kê, yến mạch, đậu đỗ chứa trọn vẹn mầm sống và chất xơ, giúp kiện tỳ ích khí và làm sạch thành mạch máu.",
+      "bai_hoc": "Thay thế một phần gạo trắng bằng gạo lứt, khoai lang và các loại đậu đỗ tự nhiên."
+    },
+    {
+      "so_thu_tu": 54,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 54: Không uống quá nhiều nước trong lúc đang ăn cơm",
+      "chi_tiet": "Uống nhiều canh hoặc nước ngọt trong bữa ăn làm loãng acid dạ dày, gây đầy hơi, khó tiêu và giảm hấp thu dinh dưỡng.",
+      "bai_hoc": "Chỉ nên húp vài thìa canh ấm; uống nước trước bữa ăn 30 phút hoặc sau ăn 45 phút."
+    },
+    {
+      "so_thu_tu": 55,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 55: Tránh xa thực phẩm chế biến sẵn và hóa chất công nghiệp",
+      "chi_tiet": "Chất bảo quản, phụ gia và đường hóa học là gánh nặng khổng lồ khiến gan thận phải làm việc quá tải để giải độc mỗi ngày.",
+      "bai_hoc": "Ưu tiên thực phẩm tươi sống, tự nấu nướng tại nhà với nguyên liệu thuần tự nhiên."
+    },
+    {
+      "so_thu_tu": 56,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 56: Rượu chè quá độ làm đục ngầu máu huyết",
+      "chi_tiet": "Rượu nhiều hại gan, nát dạ dày và làm tê liệt các dây thần kinh não bộ. Người nghiện rượu thì chân khí hao tổn không thể sống thọ.",
+      "bai_hoc": "Bỏ rượu bia hoặc chỉ uống một ngụm nhỏ rượu thuốc thảo mộc trong bữa ăn mùa đông."
+    },
+    {
+      "so_thu_tu": 57,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 57: Cân bằng ngũ vị để nuôi dưỡng ngũ tạng",
+      "chi_tiet": "Chua vào Can, Đắng vào Tâm, Ngọt vào Tỳ, Cay vào Phế, Mặn vào Thận. Bất kỳ vị nào ăn quá nhiều cũng sẽ làm tổn thương tạng phủ tương ứng.",
+      "bai_hoc": "Bữa ăn nên đa dạng các vị tự nhiên, không thiên lệch quá mức về một món nào."
+    },
+    {
+      "so_thu_tu": 58,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 58: Đồ ăn ôi thiu hâm đi hâm lại nhiều lần là mầm bệnh ung thư",
+      "chi_tiet": "Thức ăn để qua đêm sinh nitrit và nấm mốc độc hại, làm tổn thương niêm mạc dạ dày và đường ruột.",
+      "bai_hoc": "Nấu vừa đủ ăn trong từng bữa; hạn chế ăn thức ăn thừa hâm lại nhiều lần."
+    },
+    {
+      "so_thu_tu": 59,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 59: Cháo loãng dưỡng tỳ vị lúc ốm mệt",
+      "chi_tiet": "Khi cơ thể suy nhược, đừng vội tẩm bổ bằng thịt cá béo ngậy. Một bát cháo gạo loãng nấu nhừ với hành hoa là liều thuốc phục hồi sinh lực êm dịu nhất.",
+      "bai_hoc": "Nấu cháo hạt sen, củ mài hoặc cháo hoa khi người mệt mỏi để bồi bổ tỳ vị."
+    },
+    {
+      "so_thu_tu": 60,
+      "chu_de": "Ẩm Thực & Tì Vị",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 60: Uống nước ấm từng ngụm nhỏ suốt cả ngày",
+      "chi_tiet": "Uống một lúc quá nhiều nước làm thận quá tải. Uống từng ngụm nhỏ giúp nước thấm đều vào từng tế bào và thanh lọc dịch cơ thể hiệu quả.",
+      "bai_hoc": "Luôn để bình nước ấm bên cạnh bàn làm việc, uống 1-2 ngụm nhỏ mỗi 20 phút."
+    },
+    {
+      "so_thu_tu": 61,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 61: 'Nước chảy không thối, trục cửa xoay không mọt'",
+      "chi_tiet": "Cơ thể con người sinh ra là để vận động. Khí huyết lưu thông không ngừng nghỉ thì tà khí không thể bám rễ, gân cốt dẻo dai trường thọ.",
+      "bai_hoc": "Duy trì vận động nhẹ nhàng mỗi ngày, không ngồi lì một chỗ quá 45 phút."
+    },
+    {
+      "so_thu_tu": 62,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 62: Đi bộ là vua của mọi bài tập dưỡng sinh",
+      "chi_tiet": "Đi bộ điều hòa nhịp thở, vận hành 6 đường kinh lạc ở chân, kích hoạt tim phổi hoạt động nhịp nhàng mà không gây tổn thương khớp gối.",
+      "bai_hoc": "Đi bộ khoan thai 4.000 - 6.000 bước mỗi ngày nơi có cây xanh và không khí trong lành."
+    },
+    {
+      "so_thu_tu": 63,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 63: Vận động vừa phải ra mồ hôi râm rấp, chớ tập quá kiệt sức",
+      "chi_tiet": "'Mồ hôi là dịch của tim'. Tập luyện quá mức ra mồ hôi như tắm làm hao tổn tâm dương và tân dịch, phản tác dụng dưỡng sinh.",
+      "bai_hoc": "Tập đến khi người ấm nóng, mồ hôi hơi lấm tấm ở trán và lưng là dừng lại lau khô."
+    },
+    {
+      "so_thu_tu": 64,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 64: 'Gân mềm một tấc, thọ thêm mười năm'",
+      "chi_tiet": "Căng cơ, giãn gân cốt giúp đả thông các điểm tắc nghẽn kinh mạch, duy trì sự đàn hồi của mạch máu và phòng ngừa thoái hóa khớp.",
+      "bai_hoc": "Thực hiện các động tác vươn vai, duỗi người, xoay hông nhẹ nhàng mỗi buổi sáng và tối."
+    },
+    {
+      "so_thu_tu": 65,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 65: Xoa bụng theo chiều kim đồng hồ 100 vòng mỗi ngày",
+      "chi_tiet": "Vùng bụng hội tụ các huyệt Trung Quản, Khí Hải, Quan Nguyên. Xoa bụng giúp tăng cường nhu động ruột, trị táo bón và tiêu mỡ nội tạng.",
+      "bai_hoc": "Áp hai bàn tay ấm lên bụng, xoa nhẹ nhàng quanh rốn theo chiều kim đồng hồ trước khi ngủ và sau khi thức dậy."
+    },
+    {
+      "so_thu_tu": 66,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 66: Thường xuyên kiễng gót chân để bồi bổ Thận khí",
+      "chi_tiet": "Kiễng gót chân kích thích kinh Thận và kinh Bàng quang, giúp lưu thông máu từ chi dưới về tim, ngừa giãn tĩnh mạch và vững chắc thắt lưng.",
+      "bai_hoc": "Mỗi ngày kiễng gót chân 50 - 100 lần trong lúc chờ đợi hoặc khi nghỉ giải lao."
+    },
+    {
+      "so_thu_tu": 67,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 67: Vỗ nhẹ hai bên kinh Đởm (mặt ngoài đùi) để giải uất khí",
+      "chi_tiet": "Đường kinh Đởm chạy dọc hai bên ngoài đùi. Vỗ kinh Đởm giúp giải phóng độc tố của gan mật, tăng cường chuyển hóa mỡ thừa.",
+      "bai_hoc": "Nắm hờ bàn tay vỗ nhẹ dọc theo đường chỉ quần ở hai bên đùi 50 cái mỗi sáng."
+    },
+    {
+      "so_thu_tu": 68,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 68: Xoa nóng hai vành tai để dưỡng Thận và sáng mắt",
+      "chi_tiet": "Tai là cửa sổ của Thận khí, trên tai có hơn 100 điểm phản xạ của toàn cơ thể. Massage tai giúp kích hoạt toàn bộ lục phủ ngũ tạng.",
+      "bai_hoc": "Dùng ngón cái và ngón trỏ xoa bóp, vuốt nhẹ vành tai từ trên xuống dưới cho đến khi tai ấm đỏ lên."
+    },
+    {
+      "so_thu_tu": 69,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 69: Hít thở sâu bằng bụng (Thở Đan Điền)",
+      "chi_tiet": "Thở ngực nông làm trao đổi khí kém. Hít sâu phình bụng, thở chậm hóp bụng giúp cơ hoành xoa bóp nội tạng và tăng gấp đôi oxy nuôi não.",
+      "bai_hoc": "Tập hít vào 4 giây phình bụng, giữ 2 giây, thở ra 6 giây hóp bụng mỗi khi rảnh rỗi."
+    },
+    {
+      "so_thu_tu": 70,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 70: Ngồi lâu hại thịt, đứng lâu hại xương, nằm lâu hại khí",
+      "chi_tiet": "Bất kỳ tư thế nào duy trì quá lâu đều gây ách tắc khí huyết tại một vùng cơ thể. Cần thay đổi tư thế linh hoạt trong sinh hoạt hàng ngày.",
+      "bai_hoc": "Cứ sau 45 phút ngồi làm việc, hãy đứng dậy đi lại, vươn vai và nhìn ra xa 2 phút."
+    },
+    {
+      "so_thu_tu": 71,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 71: Giữ ấm vùng cổ gáy (Đại Chùy) chớ để gió lạnh thổi vào",
+      "chi_tiet": "Huyệt Đại Chùy ở sau gáy là nơi hội tụ của các đường kinh dương. Gió lạnh xâm nhập vào đây sẽ làm tê cứng cổ, đau đầu và giảm sức đề kháng.",
+      "bai_hoc": "Mặc áo có cổ hoặc quàng khăn mỏng khi đi gió lạnh hoặc ngồi phòng máy lạnh."
+    },
+    {
+      "so_thu_tu": 72,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 72: Gõ răng nuốt nước bọt (Khấu xỉ thôn tân)",
+      "chi_tiet": "Phương pháp cổ truyền: Gõ hai hàm răng vào nhau nhẹ nhàng 36 lần, gom nước bọt nuốt xuống đan điền giúp chắc răng và bổ ích thận tinh.",
+      "bai_hoc": "Thực hành mỗi sáng sau khi thức dậy và súc miệng sạch sẽ."
+    },
+    {
+      "so_thu_tu": 73,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 73: Giữ thẳng cột sống mọi lúc mọi nơi",
+      "chi_tiet": "Cột sống là trục đỡ của thân thể, bên trong có tủy sống và mạch Đốc dẫn truyền dương khí. Gù lưng vẹo cột sống làm chèn ép nội tạng và thoái hóa sớm.",
+      "bai_hoc": "Giữ ngực mở, lưng thẳng tự nhiên khi đứng, ngồi và đi lại."
+    },
+    {
+      "so_thu_tu": 74,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 74: Đại tiện đều đặn vào buổi sáng để thải sạch độc tố",
+      "chi_tiet": "Từ 5h đến 7h sáng là giờ của kinh Đại Tràng. Đào thải phân vào giờ này giúp cơ thể thanh lọc hoàn toàn chất cặn bã tích tụ sau một đêm.",
+      "bai_hoc": "Uống một ly nước ấm ngay khi ngủ dậy và ngồi đại tiện đúng giờ để tạo phản xạ tự nhiên."
+    },
+    {
+      "so_thu_tu": 75,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 75: Vỗ hai hõm khuỷu tay và kheo chân để thải độc tà",
+      "chi_tiet": "Hõm khuỷu tay có kinh Phế và Tâm Bào; kheo chân có huyệt Ủy Trung trục hàn thấp. Vỗ nhẹ nổi vết đỏ giúp thải độc và thông kinh mạch.",
+      "bai_hoc": "Dùng lòng bàn tay vỗ nhẹ hai khuỷu tay và kheo chân 30-50 cái mỗi tuần."
+    },
+    {
+      "so_thu_tu": 76,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 76: Tắm nắng sớm 15 phút để nạp dương khí tự nhiên",
+      "chi_tiet": "Ánh nắng ban mai trước 8h sáng cung cấp vitamin D, kích hoạt tủy xương tạo máu và xua tan khí ẩm lạnh trong cơ thể.",
+      "bai_hoc": "Để lưng và bắp chân tiếp xúc với ánh nắng sớm 15-20 phút mỗi ngày."
+    },
+    {
+      "so_thu_tu": 77,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 77: Xoa nóng huyệt Dũng Tuyền dưới lòng bàn chân",
+      "chi_tiet": "Dùng lòng bàn tay chà xát vào giữa lòng bàn chân 100 lần mỗi bên giúp bổ thận tráng dương, hạ huyết áp và làm ấm toàn thân.",
+      "bai_hoc": "Thực hiện sau khi ngâm chân nước ấm trước khi đi ngủ."
+    },
+    {
+      "so_thu_tu": 78,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 78: Bấm huyệt Túc Tam Lý dưỡng sinh trường thọ",
+      "chi_tiet": "'Muốn an ổn thân mình, Túc Tam Lý chớ để khô'. Huyệt nằm dưới xương bánh chè 3 thốn, là đại huyệt kiện tỳ ích vị, tăng tuổi thọ.",
+      "bai_hoc": "Dùng ngón tay cái day ấn huyệt Túc Tam Lý 3 phút mỗi bên vào buổi sáng."
+    },
+    {
+      "so_thu_tu": 79,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 79: Đừng nhịn tiểu tiện hay đại tiện",
+      "chi_tiet": "Nhịn tiểu làm độc tố ngấm ngược vào thận; nhịn đại tiện làm phân khô cứng sinh trĩ và nhiễm độc đường ruột.",
+      "bai_hoc": "Có nhu cầu vệ sinh hãy đi ngay lập tức, không vì mải việc mà nín nhịn."
+    },
+    {
+      "so_thu_tu": 80,
+      "chu_de": "Vận Động & Kinh Lạc",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 80: Động tĩnh tương kiêm — Vận động thân xác nhưng tĩnh lặng tâm hồn",
+      "chi_tiet": "Thân thể chuyển động dẻo dai linh hoạt bên ngoài, nhưng bên trong tâm trí luôn an định, không bị xáo động bởi ngoại cảnh.",
+      "bai_hoc": "Khi tập thể dục, tập trung trọn vẹn vào từng cử động và hơi thở, không vừa tập vừa suy nghĩ linh tinh."
+    },
+    {
+      "so_thu_tu": 81,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 81: Trị bệnh khi bệnh chưa phát sinh (Trị vị bệnh)",
+      "chi_tiet": "Đợi khát nước mới đào giếng, đợi giặc đến mới đúc vũ khí thì đã quá muộn. Dưỡng sinh phòng bệnh mỗi ngày quan trọng gấp vạn lần uống thuốc trị bệnh.",
+      "bai_hoc": "Lắng nghe những tín hiệu nhỏ của cơ thể (mệt mỏi, chán ăn, khô miệng) để điều chỉnh ngay lập tức."
+    },
+    {
+      "so_thu_tu": 82,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 82: Cơ thể con người có khả năng tự chữa lành kỳ diệu",
+      "chi_tiet": "Thầy thuốc và thảo dược chỉ là người trợ giúp. Chính khí và hệ miễn dịch bên trong cơ thể mới là vị thần y thực sự chữa khỏi bệnh.",
+      "bai_hoc": "Tin tưởng vào sức mạnh tự phục hồi của cơ thể, tạo điều kiện thuận lợi bằng cách nghỉ ngơi và ăn uống thanh đạm."
+    },
+    {
+      "so_thu_tu": 83,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 83: Chớ lạm dụng thuốc kháng sinh và thuốc giảm đau bừa bãi",
+      "chi_tiet": "Cứ hơi đau là uống thuốc giảm đau, hơi sốt là uống kháng sinh sẽ làm tê liệt hệ thống phòng thủ tự nhiên và phá hủy hệ vi sinh đường ruột.",
+      "bai_hoc": "Khi chớm cảm cúm nhẹ, hãy xông lá bưởi gừng sả, uống nước tía tô và nghỉ ngơi để cơ thể tự tạo kháng thể."
+    },
+    {
+      "so_thu_tu": 84,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 84: Sống hòa mình với thiên nhiên cây cỏ",
+      "chi_tiet": "Đất trời có nguồn năng lượng vô tận. Tiếp xúc với đất mẹ (đi chân trần trên cỏ), ngắm hoa lá giúp trung hòa điện tích xấu trong cơ thể.",
+      "bai_hoc": "Cuối tuần dành thời gian đi dã ngoại công viên, rừng cây, hít thở không khí tự nhiên."
+    },
+    {
+      "so_thu_tu": 85,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 85: Nhà cửa thoáng đãng, sạch sẽ là phong thủy dưỡng sinh tốt nhất",
+      "chi_tiet": "Môi trường sống ẩm thấp, bừa bộn tích tụ nấm mốc và tà khí gây bệnh đường hô hấp và tâm lý u uất.",
+      "bai_hoc": "Thường xuyên dọn dẹp nhà cửa gọn gàng, mở cửa sổ cho nắng gió tự nhiên tràn vào phòng."
+    },
+    {
+      "so_thu_tu": 86,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 86: Giữ gìn đôi mắt sáng — Cửa sổ của tâm hồn và can khí",
+      "chi_tiet": "Gan khai khiếu ở mắt. Nhìn màn hình quá lâu hại gan huyết. Cần cho mắt nghỉ ngơi và nhìn xa vào các tán cây xanh.",
+      "bai_hoc": "Áp dụng quy tắc 20-20-20: Cứ 20 phút nhìn màn hình thì nhìn xa 20 feet (6 mét) trong 20 giây."
+    },
+    {
+      "so_thu_tu": 87,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 87: Tiết chế tình dục để bảo tồn tinh tủy nguyên sinh",
+      "chi_tiet": "Tinh hoa của ngũ tạng tích tụ về thận thành tinh. Phung phí sắc dục quá độ khiến thận tinh cạn kiệt, lưng đau gối mỏi và nhanh suy tàn.",
+      "bai_hoc": "Sinh hoạt vợ chồng điều độ theo độ tuổi và thể trạng, tránh buông thả bừa bãi."
+    },
+    {
+      "so_thu_tu": 88,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 88: Mặc quần áo rộng rãi, thoáng mát bằng chất liệu tự nhiên",
+      "chi_tiet": "Quần áo quá chật chèn ép mạch máu và các đường kinh lạc, cản trở sự lưu thông của khí huyết.",
+      "bai_hoc": "Chọn trang phục bằng cotton, lụa hoặc vải lanh mềm mại, thoải mái trong sinh hoạt."
+    },
+    {
+      "so_thu_tu": 89,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 89: Tránh ngồi trực tiếp trên nền đất lạnh hoặc đá ẩm",
+      "chi_tiet": "Hàn khí và thấp khí từ đất lạnh sẽ ngấm trực tiếp qua huyệt Trường Cường vào xương cùng, gây đau lưng và tổn thương phụ khoa, tiền liệt tuyến.",
+      "bai_hoc": "Luôn dùng đệm hoặc ghế lót khi ngồi nghỉ ngoài trời."
+    },
+    {
+      "so_thu_tu": 90,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 90: Giữ lòng hiếu thảo với cha mẹ là phương thuốc đắc đạo",
+      "chi_tiet": "Người con hiếu thảo tâm hồn luôn bình an, được tổ tiên che chở và tạo nên phúc đức sâu dày nuôi dưỡng sinh mệnh.",
+      "bai_hoc": "Thường xuyên thăm hỏi, chăm sóc và nói lời yêu thương kính trọng với cha mẹ ông bà."
+    },
+    {
+      "so_thu_tu": 91,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 91: Kết giao với những người bạn tích cực, thiện lành",
+      "chi_tiet": "Trường năng lượng của những người xung quanh ảnh hưởng trực tiếp đến tâm trạng và sức khỏe của bạn. Gần người lạc quan bạn sẽ khỏe mạnh.",
+      "bai_hoc": "Tránh xa những người hay than vãn, ghen tị, tiêu cực; kết thân với bạn bè hướng thiện."
+    },
+    {
+      "so_thu_tu": 92,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 92: Bỏ thuốc lá ngay hôm nay để cứu lấy lá phổi",
+      "chi_tiet": "Khói thuốc lá thiêu rụi phế âm, đóng cặn hắc ín trong phế nang và là thủ phạm hàng đầu gây ung thư và tai biến.",
+      "bai_hoc": "Kiên quyết từ bỏ thuốc lá và tránh xa môi trường có khói thuốc thụ động."
+    },
+    {
+      "so_thu_tu": 93,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 93: Trân trọng từng giọt nước, từng hạt cơm hạt gạo",
+      "chi_tiet": "Biết ơn và tiết kiệm vạn vật trong đất trời giúp tích tụ phúc đức. Người hoang phí phước báu sẽ nhanh chóng hao mòn tuổi thọ.",
+      "bai_hoc": "Ăn hết phần ăn trong bát, không lãng phí thức ăn nước uống và của cải."
+    },
+    {
+      "so_thu_tu": 94,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 94: Giữ thói quen đọc sách và rèn luyện trí não mỗi ngày",
+      "chi_tiet": "Não bộ cũng như cơ bắp, càng rèn luyện càng minh mẫn. Học hỏi điều mới giúp ngăn ngừa chứng suy giảm trí nhớ ở tuổi già.",
+      "bai_hoc": "Dành 30 phút mỗi ngày đọc sách bồi dưỡng tâm hồn, chơi cờ hoặc học thêm một kỹ năng mới."
+    },
+    {
+      "so_thu_tu": 95,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 95: Không ghen tị với tài năng hay tài sản của người khác",
+      "chi_tiet": "Tâm đố kỵ sinh ra độc tố phá hủy can huyết. Chúc mừng thành công của người khác mang lại niềm vui thanh thản cho chính mình.",
+      "bai_hoc": "Tập hoan hỷ với hạnh phúc và thành công của mọi người xung quanh."
+    },
+    {
+      "so_thu_tu": 96,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 96: Tự giác kiểm tra sức khỏe và lắng nghe cơ thể",
+      "chi_tiet": "Khám định kỳ giúp phát hiện mầm bệnh từ sớm. Tuy nhiên, sự nhạy cảm lắng nghe cơ thể hàng ngày mới là người bác sĩ tinh tường nhất.",
+      "bai_hoc": "Khám sức khỏe tổng quát 1-2 lần/năm và điều chỉnh lối sống ngay khi thấy bất thường."
+    },
+    {
+      "so_thu_tu": 97,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 97: Nói lời ái ngữ, gieo niềm vui cho nhân thế",
+      "chi_tiet": "Lời nói ác độc như mũi tên bắn vào tim người khác và dội ngược lại tâm mình. Lời nói ngọt ngào nhân ái mang lại phước lành vô lượng.",
+      "bai_hoc": "Luôn dùng lời nói khích lệ, động viên, khen ngợi chân thành đối với mọi người."
+    },
+    {
+      "so_thu_tu": 98,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 98: Sống giản dị, gần gũi và mộc mạc",
+      "chi_tiet": "Càng sống đơn giản thì càng ít phiền não. Càng ít đòi hỏi vật chất thì tâm hồn càng tự do, phóng khoáng và an nhiên.",
+      "bai_hoc": "Đơn giản hóa lối sống, giảm bớt đồ đạc dư thừa trong nhà, tận hưởng sự thanh nhàn."
+    },
+    {
+      "so_thu_tu": 99,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 99: Chấp nhận quy luật sinh lão bệnh tử với tâm thái an nhiên",
+      "chi_tiet": "Sinh lão bệnh tử là lẽ tự nhiên của trời đất. Hiểu thấu quy luật thì không còn sợ hãi tuổi già hay cái chết, ung dung tự tại đi trọn kiếp người.",
+      "bai_hoc": "Trân trọng từng ngày được sống khỏe mạnh, cống hiến giá trị tốt đẹp cho cuộc đời."
+    },
+    {
+      "so_thu_tu": 100,
+      "chu_de": "Phòng Bệnh & Tu Thân",
+      "danh_y": "Danh Y 123 Tuổi",
+      "loi_khuyen": "Điều 100: Đại Đạo Chí Giản — Chân lý dưỡng sinh vốn vô cùng giản đơn",
+      "chi_tiet": "Ăn đúng giờ, ngủ đúng giấc, tâm trong sáng, sống thuận tự nhiên, làm việc thiện lành. Đó là trọn vẹn 100 lời khuyên trường thọ của bậc danh y.",
+      "bai_hoc": "Kiên trì thực hành từng điều nhỏ mỗi ngày để thân thể khỏe mạnh, tâm hồn an lạc và trường thọ bách niên."
+    }
   ]
 }
