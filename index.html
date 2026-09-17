@@ -411,25 +411,35 @@
     </div>
 
     <!-- ==================== SECTION 3: KINH DICH ==================== -->
+    <!-- ==================== SECTION 3: KINH DICH ==================== -->
     <div id="kinhdich-section" class="flex flex-col gap-6 hidden">
       <!-- Kinh Dich Hero -->
-      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-amber-950/40 via-yellow-950/20 to-slate-950/40 border border-amber-500/20 p-6 sm:p-8 text-center flex flex-col items-center max-w-4xl mx-auto w-full shadow-2xl">
-        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-amber-500/15 via-transparent to-transparent pointer-events-none"></div>
+      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-amber-950/50 via-yellow-950/25 to-slate-950/40 border border-amber-500/30 p-6 sm:p-8 text-center flex flex-col items-center max-w-5xl mx-auto w-full shadow-2xl">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-amber-500/20 via-transparent to-transparent pointer-events-none"></div>
         
-        <span class="px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300 text-xs font-bold uppercase tracking-wider mb-2 flex items-center gap-1.5">
-          ☯️ Chu Dịch Chiêm Bốc & Triết Lý
+        <span class="px-3.5 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300 text-xs font-black uppercase tracking-wider mb-2 flex items-center gap-2 shadow-sm">
+          <span>☯️</span> Chu Dịch Toàn Thư & Ứng Dụng Thực Tiễn
         </span>
         <h2 class="text-2xl sm:text-3xl font-extrabold font-display text-white tracking-tight mb-2">
-          Giải Mã 64 Quẻ Kinh Dịch Cổ Thư
+          Kinh Dịch — Dịch Kinh Toàn Bộ
         </h2>
-        <p class="text-slate-300 text-xs sm:text-sm max-w-xl leading-relaxed mb-4">
-          Toàn văn Thoán từ, Đại tượng, Hào từ 6 hào cùng kiến thức Thiên Can Địa Chi, Bát Quái và Ngũ Hành tương sinh.
+        <p class="text-slate-300 text-xs sm:text-sm max-w-2xl leading-relaxed mb-4">
+          Nền tảng Âm Dương Bát Quái, chính văn 64 Quẻ, phương pháp nhận diện biến đổi và ứng dụng thực tiễn trong công việc, đời sống, đầu tư và tự tu dưỡng.
         </p>
 
-        <!-- Sub Tabs & Gieo Que Button -->
+        <!-- 7 Sub-Modules Ribbon + Gieo Que Button -->
         <div class="flex flex-col gap-3 w-full border-t border-slate-800/80 pt-4">
-          <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-3 w-full">
-            <div class="flex gap-1.5 overflow-x-auto pb-1 scrollbar-none custom-scrollbar w-full sm:max-w-[75%]" id="kinhdich-sheets-tabs"></div>
+          <div class="flex flex-wrap items-center justify-between gap-3 w-full">
+            <div class="flex gap-1.5 overflow-x-auto pb-1.5 scrollbar-none custom-scrollbar w-full sm:max-w-[78%]" id="kinhdich-submodules-tabs">
+              <button onclick="selectKinhDichSubModule('sub_64_que')" id="kd-subtab-64que" class="kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-amber-500 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 font-black shadow-lg shadow-amber-500/20 cursor-pointer">📜 1. 64 Quẻ Toàn Bộ</button>
+              <button onclick="selectKinhDichSubModule('sub_nen_tang')" id="kd-subtab-nentang" class="kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">☯️ 2. Nền Tảng Âm Dương</button>
+              <button onclick="selectKinhDichSubModule('sub_nhan_dien')" id="kd-subtab-nhandien" class="kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🔄 3. Nhận Diện Biến Đổi</button>
+              <button onclick="selectKinhDichSubModule('sub_ung_dung')" id="kd-subtab-ungdung" class="kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">💡 4. Ứng Dụng Đời Sống</button>
+              <button onclick="selectKinhDichSubModule('sub_loi_day')" id="kd-subtab-loiday" class="kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">✨ 5. Lời Dạy Cốt Lõi</button>
+              <button onclick="selectKinhDichSubModule('sub_sai_lam')" id="kd-subtab-sailam" class="kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">⚖️ 6. Sai Lầm Thường Gặp</button>
+              <button onclick="selectKinhDichSubModule('sub_so_tay')" id="kd-subtab-sotay" class="kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📝 7. Sổ Tay Dịch Lý</button>
+              <button onclick="selectKinhDichSubModule('sub_co_hoc')" id="kd-subtab-cohoc" class="kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🏛️ 8. Tra Cứu Cổ Học</button>
+            </div>
 
             <button 
               onclick="triggerGieoQue()"
@@ -439,11 +449,14 @@
               Gieo Quẻ Dịch
             </button>
           </div>
+
+          <!-- Secondary Ribbon for Ancient Lookup Sheets (Visible when on 'sub_co_hoc') -->
+          <div class="flex gap-1.5 overflow-x-auto pb-1 scrollbar-none custom-scrollbar w-full hidden pt-2 border-t border-slate-850" id="kinhdich-sheets-tabs"></div>
         </div>
       </div>
 
-      <!-- Controls -->
-      <div class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-4 items-center justify-between border-amber-500/20">
+      <!-- Controls for 64 Quẻ -->
+      <div id="kinhdich-controls" class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-4 items-center justify-between border-amber-500/20">
         <div class="w-full md:max-w-md relative">
           <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-amber-400">
             <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
@@ -451,38 +464,57 @@
           <input 
             type="text" 
             id="kinhdich-search" 
-            placeholder="Tìm kiếm quẻ dịch, thoán từ, ý nghĩa..."
+            placeholder="Tìm kiếm quẻ dịch, thoán từ, ý nghĩa, ứng dụng..."
             class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-750 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm shadow-inner"
           >
         </div>
 
-        <div class="flex items-center gap-2 text-xs font-bold text-slate-300" id="kinhdich-cat-hung-wrapper">
-          <span>Phân loại cát hung:</span>
-          <select 
-            id="kinhdich-cathung-filter"
-            onchange="renderKinhDich()"
-            class="bg-slate-900 border border-slate-800 text-amber-300 rounded-xl px-3 py-1.5 focus:outline-none font-semibold cursor-pointer"
-          >
-            <option value="">Tất cả quẻ</option>
-            <option value="Đại cát">🌟 Đại cát</option>
-            <option value="Cát">✨ Cát</option>
-            <option value="Cát hanh">🌿 Cát hanh</option>
-            <option value="Bình hòa">⚖️ Bình hòa</option>
-            <option value="Hung">⚠️ Hung</option>
-          </select>
+        <div class="flex flex-wrap items-center gap-3 text-xs font-bold text-slate-300 w-full md:w-auto justify-between md:justify-end">
+          <!-- 4 Giai Đoạn Filter for 64 Quẻ -->
+          <div class="flex items-center gap-1.5" id="kinhdich-stage-wrapper">
+            <span class="text-slate-400 text-[11px] font-bold">Giai đoạn:</span>
+            <select 
+              id="kinhdich-stage-filter"
+              onchange="selectKinhDichStageFilter(this.value)"
+              class="bg-slate-900 border border-slate-800 text-amber-300 rounded-xl px-2.5 py-1.5 focus:outline-none font-semibold cursor-pointer text-xs"
+            >
+              <option value="all">✨ Tất cả 4 giai đoạn (1-64)</option>
+              <option value="Khởi đầu">🌱 1. Khởi đầu (1–10)</option>
+              <option value="Phát triển">📈 2. Phát triển (11–30)</option>
+              <option value="Biến đổi">🔄 3. Biến đổi (31–50)</option>
+              <option value="Hoàn tất">🏁 4. Hoàn tất (51–64)</option>
+            </select>
+          </div>
+
+          <!-- Cát Hung Filter -->
+          <div class="flex items-center gap-1.5" id="kinhdich-cat-hung-wrapper">
+            <span class="text-slate-400 text-[11px] font-bold">Cát/Hung:</span>
+            <select 
+              id="kinhdich-cathung-filter"
+              onchange="renderKinhDich()"
+              class="bg-slate-900 border border-slate-800 text-amber-300 rounded-xl px-2.5 py-1.5 focus:outline-none font-semibold cursor-pointer text-xs"
+            >
+              <option value="">Tất cả</option>
+              <option value="Đại cát">🌟 Đại cát</option>
+              <option value="Cát">✨ Cát</option>
+              <option value="Cát hanh">🌿 Cát hanh</option>
+              <option value="Bình hòa">⚖️ Bình hòa</option>
+              <option value="Hung">⚠️ Hung</option>
+            </select>
+          </div>
         </div>
       </div>
 
-      <!-- Display Area -->
-      <div>
+      <!-- Display Area Container -->
+      <div id="kinhdich-display-container">
         <div class="flex items-center justify-between mb-4">
           <h3 class="text-base font-bold font-display text-white flex items-center gap-2" id="kinhdich-category-title">
-            <span>☯️</span> Quẻ Dịch
+            <span>☯️</span> 64 Quẻ Dịch Cổ Thư
           </h3>
-          <span class="text-xs font-semibold text-amber-400 bg-amber-500/10 px-2.5 py-1 rounded-full border border-amber-500/20" id="kinhdich-item-count">Tổng: 0</span>
+          <span class="text-xs font-semibold text-amber-400 bg-amber-500/10 px-2.5 py-1 rounded-full border border-amber-500/20" id="kinhdich-item-count">Tổng: 64 quẻ</span>
         </div>
 
-        <div id="kinhdich-display-area" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]"></div>
+        <div id="kinhdich-display-area" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-h-[300px]"></div>
 
         <!-- Pagination -->
         <div id="kinhdich-pagination" class="flex items-center justify-between mt-6 bg-slate-900/50 border border-slate-850 p-3 rounded-2xl">
@@ -494,6 +526,84 @@
             Trang Sau ▶
           </button>
         </div>
+      </div>
+
+      <!-- Sổ Tay Dịch Lý Notebook Container (Hidden by default, shown when sub_so_tay) -->
+      <div id="kinhdich-notebook-area" class="hidden flex flex-col gap-6">
+        <div class="glass-card p-6 rounded-3xl border-amber-500/20">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-4 mb-5">
+            <div>
+              <h3 class="text-lg font-bold text-amber-300 flex items-center gap-2">
+                <span>📝</span> Sổ Tay Theo Dõi Dịch Lý Cá Nhân
+              </h3>
+              <p class="text-slate-400 text-xs mt-1">
+                Lưu lại các quẻ đã chiêm nghiệm, sự việc thực tế, hành động và bài học rút ra để thấu tỏ quy luật riêng của bản thân.
+              </p>
+            </div>
+            <button onclick="exportKinhDichNotes()" class="text-xs bg-slate-900 hover:bg-slate-800 border border-slate-800 text-amber-300 px-3.5 py-2 rounded-xl flex items-center gap-1.5 transition-all cursor-pointer">
+              <span>📋</span> Sao chép Sổ Tay
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 mb-4">
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Ngày tháng</label>
+              <input type="date" id="kd-note-date" class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white focus:border-amber-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Vấn đề cần giải quyết</label>
+              <input type="text" id="kd-note-issue" placeholder="Ví dụ: Có nên mở rộng kinh doanh..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Quẻ nhận được + Hào động</label>
+              <input type="text" id="kd-note-hexagram" placeholder="Ví dụ: Quẻ Càn biến quẻ Nhu (Hào 1 động)..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Hành động đã làm</label>
+              <input type="text" id="kd-note-action" placeholder="Ví dụ: Tạm dừng đàm phán, củng cố vốn..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Kết quả & Bài học</label>
+              <input type="text" id="kd-note-lesson" placeholder="Bài học thực tiễn rút ra..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+            </div>
+          </div>
+
+          <div class="flex justify-end">
+            <button onclick="addKinhDichNote()" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 hover:from-amber-400 hover:to-yellow-500 text-slate-950 font-black text-xs uppercase tracking-wider shrink-0 transition-all cursor-pointer active:scale-95 shadow-lg shadow-amber-500/20">
+              ➕ Thêm Ghi Chép Dịch Lý
+            </button>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-3xl border-slate-800 overflow-hidden">
+          <h4 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span>📚</span> Nhật Ký Chiêm Nghiệm Đã Lưu
+          </h4>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs text-slate-300">
+              <thead>
+                <tr class="border-b border-slate-850 text-slate-500 font-bold text-[11px] uppercase tracking-wider">
+                  <th class="py-3 px-2">Ngày</th>
+                  <th class="py-3 px-2">Vấn đề</th>
+                  <th class="py-3 px-2">Quẻ & Hào động</th>
+                  <th class="py-3 px-2">Hành động</th>
+                  <th class="py-3 px-2">Kết quả & Bài học</th>
+                  <th class="py-3 px-2 text-right">Xoá</th>
+                </tr>
+              </thead>
+              <tbody id="kinhdich-notes-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Core Golden Quote Footer -->
+      <div class="glass-card p-6 rounded-3xl border border-amber-500/30 bg-gradient-to-r from-amber-950/40 via-yellow-950/20 to-slate-950/40 text-center my-2 shadow-xl">
+        <span class="text-2xl mb-2 inline-block">☯️</span>
+        <blockquote class="text-sm sm:text-base font-bold font-serif text-amber-200 italic leading-relaxed max-w-3xl mx-auto">
+          "Kinh Dịch không nói người ta phải ra sao. Chỉ nói: Hiện tại đang như thế. Nếu tiếp tục thì sẽ ra sao. Muốn khác thì cần thay đổi như thế nào."
+        </blockquote>
+        <p class="text-[11px] text-amber-400/80 font-semibold uppercase tracking-wider mt-2">— Tinh Hoa Chu Dịch Đạo Lý Xử Thế —</p>
       </div>
     </div>
 
@@ -1695,7 +1805,10 @@
     let activeChineseSheet = 'Mau_cau_giao_tiep';
     
     let kinhDichData = null;
+    let activeKinhDichSubModule = 'sub_64_que';
+    let activeKinhDichStageFilter = 'all';
     let activeKinhDichSheet = 'que_64';
+    let kinhDichNotes = [];
     
     let thanChuData = null;
     let activeMantraSection = 'phat_nguyen';
@@ -1841,7 +1954,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v30';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v31';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -2064,9 +2177,10 @@
 
     // Lazy load Kinh Dich
     async function loadKinhDichData() {
+      loadKinhDichNotes();
       if (kinhDichData) {
         renderKinhDichSheetsMenu();
-        renderKinhDich();
+        selectKinhDichSubModule(activeKinhDichSubModule || 'sub_64_que');
         return;
       }
       headerStatus.textContent = "Đang tải cổ thư Kinh Dịch...";
@@ -2074,7 +2188,7 @@
         kinhDichData = await fetchJsonWithCache('./kinh_dich.json', 'Không thể tải kinh_dich.json');
         headerStatus.textContent = "Kinh Dịch cổ thư sẵn sàng";
         renderKinhDichSheetsMenu();
-        selectKinhDichSheet(activeKinhDichSheet || 'que_64');
+        selectKinhDichSubModule(activeKinhDichSubModule || 'sub_64_que');
       } catch (err) {
         console.error(err);
         headerStatus.textContent = 'Mở offline (chưa có Kinh Dịch)';
@@ -3797,9 +3911,110 @@
     hideVietnameseCheckbox.addEventListener('change', renderChinese);
 
     // --- KINH DICH MODULE LOGIC ---
+    function loadKinhDichNotes() {
+      try {
+        const raw = localStorage.getItem('user_kinhdich_notes');
+        kinhDichNotes = raw ? JSON.parse(raw) : [];
+      } catch (e) {
+        kinhDichNotes = [];
+      }
+    }
+
+    function saveKinhDichNotes() {
+      try {
+        localStorage.setItem('user_kinhdich_notes', JSON.stringify(kinhDichNotes));
+      } catch (e) {
+        console.error('Lỗi lưu sổ tay Kinh Dịch:', e);
+      }
+    }
+
+    window.addKinhDichNote = function() {
+      const dateEl = document.getElementById('kd-note-date');
+      const issueEl = document.getElementById('kd-note-issue');
+      const hexagramEl = document.getElementById('kd-note-hexagram');
+      const actionEl = document.getElementById('kd-note-action');
+      const lessonEl = document.getElementById('kd-note-lesson');
+
+      const date = dateEl ? dateEl.value : '';
+      const issue = issueEl ? issueEl.value.trim() : '';
+      const hexagram = hexagramEl ? hexagramEl.value.trim() : '';
+      const action = actionEl ? actionEl.value.trim() : '';
+      const lesson = lessonEl ? lessonEl.value.trim() : '';
+
+      if (!issue && !hexagram && !lesson) {
+        alert('Vui lòng nhập ít nhất thông tin vấn đề, quẻ hoặc bài học rút ra.');
+        return;
+      }
+
+      const newNote = {
+        id: Date.now(),
+        date: date || new Date().toISOString().split('T')[0],
+        issue: issue || 'Chiêm nghiệm sự việc',
+        hexagram: hexagram || '---',
+        action: action || '---',
+        lesson: lesson || '---'
+      };
+
+      kinhDichNotes.unshift(newNote);
+      saveKinhDichNotes();
+      renderKinhDichNotes();
+
+      if (issueEl) issueEl.value = '';
+      if (hexagramEl) hexagramEl.value = '';
+      if (actionEl) actionEl.value = '';
+      if (lessonEl) lessonEl.value = '';
+    };
+
+    window.deleteKinhDichNote = function(id) {
+      if (confirm('Bạn có chắc muốn xóa ghi chép dịch lý này?')) {
+        kinhDichNotes = kinhDichNotes.filter(n => n.id !== id);
+        saveKinhDichNotes();
+        renderKinhDichNotes();
+      }
+    };
+
+    window.exportKinhDichNotes = function() {
+      if (!kinhDichNotes || kinhDichNotes.length === 0) {
+        alert('Chưa có ghi chép nào để sao chép.');
+        return;
+      }
+      const text = kinhDichNotes.map((n, i) =>
+        `#${i + 1} [${n.date}]\n- Vấn đề: ${n.issue}\n- Quẻ & Hào: ${n.hexagram}\n- Hành động: ${n.action}\n- Bài học: ${n.lesson}\n`
+      ).join('\n---\n\n');
+
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(() => alert('Đã sao chép sổ tay Dịch Lý vào clipboard!')).catch(() => prompt('Sao chép nội dung sổ tay:', text));
+      } else {
+        prompt('Sao chép nội dung sổ tay:', text);
+      }
+    };
+
+    window.renderKinhDichNotes = function() {
+      const tbody = document.getElementById('kinhdich-notes-tbody');
+      if (!tbody) return;
+      if (!kinhDichNotes || kinhDichNotes.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-slate-500 italic">Chưa có ghi chép chiêm nghiệm nào. Hãy nhập thông tin phía trên để lưu lại.</td></tr>`;
+        return;
+      }
+      tbody.innerHTML = kinhDichNotes.map(n => `
+        <tr class="border-b border-slate-800/60 hover:bg-slate-900/40 transition-colors">
+          <td class="py-3 px-2 font-mono text-slate-400 whitespace-nowrap">${n.date}</td>
+          <td class="py-3 px-2 font-semibold text-amber-200">${n.issue}</td>
+          <td class="py-3 px-2 text-yellow-400 font-medium">${n.hexagram}</td>
+          <td class="py-3 px-2 text-slate-300">${n.action}</td>
+          <td class="py-3 px-2 text-slate-200 italic">${n.lesson}</td>
+          <td class="py-3 px-2 text-right">
+            <button onclick="deleteKinhDichNote(${n.id})" class="text-rose-400 hover:text-rose-300 p-1 rounded-lg hover:bg-rose-950/40 cursor-pointer" title="Xóa">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
+            </button>
+          </td>
+        </tr>
+      `).join('');
+    };
+
     function renderKinhDichSheetsMenu() {
       if (!kinhDichData) return;
-      const keys = Object.keys(kinhDichData);
+      const keys = ['que_64', 'bat_quai', 'thien_can', 'dia_chi', 'ngu_hanh', 'xung_khac', 'vong_giap_ty', 'luc_than', 'ghi_chu'];
       kinhdichSheetsTabs.innerHTML = keys.map(key => {
         const isCurrent = key === activeKinhDichSheet;
         return `
@@ -3814,6 +4029,80 @@
       }).join('');
     }
 
+    window.selectKinhDichSubModule = function(subTab) {
+      activeKinhDichSubModule = subTab;
+      currentKinhDichPage = 1;
+
+      const subBadgeIds = {
+        'sub_64_que': 'kd-subtab-64que',
+        'sub_nen_tang': 'kd-subtab-nentang',
+        'sub_nhan_dien': 'kd-subtab-nhandien',
+        'sub_ung_dung': 'kd-subtab-ungdung',
+        'sub_loi_day': 'kd-subtab-loiday',
+        'sub_sai_lam': 'kd-subtab-sailam',
+        'sub_so_tay': 'kd-subtab-sotay',
+        'sub_co_hoc': 'kd-subtab-cohoc'
+      };
+
+      Object.entries(subBadgeIds).forEach(([key, id]) => {
+        const btn = document.getElementById(id);
+        if (!btn) return;
+        if (key === subTab) {
+          btn.className = "kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-black border border-amber-500 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 shadow-lg shadow-amber-500/20 cursor-pointer";
+        } else {
+          btn.className = "kd-sub-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer";
+        }
+      });
+
+      const sheetsTabs = document.getElementById('kinhdich-sheets-tabs');
+      const stageWrapper = document.getElementById('kinhdich-stage-wrapper');
+      const catHungWrapper = document.getElementById('kinhdich-cat-hung-wrapper');
+      const controls = document.getElementById('kinhdich-controls');
+      const container = document.getElementById('kinhdich-display-container');
+      const notebook = document.getElementById('kinhdich-notebook-area');
+
+      if (subTab === 'sub_so_tay') {
+        if (controls) controls.classList.add('hidden');
+        if (container) container.classList.add('hidden');
+        if (sheetsTabs) sheetsTabs.classList.add('hidden');
+        if (notebook) {
+          notebook.classList.remove('hidden');
+          renderKinhDichNotes();
+        }
+        return;
+      }
+
+      if (notebook) notebook.classList.add('hidden');
+      if (controls) controls.classList.remove('hidden');
+      if (container) container.classList.remove('hidden');
+
+      if (subTab === 'sub_co_hoc') {
+        if (sheetsTabs) sheetsTabs.classList.remove('hidden');
+        if (stageWrapper) stageWrapper.classList.add('hidden');
+        if (catHungWrapper) {
+          if (activeKinhDichSheet === 'que_64') catHungWrapper.classList.remove('hidden');
+          else catHungWrapper.classList.add('hidden');
+        }
+      } else if (subTab === 'sub_64_que') {
+        if (sheetsTabs) sheetsTabs.classList.add('hidden');
+        if (stageWrapper) stageWrapper.classList.remove('hidden');
+        if (catHungWrapper) catHungWrapper.classList.remove('hidden');
+      } else {
+        if (sheetsTabs) sheetsTabs.classList.add('hidden');
+        if (stageWrapper) stageWrapper.classList.add('hidden');
+        if (catHungWrapper) catHungWrapper.classList.add('hidden');
+      }
+
+      kinhdichSearchInput.value = '';
+      renderKinhDich();
+    };
+
+    window.selectKinhDichStageFilter = function(stage) {
+      activeKinhDichStageFilter = stage;
+      currentKinhDichPage = 1;
+      renderKinhDich();
+    };
+
     window.selectKinhDichSheet = function(key) {
       activeKinhDichSheet = key;
       currentKinhDichPage = 1;
@@ -3826,10 +4115,10 @@
         }
       });
 
-      if (key === 'que_64') {
-        kinhdichCatHungWrapper.classList.remove('invisible');
-      } else {
-        kinhdichCatHungWrapper.classList.add('invisible');
+      const catHungWrapper = document.getElementById('kinhdich-cat-hung-wrapper');
+      if (catHungWrapper) {
+        if (key === 'que_64') catHungWrapper.classList.remove('hidden');
+        else catHungWrapper.classList.add('hidden');
       }
 
       kinhdichSearchInput.value = '';
@@ -3843,76 +4132,116 @@
     };
 
     window.renderKinhDich = function() {
-      if (!kinhDichData || !kinhDichData[activeKinhDichSheet]) return;
-      const searchVal = removeVietnameseTones(kinhdichSearchInput.value);
+      if (!kinhDichData) return;
+      const searchVal = removeVietnameseTones((kinhdichSearchInput.value || '').trim());
       const catHungFilter = kinhdichCatHungFilter.value;
+      const paginationEl = document.getElementById('kinhdich-pagination');
 
-      const rawItems = kinhDichData[activeKinhDichSheet];
-      let filtered = rawItems.filter(item => {
-        let matchCatHung = true;
-        const ch = item.cat_hung || item['Cát/hung'] || '';
-        if (activeKinhDichSheet === 'que_64' && catHungFilter) {
-          matchCatHung = ch.toLowerCase().includes(catHungFilter.toLowerCase());
-        }
-        if (!matchCatHung) return false;
-
-        if (!searchVal) return true;
-        return Object.values(item).some(val => removeVietnameseTones(String(val)).includes(searchVal));
-      });
-
-      kinhdichCategoryTitle.innerHTML = `<span>☯️</span> ${kinhDichSheetNames[activeKinhDichSheet] || activeKinhDichSheet}`;
-      kinhdichItemCount.textContent = `Tổng: ${filtered.length} mục`;
-
-      const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerKinhDichPage));
-      if (currentKinhDichPage > totalPages) currentKinhDichPage = totalPages;
-
-      txtPageInfoKd.textContent = `Trang ${currentKinhDichPage} / ${totalPages}`;
-      btnPrevKd.disabled = currentKinhDichPage === 1;
-      btnNextKd.disabled = currentKinhDichPage === totalPages;
-
-      const startIndex = (currentKinhDichPage - 1) * itemsPerKinhDichPage;
-      const paginated = filtered.slice(startIndex, startIndex + itemsPerKinhDichPage);
-
-      if (paginated.length === 0) {
-        kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]";
-        kinhdichDisplayArea.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp</p></div>`;
-        return;
+      // Helper for clean TTS trigger
+      function getTtsButton(audioText) {
+        const safeText = (audioText || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        return `
+          <button 
+            onclick="playTTS(event, '${safeText}', 'vi')"
+            class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-amber-400 hover:text-white hover:bg-amber-950/40 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold shrink-0"
+            title="Nghe đọc nội dung"
+          >
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+            <span>Nghe</span>
+          </button>
+        `;
       }
 
-      if (activeKinhDichSheet === 'que_64') {
+      // --- 1. SUBMODULE: 64 QUẺ TOÀN BỘ ---
+      if (activeKinhDichSubModule === 'sub_64_que') {
+        const rawItems = kinhDichData.que_64 || [];
+        let filtered = rawItems.filter(item => {
+          // Stage filter
+          if (activeKinhDichStageFilter !== 'all') {
+            const stg = item.giai_doan || '';
+            if (!stg.includes(activeKinhDichStageFilter)) return false;
+          }
+          // Cat hung filter
+          const ch = item.cat_hung || item['Cát/hung'] || '';
+          if (catHungFilter && !ch.toLowerCase().includes(catHungFilter.toLowerCase())) {
+            return false;
+          }
+          // Search filter
+          if (!searchVal) return true;
+          return Object.values(item).some(val => {
+            if (typeof val === 'object' && val !== null) {
+              return Object.values(val).some(v => removeVietnameseTones(String(v)).includes(searchVal));
+            }
+            return removeVietnameseTones(String(val)).includes(searchVal);
+          });
+        });
+
+        kinhdichCategoryTitle.innerHTML = `<span>📜</span> 64 Quẻ Toàn Bộ — Chính Văn & Giải Nghĩa`;
+        kinhdichItemCount.textContent = `Tổng: ${filtered.length} quẻ`;
+
+        const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerKinhDichPage));
+        if (currentKinhDichPage > totalPages) currentKinhDichPage = totalPages;
+
+        if (paginationEl) {
+          paginationEl.classList.remove('hidden');
+          txtPageInfoKd.textContent = `Trang ${currentKinhDichPage} / ${totalPages}`;
+          btnPrevKd.disabled = currentKinhDichPage === 1;
+          btnNextKd.disabled = currentKinhDichPage === totalPages;
+        }
+
+        const startIndex = (currentKinhDichPage - 1) * itemsPerKinhDichPage;
+        const paginated = filtered.slice(startIndex, startIndex + itemsPerKinhDichPage);
+
+        if (paginated.length === 0) {
+          kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]";
+          kinhdichDisplayArea.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy quẻ dịch phù hợp với bộ lọc.</p></div>`;
+          return;
+        }
+
         kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-h-[300px]";
         kinhdichDisplayArea.innerHTML = paginated.map(item => {
           const realStt = item.stt || item.STT || 1;
+          const kyHieu = item.ky_hieu || '';
           const tenQue = item.ten_que || item['Tên quẻ'] || 'Quẻ Dịch';
           const ch = item.cat_hung || item['Cát/hung'] || 'Bình hòa';
           const hinhTuong = item.hinh_tuong || item['Hình tượng'] || '';
           const cauTruc = item.cau_truc || item['Cấu trúc'] || item['Họ quẻ'] || '';
           const giaiNghia = item.giai_nghia || item['Ý nghĩa cơ bản'] || '';
+          const giaiDoan = item.giai_doan || '';
+          const ungDung = item.ung_dung_thuc_te || {};
 
           let catHungBg = "bg-slate-800 text-slate-300 border-slate-700";
           if (ch.includes('Đại cát')) catHungBg = "bg-emerald-500/20 text-emerald-300 border-emerald-500/40";
+          else if (ch.includes('Cát hanh')) catHungBg = "bg-teal-500/20 text-teal-300 border-teal-500/40";
           else if (ch.includes('Cát')) catHungBg = "bg-amber-500/20 text-amber-300 border-amber-500/40";
           else if (ch.includes('Hung')) catHungBg = "bg-rose-500/20 text-rose-300 border-rose-500/40";
           else if (ch.includes('Bình')) catHungBg = "bg-cyan-500/20 text-cyan-300 border-cyan-500/40";
 
+          const speakText = `Quẻ số ${realStt}: ${tenQue}. Cát hung: ${ch}. ${cauTruc ? 'Cấu trúc: ' + cauTruc + '.' : ''} ${giaiNghia ? 'Giải nghĩa: ' + giaiNghia + '.' : ''} ${ungDung.loi_khuyen_cot_loi ? 'Lời khuyên: ' + ungDung.loi_khuyen_cot_loi : ''}`;
+
           return `
-            <div class="glass-card p-5 sm:p-6 rounded-3xl flex flex-col justify-between hover:border-amber-500/40 border-slate-800/80 transition-all duration-300">
+            <div class="glass-card p-5 sm:p-6 rounded-3xl flex flex-col justify-between hover:border-amber-500/40 border-slate-800/80 transition-all duration-300 group">
               <div>
                 <div class="flex items-center justify-between mb-2">
-                  <span class="text-xs font-mono font-bold text-slate-500">Quẻ #${realStt}</span>
+                  <div class="flex items-center gap-2">
+                    <span class="text-2xl font-serif text-amber-300 font-bold">${kyHieu}</span>
+                    <span class="text-xs font-mono font-bold text-slate-500">#${realStt}</span>
+                    ${giaiDoan ? `<span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-900 border border-slate-800 text-slate-400">${giaiDoan}</span>` : ''}
+                  </div>
                   <span class="text-[11px] font-black px-2.5 py-0.5 rounded-full border ${catHungBg}">${ch}</span>
                 </div>
-                <h4 class="text-xl font-black font-display text-white mb-1">${tenQue}</h4>
+                <h4 class="text-xl font-black font-display text-white mb-1 group-hover:text-amber-200 transition-colors">${tenQue}</h4>
                 ${cauTruc ? `<p class="text-xs font-bold text-amber-300/90 mb-2">${cauTruc}</p>` : ''}
                 ${hinhTuong ? `<p class="text-[11px] font-bold text-slate-400 bg-slate-900/80 px-2.5 py-1 rounded-lg border border-slate-800 w-max mb-3">🖼 ${hinhTuong}</p>` : ''}
                 <div class="text-xs text-slate-300 leading-relaxed space-y-2 mt-2">
-                  ${giaiNghia ? `<p class="line-clamp-3 leading-relaxed text-slate-200">${giaiNghia}</p>` : ''}
+                  ${giaiNghia ? `<p class="line-clamp-3 leading-relaxed text-slate-200 italic border-l-2 border-amber-500/30 pl-2.5">${giaiNghia}</p>` : ''}
+                  ${ungDung.loi_khuyen_cot_loi ? `<p class="text-[11px] text-amber-300 font-semibold bg-amber-950/30 p-2 rounded-xl border border-amber-500/20"><span class="font-bold text-amber-400">💡 Lời khuyên:</span> ${ungDung.loi_khuyen_cot_loi}</p>` : ''}
                 </div>
               </div>
-              <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between items-center">
-                <span class="text-[11px] text-slate-400 font-bold uppercase">Chu Dịch</span>
-                <button onclick="openKinhDichDetailModal(${realStt})" class="text-xs font-bold text-amber-400 hover:text-white flex items-center gap-1 cursor-pointer">
-                  Xem chi tiết quẻ ➔
+              <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between items-center gap-2">
+                ${getTtsButton(speakText)}
+                <button onclick="openKinhDichDetailModal(${realStt})" class="text-xs font-bold text-amber-400 hover:text-white flex items-center gap-1 cursor-pointer bg-amber-500/10 hover:bg-amber-500/20 px-3 py-2 rounded-xl border border-amber-500/30 transition-all">
+                  Xem chi tiết ➔
                 </button>
               </div>
             </div>
@@ -3921,50 +4250,490 @@
         return;
       }
 
-      if (activeKinhDichSheet === 'bat_quai') {
-        kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 min-h-[300px]";
-        kinhdichDisplayArea.innerHTML = paginated.map(bq => `
-          <div class="glass-card p-5 rounded-3xl flex flex-col gap-2 hover:border-amber-500/40 border-slate-800/80 transition-all duration-300 text-center items-center">
-            <span class="text-5xl leading-none text-amber-300 mb-1">${bq.ky_hieu || ''}</span>
-            <h4 class="text-xl font-black font-display text-white">${bq.ten || ''}</h4>
-            <p class="text-xs font-bold text-amber-300/90">${bq.y_nghia || ''}</p>
-            <div class="flex flex-wrap justify-center gap-1.5 my-1">
-              <span class="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-900/80 border border-slate-800 text-slate-300">${bq.ngu_hanh || ''}</span>
-              <span class="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-900/80 border border-slate-800 text-slate-300">${bq.huong_hau_thien || ''}</span>
-            </div>
-            <p class="text-[11px] font-bold text-cyan-300/90">${bq.gia_dao || ''}</p>
-            <p class="text-xs text-slate-300 leading-relaxed mt-1 pt-2 border-t border-slate-800/80 w-full">${bq.tinh_chat || ''}</p>
-          </div>
-        `).join('');
+      // --- 2. SUBMODULE: NỀN TẢNG ÂM DƯƠNG & BÁT QUÁI ---
+      if (activeKinhDichSubModule === 'sub_nen_tang') {
+        if (paginationEl) paginationEl.classList.add('hidden');
+        kinhdichCategoryTitle.innerHTML = `<span>☯️</span> Nền Tảng Cơ Bản — Âm Dương, Ngũ Hành & Bát Quái`;
+        kinhdichItemCount.textContent = `5 Chuyên mục nền tảng`;
+
+        const nt = kinhDichData.nen_tang_am_duong_bat_quai || {};
+        let cards = [];
+
+        // 1. Âm Dương
+        if (nt.am_duong) {
+          const ad = nt.am_duong;
+          const adText = `Âm Dương: ${ad.dinh_nghia}. Quy luật: ${ad.quy_luat}`;
+          if (!searchVal || removeVietnameseTones(JSON.stringify(ad)).includes(searchVal)) {
+            cards.push(`
+              <div class="glass-card p-6 rounded-3xl border-amber-500/30 flex flex-col justify-between md:col-span-2">
+                <div>
+                  <div class="flex items-center justify-between mb-3">
+                    <span class="text-xs font-bold px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300">1. Nền Tảng Âm Dương</span>
+                    <span class="text-2xl">☯️</span>
+                  </div>
+                  <h4 class="text-xl font-black font-display text-white mb-2">${ad.tieu_de || 'Âm Dương Đại Đạo'}</h4>
+                  <p class="text-xs sm:text-sm text-slate-300 leading-relaxed mb-4">${ad.dinh_nghia || ''}</p>
+                  
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                    <div class="p-3.5 rounded-2xl bg-amber-500/10 border border-amber-500/25">
+                      <div class="flex items-center gap-2 mb-1">
+                        <span class="text-lg font-bold text-amber-300">⚊ ${ad.bieu_tuong_duong?.ten || 'Dương'}</span>
+                      </div>
+                      <p class="text-xs text-slate-300">${ad.bieu_tuong_duong?.y_nghia || ''}</p>
+                    </div>
+                    <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800">
+                      <div class="flex items-center gap-2 mb-1">
+                        <span class="text-lg font-bold text-indigo-300">⚋ ${ad.bieu_tuong_am?.ten || 'Âm'}</span>
+                      </div>
+                      <p class="text-xs text-slate-300">${ad.bieu_tuong_am?.y_nghia || ''}</p>
+                    </div>
+                  </div>
+
+                  <div class="p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 text-xs text-slate-300 space-y-1.5">
+                    <p class="font-bold text-amber-400">⚖️ Quy luật cốt lõi:</p>
+                    <p class="leading-relaxed">${ad.quy_luat || ''}</p>
+                    <p class="font-bold text-yellow-300 pt-1">💡 Ứng dụng: ${ad.ung_dung || ''}</p>
+                  </div>
+                </div>
+                <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+                  ${getTtsButton(adText)}
+                </div>
+              </div>
+            `);
+          }
+        }
+
+        // 2. Ngũ Hành
+        if (nt.ngu_hanh) {
+          const nh = nt.ngu_hanh;
+          const nhText = `Ngũ Hành: ${nh.tieu_de}. Tương sinh: ${nh.vong_tuong_sinh}. Tương khắc: ${nh.vong_tuong_khac}`;
+          if (!searchVal || removeVietnameseTones(JSON.stringify(nh)).includes(searchVal)) {
+            cards.push(`
+              <div class="glass-card p-6 rounded-3xl border-slate-800 flex flex-col justify-between md:col-span-1">
+                <div>
+                  <div class="flex items-center justify-between mb-3">
+                    <span class="text-xs font-bold px-3 py-1 rounded-full bg-teal-500/15 border border-teal-500/30 text-teal-300">2. Ngũ Hành</span>
+                    <span class="text-2xl">⚡</span>
+                  </div>
+                  <h4 class="text-lg font-black font-display text-white mb-2">${nh.tieu_de || 'Quy Luật Ngũ Hành'}</h4>
+                  <div class="flex flex-wrap gap-1.5 mb-3">
+                    ${(nh.nam_hanh || []).map(h => `<span class="px-2 py-0.5 rounded-md bg-slate-900 border border-slate-800 text-xs font-bold text-amber-200">${h}</span>`).join('')}
+                  </div>
+                  <div class="space-y-2 text-xs">
+                    <div class="p-2.5 rounded-xl bg-emerald-950/30 border border-emerald-500/20 text-emerald-200">
+                      <span class="font-bold block text-emerald-400">🔄 Vòng Tương Sinh:</span>
+                      <span>${nh.vong_tuong_sinh || ''}</span>
+                    </div>
+                    <div class="p-2.5 rounded-xl bg-rose-950/30 border border-rose-500/20 text-rose-200">
+                      <span class="font-bold block text-rose-400">⚔️ Vòng Tương Khắc:</span>
+                      <span>${nh.vong_tuong_khac || ''}</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+                  ${getTtsButton(nhText)}
+                </div>
+              </div>
+            `);
+          }
+        }
+
+        // 3. Bát Quái 8 Quẻ Đơn
+        if (nt.bat_quai_8_que_don) {
+          (nt.bat_quai_8_que_don || []).forEach(bq => {
+            if (searchVal && !removeVietnameseTones(JSON.stringify(bq)).includes(searchVal)) return;
+            const bqText = `Quẻ đơn ${bq.ten} ${bq.ky_hieu}. Tự nhiên: ${bq.tu_nhien}. Ngũ hành: ${bq.ngu_hanh}. Tính chất: ${bq.tinh_chat}. Ý nghĩa: ${bq.y_nghia}`;
+            cards.push(`
+              <div class="glass-card p-5 rounded-3xl border-slate-800 hover:border-amber-500/40 transition-all flex flex-col justify-between text-center items-center">
+                <div>
+                  <span class="text-4xl text-amber-400 font-bold block mb-1">${bq.ky_hieu}</span>
+                  <h4 class="text-lg font-black text-white font-display">${bq.ten} (${bq.tu_nhien})</h4>
+                  <p class="text-xs font-bold text-amber-300/90 mt-0.5">${bq.y_nghia}</p>
+                  <div class="flex justify-center gap-1.5 my-2.5">
+                    <span class="text-[11px] px-2 py-0.5 rounded-md bg-slate-900 border border-slate-800 text-slate-300 font-bold">${bq.ngu_hanh}</span>
+                    <span class="text-[11px] px-2 py-0.5 rounded-md bg-slate-900 border border-slate-800 text-cyan-300 font-bold">${bq.gia_dao}</span>
+                  </div>
+                  <p class="text-xs text-slate-300 italic">${bq.tinh_chat}</p>
+                </div>
+                <div class="mt-3 pt-2.5 border-t border-slate-800/80 w-full flex justify-end">
+                  ${getTtsButton(bqText)}
+                </div>
+              </div>
+            `);
+          });
+        }
+
+        // 4. Cách đọc Nội/Ngoại quái
+        if (nt.cach_doc_que_kep) {
+          const cd = nt.cach_doc_que_kep;
+          if (!searchVal || removeVietnameseTones(JSON.stringify(cd)).includes(searchVal)) {
+            cards.push(`
+              <div class="glass-card p-6 rounded-3xl border-slate-800 md:col-span-2 flex flex-col justify-between">
+                <div>
+                  <h4 class="text-lg font-black text-white font-display mb-2">📐 ${cd.tieu_de || 'Cách Đọc Quẻ Kép (Nội Ngoại Quái)'}</h4>
+                  <p class="text-xs text-slate-300 mb-3 leading-relaxed">${cd.nguyen_tac || ''}</p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800">
+                      <span class="font-bold text-amber-300 block mb-1">🔼 Ngoại quái (Quẻ Thượng):</span>
+                      <p class="text-slate-300">${cd.ngoai_quai || ''}</p>
+                    </div>
+                    <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800">
+                      <span class="font-bold text-cyan-300 block mb-1">🔽 Nội quái (Quẻ Hạ):</span>
+                      <p class="text-slate-300">${cd.noi_quai || ''}</p>
+                    </div>
+                  </div>
+                  <p class="text-xs text-yellow-300/90 mt-3 italic font-semibold">Thứ tự hào: ${cd.thu_tu_hao || ''}</p>
+                </div>
+                <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+                  ${getTtsButton(`Cách đọc quẻ kép: ${cd.nguyen_tac}. Thứ tự hào: ${cd.thu_tu_hao}`)}
+                </div>
+              </div>
+            `);
+          }
+        }
+
+        // 5. 4 Khái niệm cốt lõi
+        if (nt.bon_khai_niem_cot_loi) {
+          const kn = nt.bon_khai_niem_cot_loi;
+          if (!searchVal || removeVietnameseTones(JSON.stringify(kn)).includes(searchVal)) {
+            cards.push(`
+              <div class="glass-card p-6 rounded-3xl border-slate-800 md:col-span-1 flex flex-col justify-between">
+                <div>
+                  <h4 class="text-lg font-black text-white font-display mb-2">💎 ${kn.tieu_de || '4 Khái Niệm Cốt Lõi'}</h4>
+                  <div class="space-y-2 text-xs">
+                    <div class="p-2 rounded-xl bg-slate-900/80 border border-slate-800"><b class="text-amber-300">Tĩnh:</b> <span class="text-slate-300">${kn.tinh || ''}</span></div>
+                    <div class="p-2 rounded-xl bg-slate-900/80 border border-slate-800"><b class="text-amber-300">Động:</b> <span class="text-slate-300">${kn.dong || ''}</span></div>
+                    <div class="p-2 rounded-xl bg-slate-900/80 border border-slate-800"><b class="text-amber-300">Thời:</b> <span class="text-slate-300">${kn.thoi || ''}</span></div>
+                    <div class="p-2 rounded-xl bg-slate-900/80 border border-slate-800"><b class="text-amber-300">Vị:</b> <span class="text-slate-300">${kn.vi || ''}</span></div>
+                  </div>
+                </div>
+                <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+                  ${getTtsButton(`Bốn khái niệm cốt lõi: Tĩnh là ${kn.tinh}. Động là ${kn.dong}. Thời là ${kn.thoi}. Vị là ${kn.vi}`)}
+                </div>
+              </div>
+            `);
+          }
+        }
+
+        kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-3 gap-5 min-h-[300px]";
+        kinhdichDisplayArea.innerHTML = cards.length > 0 ? cards.join('') : `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp.</p></div>`;
         return;
       }
 
-      // Other sheets
-      kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]";
-      kinhdichDisplayArea.innerHTML = paginated.map((item, idx) => {
-        const entries = Object.entries(item).filter(([k, v]) => v !== undefined && v !== '');
-        const titleKey = entries[1] ? entries[1][1] : (entries[0] ? entries[0][1] : `Mục #${startIndex + idx + 1}`);
-        
-        const detailsHtml = entries.map(([k, v]) => {
-          return `
+      // --- 3. SUBMODULE: NHẬN DIỆN BIẾN ĐỔI ---
+      if (activeKinhDichSubModule === 'sub_nhan_dien') {
+        if (paginationEl) paginationEl.classList.add('hidden');
+        kinhdichCategoryTitle.innerHTML = `<span>🔄</span> Cách Xem Quẻ & Nhận Diện Biến Đổi`;
+        kinhdichItemCount.textContent = `5 Quy tắc biến hào`;
+
+        const nd = kinhDichData.nhan_dien_bien_doi || {};
+        let cards = [];
+
+        // Golden Principle
+        if (nd.nguyen_tac_cot_loi && (!searchVal || removeVietnameseTones(nd.nguyen_tac_cot_loi).includes(searchVal))) {
+          cards.push(`
+            <div class="glass-card p-6 rounded-3xl border-amber-500/30 col-span-full bg-gradient-to-r from-amber-950/30 via-slate-900 to-amber-950/20">
+              <span class="text-xs font-bold text-amber-400 uppercase tracking-wider block mb-1">🌟 Nguyên Tắc Cốt Lõi</span>
+              <h3 class="text-lg sm:text-xl font-black text-white font-display mb-2">${nd.nguyen_tac_cot_loi}</h3>
+              <p class="text-xs sm:text-sm text-amber-200/90 italic border-l-2 border-amber-500 pl-3 py-0.5">${nd.bien_nhung_khong_voi || 'Xem biến để phòng, không phải để hoảng loạn. Người biết Dịch không sợ biến, chỉ sợ không biết mình đang ở đâu.'}</p>
+            </div>
+          `);
+        }
+
+        // Cases
+        (nd.cac_truong_hop || []).forEach((c, idx) => {
+          if (searchVal && !removeVietnameseTones(JSON.stringify(c)).includes(searchVal)) return;
+          const cText = `Trường hợp: ${c.tinh_huong}. Ý nghĩa: ${c.y_nghia}. Ứng xử: ${c.ung_xu}`;
+          cards.push(`
+            <div class="glass-card p-5 sm:p-6 rounded-3xl border-slate-800 hover:border-amber-500/40 transition-all flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-3">
+                  <span class="text-xs font-mono font-bold text-amber-400 bg-amber-500/10 px-2.5 py-0.5 rounded-full border border-amber-500/20">#${idx + 1}</span>
+                  <span class="text-xs font-bold text-slate-400">Chu Dịch Biến Hào</span>
+                </div>
+                <h4 class="text-base font-black text-white font-display mb-2">${c.tinh_huong}</h4>
+                <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 mb-3 text-xs text-slate-300">
+                  <span class="font-bold text-amber-300 block mb-1">🔍 Ý nghĩa dịch lý:</span>
+                  <p class="leading-relaxed">${c.y_nghia}</p>
+                </div>
+                <div class="p-3 rounded-2xl bg-amber-950/30 border border-amber-500/20 text-xs text-amber-200">
+                  <span class="font-bold text-amber-400 block mb-1">💡 Phương pháp ứng xử:</span>
+                  <p class="leading-relaxed">${c.ung_xu}</p>
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+                ${getTtsButton(cText)}
+              </div>
+            </div>
+          `);
+        });
+
+        kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-h-[300px]";
+        kinhdichDisplayArea.innerHTML = cards.length > 0 ? cards.join('') : `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp.</p></div>`;
+        return;
+      }
+
+      // --- 4. SUBMODULE: ỨNG DỤNG ĐỜI SỐNG THỰC TẾ ---
+      if (activeKinhDichSubModule === 'sub_ung_dung') {
+        if (paginationEl) paginationEl.classList.add('hidden');
+        kinhdichCategoryTitle.innerHTML = `<span>💡</span> Ứng Dụng Kinh Dịch Vào Đời Sống Thực Tế`;
+        kinhdichItemCount.textContent = `5 Lĩnh vực ứng dụng`;
+
+        const ud = kinhDichData.ung_dung_thuc_te || {};
+        let cards = [];
+
+        const domains = [
+          { key: 'dau_tu_tai_chinh', title: '💰 Đầu Tư & Tài Chính', data: ud.dau_tu_tai_chinh },
+          { key: 'cong_viec_quyet_dinh', title: '💼 Công Việc & Sự Nghiệp', data: ud.cong_viec_quyet_dinh },
+          { key: 'gia_dinh_quan_he', title: '🏡 Gia Đình & Quan Hệ', data: ud.gia_dinh_quan_he },
+          { key: 'tu_tu_duong', title: '🧘 Tự Tu Dưỡng & Bản Lĩnh', data: ud.tu_tu_duong },
+          { key: 'nguyen_tac_ra_quyet_dinh_5_buoc', title: '🧭 5 Bước Ra Quyết Định', data: ud.nguyen_tac_ra_quyet_dinh_5_buoc }
+        ];
+
+        domains.forEach(d => {
+          if (!d.data) return;
+          if (searchVal && !removeVietnameseTones(JSON.stringify(d.data)).includes(searchVal)) return;
+
+          let bodyHtml = '';
+          let audioText = d.title + ': ';
+
+          if (d.data.cac_nguyen_tac) {
+            bodyHtml = (d.data.cac_nguyen_tac || []).map(p => {
+              audioText += p.nguyen_tac + '. ' + p.giai_thich + '. ';
+              return `
+                <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-xs">
+                  <span class="font-bold text-amber-300 block mb-1">✨ ${p.nguyen_tac}</span>
+                  <p class="text-slate-300 leading-relaxed">${p.giai_thich}</p>
+                </div>
+              `;
+            }).join('');
+          } else if (d.data.cac_buoc) {
+            bodyHtml = (d.data.cac_buoc || []).map(b => {
+              audioText += 'Bước ' + b.buoc + ': ' + b.ten + '. ' + b.hanh_dong + '. ';
+              return `
+                <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-xs">
+                  <span class="font-bold text-yellow-400 block mb-1">Bước ${b.buoc}: ${b.ten}</span>
+                  <p class="text-slate-300 leading-relaxed">${b.hanh_dong}</p>
+                </div>
+              `;
+            }).join('');
+          }
+
+          cards.push(`
+            <div class="glass-card p-6 rounded-3xl border-slate-800 hover:border-amber-500/40 transition-all flex flex-col justify-between">
+              <div>
+                <h4 class="text-lg font-black text-white font-display mb-2">${d.title}</h4>
+                <p class="text-xs text-amber-300/90 font-semibold mb-3">${d.data.tieu_de || ''}</p>
+                <div class="space-y-2.5">
+                  ${bodyHtml}
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+                ${getTtsButton(audioText)}
+              </div>
+            </div>
+          `);
+        });
+
+        kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-h-[300px]";
+        kinhdichDisplayArea.innerHTML = cards.length > 0 ? cards.join('') : `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp.</p></div>`;
+        return;
+      }
+
+      // --- 5. SUBMODULE: LỜI DẠY CỐT LÕI (4 GIAI ĐOẠN) ---
+      if (activeKinhDichSubModule === 'sub_loi_day') {
+        if (paginationEl) paginationEl.classList.add('hidden');
+        kinhdichCategoryTitle.innerHTML = `<span>✨</span> Lời Dạy Cốt Lõi — Tóm Tắt 64 Quẻ Qua 4 Giai Đoạn`;
+        kinhdichItemCount.textContent = `4 Giai đoạn & Bài học lớn`;
+
+        const ld = kinhDichData.loi_day_cot_loi_4_giai_doan || {};
+        let cards = [];
+
+        // 4 Stages
+        (ld.cac_giai_doan || []).forEach(g => {
+          if (searchVal && !removeVietnameseTones(JSON.stringify(g)).includes(searchVal)) return;
+          const gText = `${g.giai_doan}: ${g.ten}. Quẻ đại diện: ${g.que_dai_dien}. Lời dạy: ${g.loi_day_cot_loi}. Bài học: ${g.bai_hoc_hanh_dong}`;
+          cards.push(`
+            <div class="glass-card p-6 rounded-3xl border-slate-800 hover:border-amber-500/40 transition-all flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20">${g.giai_doan}</span>
+                  <span class="text-xs font-mono text-slate-500 font-bold">${g.que_dai_dien}</span>
+                </div>
+                <h4 class="text-lg font-black text-white font-display mb-1">${g.ten}</h4>
+                <p class="text-xs text-slate-400 mb-3">${g.y_nghia_giai_doan}</p>
+                <div class="p-3.5 rounded-2xl bg-amber-950/30 border border-amber-500/20 text-xs text-amber-200 mb-2.5">
+                  <span class="font-bold text-amber-300 block mb-1">📜 Lời dạy cốt lõi:</span>
+                  <p class="leading-relaxed italic">${g.loi_day_cot_loi}</p>
+                </div>
+                <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800 text-xs text-slate-300">
+                  <span class="font-bold text-yellow-400 block mb-1">🎯 Bài học hành động:</span>
+                  <p class="leading-relaxed">${g.bai_hoc_hanh_dong}</p>
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+                ${getTtsButton(gText)}
+              </div>
+            </div>
+          `);
+        });
+
+        // Universal lessons
+        if (ld.bai_hoc_xuyen_suot && (!searchVal || removeVietnameseTones(JSON.stringify(ld.bai_hoc_xuyen_suot)).includes(searchVal))) {
+          const uText = (ld.bai_hoc_xuyen_suot || []).map(b => b.tieu_de + ': ' + b.noi_dung).join('. ');
+          cards.push(`
+            <div class="glass-card p-6 rounded-3xl border-amber-500/30 col-span-full flex flex-col justify-between">
+              <div>
+                <h4 class="text-lg font-black text-white font-display mb-3">🌟 Bài Học Minh Triết Xuyên Suốt 64 Quẻ</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  ${(ld.bai_hoc_xuyen_suot || []).map(b => `
+                    <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800 text-xs">
+                      <span class="font-bold text-amber-300 block mb-1">✨ ${b.tieu_de}</span>
+                      <p class="text-slate-300 leading-relaxed">${b.noi_dung}</p>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+                ${getTtsButton(uText)}
+              </div>
+            </div>
+          `);
+        }
+
+        kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 gap-5 min-h-[300px]";
+        kinhdichDisplayArea.innerHTML = cards.length > 0 ? cards.join('') : `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp.</p></div>`;
+        return;
+      }
+
+      // --- 6. SUBMODULE: NHỮNG SAI LẦM THƯỜNG GẶP ---
+      if (activeKinhDichSubModule === 'sub_sai_lam') {
+        if (paginationEl) paginationEl.classList.add('hidden');
+        kinhdichCategoryTitle.innerHTML = `<span>⚖️</span> Những Sai Lầm Thường Gặp Về Kinh Dịch`;
+        kinhdichItemCount.textContent = `5 Nhận thức chuẩn xác`;
+
+        const sl = kinhDichData.sai_lam_thuong_gap || [];
+        let cards = [];
+
+        sl.forEach((item, idx) => {
+          if (searchVal && !removeVietnameseTones(JSON.stringify(item)).includes(searchVal)) return;
+          const slText = `Sai lầm số ${idx + 1}: ${item.sai_lam}. Sự thật: ${item.su_that}. Hành động đúng: ${item.hanh_dong_dung}`;
+          cards.push(`
+            <div class="glass-card p-6 rounded-3xl border-slate-800 hover:border-amber-500/40 transition-all flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-3">
+                  <span class="text-xs font-bold text-rose-400 bg-rose-500/10 px-3 py-1 rounded-full border border-rose-500/25">❌ Sai lầm #${idx + 1}</span>
+                  <span class="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/25">✅ Sự thật Dịch học</span>
+                </div>
+                <h4 class="text-base font-black text-rose-300 font-display mb-2 leading-snug">${item.sai_lam}</h4>
+                <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800 mb-3 text-xs text-slate-200">
+                  <span class="font-bold text-amber-300 block mb-1">📖 Bản chất khoa học cổ điển:</span>
+                  <p class="leading-relaxed">${item.su_that}</p>
+                </div>
+                <div class="p-3.5 rounded-2xl bg-emerald-950/30 border border-emerald-500/20 text-xs text-emerald-200">
+                  <span class="font-bold text-emerald-400 block mb-1">💡 Hành động đúng đắn:</span>
+                  <p class="leading-relaxed">${item.hanh_dong_dung}</p>
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+                ${getTtsButton(slText)}
+              </div>
+            </div>
+          `);
+        });
+
+        kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-h-[300px]";
+        kinhdichDisplayArea.innerHTML = cards.length > 0 ? cards.join('') : `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp.</p></div>`;
+        return;
+      }
+
+      // --- 8. SUBMODULE: TRA CỨU CỔ HỌC (LEGACY SHEETS) ---
+      if (activeKinhDichSubModule === 'sub_co_hoc') {
+        const rawItems = kinhDichData[activeKinhDichSheet] || [];
+        let filtered = rawItems.filter(item => {
+          if (!searchVal) return true;
+          return Object.values(item).some(val => removeVietnameseTones(String(val)).includes(searchVal));
+        });
+
+        kinhdichCategoryTitle.innerHTML = `<span>🏛️</span> ${kinhDichSheetNames[activeKinhDichSheet] || activeKinhDichSheet}`;
+        kinhdichItemCount.textContent = `Tổng: ${filtered.length} mục`;
+
+        const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerKinhDichPage));
+        if (currentKinhDichPage > totalPages) currentKinhDichPage = totalPages;
+
+        if (paginationEl) {
+          paginationEl.classList.remove('hidden');
+          txtPageInfoKd.textContent = `Trang ${currentKinhDichPage} / ${totalPages}`;
+          btnPrevKd.disabled = currentKinhDichPage === 1;
+          btnNextKd.disabled = currentKinhDichPage === totalPages;
+        }
+
+        const startIndex = (currentKinhDichPage - 1) * itemsPerKinhDichPage;
+        const paginated = filtered.slice(startIndex, startIndex + itemsPerKinhDichPage);
+
+        if (paginated.length === 0) {
+          kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]";
+          kinhdichDisplayArea.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp.</p></div>`;
+          return;
+        }
+
+        if (activeKinhDichSheet === 'bat_quai') {
+          kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 min-h-[300px]";
+          kinhdichDisplayArea.innerHTML = paginated.map(bq => {
+            const bqSpeak = `Bát quái: ${bq.ten} ${bq.ky_hieu}. ${bq.y_nghia}. Ngũ hành: ${bq.ngu_hanh}. Hướng: ${bq.huong_hau_thien}. Tính chất: ${bq.tinh_chat}`;
+            return `
+              <div class="glass-card p-5 rounded-3xl flex flex-col justify-between hover:border-amber-500/40 border-slate-800/80 transition-all duration-300 text-center items-center">
+                <div>
+                  <span class="text-5xl leading-none text-amber-300 mb-1 block">${bq.ky_hieu || ''}</span>
+                  <h4 class="text-xl font-black font-display text-white">${bq.ten || ''}</h4>
+                  <p class="text-xs font-bold text-amber-300/90">${bq.y_nghia || ''}</p>
+                  <div class="flex flex-wrap justify-center gap-1.5 my-1">
+                    <span class="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-900/80 border border-slate-800 text-slate-300">${bq.ngu_hanh || ''}</span>
+                    <span class="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-900/80 border border-slate-800 text-slate-300">${bq.huong_hau_thien || ''}</span>
+                  </div>
+                  <p class="text-[11px] font-bold text-cyan-300/90">${bq.gia_dao || ''}</p>
+                  <p class="text-xs text-slate-300 leading-relaxed mt-1 pt-2 border-t border-slate-800/80 w-full">${bq.tinh_chat || ''}</p>
+                </div>
+                <div class="mt-3 pt-2 border-t border-slate-800/80 w-full flex justify-end">
+                  ${getTtsButton(bqSpeak)}
+                </div>
+              </div>
+            `;
+          }).join('');
+          return;
+        }
+
+        // Other sheets
+        kinhdichDisplayArea.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[300px]";
+        kinhdichDisplayArea.innerHTML = paginated.map((item, idx) => {
+          const entries = Object.entries(item).filter(([k, v]) => v !== undefined && v !== '');
+          const titleKey = entries[1] ? entries[1][1] : (entries[0] ? entries[0][1] : `Mục #${startIndex + idx + 1}`);
+          
+          const detailsHtml = entries.map(([k, v]) => `
             <div class="text-xs">
               <span class="text-slate-400 font-bold">${k}:</span>
               <span class="text-slate-200 ml-1 leading-relaxed">${v}</span>
             </div>
-          `;
-        }).join('');
+          `).join('');
 
-        return `
-          <div class="glass-card p-5 rounded-3xl flex flex-col justify-between hover:border-amber-500/30 border-slate-800/80">
-            <div>
-              <h4 class="text-base font-black font-display text-amber-300 mb-3 pb-2 border-b border-slate-800/80">${titleKey}</h4>
-              <div class="space-y-2 mt-1">
-                ${detailsHtml}
+          const speakContent = entries.map(([k, v]) => `${k}: ${v}`).join('. ');
+
+          return `
+            <div class="glass-card p-5 rounded-3xl flex flex-col justify-between hover:border-amber-500/30 border-slate-800/80">
+              <div>
+                <h4 class="text-base font-black font-display text-amber-300 mb-3 pb-2 border-b border-slate-800/80">${titleKey}</h4>
+                <div class="space-y-2 mt-1">
+                  ${detailsHtml}
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-end">
+                ${getTtsButton(speakContent)}
               </div>
             </div>
-          </div>
-        `;
-      }).join('');
+          `;
+        }).join('');
+        return;
+      }
     };
 
     kinhdichSearchInput.addEventListener('input', () => {
@@ -3978,19 +4747,24 @@
       if (!que) return;
 
       const tenQue = que.ten_que || que['Tên quẻ'] || 'Quẻ Dịch';
+      const kyHieu = que.ky_hieu || '';
       const ch = que.cat_hung || que['Cát/hung'] || 'Bình hòa';
       const cauTruc = que.cau_truc || que['Cấu trúc'] || que['Họ quẻ'] || '';
       const hinhTuong = que.hinh_tuong || que['Hình tượng'] || '';
       const giaiNghia = que.giai_nghia || que['Ý nghĩa cơ bản'] || '';
       const chiTiet = que.chi_tiet || que['Thoán từ'] || que['Lời bàn tổng quát'] || '';
+      const giaiDoan = que.giai_doan || '';
+      const ungDung = que.ung_dung_thuc_te || {};
+      const luuYBienDoi = que.luu_y_bien_doi || '';
 
       modalTheme.textContent = `Quẻ #${stt} • ${ch}`;
       modalTheme.className = "text-xs font-bold tracking-wider text-amber-300 uppercase bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20";
-      modalTitle.textContent = `${tenQue} ${cauTruc ? '(' + cauTruc + ')' : ''}`;
+      modalTitle.innerHTML = `<span class="text-amber-400 mr-2">${kyHieu}</span> ${tenQue} ${cauTruc ? '<span class="text-sm text-slate-400 font-normal">(' + cauTruc + ')</span>' : ''}`;
 
       modalTags.innerHTML = `
         <span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-slate-300">Chu Dịch</span>
         <span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-amber-300">Cát/Hung: ${ch}</span>
+        ${giaiDoan ? `<span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-teal-300">${giaiDoan}</span>` : ''}
         ${hinhTuong ? `<span class="px-2.5 py-0.5 rounded-md bg-slate-800 text-xs font-semibold text-slate-400">Hình tượng: ${hinhTuong}</span>` : ''}
       `;
 
@@ -3998,18 +4772,44 @@
       const poemSpeakerBtn = document.getElementById('modal-btn-speak-poem');
       if (poemSpeakerBtn) poemSpeakerBtn.classList.add('hidden');
 
+      const fullSpeakText = `Quẻ số ${stt}: ${tenQue}. Cát hung: ${ch}. ${cauTruc ? 'Cấu trúc: ' + cauTruc + '.' : ''} ${giaiNghia ? 'Giải nghĩa: ' + giaiNghia + '.' : ''} ${ungDung.loi_khuyen_cot_loi ? 'Lời khuyên: ' + ungDung.loi_khuyen_cot_loi + '.' : ''} ${ungDung.lam_gi_tranh_gi ? 'Nên làm và tránh: ' + ungDung.lam_gi_tranh_gi + '.' : ''} ${ungDung.tien_hay_lui ? 'Chiến lược: ' + ungDung.tien_hay_lui + '.' : ''} ${luuYBienDoi ? 'Lưu ý biến đổi: ' + luuYBienDoi : ''}`;
+
       let bodyContent = `
         <div class="text-left font-sans text-xs sm:text-sm text-slate-200 space-y-4">
+          <!-- Ý nghĩa chính -->
           <div class="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20">
-            <h4 class="text-sm font-bold text-amber-300 mb-1">Ý nghĩa quẻ dịch:</h4>
-            <p class="leading-relaxed">${giaiNghia || 'Đang cập nhật giải nghĩa...'}</p>
+            <h4 class="text-sm font-bold text-amber-300 mb-1">📖 Ý nghĩa quẻ dịch:</h4>
+            <p class="leading-relaxed text-slate-100">${giaiNghia || 'Đang cập nhật giải nghĩa...'}</p>
           </div>
+
+          <!-- Ứng dụng thực tế -->
+          <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2.5">
+            <h4 class="text-xs font-bold text-yellow-400 uppercase tracking-wider mb-2">💡 Ứng dụng thực tế & Ra quyết định:</h4>
+            ${ungDung.loi_khuyen_cot_loi ? `<div class="p-2.5 rounded-xl bg-amber-950/30 border border-amber-500/20 text-amber-200"><b class="text-amber-300">Lời khuyên cốt lõi:</b> ${ungDung.loi_khuyen_cot_loi}</div>` : ''}
+            ${ungDung.lam_gi_tranh_gi ? `<div class="text-xs"><b class="text-emerald-400">Nên làm & Nên tránh:</b> <span class="text-slate-300">${ungDung.lam_gi_tranh_gi}</span></div>` : ''}
+            ${ungDung.tien_hay_lui ? `<div class="text-xs"><b class="text-cyan-400">Tiến hay lùi:</b> <span class="text-slate-300">${ungDung.tien_hay_lui}</span></div>` : ''}
+            ${ungDung.thoi_diem_vang ? `<div class="text-xs"><b class="text-amber-400">Thời điểm vàng:</b> <span class="text-slate-300">${ungDung.thoi_diem_vang}</span></div>` : ''}
+          </div>
+
+          <!-- Lưu ý biến đổi -->
+          ${luuYBienDoi ? `
+            <div class="p-3.5 rounded-2xl bg-indigo-950/30 border border-indigo-500/20 text-xs text-indigo-200">
+              <span class="font-bold text-indigo-300 block mb-1">🔄 Lưu ý biến đổi:</span>
+              <p class="leading-relaxed">${luuYBienDoi}</p>
+            </div>
+          ` : ''}
+
+          <!-- Chi tiết & Lời bàn -->
           ${chiTiet ? `
             <div>
-              <h4 class="font-bold text-amber-400 text-xs uppercase tracking-wider mb-1">Chi tiết & Lời bàn:</h4>
+              <h4 class="font-bold text-amber-400 text-xs uppercase tracking-wider mb-1">📜 Chi tiết & Lời bàn Chu Dịch:</h4>
               <p class="font-serif italic text-slate-300 bg-slate-900/60 p-3 rounded-xl border border-slate-800 leading-relaxed">${chiTiet}</p>
             </div>
           ` : ''}
+
+          <div class="pt-2 flex justify-end">
+            ${getTtsButton(fullSpeakText)}
+          </div>
         </div>
       `;
 
@@ -4981,12 +5781,31 @@
       // 2. Kinh Dịch
       if (kinhDichData) {
         (kinhDichData.que_64 || []).forEach(function (q) {
+          const ud = q.ung_dung_thuc_te ? ('\nỨng dụng: ' + JSON.stringify(q.ung_dung_thuc_te)) : '';
+          const bd = q.luu_y_bien_doi ? ('\nBiến đổi: ' + q.luu_y_bien_doi) : '';
           add('kinhdich', q.stt,
-            '[KINH DỊCH - Quẻ số ' + q.stt + '] ' + q.ten_que + ' (' + (q.cat_hung || '') + ')',
+            '[KINH DỊCH - Quẻ số ' + q.stt + '] ' + (q.ky_hieu || '') + ' ' + q.ten_que + ' (' + (q.cat_hung || '') + ') [' + (q.giai_doan || '') + ']',
             'Cấu trúc: ' + (q.cau_truc || '') + '\nHình tượng: ' + (q.hinh_tuong || '')
             + '\nGiải nghĩa: ' + aiTrim(q.giai_nghia, 700)
+            + ud + bd
             + (q.chi_tiet ? '\nChú giải: ' + aiTrim(q.chi_tiet, 700) : ''));
         });
+
+        if (kinhDichData.nen_tang_am_duong_bat_quai) {
+          add('kinhdich', 'nen_tang', '[KINH DỊCH - Nền Tảng Âm Dương Bát Quái]', JSON.stringify(kinhDichData.nen_tang_am_duong_bat_quai));
+        }
+        if (kinhDichData.nhan_dien_bien_doi) {
+          add('kinhdich', 'bien_doi', '[KINH DỊCH - Nhận Diện Biến Đổi]', JSON.stringify(kinhDichData.nhan_dien_bien_doi));
+        }
+        if (kinhDichData.ung_dung_thuc_te) {
+          add('kinhdich', 'ung_dung', '[KINH DỊCH - Ứng Dụng Đời Sống]', JSON.stringify(kinhDichData.ung_dung_thuc_te));
+        }
+        if (kinhDichData.loi_day_cot_loi_4_giai_doan) {
+          add('kinhdich', 'loi_day', '[KINH DỊCH - Lời Dạy 4 Giai Đoạn]', JSON.stringify(kinhDichData.loi_day_cot_loi_4_giai_doan));
+        }
+        if (kinhDichData.sai_lam_thuong_gap) {
+          add('kinhdich', 'sai_lam', '[KINH DỊCH - Sai Lầm Thường Gặp]', JSON.stringify(kinhDichData.sai_lam_thuong_gap));
+        }
 
         (kinhDichData.bat_quai || []).forEach(function (b) {
           add('kinhdich', b.stt,
