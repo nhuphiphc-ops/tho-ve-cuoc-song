@@ -14,85 +14,758 @@
     "",
     "Neu sua du lieu goc trong Excel roi, hay xoa muc tuong ung o day de tranh ghi de lai."
   ],
-
   "kinh_dich": {
     "target": "kinh_dich.json",
-    "section_order": ["que_64", "bat_quai", "*"],
-
+    "section_order": [
+      "que_64",
+      "bat_quai",
+      "nen_tang_am_duong_bat_quai",
+      "nhan_dien_bien_doi",
+      "ung_dung_thuc_te",
+      "loi_day_cot_loi_4_giai_doan",
+      "sai_lam_thuong_gap",
+      "thong_diep_cot_loi",
+      "*"
+    ],
     "row_overrides": {
       "collection": "que_64",
       "key": "stt",
       "rows": {
         "1": {
-          "chi_tiet": "Quẻ Càn gồm 6 hào dương, tượng trưng hình ảnh con rồng qua từng giai đoạn: hào 1 là rồng còn ẩn mình (tiềm long), chưa nên vội hành động; hào 2 là rồng xuất hiện trên đồng ruộng, đã có thể thi triển tài năng; hào 5 là rồng bay lượn trên trời (phi long tại thiên), ứng với thời cực thịnh; đến hào 6 thì rồng lên quá cao (kháng long), cảnh báo rằng thịnh cực dễ sinh kiêu mãn mà chuốc lấy hối hận. Đạo Càn dạy người quân tử phải tự cường không ngừng nhưng luôn biết tiến thoái đúng thời."
+          "chi_tiet": "Quẻ Càn gồm 6 hào dương, tượng trưng hình ảnh con rồng qua từng giai đoạn: hào 1 là rồng còn ẩn mình (tiềm long), chưa nên vội hành động; hào 2 là rồng xuất hiện trên đồng ruộng, đã có thể thi triển tài năng; hào 5 là rồng bay lượn trên trời (phi long tại thiên), ứng với thời cực thịnh; đến hào 6 thì rồng lên quá cao (kháng long), cảnh báo rằng thịnh cực dễ sinh kiêu mãn mà chuốc lấy hối hận. Đạo Càn dạy người quân tử phải tự cường không ngừng nhưng luôn biết tiến thoái đúng thời.",
+          "ky_hieu": "䷀",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tiến bước vững chắc, nắm bắt thời cơ.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "2": {
-          "chi_tiet": "Khôn là đạo của Đất, nhu thuận mà rộng lớn, bao dung để nuôi dưỡng muôn vật. Hào 1 dạy rằng khi thấy giẫm phải lớp sương mỏng, nên hiểu ngay rằng chẳng lâu nữa băng dày sẽ đến - ý khuyên phải biết đề phòng họa loạn ngay từ dấu hiệu nhỏ nhặt đầu tiên. Đạo làm người dưới, làm vợ, làm tôi cũng noi theo đức Khôn: nhu thuận, kiên trinh, tận tâm giúp việc mà không tranh công, ắt được lâu bền, tốt đẹp."
+          "chi_tiet": "Khôn là đạo của Đất, nhu thuận mà rộng lớn, bao dung để nuôi dưỡng muôn vật. Hào 1 dạy rằng khi thấy giẫm phải lớp sương mỏng, nên hiểu ngay rằng chẳng lâu nữa băng dày sẽ đến - ý khuyên phải biết đề phòng họa loạn ngay từ dấu hiệu nhỏ nhặt đầu tiên. Đạo làm người dưới, làm vợ, làm tôi cũng noi theo đức Khôn: nhu thuận, kiên trinh, tận tâm giúp việc mà không tranh công, ắt được lâu bền, tốt đẹp.",
+          "ky_hieu": "䷁",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tiến bước vững chắc, nắm bắt thời cơ.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "3": {
           "cau_truc": "Thủy lôi truân (Khảm: nước; Chấn: sấm)",
           "giai_nghia": "Hãy cố gắng chịu đựng những khó khăn hiện tại, nỗ lực trong thầm lặng. Nếu khởi lập đại nghiệp, sẽ gặp nhiều rủi ro và gian nan. Đừng hành động liều lĩnh hay mù quáng. Phải có lòng dũng cảm chịu đựng để đấu tranh bằng quyết tâm và sự hết lòng. Nếu đã nỗ lực toàn tâm toàn ý những khó khăn sẽ dần dần được giải quyết.",
-          "chi_tiet": "Truân là quẻ nói về gian nan lúc khởi sự, như mầm cây vừa nhô khỏi đất đã gặp ngay sấm động, mưa dồn. Hào 1 khuyên nên bàn hoàn - tạm dừng quan sát, giữ vững chính đạo, chưa nên vội tiến; hào 5 dạy rằng lúc gian truân chỉ nên lo việc nhỏ trước, chưa thể mưu tính việc lớn ngay. Cái khó của thời Truân không đáng sợ, chỉ cần kiên trì nhẫn nại thì gian truân rồi cũng sẽ qua."
+          "chi_tiet": "Truân là quẻ nói về gian nan lúc khởi sự, như mầm cây vừa nhô khỏi đất đã gặp ngay sấm động, mưa dồn. Hào 1 khuyên nên bàn hoàn - tạm dừng quan sát, giữ vững chính đạo, chưa nên vội tiến; hào 5 dạy rằng lúc gian truân chỉ nên lo việc nhỏ trước, chưa thể mưu tính việc lớn ngay. Cái khó của thời Truân không đáng sợ, chỉ cần kiên trì nhẫn nại thì gian truân rồi cũng sẽ qua.",
+          "ky_hieu": "䷂",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "4": {
           "cau_truc": "Sơn thủy mông (Khảm: nước; Cấn: núi)",
-          "chi_tiet": "Mông là quẻ nói về đạo khai sáng sự dại dột, như trẻ nhỏ còn mờ tối chưa hiểu biết. Hào 1 dạy dùng phép tắc, khuôn khổ để dạy dỗ từ đầu thì có lợi, nhưng nếu buông thả sẽ sinh hư hỏng về sau; đến hào 6 lại răn rằng dạy dỗ mà quá nghiêm khắc, trừng trị như đánh giặc thì không có lợi, chỉ nên uốn nắn vừa đủ để ngăn ngừa cái xấu. Đạo thầy trò cốt ở lòng thành tín và sự kiên nhẫn, không nên cưỡng ép, nhồi nhét."
+          "chi_tiet": "Mông là quẻ nói về đạo khai sáng sự dại dột, như trẻ nhỏ còn mờ tối chưa hiểu biết. Hào 1 dạy dùng phép tắc, khuôn khổ để dạy dỗ từ đầu thì có lợi, nhưng nếu buông thả sẽ sinh hư hỏng về sau; đến hào 6 lại răn rằng dạy dỗ mà quá nghiêm khắc, trừng trị như đánh giặc thì không có lợi, chỉ nên uốn nắn vừa đủ để ngăn ngừa cái xấu. Đạo thầy trò cốt ở lòng thành tín và sự kiên nhẫn, không nên cưỡng ép, nhồi nhét.",
+          "ky_hieu": "䷃",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "5": {
+          "ky_hieu": "䷄",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "6": {
+          "ky_hieu": "䷅",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "7": {
+          "ky_hieu": "䷆",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "8": {
+          "ky_hieu": "䷇",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "9": {
+          "ky_hieu": "䷈",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "10": {
+          "ky_hieu": "䷉",
+          "giai_doan": "Khởi đầu & Khai sáng",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Tạo lập nền tảng, tích lũy nội lực, không nóng vội khi việc còn non trẻ."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "11": {
-          "chi_tiet": "Thái là quẻ thông suốt: khí Trời ở dưới giao hòa cùng khí Đất ở trên, trên dưới cảm thông, vạn vật sinh sôi, đây là thời thịnh trị. Nhưng cổ nhân vẫn răn rằng thịnh cực rồi sẽ suy: hào 6 nói thành cao rồi cũng có ngày đổ sụp trở lại hào cũ, nhắc người ở thời thái bình vẫn phải giữ lòng cẩn trọng, đừng vì yên vui mà quên phòng loạn, có vậy cái thịnh mới giữ được lâu."
+          "chi_tiet": "Thái là quẻ thông suốt: khí Trời ở dưới giao hòa cùng khí Đất ở trên, trên dưới cảm thông, vạn vật sinh sôi, đây là thời thịnh trị. Nhưng cổ nhân vẫn răn rằng thịnh cực rồi sẽ suy: hào 6 nói thành cao rồi cũng có ngày đổ sụp trở lại hào cũ, nhắc người ở thời thái bình vẫn phải giữ lòng cẩn trọng, đừng vì yên vui mà quên phòng loạn, có vậy cái thịnh mới giữ được lâu.",
+          "ky_hieu": "䷊",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "12": {
-          "chi_tiet": "Bĩ trái ngược với Thái: khí Trời ở trên, khí Đất ở dưới, không giao hòa được với nhau, trên dưới cách trở, đạo tiểu nhân thịnh mà đạo quân tử bị chèn ép. Người quân tử gặp thời Bĩ nên ẩn nhẫn, giữ khí tiết, không vì bổng lộc mà cộng tác với kẻ xấu. Đến hào 6, khi Bĩ đã đến cùng cực thì tất chuyển sang Thái - họa hết thì phúc lại đến, đó là lẽ tuần hoàn của trời đất."
+          "chi_tiet": "Bĩ trái ngược với Thái: khí Trời ở trên, khí Đất ở dưới, không giao hòa được với nhau, trên dưới cách trở, đạo tiểu nhân thịnh mà đạo quân tử bị chèn ép. Người quân tử gặp thời Bĩ nên ẩn nhẫn, giữ khí tiết, không vì bổng lộc mà cộng tác với kẻ xấu. Đến hào 6, khi Bĩ đã đến cùng cực thì tất chuyển sang Thái - họa hết thì phúc lại đến, đó là lẽ tuần hoàn của trời đất.",
+          "ky_hieu": "䷋",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "13": {
+          "ky_hieu": "䷌",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "14": {
+          "ky_hieu": "䷍",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tiến bước vững chắc, nắm bắt thời cơ.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "15": {
-          "chi_tiet": "Khiêm là quẻ đặc biệt trong Kinh Dịch vì cả 6 hào đều được luận là tốt lành - điều hiếm thấy trong 64 quẻ. Tượng quẻ là núi cao nhưng lại ẩn mình dưới đất, ý nói người có tài đức lớn mà vẫn biết hạ mình khiêm nhường. Đạo trời vốn ghét đầy mà ưa khiêm: vật gì đầy tất sẽ bị hao tổn, vật gì khiêm nhường tất được bồi đắp thêm, cho nên khiêm nhường là gốc của mọi sự cát tường bền vững."
+          "chi_tiet": "Khiêm là quẻ đặc biệt trong Kinh Dịch vì cả 6 hào đều được luận là tốt lành - điều hiếm thấy trong 64 quẻ. Tượng quẻ là núi cao nhưng lại ẩn mình dưới đất, ý nói người có tài đức lớn mà vẫn biết hạ mình khiêm nhường. Đạo trời vốn ghét đầy mà ưa khiêm: vật gì đầy tất sẽ bị hao tổn, vật gì khiêm nhường tất được bồi đắp thêm, cho nên khiêm nhường là gốc của mọi sự cát tường bền vững.",
+          "ky_hieu": "䷎",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "16": {
+          "ky_hieu": "䷏",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "17": {
+          "ky_hieu": "䷐",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "18": {
-          "chi_tiet": "Cổ là quẻ nói về sự hư hỏng, mối mọt tích tụ lâu ngày mà thành, nay cần chỉnh đốn, sửa sang lại. Lời quẻ có câu 'tiên Cổ tam nhật, hậu Cổ tam nhật' - trước ba ngày và sau ba ngày khi bắt tay sửa việc hỏng, ý khuyên phải suy xét kỹ đầu đuôi, nguyên nhân trước khi hành động, không nên sửa chữa nửa vời mà phải làm đến cùng, có vậy việc hư hỏng mới được chấn chỉnh triệt để."
+          "chi_tiet": "Cổ là quẻ nói về sự hư hỏng, mối mọt tích tụ lâu ngày mà thành, nay cần chỉnh đốn, sửa sang lại. Lời quẻ có câu 'tiên Cổ tam nhật, hậu Cổ tam nhật' - trước ba ngày và sau ba ngày khi bắt tay sửa việc hỏng, ý khuyên phải suy xét kỹ đầu đuôi, nguyên nhân trước khi hành động, không nên sửa chữa nửa vời mà phải làm đến cùng, có vậy việc hư hỏng mới được chấn chỉnh triệt để.",
+          "ky_hieu": "䷑",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "19": {
-          "chi_tiet": "Lâm có nghĩa là đến gần, là trông coi, cai quản - tượng đầm nước ở dưới đất, nước dâng lên gần đất là hình ảnh người trên đến gần, chăm lo cho người dưới. Đạo trị dân của quẻ Lâm là dùng đức để cảm hóa, dùng sự khoan hòa để thu phục lòng người, chứ không phải dùng uy quyền áp đặt. Hào 5 được luận là 'tri lâm' - biết lấy sự sáng suốt mà cai quản, ấy là điều tốt lành nhất của quẻ này."
+          "chi_tiet": "Lâm có nghĩa là đến gần, là trông coi, cai quản - tượng đầm nước ở dưới đất, nước dâng lên gần đất là hình ảnh người trên đến gần, chăm lo cho người dưới. Đạo trị dân của quẻ Lâm là dùng đức để cảm hóa, dùng sự khoan hòa để thu phục lòng người, chứ không phải dùng uy quyền áp đặt. Hào 5 được luận là 'tri lâm' - biết lấy sự sáng suốt mà cai quản, ấy là điều tốt lành nhất của quẻ này.",
+          "ky_hieu": "䷒",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "20": {
+          "ky_hieu": "䷓",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "21": {
+          "ky_hieu": "䷔",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "22": {
+          "ky_hieu": "䷕",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "23": {
+          "ky_hieu": "䷖",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "24": {
+          "ky_hieu": "䷗",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "25": {
+          "ky_hieu": "䷘",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "26": {
+          "ky_hieu": "䷙",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "27": {
+          "ky_hieu": "䷚",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "28": {
+          "ky_hieu": "䷛",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "29": {
+          "ky_hieu": "䷜",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "30": {
+          "ky_hieu": "䷝",
+          "giai_doan": "Phát triển & Thử thách",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao hòa mở rộng, giữ chữ tín, kiên định vượt qua thử thách và củng cố vị thế."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "31": {
+          "ky_hieu": "䷞",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "32": {
           "cat_hung": "Bình hòa",
           "hinh_tuong": "Nhật nguyệt hằng minh",
           "cau_truc": "Lôi phong hằng (Chấn: sấm; Tốn: gió)",
           "giai_nghia": "Sấm động ở trên, gió thổi ở dưới, cả hai cùng vận động thuận theo lẽ tự nhiên mà không dứt, đó là hình ảnh của sự lâu bền, kiên định. Mọi việc nên giữ vững lập trường đã chọn, kiên trì theo đuổi mục tiêu lâu dài, tránh thay đổi ý chí nửa đường. Đạo vợ chồng, đạo bạn bè, đạo làm việc đều cần đến chữ Hằng - có giữ được lòng chung thủy, bền chí thì mới gặp điều tốt lành lâu dài.",
-          "chi_tiet": "Đạo Hằng không có nghĩa là cứng nhắc, bảo thủ, mà là biết giữ vững cái gốc trong khi vẫn biến chuyển thích ứng với hoàn cảnh, như sấm gió tuy động mà vẫn tuần hoàn theo quy luật. Hào 3 răn người không giữ được đức thường xuyên, sớm đổi dạ đổi lòng ắt sẽ chịu hổ nhục; hào 6 cảnh báo sự dao động bất định đến cuối cùng thì hung. Cho nên giữ được sự bền vững trong đạo đức và tình nghĩa mới đáng gọi là Hằng."
+          "chi_tiet": "Đạo Hằng không có nghĩa là cứng nhắc, bảo thủ, mà là biết giữ vững cái gốc trong khi vẫn biến chuyển thích ứng với hoàn cảnh, như sấm gió tuy động mà vẫn tuần hoàn theo quy luật. Hào 3 răn người không giữ được đức thường xuyên, sớm đổi dạ đổi lòng ắt sẽ chịu hổ nhục; hào 6 cảnh báo sự dao động bất định đến cuối cùng thì hung. Cho nên giữ được sự bền vững trong đạo đức và tình nghĩa mới đáng gọi là Hằng.",
+          "ky_hieu": "䷟",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "33": {
+          "ky_hieu": "䷠",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "34": {
+          "ky_hieu": "䷡",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "35": {
-          "chi_tiet": "Tấn là quẻ nói về sự tiến lên, như ánh sáng mặt trời mọc dần trên mặt đất, càng lên cao càng rực rỡ. Đạo bề tôi của quẻ Tấn là tiến thân bằng chính đạo, lấy sự trung thành và tài năng để được người trên tin dùng, chứ không phải bằng luồn lọt. Hào 1 dạy rằng dù mới tiến mà bị nghi ngờ, chê bai, chỉ cần giữ vững lòng chính trực thì cuối cùng vẫn được tốt lành."
+          "chi_tiet": "Tấn là quẻ nói về sự tiến lên, như ánh sáng mặt trời mọc dần trên mặt đất, càng lên cao càng rực rỡ. Đạo bề tôi của quẻ Tấn là tiến thân bằng chính đạo, lấy sự trung thành và tài năng để được người trên tin dùng, chứ không phải bằng luồn lọt. Hào 1 dạy rằng dù mới tiến mà bị nghi ngờ, chê bai, chỉ cần giữ vững lòng chính trực thì cuối cùng vẫn được tốt lành.",
+          "ky_hieu": "䷢",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "36": {
+          "ky_hieu": "䷣",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "37": {
+          "ky_hieu": "䷤",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "38": {
+          "ky_hieu": "䷥",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "39": {
+          "ky_hieu": "䷦",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "40": {
+          "ky_hieu": "䷧",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "41": {
+          "ky_hieu": "䷨",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "42": {
+          "ky_hieu": "䷩",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "43": {
           "cau_truc": "Trạch thiên Quải (Đoài: đầm; Càn: trời)",
           "giai_nghia": "Mặc dù cơ đồ đang sung thịnh, nhưng chẳng bao lâu khó khăn và gian nan sẽ xuất hiện. Phải cẩn thận tự chủ và hết lòng đi theo con đường chính đáng. Có thể bị lôi kéo vào một trận tranh cãi. Bạn cũng có thể xử lý lầm lẫn về công việc và do đó bị tổn thất. Một người khác có thể đang ngấm ngầm gây khó khăn.",
-          "chi_tiet": "Quải nghĩa là quyết đoán, trừ bỏ - tượng 5 hào dương ở dưới cùng quyết tâm trừ bỏ 1 hào âm còn lại ở trên cùng, ví như người quân tử quyết trừ kẻ tiểu nhân cuối cùng. Lời quẻ dạy rằng phải công khai bày tỏ ý định trừ ác (cáo tự ấp - báo cho người trong ấp mình biết) chứ không nên dùng vũ lực lén lút, đồng thời phải luôn đề cao cảnh giác, lo lắng trước khi hành động thì mới tránh được họa hại bất ngờ."
+          "chi_tiet": "Quải nghĩa là quyết đoán, trừ bỏ - tượng 5 hào dương ở dưới cùng quyết tâm trừ bỏ 1 hào âm còn lại ở trên cùng, ví như người quân tử quyết trừ kẻ tiểu nhân cuối cùng. Lời quẻ dạy rằng phải công khai bày tỏ ý định trừ ác (cáo tự ấp - báo cho người trong ấp mình biết) chứ không nên dùng vũ lực lén lút, đồng thời phải luôn đề cao cảnh giác, lo lắng trước khi hành động thì mới tránh được họa hại bất ngờ.",
+          "ky_hieu": "䷪",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "44": {
+          "ky_hieu": "䷫",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "45": {
+          "ky_hieu": "䷬",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "46": {
+          "ky_hieu": "䷭",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "47": {
           "cau_truc": "Trạch thủy Khốn (Khảm: nước; Đoài: đầm)",
-          "chi_tiet": "Khốn là quẻ nói về cảnh khốn cùng, bế tắc - tượng nước ở dưới đầm mà đầm đã cạn, không còn gì để nương tựa. Tuy hoàn cảnh khó khăn nhưng người quân tử gặp thời Khốn vẫn giữ được chí hướng, không đổi lòng; lời quẻ có ý 'khốn hanh' - khốn mà vẫn hanh thông, nếu biết giữ vững đức tin. Cổ nhân cũng khuyên lúc khốn cùng nên ít lời, vì nói nhiều dễ mất lòng tin của người khác, chỉ có sự im lặng, kiên trì mới đưa được ra khỏi cảnh khốn."
+          "chi_tiet": "Khốn là quẻ nói về cảnh khốn cùng, bế tắc - tượng nước ở dưới đầm mà đầm đã cạn, không còn gì để nương tựa. Tuy hoàn cảnh khó khăn nhưng người quân tử gặp thời Khốn vẫn giữ được chí hướng, không đổi lòng; lời quẻ có ý 'khốn hanh' - khốn mà vẫn hanh thông, nếu biết giữ vững đức tin. Cổ nhân cũng khuyên lúc khốn cùng nên ít lời, vì nói nhiều dễ mất lòng tin của người khác, chỉ có sự im lặng, kiên trì mới đưa được ra khỏi cảnh khốn.",
+          "ky_hieu": "䷮",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "48": {
-          "chi_tiet": "Tỉnh là hình ảnh cái giếng - nước giếng dùng mãi không cạn, ai đến cũng được chia sẻ không phân biệt, tượng cho đạo nuôi dưỡng dân không bao giờ ngừng. Lời quẻ dạy rằng giếng phải được giữ sạch, khơi thông thường xuyên, đừng để giếng bị lấp, có vậy mới phục vụ được lâu dài; cũng như người giúp đời phải làm đến cùng, đừng bỏ giữa đường thì công lao mới trọn vẹn."
+          "chi_tiet": "Tỉnh là hình ảnh cái giếng - nước giếng dùng mãi không cạn, ai đến cũng được chia sẻ không phân biệt, tượng cho đạo nuôi dưỡng dân không bao giờ ngừng. Lời quẻ dạy rằng giếng phải được giữ sạch, khơi thông thường xuyên, đừng để giếng bị lấp, có vậy mới phục vụ được lâu dài; cũng như người giúp đời phải làm đến cùng, đừng bỏ giữa đường thì công lao mới trọn vẹn.",
+          "ky_hieu": "䷯",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "49": {
+          "ky_hieu": "䷰",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "50": {
+          "ky_hieu": "䷱",
+          "giai_doan": "Biến đổi & Cách tân",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giao cảm lòng người, linh hoạt đón đầu đổi thay, dũng cảm cải cách để trường tồn."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "51": {
-          "chi_tiet": "Chấn là quẻ sấm động liên tiếp (hai lần Chấn chồng lên nhau), gây kinh sợ thoạt đầu nhưng sau đó lại trở về yên ổn, cười nói như thường. Lời quẻ có ý: sấm đến khiến run sợ, sau đó lại cười nói vui vẻ - ngụ ý rằng biến động bất ngờ ban đầu làm người ta lo sợ, nhưng nếu biết giữ được sự cẩn trọng, tự xét mình trong lúc biến động, thì qua cơn kinh hãi, phúc lành lại đến."
+          "chi_tiet": "Chấn là quẻ sấm động liên tiếp (hai lần Chấn chồng lên nhau), gây kinh sợ thoạt đầu nhưng sau đó lại trở về yên ổn, cười nói như thường. Lời quẻ có ý: sấm đến khiến run sợ, sau đó lại cười nói vui vẻ - ngụ ý rằng biến động bất ngờ ban đầu làm người ta lo sợ, nhưng nếu biết giữ được sự cẩn trọng, tự xét mình trong lúc biến động, thì qua cơn kinh hãi, phúc lành lại đến.",
+          "ky_hieu": "䷲",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "52": {
+          "ky_hieu": "䷳",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "53": {
-          "chi_tiet": "Tiệm nghĩa là tiến từ từ, dần dần, như đàn chim nhạn bay theo thứ tự, không đàn nào rối loạn. Các hào trong quẻ đều ví việc tiến bước của con chim nhạn: từ bờ nước, đến gò đất, đến cây cao, đến ngọn đồi... đi từng bước theo trình tự - ý dạy rằng việc lớn, đặc biệt là hôn nhân và sự nghiệp, cần được xây dựng từ từ, đúng lễ nghĩa, đúng trình tự, không nên đốt cháy giai đoạn thì mới bền vững, tốt đẹp."
+          "chi_tiet": "Tiệm nghĩa là tiến từ từ, dần dần, như đàn chim nhạn bay theo thứ tự, không đàn nào rối loạn. Các hào trong quẻ đều ví việc tiến bước của con chim nhạn: từ bờ nước, đến gò đất, đến cây cao, đến ngọn đồi... đi từng bước theo trình tự - ý dạy rằng việc lớn, đặc biệt là hôn nhân và sự nghiệp, cần được xây dựng từ từ, đúng lễ nghĩa, đúng trình tự, không nên đốt cháy giai đoạn thì mới bền vững, tốt đẹp.",
+          "ky_hieu": "䷴",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "54": {
+          "ky_hieu": "䷵",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "55": {
+          "ky_hieu": "䷶",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "56": {
+          "ky_hieu": "䷷",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "57": {
-          "chi_tiet": "Tốn là quẻ của Gió - hai lần Tốn chồng lên nhau, tượng cho sự thâm nhập nhẹ nhàng nhưng khắp nơi, không chỗ nào gió không lọt vào được. Đạo Tốn dạy sự mềm mỏng, khiêm nhu, biết thuận theo hoàn cảnh mà thích ứng, nhưng lời quẻ ở hào 1 cũng răn rằng nhu thuận thái quá, cứ tiến thoái do dự không quyết đoán thì lại thành nhu nhược - người quân tử cần có sự mềm mỏng bên ngoài nhưng vẫn giữ được chí khí kiên định bên trong."
+          "chi_tiet": "Tốn là quẻ của Gió - hai lần Tốn chồng lên nhau, tượng cho sự thâm nhập nhẹ nhàng nhưng khắp nơi, không chỗ nào gió không lọt vào được. Đạo Tốn dạy sự mềm mỏng, khiêm nhu, biết thuận theo hoàn cảnh mà thích ứng, nhưng lời quẻ ở hào 1 cũng răn rằng nhu thuận thái quá, cứ tiến thoái do dự không quyết đoán thì lại thành nhu nhược - người quân tử cần có sự mềm mỏng bên ngoài nhưng vẫn giữ được chí khí kiên định bên trong.",
+          "ky_hieu": "䷸",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "58": {
-          "chi_tiet": "Đoài là quẻ của Đầm nước - hai lần Đoài chồng lên nhau, tượng cho niềm vui, sự hòa hợp nhân đôi. Tuy nhiên lời quẻ cũng răn rằng niềm vui phải chính đáng, không nên vui vẻ vì xu nịnh, a dua hay vì lời ngọt của kẻ xấu; hào 5 có ý cảnh báo việc tin theo kẻ chỉ biết bóc lột, lợi dụng sẽ gặp nguy. Vui mà giữ được chính đạo, hòa mà không mất lập trường, đó mới là niềm vui bền lâu của quẻ Đoài."
+          "chi_tiet": "Đoài là quẻ của Đầm nước - hai lần Đoài chồng lên nhau, tượng cho niềm vui, sự hòa hợp nhân đôi. Tuy nhiên lời quẻ cũng răn rằng niềm vui phải chính đáng, không nên vui vẻ vì xu nịnh, a dua hay vì lời ngọt của kẻ xấu; hào 5 có ý cảnh báo việc tin theo kẻ chỉ biết bóc lột, lợi dụng sẽ gặp nguy. Vui mà giữ được chính đạo, hòa mà không mất lập trường, đó mới là niềm vui bền lâu của quẻ Đoài.",
+          "ky_hieu": "䷹",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "59": {
+          "ky_hieu": "䷺",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         },
         "60": {
-          "cau_truc": "Thủy trạch tiết (Khảm: nước; Đoài: đầm)"
+          "cau_truc": "Thủy trạch tiết (Khảm: nước; Đoài: đầm)",
+          "ky_hieu": "䷻",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "61": {
+          "ky_hieu": "䷼",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "62": {
+          "ky_hieu": "䷽",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "63": {
+          "ky_hieu": "䷾",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên chủ động hành động, làm việc minh bạch; tránh kiêu ngạo tự mãn.",
+            "tien_hay_lui": "Tùy cơ ứng biến, tiến thoái nhịp nhàng theo thời thế.",
+            "thoi_diem_vang": "Thời cơ thuận lợi đang mở ra, cần dứt khoát.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
+        },
+        "64": {
+          "ky_hieu": "䷿",
+          "giai_doan": "Hoàn tất & Tuần hoàn",
+          "ung_dung_thuc_te": {
+            "lam_gi_tranh_gi": "Nên thận trọng quan sát, củng cố nội lực; tránh mạo hiểm đầu tư hay hành động hấp tấp.",
+            "tien_hay_lui": "Nên tạm thời thoái lui, phòng thủ giữ mình.",
+            "thoi_diem_vang": "Cần kiên nhẫn chờ đợi đến khi thiên thời địa lợi hòa hợp.",
+            "loi_khuyen_cot_loi": "Giữ gìn thành quả, biết dừng đúng lúc, chuẩn bị tâm thế cho chu kỳ mới."
+          },
+          "luu_y_bien_doi": "Quẻ không phải số phận định mệnh bất biến. Thái độ, đạo đức và cách ứng xử đúng thời - đúng vị sẽ chuyển hóa cát hung."
         }
       }
     },
-
     "value_map": {
       "collection": "que_64",
       "field": "cat_hung",
@@ -116,69 +789,834 @@
         "đại hung": "Hung"
       }
     },
-
     "sections": {
       "bat_quai": [
-        { "stt": 1, "ten": "Càn", "ky_hieu": "☰", "y_nghia": "Trời", "ngu_hanh": "Kim", "gia_dao": "Cha (Lão phụ)", "tinh_chat": "Cương kiện, mạnh mẽ, sáng tạo không ngừng", "huong_hau_thien": "Tây Bắc" },
-        { "stt": 2, "ten": "Đoài", "ky_hieu": "☱", "y_nghia": "Đầm, Ao hồ", "ngu_hanh": "Kim", "gia_dao": "Thiếu nữ (con gái út)", "tinh_chat": "Vui vẻ, hòa duyệt, có sức thu hút", "huong_hau_thien": "Tây" },
-        { "stt": 3, "ten": "Ly", "ky_hieu": "☲", "y_nghia": "Lửa, Ánh sáng", "ngu_hanh": "Hỏa", "gia_dao": "Trung nữ", "tinh_chat": "Sáng rực, lệ thuộc (bám vào vật khác mà sáng), văn minh", "huong_hau_thien": "Nam" },
-        { "stt": 4, "ten": "Chấn", "ky_hieu": "☳", "y_nghia": "Sấm, Sét", "ngu_hanh": "Mộc", "gia_dao": "Trưởng nam", "tinh_chat": "Chấn động, phấn khởi, khởi đầu mạnh mẽ", "huong_hau_thien": "Đông" },
-        { "stt": 5, "ten": "Tốn", "ky_hieu": "☴", "y_nghia": "Gió", "ngu_hanh": "Mộc", "gia_dao": "Trưởng nữ", "tinh_chat": "Thuận theo, thâm nhập nhẹ nhàng nhưng khắp nơi", "huong_hau_thien": "Đông Nam" },
-        { "stt": 6, "ten": "Khảm", "ky_hieu": "☵", "y_nghia": "Nước", "ngu_hanh": "Thủy", "gia_dao": "Trung nam", "tinh_chat": "Hiểm trở, gian nan, nhưng cũng là trí tuệ sâu sắc", "huong_hau_thien": "Bắc" },
-        { "stt": 7, "ten": "Cấn", "ky_hieu": "☶", "y_nghia": "Núi", "ngu_hanh": "Thổ", "gia_dao": "Thiếu nam (con trai út)", "tinh_chat": "Dừng lại, tĩnh lặng, giữ vững lập trường", "huong_hau_thien": "Đông Bắc" },
-        { "stt": 8, "ten": "Khôn", "ky_hieu": "☷", "y_nghia": "Đất", "ngu_hanh": "Thổ", "gia_dao": "Mẹ", "tinh_chat": "Nhu thuận, bao dung, chở che nuôi dưỡng muôn vật", "huong_hau_thien": "Tây Nam" }
-      ]
+        {
+          "stt": 1,
+          "ten": "Càn",
+          "ky_hieu": "☰",
+          "y_nghia": "Trời",
+          "ngu_hanh": "Kim",
+          "gia_dao": "Cha (Lão phụ)",
+          "tinh_chat": "Cương kiện, mạnh mẽ, sáng tạo không ngừng",
+          "huong_hau_thien": "Tây Bắc"
+        },
+        {
+          "stt": 2,
+          "ten": "Đoài",
+          "ky_hieu": "☱",
+          "y_nghia": "Đầm, Ao hồ",
+          "ngu_hanh": "Kim",
+          "gia_dao": "Thiếu nữ (con gái út)",
+          "tinh_chat": "Vui vẻ, hòa duyệt, có sức thu hút",
+          "huong_hau_thien": "Tây"
+        },
+        {
+          "stt": 3,
+          "ten": "Ly",
+          "ky_hieu": "☲",
+          "y_nghia": "Lửa, Ánh sáng",
+          "ngu_hanh": "Hỏa",
+          "gia_dao": "Trung nữ",
+          "tinh_chat": "Sáng rực, lệ thuộc (bám vào vật khác mà sáng), văn minh",
+          "huong_hau_thien": "Nam"
+        },
+        {
+          "stt": 4,
+          "ten": "Chấn",
+          "ky_hieu": "☳",
+          "y_nghia": "Sấm, Sét",
+          "ngu_hanh": "Mộc",
+          "gia_dao": "Trưởng nam",
+          "tinh_chat": "Chấn động, phấn khởi, khởi đầu mạnh mẽ",
+          "huong_hau_thien": "Đông"
+        },
+        {
+          "stt": 5,
+          "ten": "Tốn",
+          "ky_hieu": "☴",
+          "y_nghia": "Gió",
+          "ngu_hanh": "Mộc",
+          "gia_dao": "Trưởng nữ",
+          "tinh_chat": "Thuận theo, thâm nhập nhẹ nhàng nhưng khắp nơi",
+          "huong_hau_thien": "Đông Nam"
+        },
+        {
+          "stt": 6,
+          "ten": "Khảm",
+          "ky_hieu": "☵",
+          "y_nghia": "Nước",
+          "ngu_hanh": "Thủy",
+          "gia_dao": "Trung nam",
+          "tinh_chat": "Hiểm trở, gian nan, nhưng cũng là trí tuệ sâu sắc",
+          "huong_hau_thien": "Bắc"
+        },
+        {
+          "stt": 7,
+          "ten": "Cấn",
+          "ky_hieu": "☶",
+          "y_nghia": "Núi",
+          "ngu_hanh": "Thổ",
+          "gia_dao": "Thiếu nam (con trai út)",
+          "tinh_chat": "Dừng lại, tĩnh lặng, giữ vững lập trường",
+          "huong_hau_thien": "Đông Bắc"
+        },
+        {
+          "stt": 8,
+          "ten": "Khôn",
+          "ky_hieu": "☷",
+          "y_nghia": "Đất",
+          "ngu_hanh": "Thổ",
+          "gia_dao": "Mẹ",
+          "tinh_chat": "Nhu thuận, bao dung, chở che nuôi dưỡng muôn vật",
+          "huong_hau_thien": "Tây Nam"
+        }
+      ],
+      "nen_tang_am_duong_bat_quai": {
+        "tieu_de": "Nền Tảng Cơ Bản: Âm Dương, Ngũ Hành & Bát Quái",
+        "am_duong": {
+          "tieu_de": "Âm Dương: Gốc Rễ Vận Hành Của Vạn Vật",
+          "dinh_nghia": "Âm Dương là hai mặt đối lập nhưng thống nhất và chuyển hóa lẫn nhau của mọi hiện tượng trong vũ trụ. Không có Dương tuyệt đối và không có Âm tuyệt đối; trong Dương có mầm mống của Âm, trong Âm có mầm mống của Dương.",
+          "bieu_tuong_duong": {
+            "ten": "Hào Dương",
+            "y_nghia": "Cương kiện, chủ động, ánh sáng, nhiệt huyết, vươn lên, khai sáng. Đại diện cho hành động, quyết đoán, tiến công, sáng tạo."
+          },
+          "bieu_tuong_am": {
+            "ten": "Hào Âm",
+            "y_nghia": "Nhu thuận, tiếp nhận, bóng tối, tĩnh lặng, dung dưỡng, nâng đỡ. Đại diện cho sự lắng nghe, thích nghi, tích lũy, phòng thủ."
+          },
+          "quy_luat": "Đối lập & Hỗ căn: Âm và Dương nương tựa nhau để tồn tại, không thể tách rời. Tiêu trưởng & Chuyển hóa: Cực thịnh thì tất suy, Dương cực sinh Âm, Âm cực sinh Dương (như ngày tàn thì đêm tới, đông qua thì xuân về). Thái hòa cân bằng: Trạng thái lý tưởng nhất của vạn vật là sự cân bằng động giữa cương và nhu.",
+          "ung_dung": "Nhận biết đúng lúc nên cương quyết hành động (Dương) và lúc nên nhu thuận lắng nghe, chờ đợi (Âm); cân bằng động - tĩnh chính là chìa khóa an nhiên trong công việc và đời sống."
+        },
+        "ngu_hanh": {
+          "tieu_de": "Ngũ Hành: Năm Trạng Thái Vận Động Của Vật Chất",
+          "dinh_nghia": "Năm trạng thái vận động và chuyển hóa của vật chất: Kim, Mộc, Thủy, Hỏa, Thổ.",
+          "nam_hanh": [
+            "Kim",
+            "Mộc",
+            "Thủy",
+            "Hỏa",
+            "Thổ"
+          ],
+          "hanh_chi_tiet": [
+            {
+              "hanh": "Kim",
+              "dac_tinh": "Thu liễm, thanh lọc, sắc bén, nguyên tắc",
+              "ung_dung": "Tính kỷ luật, quy chuẩn, quyết đoán loại bỏ cái thừa."
+            },
+            {
+              "hanh": "Mộc",
+              "dac_tinh": "Sinh trưởng, vươn lên, phát triển, nhân từ",
+              "ung_dung": "Sự học hỏi, đổi mới sáng tạo, lòng trắc ẩn."
+            },
+            {
+              "hanh": "Thủy",
+              "dac_tinh": "Linh hoạt, nhu thuận, thấu hiểu, sâu sắc",
+              "ung_dung": "Trí tuệ mềm dẻo, khả năng thích nghi theo hoàn cảnh."
+            },
+            {
+              "hanh": "Hỏa",
+              "dac_tinh": "Sáng tỏ, nhiệt thành, văn minh, lan tỏa",
+              "ung_dung": "Tầm nhìn chiến lược, sự nhiệt huyết, truyền cảm hứng."
+            },
+            {
+              "hanh": "Thổ",
+              "dac_tinh": "Dung dưỡng, vững chắc, trung thực, bao dung",
+              "ung_dung": "Chữ tín, nền tảng tài chính vững vàng, sự ổn định."
+            }
+          ],
+          "vong_tuong_sinh": "Mộc sinh Hỏa → Hỏa sinh Thổ → Thổ sinh Kim → Kim sinh Thủy → Thủy sinh Mộc (Vòng nuôi dưỡng hỗ trợ).",
+          "vong_tuong_khac": "Kim khắc Mộc → Mộc khắc Thổ → Thổ khắc Thủy → Thủy khắc Hỏa → Hỏa khắc Kim (Vòng kiềm tỏa cân bằng)."
+        },
+        "bat_quai_8_que_don": [
+          {
+            "ten": "Càn",
+            "ky_hieu": "☰",
+            "tu_nhien": "Thiên (Trời)",
+            "ngu_hanh": "Kim",
+            "gia_dao": "Cha (Lão phụ)",
+            "tinh_chat": "Kiện (Mạnh mẽ, sáng tạo)",
+            "y_nghia": "Chủ động, tự cường không ngừng, cương trực, lãnh đạo."
+          },
+          {
+            "ten": "Đoài",
+            "ky_hieu": "☱",
+            "tu_nhien": "Trạch (Đầm hồ)",
+            "ngu_hanh": "Kim",
+            "gia_dao": "Thiếu nữ (con gái út)",
+            "tinh_chat": "Duyệt (Vui vẻ, hòa nhã)",
+            "y_nghia": "Giao tiếp duyên dáng, hòa hợp, niềm vui, cởi mở."
+          },
+          {
+            "ten": "Ly",
+            "ky_hieu": "☲",
+            "tu_nhien": "Hỏa (Lửa / Ánh sáng)",
+            "ngu_hanh": "Hỏa",
+            "gia_dao": "Trung nữ",
+            "tinh_chat": "Lệ (Sáng tỏ, bám giữ)",
+            "y_nghia": "Trí tuệ minh mẫn, văn minh, nhìn thấu sự việc."
+          },
+          {
+            "ten": "Chấn",
+            "ky_hieu": "☳",
+            "tu_nhien": "Lôi (Sấm sét)",
+            "ngu_hanh": "Mộc",
+            "gia_dao": "Trưởng nam",
+            "tinh_chat": "Động (Khởi xướng, chấn hưng)",
+            "y_nghia": "Bắt đầu hành động, đánh thức tiềm năng, đổi mới."
+          },
+          {
+            "ten": "Tốn",
+            "ky_hieu": "☴",
+            "tu_nhien": "Phong (Gió / Cây cỏ)",
+            "ngu_hanh": "Mộc",
+            "gia_dao": "Trưởng nữ",
+            "tinh_chat": "Nhập (Thẩm thấu, mềm dẻo)",
+            "y_nghia": "Khéo léo thích nghi, len lỏi, nhẫn nại, khiêm nhường."
+          },
+          {
+            "ten": "Khảm",
+            "ky_hieu": "☵",
+            "tu_nhien": "Thủy (Nước / Hiểm sâu)",
+            "ngu_hanh": "Thủy",
+            "gia_dao": "Trung nam",
+            "tinh_chat": "Hãm (Hiểm trở, rèn luyện)",
+            "y_nghia": "Vượt qua thử thách, giữ tâm chí kiên định giữa gian nan."
+          },
+          {
+            "ten": "Cấn",
+            "ky_hieu": "☶",
+            "tu_nhien": "Sơn (Núi non)",
+            "ngu_hanh": "Thổ",
+            "gia_dao": "Thiếu nam (con trai út)",
+            "tinh_chat": "Chỉ (Dừng lại, tĩnh lặng)",
+            "y_nghia": "Biết điểm dừng, giữ vững giới hạn, trầm tĩnh suy ngẫm."
+          },
+          {
+            "ten": "Khôn",
+            "ky_hieu": "☷",
+            "tu_nhien": "Địa (Đất mẹ)",
+            "ngu_hanh": "Thổ",
+            "gia_dao": "Mẹ",
+            "tinh_chat": "Thuận (Nhu thuận, bao dung)",
+            "y_nghia": "Bao dung nâng đỡ vạn vật, nhẫn nại, phụng sự âm thầm."
+          }
+        ],
+        "cach_doc_que_kep": {
+          "tieu_de": "Cách Đọc Quẻ Kép (Nội - Ngoại Quái)",
+          "nguyen_tac": "Một quẻ kép gồm 6 hào được ghép từ 2 quẻ đơn (Bát quái), đọc từ Hào 1 (dưới cùng) lên Hào 6 (trên cùng).",
+          "ngoai_quai": "Ngoại quái (Thượng quái - 3 hào trên): Đại diện cho ngoại cảnh, môi trường xã hội, đối tác, xu thế và thời thế bên ngoài.",
+          "noi_quai": "Nội quái (Hạ quái - 3 hào dưới): Đại diện cho bản thân, nội lực bên trong, tâm thái, thực lực hiện có của chủ thể.",
+          "thu_tu_hao": "Đọc thứ tự từ Hào 1 (dưới cùng, gần gốc, ứng với hiện tại/nội lực) lên đến Hào 6 (trên cùng, ứng với tương lai/ảnh hưởng xa)."
+        },
+        "bon_khai_niem_cot_loi": {
+          "tieu_de": "4 Khái Niệm Cốt Lõi Khi Luận Quẻ",
+          "tinh": "Giữ tâm tĩnh lặng để quan sát toàn diện quy luật tự nhiên và bản chất sự việc.",
+          "dong": "Biết khi nào cần hành động dứt khoát, khi nào cần chuyển biến linh hoạt.",
+          "thoi": "Thời cơ là chìa khóa. Việc đúng người nhưng sai thời điểm thì khó thành; việc hợp thời ắt hanh thông.",
+          "vi": "Vị thế của mình trong hoàn cảnh (đúng ngôi/chính vị). Đang ở vị trí nào thì hành xử đúng đạo vị trí đó."
+        }
+      },
+      "nhan_dien_bien_doi": {
+        "tieu_de": "Phương Pháp Xem Quẻ & Nhận Diện Biến Đổi",
+        "nguyen_tac_cot_loi": "Dịch có nghĩa là Biến Đổi. Thế sự luôn không ngừng chuyển hóa. Xem quẻ là để nhận biết thời điểm chuyển đổi và xu hướng tương lai để hành xử thích hợp.",
+        "bien_nhung_khong_voi": "BIẾN NHƯNG KHÔNG VỘI — Nhận diện được quy luật đổi thay rồi chuẩn bị phương án thích ứng chu đáo, tuyệt đối không hấp tấp manh động.",
+        "cac_truong_hop": [
+          {
+            "tinh_huong": "Quẻ Tĩnh (Không có hào động)",
+            "y_nghia": "Tình trạng hiện tại đang ổn định và giữ vững theo đà cũ. Cần lấy ý nghĩa tổng thể của Thoán từ và Đại tượng quẻ gốc làm phương châm hành động chính.",
+            "ung_xu": "Cứ giữ nguyên đường hướng đang đi, không cần vội thay đổi kế hoạch."
+          },
+          {
+            "tinh_huong": "Có 1 Hào Động",
+            "y_nghia": "Trọng tâm chuyển đổi nằm chính xác tại vị trí hào này. Đọc kỹ lời Hào từ của hào động để nắm bắt điểm nghẽn hoặc cơ hội đột phá rõ ràng nhất.",
+            "ung_xu": "Tập trung toàn bộ sự chú ý và nguồn lực vào đúng điểm mà hào động chỉ ra, đó là mấu chốt của vấn đề."
+          },
+          {
+            "tinh_huong": "Có Nhiều Hào Động (2-3 hào trở lên)",
+            "y_nghia": "Tình thế đang trong giai đoạn giao thời phức tạp, đa chiều và có nhiều biến số đan xen. Lời khuyên: Giữ bình tĩnh, không vội vàng đưa ra quyết định liều lĩnh, lấy quẻ biến làm xu hướng đích đến.",
+            "ung_xu": "Giữ bình tĩnh, không vội vàng đưa ra quyết định liều lĩnh; theo dõi sát diễn biến và lấy quẻ biến làm xu hướng đích đến để chuẩn bị trước."
+          },
+          {
+            "tinh_huong": "Quẻ Gốc biến thành Quẻ Khác",
+            "y_nghia": "Quẻ gốc (Bản quái) chỉ thực trạng hiện tại; Quẻ biến (Chiêm quái) chỉ kết quả tương lai nếu bạn tiếp tục hành động theo xu hướng hiện nay.",
+            "ung_xu": "Đối chiếu quẻ gốc (hiện tại) với quẻ biến (tương lai) để biết nên tiếp tục hay điều chỉnh hướng đi ngay từ bây giờ."
+          },
+          {
+            "tinh_huong": "Quẻ Tương Phản (Đảo quẻ / Thác quẻ / Hỗ quẻ)",
+            "y_nghia": "Lật ngược quẻ (Tống quẻ) để xem góc nhìn của đối phương; Đổi toàn bộ âm dương (Thác quẻ) để xem mặt trái của vấn đề; Nhìn vào 4 hào giữa (Hỗ quẻ) để thấy diễn biến bên trong.",
+            "ung_xu": "Chủ động lật ngược góc nhìn: xem quẻ Tống để hiểu đối phương, xem quẻ Thác để thấy mặt trái vấn đề, xem quẻ Hỗ để nắm diễn biến ẩn giấu bên trong."
+          }
+        ]
+      },
+      "ung_dung_thuc_te": {
+        "tieu_de": "Ứng Dụng Dịch Lý Vào Đời Sống, Sự Nghiệp & Đầu Tư",
+        "dau_tu_tai_chinh": {
+          "tieu_de": "📈 Đầu Tư & Tài Chính",
+          "cac_nguyen_tac": [
+            {
+              "nguyen_tac": "Nhận diện chu kỳ thị trường",
+              "giai_thich": "Giai đoạn tích lũy (Quẻ Truân, Quẻ Nhu), giai đoạn tăng trưởng (Quẻ Thăng, Quẻ Thái), giai đoạn đạt đỉnh (Quẻ Đại Hữu, Quẻ Kháng Long) và giai đoạn điều chỉnh (Quẻ Bĩ, Quẻ Bác)."
+            },
+            {
+              "nguyen_tac": "Không đuổi đỉnh, không hoảng loạn bắt đáy",
+              "giai_thich": "Khi thị trường quá hưng phấn (Thuần Dương) ắt sắp điều chỉnh; khi ảm đạm cùng cực (Thuần Âm) ắt mầm sống sắp phục hồi (Quẻ Phục)."
+            },
+            {
+              "nguyen_tac": "Biết dừng khi đủ",
+              "giai_thich": "Quẻ Tiết dạy về tiết chế lòng tham, bảo vệ lợi nhuận và vốn gốc an toàn."
+            }
+          ]
+        },
+        "cong_viec_quyet_dinh": {
+          "tieu_de": "🏗️ Công Việc & Sự Nghiệp",
+          "cac_nguyen_tac": [
+            {
+              "nguyen_tac": "Đúng thời đúng việc",
+              "giai_thich": "Khi mới vào nghề như 'Tiềm long vật dụng' (Quẻ Càn hào 1) nên chăm chỉ học hỏi, không vội thể hiện; khi có uy tín mới 'Phi long tại thiên'."
+            },
+            {
+              "nguyen_tac": "Hợp tác cộng hưởng",
+              "giai_thich": "Quẻ Đồng Nhân và Quẻ Tỷ dạy cách xây dựng liên minh chân thành, lấy chữ tín và mục tiêu chung làm đầu."
+            },
+            {
+              "nguyen_tac": "Dám cách tân đổi mới",
+              "giai_thich": "Quẻ Cách dạy khi mô hình cũ đã lỗi thời thì dũng cảm thay đổi để tái sinh phát triển."
+            }
+          ]
+        },
+        "gia_dinh_quan_he": {
+          "tieu_de": "👨‍👩‍👧‍👦 Gia Đình & Mối Quan Hệ",
+          "cac_nguyen_tac": [
+            {
+              "nguyen_tac": "Lấy nhu hòa làm gốc",
+              "giai_thich": "Quẻ Khôn dạy đức tính bao dung, nhẫn nại nâng đỡ các thành viên trong gia đình."
+            },
+            {
+              "nguyen_tac": "Trật tự gia đạo",
+              "giai_thich": "Quẻ Gia Nhân dạy cha mẹ gương mẫu, con cái hiếu kính, lời nói hòa ái giữ gìn phúc ấm."
+            },
+            {
+              "nguyen_tac": "Khiêm tốn là phúc đức cao nhất",
+              "giai_thich": "Quẻ Khiêm là quẻ duy nhất trong 64 quẻ có cả 6 hào đều cát lợi. Người khiêm nhường thì trời đất che chở, người người kính trọng."
+            }
+          ]
+        },
+        "tu_tu_duong": {
+          "tieu_de": "🧭 Tự Tu Dưỡng Bản Thân",
+          "cac_nguyen_tac": [
+            {
+              "nguyen_tac": "Bớt điều xấu, thêm điều tốt",
+              "giai_thich": "Quẻ Tổn dạy gạt bỏ thói quen xấu và cơn nóng giận; Quẻ Ích dạy học hỏi tri thức và làm việc thiện mỗi ngày."
+            },
+            {
+              "nguyen_tac": "Biết điểm dừng",
+              "giai_thich": "Quẻ Cấn dạy rèn luyện tâm trí tĩnh lặng như núi, không bị danh lợi làm xao động."
+            },
+            {
+              "nguyen_tac": "Tự cường bất tức",
+              "giai_thich": "Quẻ Càn dạy người quân tử luôn nỗ lực vươn lên từng ngày bằng chính nội lực của mình."
+            }
+          ]
+        },
+        "nguyen_tac_ra_quyet_dinh_5_buoc": {
+          "tieu_de": "🧭 5 Bước Ra Quyết Định Theo Dịch Lý",
+          "cac_buoc": [
+            {
+              "buoc": 1,
+              "ten": "Tĩnh tâm quan sát",
+              "hanh_dong": "Dừng lại quan sát toàn cảnh sự việc trước khi quyết định, không để cảm xúc nhất thời chi phối."
+            },
+            {
+              "buoc": 2,
+              "ten": "Xác định thời điểm",
+              "hanh_dong": "Tự hỏi thời cơ đã chín muồi chưa, mình đang ở giai đoạn khởi đầu, phát triển, biến động hay hoàn tất."
+            },
+            {
+              "buoc": 3,
+              "ten": "Đánh giá hoàn cảnh và thực lực",
+              "hanh_dong": "Nhìn nhận trung thực nội lực bản thân (nội quái) và điều kiện, đối tác bên ngoài (ngoại quái) trước khi hành động."
+            },
+            {
+              "buoc": 4,
+              "ten": "Cân nhắc đạo lý và nhân tâm",
+              "hanh_dong": "Xem xét quyết định có hợp đạo lý, có được lòng người xung quanh ủng hộ hay không."
+            },
+            {
+              "buoc": 5,
+              "ten": "Hành động dứt khoát",
+              "hanh_dong": "Khi đã hội đủ thời - vị - đạo thì mạnh dạn hành động, không nhìn chăm chăm vào được mất trước mắt."
+            }
+          ]
+        }
+      },
+      "loi_day_cot_loi_4_giai_doan": {
+        "tieu_de": "Lời Dạy Cốt Lõi: Tóm Tắt 64 Quẻ Thành 4 Giai Đoạn Nhân Sinh",
+        "cac_giai_doan": [
+          {
+            "giai_doan": "Nhóm 1–10",
+            "ten": "Khởi Đầu & Khai Sáng",
+            "que_dai_dien": "Quẻ 1 Càn đến 10 Lý",
+            "y_nghia_giai_doan": "Khởi Đầu & Khai Sáng",
+            "loi_day_cot_loi": "Mọi sự nghiệp vĩ đại đều bắt đầu từ hạt mầm nhỏ bé.",
+            "bai_hoc_hanh_dong": "Cần tích lũy nội lực, nuôi dưỡng ý chí, khiêm tốn học hỏi người đi trước, tuyệt đối không nóng vội khi lực lượng còn non trẻ."
+          },
+          {
+            "giai_doan": "Nhóm 11–30",
+            "ten": "Phát Triển & Thử Thách",
+            "que_dai_dien": "Quẻ 11 Thái đến 30 Ly",
+            "y_nghia_giai_doan": "Phát Triển & Thử Thách",
+            "loi_day_cot_loi": "Khi bước vào giai đoạn mở rộng, phải biết giao hòa và đương đầu với khó khăn hiểm trở (Khảm).",
+            "bai_hoc_hanh_dong": "Gìn giữ chữ tín và củng cố nền tảng đạo đức vững vàng để không bị gục ngã."
+          },
+          {
+            "giai_doan": "Nhóm 31–50",
+            "ten": "Biến Đổi & Cách Tân",
+            "que_dai_dien": "Quẻ 31 Hàm đến 50 Đỉnh",
+            "y_nghia_giai_doan": "Biến Đổi & Cách Tân",
+            "loi_day_cot_loi": "Thế sự xoay vần, khi quy luật cũ đã hết thời thì phải chủ động giao cảm lòng người.",
+            "bai_hoc_hanh_dong": "Dũng cảm cải cách cách tân (Cách - Đỉnh), linh hoạt biến đổi để thích nghi với thời đại mới."
+          },
+          {
+            "giai_doan": "Nhóm 51–64",
+            "ten": "Hoàn Tất & Vòng Tuần Hoàn",
+            "que_dai_dien": "Quẻ 51 Chấn đến 64 Vị Tế",
+            "y_nghia_giai_doan": "Hoàn Tất & Vòng Tuần Hoàn",
+            "loi_day_cot_loi": "Đỉnh cao của thành công là biết giữ gìn và biết điểm dừng (Tiết). Kết thúc của một chu kỳ (Ký Tế) lại mở ra sự khởi đầu cho một hành trình mới (Vị Tế).",
+            "bai_hoc_hanh_dong": "Luôn giữ tâm thế cẩn trọng, không ngừng học hỏi."
+          }
+        ],
+        "bai_hoc_xuyen_suot": [
+          {
+            "tieu_de": "Vô thường là quy luật",
+            "noi_dung": "Không có gì tốt mãi, không có gì xấu mãi. Thịnh suy, được mất luôn xoay vần theo lẽ trời đất."
+          },
+          {
+            "tieu_de": "Con người quyết định kết quả",
+            "noi_dung": "Thái độ và cách ứng xử của con người trước biến động mới là yếu tố quyết định kết quả cuối cùng, không phải bản thân quẻ dịch."
+          },
+          {
+            "tieu_de": "Đức năng thắng số",
+            "noi_dung": "Người biết tu dưỡng đạo đức, hành xử đúng thời - đúng vị thì có thể chuyển hóa cát hung, làm chủ vận mệnh của chính mình."
+          }
+        ]
+      },
+      "sai_lam_thuong_gap": [
+        {
+          "sai_lam": "Kinh Dịch là sách bói toán mê tín để xem định mệnh an bài bất di bất dịch.",
+          "su_that": "Kinh Dịch là công trình triết học, quy luật tự nhiên và cẩm nang chiến lược quản trị cổ xưa nhất phương Đông. Dịch dạy con người thấu hiểu quy luật để chủ động thích nghi, 'Đức năng thắng số' chứ không có số phận cố định.",
+          "hanh_dong_dung": "Học Kinh Dịch như học một hệ triết học và quy luật tự nhiên để chủ động thích nghi, không phải để phó mặc cho số mệnh."
+        },
+        {
+          "sai_lam": "Gieo phải quẻ Hung thì tuyệt vọng, bỏ cuộc không dám làm việc gì.",
+          "su_that": "Quẻ Hung là tín hiệu cảnh báo có chướng ngại hoặc nguy cơ tiềm ẩn phía trước. Nếu người xem biết cẩn trọng, điều chỉnh hành vi, lùi bước chuẩn bị thì hoàn toàn có thể hóa Hung thành Cát.",
+          "hanh_dong_dung": "Xem quẻ Hung là lời cảnh báo để cẩn trọng hơn, chủ động điều chỉnh hành vi và chuẩn bị phương án phòng bị thay vì bỏ cuộc."
+        },
+        {
+          "sai_lam": "Cứ gặp việc nhỏ nhặt cũng gieo quẻ, hỏi đi hỏi lại nhiều lần trong ngày.",
+          "su_that": "Kinh Dịch dạy: 'Sơ phệ cáo, tái tam độc, độc tắc bất cáo' (Hỏi lần đầu thì ứng, hỏi nhiều lần sinh nhờn và loạn tâm). Chỉ gieo quẻ khi tâm trí thành kính và thực sự cần kim chỉ nam định hướng.",
+          "hanh_dong_dung": "Chỉ gieo quẻ khi tâm trí thành kính và thực sự cần kim chỉ nam cho việc quan trọng; tôn trọng nguyên tắc \"hỏi lần đầu thì ứng\"."
+        },
+        {
+          "sai_lam": "Gieo được quẻ Đại Cát thì ung dung tự mãn, ngồi chờ thành công tự tới.",
+          "su_that": "Quẻ Cát chỉ báo hiệu thời cơ thuận lợi đang mở ra. Nếu con người chủ quan, lười biếng hoặc kiêu căng ngạo mạn thì Cát cũng nhanh chóng biến thành Hung (như hào Kháng Long của quẻ Càn).",
+          "hanh_dong_dung": "Xem quẻ Cát là cơ hội để nỗ lực nhiều hơn, luôn giữ tâm khiêm tốn cẩn trọng, tránh chủ quan kiêu căng khiến vận may tuột mất."
+        },
+        {
+          "sai_lam": "Kinh Dịch quá bí hiểm, chỉ dành cho thầy bói hoặc các bậc cao nhân.",
+          "su_that": "Bản chất của Kinh Dịch là đạo lý xử thế đời thường: biết khiêm tốn, biết kiên nhẫn, biết sẻ chia, biết tiến thoái đúng lúc. Bất kỳ ai cũng có thể học và ứng dụng để sống an nhiên, trí tuệ.",
+          "hanh_dong_dung": "Bắt đầu học từ những đạo lý xử thế đời thường trong Dịch (khiêm tốn, kiên nhẫn, biết tiến thoái đúng lúc) - ai cũng có thể tự học và ứng dụng dần dần."
+        }
+      ],
+      "thong_diep_cot_loi": "Kinh Dịch không nói người ta phải ra sao. Chỉ nói: Hiện tại đang như thế. Nếu tiếp tục thì sẽ ra sao. Muốn khác thì cần thay đổi như thế nào."
     }
   },
-
   "tieng_trung": {
     "target": "tieng_trung.json",
-    "section_order": ["Lo_Trinh_Hoc", "Ngu_Phap_Co_Ban", "*"],
-
+    "section_order": [
+      "Lo_Trinh_Hoc",
+      "Ngu_Phap_Co_Ban",
+      "*"
+    ],
     "sections": {
       "Lo_Trinh_Hoc": [
-        { "stt": 1, "giai_doan": "Giai đoạn 1: Nhập môn - Phát âm & Bộ thủ nền tảng", "muc_tieu": "Nắm vững hệ thống phiên âm Pinyin, 4 thanh điệu, và các bộ thủ cơ bản để tra từ điển, ghi nhớ mặt chữ Hán dễ dàng hơn.", "noi_dung": "Học hết mục \"Cách Đọc Phát Âm\" (các vần mẫu); học thuộc trước 50 bộ thủ thường gặp nhất trong mục \"214 Bộ Thủ\"; dùng nút phát âm (loa) ở các thẻ từ để luyện nghe - nhại theo giọng chuẩn.", "thoi_luong": "1 - 2 tuần" },
-        { "stt": 2, "giai_doan": "Giai đoạn 2: Từ vựng nền tảng & Ngữ pháp HSK1", "muc_tieu": "Ghi nhớ vài trăm từ vựng thông dụng nhất, dựng được câu đơn giản đúng ngữ pháp.", "noi_dung": "Học 200 - 300 chữ đầu tần suất cao trong \"Từ Điển 1500 Chữ Hán\"; học hết \"70 Động Từ Cơ Bản\"; học các điểm ngữ pháp có nhãn HSK1 trong mục \"Ngữ Pháp Cơ Bản\" (是, 的, 吗, 呢, 有, 在, lượng từ, từ để hỏi...).", "thoi_luong": "3 - 4 tuần" },
-        { "stt": 3, "giai_doan": "Giai đoạn 3: Giao tiếp hằng ngày & Ngữ pháp HSK2", "muc_tieu": "Thực hiện được hội thoại cơ bản: chào hỏi, mua sắm, hỏi đường, giới thiệu bản thân và gia đình.", "noi_dung": "Học hết \"Mẫu Câu Giao Tiếp\" theo từng chủ đề; chọn lọc luyện thêm 300 - 500 câu phù hợp trong \"3000 Câu Giao Tiếp\"; học các điểm ngữ pháp HSK2 (了, 正在...呢, 过, 比, các động từ năng nguyện 想/要/能/可以/会, 从...到...).", "thoi_luong": "1 - 2 tháng" },
-        { "stt": 4, "giai_doan": "Giai đoạn 4: Mở rộng vốn từ & Ngữ pháp HSK3", "muc_tieu": "Diễn đạt được ý kiến cá nhân, kể lại một sự việc, viết đoạn văn ngắn mạch lạc.", "noi_dung": "Hoàn thành \"Từ Điển 1500 Chữ Hán\"; học thêm \"Từ Vựng Phổ Biến\" và \"Từ Hay Dùng\"; học các điểm ngữ pháp HSK3 (把, 被, bổ ngữ kết quả, bổ ngữ khả năng, các cặp liên từ 虽然...但是, 因为...所以, 如果...就, 不但...而且).", "thoi_luong": "2 - 3 tháng" },
-        { "stt": 5, "giai_doan": "Giai đoạn 5: Nâng cao & Ứng dụng thực tế", "muc_tieu": "Đọc hiểu đoạn văn dài hơn, giao tiếp linh hoạt trong công việc và du lịch, sẵn sàng cho kỳ thi HSK4.", "noi_dung": "Luyện hết phần còn lại của \"3000 Câu Giao Tiếp\"; học các điểm ngữ pháp HSK4 (除了...以外, 只有...才, 是...的, bổ ngữ thời lượng); tham khảo \"Họ Tên Thường Gặp\" nếu cần làm quen, giao tiếp với người Trung Quốc.", "thoi_luong": "Duy trì liên tục" }
+        {
+          "stt": 1,
+          "giai_doan": "Giai đoạn 1: Nhập môn - Phát âm & Bộ thủ nền tảng",
+          "muc_tieu": "Nắm vững hệ thống phiên âm Pinyin, 4 thanh điệu, và các bộ thủ cơ bản để tra từ điển, ghi nhớ mặt chữ Hán dễ dàng hơn.",
+          "noi_dung": "Học hết mục \"Cách Đọc Phát Âm\" (các vần mẫu); học thuộc trước 50 bộ thủ thường gặp nhất trong mục \"214 Bộ Thủ\"; dùng nút phát âm (loa) ở các thẻ từ để luyện nghe - nhại theo giọng chuẩn.",
+          "thoi_luong": "1 - 2 tuần"
+        },
+        {
+          "stt": 2,
+          "giai_doan": "Giai đoạn 2: Từ vựng nền tảng & Ngữ pháp HSK1",
+          "muc_tieu": "Ghi nhớ vài trăm từ vựng thông dụng nhất, dựng được câu đơn giản đúng ngữ pháp.",
+          "noi_dung": "Học 200 - 300 chữ đầu tần suất cao trong \"Từ Điển 1500 Chữ Hán\"; học hết \"70 Động Từ Cơ Bản\"; học các điểm ngữ pháp có nhãn HSK1 trong mục \"Ngữ Pháp Cơ Bản\" (是, 的, 吗, 呢, 有, 在, lượng từ, từ để hỏi...).",
+          "thoi_luong": "3 - 4 tuần"
+        },
+        {
+          "stt": 3,
+          "giai_doan": "Giai đoạn 3: Giao tiếp hằng ngày & Ngữ pháp HSK2",
+          "muc_tieu": "Thực hiện được hội thoại cơ bản: chào hỏi, mua sắm, hỏi đường, giới thiệu bản thân và gia đình.",
+          "noi_dung": "Học hết \"Mẫu Câu Giao Tiếp\" theo từng chủ đề; chọn lọc luyện thêm 300 - 500 câu phù hợp trong \"3000 Câu Giao Tiếp\"; học các điểm ngữ pháp HSK2 (了, 正在...呢, 过, 比, các động từ năng nguyện 想/要/能/可以/会, 从...到...).",
+          "thoi_luong": "1 - 2 tháng"
+        },
+        {
+          "stt": 4,
+          "giai_doan": "Giai đoạn 4: Mở rộng vốn từ & Ngữ pháp HSK3",
+          "muc_tieu": "Diễn đạt được ý kiến cá nhân, kể lại một sự việc, viết đoạn văn ngắn mạch lạc.",
+          "noi_dung": "Hoàn thành \"Từ Điển 1500 Chữ Hán\"; học thêm \"Từ Vựng Phổ Biến\" và \"Từ Hay Dùng\"; học các điểm ngữ pháp HSK3 (把, 被, bổ ngữ kết quả, bổ ngữ khả năng, các cặp liên từ 虽然...但是, 因为...所以, 如果...就, 不但...而且).",
+          "thoi_luong": "2 - 3 tháng"
+        },
+        {
+          "stt": 5,
+          "giai_doan": "Giai đoạn 5: Nâng cao & Ứng dụng thực tế",
+          "muc_tieu": "Đọc hiểu đoạn văn dài hơn, giao tiếp linh hoạt trong công việc và du lịch, sẵn sàng cho kỳ thi HSK4.",
+          "noi_dung": "Luyện hết phần còn lại của \"3000 Câu Giao Tiếp\"; học các điểm ngữ pháp HSK4 (除了...以外, 只有...才, 是...的, bổ ngữ thời lượng); tham khảo \"Họ Tên Thường Gặp\" nếu cần làm quen, giao tiếp với người Trung Quốc.",
+          "thoi_luong": "Duy trì liên tục"
+        }
       ],
-
       "Ngu_Phap_Co_Ban": [
-        { "stt": 1, "cap_do": "HSK1", "diem_ngu_phap": "是 (shì) - Động từ \"là\"", "cau_truc": "S + 是 + N", "giai_thich": "Dùng để khẳng định danh tính, thân phận, chủng loại của chủ ngữ. Phủ định thêm 不 trước 是.", "vi_du_han": "我是学生。", "vi_du_pinyin": "Wǒ shì xuéshēng.", "vi_du_nghia": "Tôi là học sinh." },
-        { "stt": 2, "cap_do": "HSK1", "diem_ngu_phap": "的 (de) - Trợ từ sở hữu, định ngữ", "cau_truc": "N1/Đại từ + 的 + N2", "giai_thich": "Nối giữa định ngữ và trung tâm ngữ, tương đương \"của\" trong tiếng Việt. Với quan hệ thân thiết (gia đình, bạn bè) có thể lược bỏ 的.", "vi_du_han": "这是我的书。", "vi_du_pinyin": "Zhè shì wǒ de shū.", "vi_du_nghia": "Đây là sách của tôi." },
-        { "stt": 3, "cap_do": "HSK1", "diem_ngu_phap": "吗 (ma) - Trợ từ nghi vấn có/không", "cau_truc": "Câu trần thuật + 吗？", "giai_thich": "Đặt cuối câu trần thuật để biến thành câu hỏi có/không, không thay đổi trật tự từ trong câu.", "vi_du_han": "你是学生吗？", "vi_du_pinyin": "Nǐ shì xuéshēng ma?", "vi_du_nghia": "Bạn có phải là học sinh không?" },
-        { "stt": 4, "cap_do": "HSK1", "diem_ngu_phap": "呢 (ne) - Hỏi lại, hỏi tỉnh lược", "cau_truc": "N/Cụm từ + 呢？", "giai_thich": "Dùng để hỏi lại một vấn đề vừa được nhắc đến, hoặc hỏi \"còn... thì sao?\".", "vi_du_han": "我很好，你呢？", "vi_du_pinyin": "Wǒ hěn hǎo, nǐ ne?", "vi_du_nghia": "Tôi khỏe, còn bạn thì sao?" },
-        { "stt": 5, "cap_do": "HSK1", "diem_ngu_phap": "不 và 没(有) - Hai cách phủ định", "cau_truc": "不 + V/Adj  |  没(有) + V", "giai_thich": "不 dùng để phủ định thói quen, tính chất, ý muốn, hoặc việc trong tương lai. 没(有) dùng để phủ định hành động đã/đang xảy ra hoặc phủ định sự sở hữu, không dùng 没 với 是.", "vi_du_han": "我不是老师。我没有钱。", "vi_du_pinyin": "Wǒ bú shì lǎoshī. Wǒ méiyǒu qián.", "vi_du_nghia": "Tôi không phải là giáo viên. Tôi không có tiền." },
-        { "stt": 6, "cap_do": "HSK1", "diem_ngu_phap": "有 (yǒu) - Có (sở hữu / tồn tại)", "cau_truc": "S + 有 + O", "giai_thich": "Diễn tả sự sở hữu hoặc sự tồn tại của sự vật, sự việc. Phủ định dùng 没有 (không dùng 不有).", "vi_du_han": "我有一本书。", "vi_du_pinyin": "Wǒ yǒu yì běn shū.", "vi_du_nghia": "Tôi có một quyển sách." },
-        { "stt": 7, "cap_do": "HSK1", "diem_ngu_phap": "Số từ + Lượng từ + Danh từ", "cau_truc": "Số + Lượng từ (量词) + N", "giai_thich": "Khác với tiếng Việt, tiếng Trung bắt buộc phải có lượng từ phù hợp đứng giữa số đếm và danh từ, mỗi loại danh từ thường đi với một lượng từ riêng (个, 本, 杯, 张, 只...).", "vi_du_han": "一个人，两本书，三杯茶。", "vi_du_pinyin": "Yí gè rén, liǎng běn shū, sān bēi chá.", "vi_du_nghia": "Một người, hai quyển sách, ba cốc trà." },
-        { "stt": 8, "cap_do": "HSK1", "diem_ngu_phap": "很 (hěn) trước tính từ làm vị ngữ", "cau_truc": "S + 很 + Adj", "giai_thich": "Khi tính từ làm vị ngữ trực tiếp (không có 是), thường phải thêm 很 phía trước cho câu tự nhiên; ở đây 很 không nhất thiết mang nghĩa nhấn mạnh \"rất\" mà chỉ là yêu cầu ngữ pháp.", "vi_du_han": "她很漂亮。", "vi_du_pinyin": "Tā hěn piàoliang.", "vi_du_nghia": "Cô ấy xinh đẹp." },
-        { "stt": 9, "cap_do": "HSK1", "diem_ngu_phap": "Các từ để hỏi cơ bản", "cau_truc": "谁 / 什么 / 哪 / 哪里 / 怎么 / 为什么 / 几 / 多少", "giai_thich": "谁 (ai), 什么 (cái gì), 哪 (nào), 哪里 (ở đâu), 怎么 (như thế nào), 为什么 (tại sao), 几 (mấy, dùng cho số nhỏ dự đoán dưới 10), 多少 (bao nhiêu, dùng cho số lượng bất kỳ).", "vi_du_han": "你叫什么名字？你去哪里？", "vi_du_pinyin": "Nǐ jiào shénme míngzi? Nǐ qù nǎlǐ?", "vi_du_nghia": "Bạn tên gì? Bạn đi đâu?" },
-        { "stt": 10, "cap_do": "HSK1", "diem_ngu_phap": "在 (zài) chỉ nơi chốn", "cau_truc": "S + 在 + nơi chốn (+ V)", "giai_thich": "在 làm động từ nghĩa là \"ở tại\", hoặc làm giới từ chỉ địa điểm xảy ra hành động phía trước động từ chính.", "vi_du_han": "我在家看电视。", "vi_du_pinyin": "Wǒ zài jiā kàn diànshì.", "vi_du_nghia": "Tôi ở nhà xem tivi." },
-        { "stt": 11, "cap_do": "HSK2", "diem_ngu_phap": "了 (le) - Hoàn thành / biến đổi trạng thái", "cau_truc": "V + 了 (+O)  |  Câu + 了 (cuối câu)", "giai_thich": "了 đứng sau động từ biểu thị hành động đã hoàn thành; 了 đứng cuối câu biểu thị sự biến đổi trạng thái, tình huống mới xuất hiện.", "vi_du_han": "我吃饭了。天冷了。", "vi_du_pinyin": "Wǒ chīfàn le. Tiān lěng le.", "vi_du_nghia": "Tôi ăn cơm rồi. Trời lạnh rồi." },
-        { "stt": 12, "cap_do": "HSK2", "diem_ngu_phap": "正在...呢 - Đang diễn ra", "cau_truc": "S + (正)在 + V + (呢)", "giai_thich": "Diễn tả một hành động đang xảy ra tại thời điểm nói, tương đương thì tiếp diễn trong tiếng Anh.", "vi_du_han": "我正在吃饭呢。", "vi_du_pinyin": "Wǒ zhèngzài chīfàn ne.", "vi_du_nghia": "Tôi đang ăn cơm." },
-        { "stt": 13, "cap_do": "HSK2", "diem_ngu_phap": "过 (guo) - Đã từng (kinh nghiệm)", "cau_truc": "S + V + 过 + O", "giai_thich": "Diễn tả một hành động đã từng xảy ra trong quá khứ, nhấn mạnh kinh nghiệm chứ không nhấn mạnh thời điểm hoàn thành.", "vi_du_han": "我去过中国。", "vi_du_pinyin": "Wǒ qùguo Zhōngguó.", "vi_du_nghia": "Tôi đã từng đến Trung Quốc." },
-        { "stt": 14, "cap_do": "HSK2", "diem_ngu_phap": "也 (yě) và 都 (dōu) - Cũng và Đều", "cau_truc": "S + 也/都 + V/Adj", "giai_thich": "也 và 都 là phó từ, luôn đứng trước động từ hoặc tính từ, không đứng trước chủ ngữ. Nếu dùng cả hai thì 也 đứng trước 都.", "vi_du_han": "我们也都是学生。", "vi_du_pinyin": "Wǒmen yě dōu shì xuéshēng.", "vi_du_nghia": "Chúng tôi cũng đều là học sinh." },
-        { "stt": 15, "cap_do": "HSK2", "diem_ngu_phap": "比 (bǐ) - So sánh hơn", "cau_truc": "A + 比 + B + Adj (+ mức độ chênh lệch)", "giai_thich": "Cấu trúc so sánh hơn cơ bản nhất trong tiếng Trung; không dùng 很 trước tính từ trong câu so sánh này.", "vi_du_han": "他比我高一点儿。", "vi_du_pinyin": "Tā bǐ wǒ gāo yìdiǎnr.", "vi_du_nghia": "Anh ấy cao hơn tôi một chút." },
-        { "stt": 16, "cap_do": "HSK2", "diem_ngu_phap": "一点儿 và 有点儿", "cau_truc": "Adj + 一点儿  |  有点儿 + Adj", "giai_thich": "一点儿 đặt sau tính từ trong câu so sánh, nghĩa là \"một chút\". 有点儿 đặt trước tính từ, thường mang sắc thái không hài lòng, hơi tiêu cực.", "vi_du_han": "这个大一点儿。我有点儿累。", "vi_du_pinyin": "Zhège dà yìdiǎnr. Wǒ yǒudiǎnr lèi.", "vi_du_nghia": "Cái này to hơn một chút. Tôi hơi mệt." },
-        { "stt": 17, "cap_do": "HSK2", "diem_ngu_phap": "想/要/能/可以/会 - Động từ năng nguyện", "cau_truc": "S + 想/要/能/可以/会 + V", "giai_thich": "想 (muốn, mong muốn chủ quan), 要 (muốn/sắp, ý chí mạnh hơn), 能 (có khả năng do thể chất/hoàn cảnh), 可以 (được phép), 会 (biết làm do học được, hoặc khả năng xảy ra).", "vi_du_han": "我想去，但是我不会说汉语。", "vi_du_pinyin": "Wǒ xiǎng qù, dànshì wǒ bú huì shuō Hànyǔ.", "vi_du_nghia": "Tôi muốn đi, nhưng tôi không biết nói tiếng Hán." },
-        { "stt": 18, "cap_do": "HSK2", "diem_ngu_phap": "从...到... - Từ...đến...", "cau_truc": "从 + điểm bắt đầu + 到 + điểm kết thúc", "giai_thich": "Dùng cho cả thời gian và địa điểm để chỉ phạm vi bắt đầu - kết thúc.", "vi_du_han": "我从八点到十点上班。", "vi_du_pinyin": "Wǒ cóng bā diǎn dào shí diǎn shàngbān.", "vi_du_nghia": "Tôi làm việc từ 8 giờ đến 10 giờ." },
-        { "stt": 19, "cap_do": "HSK2", "diem_ngu_phap": "快...了 / 要...了 - Sắp... rồi", "cau_truc": "(快)要 + V + 了", "giai_thich": "Diễn tả một sự việc sắp sửa xảy ra trong tương lai gần.", "vi_du_han": "火车快到了。", "vi_du_pinyin": "Huǒchē kuài dào le.", "vi_du_nghia": "Tàu sắp đến rồi." },
-        { "stt": 20, "cap_do": "HSK2", "diem_ngu_phap": "Bổ ngữ chỉ phương hướng đơn giản", "cau_truc": "V + 上/下/进/出/回/过 + 来/去", "giai_thich": "Bổ ngữ chỉ phương hướng đứng sau động từ để chỉ hướng di chuyển của hành động, hướng về phía người nói (来) hoặc rời xa người nói (去).", "vi_du_han": "请进来！他回去了。", "vi_du_pinyin": "Qǐng jìnlái! Tā huíqù le.", "vi_du_nghia": "Mời vào! Anh ấy đã về rồi." },
-        { "stt": 21, "cap_do": "HSK3", "diem_ngu_phap": "把 (bǎ) - Câu chữ Bả", "cau_truc": "S + 把 + O + V + bổ ngữ/thành phần khác", "giai_thich": "Dùng khi muốn nhấn mạnh kết quả tác động lên tân ngữ xác định; động từ không được đứng trơ trọi một mình mà phải có thành phần bổ sung phía sau (bổ ngữ, 了, trùng điệp...).", "vi_du_han": "我把书放在桌子上了。", "vi_du_pinyin": "Wǒ bǎ shū fàng zài zhuōzi shàng le.", "vi_du_nghia": "Tôi đã đặt sách lên bàn." },
-        { "stt": 22, "cap_do": "HSK3", "diem_ngu_phap": "被 (bèi) - Câu bị động", "cau_truc": "S(bị tác động) + 被 + (tác nhân) + V + bổ ngữ", "giai_thich": "Diễn tả chủ ngữ chịu sự tác động của hành động, thường mang sắc thái không mong muốn hoặc bị ảnh hưởng. Tác nhân gây ra hành động có thể được lược bỏ.", "vi_du_han": "我的手机被他拿走了。", "vi_du_pinyin": "Wǒ de shǒujī bèi tā ná zǒu le.", "vi_du_nghia": "Điện thoại của tôi bị anh ấy lấy đi rồi." },
-        { "stt": 23, "cap_do": "HSK3", "diem_ngu_phap": "Bổ ngữ kết quả (结果补语)", "cau_truc": "V + 完/好/到/懂/见/错", "giai_thich": "Đứng ngay sau động từ chính để bổ sung kết quả của hành động: 完 (xong), 好 (xong, ổn thỏa), 到 (đạt tới), 懂 (hiểu), 见 (thấy, cảm nhận được), 错 (sai, nhầm).", "vi_du_han": "我做完作业了。", "vi_du_pinyin": "Wǒ zuò wán zuòyè le.", "vi_du_nghia": "Tôi làm xong bài tập rồi." },
-        { "stt": 24, "cap_do": "HSK3", "diem_ngu_phap": "Bổ ngữ khả năng (可能补语)", "cau_truc": "V + 得/不 + bổ ngữ", "giai_thich": "Chèn 得 (có thể) hoặc 不 (không thể) vào giữa động từ và bổ ngữ kết quả/xu hướng để diễn tả khả năng thực hiện được hay không.", "vi_du_han": "我听得懂，他听不懂。", "vi_du_pinyin": "Wǒ tīng de dǒng, tā tīng bu dǒng.", "vi_du_nghia": "Tôi nghe hiểu được, anh ấy nghe không hiểu." },
-        { "stt": 25, "cap_do": "HSK3", "diem_ngu_phap": "虽然...但是... - Tuy...nhưng...", "cau_truc": "虽然 + Mệnh đề 1，但是 + Mệnh đề 2", "giai_thich": "Liên từ chỉ sự nhượng bộ, dùng để nối hai mệnh đề có ý nghĩa tương phản.", "vi_du_han": "虽然很累，但是很开心。", "vi_du_pinyin": "Suīrán hěn lèi, dànshì hěn kāixīn.", "vi_du_nghia": "Tuy mệt nhưng rất vui." },
-        { "stt": 26, "cap_do": "HSK3", "diem_ngu_phap": "因为...所以... - Vì...nên...", "cau_truc": "因为 + Nguyên nhân，所以 + Kết quả", "giai_thich": "Liên từ chỉ quan hệ nhân quả, có thể lược bỏ một trong hai vế nếu ngữ cảnh đã rõ.", "vi_du_han": "因为下雨，所以我们不去了。", "vi_du_pinyin": "Yīnwèi xiàyǔ, suǒyǐ wǒmen bú qù le.", "vi_du_nghia": "Vì trời mưa nên chúng tôi không đi nữa." },
-        { "stt": 27, "cap_do": "HSK3", "diem_ngu_phap": "如果...就... - Nếu...thì...", "cau_truc": "如果 + Điều kiện，就 + Kết quả", "giai_thich": "Liên từ chỉ quan hệ giả thiết - kết quả.", "vi_du_han": "如果你有空，就来找我。", "vi_du_pinyin": "Rúguǒ nǐ yǒu kòng, jiù lái zhǎo wǒ.", "vi_du_nghia": "Nếu bạn rảnh thì đến tìm tôi." },
-        { "stt": 28, "cap_do": "HSK3", "diem_ngu_phap": "越来越 / 越...越... - Càng ngày càng / Càng...càng...", "cau_truc": "越来越 + Adj/V  |  越 + A，越 + B", "giai_thich": "越来越 diễn tả một xu hướng thay đổi tăng dần theo thời gian; 越...越... diễn tả hai sự việc tăng/giảm tương ứng với nhau.", "vi_du_han": "天气越来越冷了。你越说我越不明白。", "vi_du_pinyin": "Tiānqì yuè lái yuè lěng le. Nǐ yuè shuō wǒ yuè bù míngbái.", "vi_du_nghia": "Thời tiết càng ngày càng lạnh. Bạn càng nói tôi càng không hiểu." },
-        { "stt": 29, "cap_do": "HSK3", "diem_ngu_phap": "一边...一边... - Vừa...vừa...", "cau_truc": "S + 一边 + V1 + 一边 + V2", "giai_thich": "Diễn tả hai hành động xảy ra đồng thời, do cùng một chủ thể thực hiện.", "vi_du_han": "他一边吃饭一边看电视。", "vi_du_pinyin": "Tā yìbiān chīfàn yìbiān kàn diànshì.", "vi_du_nghia": "Anh ấy vừa ăn cơm vừa xem tivi." },
-        { "stt": 30, "cap_do": "HSK3", "diem_ngu_phap": "不但...而且... - Không những...mà còn...", "cau_truc": "不但 + Vế 1，而且 + Vế 2", "giai_thich": "Liên từ chỉ quan hệ tăng tiến, vế sau bổ sung thêm ý nghĩa cho vế trước theo chiều hướng mạnh hơn.", "vi_du_han": "她不但漂亮，而且聪明。", "vi_du_pinyin": "Tā búdàn piàoliang, érqiě cōngmíng.", "vi_du_nghia": "Cô ấy không những xinh đẹp mà còn thông minh." },
-        { "stt": 31, "cap_do": "HSK4", "diem_ngu_phap": "除了...以外，都/也... - Ngoại trừ...ra...", "cau_truc": "除了 + A + 以外，(S còn lại) + 都/也 + V", "giai_thich": "除了...都 nghĩa là loại trừ đối tượng A ra khỏi nhóm còn lại; 除了...也/还 nghĩa là bổ sung thêm ngoài A ra còn có thêm B nữa (không loại trừ).", "vi_du_han": "除了他以外，我们都去了。", "vi_du_pinyin": "Chúle tā yǐwài, wǒmen dōu qù le.", "vi_du_nghia": "Ngoài anh ấy ra, chúng tôi đều đã đi." },
-        { "stt": 32, "cap_do": "HSK4", "diem_ngu_phap": "只有...才... - Chỉ có...mới...", "cau_truc": "只有 + Điều kiện duy nhất，才 + Kết quả", "giai_thich": "Nhấn mạnh đây là điều kiện duy nhất để đạt được kết quả, ngữ khí mạnh hơn 如果...就.", "vi_du_han": "只有努力，才能成功。", "vi_du_pinyin": "Zhǐyǒu nǔlì, cái néng chénggōng.", "vi_du_nghia": "Chỉ có nỗ lực, mới có thể thành công." },
-        { "stt": 33, "cap_do": "HSK4", "diem_ngu_phap": "是...的 - Nhấn mạnh thời gian/địa điểm/cách thức", "cau_truc": "S + 是 + (thời gian/địa điểm/cách thức) + V + 的", "giai_thich": "Dùng để nhấn mạnh một chi tiết cụ thể (khi nào, ở đâu, bằng cách nào) của một hành động đã xảy ra rồi, chứ không dùng để hỏi hành động có xảy ra hay không.", "vi_du_han": "我是昨天来的。", "vi_du_pinyin": "Wǒ shì zuótiān lái de.", "vi_du_nghia": "Tôi đến là vào hôm qua (nhấn mạnh thời điểm)." },
-        { "stt": 34, "cap_do": "HSK4", "diem_ngu_phap": "Bổ ngữ thời lượng (时量补语)", "cau_truc": "V + (了) + khoảng thời gian + (O)", "giai_thich": "Đứng sau động từ để chỉ khoảng thời gian hành động đã kéo dài, khác với bổ ngữ chỉ thời điểm.", "vi_du_han": "我学了三年汉语。", "vi_du_pinyin": "Wǒ xuéle sān nián Hànyǔ.", "vi_du_nghia": "Tôi đã học tiếng Hán ba năm." }
+        {
+          "stt": 1,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "是 (shì) - Động từ \"là\"",
+          "cau_truc": "S + 是 + N",
+          "giai_thich": "Dùng để khẳng định danh tính, thân phận, chủng loại của chủ ngữ. Phủ định thêm 不 trước 是.",
+          "vi_du_han": "我是学生。",
+          "vi_du_pinyin": "Wǒ shì xuéshēng.",
+          "vi_du_nghia": "Tôi là học sinh."
+        },
+        {
+          "stt": 2,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "的 (de) - Trợ từ sở hữu, định ngữ",
+          "cau_truc": "N1/Đại từ + 的 + N2",
+          "giai_thich": "Nối giữa định ngữ và trung tâm ngữ, tương đương \"của\" trong tiếng Việt. Với quan hệ thân thiết (gia đình, bạn bè) có thể lược bỏ 的.",
+          "vi_du_han": "这是我的书。",
+          "vi_du_pinyin": "Zhè shì wǒ de shū.",
+          "vi_du_nghia": "Đây là sách của tôi."
+        },
+        {
+          "stt": 3,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "吗 (ma) - Trợ từ nghi vấn có/không",
+          "cau_truc": "Câu trần thuật + 吗？",
+          "giai_thich": "Đặt cuối câu trần thuật để biến thành câu hỏi có/không, không thay đổi trật tự từ trong câu.",
+          "vi_du_han": "你是学生吗？",
+          "vi_du_pinyin": "Nǐ shì xuéshēng ma?",
+          "vi_du_nghia": "Bạn có phải là học sinh không?"
+        },
+        {
+          "stt": 4,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "呢 (ne) - Hỏi lại, hỏi tỉnh lược",
+          "cau_truc": "N/Cụm từ + 呢？",
+          "giai_thich": "Dùng để hỏi lại một vấn đề vừa được nhắc đến, hoặc hỏi \"còn... thì sao?\".",
+          "vi_du_han": "我很好，你呢？",
+          "vi_du_pinyin": "Wǒ hěn hǎo, nǐ ne?",
+          "vi_du_nghia": "Tôi khỏe, còn bạn thì sao?"
+        },
+        {
+          "stt": 5,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "不 và 没(有) - Hai cách phủ định",
+          "cau_truc": "不 + V/Adj  |  没(有) + V",
+          "giai_thich": "不 dùng để phủ định thói quen, tính chất, ý muốn, hoặc việc trong tương lai. 没(有) dùng để phủ định hành động đã/đang xảy ra hoặc phủ định sự sở hữu, không dùng 没 với 是.",
+          "vi_du_han": "我不是老师。我没有钱。",
+          "vi_du_pinyin": "Wǒ bú shì lǎoshī. Wǒ méiyǒu qián.",
+          "vi_du_nghia": "Tôi không phải là giáo viên. Tôi không có tiền."
+        },
+        {
+          "stt": 6,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "有 (yǒu) - Có (sở hữu / tồn tại)",
+          "cau_truc": "S + 有 + O",
+          "giai_thich": "Diễn tả sự sở hữu hoặc sự tồn tại của sự vật, sự việc. Phủ định dùng 没有 (không dùng 不有).",
+          "vi_du_han": "我有一本书。",
+          "vi_du_pinyin": "Wǒ yǒu yì běn shū.",
+          "vi_du_nghia": "Tôi có một quyển sách."
+        },
+        {
+          "stt": 7,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "Số từ + Lượng từ + Danh từ",
+          "cau_truc": "Số + Lượng từ (量词) + N",
+          "giai_thich": "Khác với tiếng Việt, tiếng Trung bắt buộc phải có lượng từ phù hợp đứng giữa số đếm và danh từ, mỗi loại danh từ thường đi với một lượng từ riêng (个, 本, 杯, 张, 只...).",
+          "vi_du_han": "一个人，两本书，三杯茶。",
+          "vi_du_pinyin": "Yí gè rén, liǎng běn shū, sān bēi chá.",
+          "vi_du_nghia": "Một người, hai quyển sách, ba cốc trà."
+        },
+        {
+          "stt": 8,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "很 (hěn) trước tính từ làm vị ngữ",
+          "cau_truc": "S + 很 + Adj",
+          "giai_thich": "Khi tính từ làm vị ngữ trực tiếp (không có 是), thường phải thêm 很 phía trước cho câu tự nhiên; ở đây 很 không nhất thiết mang nghĩa nhấn mạnh \"rất\" mà chỉ là yêu cầu ngữ pháp.",
+          "vi_du_han": "她很漂亮。",
+          "vi_du_pinyin": "Tā hěn piàoliang.",
+          "vi_du_nghia": "Cô ấy xinh đẹp."
+        },
+        {
+          "stt": 9,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "Các từ để hỏi cơ bản",
+          "cau_truc": "谁 / 什么 / 哪 / 哪里 / 怎么 / 为什么 / 几 / 多少",
+          "giai_thich": "谁 (ai), 什么 (cái gì), 哪 (nào), 哪里 (ở đâu), 怎么 (như thế nào), 为什么 (tại sao), 几 (mấy, dùng cho số nhỏ dự đoán dưới 10), 多少 (bao nhiêu, dùng cho số lượng bất kỳ).",
+          "vi_du_han": "你叫什么名字？你去哪里？",
+          "vi_du_pinyin": "Nǐ jiào shénme míngzi? Nǐ qù nǎlǐ?",
+          "vi_du_nghia": "Bạn tên gì? Bạn đi đâu?"
+        },
+        {
+          "stt": 10,
+          "cap_do": "HSK1",
+          "diem_ngu_phap": "在 (zài) chỉ nơi chốn",
+          "cau_truc": "S + 在 + nơi chốn (+ V)",
+          "giai_thich": "在 làm động từ nghĩa là \"ở tại\", hoặc làm giới từ chỉ địa điểm xảy ra hành động phía trước động từ chính.",
+          "vi_du_han": "我在家看电视。",
+          "vi_du_pinyin": "Wǒ zài jiā kàn diànshì.",
+          "vi_du_nghia": "Tôi ở nhà xem tivi."
+        },
+        {
+          "stt": 11,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "了 (le) - Hoàn thành / biến đổi trạng thái",
+          "cau_truc": "V + 了 (+O)  |  Câu + 了 (cuối câu)",
+          "giai_thich": "了 đứng sau động từ biểu thị hành động đã hoàn thành; 了 đứng cuối câu biểu thị sự biến đổi trạng thái, tình huống mới xuất hiện.",
+          "vi_du_han": "我吃饭了。天冷了。",
+          "vi_du_pinyin": "Wǒ chīfàn le. Tiān lěng le.",
+          "vi_du_nghia": "Tôi ăn cơm rồi. Trời lạnh rồi."
+        },
+        {
+          "stt": 12,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "正在...呢 - Đang diễn ra",
+          "cau_truc": "S + (正)在 + V + (呢)",
+          "giai_thich": "Diễn tả một hành động đang xảy ra tại thời điểm nói, tương đương thì tiếp diễn trong tiếng Anh.",
+          "vi_du_han": "我正在吃饭呢。",
+          "vi_du_pinyin": "Wǒ zhèngzài chīfàn ne.",
+          "vi_du_nghia": "Tôi đang ăn cơm."
+        },
+        {
+          "stt": 13,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "过 (guo) - Đã từng (kinh nghiệm)",
+          "cau_truc": "S + V + 过 + O",
+          "giai_thich": "Diễn tả một hành động đã từng xảy ra trong quá khứ, nhấn mạnh kinh nghiệm chứ không nhấn mạnh thời điểm hoàn thành.",
+          "vi_du_han": "我去过中国。",
+          "vi_du_pinyin": "Wǒ qùguo Zhōngguó.",
+          "vi_du_nghia": "Tôi đã từng đến Trung Quốc."
+        },
+        {
+          "stt": 14,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "也 (yě) và 都 (dōu) - Cũng và Đều",
+          "cau_truc": "S + 也/都 + V/Adj",
+          "giai_thich": "也 và 都 là phó từ, luôn đứng trước động từ hoặc tính từ, không đứng trước chủ ngữ. Nếu dùng cả hai thì 也 đứng trước 都.",
+          "vi_du_han": "我们也都是学生。",
+          "vi_du_pinyin": "Wǒmen yě dōu shì xuéshēng.",
+          "vi_du_nghia": "Chúng tôi cũng đều là học sinh."
+        },
+        {
+          "stt": 15,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "比 (bǐ) - So sánh hơn",
+          "cau_truc": "A + 比 + B + Adj (+ mức độ chênh lệch)",
+          "giai_thich": "Cấu trúc so sánh hơn cơ bản nhất trong tiếng Trung; không dùng 很 trước tính từ trong câu so sánh này.",
+          "vi_du_han": "他比我高一点儿。",
+          "vi_du_pinyin": "Tā bǐ wǒ gāo yìdiǎnr.",
+          "vi_du_nghia": "Anh ấy cao hơn tôi một chút."
+        },
+        {
+          "stt": 16,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "一点儿 và 有点儿",
+          "cau_truc": "Adj + 一点儿  |  有点儿 + Adj",
+          "giai_thich": "一点儿 đặt sau tính từ trong câu so sánh, nghĩa là \"một chút\". 有点儿 đặt trước tính từ, thường mang sắc thái không hài lòng, hơi tiêu cực.",
+          "vi_du_han": "这个大一点儿。我有点儿累。",
+          "vi_du_pinyin": "Zhège dà yìdiǎnr. Wǒ yǒudiǎnr lèi.",
+          "vi_du_nghia": "Cái này to hơn một chút. Tôi hơi mệt."
+        },
+        {
+          "stt": 17,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "想/要/能/可以/会 - Động từ năng nguyện",
+          "cau_truc": "S + 想/要/能/可以/会 + V",
+          "giai_thich": "想 (muốn, mong muốn chủ quan), 要 (muốn/sắp, ý chí mạnh hơn), 能 (có khả năng do thể chất/hoàn cảnh), 可以 (được phép), 会 (biết làm do học được, hoặc khả năng xảy ra).",
+          "vi_du_han": "我想去，但是我不会说汉语。",
+          "vi_du_pinyin": "Wǒ xiǎng qù, dànshì wǒ bú huì shuō Hànyǔ.",
+          "vi_du_nghia": "Tôi muốn đi, nhưng tôi không biết nói tiếng Hán."
+        },
+        {
+          "stt": 18,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "从...到... - Từ...đến...",
+          "cau_truc": "从 + điểm bắt đầu + 到 + điểm kết thúc",
+          "giai_thich": "Dùng cho cả thời gian và địa điểm để chỉ phạm vi bắt đầu - kết thúc.",
+          "vi_du_han": "我从八点到十点上班。",
+          "vi_du_pinyin": "Wǒ cóng bā diǎn dào shí diǎn shàngbān.",
+          "vi_du_nghia": "Tôi làm việc từ 8 giờ đến 10 giờ."
+        },
+        {
+          "stt": 19,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "快...了 / 要...了 - Sắp... rồi",
+          "cau_truc": "(快)要 + V + 了",
+          "giai_thich": "Diễn tả một sự việc sắp sửa xảy ra trong tương lai gần.",
+          "vi_du_han": "火车快到了。",
+          "vi_du_pinyin": "Huǒchē kuài dào le.",
+          "vi_du_nghia": "Tàu sắp đến rồi."
+        },
+        {
+          "stt": 20,
+          "cap_do": "HSK2",
+          "diem_ngu_phap": "Bổ ngữ chỉ phương hướng đơn giản",
+          "cau_truc": "V + 上/下/进/出/回/过 + 来/去",
+          "giai_thich": "Bổ ngữ chỉ phương hướng đứng sau động từ để chỉ hướng di chuyển của hành động, hướng về phía người nói (来) hoặc rời xa người nói (去).",
+          "vi_du_han": "请进来！他回去了。",
+          "vi_du_pinyin": "Qǐng jìnlái! Tā huíqù le.",
+          "vi_du_nghia": "Mời vào! Anh ấy đã về rồi."
+        },
+        {
+          "stt": 21,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "把 (bǎ) - Câu chữ Bả",
+          "cau_truc": "S + 把 + O + V + bổ ngữ/thành phần khác",
+          "giai_thich": "Dùng khi muốn nhấn mạnh kết quả tác động lên tân ngữ xác định; động từ không được đứng trơ trọi một mình mà phải có thành phần bổ sung phía sau (bổ ngữ, 了, trùng điệp...).",
+          "vi_du_han": "我把书放在桌子上了。",
+          "vi_du_pinyin": "Wǒ bǎ shū fàng zài zhuōzi shàng le.",
+          "vi_du_nghia": "Tôi đã đặt sách lên bàn."
+        },
+        {
+          "stt": 22,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "被 (bèi) - Câu bị động",
+          "cau_truc": "S(bị tác động) + 被 + (tác nhân) + V + bổ ngữ",
+          "giai_thich": "Diễn tả chủ ngữ chịu sự tác động của hành động, thường mang sắc thái không mong muốn hoặc bị ảnh hưởng. Tác nhân gây ra hành động có thể được lược bỏ.",
+          "vi_du_han": "我的手机被他拿走了。",
+          "vi_du_pinyin": "Wǒ de shǒujī bèi tā ná zǒu le.",
+          "vi_du_nghia": "Điện thoại của tôi bị anh ấy lấy đi rồi."
+        },
+        {
+          "stt": 23,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "Bổ ngữ kết quả (结果补语)",
+          "cau_truc": "V + 完/好/到/懂/见/错",
+          "giai_thich": "Đứng ngay sau động từ chính để bổ sung kết quả của hành động: 完 (xong), 好 (xong, ổn thỏa), 到 (đạt tới), 懂 (hiểu), 见 (thấy, cảm nhận được), 错 (sai, nhầm).",
+          "vi_du_han": "我做完作业了。",
+          "vi_du_pinyin": "Wǒ zuò wán zuòyè le.",
+          "vi_du_nghia": "Tôi làm xong bài tập rồi."
+        },
+        {
+          "stt": 24,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "Bổ ngữ khả năng (可能补语)",
+          "cau_truc": "V + 得/不 + bổ ngữ",
+          "giai_thich": "Chèn 得 (có thể) hoặc 不 (không thể) vào giữa động từ và bổ ngữ kết quả/xu hướng để diễn tả khả năng thực hiện được hay không.",
+          "vi_du_han": "我听得懂，他听不懂。",
+          "vi_du_pinyin": "Wǒ tīng de dǒng, tā tīng bu dǒng.",
+          "vi_du_nghia": "Tôi nghe hiểu được, anh ấy nghe không hiểu."
+        },
+        {
+          "stt": 25,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "虽然...但是... - Tuy...nhưng...",
+          "cau_truc": "虽然 + Mệnh đề 1，但是 + Mệnh đề 2",
+          "giai_thich": "Liên từ chỉ sự nhượng bộ, dùng để nối hai mệnh đề có ý nghĩa tương phản.",
+          "vi_du_han": "虽然很累，但是很开心。",
+          "vi_du_pinyin": "Suīrán hěn lèi, dànshì hěn kāixīn.",
+          "vi_du_nghia": "Tuy mệt nhưng rất vui."
+        },
+        {
+          "stt": 26,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "因为...所以... - Vì...nên...",
+          "cau_truc": "因为 + Nguyên nhân，所以 + Kết quả",
+          "giai_thich": "Liên từ chỉ quan hệ nhân quả, có thể lược bỏ một trong hai vế nếu ngữ cảnh đã rõ.",
+          "vi_du_han": "因为下雨，所以我们不去了。",
+          "vi_du_pinyin": "Yīnwèi xiàyǔ, suǒyǐ wǒmen bú qù le.",
+          "vi_du_nghia": "Vì trời mưa nên chúng tôi không đi nữa."
+        },
+        {
+          "stt": 27,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "如果...就... - Nếu...thì...",
+          "cau_truc": "如果 + Điều kiện，就 + Kết quả",
+          "giai_thich": "Liên từ chỉ quan hệ giả thiết - kết quả.",
+          "vi_du_han": "如果你有空，就来找我。",
+          "vi_du_pinyin": "Rúguǒ nǐ yǒu kòng, jiù lái zhǎo wǒ.",
+          "vi_du_nghia": "Nếu bạn rảnh thì đến tìm tôi."
+        },
+        {
+          "stt": 28,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "越来越 / 越...越... - Càng ngày càng / Càng...càng...",
+          "cau_truc": "越来越 + Adj/V  |  越 + A，越 + B",
+          "giai_thich": "越来越 diễn tả một xu hướng thay đổi tăng dần theo thời gian; 越...越... diễn tả hai sự việc tăng/giảm tương ứng với nhau.",
+          "vi_du_han": "天气越来越冷了。你越说我越不明白。",
+          "vi_du_pinyin": "Tiānqì yuè lái yuè lěng le. Nǐ yuè shuō wǒ yuè bù míngbái.",
+          "vi_du_nghia": "Thời tiết càng ngày càng lạnh. Bạn càng nói tôi càng không hiểu."
+        },
+        {
+          "stt": 29,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "一边...一边... - Vừa...vừa...",
+          "cau_truc": "S + 一边 + V1 + 一边 + V2",
+          "giai_thich": "Diễn tả hai hành động xảy ra đồng thời, do cùng một chủ thể thực hiện.",
+          "vi_du_han": "他一边吃饭一边看电视。",
+          "vi_du_pinyin": "Tā yìbiān chīfàn yìbiān kàn diànshì.",
+          "vi_du_nghia": "Anh ấy vừa ăn cơm vừa xem tivi."
+        },
+        {
+          "stt": 30,
+          "cap_do": "HSK3",
+          "diem_ngu_phap": "不但...而且... - Không những...mà còn...",
+          "cau_truc": "不但 + Vế 1，而且 + Vế 2",
+          "giai_thich": "Liên từ chỉ quan hệ tăng tiến, vế sau bổ sung thêm ý nghĩa cho vế trước theo chiều hướng mạnh hơn.",
+          "vi_du_han": "她不但漂亮，而且聪明。",
+          "vi_du_pinyin": "Tā búdàn piàoliang, érqiě cōngmíng.",
+          "vi_du_nghia": "Cô ấy không những xinh đẹp mà còn thông minh."
+        },
+        {
+          "stt": 31,
+          "cap_do": "HSK4",
+          "diem_ngu_phap": "除了...以外，都/也... - Ngoại trừ...ra...",
+          "cau_truc": "除了 + A + 以外，(S còn lại) + 都/也 + V",
+          "giai_thich": "除了...都 nghĩa là loại trừ đối tượng A ra khỏi nhóm còn lại; 除了...也/还 nghĩa là bổ sung thêm ngoài A ra còn có thêm B nữa (không loại trừ).",
+          "vi_du_han": "除了他以外，我们都去了。",
+          "vi_du_pinyin": "Chúle tā yǐwài, wǒmen dōu qù le.",
+          "vi_du_nghia": "Ngoài anh ấy ra, chúng tôi đều đã đi."
+        },
+        {
+          "stt": 32,
+          "cap_do": "HSK4",
+          "diem_ngu_phap": "只有...才... - Chỉ có...mới...",
+          "cau_truc": "只有 + Điều kiện duy nhất，才 + Kết quả",
+          "giai_thich": "Nhấn mạnh đây là điều kiện duy nhất để đạt được kết quả, ngữ khí mạnh hơn 如果...就.",
+          "vi_du_han": "只有努力，才能成功。",
+          "vi_du_pinyin": "Zhǐyǒu nǔlì, cái néng chénggōng.",
+          "vi_du_nghia": "Chỉ có nỗ lực, mới có thể thành công."
+        },
+        {
+          "stt": 33,
+          "cap_do": "HSK4",
+          "diem_ngu_phap": "是...的 - Nhấn mạnh thời gian/địa điểm/cách thức",
+          "cau_truc": "S + 是 + (thời gian/địa điểm/cách thức) + V + 的",
+          "giai_thich": "Dùng để nhấn mạnh một chi tiết cụ thể (khi nào, ở đâu, bằng cách nào) của một hành động đã xảy ra rồi, chứ không dùng để hỏi hành động có xảy ra hay không.",
+          "vi_du_han": "我是昨天来的。",
+          "vi_du_pinyin": "Wǒ shì zuótiān lái de.",
+          "vi_du_nghia": "Tôi đến là vào hôm qua (nhấn mạnh thời điểm)."
+        },
+        {
+          "stt": 34,
+          "cap_do": "HSK4",
+          "diem_ngu_phap": "Bổ ngữ thời lượng (时量补语)",
+          "cau_truc": "V + (了) + khoảng thời gian + (O)",
+          "giai_thich": "Đứng sau động từ để chỉ khoảng thời gian hành động đã kéo dài, khác với bổ ngữ chỉ thời điểm.",
+          "vi_du_han": "我学了三年汉语。",
+          "vi_du_pinyin": "Wǒ xuéle sān nián Hànyǔ.",
+          "vi_du_nghia": "Tôi đã học tiếng Hán ba năm."
+        }
       ]
     }
   }
