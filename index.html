@@ -1489,7 +1489,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v27';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v28';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -1507,14 +1507,17 @@
     }
 
     async function fetchJsonWithCache(url, fallbackMessage = 'Không thể tải dữ liệu.') {
+      const sep = url.includes('?') ? '&' : '?';
+      const cacheBustUrl = `${url}${sep}_v=${APP_CACHE_NAME}`;
       try {
-        const response = await fetch(url);
+        const response = await fetch(cacheBustUrl, { cache: 'reload' });
         if (response && response.ok) {
           const cloneForCache = response.clone();
           const data = await response.json();
           if ('caches' in window) {
             caches.open(APP_CACHE_NAME).then(cache => {
               cache.put(url, cloneForCache).catch(() => {});
+              cache.put(cacheBustUrl, cloneForCache).catch(() => {});
             }).catch(() => {});
           }
           return data;
@@ -1526,7 +1529,10 @@
       if ('caches' in window) {
         try {
           const cache = await caches.open(APP_CACHE_NAME);
-          const cachedResponse = await cache.match(url, { ignoreSearch: true });
+          let cachedResponse = await cache.match(cacheBustUrl, { ignoreSearch: true });
+          if (!cachedResponse) {
+            cachedResponse = await cache.match(url, { ignoreSearch: true });
+          }
           if (cachedResponse) {
             return await cachedResponse.json();
           }
@@ -2139,7 +2145,7 @@
     // --- LOI KHUYEN THAN Y LOGIC ---
     async function loadThanYData() {
       loadThanYNotes();
-      if (thanYData) {
+      if (thanYData && Array.isArray(thanYData.danh_y_123_tuoi) && thanYData.danh_y_123_tuoi.length >= 100) {
         renderThanY();
         return;
       }

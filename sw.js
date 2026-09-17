@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tho-ve-cuoc-song-v27';
+const CACHE_NAME = 'tho-ve-cuoc-song-v28';
 const ASSETS = [
   './',
   './index.html',
@@ -49,14 +49,15 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(request.url);
   const isSameOrigin = url.origin === self.location.origin;
-  const isStaticAsset = request.destination === 'document' || request.destination === 'script' || request.destination === 'style' || request.destination === 'image' || request.destination === 'manifest' || request.destination === 'font' || request.url.includes('.json') || request.url.includes('.png');
 
   if (!isSameOrigin) return;
 
-  if (request.mode === 'navigate') {
+  if (request.mode === 'navigate' || request.url.includes('.json')) {
     event.respondWith(networkFirst(request));
     return;
   }
+
+  const isStaticAsset = request.destination === 'document' || request.destination === 'script' || request.destination === 'style' || request.destination === 'image' || request.destination === 'manifest' || request.destination === 'font' || request.url.includes('.png');
 
   if (isStaticAsset) {
     event.respondWith(cacheFirst(request));
