@@ -1,0 +1,310 @@
+{
+  "tong_quan": {
+    "tieu_de": "📜 Tứ Thư Ngũ Kinh — Nền Tảng Tư Duy & Đạo Đức Cổ Nhân",
+    "loi_dan": "Chín bộ sách kinh điển là tinh hoa cốt lõi của văn hóa Á Đông. Không phải để học thuộc lòng suông, mà để soi chiếu vào bản thân, ứng xử đúng đắn, làm việc bền vững và nuôi dưỡng tâm hồn.",
+    "ba_khang_dinh": [
+      {
+        "tieu_de": "Tứ Thư = Nền tảng Tu thân, Trị gia & Xử thế",
+        "noi_dung": "Đại Học, Trung Dung, Luận Ngữ, Mạnh Tử là 4 tác phẩm gối đầu giường giúp con người hoàn thiện nhân cách từ gốc rễ nội tâm."
+      },
+      {
+        "tieu_de": "Ngũ Kinh = Quy luật Thiên địa, Lịch sử, Lễ nghĩa & Thi ca",
+        "noi_dung": "Kinh Dịch, Kinh Thư, Kinh Thi, Kinh Lễ, Kinh Xuân Thu phản ánh trọn vẹn quy luật vận động của vũ trụ, xã hội và chiều sâu cảm xúc con người."
+      },
+      {
+        "tieu_de": "Mục tiêu tối thượng: Người tốt ➔ Việc đúng ➔ Đời bình yên",
+        "noi_dung": "Mọi bài học của cổ nhân đều hướng đến việc rèn luyện con người sống có trách nhiệm, giữ trọn chữ Tâm và kiến tạo một cuộc đời an lạc, thịnh vượng."
+      }
+    ]
+  },
+  "tu_thu": [
+    {
+      "id": "dai_hoc",
+      "ten_sach": "Đại Học",
+      "bieu_tuong": "🏛️",
+      "tac_gia": "Tăng Tử (Học trò xuất sắc của Khổng Tử)",
+      "tu_tuong_cot_loi": "Tu thân → Tề gia → Trị quốc → Bình thiên hạ",
+      "y_nghia_tong_quat": "Đại Học là lộ trình hoàn thiện con người từ bên trong ra bên ngoài. Muốn làm việc lớn, trước hết phải sửa mình; không đòi hỏi người khác khi chính mình chưa gương mẫu.",
+      "sau_buoc_hoan_thien": [
+        {
+          "buoc": 1,
+          "ten": "Cách vật trí tri",
+          "giai_thich": "Nghiên cứu thấu đáo bản chất sự vật, quan sát thực tế khách quan, không vội tin theo lời đồn đoán phiến diện."
+        },
+        {
+          "buoc": 2,
+          "ten": "Thành ý",
+          "giai_thich": "Thành thật với lòng mình, suy nghĩ trong sáng, không tự dối mình cũng không lừa dối người khác."
+        },
+        {
+          "buoc": 3,
+          "ten": "Chính tâm",
+          "giai_thich": "Loại bỏ những tâm lý thiên lệch (giận dữ, sợ hãi, ham muốn thái quá), giữ cho tâm trí luôn ngay thẳng, bình tĩnh."
+        },
+        {
+          "buoc": 4,
+          "ten": "Tu thân",
+          "giai_thich": "Sửa chữa lỗi lầm, rèn luyện hành vi, cử chỉ, lời ăn tiếng nói và đạo đức mỗi ngày."
+        },
+        {
+          "buoc": 5,
+          "ten": "Tề gia",
+          "giai_thich": "Gia đình hòa thuận, kính trên nhường dưới, bản thân làm gương sáng cho con cháu noi theo."
+        },
+        {
+          "buoc": 6,
+          "ten": "Trị quốc & Bình thiên hạ",
+          "giai_thich": "Dùng đức hạnh và sự công bằng để dẫn dắt tập thể, xã hội, kiến tạo sự thái bình lâu dài."
+        }
+      ],
+      "loi_vang": "Người muốn trị quốc trước hết phải tề gia. Chưa từng có ai bản thân chưa sửa, nhà chưa yên mà lại có thể gánh vác thiên hạ.",
+      "ung_dung_thuc_te": "Khi gặp khó khăn trong công việc hay quản lý gia đình, hãy quay lại nhìn nhận và sửa mình trước thay vì oán trách ngoại cảnh."
+    },
+    {
+      "id": "trung_dung",
+      "ten_sach": "Trung Dung",
+      "bieu_tuong": "⚖️",
+      "tac_gia": "Tử Tư (Khổng Cấp — Cháu nội Khổng Tử)",
+      "tu_tuong_cot_loi": "Không thái quá, không bất cập — Giữ đúng mực độ và sự cân bằng",
+      "y_nghia_tong_quat": "Trung Dung không phải là sự thỏa hiệp ba phải hay tầm thường nhạt nhòa, mà là nghệ thuật giữ trạng thái cân bằng động, hợp tình, hợp lý, chuẩn mực trong mọi hoàn cảnh.",
+      "dac_diem_quan_tu": [
+        "Cư xử đúng mực, không cuồng nhiệt thái quá cũng không lạnh lùng thờ ơ.",
+        "Nói năng giữ chữ tín, hành động thận trọng, chắc chắn, làm đến nơi đến chốn.",
+        "Không sợ hãi nịnh bợ người trên, không coi thường khinh khi kẻ dưới.",
+        "Thời cơ đến thì quyết liệt hành động, thời cơ chưa thuận thì kiên nhẫn tích lũy nội lực."
+      ],
+      "loi_vang": "Đạo trung dung ai cũng dễ biết, nhưng ít người đi được đến cùng — bởi vì thiếu sự kiên trì và tiết chế dục vọng.",
+      "ung_dung_thuc_te": "Trong đầu tư, ăn uống, quan hệ và công việc: mọi thứ vừa đủ luôn là tốt nhất và bền bỉ nhất."
+    },
+    {
+      "id": "luan_ngu",
+      "ten_sach": "Luận Ngữ",
+      "bieu_tuong": "📖",
+      "tac_gia": "Khổng Tử và các môn đệ ghi chép",
+      "tu_tuong_cot_loi": "Ngũ Thường: Nhân • Nghĩa • Lễ • Trí • Tín",
+      "y_nghia_tong_quat": "Luận Ngữ là tập hợp những mẩu đối thoại, lời dặn dò dung dị nhưng sâu sắc của Vạn Thế Sư Biểu Khổng Tử về cách làm người, học tập, kết giao và quản trị.",
+      "ngu_duc_goc": [
+        {
+          "duc": "Nhân",
+          "y_nghia": "Lòng yêu thương, nhân ái, trắc ẩn bao dung",
+          "ung_dung": "Không làm hại ai, luôn sẵn lòng giúp đỡ người khác khi có thể."
+        },
+        {
+          "duc": "Nghĩa",
+          "y_nghia": "Làm việc đúng đắn theo lẽ phải, dám gánh vác trách nhiệm",
+          "ung_dung": "Không tham lợi bất chính, không trốn tránh bổn phận."
+        },
+        {
+          "duc": "Lễ",
+          "y_nghia": "Phép tắc, sự tôn trọng, khiêm nhường",
+          "ung_dung": "Nói năng hòa nhã, tôn trọng người già trẻ nhỏ, không ngạo mạn."
+        },
+        {
+          "duc": "Trí",
+          "y_nghia": "Trí tuệ, sự sáng suốt, học hỏi không ngừng",
+          "ung_dung": "Biết phân biệt đúng sai, suy nghĩ chín chắn trước khi hành động."
+        },
+        {
+          "duc": "Tín",
+          "y_nghia": "Giữ lời hứa, trung thực, đáng tin cậy",
+          "ung_dung": "Đã hứa thì quyết làm, không hứa suông lừa dối."
+        }
+      ],
+      "bai_hoc_chinh": [
+        "Học không ngừng: 'Học mà thường xuyên ôn tập, chẳng vui lắm sao?'",
+        "Kết giao bạn bè: 'Bạn ngay thẳng, bạn chân thành, bạn hiểu biết rộng là ba người bạn có ích.'",
+        "Không áp đặt: 'Kỷ sở bất dục, vật thi ư nhân' — Điều gì mình không muốn, chớ làm cho người khác.",
+        "Dũng cảm sửa lỗi: 'Có lỗi mà không chịu sửa, đó mới chính là lỗi lầm thật sự.'"
+      ],
+      "loi_vang": "Người quân tử hòa hợp mà không a dua hùa theo; kẻ tiểu nhân a dua hùa theo mà không thật lòng hòa hợp.",
+      "ung_dung_thuc_te": "Sống chân thành, giữ lời hứa và không ngừng học hỏi từ mọi người xung quanh."
+    },
+    {
+      "id": "manh_tu",
+      "ten_sach": "Mạnh Tử",
+      "bieu_tuong": "🦁",
+      "tac_gia": "Mạnh Tử (Mạnh Kha — Á Thánh)",
+      "tu_tuong_cot_loi": "Nhân chi sơ tính bản thiện & Khí phách Đại Trượng Phu",
+      "y_nghia_tong_quat": "Mạnh Tử phát triển thuyết tính thiện, đề cao nhân chính và khí phách hiên ngang của kẻ sĩ giữa trời đất.",
+      "bon_tam_goc": [
+        {
+          "tam": "Tâm trắc ẩn (Xót thương đồng cảm)",
+          "duc": "Gốc của lòng NHÂN"
+        },
+        {
+          "tam": "Tâm tu ố (Biết xấu hổ, ghét điều ác)",
+          "duc": "Gốc của đức NGHĨA"
+        },
+        {
+          "tam": "Tâm từ nhượng (Kính cẩn, nhường nhịn)",
+          "duc": "Gốc của đức LỄ"
+        },
+        {
+          "tam": "Tâm thị phi (Phân định rõ đúng sai)",
+          "duc": "Gốc của đức TRÍ"
+        }
+      ],
+      "khi_phach_dai_truong_phu": [
+        "Phú quý bất năng dâm — Giàu sang không sa đọa, phóng đãng.",
+        "Bần tiện bất năng di — Nghèo khó không đổi lòng, không mất khí tiết.",
+        "Uy vũ bất năng khuất — Quyền lực, bạo lực không thể khuất phục."
+      ],
+      "quan_diem_chinh_tri": "Dân vi quý, xã tắc thứ chi, quân vi khinh (Dân là quý nhất, đất nước thứ hai, vua là nhẹ nhất).",
+      "loi_vang": "Trời sắp giao trọng trách lớn cho ai, tất trước hết phải làm cho khổ cực tâm chí, mệt mỏi gân cốt, đói khát thân thể... để tôi luyện bản lĩnh phi thường.",
+      "ung_dung_thuc_te": "Xem nghịch cảnh và gian nan là cơ hội rèn luyện ý chí sắt đá, luôn đứng về phía lẽ phải và bảo vệ người yếu thế."
+    }
+  ],
+  "ngu_kinh": [
+    {
+      "id": "kinh_dich",
+      "ten_sach": "Kinh Dịch (Chu Dịch)",
+      "bieu_tuong": "☯️",
+      "tac_gia": "Phục Hy, Chu Văn Vương, Chu Công, Khổng Tử",
+      "tu_tuong_cot_loi": "Quy luật biến dịch: Cực tắc biến, Biến tắc thông, Thông tắc cửu",
+      "y_nghia_tong_quat": "Kinh Dịch là ngọn đuốc soi sáng quy luật biến đổi của vũ trụ và nhân sinh thông qua hệ thống Âm Dương, Bát Quái và 64 Quẻ Dịch.",
+      "bai_hoc_cot_loi": [
+        "Không có gì là bất biến vĩnh viễn: Vạn vật luôn chuyển hóa tuần hoàn theo chu kỳ.",
+        "Tùy thời ứng biến: Biết nhận diện thời cơ để tiến hay thoái đúng lúc, đúng vị thế.",
+        "Đức dày thắng vận số: Tướng mạo hay quẻ tốt không bằng tích đức hành thiện (Hậu đức tải vật)."
+      ],
+      "loi_vang": "Quẻ không có tốt xấu cố định. Cách ứng xử và đạo đức của con người quyết định cát hung.",
+      "lien_ket_module": "kinhdich",
+      "ung_dung_thuc_te": "Xem xét thời thế khi ra quyết định quan trọng trong đầu tư, công việc và cuộc sống."
+    },
+    {
+      "id": "kinh_thu",
+      "ten_sach": "Kinh Thư (Thượng Thư)",
+      "bieu_tuong": "📜",
+      "tac_gia": "Sử quan và các bậc minh quân cổ đại ghi chép",
+      "tu_tuong_cot_loi": "Gương báu trị quốc: Ý dân là ý trời (Thiên thính tự dân thính)",
+      "y_nghia_tong_quat": "Tập hợp các văn kiện lịch sử, chiếu thư, lời thề của các bậc minh quân như Nghiêu, Thuấn, Vũ, Thang, Văn, Vũ... đúc kết quy luật hưng suy của quốc gia và tổ chức.",
+      "bai_hoc_cot_loi": [
+        "Vua hiền (thịnh vượng): Cần kiệm, lắng nghe người tài đức, thương yêu dân chúng.",
+        "Vua tối (suy vong): Xa lánh trung thần, nghe lời xu nịnh, ăn chơi xa hoa phóng túng.",
+        "Đạo lý lãnh đạo: Người đứng đầu phải chí công vô tư, lấy đức phục người chứ không chỉ dựa vào hình phạt."
+      ],
+      "loi_vang": "Trời không thiên vị ai, chỉ che chở và phù hộ cho người có đạo đức và lòng nhân ái.",
+      "ung_dung_thuc_te": "Trong quản lý doanh nghiệp hay gia đình: Phải biết lắng nghe, công bằng, minh bạch và tiết kiệm."
+    },
+    {
+      "id": "kinh_thi",
+      "ten_sach": "Kinh Thi",
+      "bieu_tuong": "🪕",
+      "tac_gia": "Khổng Tử san định từ ca dao, thi ca dân gian (305 bài)",
+      "tu_tuong_cot_loi": "Nhân tình thuần hậu: Tư vô tà — Tấm lòng chân thực, trong sáng",
+      "y_nghia_tong_quat": "Kinh Thi chia làm 3 phần (Phong, Nhã, Tụng), phản ánh chân thực muôn mặt cảm xúc của con người: tình yêu đôi lứa, nỗi vất vả của người lao động, tình cảm gia đình và đạo nghĩa non sông.",
+      "bai_hoc_cot_loi": [
+        "Tình cảm chân thực không cần hoa mỹ: Vui mà không buông thả, buồn mà không tuyệt vọng.",
+        "Thấu hiểu tâm tư người khác: Muốn lãnh đạo hay chung sống hòa hợp, phải hiểu cảm xúc của con người.",
+        "Nuôi dưỡng tâm hồn trong sáng: Thơ ca giúp thanh lọc tâm trí, rèn luyện sự tinh tế và hướng thiện."
+      ],
+      "loi_vang": "Kinh Thi ba trăm bài, tóm lại một câu: Nghĩ không tà vạy (Tư vô tà) — giữ tấm lòng luôn thuần khiết, chân thật.",
+      "ung_dung_thuc_te": "Giữ gìn sự chân thành trong tình yêu, tình bạn và các mối quan hệ xã hội."
+    },
+    {
+      "id": "kinh_le",
+      "ten_sach": "Kinh Lễ (Lễ Ký)",
+      "bieu_tuong": "🤝",
+      "tac_gia": "Khổng Tử và các bậc hiền triết biên soạn",
+      "tu_tuong_cot_loi": "Lễ nghĩa là biểu hiện của sự tôn trọng và trật tự hòa hợp",
+      "y_nghia_tong_quat": "Kinh Lễ quy định các chuẩn mực ứng xử, nghi thức xã hội, đạo hiếu gia đình nhằm giữ gìn trật tự và sự hòa thuận giữa người với người.",
+      "bai_hoc_cot_loi": [
+        "Lễ không phải là hình thức cứng nhắc: Cốt lõi của Lễ là sự kính trọng xuất phát từ đáy lòng.",
+        "Kính người thì người kính lại: Cư xử nhã nhặn, tôn trọng ranh giới của nhau sẽ tránh được mọi xung đột.",
+        "Trật tự trên dưới rõ ràng: Kính già yêu trẻ, hòa thuận anh em tạo nên nền tảng gia đình vững chắc."
+      ],
+      "loi_vang": "Người mà không có Lễ thì không biết đứng vững thế nào giữa xã hội. Lễ giúp con người tự biết kiềm chế và hòa hợp.",
+      "ung_dung_thuc_te": "Luôn giữ thái độ lịch thiệp, tôn trọng người khác trong giao tiếp, hội họp và đời sống thường ngày."
+    },
+    {
+      "id": "xuan_thu",
+      "ten_sach": "Kinh Xuân Thu",
+      "bieu_tuong": "🗡️",
+      "tac_gia": "Khổng Tử trực tiếp biên soạn dựa trên sử nước Lỗ",
+      "tu_tuong_cot_loi": "Sử bút phân minh: Soi sáng đúng sai, phán xét thiện ác để răn dạy đời sau",
+      "y_nghia_tong_quat": "Cuốn biên niên sử đầu tiên dùng chữ nghĩa nghiêm cẩn để khen ngợi điều thiện, phê phán điều ác, làm cho những kẻ bất trung, bất hiếu phải kinh sợ trước gương sáng lịch sử.",
+      "bai_hoc_cot_loi": [
+        "Quy luật lịch sử không bao giờ sai: Gieo nhân lành gặt quả ngọt, tham tàn ắt chuốc lấy diệt vong.",
+        "Không có vương triều hay tổ chức nào trường tồn nếu đánh mất lòng dân và đạo đức.",
+        "Học từ sai lầm của người xưa: Nhìn lại quá khứ để không vấp ngã ở hiện tại và tương lai."
+      ],
+      "loi_vang": "Người xưa viết sách sử không phải để ghi sự kiện đơn thuần, mà để răn dạy hậu thế biết phân biệt đúng sai, giữ trọn đạo làm người.",
+      "ung_dung_thuc_te": "Biết nhìn xa trông rộng, rút kinh nghiệm từ những thất bại trong quá khứ để xây dựng tương lai bền vững."
+    }
+  ],
+  "bang_tong_hop": [
+    {
+      "stt": 1,
+      "sach": "Đại Học",
+      "thuoc": "Tứ Thư",
+      "tac_gia": "Tăng Tử",
+      "tu_tuong_cot_loi": "Tu thân trước, rồi mới tề gia trị quốc",
+      "ung_dung_thuc_tien": "Rèn luyện bản thân vững vàng trước khi gánh vác việc gia đình và sự nghiệp."
+    },
+    {
+      "stt": 2,
+      "sach": "Trung Dung",
+      "thuoc": "Tứ Thư",
+      "tac_gia": "Tử Tư",
+      "tu_tuong_cot_loi": "Giữ trạng thái cân bằng, không thái quá không bất cập",
+      "ung_dung_thuc_tien": "Sống chừng mực, đầu tư cẩn trọng, ăn uống điều độ, tránh mọi sự cực đoan."
+    },
+    {
+      "stt": 3,
+      "sach": "Luận Ngữ",
+      "thuoc": "Tứ Thư",
+      "tac_gia": "Khổng Tử & Môn sinh",
+      "tu_tuong_cot_loi": "Nhân, Nghĩa, Lễ, Trí, Tín; Kỷ sở bất dục vật thi ư nhân",
+      "ung_dung_thuc_tien": "Ứng xử chân thành, giữ lời hứa và không ngừng học hỏi mở rộng tầm nhìn."
+    },
+    {
+      "stt": 4,
+      "sach": "Mạnh Tử",
+      "thuoc": "Tứ Thư",
+      "tac_gia": "Mạnh Tử",
+      "tu_tuong_cot_loi": "Nhân chi sơ tính bản thiện; Khí phách đại trượng phu",
+      "ung_dung_thuc_tien": "Giữ vững khí tiết khi gian nan, biến nghịch cảnh thành cơ hội tôi luyện bản lĩnh."
+    },
+    {
+      "stt": 5,
+      "sach": "Kinh Dịch",
+      "thuoc": "Ngũ Kinh",
+      "tac_gia": "Phục Hy, Văn Vương...",
+      "tu_tuong_cot_loi": "Vạn vật luôn biến đổi; Tùy thời ứng biến theo chính đạo",
+      "ung_dung_thuc_tien": "Biết nhận diện thời cơ tiến/lùi, chủ động thích nghi với mọi biến động thị trường."
+    },
+    {
+      "stt": 6,
+      "sach": "Kinh Thư",
+      "thuoc": "Ngũ Kinh",
+      "tac_gia": "Sử quan cổ đại",
+      "tu_tuong_cot_loi": "Gương hưng suy trị quốc; Lòng dân là lòng trời",
+      "ung_dung_thuc_tien": "Lãnh đạo và quản lý bằng sự công tâm, liêm chính, tiết kiệm và lắng nghe."
+    },
+    {
+      "stt": 7,
+      "sach": "Kinh Thi",
+      "thuoc": "Ngũ Kinh",
+      "tac_gia": "Khổng Tử san định",
+      "tu_tuong_cot_loi": "Tình cảm chân thành thuần khiết; Tư vô tà",
+      "ung_dung_thuc_tien": "Gìn giữ tình cảm gia đình, tình bạn chân thật, không dùng sự hoa mỹ dối lừa."
+    },
+    {
+      "stt": 8,
+      "sach": "Kinh Lễ",
+      "thuoc": "Ngũ Kinh",
+      "tac_gia": "Khổng Tử & Hiền triết",
+      "tu_tuong_cot_loi": "Kính trọng người khác, giữ gìn chuẩn mực phép tắc",
+      "ung_dung_thuc_tien": "Cư xử lịch thiệp, tôn trọng người trên kẻ dưới để xây dựng môi trường hòa thuận."
+    },
+    {
+      "stt": 9,
+      "sach": "Kinh Xuân Thu",
+      "thuoc": "Ngũ Kinh",
+      "tac_gia": "Khổng Tử",
+      "tu_tuong_cot_loi": "Sử bút phân minh; Rút ra bài học từ quá khứ",
+      "ung_dung_thuc_tien": "Học từ lịch sử, không lặp lại sai lầm của người đi trước, nhìn xa trông rộng."
+    }
+  ],
+  "cau_ket_chot": "Tứ Thư Ngũ Kinh không phải để ngưỡng mộ ngày xưa, mà để sống đúng đắn hôm nay: Tu thân, giữ đạo, kính người, yêu đời."
+}
