@@ -3916,7 +3916,7 @@
       }
     };
 
-    window.renderTuThu = function() {
+        window.renderTuThu = function() {
       if (!tuThuNguKinhData) return;
       const searchVal = removeVietnameseTones((document.getElementById('tuthu-search')?.value || '').toLowerCase());
       const area = document.getElementById('tuthu-display-area');
@@ -3925,84 +3925,206 @@
 
       let cardsHtml = [];
 
-      // 1. Tứ Thư Cards
+      // 1. Tứ Thư Cards (Ultra-detailed)
       if (activeTuThuSubTab === 'all' || activeTuThuSubTab === 'tu_thu') {
         (tuThuNguKinhData.tu_thu || []).forEach(book => {
-          const fullContent = `${book.ten_sach} ${book.tac_gia} ${book.tu_tuong_cot_loi} ${book.y_nghia_tong_quat} ${book.loi_vang} ${book.ung_dung_thuc_te} ${JSON.stringify(book.sau_buoc_hoan_thien || '')} ${JSON.stringify(book.ngu_duc_goc || '')} ${JSON.stringify(book.bon_tam_goc || '')}`;
+          const fullContent = JSON.stringify(book);
           if (searchVal && !removeVietnameseTones(fullContent.toLowerCase()).includes(searchVal)) {
             return;
           }
 
           let extraContentHtml = '';
-          // Đại học 6 bước
-          if (book.sau_buoc_hoan_thien) {
+
+          // A. Đại Học
+          if (book.id === 'dai_hoc') {
             extraContentHtml = `
-              <div class="mt-3 pt-3 border-t border-slate-800/80">
-                <span class="text-xs font-bold text-amber-300 block mb-2">🛤️ 6 Bước Hoàn Thiện Nhân Cách:</span>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                  ${book.sau_buoc_hoan_thien.map(b => `
-                    <div class="p-2.5 rounded-xl bg-slate-900/80 border border-slate-800">
-                      <b class="text-yellow-400 block mb-0.5">${b.buoc}. ${b.ten}</b>
-                      <p class="text-slate-300 leading-relaxed text-[11px]">${b.giai_thich}</p>
-                    </div>
-                  `).join('')}
-                </div>
-              </div>
-            `;
-          }
-          // Trung dung đặc điểm
-          else if (book.dac_diem_quan_tu) {
-            extraContentHtml = `
-              <div class="mt-3 pt-3 border-t border-slate-800/80">
-                <span class="text-xs font-bold text-amber-300 block mb-1.5">⚖️ Đặc Điểm Cốt Lõi Người Quân Tử:</span>
-                <ul class="space-y-1 text-xs text-slate-300">
-                  ${book.dac_diem_quan_tu.map(d => `<li class="flex items-start gap-1.5"><span>✅</span> <span>${d}</span></li>`).join('')}
-                </ul>
-              </div>
-            `;
-          }
-          // Luận ngữ ngũ đức
-          else if (book.ngu_duc_goc) {
-            extraContentHtml = `
-              <div class="mt-3 pt-3 border-t border-slate-800/80">
-                <span class="text-xs font-bold text-amber-300 block mb-2">🌟 5 Đức Gốc (Ngũ Thường) & Ứng Dụng:</span>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 text-xs mb-2.5">
-                  ${book.ngu_duc_goc.map(d => `
-                    <div class="p-2.5 rounded-xl bg-slate-900/80 border border-slate-800">
-                      <b class="text-amber-400 block mb-0.5">✨ Đức ${d.duc}</b>
-                      <p class="text-slate-300 text-[11px] mb-1">${d.y_nghia}</p>
-                      <p class="text-emerald-300 font-semibold text-[10px] bg-slate-950 px-1.5 py-0.5 rounded border border-slate-800">👉 ${d.ung_dung}</p>
-                    </div>
-                  `).join('')}
-                </div>
-                <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-300 space-y-1">
-                  <b class="text-yellow-400 block mb-1">📚 Bài học rèn mình:</b>
-                  ${book.bai_hoc_chinh.map(b => `<p class="leading-relaxed text-[11px]">• ${b}</p>`).join('')}
-                </div>
-              </div>
-            `;
-          }
-          // Mạnh tử 4 tâm & đại trượng phu
-          else if (book.bon_tam_goc) {
-            extraContentHtml = `
-              <div class="mt-3 pt-3 border-t border-slate-800/80 space-y-2.5">
+              <div class="mt-4 pt-4 border-t border-slate-800 space-y-4">
+                <!-- Tam Cương Lĩnh -->
                 <div>
-                  <span class="text-xs font-bold text-amber-300 block mb-1.5">🌱 4 Mầm Thiện Tự Nhiên (Tứ Đoan):</span>
-                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                    ${book.bon_tam_goc.map(t => `
-                      <div class="p-2 rounded-xl bg-slate-900/80 border border-slate-800">
-                        <b class="text-yellow-300 block text-[11px]">${t.tam}</b>
-                        <span class="text-emerald-400 text-[10px] font-bold">➔ ${t.duc}</span>
+                  <span class="text-xs font-bold text-amber-300 block mb-2">⭐ Tam Cương Lĩnh (3 Tôn Chỉ Lớn):</span>
+                  <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+                    ${book.tam_cuong_linh.map(c => `
+                      <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-amber-500/30 transition-all">
+                        <b class="text-amber-400 block mb-1 text-xs">${c.ten}</b>
+                        <span class="text-[11px] text-yellow-300 font-semibold block mb-1">➔ ${c.dich_nghia}</span>
+                        <p class="text-slate-300 text-[11px] leading-relaxed">${c.giai_thich}</p>
                       </div>
                     `).join('')}
                   </div>
                 </div>
-                <div class="p-3 rounded-2xl bg-amber-950/25 border border-amber-500/20 text-xs">
-                  <span class="font-bold text-amber-300 block mb-1">🦁 Khí Phách Đại Trượng Phu:</span>
-                  <ul class="space-y-1 text-slate-200 text-[11px]">
-                    ${book.khi_phach_dai_truong_phu.map(k => `<li class="flex items-center gap-1.5"><span>🔹</span> <span>${k}</span></li>`).join('')}
-                  </ul>
-                  <p class="text-teal-300 font-bold mt-2 pt-1.5 border-t border-amber-500/20 text-[11px]">👑 Chính trị: ${book.quan_diem_chinh_tri}</p>
+
+                <!-- Bát Điều Mục -->
+                <div>
+                  <span class="text-xs font-bold text-amber-300 block mb-2">🛤️ Bát Điều Mục (8 Nấc Thang Hoàn Thiện):</span>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 text-xs">
+                    ${book.bat_dieu_muc.map(b => `
+                      <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800">
+                        <b class="text-yellow-400 block mb-0.5 text-xs">Bước ${b.buoc}: ${b.ten}</b>
+                        <p class="text-slate-300 leading-relaxed text-[11px]">${b.giai_thich}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Đạo Tạ Củ -->
+                ${book.nguyen_ly_dac_sac ? `
+                  <div class="p-3.5 rounded-2xl bg-amber-950/25 border border-amber-500/20 text-xs">
+                    <b class="text-amber-300 block mb-1">📐 ${book.nguyen_ly_dac_sac.ten}:</b>
+                    <p class="text-slate-200 text-[11px] leading-relaxed">${book.nguyen_ly_dac_sac.noi_dung}</p>
+                  </div>
+                ` : ''}
+              </div>
+            `;
+          }
+          // B. Trung Dung
+          else if (book.id === 'trung_dung') {
+            extraContentHtml = `
+              <div class="mt-4 pt-4 border-t border-slate-800 space-y-4">
+                <!-- Nguyên Lý Trọng Yếu -->
+                <div>
+                  <span class="text-xs font-bold text-amber-300 block mb-2">⚖️ Nguyên Lý Trọng Yếu:</span>
+                  <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+                    ${book.nguyen_ly_trong_yeu.map(n => `
+                      <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800">
+                        <b class="text-amber-400 block mb-1 text-xs">${n.ten}</b>
+                        <p class="text-slate-300 text-[11px] leading-relaxed">${n.giai_thich}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Tam Đạt Đức & Đặc Điểm Quân Tử -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <div class="p-3 rounded-2xl bg-slate-900/90 border border-slate-800 text-xs">
+                    <span class="text-amber-300 font-bold block mb-2">🌟 Tam Đạt Đức (Trí - Nhân - Dũng):</span>
+                    <div class="space-y-1.5 text-[11px]">
+                      ${book.tam_dat_duc.map(d => `
+                        <div class="p-1.5 rounded-lg bg-slate-950 border border-slate-800/80">
+                          <b class="text-yellow-400">${d.duc}:</b> <span class="text-slate-300">${d.giai_thich}</span>
+                        </div>
+                      `).join('')}
+                    </div>
+                  </div>
+
+                  <div class="p-3 rounded-2xl bg-slate-900/90 border border-slate-800 text-xs">
+                    <span class="text-amber-300 font-bold block mb-2">🛡️ 4 Đặc Điểm Người Quân Tử:</span>
+                    <ul class="space-y-1 text-[11px] text-slate-300">
+                      ${book.bon_dac_diem_quan_tu.map(d => `<li class="flex items-start gap-1.5"><span>✅</span> <span>${d}</span></li>`).join('')}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+          // C. Luận Ngữ
+          else if (book.id === 'luan_ngu') {
+            extraContentHtml = `
+              <div class="mt-4 pt-4 border-t border-slate-800 space-y-4">
+                <!-- Ngũ Thường -->
+                <div>
+                  <span class="text-xs font-bold text-amber-300 block mb-2">🌟 Ngũ Thường Toàn Diện (Nhân - Nghĩa - Lễ - Trí - Tín):</span>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs">
+                    ${book.ngu_thuong_toan_dien.map(d => `
+                      <div class="p-3 rounded-2xl bg-slate-900/90 border border-slate-800">
+                        <div class="flex items-center justify-between mb-1">
+                          <b class="text-amber-400 text-xs">Đức ${d.duc}</b>
+                          <span class="text-[10px] text-yellow-300 font-mono bg-slate-950 px-1.5 py-0.5 rounded border border-slate-800">${d.chu_han}</span>
+                        </div>
+                        <p class="text-slate-300 text-[11px] mb-1.5 leading-relaxed">${d.y_nghia}</p>
+                        <p class="text-emerald-300 text-[10px] font-semibold bg-emerald-950/20 px-2 py-1 rounded-lg border border-emerald-500/20">👉 ${d.ung_dung}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- 4 Bài Học Lớn & Quân Tử vs Tiểu Nhân -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 text-xs">
+                  <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <b class="text-amber-300 block mb-1">📚 4 Bài Học Trọng Yếu:</b>
+                    ${book.bon_bai_hoc_lon.map(b => `
+                      <div class="text-[11px] text-slate-300">
+                        <b class="text-yellow-400 block">${b.chu_de}</b>
+                        <p class="leading-relaxed">${b.noi_dung}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+
+                  <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
+                    <b class="text-amber-300 block mb-1">⚖️ So Sánh Quân Tử vs Tiểu Nhân:</b>
+                    <div class="space-y-1.5 text-[11px]">
+                      ${book.quan_tu_vs_tieu_nhan.map(q => `
+                        <div class="p-2 rounded-xl bg-slate-950 border border-slate-800/80">
+                          <span class="text-slate-400 font-semibold block text-[10px] mb-0.5">📌 ${q.tieu_chi}:</span>
+                          <p class="text-teal-300 font-medium">✓ ${q.quan_tu}</p>
+                          <p class="text-rose-300/80 font-medium">✗ ${q.tieu_nhan}</p>
+                        </div>
+                      `).join('')}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+          // D. Mạnh Tử
+          else if (book.id === 'manh_tu') {
+            extraContentHtml = `
+              <div class="mt-4 pt-4 border-t border-slate-800 space-y-4">
+                <!-- Tứ Đoan (4 Mầm Thiện) -->
+                <div>
+                  <span class="text-xs font-bold text-amber-300 block mb-2">🌱 Thuyết Tính Thiện & Tứ Đoan (4 Mầm Thiện Tự Nhiên):</span>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
+                    ${book.thuyet_tinh_thien_tu_doan.map(t => `
+                      <div class="p-3 rounded-2xl bg-slate-900/90 border border-slate-800">
+                        <b class="text-yellow-300 block text-xs mb-1">${t.tam}</b>
+                        <p class="text-slate-300 text-[11px] leading-relaxed mb-1.5">${t.bieu_hien}</p>
+                        <span class="text-emerald-400 text-[10px] font-bold block bg-slate-950 p-1 rounded text-center border border-slate-800">➔ ${t.duc_thanh}</span>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Khí Phách Đại Trượng Phu & Tư Tưởng Dân Vi Quý -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                  <div class="p-3.5 rounded-2xl bg-amber-950/25 border border-amber-500/25">
+                    <span class="font-bold text-amber-300 block mb-2">🦁 Khí Phách Đại Trượng Phu:</span>
+                    <div class="space-y-1.5 text-[11px]">
+                      ${book.khi_phach_dai_truong_phu.map(k => `
+                        <div class="p-2 rounded-xl bg-slate-950/80 border border-slate-800">
+                          <b class="text-yellow-400 block">${k.khau_quyet}</b>
+                          <p class="text-slate-300 mt-0.5">${k.giai_nghia}</p>
+                        </div>
+                      `).join('')}
+                    </div>
+                  </div>
+
+                  <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2">
+                    <span class="font-bold text-amber-300 block mb-1">👑 Tư Tưởng Chính Trị & Khí Hạo Nhiên:</span>
+                    ${book.tu_tuong_chinh_tri_xa_hoi.map(c => `
+                      <div class="text-[11px] text-slate-300 p-2 rounded-xl bg-slate-950 border border-slate-800">
+                        <b class="text-teal-300 block mb-0.5">${c.tieu_de}</b>
+                        <p class="leading-relaxed">${c.noi_dung}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+
+          // Trích dẫn kinh điển
+          let quotesHtml = '';
+          if (book.trich_dan_kinh_dien && book.trich_dan_kinh_dien.length > 0) {
+            quotesHtml = `
+              <div class="mt-3 pt-3 border-t border-slate-800/80">
+                <span class="text-xs font-bold text-amber-300 block mb-1.5">📜 Trích Dẫn Nguyên Tác Kinh Điển:</span>
+                <div class="space-y-2 text-xs">
+                  ${book.trich_dan_kinh_dien.map(q => `
+                    <div class="p-3 rounded-2xl bg-slate-950 border border-amber-500/20 text-xs">
+                      <p class="text-amber-300/90 font-mono text-[11px] mb-0.5">${q.chu_han}</p>
+                      <p class="text-yellow-400/80 text-[11px] italic mb-1">Phiên âm: ${q.phien_am}</p>
+                      <p class="text-slate-200 text-[11px] leading-relaxed font-serif">"Dịch nghĩa: ${q.dich_nghia}"</p>
+                    </div>
+                  `).join('')}
                 </div>
               </div>
             `;
@@ -4012,36 +4134,41 @@
           const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
           cardsHtml.push(`
-            <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border-amber-500/30 hover:border-amber-500/60 transition-all duration-300">
+            <div class="glass-card col-span-1 md:col-span-2 rounded-3xl p-6 md:p-8 flex flex-col justify-between border-slate-800 hover:border-amber-500/50 transition-all duration-300">
               <div>
-                <div class="flex items-center justify-between mb-3">
-                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 flex items-center gap-1.5">
-                    <span>${book.bieu_tuong}</span> Tứ Thư Cốt Lõi
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                  <span class="text-xs font-bold text-amber-300 bg-amber-500/10 px-3.5 py-1.5 rounded-full border border-amber-500/20 flex items-center gap-1.5">
+                    <span>${book.bieu_tuong}</span> Tứ Thư Kinh Điển
                   </span>
-                  <span class="text-xs text-slate-400 font-bold">${book.tac_gia}</span>
+                  <span class="text-xs text-slate-400 font-bold bg-slate-900 px-3 py-1 rounded-full border border-slate-800">${book.tac_gia}</span>
                 </div>
-                <h4 class="text-xl font-black font-display text-white mb-2">${book.ten_sach}</h4>
-                <div class="p-3 rounded-2xl bg-amber-500/10 border border-amber-500/25 text-xs text-amber-200 font-bold mb-3">
-                  🎯 ${book.tu_tuong_cot_loi}
+                <h4 class="text-2xl font-black font-display text-white mb-2 flex items-center gap-2">
+                  <span>${book.ten_sach}</span>
+                </h4>
+                <div class="p-3 rounded-2xl bg-amber-950/30 border border-amber-500/25 text-xs text-amber-200 font-bold mb-3">
+                  🎯 Tư tưởng cốt lõi: ${book.tu_tuong_cot_loi}
                 </div>
-                <p class="text-xs sm:text-sm text-slate-200 leading-relaxed mb-3">${book.y_nghia_tong_quat}</p>
-                
-                ${extraContentHtml}
+                <p class="text-xs sm:text-sm text-slate-200 leading-relaxed mb-2">${book.y_nghia_tong_quat}</p>
+                ${book.boi_canh_cau_truc ? `<p class="text-[11px] text-slate-400 italic mb-3">📖 ${book.boi_canh_cau_truc}</p>` : ''}
 
-                <div class="mt-4 p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 text-xs space-y-2">
-                  <p class="text-amber-200/90 italic font-serif leading-relaxed"><b class="text-amber-300 font-sans not-italic">💬 Lời vàng:</b> "${book.loi_vang}"</p>
-                  <p class="text-emerald-300 font-semibold pt-1 border-t border-slate-800/80"><b class="text-emerald-400">💡 Ứng dụng thực tế:</b> ${book.ung_dung_thuc_te}</p>
+                ${extraContentHtml}
+                ${quotesHtml}
+
+                <div class="mt-4 p-4 rounded-2xl bg-slate-900/90 border border-slate-800 text-xs space-y-2">
+                  <p class="text-amber-200/90 italic font-serif leading-relaxed"><b class="text-amber-300 font-sans not-italic">💬 Lời vàng đúc kết:</b> "${book.loi_vang}"</p>
+                  <p class="text-emerald-300 font-semibold pt-2 border-t border-slate-800"><b class="text-emerald-400">💡 Ứng dụng thực tế đời nay:</b> ${book.ung_dung_thuc_te}</p>
                 </div>
               </div>
 
-              <div class="mt-4 pt-3 border-t border-slate-800 flex justify-end">
+              <div class="mt-5 pt-3 border-t border-slate-800 flex items-center justify-between gap-2">
+                <span class="text-[10px] text-slate-500 font-mono">Tứ Thư • Cổ Học Tinh Hoa</span>
                 <button 
                   onclick="playTTS(event, '${safeSpeakText}', 'vi')"
-                  class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-amber-400 hover:text-white hover:bg-amber-950/40 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold shrink-0"
+                  class="px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-amber-400 hover:text-white hover:bg-amber-950/40 transition-all cursor-pointer flex items-center gap-1.5 text-xs font-bold shrink-0"
                   title="Nghe đọc nội dung"
                 >
-                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                  <span>Nghe</span>
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>Nghe Đọc</span>
                 </button>
               </div>
             </div>
@@ -4049,19 +4176,179 @@
         });
       }
 
-      // 2. Ngũ Kinh Cards
+      // 2. Ngũ Kinh Cards (Ultra-detailed)
       if (activeTuThuSubTab === 'all' || activeTuThuSubTab === 'ngu_kinh') {
         (tuThuNguKinhData.ngu_kinh || []).forEach(book => {
-          const fullContent = `${book.ten_sach} ${book.tac_gia} ${book.tu_tuong_cot_loi} ${book.y_nghia_tong_quat} ${book.loi_vang} ${book.ung_dung_thuc_te} ${JSON.stringify(book.bai_hoc_cot_loi || '')}`;
+          const fullContent = JSON.stringify(book);
           if (searchVal && !removeVietnameseTones(fullContent.toLowerCase()).includes(searchVal)) {
             return;
+          }
+
+          let extraContentHtml = '';
+
+          // A. Kinh Dịch
+          if (book.id === 'kinh_dich') {
+            extraContentHtml = `
+              <div class="mt-4 pt-4 border-t border-slate-800 space-y-4">
+                <!-- 3 Ý Nghĩa Chữ Dịch -->
+                <div>
+                  <span class="text-xs font-bold text-amber-300 block mb-2">☯️ Ba Nghĩa Của Chữ Dịch (Biến Dịch - Bất Dịch - Giản Dịch):</span>
+                  <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+                    ${book.ba_y_nghia_chu_dich.map(d => `
+                      <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800">
+                        <b class="text-amber-400 block mb-1 text-xs">${d.nguyen_ly}</b>
+                        <p class="text-slate-300 text-[11px] leading-relaxed">${d.giai_thich}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Quy Luật Chuyển Hóa & Quẻ Tiêu Biểu -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                  <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2">
+                    <span class="text-amber-300 font-bold block mb-1">🔄 Quy Luật Vận Hành Cốt Lõi:</span>
+                    ${book.quy_luat_chuyen_hoa_cot_loi.map(q => `
+                      <div class="text-[11px] text-slate-300 p-2 rounded-xl bg-slate-950 border border-slate-800">
+                        <b class="text-yellow-400 block mb-0.5">${q.tieu_de}</b>
+                        <p class="leading-relaxed">${q.noi_dung}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+
+                  <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2">
+                    <span class="text-amber-300 font-bold block mb-1">🏛️ Các Quẻ Cốt Lõi Dẫn Đường:</span>
+                    ${book.cac_que_tieu_bieu_ung_dung.map(q => `
+                      <div class="text-[11px] text-slate-300 p-2 rounded-xl bg-slate-950 border border-slate-800">
+                        <b class="text-teal-300 block mb-0.5">${q.ten_que}</b>
+                        <p class="leading-relaxed font-serif italic text-amber-200/90">"${q.dao_ly}"</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+          // B. Kinh Thư
+          else if (book.id === 'kinh_thu') {
+            extraContentHtml = `
+              <div class="mt-4 pt-4 border-t border-slate-800 space-y-3">
+                <span class="text-xs font-bold text-amber-300 block mb-1">👑 4 Trọng Điểm Trị Quốc & Đạo Đức Lãnh Đạo:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
+                  ${book.bai_hoc_tri_quoc_cot_loi.map(b => `
+                    <div class="p-3 rounded-2xl bg-slate-900/90 border border-slate-800">
+                      <b class="text-yellow-400 block mb-1 text-xs">${b.chu_de}</b>
+                      <p class="text-slate-300 text-[11px] leading-relaxed">${b.noi_dung}</p>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          }
+          // C. Kinh Thi
+          else if (book.id === 'kinh_thi') {
+            extraContentHtml = `
+              <div class="mt-4 pt-4 border-t border-slate-800 space-y-4">
+                <!-- Lục Nghĩa -->
+                <div>
+                  <span class="text-xs font-bold text-amber-300 block mb-2">🌸 Lục Nghĩa Kinh Thi (6 Phương Pháp & Thể Loại):</span>
+                  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 text-xs">
+                    ${book.luc_nghia_kinh_thi.map(l => `
+                      <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 text-center">
+                        <b class="text-amber-400 block mb-1 text-xs">${l.nghe_thuat}</b>
+                        <p class="text-slate-300 text-[10px] leading-snug">${l.giai_thich}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Giá Trị Giáo Dục Tâm Hồn -->
+                <div>
+                  <span class="text-xs font-bold text-amber-300 block mb-2">💖 3 Giá Trị Nuôi Dưỡng Tâm Hồn (Tư Vô Tà):</span>
+                  <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+                    ${book.gia_tri_giao_duc_tam_hon.map(g => `
+                      <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800">
+                        <b class="text-yellow-400 block mb-1 text-xs">${g.tieu_de}</b>
+                        <p class="text-slate-300 text-[11px] leading-relaxed">${g.noi_dung}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+          // D. Kinh Lễ
+          else if (book.id === 'kinh_le') {
+            extraContentHtml = `
+              <div class="mt-4 pt-4 border-t border-slate-800 space-y-3">
+                <span class="text-xs font-bold text-amber-300 block mb-1">🤝 Tinh Hoa Các Thiên Trọng Yếu Trong Kinh Lễ:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
+                  ${book.tinh_hoa_cac_thien_trong_yeu.map(t => `
+                    <div class="p-3 rounded-2xl bg-slate-900/90 border border-slate-800">
+                      <b class="text-yellow-400 block mb-1 text-xs">${t.thien}</b>
+                      <p class="text-slate-300 text-[11px] leading-relaxed">${t.noi_dung}</p>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          }
+          // E. Kinh Xuân Thu
+          else if (book.id === 'xuan_thu') {
+            extraContentHtml = `
+              <div class="mt-4 pt-4 border-t border-slate-800 space-y-4">
+                <!-- Xuân Thu Bút Pháp -->
+                <div>
+                  <span class="text-xs font-bold text-amber-300 block mb-2">⚖️ Đặc Sắc Xuân Thu Bút Pháp (Vi Ngôn Đại Nghĩa):</span>
+                  <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+                    ${book.dac_sac_xuan_thu_but_phap.map(b => `
+                      <div class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800">
+                        <b class="text-amber-400 block mb-1 text-xs">${b.nguyen_tac}</b>
+                        <p class="text-slate-300 text-[11px] leading-relaxed">${b.giai_thich}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Bài Học Lịch Sử -->
+                <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2 text-xs">
+                  <span class="text-amber-300 font-bold block mb-1">📜 Bài Học Nhân Quả Lịch Sử:</span>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
+                    ${book.bai_hoc_lich_su_cot_loi.map(l => `
+                      <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800">
+                        <b class="text-yellow-400 block mb-0.5">${l.bai_hoc}</b>
+                        <p class="text-slate-300 leading-relaxed">${l.noi_dung}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+
+          // Trích dẫn kinh điển
+          let quotesHtml = '';
+          if (book.trich_dan_kinh_dien && book.trich_dan_kinh_dien.length > 0) {
+            quotesHtml = `
+              <div class="mt-3 pt-3 border-t border-slate-800/80">
+                <span class="text-xs font-bold text-amber-300 block mb-1.5">📜 Trích Dẫn Nguyên Tác Kinh Điển:</span>
+                <div class="space-y-2 text-xs">
+                  ${book.trich_dan_kinh_dien.map(q => `
+                    <div class="p-3 rounded-2xl bg-slate-950 border border-teal-500/20 text-xs">
+                      <p class="text-amber-300/90 font-mono text-[11px] mb-0.5">${q.chu_han}</p>
+                      <p class="text-yellow-400/80 text-[11px] italic mb-1">Phiên âm: ${q.phien_am}</p>
+                      <p class="text-slate-200 text-[11px] leading-relaxed font-serif">"Dịch nghĩa: ${q.dich_nghia}"</p>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `;
           }
 
           let linkBtnHtml = '';
           if (book.lien_ket_module === 'kinhdich') {
             linkBtnHtml = `
-              <button onclick="switchMainTab('kinhdich')" class="text-xs font-bold text-amber-400 hover:text-white bg-amber-500/10 hover:bg-amber-500/20 px-3 py-1.5 rounded-xl border border-amber-500/30 transition-all cursor-pointer flex items-center gap-1">
-                <span>☯️</span> Khám phá Module Kinh Dịch ➔
+              <button onclick="switchMainTab('kinhdich')" class="text-xs font-bold text-amber-400 hover:text-white bg-amber-500/10 hover:bg-amber-500/20 px-3.5 py-2 rounded-xl border border-amber-500/30 transition-all cursor-pointer flex items-center gap-1.5">
+                <span>☯️</span> Mở Module Kinh Dịch 64 Quẻ ➔
               </button>
             `;
           }
@@ -4070,42 +4357,41 @@
           const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
           cardsHtml.push(`
-            <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border-slate-800 hover:border-amber-500/50 transition-all duration-300">
+            <div class="glass-card col-span-1 md:col-span-2 rounded-3xl p-6 md:p-8 flex flex-col justify-between border-slate-800 hover:border-teal-500/50 transition-all duration-300">
               <div>
-                <div class="flex items-center justify-between mb-3">
-                  <span class="text-xs font-bold text-teal-300 bg-teal-500/10 px-3 py-1 rounded-full border border-teal-500/20 flex items-center gap-1.5">
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                  <span class="text-xs font-bold text-teal-300 bg-teal-500/10 px-3.5 py-1.5 rounded-full border border-teal-500/20 flex items-center gap-1.5">
                     <span>${book.bieu_tuong}</span> Ngũ Kinh Cổ Điển
                   </span>
-                  <span class="text-xs text-slate-400 font-bold">${book.tac_gia}</span>
+                  <span class="text-xs text-slate-400 font-bold bg-slate-900 px-3 py-1 rounded-full border border-slate-800">${book.tac_gia}</span>
                 </div>
-                <h4 class="text-xl font-black font-display text-white mb-2">${book.ten_sach}</h4>
+                <h4 class="text-2xl font-black font-display text-white mb-2 flex items-center gap-2">
+                  <span>${book.ten_sach}</span>
+                </h4>
                 <div class="p-3 rounded-2xl bg-teal-950/30 border border-teal-500/25 text-xs text-teal-200 font-bold mb-3">
-                  📜 ${book.tu_tuong_cot_loi}
+                  📜 Tư tưởng cốt lõi: ${book.tu_tuong_cot_loi}
                 </div>
-                <p class="text-xs sm:text-sm text-slate-200 leading-relaxed mb-3">${book.y_nghia_tong_quat}</p>
+                <p class="text-xs sm:text-sm text-slate-200 leading-relaxed mb-2">${book.y_nghia_tong_quat}</p>
+                ${book.boi_canh_cau_truc ? `<p class="text-[11px] text-slate-400 italic mb-3">📖 ${book.boi_canh_cau_truc}</p>` : ''}
 
-                <div class="mt-3 pt-3 border-t border-slate-800/80">
-                  <span class="text-xs font-bold text-amber-300 block mb-2">💎 Bài Học Minh Triết:</span>
-                  <ul class="space-y-1.5 text-xs text-slate-300">
-                    ${(book.bai_hoc_cot_loi || []).map(b => `<li class="flex items-start gap-1.5 leading-relaxed"><span class="text-amber-400 mt-0.5">🔹</span> <span>${b}</span></li>`).join('')}
-                  </ul>
-                </div>
+                ${extraContentHtml}
+                ${quotesHtml}
 
-                <div class="mt-4 p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 text-xs space-y-2">
-                  <p class="text-amber-200/90 italic font-serif leading-relaxed"><b class="text-amber-300 font-sans not-italic">💬 Lời vàng:</b> "${book.loi_vang}"</p>
-                  <p class="text-emerald-300 font-semibold pt-1 border-t border-slate-800/80"><b class="text-emerald-400">💡 Ứng dụng thực tế:</b> ${book.ung_dung_thuc_te}</p>
+                <div class="mt-4 p-4 rounded-2xl bg-slate-900/90 border border-slate-800 text-xs space-y-2">
+                  <p class="text-amber-200/90 italic font-serif leading-relaxed"><b class="text-amber-300 font-sans not-italic">💬 Lời vàng đúc kết:</b> "${book.loi_vang}"</p>
+                  <p class="text-emerald-300 font-semibold pt-2 border-t border-slate-800"><b class="text-emerald-400">💡 Ứng dụng thực tế đời nay:</b> ${book.ung_dung_thuc_te}</p>
                 </div>
               </div>
 
-              <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between gap-2">
+              <div class="mt-5 pt-3 border-t border-slate-800 flex items-center justify-between gap-2">
                 <div>${linkBtnHtml}</div>
                 <button 
                   onclick="playTTS(event, '${safeSpeakText}', 'vi')"
-                  class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-amber-400 hover:text-white hover:bg-amber-950/40 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold shrink-0"
+                  class="px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-teal-400 hover:text-white hover:bg-teal-950/40 transition-all cursor-pointer flex items-center gap-1.5 text-xs font-bold shrink-0"
                   title="Nghe đọc nội dung"
                 >
-                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                  <span>Nghe</span>
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>Nghe Đọc</span>
                 </button>
               </div>
             </div>
@@ -4115,43 +4401,50 @@
 
       // 3. Bảng Tổng Hợp
       if (activeTuThuSubTab === 'all' || activeTuThuSubTab === 'bang_tong_hop') {
-        const rows = (tuThuNguKinhData.bang_tong_hop || []).filter(r => {
+        const tableRows = (tuThuNguKinhData.bang_tong_hop || []).filter(item => {
           if (!searchVal) return true;
-          return removeVietnameseTones(JSON.stringify(r).toLowerCase()).includes(searchVal);
-        });
+          const fullRow = `${item.loai} ${item.sach} ${item.tac_gia} ${item.chu_de} ${item.ung_dung} ${item.cau_noi}`;
+          return removeVietnameseTones(fullRow.toLowerCase()).includes(searchVal);
+        }).map((item, idx) => `
+          <tr class="border-b border-slate-800/80 hover:bg-slate-900/50 transition-colors">
+            <td class="py-3 px-3 font-semibold text-slate-400 whitespace-nowrap text-xs">${idx + 1}</td>
+            <td class="py-3 px-3 whitespace-nowrap">
+              <span class="text-xs font-bold px-2 py-0.5 rounded ${item.loai === 'Tứ Thư' ? 'bg-amber-500/10 text-amber-300 border border-amber-500/20' : 'bg-teal-500/10 text-teal-300 border border-teal-500/20'}">${item.loai}</span>
+            </td>
+            <td class="py-3 px-3 font-bold text-white whitespace-nowrap text-xs sm:text-sm">${item.sach}</td>
+            <td class="py-3 px-3 text-slate-300 whitespace-nowrap text-xs">${item.tac_gia}</td>
+            <td class="py-3 px-3 text-slate-200 text-xs leading-relaxed min-w-[180px]">${item.chu_de}</td>
+            <td class="py-3 px-3 text-emerald-300 text-xs leading-relaxed min-w-[200px]">${item.ung_dung}</td>
+            <td class="py-3 px-3 text-amber-200/90 font-serif italic text-xs leading-relaxed min-w-[220px]">"${item.cau_noi}"</td>
+          </tr>
+        `).join('');
 
-        if (rows.length > 0) {
+        if (tableRows) {
           cardsHtml.push(`
-            <div class="glass-card rounded-3xl p-6 col-span-full border-amber-500/30 overflow-hidden">
-              <div class="flex items-center justify-between mb-4">
-                <h4 class="text-lg font-black text-white font-display flex items-center gap-2">
-                  <span>📊</span> Bảng Tổng Hợp 9 Bộ Sách Kinh Điển & Ứng Dụng Thực Tiễn
-                </h4>
-                <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20">9 Bộ Sách</span>
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30">
+              <div class="flex items-center justify-between gap-3 mb-4">
+                <div>
+                  <h4 class="text-xl font-bold font-display text-amber-300 flex items-center gap-2">
+                    <span>📊</span> Bảng Tổng Đối Chiếu 9 Bộ Sách Tứ Thư Ngũ Kinh
+                  </h4>
+                  <p class="text-xs text-slate-400 mt-1">Tổng hợp cốt lõi, giá trị ứng dụng thực tiễn và câu nói kinh điển của từng tác phẩm.</p>
+                </div>
               </div>
-              <div class="overflow-x-auto">
-                <table class="w-full text-left text-xs text-slate-300">
+              <div class="overflow-x-auto rounded-2xl border border-slate-800">
+                <table class="w-full text-left text-xs border-collapse">
                   <thead>
-                    <tr class="border-b border-slate-800 text-slate-400 font-bold uppercase tracking-wider text-[11px]">
-                      <th class="py-3 px-2">STT</th>
-                      <th class="py-3 px-2">Tác Phẩm</th>
-                      <th class="py-3 px-2">Phân Loại</th>
-                      <th class="py-3 px-2">Tác Giả</th>
-                      <th class="py-3 px-2">Tư Tưởng Cốt Lõi</th>
-                      <th class="py-3 px-2">Ứng Dụng Đời Sống</th>
+                    <tr class="bg-slate-900/90 text-slate-400 font-bold uppercase tracking-wider text-[11px] border-b border-slate-800">
+                      <th class="py-3 px-3">#</th>
+                      <th class="py-3 px-3">Phân Loại</th>
+                      <th class="py-3 px-3">Tác Phẩm</th>
+                      <th class="py-3 px-3">Tác Giả / San Định</th>
+                      <th class="py-3 px-3">Chủ Đề Cốt Lõi</th>
+                      <th class="py-3 px-3">Ứng Dụng Thực Tiễn</th>
+                      <th class="py-3 px-3">Câu Nói Kinh Điển</th>
                     </tr>
                   </thead>
                   <tbody>
-                    ${rows.map(r => `
-                      <tr class="border-b border-slate-800/60 hover:bg-slate-900/40 transition-colors">
-                        <td class="py-3 px-2 font-mono text-slate-400 font-bold">#${r.stt}</td>
-                        <td class="py-3 px-2 font-bold text-white whitespace-nowrap">${r.sach}</td>
-                        <td class="py-3 px-2 whitespace-nowrap"><span class="px-2 py-0.5 rounded text-[10px] font-bold ${r.thuoc === 'Tứ Thư' ? 'bg-amber-500/20 text-amber-300' : 'bg-teal-500/20 text-teal-300'}">${r.thuoc}</span></td>
-                        <td class="py-3 px-2 text-slate-300 whitespace-nowrap">${r.tac_gia}</td>
-                        <td class="py-3 px-2 text-amber-200 font-medium">${r.tu_tuong_cot_loi}</td>
-                        <td class="py-3 px-2 text-slate-200 italic">${r.ung_dung_thuc_tien}</td>
-                      </tr>
-                    `).join('')}
+                    ${tableRows}
                   </tbody>
                 </table>
               </div>
@@ -4160,18 +4453,25 @@
         }
       }
 
-      if (countEl) countEl.textContent = `Tổng: ${cardsHtml.length} mục tri thức`;
+      // Câu kết chốt
+      if ((activeTuThuSubTab === 'all' || activeTuThuSubTab === 'bang_tong_hop') && !searchVal) {
+        cardsHtml.push(`
+          <div class="col-span-1 md:col-span-2 p-6 rounded-3xl bg-gradient-to-r from-amber-950/40 via-yellow-950/30 to-amber-950/40 border border-amber-500/30 text-center">
+            <p class="text-xs sm:text-sm font-serif italic text-amber-200 leading-relaxed">
+              "${tuThuNguKinhData.cau_ket_chot || 'Tứ Thư Ngũ Kinh không phải để ngưỡng mộ ngày xưa, mà để sống đúng đắn hôm nay: Tu thân, giữ đạo, kính người, yêu đời.'}"
+            </p>
+          </div>
+        `);
+      }
 
       if (cardsHtml.length === 0) {
-        area.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp với từ khóa.</p></div>`;
+        area.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 italic">Không tìm thấy nội dung phù hợp với từ khóa "${searchVal}".</div>`;
+        if (countEl) countEl.textContent = "0 nội dung";
       } else {
         area.innerHTML = cardsHtml.join('');
+        if (countEl) countEl.textContent = `Hiển thị: ${cardsHtml.length} mục chi tiết`;
       }
     };
-
-    document.getElementById('tuthu-search')?.addEventListener('input', () => {
-      renderTuThu();
-    });
 
     // --- GOUT MODULE LOGIC ---
     async function loadGoutData() {
