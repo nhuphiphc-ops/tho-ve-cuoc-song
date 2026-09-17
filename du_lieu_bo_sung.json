@@ -19,6 +19,7 @@
     "section_order": [
       "que_64",
       "bat_quai",
+      "cach_gieo_que",
       "nen_tang_am_duong_bat_quai",
       "nhan_dien_bien_doi",
       "ung_dung_thuc_te",
@@ -1228,7 +1229,223 @@
           "hanh_dong_dung": "Bắt đầu học từ những đạo lý xử thế đời thường trong Dịch (khiêm tốn, kiên nhẫn, biết tiến thoái đúng lúc) - ai cũng có thể tự học và ứng dụng dần dần."
         }
       ],
-      "thong_diep_cot_loi": "Kinh Dịch không nói người ta phải ra sao. Chỉ nói: Hiện tại đang như thế. Nếu tiếp tục thì sẽ ra sao. Muốn khác thì cần thay đổi như thế nào."
+      "thong_diep_cot_loi": "Kinh Dịch không nói người ta phải ra sao. Chỉ nói: Hiện tại đang như thế. Nếu tiếp tục thì sẽ ra sao. Muốn khác thì cần thay đổi như thế nào.",
+      "cach_gieo_que": {
+        "tieu_de": "Cách Gieo Quẻ Chuẩn — Đúng Truyền Thống & Thực Tế",
+        "loi_dan": "Gieo quẻ không phải cầu xin số phận, mà là lắng nghe thời thế. Tâm thành thì thông, ý chính thì rõ.",
+        "bon_nguyen_tac_vang": [
+          {
+            "tieu_de": "Chỉ hỏi 1 việc rõ ràng mỗi lần",
+            "chi_tiet": "Tập trung vào 1 câu hỏi cụ thể, tránh hỏi lan man nhiều việc cùng lúc."
+          },
+          {
+            "tieu_de": "Tập trung thật lòng, không phân tán",
+            "chi_tiet": "Tâm ý chí thành, dẹp bỏ tạp niệm để kết nối với quy luật khách quan."
+          },
+          {
+            "tieu_de": "Gieo 1 lần, không lặp lại cùng câu hỏi",
+            "chi_tiet": "Tôn trọng kết quả đầu tiên; không gieo đi gieo lại để cầu quẻ như ý."
+          },
+          {
+            "tieu_de": "Quẻ chỉ báo xu hướng — mình đổi thì quả đổi",
+            "chi_tiet": "Biết thời biết thế để điều chỉnh hành vi, tâm đức và chiến lược của bản thân."
+          }
+        ],
+        "buoc_0_chuan_bi": {
+          "tieu_de": "Bước 0: Chuẩn Bị Trước Khi Gieo",
+          "danh_sach": [
+            {
+              "muc": "🪙 3 Đồng xu",
+              "chi_tiet": "Dùng 3 đồng tiền xu giống hệt nhau (tiền xu cổ hoặc tiền kim loại sạch). Nếu dùng ứng dụng: dùng bộ 3 đồng xu kỹ thuật số chuẩn."
+            },
+            {
+              "muc": "⚖️ Quy ước mặt & điểm",
+              "chi_tiet": "Mặt SỐ / ĐẦU (có chữ/số) = Dương ⚊ = 3 điểm. Mặt HÌNH / ĐUÔI (hoa văn/quốc huy) = Âm ⚋ = 2 điểm."
+            },
+            {
+              "muc": "✋ Giới tính & cách cầm",
+              "chi_tiet": "Nam: Tay phải đặt trên tay trái; Nữ: Tay trái đặt trên tay phải → Úp hai bàn tay lại ôm trọn 3 đồng xu trong lòng bàn tay."
+            },
+            {
+              "muc": "🌅 Thời điểm tốt nhất",
+              "chi_tiet": "Sáng sớm hoặc buổi tối yên tĩnh, khi tâm trí thư thái, đầu óc minh mẫn, không bị việc vặt quấy rầy."
+            },
+            {
+              "muc": "🚫 Tránh gieo khi",
+              "chi_tiet": "Đang quá giận dữ, say rượu, quá mệt mỏi hoặc hoảng loạn lo lắng → Tâm không tịnh thì quẻ không ứng."
+            },
+            {
+              "muc": "📅 Ngày giờ âm lịch",
+              "chi_tiet": "Không cần xem bói chọn ngày giờ mê tín. Cổ nhân dạy: 'Tâm thành thì giờ nào cũng là giờ tốt'."
+            }
+          ]
+        },
+        "buoc_1_niem_cau": {
+          "tieu_de": "Bước 1: Niệm Cầu — Thành Tâm",
+          "cau_niem": "Kính xin trời đất chứng giám, con [tên, tuổi, giới tính] có việc: [Nêu rõ vấn đề cần hỏi — cụ thể, không chung chung]. Không rõ lẽ nên tiến hay lùi, làm hay không làm, xin chỉ giáo bằng quẻ.",
+          "loi_khuyen_dat_cau_hoi": "Nên đặt câu hỏi dạng: 'Nên tiến hay nên lùi?', 'Nên hợp tác hay tự làm?', 'Vấn đề A cần lưu ý điều gì?' thay vì hỏi thụ động 'Tương lai số phận sẽ ra sao?'"
+        },
+        "buoc_2_gieo_6_lan": {
+          "tieu_de": "Bước 2: Gieo 6 Lần — Từ Dưới Lên Trên (⚠️ Quan Trọng Nhất)",
+          "nguyen_tac_bat_di_bat_dich": "Luôn luôn ghi và lập quẻ TỪ DƯỚI LÊN TRÊN (Dòng 1 ở đáy ➔ Dòng 6 ở đỉnh). Tuyệt đối không viết ngược từ trên xuống.",
+          "sau_lan_gieo": [
+            {
+              "lan": 1,
+              "hao": "Hào 1 (Hào Sơ) — DƯỚI CÙNG",
+              "thao_tac": "Lắc nhẹ 3 đồng xu rồi thả ra đĩa phẳng, đếm mặt",
+              "ghi_so": "Tính tổng điểm 3 mặt (6, 7, 8 hoặc 9) → Ghi vào Dòng 1"
+            },
+            {
+              "lan": 2,
+              "hao": "Hào 2 (Hào Nhị) — Thứ 2 từ dưới lên",
+              "thao_tac": "Lắc rồi thả lần 2, xem mặt 3 đồng xu",
+              "ghi_so": "Tính tổng điểm → Ghi vào Dòng 2"
+            },
+            {
+              "lan": 3,
+              "hao": "Hào 3 (Hào Tam) — Thứ 3 từ dưới lên (Đỉnh Nội Quái)",
+              "thao_tac": "Lắc rồi thả lần 3, hoàn tất 3 hào quẻ Nội (Quẻ Hạ)",
+              "ghi_so": "Tính tổng điểm → Ghi vào Dòng 3"
+            },
+            {
+              "lan": 4,
+              "hao": "Hào 4 (Hào Tứ) — Thứ 4 từ dưới lên (Đáy Ngoại Quái)",
+              "thao_tac": "Lắc rồi thả lần 4, bắt đầu 3 hào quẻ Ngoại (Quẻ Thượng)",
+              "ghi_so": "Tính tổng điểm → Ghi vào Dòng 4"
+            },
+            {
+              "lan": 5,
+              "hao": "Hào 5 (Hào Ngũ) — Vị trí Quân vương",
+              "thao_tac": "Lắc rồi thả lần 5, hào chủ đạo của quẻ",
+              "ghi_so": "Tính tổng điểm → Ghi vào Dòng 5"
+            },
+            {
+              "lan": 6,
+              "hao": "Hào 6 (Hào Thượng) — TRÊN CÙNG",
+              "thao_tac": "Lắc rồi thả lần cuối cùng, hoàn tất trọn vẹn quẻ kép 6 hào",
+              "ghi_so": "Tính tổng điểm → Ghi vào Dòng 6"
+            }
+          ]
+        },
+        "buoc_3_doc_ket_qua": {
+          "tieu_de": "Bước 3: Đọc Kết Quả — Nhận Diện Dòng Động",
+          "bang_quy_uoc": [
+            {
+              "diem": 6,
+              "to_hop": "3 mặt Âm (2 + 2 + 2)",
+              "ky_hieu": "⚋ ❌",
+              "trang_thai": "Âm ĐỘNG (Lão Âm)",
+              "chuyen_hoa": "Chuyển thành Dương ⚊ ở Quẻ Biến",
+              "mau_sac": "orange",
+              "y_nghia": "Âm cực sinh Dương. Nhu chuyển sang cương, cảnh báo biến động mạnh, cần hết sức chú ý."
+            },
+            {
+              "diem": 7,
+              "to_hop": "2 Âm + 1 Dương (2 + 2 + 3)",
+              "ky_hieu": "⚊",
+              "trang_thai": "Dương TĨNH (Thiếu Dương)",
+              "chuyen_hoa": "Giữ nguyên Dương ⚊",
+              "mau_sac": "emerald",
+              "y_nghia": "Dương ổn định, không thay đổi, duy trì tiến bước vững chắc theo chính đạo."
+            },
+            {
+              "diem": 8,
+              "to_hop": "2 Dương + 1 Âm (3 + 3 + 2)",
+              "ky_hieu": "⚋",
+              "trang_thai": "Âm TĨNH (Thiếu Âm)",
+              "chuyen_hoa": "Giữ nguyên Âm ⚋",
+              "mau_sac": "emerald",
+              "y_nghia": "Âm ổn định, giữ nguyên nhu thuận, tiếp thu, học hỏi và củng cố nội lực."
+            },
+            {
+              "diem": 9,
+              "to_hop": "3 mặt Dương (3 + 3 + 3)",
+              "ky_hieu": "⚊ ❌",
+              "trang_thai": "Dương ĐỘNG (Lão Dương)",
+              "chuyen_hoa": "Chuyển thành Âm ⚋ ở Quẻ Biến",
+              "mau_sac": "orange",
+              "y_nghia": "Dương cực sinh Âm. Thịnh quá hóa suy, cương chuyển sang nhu, báo hiệu điểm bước ngoặt."
+            }
+          ],
+          "cong_thuc_vang": "6 và 9 = ĐỘNG (cần xem kỹ lời hào này) • 7 và 8 = TĨNH (giữ nguyên, không đổi)"
+        },
+        "buoc_4_xay_dung_2_que": {
+          "tieu_de": "Bước 4: Xây Dựng 2 Quẻ — Hiện Tại & Tương Lai",
+          "que_goc": {
+            "ten": "1. Quẻ GỐC (Bản Quẻ)",
+            "cach_xay": "Giữ nguyên toàn bộ 6 hào ban đầu (Điểm 6, 8 thành Âm ⚋; Điểm 7, 9 thành Dương ⚊).",
+            "y_nghia": "Cho biết hiện trạng hiện tại đang như thế nào, căn nguyên gốc rễ của vấn đề đang hỏi."
+          },
+          "que_bien": {
+            "ten": "2. Quẻ BIẾN (Chi Quẻ)",
+            "cach_xay": "Đổi các hào động: Hào 6 (Âm) đổi thành Dương ⚊; Hào 9 (Dương) đổi thành Âm ⚋; Các hào tĩnh 7 và 8 giữ nguyên.",
+            "y_nghia": "Cho biết nếu tiếp tục hành xử theo xu hướng hiện tại thì tương lai sẽ chuyển biến ra sao."
+          },
+          "truong_hop_khong_dong": "Nếu cả 6 lần gieo đều là 7 hoặc 8 (không có 6 hoặc 9): Quẻ hoàn toàn TĨNH → Tình hình hiện tại đang ổn định, chưa đến lúc biến chuyển, chỉ cần đọc thoán từ Quẻ Gốc."
+        },
+        "buoc_5_dien_giai": {
+          "tieu_de": "Bước 5: Diễn Giải — Nhìn Vào Đâu Trước?",
+          "cac_truong_hop": [
+            {
+              "tinh_huong": "✅ Chỉ có 1 dòng động",
+              "cach_xem": "Tập trung đọc kỹ lời giải thích của HÀO ĐỘNG ĐÓ trước → Đây là thông điệp chính yếu và trực tiếp nhất của quẻ."
+            },
+            {
+              "tinh_huong": "✅ Có 2 dòng động",
+              "cach_xem": "Đọc cả 2 hào động → Hào ở trên chỉ hoàn cảnh bên ngoài/đối phương, hào ở dưới chỉ bản thân mình/nội tại."
+            },
+            {
+              "tinh_huong": "✅ Có 3–4 dòng động",
+              "cach_xem": "Tình thế đang biến động mạnh mẽ, cục diện đảo lộn → Cần giữ tâm thật tĩnh, không hành động vội vã."
+            },
+            {
+              "tinh_huong": "✅ Có 5–6 dòng động",
+              "cach_xem": "Mọi việc đang thay đổi toàn diện cùng lúc → Tạm dừng can thiệp, chờ thời cơ lắng dịu và củng cố nội lực."
+            },
+            {
+              "tinh_huong": "✅ Không có dòng động nào",
+              "cach_xem": "Tình hình ổn định, thế trận vững vàng → Tập trung làm tốt việc hiện tại, không hấp tấp thay đổi."
+            }
+          ]
+        },
+        "bang_tom_tat_nhanh": {
+          "tieu_de": "Bảng Tóm Tắt Nhanh — Giải Đáp Thắc Mắc Thường Gặp",
+          "cau_hoi_tra_loi": [
+            {
+              "cau_hoi": "Nam và Nữ có khác nhau về cách gieo và xem không?",
+              "tra_loi": "Chỉ khác nhau ở cách đặt tay khi cầm xu (Nam tay phải đặt trên, Nữ tay trái đặt trên). Còn lại các bước niệm cầu, tung xu, tính điểm và luận quẻ là HOÀN TOÀN GIỐNG NHAU."
+            },
+            {
+              "cau_hoi": "Có nhất thiết phải chọn ngày lành tháng tốt để gieo quẻ?",
+              "tra_loi": "Không cần thiết. Kinh Dịch coi trọng 'Tâm thành tất ứng'. Bất cứ lúc nào tâm trí thanh tịnh, tập trung thì giờ đó chính là giờ tốt."
+            },
+            {
+              "cau_hoi": "Gieo quẻ xong thấy không ưng ý, có được gieo lại ngay không?",
+              "tra_loi": "Không nên. Chỉ gieo lại nếu trong lúc gieo bị xao nhãng hoặc có tiếng ồn lớn làm mất tập trung. Không được gieo lặp lại nhiều lần cho cùng 1 câu hỏi để tìm quẻ mình thích."
+            },
+            {
+              "cau_hoi": "Gặp quẻ Hung (xấu) thì có phải là số phận đã định trước?",
+              "tra_loi": "Tuyệt đối không! Quẻ Hung là lời CẢNH BÁO về nguy cơ để bạn cẩn trọng phòng ngừa và thay đổi chiến lược. Khi bạn thay đổi hành động thì kết quả tương lai sẽ chuyển Hung thành Cát."
+            },
+            {
+              "cau_hoi": "Kinh Dịch có phải là mê tín bói toán định mệnh không?",
+              "tra_loi": "Không. Kinh Dịch là hệ thống triết học về quy luật vận động của tự nhiên và nhân quả. Dịch học chỉ ra xu thế hiện tại để giúp con người tự rèn luyện bản lĩnh và đưa ra quyết định sáng suốt."
+            }
+          ]
+        },
+        "so_tay_mau": {
+          "tieu_de": "Mẫu Ghi Chép Sổ Tay Gieo Quẻ",
+          "cot": [
+            "Ngày tháng",
+            "Câu hỏi vấn đề",
+            "Kết quả 6 lần (1 đến 6)",
+            "Quẻ Gốc / Quẻ Biến",
+            "Hào động chính",
+            "Hành động & Bài học"
+          ]
+        },
+        "thong_diep_chot": "Kinh Dịch không nói: 'phải thế này'. Chỉ nói: 'đang như thế, nếu tiếp tục thì sẽ ra thế, muốn khác thì cần thay đổi như thế'."
+      }
     }
   },
   "tieng_trung": {
