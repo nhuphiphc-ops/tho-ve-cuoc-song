@@ -1,0 +1,314 @@
+{
+  "tong_quan": {
+    "tieu_de": "🦶 Gút — Phòng Ngừa • Xử Lý Cấp Cứu • Giải Quyết Hậu Quả",
+    "mo_ta": "Kiểm soát axit uric, giảm đau cấp, phòng tái phát, bảo vệ khớp — Cẩm nang y học chuẩn và thực tế toàn diện cho người bệnh và gia đình.",
+    "luu_y_quan_trong": "⚠️ Nội dung mang tính tham khảo y học thường thức. Khi gặp cơn đau cấp dữ dội, sốt cao hoặc có biến chứng, cần đến ngay cơ sở y tế chuyên khoa để được bác sĩ thăm khám và điều trị.",
+    "loi_khang_dinh": [
+      {
+        "icon": "✅",
+        "tieu_de": "Gút kiểm soát được hoàn toàn",
+        "noi_dung": "Nếu hiểu rõ căn nguyên, kiên trì điều trị và giữ nồng độ axit uric dưới ngưỡng mục tiêu, bạn hoàn toàn có thể sống khỏe mạnh, không lo tàn phế."
+      },
+      {
+        "icon": "✅",
+        "tieu_de": "Đau cấp có cách giảm đau đúng",
+        "noi_dung": "Xử lý sớm trong 12–24h đầu bằng chườm lạnh, nghỉ ngơi, nâng cao chi và dùng đúng thuốc chỉ định sẽ giúp cắt cơn đau nhanh chóng."
+      },
+      {
+        "icon": "✅",
+        "tieu_de": "Phòng được tái phát nếu kiên trì",
+        "noi_dung": "Kết hợp thuốc hạ axit uric đều đặn mỗi ngày với chế độ ăn ít purin và uống đủ nước sẽ ngăn chặn vĩnh viễn các đợt viêm cấp."
+      },
+      {
+        "icon": "⚠️",
+        "tieu_de": "Không tự ý ngưng thuốc khi hết đau",
+        "noi_dung": "Hết đau không có nghĩa là hết bệnh. Ngưng thuốc hạ axit uric đột ngột là nguyên nhân số 1 khiến bệnh tái phát dồn dập."
+      }
+    ]
+  },
+  "hieu_ve_gout": [
+    {
+      "nhom": "Bản chất bệnh Gút",
+      "tieu_de": "Gút là gì & Cơ chế hình thành",
+      "icon": "🔬",
+      "tom_tat": "Axit uric máu tăng cao ➔ Kết tinh muối Urat sắc nhọn ➔ Lắng đọng tại khớp ➔ Viêm sưng đau dữ dội.",
+      "chi_tiet": "Bệnh Gút (Thống phong) là một dạng viêm khớp chuyển hóa do nồng độ axit uric trong máu vượt quá giới hạn hòa tan (thường > 420 µmol/L ở nam và > 360 µmol/L ở nữ). Axit uric dư thừa sẽ kết tủa thành các tinh thể Monosodium Urat có hình kim sắc nhọn, găm vào màng hoạt dịch, sụn khớp và các mô xung quanh, kích hoạt hệ miễn dịch phản ứng dữ dội gây sưng, nóng, đỏ và đau buốt tột cùng."
+    },
+    {
+      "nhom": "Nguyên nhân chính",
+      "tieu_de": "Tại sao axit uric trong cơ thể lại tăng cao?",
+      "icon": "⚠️",
+      "tom_tat": "Do thận thải chậm (chiếm đa số) kết hợp với dung nạp quá nhiều purin từ thức ăn và rượu bia.",
+      "chi_tiet": "1. Thận giảm đào thải axit uric (chiếm 80–90% người bệnh): Do suy giảm chức năng thận hoặc yếu tố di truyền.\n2. Ăn nhiều thực phẩm giàu purin: Thịt đỏ (bò, cừu, chó), nội tạng động vật, hải sản có vỏ, cá béo...\n3. Uống nhiều rượu bia: Cồn vừa tăng sản xuất axit uric tại gan, vừa ức chế thận bài tiết (đặc biệt là bia chứa hàm lượng purin rất cao).\n4. Uống ít nước & lối sống tĩnh tại: Nước tiểu cô đặc khiến muối urat dễ kết tinh thành sỏi và tinh thể.\n5. Thừa cân, béo phì & rối loạn chuyển hóa: Tăng tổng hợp axit uric nội sinh và kháng insulin."
+    },
+    {
+      "nhom": "Dấu hiệu nhận biết",
+      "tieu_de": "Triệu chứng kinh điển của cơn gút cấp",
+      "icon": "🚨",
+      "tom_tat": "Đau dữ dội khớp ngón chân cái/cổ chân, khởi phát đột ngột ban đêm, sưng nóng đỏ bóng.",
+      "chi_tiet": "• Vị trí kinh điển: Khớp bàn ngón chân cái (chiếm > 70%), khớp cổ chân, khớp gối, khớp mu bàn chân.\n• Thời điểm bùng phát: Thường xuất hiện đột ngột vào nửa đêm hoặc rạng sáng, sau bữa ăn thịnh soạn nhiều đạm hoặc uống nhiều rượu bia.\n• Mức độ đau đớn: Đau buốt như kim châm dao cắt, khớp sưng to, đỏ ửng, da căng bóng, sờ vào thấy nóng ran, chỉ cần chạm nhẹ một tấm chăn mỏng cũng đau thấu xương."
+    },
+    {
+      "nhom": "Biến chứng nguy hiểm",
+      "tieu_de": "Tác hại khôn lường nếu không kiểm soát axit uric",
+      "icon": "⚡",
+      "tom_tat": "Hạt tophi phá hủy khớp, sỏi thận, suy thận mạn và tăng nguy cơ đột quỵ tim mạch.",
+      "chi_tiet": "• Hạt Tophi & Tàn phế: Tinh thể urat tích tụ dưới da tạo thành các u cục (hạt tophi) quanh ngón tay, ngón chân, vành tai, gây loét vỡ nhiễm trùng, hủy hoại sụn xương và biến dạng khớp vĩnh viễn.\n• Tổn thương thận: Tinh thể urat lắng đọng tạo sỏi thận urat, gây tắc nghẽn đường tiết niệu, viêm cầu thận và dẫn tới suy thận mạn tính.\n• Biến cố tim mạch: Axit uric cao thúc đẩy viêm nội mạc mạch máu, xơ vữa động mạch, làm tăng nguy cơ nhồi máu cơ tim và tai biến mạch máu não."
+    }
+  ],
+  "xu_ly_cap_cuu": {
+    "tieu_de": "Xử Lý Khi Gút Cấp Tái Phát — Phản Ứng Khẩn Cấp",
+    "mo_ta": "Áp dụng ngay trong 12–24h đầu tiên khi vừa chớm đau hoặc đang lên cơn cấp để dập tắt phản ứng viêm nhanh nhất.",
+    "bon_nguyen_tac_khan_cap": [
+      {
+        "buoc": "🩹 Bước 1: Nghỉ ngơi hoàn toàn",
+        "hanh_dong": "Nằm yên, không đi lại, không mang vác, không cố gắng ấn nắn hay bẻ bóp khớp đau.",
+        "ly_do": "Tránh ma sát các tinh thể urat sắc nhọn gây rách mô mềm và làm tổn thương bao khớp nặng nề hơn."
+      },
+      {
+        "buoc": "❄️ Bước 2: Chườm lạnh đúng cách",
+        "hanh_dong": "Dùng túi đá hoặc khăn ẩm bọc đá chườm nhẹ lên khớp 15–20 phút, nghỉ 30 phút rồi lặp lại nhiều lần.",
+        "ly_do": "Làm co mạch máu, giảm sưng nề, ức chế phản ứng viêm và gây tê dịu cơn đau rát tức thì."
+      },
+      {
+        "buoc": "📍 Bước 3: Nâng cao vị trí khớp đau",
+        "hanh_dong": "Kê chân hoặc tay đau cao hơn mức tim bằng một chiếc gối êm khi ngồi hoặc nằm nghỉ.",
+        "ly_do": "Tăng cường tuần hoàn máu và dịch ứ đọng hồi lưu về tim, giảm phù nề và áp lực căng tức khớp."
+      },
+      {
+        "buoc": "💧 Bước 4: Uống nhiều nước ấm",
+        "hanh_dong": "Uống 2–2.5 lít nước ấm rải đều trong ngày (khoảng 200–300ml mỗi 1–2 giờ).",
+        "ly_do": "Pha loãng nồng độ axit uric trong máu và tăng tốc độ đào thải muối urat qua đường nước tiểu."
+      }
+    ],
+    "uong_thuoc_dung_cach": [
+      {
+        "ten_thuoc": "Colchicine — Thuốc cắt cơn gút cấp hàng đầu",
+        "lieu_dung": "Uống càng sớm càng tốt (trong 12–24h đầu). Liều tham khảo: Ngày đầu 0.5mg × 2–3 lần/ngày; các ngày sau giảm còn 0.5mg – 1mg/ngày theo chỉ dẫn.",
+        "luu_y": "Uống sớm trong 12h đầu hiệu quả cắt đau đạt > 80%. Nếu xuất hiện tiêu chảy hoặc nôn (dấu hiệu ngấm thuốc/quá liều nhẹ) thì phải giảm liều hoặc ngừng ngay."
+      },
+      {
+        "ten_thuoc": "Thuốc kháng viêm không steroid (NSAID)",
+        "lieu_dung": "Celecoxib, Meloxicam, Naproxen, Ibuprofen... theo đơn của bác sĩ điều trị.",
+        "luu_y": "Tuyệt đối không dùng cho người có tiền sử viêm loét dạ dày, suy thận hoặc suy tim. Uống sau khi ăn no."
+      },
+      {
+        "ten_thuoc": "Paracetamol — Giảm đau hỗ trợ",
+        "lieu_dung": "500mg mỗi 4–6 giờ (tối đa 2–3g/ngày) khi không dung nạp được các thuốc trên.",
+        "luu_y": "An toàn cho dạ dày hơn NSAID, nhưng chỉ giảm đau nhẹ, không có tác dụng chống viêm mạnh tại khớp gút."
+      },
+      {
+        "ten_thuoc": "❌ KHÔNG dùng Aspirin liều thấp",
+        "lieu_dung": "Tránh tự ý mua Aspirin để giảm đau khớp gút.",
+        "luu_y": "Aspirin liều thấp ức chế đào thải axit uric ở ống thận, khiến axit uric máu tăng vọt và cơn đau kéo dài dai dẳng."
+      }
+    ],
+    "nhung_viec_tuyet_doi_khong_lam": [
+      {
+        "viec_cam": "❌ Không chườm NÓNG, không ngâm chân nước nóng",
+        "ly_do": "Nhiệt nóng làm giãn nở mạch máu ồ ạt, tăng tưới máu đến ổ viêm khiến khớp sưng to, căng tức và đau đớn dữ dội hơn."
+      },
+      {
+        "viec_cam": "❌ Không xoa bóp dầu nóng, cồn thuốc, mật gấu",
+        "ly_do": "Lực nắn bóp làm các tinh thể urat cọ xát rách mô khớp, gây viêm phù nề và hoại tử mô dưới da."
+      },
+      {
+        "viec_cam": "❌ Không uống rượu bia, nước ngọt có ga",
+        "ly_do": "Làm tăng axit uric tức thì và chặn đứng quá trình bài tiết qua thận, khiến cơn đau kéo dài nhiều tuần."
+      },
+      {
+        "viec_cam": "❌ Không ăn hải sản, nội tạng, thịt đỏ",
+        "ly_do": "Nạp thêm nguồn purin khổng lồ, làm cơ thể quá tải và phản ứng viêm thêm trầm trọng."
+      },
+      {
+        "viec_cam": "❌ Không tự ý bắt đầu hoặc ngưng thuốc hạ axit uric đột ngột",
+        "ly_do": "Sự biến động nồng độ axit uric máu đột ngột trong cơn cấp sẽ làm bong tróc tinh thể urat, làm cơn đau kéo dài thêm."
+      }
+    ],
+    "khi_nao_phai_di_vien": [
+      "Đau dữ dội không thuyên giảm sau 2–3 ngày chăm sóc và uống thuốc tại nhà.",
+      "Sốt cao, rét run kèm theo khớp sưng nóng đỏ (nghi ngờ nhiễm trùng khớp kết hợp).",
+      "Khớp sưng to bất thường, da căng bóng sắp rách hoặc chảy mủ dịch đục.",
+      "Đau lan tỏa sang nhiều khớp cùng lúc (khớp cổ chân, gối, cổ tay, ngón tay).",
+      "Bệnh nhân có tiền sử suy thận, suy tim, loét dạ dày hoặc người cao tuổi nhiều bệnh nền."
+    ]
+  },
+  "giai_quyet_hau_qua": {
+    "tieu_de": "Giải Quyết Hậu Quả & Kiểm Soát Dài Hạn",
+    "mo_ta": "Giai đoạn sau khi hết đau cấp là thời điểm vàng quyết định bệnh gút có tái phát hay được dập tắt vĩnh viễn.",
+    "hoi_phuc_khop": [
+      {
+        "noi_dung": "Dưỡng khớp 1–2 tuần sau cơn đau cấp",
+        "chi_tiet": "Đợi hết đau hoàn toàn mới bắt đầu vận động trở lại. Tránh các môn thể thao đối kháng, chạy nhảy dằn xóc mạnh."
+      },
+      {
+        "noi_dung": "Đi bộ nhẹ nhàng trên đường bằng",
+        "chi_tiet": "Đi bộ thư giãn 20–30 phút mỗi ngày bằng giày đế mềm êm chân để kích thích tuần hoàn máu và tái tạo dịch khớp."
+      },
+      {
+        "noi_dung": "Tập các bài uốn duỗi khớp nhẹ nhàng",
+        "chi_tiet": "Xoay nhẹ khớp cổ chân, gập duỗi ngón chân giúp khớp không bị co rút xơ cứng sau đợt viêm cấp."
+      },
+      {
+        "noi_dung": "Kiểm soát cân nặng hợp lý",
+        "chi_tiet": "Mỗi 1kg cân nặng giảm được sẽ giúp giảm tải 3–4kg áp lực đè lên khớp gối và khớp bàn chân."
+      }
+    ],
+    "kiem_soat_uric_dai_han": {
+      "bang_muc_tieu": [
+        {
+          "muc_tieu": "Mục tiêu chuẩn (Chưa có biến chứng)",
+          "chi_so": "< 360 µmol/L (hoặc < 6.0 mg/dL)",
+          "giai_phap": "Chế độ ăn giảm purin + uống đủ 2–2.5L nước/ngày + điều chỉnh thói quen."
+        },
+        {
+          "muc_tieu": "Mục tiêu đặc biệt (Có hạt Tophi / Sỏi thận)",
+          "chi_so": "< 300 µmol/L (hoặc < 5.0 mg/dL)",
+          "giai_phap": "Uống thuốc hạ axit uric duy trì liên tục hàng ngày theo chỉ định của bác sĩ để hòa tan dần các tinh thể urat cũ."
+        },
+        {
+          "muc_tieu": "Ngưỡng nguy hiểm dễ bùng phát",
+          "chi_so": "> 420 µmol/L (Nam) / > 360 µmol/L (Nữ)",
+          "giai_phap": "Cần can thiệp y tế ngay để hạ nồng độ axit uric, phòng cơn đau cấp và lắng đọng mô."
+        },
+        {
+          "muc_tieu": "Lịch xét nghiệm định kỳ",
+          "chi_so": "3–6 tháng/lần khi đã ổn định",
+          "giai_phap": "Theo dõi xét nghiệm axit uric máu, chức năng gan (AST/ALT) và thận (Creatinine, eGFR)."
+        }
+      ],
+      "luu_y_thuoc_ha_uric": "Thuốc hạ axit uric (Allopurinol, Febuxostat) phải uống đều đặn MỖI NGÀY trong thời gian dài. Lỗi sai phổ biến nhất là 'hết đau thì ngưng thuốc', khiến axit uric tăng vọt trở lại và bệnh bùng phát nặng hơn."
+    },
+    "phong_ngua_tai_phat": [
+      "Giữ nồng độ axit uric máu luôn dưới ngưỡng mục tiêu (< 360 hoặc < 300 µmol/L).",
+      "Không bao giờ tự ý bỏ cữ thuốc hoặc đổi liều thuốc hạ axit uric mà không hỏi ý kiến bác sĩ.",
+      "Duy trì thói quen uống đủ nước mỗi ngày: sáng thức dậy 1 cốc, chia đều cả ngày và 1 cốc trước khi ngủ.",
+      "Nhận biết và triệt tiêu các yếu tố kích hoạt: nhậu nhẹt, ăn cỗ nhiều đạm, mất nước khi trời nắng nóng, nhiễm lạnh đột ngột, thức khuya căng thẳng."
+    ]
+  },
+  "an_uong_dung_cach": {
+    "tieu_de": "Chế Độ Ăn Uống Chuẩn Cho Người Bệnh Gút",
+    "mo_ta": "Ăn uống đúng cách giúp giảm 15–20% lượng axit uric trong máu và giảm tải áp lực đào thải cho thận.",
+    "nen_an_thuong_xuyen": [
+      {
+        "thuc_pham": "Rau xanh các loại",
+        "loi_ich": "Rau ngót, mồng tơi, bắp cải, dưa chuột, bí đao... giàu chất xơ, vitamin C, giúp kiềm hóa nước tiểu và tăng bài xuất axit uric.",
+        "ghi_chu": "Ăn thoải mái không giới hạn (1 ngày nên ăn 400–500g rau)."
+      },
+      {
+        "thuc_pham": "Ngô luộc & Nước râu ngô",
+        "loi_ich": "Râu ngô và ngô ngọt có tính lợi tiểu cực tốt, giúp thận đào thải nhanh muối urat dư thừa.",
+        "ghi_chu": "Nấu nước râu ngô uống thay nước lọc rất mát và lành tính."
+      },
+      {
+        "thuc_pham": "Sữa ít béo & Sữa chua",
+        "loi_ich": "Protein từ sữa (Casein và Lactalbumin) làm giảm nồng độ axit uric huyết thanh hiệu quả.",
+        "ghi_chu": "Nên dùng 1–2 hộp sữa chua hoặc 2 ly sữa tách béo mỗi ngày."
+      },
+      {
+        "thuc_pham": "Trứng gà / Trứng vịt",
+        "loi_ich": "Nguồn đạm hoàn hảo chứa hàm lượng purin cực thấp, cung cấp dinh dưỡng an toàn cho người bệnh.",
+        "ghi_chu": "Có thể ăn 3–5 quả trứng/tuần luộc hoặc hấp."
+      },
+      {
+        "thuc_pham": "Trái cây giàu Vitamin C & Nước dừa",
+        "loi_ich": "Quả anh đào (Cherry), dâu tây, ổi, cam bưởi... giúp hạ axit uric. Nước dừa tươi giúp thanh lọc độc tố.",
+        "ghi_chu": "Ăn trái cây tươi nguyên quả, không uống nước ép đóng chai nhiều đường."
+      }
+    ],
+    "an_han_che": [
+      {
+        "thuc_pham": "Thịt đỏ (Bò, Lợn, Cừu, Bê)",
+        "ly_do": "Chứa lượng purin trung bình - cao (100–150mg purin/100g).",
+        "muc_do": "Chỉ ăn tối đa 80–100g/ngày, 2–3 lần/tuần. Ưu tiên thịt trắng như ức gà, thịt lợn nạc luộc."
+      },
+      {
+        "thuc_pham": "Hải sản & Cá béo",
+        "ly_do": "Tôm, cua, cá hồi, cá trích, cá ngừ chứa nhiều đạm và purin.",
+        "muc_do": "Ăn dưới 2 lần/tuần, mỗi lần một lượng nhỏ. Luôn uống nhiều nước sau khi ăn."
+      },
+      {
+        "thuc_pham": "Các loại hạt & Đậu đỗ",
+        "ly_do": "Đậu phộng, hạt điều, đậu nành chứa lượng purin mức vừa phải.",
+        "muc_do": "Ăn lượng vừa phải, không ăn quá nhiều một lúc."
+      },
+      {
+        "thuc_pham": "Súp lơ, cải bó xôi, măng tây, nấm",
+        "ly_do": "Dù có purin thực vật nhưng nghiên cứu chứng minh không làm tăng nguy cơ bùng phát gút.",
+        "muc_do": "Vẫn có thể ăn bình thường, không cần kiêng khem khắt khe như thịt động vật."
+      }
+    ],
+    "tuyet_doi_tranh": [
+      {
+        "thuc_pham": "Rượu bia (Đặc biệt là BIA)",
+        "anh_huong": "Bia chứa lượng purin cực cao (từ men bia) và cồn ức chế bài tiết axit uric ở thận, là thủ phạm số 1 gây bùng phát đau cấp."
+      },
+      {
+        "thuc_pham": "Nội tạng động vật (Gan, Thận, Tim, Lòng, Óc)",
+        "anh_huong": "Hàm lượng purin vượt trội (> 400–1000mg/100g), ăn vào là nồng độ axit uric tăng vọt ngay tức khắc."
+      },
+      {
+        "thuc_pham": "Nước ngọt có ga & Đồ uống giàu Fructose",
+        "anh_huong": "Đường Fructose kích thích phân giải ATP ở gan, tăng tốc độ tổng hợp axit uric nội sinh và gây kháng insulin."
+      },
+      {
+        "thuc_pham": "Nước hầm xương đặc, Nước lẩu, Thịt chế biến sẵn",
+        "anh_huong": "Purin tan rất nhiều trong nước hầm thịt/xương; xúc xích, thịt xông khói chứa nhiều chất bảo quản hại thận."
+      }
+    ],
+    "cau_than_chu": "Ăn nhiều rau xanh, uống đủ nước ấm; Hạn chế thịt cá, dẹp bỏ rượu bia; Tuyệt đối kiêng nội tạng, nước ngọt và nước hầm đặc."
+  },
+  "sinh_hoat_phong_benh": [
+    {
+      "thoi_quen": "💧 Uống nước đều đặn mỗi ngày",
+      "chi_tiet": "1 cốc sau khi ngủ dậy, rải đều suốt ngày, 1 cốc trước khi ngủ. Đảm bảo lượng nước tiểu trong, không có màu vàng sậm."
+    },
+    {
+      "thoi_quen": "⚖️ Giữ chỉ số khối cơ thể (BMI 18.5 – 22.9)",
+      "chi_tiet": "Tránh thừa cân béo phì. Giảm cân từ từ (0.5 – 1kg/tháng), tuyệt đối không nhịn ăn ép cân đột ngột."
+    },
+    {
+      "thoi_quen": "😴 Ngủ đủ giấc, tránh thức khuya",
+      "chi_tiet": "Ngủ đủ 7–8 tiếng mỗi ngày. Thức khuya và stress làm rối loạn thần kinh thực vật và trao đổi chất, kích thích cơn đau gút."
+    },
+    {
+      "thoi_quen": "🚶 Vận động nhẹ nhàng 30–45 phút/ngày",
+      "chi_tiet": "Đi bộ, bơi lội, đạp xe chậm giúp tăng cường tuần hoàn, tăng thải trừ độc tố và giữ khớp dẻo dai."
+    },
+    {
+      "thoi_quen": "👟 Chọn giày dép đế mềm, giữ ấm chân",
+      "chi_tiet": "Nhiệt độ thấp làm muối urat dễ kết tủa. Hãy giữ ấm bàn chân vào mùa đông và mang giày mềm tránh tì đè khớp ngón cái."
+    },
+    {
+      "thoi_quen": "🚫 Tránh nhịn ăn quá lâu",
+      "chi_tiet": "Nhịn ăn khiến cơ thể tăng tạo thể ceton, cạnh tranh đào thải với axit uric ở thận làm axit uric máu tăng vọt."
+    }
+  ],
+  "thuoc_va_luu_y": [
+    {
+      "nhom": "Thuốc cắt cơn đau cấp (Colchicine, NSAID, Corticoid)",
+      "cong_dung": "Dập tắt phản ứng viêm sưng, giảm đau nhanh chóng trong đợt cấp.",
+      "luu_y_vang": "Chỉ dùng trong thời gian ngắn (vài ngày đến 1-2 tuần). Không có tác dụng hạ axit uric máu dài hạn."
+    },
+    {
+      "nhom": "Thuốc hạ axit uric máu (Allopurinol, Febuxostat)",
+      "cong_dung": "Ức chế men Xanthine Oxidase, giảm sản xuất axit uric tận gốc rễ.",
+      "luu_y_vang": "Phải uống duy trì ĐỀU ĐẶN HÀNG NGÀY trong nhiều tháng/năm. Không tự ý dừng thuốc khi hết đau."
+    },
+    {
+      "nhom": "Thuốc tăng thải trừ axit uric (Probenecid)",
+      "cong_dung": "Tăng cường đào thải axit uric qua thận ở người có chức năng thận tốt.",
+      "luu_y_vang": "Phải uống nhiều nước để tránh hình thành sỏi urat tại đường tiết niệu."
+    },
+    {
+      "nhom": "Thuốc điều trị bệnh kèm theo",
+      "cong_dung": "Thuốc huyết áp, tim mạch, mỡ máu...",
+      "luu_y_vang": "Báo với bác sĩ bạn bị gút để bác sĩ ưu tiên chọn thuốc hạ áp nhóm Losartan (có tác dụng hạ nhẹ axit uric) và tránh nhóm lợi tiểu Thiazid."
+    }
+  ],
+  "ba_nguyen_tac_vang": [
+    "1. Kiểm soát axit uric dưới ngưỡng mục tiêu = Kiểm soát và đẩy lùi bệnh gút.",
+    "2. Uống thuốc hạ axit uric đều đặn không ngắt quãng = Phòng ngừa tái phát bền vững.",
+    "3. Thay đổi chế độ ăn uống + Thói quen sinh hoạt = Chìa khóa vàng bảo vệ khớp và thận trọn đời."
+  ]
+}

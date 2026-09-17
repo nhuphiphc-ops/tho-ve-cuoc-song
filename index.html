@@ -102,6 +102,7 @@
     .theme-glow-poems { --glow-primary: rgba(244, 63, 94, 0.2); --glow-secondary: rgba(217, 70, 239, 0.15); }
     .theme-glow-chinese { --glow-primary: rgba(20, 184, 166, 0.2); --glow-secondary: rgba(16, 185, 129, 0.15); }
     .theme-glow-kinhdich { --glow-primary: rgba(245, 158, 11, 0.2); --glow-secondary: rgba(234, 88, 12, 0.15); }
+    .theme-glow-gout { --glow-primary: rgba(16, 185, 129, 0.2); --glow-secondary: rgba(6, 182, 212, 0.15); }
     .theme-glow-thanchu { --glow-primary: rgba(217, 119, 6, 0.22); --glow-secondary: rgba(234, 179, 8, 0.18); }
     .theme-glow-phapcu { --glow-primary: rgba(16, 185, 129, 0.2); --glow-secondary: rgba(6, 182, 212, 0.15); }
     .theme-glow-conhan { --glow-primary: rgba(225, 29, 72, 0.2); --glow-secondary: rgba(180, 83, 9, 0.15); }
@@ -238,6 +239,13 @@
             class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
           >
             <span>📜</span> <span>Chuyện Răn Dạy</span>
+          </button>
+          <button
+            id="tab-gout"
+            onclick="switchMainTab('gout')"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+          >
+            <span>🦶</span> <span>Bệnh Gút</span>
           </button>
           <button
             id="tab-aiagent"
@@ -1479,6 +1487,214 @@
       </div>
     </div>
 
+    <!-- ==================== SECTION 11: GÚT - PHÒNG NGỪA & XỬ LÝ ==================== -->
+    <div id="gout-section" class="flex flex-col gap-6 hidden">
+      <!-- Hero Banner -->
+      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-emerald-950/40 via-teal-950/25 to-slate-950/40 border border-emerald-500/25 p-6 sm:p-8 text-center flex flex-col items-center max-w-5xl mx-auto w-full shadow-2xl">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-emerald-500/15 via-transparent to-transparent pointer-events-none"></div>
+
+        <span class="px-3.5 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs font-bold uppercase tracking-wider mb-2 flex items-center gap-1.5 shadow-sm">
+          <span>🦶</span> Sức Khỏe & Bệnh Mạn Tính
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold font-display text-white tracking-tight mb-2">
+          Gút — Phòng Ngừa • Xử Lý Cấp Cứu • Giải Quyết Hậu Quả
+        </h2>
+        <p class="text-slate-300 text-xs sm:text-sm max-w-2xl leading-relaxed mb-4">
+          Kiểm soát axit uric, giảm đau cấp, phòng tái phát, bảo vệ khớp — Cẩm nang y học chuẩn và thực tế toàn diện cho người bệnh và gia đình.
+        </p>
+
+        <!-- Medical Disclaimer Alert -->
+        <div class="p-3 sm:p-3.5 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-200 text-xs flex items-center gap-2 mb-5 max-w-3xl">
+          <span class="text-base">⚠️</span>
+          <span><b>Lưu ý quan trọng:</b> Nội dung mang tính tham khảo y học thường thức. Khi gặp cơn đau cấp dữ dội, sốt cao hoặc có biến chứng, cần đến ngay cơ sở y tế để được bác sĩ chuyên khoa thăm khám.</span>
+        </div>
+
+        <!-- 4 Affirmation Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 w-full text-left">
+          <div class="p-3.5 rounded-2xl bg-slate-950/60 border border-emerald-500/25 flex flex-col gap-1 backdrop-blur-sm">
+            <span class="text-xs font-black text-emerald-300 flex items-center gap-1">
+              <span>✅</span> Kiểm soát hoàn toàn
+            </span>
+            <p class="text-[11px] text-slate-400 leading-relaxed">
+              Hiểu rõ căn nguyên, kiên trì điều trị thì hoàn toàn sống khỏe mạnh.
+            </p>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-slate-950/60 border border-emerald-500/25 flex flex-col gap-1 backdrop-blur-sm">
+            <span class="text-xs font-black text-emerald-300 flex items-center gap-1">
+              <span>✅</span> Giảm đau đúng cách
+            </span>
+            <p class="text-[11px] text-slate-400 leading-relaxed">
+              Xử lý sớm trong 12–24h đầu giúp cắt cơn đau cấp an toàn, hiệu quả.
+            </p>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-slate-950/60 border border-emerald-500/25 flex flex-col gap-1 backdrop-blur-sm">
+            <span class="text-xs font-black text-emerald-300 flex items-center gap-1">
+              <span>✅</span> Phòng ngừa tái phát
+            </span>
+            <p class="text-[11px] text-slate-400 leading-relaxed">
+              Ăn ít purin, uống đủ nước và duy trì thuốc giúp dập tắt tái phát.
+            </p>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-slate-950/60 border border-amber-500/30 flex flex-col gap-1 backdrop-blur-sm">
+            <span class="text-xs font-black text-amber-300 flex items-center gap-1">
+              <span>⚠️</span> Không tự ngưng thuốc
+            </span>
+            <p class="text-[11px] text-slate-400 leading-relaxed">
+              Hết đau không phải hết bệnh; ngưng thuốc là nguyên nhân tái phát.
+            </p>
+          </div>
+        </div>
+
+        <!-- Sub Tabs Ribbon -->
+        <div class="w-full mt-6 border-t border-slate-800/80 pt-4">
+          <p class="text-[11px] text-slate-400 font-bold uppercase tracking-wider mb-2.5 text-center sm:text-left">Chọn chuyên mục cẩm nang Gút:</p>
+          <div class="flex gap-2 overflow-x-auto pb-2 scrollbar-none custom-scrollbar" id="gout-sub-tabs">
+            <button onclick="selectGoutSubTab('all')" id="gt-tab-all" class="gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-emerald-500 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-600 text-slate-950 font-black shadow-lg shadow-emerald-500/20 cursor-pointer">✨ Tất Cả</button>
+            <button onclick="selectGoutSubTab('hieu_ve_gout')" id="gt-tab-hieu_ve_gout" class="gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🔬 1. Hiểu Về Gút</button>
+            <button onclick="selectGoutSubTab('xu_ly_cap')" id="gt-tab-xu_ly_cap" class="gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🚨 2. Xử Lý Cấp Cứu</button>
+            <button onclick="selectGoutSubTab('giai_quyet_hau_qua')" id="gt-tab-giai_quyet_hau_qua" class="gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🛡️ 3. Giải Quyết Hậu Quả</button>
+            <button onclick="selectGoutSubTab('an_uong')" id="gt-tab-an_uong" class="gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🥗 4. Ăn Uống Đúng Cách</button>
+            <button onclick="selectGoutSubTab('sinh_hoat')" id="gt-tab-sinh_hoat" class="gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🏃 5. Sinh Hoạt Phòng Bệnh</button>
+            <button onclick="selectGoutSubTab('thuoc_luu_y')" id="gt-tab-thuoc_luu_y" class="gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">💊 6. Thuốc & Lưu Ý</button>
+            <button onclick="selectGoutSubTab('so_tay')" id="gt-tab-so_tay" class="gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📋 7. Sổ Tay Theo Dõi</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls Bar -->
+      <div id="gout-controls" class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-4 items-center justify-between border-emerald-500/20">
+        <div class="w-full md:max-w-md relative">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-emerald-400">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <input
+            type="text"
+            id="gout-search"
+            placeholder="Tìm theo triệu chứng, thuốc, món ăn, axit uric, mẹo xử lý..."
+            class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-750 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm shadow-inner"
+          >
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1.5 rounded-full border border-emerald-500/20" id="gout-item-count">Tổng: 0 nội dung</span>
+        </div>
+      </div>
+
+      <!-- Cards Display Area -->
+      <div id="gout-display-container">
+        <div id="gout-display-area" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-h-[300px]"></div>
+      </div>
+
+      <!-- Sổ Tay Theo Dõi Gút Area -->
+      <div id="gout-notebook-area" class="hidden flex flex-col gap-6">
+        <!-- Personal Goal Card -->
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border-emerald-500/30">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-800 pb-4 mb-6">
+            <div>
+              <h3 class="text-lg font-bold text-emerald-300 font-display flex items-center gap-2">
+                <span>📋</span> Sổ Tay Theo Dõi Chỉ Số & Cơn Đau Gút Cá Nhân
+              </h3>
+              <p class="text-xs text-slate-400 mt-1">
+                Ghi chép diễn biến nồng độ axit uric, thuốc đang dùng và thực phẩm nghi ngờ để nắm rõ quy luật cơ thể.
+              </p>
+            </div>
+            <button onclick="exportGoutNotes()" class="text-xs bg-slate-900 hover:bg-slate-800 border border-slate-800 text-emerald-300 px-3.5 py-2 rounded-xl flex items-center gap-1.5 transition-all cursor-pointer">
+              <span>📋</span> Sao chép Sổ Tay
+            </button>
+          </div>
+
+          <!-- Target metrics banner -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-6">
+            <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800">
+              <span class="text-[11px] font-bold text-slate-400 block mb-0.5">Axit Uric Mục Tiêu</span>
+              <b class="text-emerald-300 text-sm">&lt; 360 µmol/L (&lt; 300 nếu có Tophi)</b>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800">
+              <span class="text-[11px] font-bold text-slate-400 block mb-0.5">Nước Uống Hàng Ngày</span>
+              <b class="text-cyan-300 text-sm">2.0 – 2.5 Lít nước ấm</b>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800">
+              <span class="text-[11px] font-bold text-slate-400 block mb-0.5">Nguyên Tắc Dùng Thuốc</span>
+              <b class="text-amber-300 text-sm">Uống đều đặn hàng ngày</b>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800">
+              <span class="text-[11px] font-bold text-slate-400 block mb-0.5">Tái Khám Định Kỳ</span>
+              <b class="text-purple-300 text-sm">3 – 6 Tháng / lần</b>
+            </div>
+          </div>
+
+          <!-- Note Form -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 mb-4">
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Ngày</label>
+              <input type="date" id="gt-note-date" class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white focus:border-emerald-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Triệu chứng & Vị trí</label>
+              <input type="text" id="gt-note-symptom" placeholder="Ví dụ: Ê buốt ngón chân cái phải..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-emerald-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Axit Uric (µmol/L)</label>
+              <input type="text" id="gt-note-uric" placeholder="Ví dụ: 380 µmol/L..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-emerald-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Thuốc đã uống</label>
+              <input type="text" id="gt-note-med" placeholder="Ví dụ: Allopurinol 100mg..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-emerald-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Thực phẩm nghi ngờ</label>
+              <input type="text" id="gt-note-food" placeholder="Ví dụ: Ăn lẩu bò tối qua..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-emerald-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1">Ghi chú & Cảm nhận</label>
+              <input type="text" id="gt-note-desc" placeholder="Cảm nhận cơ thể..." class="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:border-emerald-500 focus:outline-none">
+            </div>
+          </div>
+
+          <div class="flex justify-end">
+            <button onclick="addGoutNote()" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-600 hover:from-emerald-400 hover:to-teal-500 text-slate-950 font-black text-xs uppercase tracking-wider transition-all cursor-pointer active:scale-95 shadow-lg shadow-emerald-500/20">
+              ➕ Thêm Ghi Chép Mới
+            </button>
+          </div>
+        </div>
+
+        <!-- Saved Notes Table -->
+        <div class="glass-card p-6 rounded-3xl border-slate-800 overflow-hidden">
+          <h4 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span>📚</span> Nhật Ký Theo Dõi Đã Lưu
+          </h4>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs text-slate-300">
+              <thead>
+                <tr class="border-b border-slate-850 text-slate-500 font-bold text-[11px] uppercase tracking-wider">
+                  <th class="py-3 px-2">Ngày</th>
+                  <th class="py-3 px-2">Triệu chứng</th>
+                  <th class="py-3 px-2">Axit Uric</th>
+                  <th class="py-3 px-2">Thuốc uống</th>
+                  <th class="py-3 px-2">Thực phẩm nghi ngờ</th>
+                  <th class="py-3 px-2">Ghi chú</th>
+                  <th class="py-3 px-2 text-right">Xoá</th>
+                </tr>
+              </thead>
+              <tbody id="gout-notes-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Core Golden Footer -->
+      <div class="glass-card p-6 sm:p-8 rounded-3xl border-emerald-500/30 text-center max-w-4xl mx-auto w-full bg-gradient-to-b from-emerald-950/20 to-slate-950/60 shadow-xl">
+        <h3 class="text-base sm:text-lg font-black font-display text-emerald-300 mb-3">
+          🌟 3 NGUYÊN TẮC VÀNG ĐẨY LÙI BỆNH GÚT TRỌN ĐỜI
+        </h3>
+        <div class="space-y-2 text-xs sm:text-sm text-slate-200 leading-relaxed max-w-2xl mx-auto">
+          <p><span class="font-bold text-emerald-400">1. Kiểm soát axit uric dưới ngưỡng mục tiêu</span> = Kiểm soát và dập tắt bệnh gút.</p>
+          <p><span class="font-bold text-teal-300">2. Uống thuốc hạ axit uric đều đặn không ngưng ngắt</span> = Phòng ngừa tái phát vĩnh viễn.</p>
+          <p><span class="font-bold text-cyan-300">3. Thay đổi chế độ ăn uống + Thói quen sinh hoạt</span> = Chìa khóa vàng bảo vệ khớp và thận trọn đời.</p>
+        </div>
+      </div>
+    </div>
+
     <!-- ==================== SECTION 11: AI AGENT ==================== -->
     <div id="aiagent-section" class="flex flex-col gap-6 hidden">
       <!-- Hero -->
@@ -1630,6 +1846,7 @@
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-thany" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🌿 Thần Y</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-muuke" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>⚔️ Mưu Kế</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-chuyenranday" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>📜 Chuyện Răn Dạy</span></label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-gout" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🦶 Bệnh Gút</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-aiagent" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🤖 Trợ Lý AI</span></label>
             </div>
           </div>
@@ -1852,6 +2069,7 @@
     const thanySection = document.getElementById('thany-section');
     const muukeSection = document.getElementById('muuke-section');
     const chuyenrandaySection = document.getElementById('chuyenranday-section');
+    const goutSection = document.getElementById('gout-section');
     const aiagentSection = document.getElementById('aiagent-section');
 
     // Nhan Nhan state
@@ -1874,6 +2092,11 @@
     let activeChuyenRanDaySubTab = 'all';
     let chuyenRanDayNotes = [];
 
+    // Gout state
+    let goutData = null;
+    let activeGoutSubTab = 'all';
+    let goutNotes = [];
+
     // AI Agent state
     let aiMessages = [];
     let aiIsSending = false;
@@ -1893,6 +2116,7 @@
     const tabThany = document.getElementById('tab-thany');
     const tabMuuke = document.getElementById('tab-muuke');
     const tabChuyenRanDay = document.getElementById('tab-chuyenranday');
+    const tabGout = document.getElementById('tab-gout');
     const tabAiagent = document.getElementById('tab-aiagent');
     const headerStatus = document.getElementById('header-status');
 
@@ -2082,6 +2306,8 @@
       setTabClass(tabThany, inactiveClass);
       setTabClass(tabMuuke, inactiveClass);
       setTabClass(tabChuyenRanDay, inactiveClass);
+      if (goutSection) goutSection.classList.add('hidden');
+      if (tabGout) setTabClass(tabGout, inactiveClass);
       setTabClass(tabAiagent, inactiveClass);
       setTabClass(document.getElementById('tab-users'), inactiveClass);
 
@@ -2131,6 +2357,10 @@
         chuyenrandaySection.classList.remove('hidden');
         setTabClass(tabChuyenRanDay, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black shadow-lg shadow-amber-500/25");
         loadChuyenRanDayData();
+      } else if (tab === 'gout') {
+        if (goutSection) goutSection.classList.remove('hidden');
+        if (tabGout) setTabClass(tabGout, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-600 text-white font-bold shadow-lg shadow-emerald-500/25");
+        loadGoutData();
       } else if (tab === 'aiagent') {
         aiagentSection.classList.remove('hidden');
         setTabClass(tabAiagent, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25");
@@ -3355,6 +3585,295 @@
 
     document.getElementById('chuyenranday-search')?.addEventListener('input', () => {
       renderChuyenRanDay();
+    });
+
+    // --- GOUT MODULE LOGIC ---
+    async function loadGoutData() {
+      loadGoutNotes();
+      if (goutData) {
+        renderGout();
+        return;
+      }
+      headerStatus.textContent = "Đang tải cẩm nang Bệnh Gút...";
+      try {
+        goutData = await fetchJsonWithCache('./gout.json', 'Không thể tải gout.json');
+        headerStatus.textContent = "Cẩm nang Bệnh Gút sẵn sàng";
+        renderGout();
+      } catch (err) {
+        console.error(err);
+        headerStatus.textContent = 'Mở offline (chưa có Bệnh Gút)';
+        document.getElementById('gout-display-area').innerHTML =
+          `<p class="col-span-full py-12 text-center text-rose-400 font-bold">Không thể tải dữ liệu Bệnh Gút.</p>`;
+      }
+    }
+
+    function loadGoutNotes() {
+      try {
+        const raw = localStorage.getItem('user_gout_notes');
+        goutNotes = raw ? JSON.parse(raw) : [];
+      } catch (e) {
+        goutNotes = [];
+      }
+      const dateEl = document.getElementById('gt-note-date');
+      if (dateEl && !dateEl.value) {
+        dateEl.value = new Date().toISOString().split('T')[0];
+      }
+    }
+
+    function saveGoutNotes() {
+      try {
+        localStorage.setItem('user_gout_notes', JSON.stringify(goutNotes));
+      } catch (e) {
+        console.error('Lỗi lưu sổ tay gút:', e);
+      }
+    }
+
+    window.addGoutNote = function() {
+      const dateEl = document.getElementById('gt-note-date');
+      const symptomEl = document.getElementById('gt-note-symptom');
+      const uricEl = document.getElementById('gt-note-uric');
+      const medEl = document.getElementById('gt-note-med');
+      const foodEl = document.getElementById('gt-note-food');
+      const descEl = document.getElementById('gt-note-desc');
+
+      const date = dateEl ? dateEl.value : '';
+      const symptom = symptomEl ? symptomEl.value.trim() : '';
+      const uric = uricEl ? uricEl.value.trim() : '';
+      const med = medEl ? medEl.value.trim() : '';
+      const food = foodEl ? foodEl.value.trim() : '';
+      const desc = descEl ? descEl.value.trim() : '';
+
+      if (!symptom && !uric && !desc) {
+        alert('Vui lòng nhập ít nhất triệu chứng, chỉ số axit uric hoặc cảm nhận.');
+        return;
+      }
+
+      const newNote = {
+        id: Date.now(),
+        date: date || new Date().toISOString().split('T')[0],
+        symptom: symptom || 'Bình thường',
+        uric: uric || '---',
+        med: med || '---',
+        food: food || '---',
+        desc: desc || '---'
+      };
+
+      goutNotes.unshift(newNote);
+      saveGoutNotes();
+      renderGoutNotes();
+
+      if (symptomEl) symptomEl.value = '';
+      if (uricEl) uricEl.value = '';
+      if (medEl) medEl.value = '';
+      if (foodEl) foodEl.value = '';
+      if (descEl) descEl.value = '';
+    };
+
+    window.deleteGoutNote = function(id) {
+      if (confirm('Bạn có chắc muốn xóa ghi chép theo dõi này?')) {
+        goutNotes = goutNotes.filter(n => n.id !== id);
+        saveGoutNotes();
+        renderGoutNotes();
+      }
+    };
+
+    window.exportGoutNotes = function() {
+      if (!goutNotes || goutNotes.length === 0) {
+        alert('Chưa có ghi chép nào để sao chép.');
+        return;
+      }
+      const text = goutNotes.map((n, i) =>
+        `#${i + 1} [${n.date}]\n- Triệu chứng: ${n.symptom}\n- Axit Uric: ${n.uric}\n- Thuốc uống: ${n.med}\n- Thực phẩm nghi ngờ: ${n.food}\n- Ghi chú: ${n.desc}\n`
+      ).join('\n---\n\n');
+
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(() => alert('Đã sao chép sổ tay theo dõi Gút vào clipboard!')).catch(() => prompt('Sao chép nội dung sổ tay:', text));
+      } else {
+        prompt('Sao chép nội dung sổ tay:', text);
+      }
+    };
+
+    window.renderGoutNotes = function() {
+      const tbody = document.getElementById('gout-notes-tbody');
+      if (!tbody) return;
+      if (!goutNotes || goutNotes.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="7" class="text-center py-8 text-slate-500 italic">Chưa có ghi chép theo dõi nào. Hãy thêm ghi chép đầu tiên phía trên.</td></tr>`;
+        return;
+      }
+      tbody.innerHTML = goutNotes.map(n => `
+        <tr class="border-b border-slate-800/60 hover:bg-slate-900/40 transition-colors">
+          <td class="py-3 px-2 font-mono text-slate-400 whitespace-nowrap">${n.date}</td>
+          <td class="py-3 px-2 font-semibold text-emerald-300">${n.symptom}</td>
+          <td class="py-3 px-2 text-cyan-400 font-bold">${n.uric}</td>
+          <td class="py-3 px-2 text-amber-300">${n.med}</td>
+          <td class="py-3 px-2 text-rose-300">${n.food}</td>
+          <td class="py-3 px-2 text-slate-300 italic">${n.desc}</td>
+          <td class="py-3 px-2 text-right">
+            <button onclick="deleteGoutNote(${n.id})" class="text-rose-400 hover:text-rose-300 p-1 rounded-lg hover:bg-rose-950/40 cursor-pointer" title="Xóa">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
+            </button>
+          </td>
+        </tr>
+      `).join('');
+    };
+
+    window.selectGoutSubTab = function(subTab) {
+      activeGoutSubTab = subTab;
+      document.querySelectorAll('.gt-badge').forEach(btn => {
+        if (btn.id === `gt-tab-${subTab}`) {
+          btn.className = "gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-black border border-emerald-500 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-600 text-slate-950 shadow-lg shadow-emerald-500/20 cursor-pointer";
+        } else {
+          btn.className = "gt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer";
+        }
+      });
+
+      const container = document.getElementById('gout-display-container');
+      const controls = document.getElementById('gout-controls');
+      const notebook = document.getElementById('gout-notebook-area');
+
+      if (subTab === 'so_tay') {
+        if (container) container.classList.add('hidden');
+        if (controls) controls.classList.add('hidden');
+        if (notebook) {
+          notebook.classList.remove('hidden');
+          renderGoutNotes();
+        }
+      } else {
+        if (container) container.classList.remove('hidden');
+        if (controls) controls.classList.remove('hidden');
+        if (notebook) notebook.classList.add('hidden');
+        renderGout();
+      }
+    };
+
+    window.renderGout = function() {
+      if (!goutData) return;
+      const searchVal = removeVietnameseTones((document.getElementById('gout-search')?.value || '').toLowerCase());
+      const area = document.getElementById('gout-display-area');
+      const countEl = document.getElementById('gout-item-count');
+      if (!area) return;
+
+      let cardsHtml = [];
+
+      function addGoutCard(category, icon, title, mainDesc, details, warning, audioText, borderCls = 'border-slate-800/80') {
+        const fullContent = `${category} ${title} ${mainDesc} ${details || ''} ${warning || ''}`;
+        if (searchVal && !removeVietnameseTones(fullContent.toLowerCase()).includes(searchVal)) {
+          return;
+        }
+
+        const speakText = audioText || `${category}: ${title}. ${mainDesc}. ${details || ''}`;
+        const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+        cardsHtml.push(`
+          <div class="glass-card rounded-3xl p-5 sm:p-6 flex flex-col justify-between hover:border-emerald-500/40 ${borderCls} transition-all duration-300 group">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-300 text-xs font-bold border border-emerald-500/20">
+                  <span>${icon}</span> ${category}
+                </span>
+                <span class="text-xs font-mono text-slate-500 font-bold">#${cardsHtml.length + 1}</span>
+              </div>
+              <div class="py-1">
+                <h4 class="text-base font-black font-display text-white mb-2 group-hover:text-emerald-200 transition-colors leading-snug">${title}</h4>
+                <p class="text-xs sm:text-sm text-slate-200 leading-relaxed mb-2 whitespace-pre-line">${mainDesc}</p>
+                ${details ? `<div class="text-xs text-slate-300 font-sans p-3 rounded-xl bg-slate-900/80 border border-slate-800/60 leading-relaxed mt-2 whitespace-pre-line">${details}</div>` : ''}
+                ${warning ? `<div class="text-xs text-amber-300 font-semibold p-2.5 rounded-xl bg-amber-950/30 border border-amber-500/25 leading-relaxed mt-2.5">⚠️ ${warning}</div>` : ''}
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-3 border-t border-slate-800/80">
+              <span class="text-[11px] font-bold text-emerald-400/80 bg-emerald-500/10 px-2.5 py-0.5 rounded-md">Bệnh Gút & Dưỡng Khớp</span>
+              <button 
+                onclick="playTTS(event, '${safeSpeakText}', 'vi')"
+                class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-emerald-400 hover:text-white hover:bg-emerald-950/40 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold shrink-0"
+                title="Nghe đọc nội dung"
+              >
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                <span>Nghe</span>
+              </button>
+            </div>
+          </div>
+        `);
+      }
+
+      // 1. Hieu ve gout
+      if (activeGoutSubTab === 'all' || activeGoutSubTab === 'hieu_ve_gout') {
+        (goutData.hieu_ve_gout || []).forEach(item => {
+          addGoutCard(item.nhom, item.icon || '🔬', item.tieu_de, item.tom_tat, item.chi_tiet, null, null, 'border-teal-500/30');
+        });
+      }
+
+      // 2. Xu ly cap cuu
+      if (activeGoutSubTab === 'all' || activeGoutSubTab === 'xu_ly_cap') {
+        const xc = goutData.xu_ly_cap_cuu || {};
+        (xc.bon_nguyen_tac_khan_cap || []).forEach(p => {
+          addGoutCard('Cấp Cứu Cơn Gút Cấp', '🚨', p.buoc, p.hanh_dong, `Lý do: ${p.ly_do}`, null, null, 'border-rose-500/30');
+        });
+        (xc.uong_thuoc_dung_cach || []).forEach(m => {
+          addGoutCard('Thuốc Cơn Đau Cấp', '💊', m.ten_thuoc, m.lieu_dung, null, m.luu_y, null, 'border-amber-500/30');
+        });
+        (xc.nhung_viec_tuyet_doi_khong_lam || []).forEach(c => {
+          addGoutCard('Điều Tuyệt Đối Cấm', '🚫', c.viec_cam, c.ly_do, null, 'Vi phạm sẽ khiến khớp sưng đau nặng hơn gấp bội.', null, 'border-rose-500/40');
+        });
+        if (xc.khi_nao_phai_di_vien) {
+          addGoutCard('Báo Động Đỏ', '🏥', 'Khi nào cần nhập viện cấp cứu ngay?', xc.khi_nao_phai_di_vien.join('\n• '), null, 'Không tự ý điều trị tại nhà khi có dấu hiệu nguy hiểm.', null, 'border-rose-500/40');
+        }
+      }
+
+      // 3. Giai quyet hau qua
+      if (activeGoutSubTab === 'all' || activeGoutSubTab === 'giai_quyet_hau_qua') {
+        const hq = goutData.giai_quyet_hau_qua || {};
+        (hq.hoi_phuc_khop || []).forEach(item => {
+          addGoutCard('Hồi Phục Khớp', '🛡️', item.noi_dung, item.chi_tiet, null, null, null, 'border-emerald-500/30');
+        });
+        if (hq.kiem_soat_uric_dai_han) {
+          (hq.kiem_soat_uric_dai_han.bang_muc_tieu || []).forEach(b => {
+            addGoutCard('Mục Tiêu Axit Uric', '🎯', b.muc_tieu, `Chỉ số: ${b.chi_so}`, `Giải pháp: ${b.giai_phap}`, null, null, 'border-teal-500/30');
+          });
+        }
+        if (hq.phong_ngua_tai_phat) {
+          addGoutCard('Phòng Ngừa Tái Phát', '✨', 'Chiến Lược Ngăn Ngừa Tái Phát', hq.phong_ngua_tai_phat.join('\n• '), null, null, null, 'border-emerald-500/30');
+        }
+      }
+
+      // 4. An uong dung cach
+      if (activeGoutSubTab === 'all' || activeGoutSubTab === 'an_uong') {
+        const au = goutData.an_uong_dung_cach || {};
+        (au.nen_an_thuong_xuyen || []).forEach(f => {
+          addGoutCard('Nên Ăn Thường Xuyên', '🥗', f.thuc_pham, f.loi_ich, `Ghi chú: ${f.ghi_chu}`, null, null, 'border-emerald-500/30');
+        });
+        (au.an_han_che || []).forEach(f => {
+          addGoutCard('Ăn Hạn Chế', '⚠️', f.thuc_pham, f.ly_do, `Mức độ an toàn: ${f.muc_do}`, null, null, 'border-amber-500/30');
+        });
+        (au.tuyet_doi_tranh || []).forEach(f => {
+          addGoutCard('Tuyệt Đối Kiêng Tránh', '🚫', f.thuc_pham, f.anh_huong, null, 'Ăn vào là nồng độ axit uric tăng vọt gây cơn đau cấp ngay.', null, 'border-rose-500/40');
+        });
+      }
+
+      // 5. Sinh hoat phong benh
+      if (activeGoutSubTab === 'all' || activeGoutSubTab === 'sinh_hoat') {
+        (goutData.sinh_hoat_phong_benh || []).forEach(item => {
+          addGoutCard('Thói Quen Sống Khỏe', '🏃', item.thoi_quen, item.chi_tiet, null, null, null, 'border-teal-500/30');
+        });
+      }
+
+      // 6. Thuoc va luu y
+      if (activeGoutSubTab === 'all' || activeGoutSubTab === 'thuoc_luu_y') {
+        (goutData.thuoc_va_luu_y || []).forEach(m => {
+          addGoutCard('Thuốc Điều Trị', '💊', m.nhom, m.cong_dung, null, m.luu_y_vang, null, 'border-indigo-500/30');
+        });
+      }
+
+      if (countEl) countEl.textContent = `Tổng: ${cardsHtml.length} mục hướng dẫn`;
+
+      if (cardsHtml.length === 0) {
+        area.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-2xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp với từ khóa.</p></div>`;
+      } else {
+        area.innerHTML = cardsHtml.join('');
+      }
+    };
+
+    document.getElementById('gout-search')?.addEventListener('input', () => {
+      renderGout();
     });
 
     // --- KINH PHAP CU LOGIC ---
@@ -5748,13 +6267,13 @@
         "email": "admin@gmail.com",
         "mat_khau": "admin",
         "vai_tro": "Admin",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "aiagent", "users"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "gout", "aiagent", "users"]
       },
       {
         "email": "khach@gmail.com",
         "mat_khau": "123456",
         "vai_tro": "Khách",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "aiagent"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "gout", "aiagent"]
       }
     ];
 

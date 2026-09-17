@@ -12,6 +12,7 @@ const ASSETS = [
   './than_y.json',
   './muu_ke.json',
   './chuyen_ran_day.json',
+  './gout.json',
   './users.json',
   './manifest.json',
   './icon-192.png',
