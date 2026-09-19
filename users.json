@@ -3,12 +3,12 @@
     "email": "admin@gmail.com",
     "mat_khau": "admin",
     "vai_tro": "Admin",
-    "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "aiagent", "users"]
+    "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "aiagent", "users"]
   },
   {
     "email": "khach@gmail.com",
     "mat_khau": "123456",
     "vai_tro": "Khách",
-    "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "aiagent"]
+    "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "aiagent"]
   }
 ]
