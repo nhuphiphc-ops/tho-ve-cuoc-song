@@ -1759,6 +1759,7 @@
             <button onclick="selectPhapLuatSubTab('vi_du')" id="pl-tab-vi_du" class="pl-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🏠 4. Ví Dụ (Xây Nhà)</button>
             <button onclick="selectPhapLuatSubTab('tu_vung')" id="pl-tab-tu_vung" class="pl-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📚 5. Từ Vựng Pháp Lý</button>
             <button onclick="selectPhapLuatSubTab('bang_tong_hop')" id="pl-tab-bang_tong_hop" class="pl-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📊 6. Bảng Tóm Tắt</button>
+            <button onclick="selectPhapLuatSubTab('an_dau_thau')" id="pl-tab-an_dau_thau" class="pl-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-rose-500/40 bg-rose-950/40 text-rose-300 hover:text-white cursor-pointer">🚨 8. Án Đấu Thầu & Làm Việc BCA (C03, A03)</button>
             <button onclick="selectPhapLuatSubTab('so_tay')" id="pl-tab-so_tay" class="pl-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📝 7. Sổ Tay Tình Huống</button>
           </div>
         </div>
@@ -4835,7 +4836,7 @@
       }
     };
 
-        window.renderPhapLuat = function() {
+            window.renderPhapLuat = function() {
       if (!phapLuatData) return;
       const searchVal = removeVietnameseTones((document.getElementById('phapluat-search')?.value || '').toLowerCase());
       const area = document.getElementById('phapluat-display-area');
@@ -5183,6 +5184,211 @@
                     </div>
                   `;
                 }).join('')}
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // 8. Chuyên Đề: Án Đấu Thầu & Làm Việc Với BCA (C03, A03...)
+      if (activePhapLuatSubTab === 'all' || activePhapLuatSubTab === 'an_dau_thau') {
+        const dt = phapLuatData.an_dau_thau_bca;
+        if (dt) {
+          const fullDtSpeak = `Cẩm nang pháp luật: Người có liên quan trong vụ án vi phạm đấu thầu khi làm việc với Cơ quan Điều tra Bộ Công An. ${dt.loi_dan}. Khẩu hiệu cốt lõi: ${dt.khau_hieu_cot_loi}`;
+          const safeFullDtSpeak = fullDtSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-rose-500/40 bg-gradient-to-b from-rose-950/20 via-slate-950/40 to-slate-950/80">
+              <!-- Header -->
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/30 text-rose-300 text-xs font-bold uppercase tracking-wider mb-2">
+                    <span>🚨</span> <span>Chuyên Đề Trọng Yếu • Tố Tụng & Hình Sự</span>
+                  </div>
+                  <h3 class="text-xl sm:text-2xl font-black font-display text-white">${dt.tieu_de}</h3>
+                  <p class="text-xs text-slate-300 mt-1.5 leading-relaxed max-w-3xl">${dt.loi_dan}</p>
+                </div>
+                <button 
+                  onclick="playTTS(event, '${safeFullDtSpeak}', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-gradient-to-r from-rose-600 to-red-700 hover:from-rose-500 hover:to-red-600 text-white font-bold text-xs shadow-lg shadow-rose-600/30 transition-all flex items-center gap-2 shrink-0 cursor-pointer border border-rose-400/40"
+                  title="Nghe tổng quan chuyên đề Án Đấu Thầu"
+                >
+                  <svg class="w-4 h-4 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Tổng Quan</span>
+                </button>
+              </div>
+
+              <div class="space-y-6 text-xs">
+                <!-- 1. Thẩm Quyền Các Cục BCA -->
+                <div class="space-y-3">
+                  <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                    <span>🏛️</span> 1. Thẩm Quyền & Chức Năng Của Các Cơ Quan BCA (C03, A03, PC03, PA03)
+                  </span>
+                  <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
+                    ${dt.cac_co_quan_bca.map(cq => {
+                      const cqSpeak = `${cq.ma_hieu}. Chức năng: ${cq.chuc_nang}. Vai trò trong án đấu thầu: ${cq.vai_tro_trong_an_dau_thau}`;
+                      const safeCqSpeak = cqSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                      return `
+                        <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                          <div>
+                            <div class="flex items-center justify-between mb-2">
+                              <b class="text-rose-300 text-xs">${cq.ma_hieu}</b>
+                              <button onclick="playTTS(event, '${safeCqSpeak}', 'vi')" class="p-1 rounded-lg bg-slate-950 border border-slate-800 text-rose-300 hover:text-white" title="Nghe"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                            </div>
+                            <p class="text-slate-300 text-[11px] leading-relaxed mb-2">${cq.chuc_nang}</p>
+                          </div>
+                          <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800/80 text-[10px] text-amber-300">
+                            <b>👉 Vai trò thực tế:</b> ${cq.vai_tro_trong_an_dau_thau}
+                          </div>
+                        </div>
+                      `;
+                    }).join('')}
+                  </div>
+                </div>
+
+                <!-- 2. Điều Khoản Hình Sự Cốt Lõi (Điều 222 BLHS & Tội Liên Đới) -->
+                <div class="space-y-3 pt-2">
+                  <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                    <span>⚖️</span> 2. Điều Khoản Hình Sự Trọng Yếu (Điều 222 BLHS & Các Tội Danh Liên Đới)
+                  </span>
+                  <div class="p-5 rounded-2xl bg-slate-900/90 border border-rose-500/30 space-y-4">
+                    <!-- Điều 222 BLHS -->
+                    <div class="border-b border-slate-800 pb-4">
+                      <div class="flex items-center justify-between mb-2">
+                        <b class="text-base text-rose-300">${dt.dieu_khoan_hinh_su[0].dieu_luat}</b>
+                        <button 
+                          onclick="playTTS(event, '${(dt.dieu_khoan_hinh_su[0].dieu_luat + '. Các hành vi: ' + dt.dieu_khoan_hinh_su[0].nhom_hanh_vi.join('. ') + '. Khung 1: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].dieu_kien + '. Khung 2: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].dieu_kien + '. Khung 3: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].dieu_kien).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" 
+                          class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-xs font-bold flex items-center gap-1"
+                        >
+                          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                          <span>Nghe Điều 222</span>
+                        </button>
+                      </div>
+
+                      <div class="mb-3">
+                        <span class="text-xs font-semibold text-slate-300 block mb-1">📌 5 Nhóm hành vi phạm tội theo luật:</span>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-[11px] text-slate-300">
+                          ${dt.dieu_khoan_hinh_su[0].nhom_hanh_vi.map(h => `<div class="p-2 rounded-lg bg-slate-950 border border-slate-800 flex items-start gap-1.5"><span class="text-rose-400">✗</span> <span>${h}</span></div>`).join('')}
+                        </div>
+                      </div>
+
+                      <!-- 3 Khung hình phạt -->
+                      <div class="space-y-2">
+                        <span class="text-xs font-semibold text-yellow-300 block">⚖️ 3 Khung hình phạt chính:</span>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-[11px]">
+                          ${dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat.map(k => `
+                            <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
+                              <b class="text-amber-300 block mb-1">${k.khung}</b>
+                              <p class="text-slate-300 leading-relaxed">${k.dieu_kien}</p>
+                            </div>
+                          `).join('')}
+                        </div>
+                        <p class="text-[10px] text-slate-400 italic mt-1">📌 Hình phạt bổ sung: ${dt.dieu_khoan_hinh_su[0].hinh_phat_bo_sung}</p>
+                      </div>
+                    </div>
+
+                    <!-- Các tội danh liên đới -->
+                    <div>
+                      <b class="text-xs text-yellow-300 block mb-2">🔗 Các Tội Danh Liên Đới Thường Đi Kèm Trong Đại Án Đấu Thầu:</b>
+                      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-[11px]">
+                        ${dt.dieu_khoan_hinh_su[1].danh_sach.map(td => `
+                          <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
+                            <b class="text-indigo-300 block mb-1">${td.ten_toi}</b>
+                            <p class="text-slate-300 leading-relaxed">${td.mo_ta}</p>
+                          </div>
+                        `).join('')}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3. Phân Biệt Giấy Triệu Tập vs Giấy Mời & Tư Cách Tố Tụng -->
+                <div class="space-y-3 pt-2">
+                  <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                    <span>📑</span> 3. Phân Biệt Giấy Triệu Tập vs Giấy Mời & Quyền Lợi Theo Tư Cách Tố Tụng
+                  </span>
+                  
+                  <!-- Giấy triệu tập vs Giấy mời -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs mb-3">
+                    ${dt.quyen_nghia_vu_to_tung.phan_biet_giay_trieu_tap_va_giay_moi.map(g => `
+                      <div class="p-4 rounded-2xl bg-slate-900/90 border ${g.loai_giay.includes('Triệu Tập') ? 'border-rose-500/40 bg-rose-950/20' : 'border-blue-500/30 bg-blue-950/20'}">
+                        <b class="text-sm ${g.loai_giay.includes('Triệu Tập') ? 'text-rose-300' : 'text-blue-300'} block mb-1.5">${g.loai_giay}</b>
+                        <p class="text-slate-300 text-[11px] mb-1.5"><b class="text-slate-200">Căn cứ:</b> ${g.can_cu}</p>
+                        <p class="text-slate-300 text-[11px] mb-2"><b class="text-slate-200">Đối tượng:</b> ${g.doi_tuong}</p>
+                        <div class="p-2 rounded-xl bg-slate-950 border border-slate-800 text-[11px] font-medium ${g.loai_giay.includes('Triệu Tập') ? 'text-amber-300' : 'text-emerald-300'}">
+                          <b>⚠️ Tính pháp lý:</b> ${g.tinh_phap_ly}
+                        </div>
+                      </div>
+                    `).join('')}
+                  </div>
+
+                  <!-- 4 Tư Cách Tố Tụng -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    ${dt.quyen_nghia_vu_to_tung.tu_cach_va_quyen_loi.map(tc => `
+                      <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                        <div>
+                          <b class="text-xs text-amber-300 block mb-2">👤 ${tc.tu_cach}</b>
+                          <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800/80 mb-2 text-[11px] text-emerald-300">
+                            <b>✓ Quyền lợi:</b> ${tc.quyen}
+                          </div>
+                        </div>
+                        <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800/80 text-[11px] text-rose-300">
+                          <b>✗ Nghĩa vụ:</b> ${tc.nghia_vu}
+                        </div>
+                      </div>
+                    `).join('')}
+                  </div>
+
+                  <!-- Quyền Có Luật Sư -->
+                  <div class="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-500/40 text-xs">
+                    <b class="text-sm text-indigo-300 block mb-1">⚖️ ${dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.tieu_de}</b>
+                    <p class="text-slate-200 text-[11px] leading-relaxed">${dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung}</p>
+                  </div>
+                </div>
+
+                <!-- 4. Năm Nguyên Tắc Vàng Khi Làm Việc Tại BCA -->
+                <div class="space-y-3 pt-2">
+                  <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                    <span>⭐</span> 4. Năm Nguyên Tắc Vàng & Kỹ Năng Làm Việc Với Điều Tra Viên
+                  </span>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
+                    ${dt.nguyen_tac_vang_khi_lam_viec.map(nt => {
+                      const ntSpeak = `${nt.nguyen_tac}. Chi tiết: ${nt.chi_tiet}`;
+                      const safeNtSpeak = ntSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                      return `
+                        <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                          <div>
+                            <div class="flex items-start justify-between gap-1 mb-2">
+                              <b class="text-yellow-300 text-xs">${nt.nguyen_tac}</b>
+                              <button onclick="playTTS(event, '${safeNtSpeak}', 'vi')" class="p-1 rounded-lg bg-slate-950 border border-slate-800 text-amber-300 hover:text-white"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                            </div>
+                            <p class="text-slate-300 text-[11px] leading-relaxed">${nt.chi_tiet}</p>
+                          </div>
+                        </div>
+                      `;
+                    }).join('')}
+                  </div>
+                </div>
+
+                <!-- 5. Quy Trình 5 Bước Ứng Phó -->
+                <div class="space-y-3 pt-2">
+                  <span class="text-sm font-bold text-emerald-300 flex items-center gap-2">
+                    <span>🚀</span> 5. Quy Trình 5 Bước Hành Động Chuẩn Mực Khi Nhận Giấy Làm Việc
+                  </span>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 text-xs">
+                    ${dt.quy_trinh_5_buoc_ung_pho.map(b => `
+                      <div class="p-3 rounded-2xl bg-slate-900/90 border border-slate-800 text-center flex flex-col justify-between">
+                        <div>
+                          <span class="text-[10px] font-bold text-amber-400 bg-slate-950 px-2 py-0.5 rounded-full border border-slate-800 inline-block mb-1.5">Bước ${b.buoc}</span>
+                          <b class="text-white block text-xs mb-1">${b.ten}</b>
+                          <p class="text-slate-300 text-[10px] leading-snug">${b.hanh_dong}</p>
+                        </div>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
               </div>
             </div>
           `);

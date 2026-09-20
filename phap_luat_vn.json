@@ -432,5 +432,192 @@
       "noi_ap_dung": "Toàn xã / phường",
       "vai_tro": "Quy định việc hàng ngày, gần gũi nhất với đời sống xóm làng."
     }
-  ]
+  ],
+  "an_dau_thau_bca": {
+    "tieu_de": "🚨 Cẩm Nang Pháp Luật: Người Có Liên Quan Trong Vụ Án Đấu Thầu & Làm Việc Với Cơ Quan Điều Tra Bộ Công An (C03, A03...)",
+    "loi_dan": "Tài liệu hệ thống hóa toàn diện các điều khoản pháp lý hình sự, tố tụng hình sự và quy tắc thực tế dành cho cá nhân, doanh nghiệp, cán bộ khi được mời hoặc triệu tập làm việc tại Cơ quan Điều tra (C03, A03, Cơ quan CSĐT các cấp).",
+    "khau_hieu_cot_loi": "Bình Tĩnh • Hiểu Quyền • Khai Đúng Sự Thật • Không Ký Vội • Hợp Tác Khắc Phục",
+    "cac_co_quan_bca": [
+      {
+        "ma_hieu": "C03 (Cục CSĐT tội phạm về tham nhũng, kinh tế, buôn lậu)",
+        "chuc_nang": "Cơ quan Cảnh sát điều tra Bộ Công an chuyên trách thụ lý, xác minh và điều tra các vụ án kinh tế, tham nhũng, vi phạm quy định về đấu thầu quy mô lớn, các dự án trọng điểm quốc gia, ngành y tế, giáo dục, xây dựng, công nghệ... hoặc thuộc diện Ban Chỉ đạo Trung ương theo dõi.",
+        "vai_tro_trong_an_dau_thau": "Trực tiếp triệu tập, lấy lời khai, thu thập hồ sơ thầu, thẩm định giá, giám định thiệt hại, khởi tố vụ án, khởi tố bị can và thực hiện các biện pháp ngăn chặn (cấm xuất cảnh, tạm giam, kê biên tài sản)."
+      },
+      {
+        "ma_hieu": "A03 (Cục An ninh chính trị nội bộ)",
+        "chuc_nang": "Cơ quan An ninh chuyên trách nắm tình hình, bảo vệ an ninh nội bộ, an ninh kinh tế trong các cơ quan Nhà nước, tập đoàn, tổng công ty, bệnh viện, trường học; phát hiện các lỗ hổng quản lý, sai phạm quy trình đấu thầu, chỉ định thầu, lộ lọt bí mật nhà nước.",
+        "vai_tro_trong_an_dau_thau": "Mời làm việc, xác minh thông tin ban đầu, rà soát hồ sơ; sau khi xác định có dấu hiệu tội phạm sẽ chuyển hồ sơ sang Cơ quan CSĐT (C03 hoặc PC03) để khởi tố theo thẩm quyền."
+      },
+      {
+        "ma_hieu": "C01 / PC03 / PA03 (Văn phòng Cơ quan CSĐT & Công an các Tỉnh/Thành phố)",
+        "chuc_nang": "C01 là Cơ quan Thường trực tham mưu điều tra; PC03 (Phòng Cảnh sát kinh tế) và PA03 (Phòng An ninh chính trị nội bộ) Công an cấp tỉnh thụ lý các gói thầu trên địa bàn địa phương hoặc theo ủy thác điều tra của C03.",
+        "vai_tro_trong_an_dau_thau": "Phối hợp xác minh, triệu tập đối tượng liên quan, niêm phong tài liệu, phong tỏa tài khoản và thực hiện điều tra theo phân cấp."
+      }
+    ],
+    "dieu_khoan_hinh_su": [
+      {
+        "dieu_luat": "Điều 222 BLHS 2015 (sửa đổi 2017) — Tội vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng",
+        "nhom_hanh_vi": [
+          "Can thiệp trái pháp luật vào hoạt động đấu thầu.",
+          "Thông thầu (thỏa thuận ngầm dàn xếp giá thầu, thông đồng 'quân xanh - quân đỏ' để một bên trúng thầu).",
+          "Gian lận trong đấu thầu (làm giả hồ sơ năng lực, bằng cấp, số liệu báo cáo tài chính, chứng chỉ giả...).",
+          "Tiết lộ, tiếp nhận tài liệu, thông tin bí mật về đấu thầu trước thời điểm công bố.",
+          "Chuyển nhượng thầu trái phép (bán thầu, sang tay dự án hưởng chênh lệch)."
+        ],
+        "cac_khung_hinh_phat": [
+          {
+            "khung": "Khung 1 (Phạt cải tạo KGG đến 03 năm hoặc phạt tù từ 01 năm đến 05 năm)",
+            "dieu_kien": "Gây thiệt hại từ 100.000.000 đồng đến dưới 300.000.000 đồng hoặc dưới 100.000.000 đồng nhưng đã bị xử lý kỷ luật hoặc xử phạt vi phạm hành chính."
+          },
+          {
+            "khung": "Khung 2 (Phạt tù từ 03 năm đến 12 năm)",
+            "dieu_kien": "Thuộc một trong các trường hợp: Vì vụ lợi; Có tổ chức; Lợi dụng chức vụ, quyền hạn; Dùng thủ đoạn tinh vi, xảo quyệt; Gây thiệt hại từ 300.000.000 đồng đến dưới 1.000.000.000 đồng."
+          },
+          {
+            "khung": "Khung 3 (Phạt tù từ 10 năm đến 20 năm)",
+            "dieu_kien": "Gây thiệt hại từ 1.000.000.000 đồng (1 tỷ đồng) trở lên."
+          }
+        ],
+        "hinh_phat_bo_sung": "Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ hoặc làm công việc nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng hoặc tịch thu một phần/toàn bộ tài sản."
+      },
+      {
+        "dieu_luat": "Các Tội Danh Liên Đới Thường Đi Kèm Trong Án Đấu Thầu",
+        "danh_sach": [
+          {
+            "ten_toi": "Điều 354 BLHS — Tội Nhận hối lộ",
+            "mo_ta": "Nhận tiền, tài sản hoặc lợi ích vật chất/phi vật chất từ nhà thầu để tạo điều kiện trúng thầu. Khung hình phạt cao nhất có thể lên đến Tù chung thân hoặc Tử hình (nếu nhận từ 1 tỷ đồng trở lên)."
+          },
+          {
+            "ten_toi": "Điều 364 BLHS — Tội Đưa hối lộ",
+            "mo_ta": "Doanh nghiệp/cá nhân đưa tiền, hoa hồng cho chủ đầu tư, bên mời thầu để trúng thầu. Nếu bị ép buộc đưa hối lộ mà chủ động khai báo trước khi bị phát giác thì được coi là không có tội và được trả lại tài sản đã đưa."
+          },
+          {
+            "ten_toi": "Điều 356 BLHS — Tội Lợi dụng chức vụ, quyền hạn trong khi thi hành công vụ",
+            "mo_ta": "Vì vụ lợi hoặc động cơ cá nhân mà làm trái công vụ trong việc phê duyệt chủ trương, thẩm định giá, phê duyệt kết quả trúng thầu gây thiệt hại cho Nhà nước."
+          },
+          {
+            "ten_toi": "Điều 360 BLHS — Tội Thiếu trách nhiệm gây hậu quả nghiêm trọng",
+            "mo_ta": "Người có trách nhiệm không thực hiện hoặc thực hiện không đúng nhiệm vụ được giao (như ký duyệt hồ sơ không kiểm tra, buông lỏng quản lý) dẫn đến hậu quả thiệt hại."
+          },
+          {
+            "ten_toi": "Điều 219 BLHS — Tội Vi phạm quy định về quản lý, sử dụng tài sản Nhà nước gây thất thoát, lãng phí",
+            "mo_ta": "Hành vi làm trái chế độ quản lý tài sản nhà nước trong quá trình mua sắm, đấu thầu dự án gây thất thoát tiền bạc ngân sách."
+          }
+        ]
+      }
+    ],
+    "luat_dau_thau_2023_hanh_vi_cam": [
+      {
+        "nhom": "1. Thông thầu (Điều 16 Khoản 3)",
+        "noi_dung": "Thỏa thuận rút hồ sơ để bên khác trúng thầu; thỏa thuận về giá hoặc điều kiện thầu; một bên đứng tên nhiều hồ sơ ('quân xanh - quân đỏ'); chuẩn bị hồ sơ cho nhiều bên cùng tham dự thầu."
+      },
+      {
+        "nhom": "2. Gian lận (Điều 16 Khoản 4)",
+        "noi_dung": "Làm giả tài liệu, chứng chỉ năng lực nhân sự, hợp đồng tương tự; gian dối số liệu báo cáo tài chính kiểm toán; khai khống thông tin nhằm thỏa mãn tiêu chí E-HSMT."
+      },
+      {
+        "nhom": "3. Cài cắm tiêu chí kỹ thuật (Điều 16 Khoản 6)",
+        "noi_dung": "Đưa các điều kiện hạn chế sự tham gia của nhà thầu khác hoặc tạo lợi thế cục bộ cho một nhà thầu quen mặt (như quy định nhãn hiệu hàng hóa, xuất xứ cụ thể không đúng quy định)."
+      },
+      {
+        "nhom": "4. Tiết lộ thông tin tài liệu thầu (Điều 16 Khoản 7)",
+        "noi_dung": "Tiết lộ nội dung E-HSMT trước ngày phát hành; cung cấp danh sách nhà thầu mua hồ sơ; tiết lộ kết quả đánh giá E-HSDT trước khi phê duyệt chính thức."
+      },
+      {
+        "nhom": "5. Chuyển nhượng thầu trái phép / Bán thầu (Điều 16 Khoản 8)",
+        "noi_dung": "Nhà thầu sau khi trúng thầu chuyển giao phần việc vượt quá tỷ lệ cho phép hoặc chuyển giao cho nhà thầu phụ không có tên trong hồ sơ dự thầu mà không được chủ đầu tư chấp thuận."
+      }
+    ],
+    "quyen_nghia_vu_to_tung": {
+      "phan_biet_giay_trieu_tap_va_giay_moi": [
+        {
+          "loai_giay": "Giấy Triệu Tập (Bắt buộc theo Luật Tố tụng)",
+          "can_cu": "Bộ luật Tố tụng Hình sự 2015",
+          "doi_tuong": "Chỉ gửi cho người đã có tư cách tố tụng chính thức: Bị can, Bị cáo, Người làm chứng, Người có quyền lợi nghĩa vụ liên quan, Người bị hại, Người bị tố giác.",
+          "tinh_phap_ly": "BẮT BUỘC PHẢI CÓ MẶT theo thời gian, địa điểm ghi trong giấy. Nếu vắng mặt không vì lý do bất khả kháng có thể bị áp giải hoặc dẫn giải."
+        },
+        {
+          "loai_giay": "Giấy Mời (Tính chất phối hợp, trao đổi)",
+          "can_cu": "Quan hệ hành chính, thu thập tin tức ban đầu",
+          "doi_tuong": "Gửi cho công dân, doanh nghiệp khi chưa có quyết định tố tụng chính thức để nắm thông tin, giải trình vụ việc.",
+          "tinh_phap_ly": "Mang tính chất tự nguyện, phối hợp. Không được phép dùng vũ lực áp giải. Người nhận có quyền đề xuất dời lịch nếu có lý do công tác, sức khỏe hợp lý."
+        }
+      ],
+      "tu_cach_va_quyen_loi": [
+        {
+          "tu_cach": "Người Làm Chứng (Điều 66 BLTTHS)",
+          "quyen": "Được thông báo quyền và nghĩa vụ; yêu cầu cơ quan triệu tập bảo vệ tính mạng, sức khỏe, tài sản, danh dự; từ chối khai báo nếu liên quan đến bí mật nhà nước; khiếu nại quyết định, hành vi tố tụng.",
+          "nghia_vu": "Có mặt theo giấy triệu tập; khai trung thực tất cả những tình tiết mà mình biết về vụ án (khai gian dối hoặc từ chối khai báo vô cớ có thể bị xử lý hình sự theo Điều 382/383 BLHS)."
+        },
+        {
+          "tu_cach": "Người Có Quyền Lợi, Nghĩa Vụ Liên Quan (Điều 65 BLTTHS)",
+          "quyen": "Đưa ra chứng cứ, tài liệu, đồ vật, yêu cầu; được thông báo kết quả giải quyết vụ án có liên quan; tự bảo vệ hoặc nhờ luật sư bảo vệ quyền lợi; kháng cáo bản án về phần liên quan đến tài sản/quyền lợi của mình.",
+          "nghia_vu": "Có mặt theo giấy triệu tập và chấp hành hiệu lệnh của Cơ quan tiến hành tố tụng."
+        },
+        {
+          "tu_cach": "Người Bị Tố Giác / Kiến Nghị Khởi Tố (Điều 57 BLTTHS)",
+          "quyen": "Được thông báo hành vi bị tố giác; đưa ra lời giải trình, tài liệu, chứng cứ; NHỜ LUẬT SƯ THAM GIA BẢO VỆ ngay từ giai đoạn lấy lời khai ban đầu; khiếu nại hành vi tố tụng trái pháp luật.",
+          "nghia_vu": "Có mặt theo giấy triệu tập của Cơ quan điều tra."
+        },
+        {
+          "tu_cach": "Bị Can (Điều 60 BLTTHS)",
+          "quyen": "Được biết rõ lý do bị khởi tố; KHÔNG BUỘC PHẢI ĐƯA RA LỜI KHAI CHỐNG LẠI CHÍNH MÌNH hoặc buộc phải nhận mình có tội; có quyền có Người bào chữa (Luật sư) có mặt trong tất cả các buổi hỏi cung; đọc và ghi ý kiến vào biên bản hỏi cung trước khi ký; đề nghị thay đổi người tiến hành tố tụng nếu có định kiến.",
+          "nghia_vu": "Có mặt theo giấy triệu tập; chấp hành các quyết định tố tụng của Cơ quan điều tra."
+        }
+      ],
+      "quyen_co_luat_su": {
+        "tieu_de": "Quyền Nhờ Luật Sư Bào Chữa / Bảo Vệ Quyền Lợi (Điều 73, 74, 83 BLTTHS)",
+        "noi_dung": "Mọi công dân khi làm việc với Cơ quan điều tra (kể cả từ khi là người bị tố giác, người có quyền lợi nghĩa vụ liên quan đến bị can) đều có quyền mời Luật sư cùng tham gia làm việc. Luật sư có quyền có mặt, ghi chép và đặt câu hỏi sau khi điều tra viên hỏi xong để bảo đảm quyền lợi chính đáng cho thân chủ."
+      }
+    },
+    "nguyen_tac_vang_khi_lam_viec": [
+      {
+        "nguyen_tac": "1. Kiểm tra tư cách làm việc & Thẩm quyền cán bộ",
+        "chi_tiet": "Yêu cầu cán bộ xuất trình Giấy chứng minh CAND/Thẻ điều tra viên; kiểm tra rõ nội dung Giấy triệu tập/Giấy mời; xác định rõ mình đang làm việc với tư cách gì (người làm chứng, người có QL-NV liên quan hay người bị tố giác)."
+      },
+      {
+        "nguyen_tac": "2. Khai báo trung thực, khách quan — Không đoán mò, không nhận bừa",
+        "chi_tiet": "Trả lời chính xác những gì mình trực tiếp làm, trực tiếp nghe, trực tiếp thấy. Nếu việc xảy ra đã lâu không nhớ rõ, hãy trả lời: 'Việc này đã diễn ra lâu, tôi không nhớ chính xác, xin phép xem lại tài liệu/hồ sơ lưu trữ để trả lời đúng sự thật', tuyệt đối không được suy đoán hoặc nghe đồn đại mà khẳng định."
+      },
+      {
+        "nguyen_tac": "3. Quyền đọc kỹ và chỉnh sửa Biên bản trước khi ký",
+        "chi_tiet": "Phải đọc từng câu, từng chữ trong Biên bản lời khai/Biên bản làm việc. Nếu cán bộ ghi thiếu ý, ghi suy diễn hoặc chưa đúng lời khai của mình, bạn CÓ QUYỀN YÊU CẦU ĐIỀU TRA VIÊN SỬA LẠI hoặc TỰ MÌNH GHI BỔ SUNG vào phần cuối biên bản trước chữ ký. Tuyệt đối không ký vào biên bản có khoảng trống lớn chưa gạch chéo hoặc chưa đọc kỹ."
+      },
+      {
+        "nguyen_tac": "4. Ghi âm, ghi hình có âm thanh",
+        "chi_tiet": "Theo quy định của BLTTHS, quá trình hỏi cung bị can phải được ghi âm hoặc ghi hình có âm thanh. Đây là biện pháp bảo vệ sự minh bạch, ngăn chặn bức cung, mớm cung, nhục hình."
+      },
+      {
+        "nguyen_tac": "5. Chính sách khoan hồng của Nhà nước (Điều 51, Điều 29 BLHS)",
+        "chi_tiet": "Pháp luật Việt Nam luôn có chính sách đặc biệt nhân đạo: Người vi phạm nếu chủ động tự thú, đầu thú, thành khẩn khai báo, tích cực hợp tác giúp cơ quan điều tra làm rõ vụ án, chủ động nộp lại toàn bộ số tiền/tài sản hưởng lợi bất chính và khắc phục hậu quả thiệt hại sẽ được xem xét giảm nhẹ hình phạt tối đa, được áp dụng khung hình phạt nhẹ hơn hoặc được xem xét miễn truy cứu trách nhiệm hình sự theo quy định."
+      }
+    ],
+    "quy_trinh_5_buoc_ung_pho": [
+      {
+        "buoc": 1,
+        "ten": "Tiếp Nhận Giấy Triệu Tập / Giấy Mời",
+        "hanh_dong": "Kiểm tra dấu mộc đỏ, họ tên chức vụ người ký, nội dung làm việc, thời gian địa điểm. Ghi lại số điện thoại của Điều tra viên liên hệ."
+      },
+      {
+        "buoc": 2,
+        "ten": "Rà Soát Tài Liệu & Hồ Sơ Gói Thầu",
+        "hanh_dong": "Xem lại toàn bộ hồ sơ mời thầu, hồ sơ dự thầu, hợp đồng, chứng từ thanh toán, biên bản nghiệm thu, email, công văn chỉ đạo liên quan để nắm chắc tiến trình thực tế."
+      },
+      {
+        "buoc": 3,
+        "ten": "Tham Vấn Ý Kiến Luật Sư Chuyên Nghiệp",
+        "hanh_dong": "Liên hệ Luật sư am hiểu pháp luật hình sự kinh tế để được tư vấn xác định rõ quyền, nghĩa vụ và chuẩn bị tâm lý, lời giải trình đúng pháp lý."
+      },
+      {
+        "buoc": 4,
+        "ten": "Làm Việc Tại Cơ Quan Điều Tra (C03, A03...)",
+        "hanh_dong": "Đến đúng giờ, trang phục lịch sự, giữ thái độ bình tĩnh, tôn trọng cán bộ nhưng kiên định khai đúng sự thật khách quan, không né tránh nhưng không nhận việc không làm."
+      },
+      {
+        "buoc": 5,
+        "ten": "Kiểm Tra Kỹ Biên Bản & Ghi Chú Theo Dõi",
+        "hanh_dong": "Đọc kỹ toàn văn biên bản, yêu cầu chỉnh sửa nếu sai ý, gạch chéo khoảng trống, ký xác nhận từng trang; ghi lại nhật ký tóm tắt buổi làm việc sau khi ra về."
+      }
+    ]
+  }
 }
