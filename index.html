@@ -4836,7 +4836,7 @@
       }
     };
 
-                window.renderPhapLuat = function() {
+                    window.renderPhapLuat = function() {
       if (!phapLuatData) return;
       const searchVal = removeVietnameseTones((document.getElementById('phapluat-search')?.value || '').toLowerCase());
       const area = document.getElementById('phapluat-display-area');
@@ -4873,7 +4873,7 @@
                   class="p-1.5 rounded-lg bg-slate-900 border border-slate-800 text-indigo-400 hover:text-white hover:bg-indigo-950/50 transition-all cursor-pointer"
                   title="Nghe cấp bậc này"
                 >
-                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
                 </button>
               </td>
             </tr>
@@ -5041,7 +5041,7 @@
                           <b class="text-amber-300 text-xs">${r.bieu_tuong} ${r.nguyen_tac}</b>
                           <button 
                             onclick="playTTS(event, '${safeRuleSpeak}', 'vi')"
-                            class="p-1 rounded-lg bg-slate-950 border border-slate-800 text-indigo-400 hover:text-white transition-all cursor-pointer shrink-0"
+                            class="p-1.5 rounded-lg bg-slate-950 border border-slate-800 text-indigo-400 hover:text-white transition-all cursor-pointer shrink-0"
                             title="Nghe quy tắc này"
                           >
                             <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5109,7 +5109,7 @@
                           class="p-1.5 rounded-lg bg-slate-950 border border-slate-800 text-emerald-400 hover:text-white transition-all cursor-pointer"
                           title="Nghe bước này"
                         >
-                          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                          <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
                         </button>
                       </div>
                     </div>
@@ -5160,7 +5160,7 @@
 
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
                 ${vocabList.map(v => {
-                  const vocabSpeak = `Thuật ngữ ${v.thuat_ngu}: ${v.nghia_don_gian}`;
+                  const vocabSpeak = `Thuật ngữ ${v.thuat_ngu}, ${v.ten_day_du}: ${v.nghia_don_gian}`;
                   const safeVocabSpeak = vocabSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
                   return `
@@ -5175,7 +5175,7 @@
                       <div class="text-right pt-2 border-t border-slate-800/80">
                         <button 
                           onclick="playTTS(event, '${safeVocabSpeak}', 'vi')"
-                          class="px-2 py-1 rounded-lg bg-slate-950 border border-slate-800 text-indigo-400 hover:text-white transition-all cursor-pointer text-[10px] font-bold inline-flex items-center gap-1"
+                          class="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-indigo-400 hover:text-white transition-all cursor-pointer text-[10px] font-bold inline-flex items-center gap-1"
                         >
                           <svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
                           <span>Nghe</span>
@@ -5194,7 +5194,7 @@
       if (activePhapLuatSubTab === 'all' || activePhapLuatSubTab === 'an_dau_thau') {
         const dt = phapLuatData.an_dau_thau_bca;
         if (dt) {
-          const fullDtSpeak = `Cẩm nang pháp luật: Người có liên quan trong vụ án vi phạm đấu thầu khi làm việc với Cơ quan Điều tra Bộ Công An. ${dt.loi_dan}. Khẩu hiệu cốt lõi: ${dt.khau_hieu_cot_loi}`;
+          const fullDtSpeak = `Cẩm nang pháp luật: Người có liên quan trong vụ án vi phạm quy định về đấu thầu khi làm việc với Cơ quan Điều tra Bộ Công An. ${dt.loi_dan}. Khẩu hiệu cốt lõi: ${dt.khau_hieu_cot_loi}`;
           const safeFullDtSpeak = fullDtSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
           cardsHtml.push(`
@@ -5210,20 +5210,30 @@
                 </div>
                 <button 
                   onclick="playTTS(event, '${safeFullDtSpeak}', 'vi')"
-                  class="px-4 py-2 rounded-2xl bg-gradient-to-r from-rose-600 to-red-700 hover:from-rose-500 hover:to-red-600 text-white font-bold text-xs shadow-lg shadow-rose-600/30 transition-all flex items-center gap-2 shrink-0 cursor-pointer border border-rose-400/40"
+                  class="px-4 py-2.5 rounded-2xl bg-gradient-to-r from-rose-600 to-red-700 hover:from-rose-500 hover:to-red-600 text-white font-bold text-xs shadow-lg shadow-rose-600/30 transition-all flex items-center gap-2 shrink-0 cursor-pointer border border-rose-400/40"
                   title="Nghe tổng quan chuyên đề Án Đấu Thầu"
                 >
-                  <svg class="w-4 h-4 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                  <span>🔊 Nghe Tổng Quan</span>
+                  <svg class="w-4 h-4 text-amber-300 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Tổng Quan Chuyên Đề</span>
                 </button>
               </div>
 
               <div class="space-y-6 text-xs">
                 <!-- 1. Thẩm Quyền Các Cục BCA -->
                 <div class="space-y-3">
-                  <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
-                    <span>🏛️</span> 1. Thẩm Quyền & Chức Năng Của Các Cơ Quan BCA (C03, A03, PC03, PA03)
-                  </span>
+                  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-2">
+                    <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                      <span>🏛️</span> 1. Thẩm Quyền & Chức Năng Của Các Cơ Quan BCA (C03, A03, PC03, PA03)
+                    </span>
+                    <button 
+                      onclick="playTTS(event, '${(dt.cac_co_quan_bca || []).map(cq => cq.ma_hieu + '. Chức năng: ' + cq.chuc_nang + '. Vai trò: ' + cq.vai_tro_trong_an_dau_thau).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
+                    >
+                      <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                      <span>🔊 Nghe Thẩm Quyền BCA</span>
+                    </button>
+                  </div>
+
                   <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
                     ${dt.cac_co_quan_bca.map(cq => {
                       const cqSpeak = `${cq.ma_hieu}. Chức năng: ${cq.chuc_nang}. Vai trò trong án đấu thầu: ${cq.vai_tro_trong_an_dau_thau}`;
@@ -5234,7 +5244,7 @@
                           <div>
                             <div class="flex items-center justify-between mb-2">
                               <b class="text-rose-300 text-xs">${cq.ma_hieu}</b>
-                              <button onclick="playTTS(event, '${safeCqSpeak}', 'vi')" class="p-1 rounded-lg bg-slate-950 border border-slate-800 text-rose-300 hover:text-white" title="Nghe"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                              <button onclick="playTTS(event, '${safeCqSpeak}', 'vi')" class="p-1.5 rounded-lg bg-slate-950 border border-slate-800 text-rose-300 hover:text-white" title="Nghe cơ quan này"><svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
                             </div>
                             <p class="text-slate-300 text-[11px] leading-relaxed mb-2">${cq.chuc_nang}</p>
                           </div>
@@ -5249,20 +5259,30 @@
 
                 <!-- 2. Điều Khoản Hình Sự Cốt Lõi (Điều 222 BLHS & Tội Liên Đới) -->
                 <div class="space-y-3 pt-2">
-                  <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
-                    <span>⚖️</span> 2. Điều Khoản Hình Sự Trọng Yếu (Điều 222 BLHS & Các Tội Danh Liên Đới)
-                  </span>
+                  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-2">
+                    <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                      <span>⚖️</span> 2. Điều Khoản Hình Sự Trọng Yếu (Điều 222 BLHS & Các Tội Danh Liên Đới)
+                    </span>
+                    <button 
+                      onclick="playTTS(event, '${(dt.dieu_khoan_hinh_su[0].dieu_luat + '. Các hành vi: ' + dt.dieu_khoan_hinh_su[0].nhom_hanh_vi.join('. ') + '. Khung 1: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].dieu_kien + '. Khung 2: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].dieu_kien + '. Khung 3: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].dieu_kien + '. Các tội liên đới: ' + dt.dieu_khoan_hinh_su[1].danh_sach.map(td => td.ten_toi + ' ' + td.mo_ta).join('. ')).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
+                    >
+                      <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                      <span>🔊 Nghe Toàn Bộ Hình Sự</span>
+                    </button>
+                  </div>
+
                   <div class="p-5 rounded-2xl bg-slate-900/90 border border-rose-500/30 space-y-4">
                     <!-- Điều 222 BLHS -->
                     <div class="border-b border-slate-800 pb-4">
-                      <div class="flex items-center justify-between mb-2">
+                      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
                         <b class="text-base text-rose-300">${dt.dieu_khoan_hinh_su[0].dieu_luat}</b>
                         <button 
-                          onclick="playTTS(event, '${(dt.dieu_khoan_hinh_su[0].dieu_luat + '. Các hành vi: ' + dt.dieu_khoan_hinh_su[0].nhom_hanh_vi.join('. ') + '. Khung 1: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].dieu_kien + '. Khung 2: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].dieu_kien + '. Khung 3: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].dieu_kien).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" 
-                          class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-xs font-bold flex items-center gap-1"
+                          onclick="playTTS(event, '${(dt.dieu_khoan_hinh_su[0].dieu_luat + '. Các hành vi: ' + dt.dieu_khoan_hinh_su[0].nhom_hanh_vi.join('. ') + '. Khung 1: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].dieu_kien + '. Khung 2: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].dieu_kien + '. Khung 3: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].dieu_kien + '. Hình phạt bổ sung: ' + dt.dieu_khoan_hinh_su[0].hinh_phat_bo_sung).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" 
+                          class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-xs font-bold flex items-center gap-1 shrink-0 self-start sm:self-auto cursor-pointer"
                         >
-                          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                          <span>Nghe Điều 222</span>
+                          <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                          <span>🔊 Nghe Điều 222</span>
                         </button>
                       </div>
 
@@ -5277,12 +5297,22 @@
                       <div class="space-y-2">
                         <span class="text-xs font-semibold text-yellow-300 block">⚖️ 3 Khung hình phạt chính:</span>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-[11px]">
-                          ${dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat.map(k => `
-                            <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
-                              <b class="text-amber-300 block mb-1">${k.khung}</b>
-                              <p class="text-slate-300 leading-relaxed">${k.dieu_kien}</p>
-                            </div>
-                          `).join('')}
+                          ${dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat.map(k => {
+                            const khungSpeak = `${k.khung}: ${k.dieu_kien}`;
+                            const safeKhungSpeak = khungSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                            return `
+                              <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 flex flex-col justify-between">
+                                <div>
+                                  <div class="flex items-center justify-between mb-1">
+                                    <b class="text-amber-300 text-[11px]">${k.khung}</b>
+                                    <button onclick="playTTS(event, '${safeKhungSpeak}', 'vi')" class="p-1 rounded bg-slate-900 text-amber-300 hover:text-white" title="Nghe khung này"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                                  </div>
+                                  <p class="text-slate-300 leading-relaxed text-[11px]">${k.dieu_kien}</p>
+                                </div>
+                              </div>
+                            `;
+                          }).join('')}
                         </div>
                         <p class="text-[10px] text-slate-400 italic mt-1">📌 Hình phạt bổ sung: ${dt.dieu_khoan_hinh_su[0].hinh_phat_bo_sung}</p>
                       </div>
@@ -5290,68 +5320,163 @@
 
                     <!-- Các tội danh liên đới -->
                     <div>
-                      <b class="text-xs text-yellow-300 block mb-2">🔗 Các Tội Danh Liên Đới Thường Đi Kèm Trong Đại Án Đấu Thầu:</b>
+                      <div class="flex items-center justify-between mb-2">
+                        <b class="text-xs text-yellow-300">🔗 Các Tội Danh Liên Đới Thường Đi Kèm Trong Đại Án Đấu Thầu:</b>
+                      </div>
                       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-[11px]">
-                        ${dt.dieu_khoan_hinh_su[1].danh_sach.map(td => `
-                          <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
-                            <b class="text-indigo-300 block mb-1">${td.ten_toi}</b>
-                            <p class="text-slate-300 leading-relaxed">${td.mo_ta}</p>
-                          </div>
-                        `).join('')}
+                        ${dt.dieu_khoan_hinh_su[1].danh_sach.map(td => {
+                          const tdSpeak = `${td.ten_toi}. ${td.mo_ta}`;
+                          const safeTdSpeak = tdSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                          return `
+                            <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 flex flex-col justify-between">
+                              <div>
+                                <div class="flex items-center justify-between mb-1">
+                                  <b class="text-indigo-300 text-xs">${td.ten_toi}</b>
+                                  <button onclick="playTTS(event, '${safeTdSpeak}', 'vi')" class="p-1 rounded bg-slate-900 text-indigo-300 hover:text-white" title="Nghe tội này"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                                </div>
+                                <p class="text-slate-300 leading-relaxed text-[11px]">${td.mo_ta}</p>
+                              </div>
+                            </div>
+                          `;
+                        }).join('')}
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <!-- 3. Phân Biệt Giấy Triệu Tập vs Giấy Mời & Tư Cách Tố Tụng -->
+                <!-- 3. Luật Đấu Thầu 2023: 5 Nhóm Hành Vi Bị Cấm -->
+                ${dt.luat_dau_thau_2023_hanh_vi_cam ? `
+                  <div class="space-y-3 pt-2">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-2">
+                      <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                        <span>📜</span> 3. Luật Đấu Thầu 2023 — Các Hành Vi Bị Cấm Trọng Điểm (Điều 16)
+                      </span>
+                      <button 
+                        onclick="playTTS(event, '${(dt.luat_dau_thau_2023_hanh_vi_cam || []).map(h => h.nhom + ': ' + h.noi_dung).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                        class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
+                      >
+                        <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                        <span>🔊 Nghe Các Hành Vi Cấm</span>
+                      </button>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      ${dt.luat_dau_thau_2023_hanh_vi_cam.map(h => {
+                        const hSpeak = `${h.nhom}. ${h.noi_dung}`;
+                        const safeHSpeak = hSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                        return `
+                          <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                            <div>
+                              <div class="flex items-center justify-between mb-1.5">
+                                <b class="text-rose-300 text-xs">${h.nhom}</b>
+                                <button onclick="playTTS(event, '${safeHSpeak}', 'vi')" class="p-1 rounded bg-slate-950 text-rose-300 hover:text-white" title="Nghe"><svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                              </div>
+                              <p class="text-slate-300 text-[11px] leading-relaxed">${h.noi_dung}</p>
+                            </div>
+                          </div>
+                        `;
+                      }).join('')}
+                    </div>
+                  </div>
+                ` : ''}
+
+                <!-- 4. Phân Biệt Giấy Triệu Tập vs Giấy Mời & Tư Cách Tố Tụng -->
                 <div class="space-y-3 pt-2">
-                  <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
-                    <span>📑</span> 3. Phân Biệt Giấy Triệu Tập vs Giấy Mời & Quyền Lợi Theo Tư Cách Tố Tụng
-                  </span>
+                  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-2">
+                    <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                      <span>📑</span> 4. Phân Biệt Giấy Triệu Tập vs Giấy Mời & Quyền Lợi Theo Tư Cách Tố Tụng
+                    </span>
+                    <button 
+                      onclick="playTTS(event, '${(dt.quyen_nghia_vu_to_tung.phan_biet_giay_trieu_tap_va_giay_moi.map(g => g.loai_giay + ': Căn cứ ' + g.can_cu + '. ' + g.tinh_phap_ly).join('. ') + '. Các tư cách tố tụng: ' + dt.quyen_nghia_vu_to_tung.tu_cach_va_quyen_loi.map(tc => tc.tu_cach + ': Quyền: ' + tc.quyen + '. Nghĩa vụ: ' + tc.nghia_vu).join('. ') + '. ' + dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.tieu_de + ': ' + dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
+                    >
+                      <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                      <span>🔊 Nghe Quyền Tố Tụng</span>
+                    </button>
+                  </div>
                   
                   <!-- Giấy triệu tập vs Giấy mời -->
                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs mb-3">
-                    ${dt.quyen_nghia_vu_to_tung.phan_biet_giay_trieu_tap_va_giay_moi.map(g => `
-                      <div class="p-4 rounded-2xl bg-slate-900/90 border ${g.loai_giay.includes('Triệu Tập') ? 'border-rose-500/40 bg-rose-950/20' : 'border-blue-500/30 bg-blue-950/20'}">
-                        <b class="text-sm ${g.loai_giay.includes('Triệu Tập') ? 'text-rose-300' : 'text-blue-300'} block mb-1.5">${g.loai_giay}</b>
-                        <p class="text-slate-300 text-[11px] mb-1.5"><b class="text-slate-200">Căn cứ:</b> ${g.can_cu}</p>
-                        <p class="text-slate-300 text-[11px] mb-2"><b class="text-slate-200">Đối tượng:</b> ${g.doi_tuong}</p>
-                        <div class="p-2 rounded-xl bg-slate-950 border border-slate-800 text-[11px] font-medium ${g.loai_giay.includes('Triệu Tập') ? 'text-amber-300' : 'text-emerald-300'}">
-                          <b>⚠️ Tính pháp lý:</b> ${g.tinh_phap_ly}
+                    ${dt.quyen_nghia_vu_to_tung.phan_biet_giay_trieu_tap_va_giay_moi.map(g => {
+                      const gSpeak = `${g.loai_giay}. Căn cứ: ${g.can_cu}. Đối tượng: ${g.doi_tuong}. Tính pháp lý: ${g.tinh_phap_ly}`;
+                      const safeGSpeak = gSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                      return `
+                        <div class="p-4 rounded-2xl bg-slate-900/90 border ${g.loai_giay.includes('Triệu Tập') ? 'border-rose-500/40 bg-rose-950/20' : 'border-blue-500/30 bg-blue-950/20'} flex flex-col justify-between">
+                          <div>
+                            <div class="flex items-center justify-between mb-1.5">
+                              <b class="text-sm ${g.loai_giay.includes('Triệu Tập') ? 'text-rose-300' : 'text-blue-300'}">${g.loai_giay}</b>
+                              <button onclick="playTTS(event, '${safeGSpeak}', 'vi')" class="p-1.5 rounded-lg bg-slate-950 border border-slate-800 text-indigo-300 hover:text-white" title="Nghe"><svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                            </div>
+                            <p class="text-slate-300 text-[11px] mb-1.5"><b class="text-slate-200">Căn cứ:</b> ${g.can_cu}</p>
+                            <p class="text-slate-300 text-[11px] mb-2"><b class="text-slate-200">Đối tượng:</b> ${g.doi_tuong}</p>
+                          </div>
+                          <div class="p-2 rounded-xl bg-slate-950 border border-slate-800 text-[11px] font-medium ${g.loai_giay.includes('Triệu Tập') ? 'text-amber-300' : 'text-emerald-300'}">
+                            <b>⚠️ Tính pháp lý:</b> ${g.tinh_phap_ly}
+                          </div>
                         </div>
-                      </div>
-                    `).join('')}
+                      `;
+                    }).join('')}
                   </div>
 
                   <!-- 4 Tư Cách Tố Tụng -->
                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                    ${dt.quyen_nghia_vu_to_tung.tu_cach_va_quyen_loi.map(tc => `
-                      <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
-                        <div>
-                          <b class="text-xs text-amber-300 block mb-2">👤 ${tc.tu_cach}</b>
-                          <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800/80 mb-2 text-[11px] text-emerald-300">
-                            <b>✓ Quyền lợi:</b> ${tc.quyen}
+                    ${dt.quyen_nghia_vu_to_tung.tu_cach_va_quyen_loi.map(tc => {
+                      const tcSpeak = `Tư cách ${tc.tu_cach}. Quyền: ${tc.quyen}. Nghĩa vụ: ${tc.nghia_vu}`;
+                      const safeTcSpeak = tcSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                      return `
+                        <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                          <div>
+                            <div class="flex items-center justify-between mb-2">
+                              <b class="text-xs text-amber-300">👤 ${tc.tu_cach}</b>
+                              <button onclick="playTTS(event, '${safeTcSpeak}', 'vi')" class="p-1 rounded bg-slate-950 border border-slate-800 text-amber-300 hover:text-white" title="Nghe"><svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                            </div>
+                            <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800/80 mb-2 text-[11px] text-emerald-300">
+                              <b>✓ Quyền lợi:</b> ${tc.quyen}
+                            </div>
+                          </div>
+                          <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800/80 text-[11px] text-rose-300">
+                            <b>✗ Nghĩa vụ:</b> ${tc.nghia_vu}
                           </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800/80 text-[11px] text-rose-300">
-                          <b>✗ Nghĩa vụ:</b> ${tc.nghia_vu}
-                        </div>
-                      </div>
-                    `).join('')}
+                      `;
+                    }).join('')}
                   </div>
 
                   <!-- Quyền Có Luật Sư -->
-                  <div class="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-500/40 text-xs">
-                    <b class="text-sm text-indigo-300 block mb-1">⚖️ ${dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.tieu_de}</b>
-                    <p class="text-slate-200 text-[11px] leading-relaxed">${dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung}</p>
+                  <div class="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-500/40 text-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <div>
+                      <b class="text-sm text-indigo-300 block mb-1">⚖️ ${dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.tieu_de}</b>
+                      <p class="text-slate-200 text-[11px] leading-relaxed">${dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung}</p>
+                    </div>
+                    <button 
+                      onclick="playTTS(event, '${(dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.tieu_de + '. ' + dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      class="px-3 py-1.5 rounded-xl bg-indigo-900/80 border border-indigo-500/50 text-white text-xs font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
+                    >
+                      <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                      <span>🔊 Nghe Quyền Luật Sư</span>
+                    </button>
                   </div>
                 </div>
 
-                <!-- 4. Năm Nguyên Tắc Vàng Khi Làm Việc Tại BCA -->
+                <!-- 5. Năm Nguyên Tắc Vàng Khi Làm Việc Tại BCA -->
                 <div class="space-y-3 pt-2">
-                  <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
-                    <span>⭐</span> 4. Năm Nguyên Tắc Vàng & Kỹ Năng Làm Việc Với Điều Tra Viên
-                  </span>
+                  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-2">
+                    <span class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                      <span>⭐</span> 5. Năm Nguyên Tắc Vàng & Kỹ Năng Làm Việc Với Điều Tra Viên
+                    </span>
+                    <button 
+                      onclick="playTTS(event, '${(dt.nguyen_tac_vang_khi_lam_viec || []).map(nt => nt.nguyen_tac + ': ' + nt.chi_tiet).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
+                    >
+                      <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                      <span>🔊 Nghe 5 Nguyên Tắc Vàng</span>
+                    </button>
+                  </div>
+
                   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
                     ${dt.nguyen_tac_vang_khi_lam_viec.map(nt => {
                       const ntSpeak = `${nt.nguyen_tac}. Chi tiết: ${nt.chi_tiet}`;
@@ -5362,7 +5487,7 @@
                           <div>
                             <div class="flex items-start justify-between gap-1 mb-2">
                               <b class="text-yellow-300 text-xs">${nt.nguyen_tac}</b>
-                              <button onclick="playTTS(event, '${safeNtSpeak}', 'vi')" class="p-1 rounded-lg bg-slate-950 border border-slate-800 text-amber-300 hover:text-white"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                              <button onclick="playTTS(event, '${safeNtSpeak}', 'vi')" class="p-1.5 rounded-lg bg-slate-950 border border-slate-800 text-amber-300 hover:text-white" title="Nghe nguyên tắc này"><svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
                             </div>
                             <p class="text-slate-300 text-[11px] leading-relaxed">${nt.chi_tiet}</p>
                           </div>
@@ -5372,19 +5497,28 @@
                   </div>
                 </div>
 
-                <!-- 5. Quy Trình 6 Bước Chi Tiết Có Ví Dụ Minh Họa -->
+                <!-- 6. Quy Trình 6 Bước Chi Tiết Có Ví Dụ Minh Họa -->
                 <div class="space-y-4 pt-2">
                   <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-2">
                     <span class="text-sm font-bold text-emerald-300 flex items-center gap-2">
-                      <span>🚀</span> 5. Quy Trình 6 Bước Hành Động Chuẩn Mực & Ví Dụ Minh Họa Thực Tế
+                      <span>🚀</span> 6. Quy Trình 6 Bước Hành Động Chuẩn Mực & Ví Dụ Minh Họa Thực Tế
                     </span>
-                    <span class="text-[11px] text-slate-400">Kèm ví dụ tình huống giả định chi tiết từng bước</span>
+                    <button 
+                      onclick="playTTS(event, '${(dt.quy_trinh_chi_tiet || []).map(b => 'Bước ' + b.buoc + ': ' + b.ten + '. Mục tiêu: ' + b.muc_tieu + '. Hành động: ' + b.hanh_dong_chi_tiet.join('. ') + '. Tình huống: ' + b.vi_du_thuc_te.tinh_huong + '. Xử lý: ' + b.vi_du_thuc_te.cach_xu_ly_dung).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-emerald-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
+                    >
+                      <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                      <span>🔊 Nghe Toàn Bộ 6 Bước</span>
+                    </button>
                   </div>
 
                   <div class="space-y-4">
                     ${(dt.quy_trinh_chi_tiet || []).map(step => {
                       const stepSpeakText = `Bước ${step.buoc}: ${step.ten}. Mục tiêu: ${step.muc_tieu}. Hành động: ${step.hanh_dong_chi_tiet.join('. ')}. Sai lầm cần tránh: ${step.sai_lam_can_tranh.join('. ')}. Căn cứ pháp lý: ${step.can_cu_phap_ly}. Ví dụ tình huống: ${step.vi_du_thuc_te.tinh_huong}. Cách xử lý: ${step.vi_du_thuc_te.cach_xu_ly_dung}`;
                       const safeStepSpeak = stepSpeakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                      const exampleOnlySpeak = `Ví dụ thực tế Bước ${step.buoc}: ${step.ten}. Tình huống: ${step.vi_du_thuc_te.tinh_huong}. Cách xử lý đúng: ${step.vi_du_thuc_te.cach_xu_ly_dung}`;
+                      const safeExampleSpeak = exampleOnlySpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
                       return `
                         <div class="p-5 rounded-3xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/40 transition-all">
@@ -5400,7 +5534,7 @@
                               title="Nghe đọc toàn bộ bước ${step.buoc}"
                             >
                               <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                              <span>🔊 Nghe Bước ${step.buoc}</span>
+                              <span>🔊 Nghe Toàn Bộ Bước ${step.buoc}</span>
                             </button>
                           </div>
 
@@ -5429,11 +5563,21 @@
                             </div>
                           </div>
 
-                          <!-- Real World Example Box -->
+                          <!-- Real World Example Box with Dedicated Speaker Button -->
                           <div class="p-4 rounded-2xl bg-gradient-to-r from-amber-950/30 via-slate-950 to-amber-950/30 border border-amber-500/30 text-xs">
-                            <span class="font-bold text-amber-300 flex items-center gap-1.5 mb-2">
-                              <span>💡</span> VÍ DỤ MINH HỌA TÌNH HUỐNG THỰC TẾ:
-                            </span>
+                            <div class="flex items-center justify-between gap-2 mb-2 pb-1.5 border-b border-slate-800/80">
+                              <span class="font-bold text-amber-300 flex items-center gap-1.5">
+                                <span>💡</span> VÍ DỤ MINH HỌA TÌNH HUỐNG THỰC TẾ (BƯỚC ${step.buoc}):
+                              </span>
+                              <button 
+                                onclick="playTTS(event, '${safeExampleSpeak}', 'vi')"
+                                class="px-2.5 py-1 rounded-lg bg-amber-950/70 border border-amber-500/40 text-amber-300 hover:text-white hover:bg-amber-600 transition-all text-[10px] font-bold flex items-center gap-1 shrink-0 cursor-pointer"
+                                title="Nghe riêng ví dụ này"
+                              >
+                                <svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                                <span>🔊 Nghe Ví Dụ Bước ${step.buoc}</span>
+                              </button>
+                            </div>
                             <div class="space-y-2 text-[11px]">
                               <p class="text-slate-200 leading-relaxed"><b class="text-rose-300">🚩 Tình huống giả định:</b> ${step.vi_du_thuc_te.tinh_huong}</p>
                               <p class="text-emerald-200 leading-relaxed pt-1.5 border-t border-slate-800/80"><b class="text-emerald-400">👉 Cách xử lý đúng & Kết quả:</b> ${step.vi_du_thuc_te.cach_xu_ly_dung}</p>
