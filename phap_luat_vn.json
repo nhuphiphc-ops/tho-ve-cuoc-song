@@ -618,6 +618,133 @@
         "ten": "Kiểm Tra Kỹ Biên Bản & Ghi Chú Theo Dõi",
         "hanh_dong": "Đọc kỹ toàn văn biên bản, yêu cầu chỉnh sửa nếu sai ý, gạch chéo khoảng trống, ký xác nhận từng trang; ghi lại nhật ký tóm tắt buổi làm việc sau khi ra về."
       }
+    ],
+    "quy_trinh_chi_tiet": [
+      {
+        "buoc": 1,
+        "ten": "Tiếp Nhận & Xác Minh Tính Pháp Lý Của Giấy Mời / Giấy Triệu Tập",
+        "muc_tieu": "Xác định rõ tư cách tham gia làm việc, đơn vị thụ lý (C03, A03, PC03...), nội dung gói thầu liên quan và kiểm tra tính hợp pháp của văn bản.",
+        "hanh_dong_chi_tiet": [
+          "Kiểm tra con dấu đỏ tròn của Cơ quan điều tra, chức danh và chữ ký của người ký (Thủ trưởng/Phó Thủ trưởng Cơ quan CSĐT hoặc Lãnh đạo Cục).",
+          "Xác định rõ loại văn bản là 'GIẤY MỜI' (làm việc theo quan hệ hành chính/trao đổi tin tức) hay 'GIẤY TRIỆU TẬP' (bắt buộc theo tố tụng hình sự).",
+          "Ghi nhận chính xác: Thời gian, địa điểm làm việc (phòng nào, trụ sở 47 Phạm Văn Đồng hay 258 Nguyễn Trãi hay Công an địa phương), họ tên và số điện thoại của Điều tra viên/Cán bộ phụ trách.",
+          "Thông báo ngay cho người thân tin cậy hoặc ban lãnh đạo đơn vị/doanh nghiệp về lịch làm việc."
+        ],
+        "sai_lam_can_tranh": [
+          "Hoảng loạn, trốn tránh, tắt điện thoại hoặc rời khỏi nơi cư trú (dễ bị nghi ngờ bỏ trốn và dẫn đến áp dụng biện pháp cấm xuất cảnh, bắt giữ khẩn cấp).",
+          "Vội vàng liên hệ các đầu mối trung gian 'chạy án', 'tìm người quen xin can thiệp' (rất dễ bị lừa đảo tiền bạc hoặc phạm thêm tội Môi giới hối lộ theo Điều 365 BLHS).",
+          "Tự ý tiêu hủy chứng từ, xóa tin nhắn, format ổ cứng máy tính (hành vi cản trở điều tra có thể bị bắt tạm giam ngay lập tức)."
+        ],
+        "can_cu_phap_ly": "Điều 57, 60, 65, 66, 185 Bộ luật Tố tụng Hình sự 2015",
+        "vi_du_thuc_te": {
+          "tinh_huong": "Anh Trần Văn K (Trưởng phòng Vật tư Bệnh viện Đa khoa tỉnh X) nhận được 'Giấy Mời' số 128/GM-C03-P6 của Cục Cảnh sát điều tra tội phạm về tham nhũng, kinh tế, buôn lậu (Bộ Công an) mời đến trụ sở 47 Phạm Văn Đồng, Hà Nội vào lúc 8h30 ngày 25/10 để 'Làm rõ một số nội dung liên quan đến các gói thầu mua sắm trang thiết bị y tế năm 2021-2022 tại Bệnh viện X'.",
+          "cach_xu_ly_dung": "Anh K bình tĩnh kiểm tra thấy có dấu đỏ của C03, liên hệ với Điều tra viên theo số điện thoại trên giấy mời để xác nhận lịch, báo cáo Giám đốc Bệnh viện và xin sao lục toàn bộ hồ sơ 03 gói thầu y tế trong giai đoạn 2021-2022 để rà soát trước khi lên đường."
+        }
+      },
+      {
+        "buoc": 2,
+        "ten": "Rà Soát, Hệ Thống Hóa Toàn Bộ Hồ Sơ, Dữ Liệu & Timeline Gói Thầu",
+        "muc_tieu": "Nắm vững từng mốc thời gian, vai trò và phạm vi trách nhiệm thực tế của mình trong toàn bộ quá trình thực hiện gói thầu.",
+        "hanh_dong_chi_tiet": [
+          "Lập Bảng Timeline chi tiết: Từ chủ trương đầu tư ➔ Lập dự toán & Chứng thư thẩm định giá ➔ Lập & phê duyệt E-HSMT ➔ Tổ chuyên gia đánh giá E-HSDT ➔ Phê duyệt kết quả trúng thầu ➔ Ký hợp đồng ➔ Biên bản nghiệm thu, bàn giao ➔ Quyết toán giải ngân.",
+          "Kiểm tra lại toàn bộ chữ ký của mình xuất hiện trên các văn bản nào (ký nháy, ký chính thức, ký với tư cách thành viên Tổ chuyên gia hay ký thay lãnh đạo).",
+          "Sao lưu an toàn các email trao đổi công việc, công văn chỉ đạo của cấp trên, biên bản họp giao ban để làm căn cứ giải trình rõ nguồn gốc mệnh lệnh/chỉ đạo.",
+          "Nhận diện trước các điểm 'yếu/nhạy cảm' của hồ sơ: Có việc thẩm định giá bị nâng khống không? Có việc cài cắm tiêu chí kỹ thuật riêng cho 1 hãng không? Có sự tham gia của các công ty 'quân xanh' thân hữu không?"
+        ],
+        "sai_lam_can_tranh": [
+          "Đến làm việc trong tình trạng 'không nhớ gì cả' hoặc khai báo mâu thuẫn lung tung giữa các mốc thời gian so với hồ sơ thực tế lưu trữ.",
+          "Thông đồng với các bên liên quan (nhà thầu, chủ đầu tư khác) để 'khớp lời khai' (Cơ quan điều tra thường lấy lời khai độc lập cùng lúc tại nhiều phòng, hành vi khớp lời khai sẽ bị phát hiện ngay và bị coi là quanh co chối tội)."
+        ],
+        "can_cu_phap_ly": "Luật Đấu thầu 2023, Luật Giá, Nghị định 15/2021/NĐ-CP",
+        "vi_du_thuc_te": {
+          "tinh_huong": "Chị Lê Thị M (Giám đốc Công ty Thiết bị Y tế Minh Phát) tham gia gói thầu máy xét nghiệm trị giá 15 tỷ đồng tại Bệnh viện X. Khi rà soát lại hồ sơ, chị M phát hiện trong hồ sơ dự thầu có 02 hợp đồng tương tự do nhân viên kinh doanh làm khống số liệu doanh thu và chứng chỉ của 01 kỹ sư bị chỉnh sửa.",
+          "cach_xu_ly_dung": "Chị M lập tức ghi chú rõ điểm sai phạm này vào sổ tay cá nhân, chuẩn bị sẵn tài liệu chứng minh nguồn gốc thiết bị nhập khẩu chính hãng đầy đủ CO/CQ và hóa đơn hải quan thực tế, phân định rõ phần việc nhân viên cấp dưới tự ý làm để chuẩn bị giải trình trung thực với Cơ quan điều tra."
+        }
+      },
+      {
+        "buoc": 3,
+        "ten": "Tham Vấn Ý Kiến Luật Sư Chuyên Gia Hình Sự & Kinh Tế",
+        "muc_tieu": "Định vị chính xác tư cách tố tụng, giới hạn trách nhiệm pháp lý và chuẩn bị kế hoạch bào chữa, giải trình hợp pháp.",
+        "hanh_dong_chi_tiet": [
+          "Tìm Luật sư am hiểu chuyên sâu về án kinh tế, đấu thầu và tố tụng hình sự để trao đổi toàn bộ diễn biến sự thật khách quan (không giấu giếm luật sư).",
+          "Cùng Luật sư phân tích ranh giới pháp lý: Hành vi của mình là 'Sai sót về thủ tục hành chính/nghiệp vụ sơ suất' hay đã cấu thành 'Tội vi phạm quy định về đấu thầu' (Điều 222) hoặc 'Lợi dụng chức vụ quyền hạn' (Điều 356).",
+          "Làm thủ tục đề nghị Luật sư tham gia bảo vệ quyền lợi hợp pháp (gửi Thông báo đăng ký người bào chữa/người bảo vệ quyền lợi đến Cơ quan điều tra theo Điều 78, 83 BLTTHS).",
+          "Luyện tập kỹ năng trả lời: Rõ ràng, súc tích, đi thẳng vào câu hỏi, không lan man, không suy đoán việc của phòng ban khác."
+        ],
+        "sai_lam_can_tranh": [
+          "Chủ quan nghĩ 'mình chỉ làm công ăn lương, ký theo lệnh cấp trên nên chắc không sao' mà không chuẩn bị kiến thức pháp lý.",
+          "Nghe lời khuyên sai lầm từ những người không có chuyên môn luật, dẫn đến việc khai nhận bừa bãi những hành vi mình không chủ mưu hoặc không thực hiện."
+        ],
+        "can_cu_phap_ly": "Điều 73, 74, 78, 83 Bộ luật Tố tụng Hình sự 2015",
+        "vi_du_thuc_te": {
+          "tinh_huong": "Anh Nguyễn Văn H (Chuyên viên Phòng Kế hoạch Tài chính) được chỉ định làm thành viên Tổ chấm thầu gói thầu CNTT 20 tỷ đồng. Anh H đã ký biên bản chấm đạt cho nhà thầu A theo chỉ đạo miệng của Trưởng phòng.",
+          "cach_xu_ly_dung": "Luật sư hướng dẫn anh H: Khi làm việc phải trình bày rõ: Mình làm việc với tư cách thành viên độc lập, chỉ chấm dựa trên hồ sơ giấy tờ do nhà thầu nộp, không được tham gia đàm phán giá, không được hưởng bất kỳ lợi ích vật chất nào, và cung cấp bản tường trình kèm các phiếu chấm thầu để làm rõ yếu tố không có động cơ vụ lợi."
+        }
+      },
+      {
+        "buoc": 4,
+        "ten": "Làm Việc Trực Tiếp Tại Cơ Quan Điều Tra (C03, A03, PC03...)",
+        "muc_tieu": "Giữ vững tâm lý, trả lời trung thực, chính xác sự thật khách quan, bảo vệ quyền lợi và không nhận những việc mình không làm.",
+        "hanh_dong_chi_tiet": [
+          "Đến đúng giờ hẹn, xuất trình Căn cước công dân và Giấy mời/Giấy triệu tập tại phòng bảo vệ, chấp hành nội quy (để điện thoại/túi xách đúng nơi quy định).",
+          "Khi vào phòng làm việc: Yêu cầu Điều tra viên/Cán bộ lấy lời khai giới thiệu họ tên, chức danh, xuất trình thẻ điều tra viên và thông báo rõ tư cách tham gia của bạn.",
+          "Nguyên tắc trả lời: Nghe hết câu hỏi ➔ Dừng lại 2-3 giây suy nghĩ ➔ Trả lời ngắn gọn, trung thực đúng những gì mình trực tiếp làm, trực tiếp biết.",
+          "Đối với những việc không rõ hoặc đã quá lâu: Trả lời dứt khoát: 'Vấn đề này xảy ra đã lâu, tôi không nhớ chính xác từng chi tiết, đề nghị cho tôi xem lại hồ sơ lưu trữ để trả lời trung thực' (Tuyệt đối không đoán mò).",
+          "Đối với việc của người khác/phòng ban khác: Trả lời: 'Việc này thuộc chức năng, nhiệm vụ của phòng X/anh Y, tôi không trực tiếp phụ trách nên tôi không nắm được'."
+        ],
+        "sai_lam_can_tranh": [
+          "Bị áp lực tâm lý dồn dập rồi gật đầu nhận bừa những cáo buộc vô căn cứ mà mình không thực hiện.",
+          "Khai báo sai sự thật, dựng chuyện đổ tội cho cấp dưới hoặc người khác (phạm tội vu khống hoặc khai báo gian dối theo BLHS).",
+          "Thái độ chống đối, thách thức, to tiếng với cán bộ điều tra."
+        ],
+        "can_cu_phap_ly": "Điều 183, 184, 185, 186, 187 Bộ luật Tố tụng Hình sự 2015",
+        "vi_du_thuc_te": {
+          "tinh_huong": "Trong buổi làm việc tại C03, Điều tra viên hỏi anh K: 'Anh có biết Công ty Minh Phát và Công ty Việt Á có thỏa thuận nâng khống giá máy xét nghiệm từ 5 tỷ lên 15 tỷ để ăn chia không?'.",
+          "cach_xu_ly_dung": "Anh K bình tĩnh trả lời: 'Báo cáo cán bộ, tôi là Trưởng phòng Vật tư, căn cứ vào Chứng thư thẩm định giá số 45 của Công ty Thẩm định giá độc lập Z và dự toán được Sở Y tế phê duyệt để lập hồ sơ mời thầu. Tôi hoàn toàn không tham gia vào thỏa thuận giá giữa các doanh nghiệp và không biết về việc nâng giá này. Mọi chứng từ thanh toán đều chuyển khoản qua Kho bạc theo đúng dự toán được duyệt'."
+        }
+      },
+      {
+        "buoc": 5,
+        "ten": "Kiểm Tra Kỹ Toàn Văn Biên Bản Trước Khi Ký & Tự Ghi Ý Kiến Bổ Sung",
+        "muc_tieu": "Đảm bảo 100% nội dung ghi trong Biên bản làm việc / Biên bản hỏi cung phản ánh đúng, chính xác từng câu chữ lời khai của mình.",
+        "hanh_dong_chi_tiet": [
+          "Yêu cầu được tự mình đọc lại toàn bộ biên bản từ trang đầu đến trang cuối (không để người khác đọc lướt qua).",
+          "Kiểm tra kỹ các từ ngữ nhạy cảm: Ví dụ bạn nói 'Tôi nhận tài liệu do cấp trên đưa' nhưng biên bản lại ghi 'Tôi cùng bàn bạc thống nhất nhận hồ sơ' ➔ PHẢI YÊU CẦU ĐIỀU TRA VIÊN SỬA LẠI NGAY.",
+          "Nếu Điều tra viên không đồng ý sửa: Bạn có quyền TỰ TAY GHI Ý KIẾN BỔ SUNG vào phần cuối biên bản ngay phía trên chữ ký: 'Tôi xin đính chính câu hỏi số... nội dung thực tế là...'.",
+          "Dùng bút gạch chéo toàn bộ phần giấy trắng còn trống ở cuối các trang để tránh việc bị chèn thêm chữ sau này.",
+          "Ký và ghi rõ họ tên vào góc dưới của TỪNG TRANG biên bản và ký trang cuối cùng."
+        ],
+        "sai_lam_can_tranh": [
+          "Mệt mỏi sau nhiều giờ làm việc nên ký vội, ký liều khi chưa đọc kỹ từng câu chữ.",
+          "Ký vào biên bản có những khoảng trống lớn mà chưa gạch chéo.",
+          "Sợ cán bộ phật ý nên không dám yêu cầu đính chính các điểm ghi sai lệch so với lời khai của mình."
+        ],
+        "can_cu_phap_ly": "Điều 133, 186 Bộ luật Tố tụng Hình sự 2015",
+        "vi_du_thuc_te": {
+          "tinh_huong": "Khi đọc lại Biên bản làm việc dài 6 trang tại C03, chị M phát hiện ở trang 4 có câu: 'Bà M thừa nhận có chi 500 triệu đồng hoa hồng cho Giám đốc Bệnh viện để được tạo điều kiện trúng thầu'. Trong khi thực tế chị chỉ khai là 'Giám đốc Bệnh viện có gọi điện hỏi thăm tiến độ cung cấp máy'.",
+          "cach_xu_ly_dung": "Chị M kiên quyết đề nghị Điều tra viên in lại trang 4 để sửa đúng lời khai. Sau khi được sửa lại đúng câu: 'Bà M khẳng định không đưa bất kỳ khoản tiền nào cho Giám đốc Bệnh viện', chị M mới kiểm tra lại, gạch chéo phần giấy trắng và ký tên xác nhận."
+        }
+      },
+      {
+        "buoc": 6,
+        "ten": "Hậu Buổi Làm Việc & Kế Hoạch Chủ Động Hợp Tác, Khắc Phục Hậu Quả",
+        "muc_tieu": "Lưu trữ nhật ký diễn biến, phối hợp cung cấp bổ sung tài liệu và chủ động thực hiện chính sách khoan hồng nếu có sai phạm.",
+        "hanh_dong_chi_tiet": [
+          "Ngay sau khi rời cơ quan điều tra: Ngồi lại với Luật sư ghi chép lại toàn bộ các câu hỏi trọng tâm, tài liệu cán bộ đã thu giữ, các điểm cán bộ đang tập trung điều tra.",
+          "Nếu trong quá khứ có nhận bất kỳ khoản tiền quà cáp, hoa hồng, hỗ trợ nào từ nhà thầu/đối tác: Hãy làm việc ngay với Luật sư để làm Đơn tự nguyện giao nộp lại toàn bộ số tiền đó vào tài khoản tạm giữ của Cơ quan điều tra (Kho bạc Nhà nước).",
+          "Tích cực phối hợp cung cấp các tài liệu, hóa đơn, chứng từ gốc để giúp Cơ quan điều tra nhanh chóng làm rõ bản chất khách quan của vụ án.",
+          "Đề nghị Cơ quan điều tra và Viện kiểm sát ghi nhận các tình tiết giảm nhẹ trách nhiệm hình sự (thành khẩn khai báo, ăn năn hối cải, tích cực hợp tác, tự nguyện khắc phục hậu quả, gia đình có công với cách mạng...)."
+        ],
+        "sai_lam_can_tranh": [
+          "Ôm giữ số tiền hưởng lợi bất chính với tâm lý 'chắc cơ quan điều tra không tìm ra tài khoản ngầm đâu' (Cơ quan điều tra có nghiệp vụ phong tỏa, sao kê dòng tiền rất nhanh; nếu không tự giác nộp sớm sẽ mất cơ hội hưởng tình tiết giảm nhẹ đặc biệt).",
+          "Tiếp tục liên lạc với các đối tượng khác để nghe ngóng, tạo thêm nghi vấn cho Cơ quan điều tra."
+        ],
+        "can_cu_phap_ly": "Điều 29 (Miễn TNHS), Điều 51 (Tình tiết giảm nhẹ), Điều 54 (Hình phạt dưới mức thấp nhất của khung) Bộ luật Hình sự 2015",
+        "vi_du_thuc_te": {
+          "tinh_huong": "Anh Đặng Quốc T (Phó Giám đốc phụ trách gói thầu) trong dịp Tết có nhận túi quà bên trong có 200 triệu đồng của Nhà thầu trúng thầu. Sau buổi làm việc đầu tiên với C03, anh T nhận thức được đây là khoản tiền vi phạm pháp luật nghiêm trọng.",
+          "cach_xu_ly_dung": "Anh T được Luật sư hỗ trợ làm Đơn tường trình tự nguyện nộp lại toàn bộ 200 triệu đồng vào tài khoản tạm giữ của Cơ quan CSĐT Bộ Công an tại Kho bạc Nhà nước. Trong Kết luận điều tra và Cáo trạng sau đó, Viện kiểm sát đã ghi nhận anh T có tình tiết giảm nhẹ đặc biệt quan trọng (tự nguyện nộp lại tiền, thành khẩn khai báo) và đề nghị Tòa án cho anh T được hưởng mức án treo, không phải chấp hành hình phạt tù giam."
+        }
+      }
     ]
   }
 }

@@ -4836,7 +4836,7 @@
       }
     };
 
-            window.renderPhapLuat = function() {
+                window.renderPhapLuat = function() {
       if (!phapLuatData) return;
       const searchVal = removeVietnameseTones((document.getElementById('phapluat-search')?.value || '').toLowerCase());
       const area = document.getElementById('phapluat-display-area');
@@ -5372,21 +5372,76 @@
                   </div>
                 </div>
 
-                <!-- 5. Quy Trình 5 Bước Ứng Phó -->
-                <div class="space-y-3 pt-2">
-                  <span class="text-sm font-bold text-emerald-300 flex items-center gap-2">
-                    <span>🚀</span> 5. Quy Trình 5 Bước Hành Động Chuẩn Mực Khi Nhận Giấy Làm Việc
-                  </span>
-                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 text-xs">
-                    ${dt.quy_trinh_5_buoc_ung_pho.map(b => `
-                      <div class="p-3 rounded-2xl bg-slate-900/90 border border-slate-800 text-center flex flex-col justify-between">
-                        <div>
-                          <span class="text-[10px] font-bold text-amber-400 bg-slate-950 px-2 py-0.5 rounded-full border border-slate-800 inline-block mb-1.5">Bước ${b.buoc}</span>
-                          <b class="text-white block text-xs mb-1">${b.ten}</b>
-                          <p class="text-slate-300 text-[10px] leading-snug">${b.hanh_dong}</p>
+                <!-- 5. Quy Trình 6 Bước Chi Tiết Có Ví Dụ Minh Họa -->
+                <div class="space-y-4 pt-2">
+                  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-2">
+                    <span class="text-sm font-bold text-emerald-300 flex items-center gap-2">
+                      <span>🚀</span> 5. Quy Trình 6 Bước Hành Động Chuẩn Mực & Ví Dụ Minh Họa Thực Tế
+                    </span>
+                    <span class="text-[11px] text-slate-400">Kèm ví dụ tình huống giả định chi tiết từng bước</span>
+                  </div>
+
+                  <div class="space-y-4">
+                    ${(dt.quy_trinh_chi_tiet || []).map(step => {
+                      const stepSpeakText = `Bước ${step.buoc}: ${step.ten}. Mục tiêu: ${step.muc_tieu}. Hành động: ${step.hanh_dong_chi_tiet.join('. ')}. Sai lầm cần tránh: ${step.sai_lam_can_tranh.join('. ')}. Căn cứ pháp lý: ${step.can_cu_phap_ly}. Ví dụ tình huống: ${step.vi_du_thuc_te.tinh_huong}. Cách xử lý: ${step.vi_du_thuc_te.cach_xu_ly_dung}`;
+                      const safeStepSpeak = stepSpeakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                      return `
+                        <div class="p-5 rounded-3xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/40 transition-all">
+                          <!-- Step Header -->
+                          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3 mb-3">
+                            <div class="flex items-center gap-2.5">
+                              <span class="text-xs font-black text-slate-950 bg-emerald-400 px-2.5 py-1 rounded-xl shadow">BƯỚC ${step.buoc}</span>
+                              <h4 class="text-sm sm:text-base font-bold text-white">${step.ten}</h4>
+                            </div>
+                            <button 
+                              onclick="playTTS(event, '${safeStepSpeak}', 'vi')"
+                              class="px-3 py-1.5 rounded-xl bg-slate-950 border border-emerald-500/30 text-emerald-300 hover:text-white hover:bg-emerald-600 transition-all text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
+                              title="Nghe đọc toàn bộ bước ${step.buoc}"
+                            >
+                              <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                              <span>🔊 Nghe Bước ${step.buoc}</span>
+                            </button>
+                          </div>
+
+                          <!-- Muc tieu & Can cu -->
+                          <div class="mb-3 p-3 rounded-2xl bg-slate-950/80 border border-slate-800/80">
+                            <p class="text-slate-200 text-xs leading-relaxed mb-1"><b class="text-emerald-300">🎯 Mục tiêu cốt lõi:</b> ${step.muc_tieu}</p>
+                            <span class="text-[10px] text-slate-400 font-mono"><b class="text-slate-300 font-sans">📜 Căn cứ pháp lý:</b> ${step.can_cu_phap_ly}</span>
+                          </div>
+
+                          <!-- 2 Columns: Hanh dong & Sai lam -->
+                          <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 mb-3">
+                            <!-- Hanh dong can lam -->
+                            <div class="p-3.5 rounded-2xl bg-emerald-950/20 border border-emerald-500/20">
+                              <span class="text-xs font-bold text-emerald-300 block mb-2">✅ Các hành động cụ thể cần làm:</span>
+                              <ul class="space-y-1.5 text-[11px] text-slate-300">
+                                ${step.hanh_dong_chi_tiet.map(h => `<li class="flex items-start gap-1.5 leading-relaxed"><span class="text-emerald-400 font-bold mt-0.5">✓</span> <span>${h}</span></li>`).join('')}
+                              </ul>
+                            </div>
+
+                            <!-- Sai lam can tranh -->
+                            <div class="p-3.5 rounded-2xl bg-rose-950/20 border border-rose-500/20">
+                              <span class="text-xs font-bold text-rose-300 block mb-2">⚠️ Sai lầm chí mạng tuyệt đối tránh:</span>
+                              <ul class="space-y-1.5 text-[11px] text-slate-300">
+                                ${step.sai_lam_can_tranh.map(s => `<li class="flex items-start gap-1.5 leading-relaxed"><span class="text-rose-400 font-bold mt-0.5">✗</span> <span>${s}</span></li>`).join('')}
+                              </ul>
+                            </div>
+                          </div>
+
+                          <!-- Real World Example Box -->
+                          <div class="p-4 rounded-2xl bg-gradient-to-r from-amber-950/30 via-slate-950 to-amber-950/30 border border-amber-500/30 text-xs">
+                            <span class="font-bold text-amber-300 flex items-center gap-1.5 mb-2">
+                              <span>💡</span> VÍ DỤ MINH HỌA TÌNH HUỐNG THỰC TẾ:
+                            </span>
+                            <div class="space-y-2 text-[11px]">
+                              <p class="text-slate-200 leading-relaxed"><b class="text-rose-300">🚩 Tình huống giả định:</b> ${step.vi_du_thuc_te.tinh_huong}</p>
+                              <p class="text-emerald-200 leading-relaxed pt-1.5 border-t border-slate-800/80"><b class="text-emerald-400">👉 Cách xử lý đúng & Kết quả:</b> ${step.vi_du_thuc_te.cach_xu_ly_dung}</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    `).join('')}
+                      `;
+                    }).join('')}
                   </div>
                 </div>
               </div>
