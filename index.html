@@ -3318,7 +3318,7 @@
           <!-- Dual TTS Action Toolbar -->
           <div class="flex flex-wrap md:flex-col gap-2.5 shrink-0">
             <button 
-              onclick="playTTSBanDo(event, 'Bản Đồ Kiến Thức Liên Ngành. Kiến thức không tồn tại riêng lẻ, mọi thứ đều nối với nhau. Nhìn thấy mối liên hệ là bước đầu của tư duy thông minh.', false)" 
+              onclick="playTTSBanDo(event, 'Bản Đồ Kiến Thức Liên Ngành. Kiến thức không tồn tại riêng lẻ, mọi thứ đều nối với nhau. Nhìn thấy mối liên hệ là bước đầu của tư duy thông minh. Mọi lĩnh vực cuối cùng đều quy về: sống khỏe, sống có ích, gia đình hạnh phúc. Con cái học không chỉ sách vở mà học cách bố sống, tư duy, ứng xử. Đó là di sản quý nhất!', false)" 
               class="px-4 py-2.5 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all flex items-center gap-2 cursor-pointer shadow-lg shadow-indigo-600/30 active:scale-95"
             >
               <span>🔊</span> <span>Nghe Giới Thiệu</span>
@@ -3329,11 +3329,39 @@
             >
               <span>⚡</span> <span>Nghe Tóm Tắt Nhanh</span>
             </button>
+            <button 
+              onclick="stopTTSBanDo(event)" 
+              class="px-4 py-2 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white text-xs font-bold transition-all flex items-center justify-center gap-1 cursor-pointer"
+            >
+              <span>⏹️</span> <span>Dừng Đọc</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- MỐI LIÊN KẾT XUYÊN SUỐT TẤT CẢ BANNER -->
+        <div class="mt-5 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/80 via-slate-900/90 to-purple-950/80 border border-indigo-500/40 flex flex-col gap-2 relative z-10 shadow-lg">
+          <div class="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wide">
+            <span class="text-base">🔗</span>
+            <span>MỐI LIÊN KẾT XUYÊN SUỐT TẤT CẢ:</span>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-xs text-slate-200">
+            <div class="flex items-start gap-2 bg-slate-950/50 p-2.5 rounded-xl border border-slate-800/80">
+              <span class="text-emerald-400 font-black shrink-0">✓</span>
+              <span><b>Không áp dụng = không giá trị:</b> Kiến thức chỉ có sức mạnh khi giải quyết bài toán cuộc sống thực tế.</span>
+            </div>
+            <div class="flex items-start gap-2 bg-slate-950/50 p-2.5 rounded-xl border border-slate-800/80">
+              <span class="text-emerald-400 font-black shrink-0">✓</span>
+              <span><b>Mọi nẻo quy về Con Người:</b> Cuối cùng đều hướng đến sống khỏe, sống có ích, gia đình bình an hòa thuận.</span>
+            </div>
+            <div class="flex items-start gap-2 bg-slate-950/50 p-2.5 rounded-xl border border-slate-800/80">
+              <span class="text-emerald-400 font-black shrink-0">✓</span>
+              <span><b>Di sản quý nhất cho con:</b> Con học cách bố sống, tư duy, ứng xử và bản lĩnh vượt sóng gió, không chỉ sách vở.</span>
+            </div>
           </div>
         </div>
 
         <!-- Progress Overview Widget -->
-        <div class="mt-6 p-4 rounded-2xl bg-slate-950/70 border border-indigo-500/30 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="mt-4 p-4 rounded-2xl bg-slate-950/80 border border-indigo-500/30 flex flex-col md:flex-row items-center justify-between gap-4">
           <div class="w-full md:w-2/3 flex flex-col gap-1.5">
             <div class="flex justify-between items-center text-xs">
               <span class="font-bold text-slate-300 flex items-center gap-1.5">
@@ -3345,9 +3373,40 @@
               <div id="bdt-total-progress-bar" class="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full transition-all duration-500" style="width: 0%"></div>
             </div>
           </div>
-          <div class="text-xs text-amber-200 bg-amber-950/30 px-3.5 py-2 rounded-xl border border-amber-500/20 italic max-w-sm text-center md:text-left" id="bdt-auto-advice">
+          <div class="text-xs text-amber-200 bg-amber-950/40 px-3.5 py-2 rounded-xl border border-amber-500/30 italic max-w-sm text-center md:text-left shadow" id="bdt-auto-advice">
             Đang phân tích tiến độ học tập...
           </div>
+        </div>
+
+        <!-- Search Network Cross-References Bar -->
+        <div class="mt-4 p-4 rounded-2xl bg-slate-950/90 border border-indigo-500/30 flex flex-col gap-3">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <label for="bdt-search-input" class="text-xs font-bold text-white flex items-center gap-2">
+              <span>🔍</span> TÌM KIẾM LIÊN KẾT MẠNG LƯỚI TRI THỨC:
+            </label>
+            <div class="flex items-center gap-1.5 flex-wrap">
+              <span class="text-[11px] text-slate-400">Gợi ý tìm nhanh:</span>
+              <button onclick="searchBanDoNetwork('Gút')" class="px-2 py-0.5 rounded-lg bg-slate-900 hover:bg-indigo-900 border border-slate-700 text-indigo-300 text-[11px] font-medium cursor-pointer transition-all">Gút</button>
+              <button onclick="searchBanDoNetwork('Đầu tư')" class="px-2 py-0.5 rounded-lg bg-slate-900 hover:bg-indigo-900 border border-slate-700 text-indigo-300 text-[11px] font-medium cursor-pointer transition-all">Đầu tư</button>
+              <button onclick="searchBanDoNetwork('Xây dựng')" class="px-2 py-0.5 rounded-lg bg-slate-900 hover:bg-indigo-900 border border-slate-700 text-indigo-300 text-[11px] font-medium cursor-pointer transition-all">Xây dựng</button>
+              <button onclick="searchBanDoNetwork('Pháp luật')" class="px-2 py-0.5 rounded-lg bg-slate-900 hover:bg-indigo-900 border border-slate-700 text-indigo-300 text-[11px] font-medium cursor-pointer transition-all">Pháp luật</button>
+              <button onclick="searchBanDoNetwork('Kinh Dịch')" class="px-2 py-0.5 rounded-lg bg-slate-900 hover:bg-indigo-900 border border-slate-700 text-indigo-300 text-[11px] font-medium cursor-pointer transition-all">Kinh Dịch</button>
+              <button onclick="searchBanDoNetwork('Con cái')" class="px-2 py-0.5 rounded-lg bg-slate-900 hover:bg-indigo-900 border border-slate-700 text-indigo-300 text-[11px] font-medium cursor-pointer transition-all">Con cái</button>
+              <button onclick="searchBanDoNetwork('Công nghệ AI')" class="px-2 py-0.5 rounded-lg bg-slate-900 hover:bg-indigo-900 border border-slate-700 text-indigo-300 text-[11px] font-medium cursor-pointer transition-all">AI & TMĐT</button>
+            </div>
+          </div>
+          <div class="relative">
+            <input 
+              id="bdt-search-input" 
+              type="text" 
+              placeholder="Nhập từ khóa liên kết (ví dụ: Gút, Đầu tư, Xây dựng, Pháp luật, Con cái, FPT, MBB, Lớp 7, Lớp 12...)..." 
+              class="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all"
+              oninput="handleBanDoSearchInput(this.value)"
+            />
+            <button onclick="clearBanDoSearch()" id="bdt-clear-search-btn" class="absolute right-3 top-2.5 text-xs text-slate-500 hover:text-white hidden cursor-pointer">✕</button>
+          </div>
+          <!-- Search Results Dropdown/Box -->
+          <div id="bdt-search-results-box" class="hidden flex flex-col gap-2 p-3 rounded-xl bg-slate-900 border border-indigo-500/40"></div>
         </div>
       </div>
 
@@ -3358,22 +3417,22 @@
             P1. Bản Đồ Tổng Thể
           </button>
           <button onclick="selectBanDoPart(2)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="2">
-            P2. Sức Khỏe
+            P2. Sức Khỏe <span id="bdt-tab-badge-2" class="ml-1 text-[10px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono">0%</span>
           </button>
           <button onclick="selectBanDoPart(3)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="3">
-            P3. Tri Tuệ
+            P3. Tri Tuệ <span id="bdt-tab-badge-3" class="ml-1 text-[10px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono">0%</span>
           </button>
           <button onclick="selectBanDoPart(4)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="4">
-            P4. Tài Chính & Đầu Tư
+            P4. Tài Chính & Đầu Tư <span id="bdt-tab-badge-4" class="ml-1 text-[10px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono">0%</span>
           </button>
           <button onclick="selectBanDoPart(5)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="5">
-            P5. Xây Dựng & BĐS
+            P5. Xây Dựng & BĐS <span id="bdt-tab-badge-5" class="ml-1 text-[10px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono">0%</span>
           </button>
           <button onclick="selectBanDoPart(6)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="6">
-            P6. Pháp Lý & Xã Hội
+            P6. Pháp Lý & Xã Hội <span id="bdt-tab-badge-6" class="ml-1 text-[10px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono">0%</span>
           </button>
           <button onclick="selectBanDoPart(7)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="7">
-            P7. Công Nghệ & Tương Lai
+            P7. Công Nghệ & Tương Lai <span id="bdt-tab-badge-7" class="ml-1 text-[10px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono">0%</span>
           </button>
           <button onclick="selectBanDoPart(8)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="8">
             P8. Bản Đồ Con Người
@@ -3429,7 +3488,6 @@
         </p>
       </div>
     </div>
-
   </main>
 
   <!-- Login Screen Overlay -->
@@ -11588,11 +11646,35 @@
     // ==================== BẢN ĐỒ KIẾN THỨC LIÊN NGÀNH LOGIC ====================
     let banDoTriThucData = null;
     let activeBanDoPart = 1;
-    let selectedBanDoNodeId = null;
+    let selectedBanDoBranchId = null;
     let banDoSvgScale = 1;
 
+    // Tiến độ các khối con lưu vào localStorage: { [subBlockId]: 'completed' | 'in_progress' | 'not_started' }
+    let banDoSubBlockProgress = {};
+
+    function initBanDoProgress() {
+      try {
+        const saved = localStorage.getItem('tho_bdt_progress_v2');
+        if (saved) {
+          banDoSubBlockProgress = JSON.parse(saved);
+        }
+      } catch (err) {
+        console.error("Lỗi đọc tiến độ bản đồ tri thức:", err);
+      }
+    }
+
+    function saveBanDoProgress() {
+      try {
+        localStorage.setItem('tho_bdt_progress_v2', JSON.stringify(banDoSubBlockProgress));
+      } catch (err) {
+        console.error("Lỗi lưu tiến độ bản đồ tri thức:", err);
+      }
+    }
+
     async function loadBanDoTriThucData() {
+      initBanDoProgress();
       if (banDoTriThucData) {
+        updateBanDoProgressUI();
         renderBanDoPart(activeBanDoPart);
         return;
       }
@@ -11600,6 +11682,7 @@
         const data = await fetchJsonWithCache('./ban_do_tri_thuc.json', 'Không thể tải dữ liệu Bản Đồ Tri Thức.');
         if (data) {
           banDoTriThucData = data;
+          updateBanDoProgressUI();
           renderBanDoPart(activeBanDoPart);
         }
       } catch (err) {
@@ -11619,6 +11702,241 @@
         }
       });
       renderBanDoPart(partNum);
+    };
+
+    // Toggle sub-block progress: not_started -> in_progress -> completed -> not_started
+    window.toggleSubBlockProgress = function(blockId, partNum) {
+      const current = banDoSubBlockProgress[blockId] || 'not_started';
+      let next = 'in_progress';
+      if (current === 'not_started') next = 'in_progress';
+      else if (current === 'in_progress') next = 'completed';
+      else next = 'not_started';
+
+      banDoSubBlockProgress[blockId] = next;
+      saveBanDoProgress();
+      updateBanDoProgressUI();
+      renderBanDoPart(partNum || activeBanDoPart);
+
+      let msg = 'Đã cập nhật trạng thái';
+      if (next === 'completed') msg = 'Đã hoàn thành khối kiến thức! ✅';
+      else if (next === 'in_progress') msg = 'Đang tiến hành học tập! ⏳';
+      else msg = 'Đã đặt lại trạng thái Chưa học ⚪';
+      showToast(msg, '📘');
+    };
+
+    function updateBanDoProgressUI() {
+      if (!banDoTriThucData) return;
+
+      let totalBlocks = 0;
+      let scoreEarned = 0;
+
+      const groupPercentages = {};
+      const groupAdvices = [];
+
+      // Loop sections 2-7
+      for (let p = 2; p <= 7; p++) {
+        const sec = banDoTriThucData['section' + p];
+        if (sec && sec.subBlocks) {
+          let gCount = sec.subBlocks.length;
+          let gScore = 0;
+          let uncompletedNames = [];
+
+          sec.subBlocks.forEach(b => {
+            totalBlocks++;
+            const st = banDoSubBlockProgress[b.id] || 'not_started';
+            if (st === 'completed') {
+              scoreEarned += 1;
+              gScore += 1;
+            } else if (st === 'in_progress') {
+              scoreEarned += 0.5;
+              gScore += 0.5;
+              uncompletedNames.push(b.name);
+            } else {
+              uncompletedNames.push(b.name);
+            }
+          });
+
+          const pct = Math.round((gScore / gCount) * 100);
+          groupPercentages[p] = pct;
+
+          // Tab badge
+          const tabBadge = document.getElementById('bdt-tab-badge-' + p);
+          if (tabBadge) {
+            tabBadge.textContent = pct + '%';
+            if (pct === 100) {
+              tabBadge.className = 'ml-1 text-[10px] px-1.5 py-0.2 rounded bg-emerald-950 text-emerald-300 font-mono font-bold';
+            } else if (pct > 0) {
+              tabBadge.className = 'ml-1 text-[10px] px-1.5 py-0.2 rounded bg-amber-950 text-amber-300 font-mono';
+            } else {
+              tabBadge.className = 'ml-1 text-[10px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono';
+            }
+          }
+
+          if (pct < 100) {
+            const shortName = sec.title.split('—')[1] ? sec.title.split('—')[1].trim() : ('Nhóm ' + (p - 1));
+            const needed = uncompletedNames.slice(0, 2).join(', ');
+            groupAdvices.push(`${shortName} (${pct}%) — cần bổ sung: ${needed}`);
+          }
+        }
+      }
+
+      const totalPct = totalBlocks > 0 ? Math.round((scoreEarned / totalBlocks) * 100) : 0;
+      const pctEl = document.getElementById('bdt-total-progress-pct');
+      const barEl = document.getElementById('bdt-total-progress-bar');
+      const adviceEl = document.getElementById('bdt-auto-advice');
+
+      if (pctEl) pctEl.textContent = totalPct + '%';
+      if (barEl) barEl.style.width = totalPct + '%';
+
+      if (adviceEl) {
+        if (totalPct === 100) {
+          adviceEl.innerHTML = '<span class="text-emerald-300 font-bold">⭐ Xuất sắc! Bác đã nắm trọn vẹn toàn bộ hệ thống tri thức và đang áp dụng hiệu quả vào gia đình.</span>';
+        } else if (groupAdvices.length > 0) {
+          adviceEl.innerHTML = '<span class="text-amber-300 font-semibold">Gợi ý tự động:</span> ' + groupAdvices[0];
+        } else {
+          adviceEl.textContent = 'Bắt đầu học và bấm Đánh dấu tiến độ từng khối con!';
+        }
+      }
+    }
+
+    // --- SEARCH NETWORK CROSS-REFERENCES ---
+    const BAN_DO_NETWORK_INDEX = [
+      {
+        keyword: 'gút',
+        synonyms: ['gut', 'gout', 'axit uric', 'urat', 'viem khop'],
+        title: 'Mạng Lưới Liên Quan Đến: BỆNH GÚT',
+        relations: [
+          { field: '🍽️ Dinh Dưỡng & Ăn Uống', note: 'Kiêng đạm đỏ, nội tạng, hải sản; uống tối thiểu 2-2.5 lít nước mỗi ngày để hỗ trợ bài tiết.' },
+          { field: '✋ Huyệt Đạo Toàn Thân', note: 'Bấm Thái xung (giải độc can), Tam âm giao (bổ can thận tỳ), Túc tam lý (kiện tỳ điều hòa khí huyết).' },
+          { field: '🏃 Thể Dục & Vận Động', note: 'Tập nhẹ nhàng dưỡng sinh, vẩy tay, tránh vận động mạnh đột ngột khi khớp đang có dấu hiệu nóng buốt.' },
+          { field: '🧘 Giấc Ngủ & Tinh Thần', note: 'Ngủ sâu trước 23h giúp gan thận thanh lọc và cân bằng nội tiết tố đào thải axit uric.' },
+          { field: '💰 Tài Chính Gia Đình', note: 'Kiểm soát gút tốt tiết kiệm tiền triệu chi phí y tế và tránh mất ngày công làm việc quan trọng.' }
+        ]
+      },
+      {
+        keyword: 'đầu tư',
+        synonyms: ['dau tu', 'chung khoan', 'co phieu', 'fpt', 'mbb', 'phc', 'tai chinh'],
+        title: 'Mạng Lưới Liên Quan Đến: TÀI CHÍNH & ĐẦU TƯ',
+        relations: [
+          { field: '📈 Kinh Tế Vĩ Mô & Lãi Suất', note: 'Theo dõi chu kỳ lãi suất điều hành của NHNN và cung tiền M2 để định hướng chu kỳ tài sản.' },
+          { field: '⚖️ Chính Sách & Pháp Luật', note: 'Nắm vững Luật Chứng khoán, Luật Đất đai 2024 để tránh các rủi ro pháp lý và tranh chấp.' },
+          { field: '☯️ Kinh Dịch & Tâm Lý', note: 'Nguyên lý Bĩ Cực Thái Lai — khi thị trường hưng phấn tột cùng là lúc thận trọng, không fomo đám đông.' },
+          { field: '🏗️ Ngành Xây Dựng & BĐS', note: 'Hiểu biến động giá vật liệu, tiến độ giải ngân đầu tư công để chọn cổ phiếu có dòng tiền thực.' }
+        ]
+      },
+      {
+        keyword: 'xây dựng',
+        synonyms: ['xay dung', 'bds', 'bat dong san', 'cong trinh', 'nha o', 'du an'],
+        title: 'Mạng Lưới Liên Quan Đến: XÂY DỰNG & BẤT ĐỘNG SẢN',
+        relations: [
+          { field: '📜 Pháp Lý Đất Đai', note: 'Quy hoạch sử dụng đất, giấy phép xây dựng, nghiệm thu PCCC là điều kiện tiên quyết.' },
+          { field: '💵 Tài Chính & Vật Liệu', note: 'Dự toán dòng tiền, chốt sớm giá thép và xi măng để tránh rủi ro trượt giá công trình.' },
+          { field: '🌧️ Thiên Tai & Chống Ngập', note: 'Quy hoạch cao độ cốt nền, tính toán thoát nước chống ngập bền vững nhiều thế hệ.' },
+          { field: '🛡️ An Toàn Lao Động', note: 'Sinh mạng con người là vô giá; an toàn là tiêu chuẩn số 1 tại mọi công trường.' }
+        ]
+      },
+      {
+        keyword: 'pháp luật',
+        synonyms: ['phap luat', 'luat', 'hop dong', 'tranh chap', 'dau thau'],
+        title: 'Mạng Lưới Liên Quan Đến: PHÁP LÝ & KINH DOANH',
+        relations: [
+          { field: '🤝 Đạo Đức & Uy Tín', note: 'Làm ăn chuẩn chỉ, minh bạch hợp đồng là nền tảng trường tồn cho doanh nghiệp.' },
+          { field: '🏢 Đấu Thầu & Xây Dựng', note: 'Tuân thủ Luật Đấu thầu, không thông thầu, thẩm định năng lực đối tác kỹ lưỡng.' },
+          { field: '🛡️ Bảo Vệ Tài Sản Gia Đình', note: 'Minh bạch nguồn gốc tài sản, hiểu rõ quyền thừa kế và quyền công dân.' }
+        ]
+      },
+      {
+        keyword: 'kinh dịch',
+        synonyms: ['kinh dich', 'am duong', 'ngu hanh', 'que dich', 'bat quai'],
+        title: 'Mạng Lưới Liên Quan Đến: KINH DỊCH & TRI THỨC CỔ HỌC',
+        relations: [
+          { field: '📊 Thị Trường & Chu Kỳ', note: 'Mọi sự vật đều vận động theo chu kỳ âm dương thịnh suy; không có gì tăng mãi hay giảm mãi.' },
+          { field: '🗓️ Chọn Ngày Lành & Khởi Công', note: 'Hòa hợp thiên thời - địa lợi - nhân hòa khi khởi công công trình hoặc việc đại sự.' },
+          { field: '🧭 Tư Duy & Ra Quyết Định', note: 'Biết tiến biết thoái, giữ tâm tĩnh lặng để nhìn thấu bản chất vấn đề.' }
+        ]
+      },
+      {
+        keyword: 'con cái',
+        synonyms: ['con cai', 'gia dinh', 'day con', 'con lop 7', 'con lop 12', 'di san'],
+        title: 'Mạng Lưới Liên Quan Đến: GIA ĐÌNH & ĐỊNH HƯỚNG CHO CON',
+        relations: [
+          { field: '🧠 Rèn Tư Duy Nhanh', note: 'Cùng con giải câu đố logic, bẻ gãy lối mòn tư duy, phát triển khả năng phản biện.' },
+          { field: '💻 Công Nghệ & TMĐT', note: 'Định hướng nghề nghiệp 2030-2035, cho con lớp 12 thực hành bán hàng số và AI.' },
+          { field: '🌱 Di Sản Sống Của Bố', note: 'Con cái học cách bố sống, cách đối nhân xử thế và ý chí kiên định hơn vạn lời nói.' }
+        ]
+      },
+      {
+        keyword: 'công nghệ ai',
+        synonyms: ['cong nghe', 'ai', 'tri tue nhan tao', 'tmdt', 'thuong mai dien tu', 'so hoa'],
+        title: 'Mạng Lưới Liên Quan Đến: CÔNG NGHỆ & TƯƠNG LAI',
+        relations: [
+          { field: '🛒 Kinh Doanh Online', note: 'Áp dụng TMĐT vào dự án của con trai, bán hàng đa kênh, tối ưu quảng cáo số.' },
+          { field: '⚡ Tự Động Hóa & Hiệu Suất', note: 'Dùng AI hỗ trợ viết lách, phân tích dữ liệu, tóm tắt hợp đồng và tra cứu nhanh.' },
+          { field: '🔐 An Ninh Mạng', note: 'Nhận diện bẫy lừa đảo công nghệ cao, bảo vệ tài khoản ngân hàng và dữ liệu gia đình.' }
+        ]
+      }
+    ];
+
+    window.searchBanDoNetwork = function(keyword) {
+      const input = document.getElementById('bdt-search-input');
+      if (input) input.value = keyword;
+      handleBanDoSearchInput(keyword);
+    };
+
+    window.clearBanDoSearch = function() {
+      const input = document.getElementById('bdt-search-input');
+      if (input) input.value = '';
+      handleBanDoSearchInput('');
+    };
+
+    window.handleBanDoSearchInput = function(rawVal) {
+      const val = (rawVal || '').trim().toLowerCase();
+      const box = document.getElementById('bdt-search-results-box');
+      const clearBtn = document.getElementById('bdt-clear-search-btn');
+
+      if (clearBtn) {
+        if (val) clearBtn.classList.remove('hidden');
+        else clearBtn.classList.add('hidden');
+      }
+
+      if (!val) {
+        if (box) box.classList.add('hidden');
+        return;
+      }
+
+      // Find matching items
+      const matches = BAN_DO_NETWORK_INDEX.filter(item => {
+        return item.keyword.includes(val) || item.synonyms.some(s => s.includes(val));
+      });
+
+      if (!box) return;
+      box.classList.remove('hidden');
+
+      if (matches.length === 0) {
+        box.innerHTML = `
+          <div class="text-xs text-slate-400 p-2">
+            Không tìm thấy mạng lưới liên kết với từ khóa "<b>${rawVal}</b>". Hãy thử với: <i>Gút, Đầu tư, Xây dựng, Pháp luật, Kinh Dịch, Con cái, Công nghệ AI...</i>
+          </div>
+        `;
+        return;
+      }
+
+      box.innerHTML = matches.map(m => `
+        <div class="p-3 rounded-xl bg-slate-950/80 border border-indigo-500/30 flex flex-col gap-2">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-1.5">
+            <b class="text-xs sm:text-sm text-indigo-300 font-bold">${m.title}</b>
+            <span class="text-[10px] text-slate-400 font-mono">Đa chiều liên ngành</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-1">
+            ${m.relations.map(r => `
+              <div class="p-2 rounded-lg bg-slate-900/90 border border-slate-800 flex flex-col gap-1">
+                <span class="text-xs font-bold text-emerald-300">${r.field}</span>
+                <p class="text-[11px] text-slate-300 leading-snug">${r.note}</p>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
     };
 
     function renderBanDoPart(partNum) {
@@ -11671,117 +11989,186 @@
       const sec1 = banDoTriThucData.section1;
       container.innerHTML = `
         <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-500/30 flex flex-col gap-6">
-          ${renderPartHeader(sec1.title, sec1.summary, sec1.summary, sec1.audioSummary)}
+          ${renderPartHeader(sec1.title, sec1.summary, sec1.meaning, sec1.audioSummary)}
 
-          <!-- 1.1 Ý Nghĩa -->
-          <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col gap-3">
-            <h3 class="text-sm font-bold text-indigo-300 flex items-center gap-2">
-              <span>📌</span> 1.1 Ý Nghĩa Của Bản Đồ Kiến Thức Liên Ngành
+          <!-- Meaning Box -->
+          <div class="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-500/30 text-xs sm:text-sm text-indigo-200 leading-relaxed italic">
+            "💡 ${sec1.meaning}"
+          </div>
+
+          <!-- Central Hub: CON NGƯỜI -->
+          <div class="p-6 rounded-2xl bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 border-2 border-indigo-500/50 shadow-xl flex flex-col items-center text-center gap-3">
+            <span class="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-[11px] font-black uppercase tracking-wider border border-indigo-500/40">
+              TRỌNG TÂM CỐT LÕI CỦA MỌI TRI THỨC
+            </span>
+            <h3 class="text-xl sm:text-2xl font-black text-white tracking-wide flex items-center gap-2">
+              <span>👤</span> ${sec1.centerHub.title}
             </h3>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-              ${sec1.meaning.map(m => `
-                <div class="p-2.5 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-200 flex items-start gap-2">
-                  <span class="text-emerald-400 mt-0.5">✓</span>
-                  <span>${m}</span>
+            <p class="text-xs sm:text-sm text-slate-300 max-w-xl leading-relaxed">
+              ${sec1.centerHub.desc}
+            </p>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-2 w-full max-w-2xl">
+              ${sec1.centerHub.pillars.map(p => `
+                <div class="p-2.5 rounded-xl bg-slate-900/80 border border-indigo-500/30 text-xs font-bold text-amber-300 text-center">
+                  ✨ ${p}
                 </div>
               `).join('')}
             </div>
           </div>
 
-          <!-- 1.2 Sơ Đồ Trung Tâm Con Người & 8 Nhánh -->
+          <!-- 8 Big Branches Grid -->
           <div class="flex flex-col gap-3">
-            <h3 class="text-sm font-bold text-amber-300 flex items-center gap-2">
-              <span>🌟</span> 1.2 Các Nhóm Lớn Trong Bản Đồ (Trung Tâm: CON NGƯỜI)
-            </h3>
-            <div class="p-4 rounded-2xl bg-gradient-to-r from-indigo-950/40 via-purple-950/30 to-indigo-950/40 border border-indigo-500/40 text-center flex flex-col items-center">
-              <span class="px-3 py-1 rounded-full bg-indigo-600 text-white font-black text-xs uppercase tracking-wider mb-2">TRUNG TÂM HỆ THỐNG</span>
-              <h4 class="text-lg font-black text-white">${sec1.centerHub.name}</h4>
-              <p class="text-xs text-indigo-200 font-bold mt-1">${sec1.centerHub.core}</p>
-              <p class="text-[11px] text-slate-300 mt-1 italic">${sec1.centerHub.description}</p>
+            <div class="flex items-center justify-between">
+              <h3 class="text-sm sm:text-base font-bold text-white flex items-center gap-2">
+                <span>🌳</span> 8 Nhánh Kiến Thức Lớn Liên Kết Chặt Chẽ:
+              </h3>
+              <span class="text-xs text-slate-400">Bấm vào nhánh để xem chi tiết</span>
             </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-2">
-              ${sec1.eightBranches.map(b => `
-                <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-indigo-500/40 transition-all flex flex-col justify-between gap-2.5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+              ${sec1.eightBranches.map((b, idx) => `
+                <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-indigo-500/60 transition-all flex flex-col justify-between gap-3 group shadow-md hover:shadow-indigo-950/30">
                   <div>
-                    <div class="flex items-center gap-2">
-                      <span class="w-7 h-7 rounded-xl flex items-center justify-center text-xs text-white" style="background-color: ${b.color}">
-                        <i class="fa-solid ${b.icon}"></i>
+                    <div class="flex items-center justify-between border-b border-slate-800/80 pb-2">
+                      <span class="w-6 h-6 rounded-lg bg-indigo-950 text-indigo-300 border border-indigo-500/30 text-xs font-bold flex items-center justify-center">
+                        ${idx + 1}
                       </span>
-                      <b class="text-xs sm:text-sm text-white">${b.name}</b>
+                      <span class="text-[10px] font-bold text-emerald-400 bg-emerald-950/40 px-2 py-0.5 rounded border border-emerald-500/30">
+                        ${b.blocksCount} khối con
+                      </span>
                     </div>
-                    <p class="text-[11px] text-slate-400 mt-1.5 leading-snug">${b.desc}</p>
+                    <b class="text-sm font-bold text-white group-hover:text-indigo-300 transition-colors mt-2 block">
+                      ${b.name}
+                    </b>
+                    <p class="text-xs text-slate-400 mt-1 leading-relaxed">
+                      ${b.coreMeaning}
+                    </p>
                   </div>
-                  <button onclick="switchMainTab('${b.relatedTab}')" class="text-[11px] text-indigo-400 hover:text-indigo-300 underline font-bold flex items-center gap-1 cursor-pointer">
-                    Mở module liên quan →
-                  </button>
+                  <div class="flex items-center justify-between pt-2 border-t border-slate-900">
+                    <button onclick="selectBanDoPart(${idx + 2})" class="text-xs text-indigo-400 hover:text-indigo-300 font-semibold cursor-pointer">
+                      Xem Nhóm này →
+                    </button>
+                    ${b.relatedTab ? `
+                      <button onclick="switchMainTab('${b.relatedTab}')" class="text-[11px] text-slate-400 hover:text-white underline cursor-pointer">
+                        Mở module ↗
+                      </button>
+                    ` : ''}
+                  </div>
                 </div>
               `).join('')}
             </div>
           </div>
 
-          <!-- 1.3 Cách Dùng -->
-          <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col gap-2.5">
-            <h3 class="text-sm font-bold text-teal-300 flex items-center gap-2">
-              <span>📖</span> 1.3 Cách Dùng Bản Đồ Thực Tế
-            </h3>
-            <ul class="flex flex-col gap-1.5 list-disc list-inside text-xs text-slate-300 leading-relaxed">
-              ${sec1.usageGuide.map(u => `<li>${u}</li>`).join('')}
-            </ul>
+          <!-- Usage Guide: 3 Steps -->
+          <div class="p-5 rounded-2xl bg-slate-950 border border-slate-800 flex flex-col gap-3">
+            <h4 class="text-xs sm:text-sm font-bold text-white flex items-center gap-2">
+              <span>🧭</span> Cách Dùng Bản Đồ Kiến Thức (3 Bước):
+            </h4>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              ${sec1.usageGuide.map(g => `
+                <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex flex-col gap-1">
+                  <span class="text-xs font-bold text-indigo-300">${g.step}</span>
+                  <p class="text-xs text-slate-300 leading-snug">${g.action}</p>
+                </div>
+              `).join('')}
+            </div>
           </div>
         </div>
       `;
     }
 
-    // --- PARTS 2 TO 7: SPECIFIC DOMAIN CATEGORIES ---
+    // --- PART 2-7: CHUYÊN ĐỀ 6 NHÓM KIẾN THỨC VỚI ĐÁNH DẤU TIẾN ĐỘ ---
     function renderPartCategory(container, partNum, secData, badgeColor, iconClass) {
       if (!secData) return;
+      const pct = Math.round(((secData.subBlocks.reduce((acc, b) => {
+        const st = banDoSubBlockProgress[b.id] || 'not_started';
+        return acc + (st === 'completed' ? 1 : (st === 'in_progress' ? 0.5 : 0));
+      }, 0)) / secData.subBlocks.length) * 100);
+
       container.innerHTML = `
         <div class="glass-card p-6 sm:p-8 rounded-3xl border border-slate-800 flex flex-col gap-6">
           ${renderPartHeader(secData.title, secData.summary, secData.summary, secData.audioSummary)}
 
-          <!-- Sub-blocks Grid -->
+          <!-- Group Progress Indicator Banner -->
+          <div class="p-3.5 rounded-2xl bg-slate-950 border border-slate-800 flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-slate-300">Tiến độ nhóm này:</span>
+              <span class="text-xs font-bold ${pct === 100 ? 'text-emerald-400' : (pct > 0 ? 'text-amber-400' : 'text-slate-400')}">${pct}% hoàn thành</span>
+            </div>
+            <div class="flex items-center gap-2 text-[11px] text-slate-400">
+              <span>Bấm nút góc phải mỗi khối con để đổi: ⚪ Chưa học ➔ ⏳ Đang học ➔ ✅ Đã học</span>
+            </div>
+          </div>
+
+          <!-- Sub-blocks Grid with Progress Marking -->
           <div class="flex flex-col gap-3">
             <h3 class="text-sm font-bold text-white flex items-center gap-2">
               <span>📦</span> Các Khối Kiến Thức Thành Phần (${secData.subBlocks.length} khối):
             </h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-              ${secData.subBlocks.map(b => `
-                <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col justify-between gap-2.5">
-                  <div>
-                    <b class="text-xs sm:text-sm text-white block">${b.name}</b>
-                    <p class="text-[11px] text-slate-400 mt-1 leading-snug">${b.desc}</p>
+              ${secData.subBlocks.map(b => {
+                const st = banDoSubBlockProgress[b.id] || 'not_started';
+                let cardClass = 'bg-slate-950/80 border-slate-800 text-slate-300';
+                let badgeText = '⚪ Chưa học';
+                let badgeBtnClass = 'bg-slate-900 border-slate-700 text-slate-400 hover:text-slate-200';
+
+                if (st === 'completed') {
+                  cardClass = 'bg-emerald-950/30 border-emerald-500/40 text-slate-200 shadow-md shadow-emerald-950/20';
+                  badgeText = '✅ Đã học';
+                  badgeBtnClass = 'bg-emerald-900/80 border-emerald-500/50 text-emerald-200 font-bold';
+                } else if (st === 'in_progress') {
+                  cardClass = 'bg-amber-950/30 border-amber-500/40 text-slate-200 shadow-md shadow-amber-950/20';
+                  badgeText = '⏳ Đang học';
+                  badgeBtnClass = 'bg-amber-900/80 border-amber-500/50 text-amber-200 font-bold';
+                }
+
+                return `
+                  <div class="p-4 rounded-2xl border ${cardClass} flex flex-col justify-between gap-3 transition-all">
+                    <div>
+                      <div class="flex items-start justify-between gap-2">
+                        <b class="text-xs sm:text-sm text-white font-bold leading-tight">${b.name}</b>
+                        <button 
+                          onclick="toggleSubBlockProgress('${b.id}', ${partNum})" 
+                          title="Bấm để đổi trạng thái học tập" 
+                          class="px-2 py-0.5 rounded-lg border text-[10px] cursor-pointer transition-all shrink-0 ${badgeBtnClass}"
+                        >
+                          ${badgeText}
+                        </button>
+                      </div>
+                      <p class="text-[11px] text-slate-400 mt-1.5 leading-snug">${b.desc}</p>
+                    </div>
+                    ${b.relatedTab ? `
+                      <button onclick="switchMainTab('${b.relatedTab}')" class="text-[11px] text-indigo-400 hover:text-indigo-300 underline font-semibold flex items-center gap-1 cursor-pointer">
+                        Mở kho tri thức này →
+                      </button>
+                    ` : ''}
                   </div>
-                  ${b.relatedTab ? `
-                    <button onclick="switchMainTab('${b.relatedTab}')" class="text-[11px] text-indigo-400 hover:text-indigo-300 underline font-semibold flex items-center gap-1 cursor-pointer">
-                      Mở kho tri thức này →
-                    </button>
-                  ` : ''}
-                </div>
-              `).join('')}
+                `;
+              }).join('')}
             </div>
           </div>
 
-          <!-- Links Table -->
+          <!-- Cross Links Table -->
           <div class="flex flex-col gap-3">
-            <h3 class="text-sm font-bold text-amber-300 flex items-center gap-2">
-              <span>🔗</span> Mối Liên Kết Giữa Các Khối:
+            <h3 class="text-sm font-bold text-indigo-300 flex items-center gap-2">
+              <span>🔗</span> Bảng Liên Kết Sang Các Lĩnh Vực Khác:
             </h3>
             <div class="overflow-x-auto rounded-2xl border border-slate-800">
               <table class="w-full text-left border-collapse text-xs">
                 <thead>
-                  <tr class="border-b border-slate-800 bg-slate-950 text-indigo-300 font-bold">
-                    <th class="py-2.5 px-3">Từ</th>
-                    <th class="py-2.5 px-3">Đến</th>
-                    <th class="py-2.5 px-3">Tại sao liên quan</th>
+                  <tr class="border-b border-slate-800 bg-slate-950 text-slate-300 font-bold">
+                    <th class="py-2.5 px-3">Lĩnh vực nguồn</th>
+                    <th class="py-2.5 px-3">Liên kết sang</th>
+                    <th class="py-2.5 px-3">Lý do vì sao cùng nguyên tắc</th>
+                    <th class="py-2.5 px-3">Ứng dụng thực tế</th>
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-850">
                   ${secData.links.map(l => `
                     <tr class="hover:bg-slate-900/50">
-                      <td class="py-2.5 px-3 font-bold text-white whitespace-nowrap">${l.from}</td>
-                      <td class="py-2.5 px-3 font-semibold text-indigo-300 whitespace-nowrap">${l.to}</td>
+                      <td class="py-2.5 px-3 font-semibold text-white whitespace-nowrap">${l.from}</td>
+                      <td class="py-2.5 px-3 font-semibold text-indigo-400 whitespace-nowrap">${l.to}</td>
                       <td class="py-2.5 px-3 text-slate-300 leading-relaxed">${l.reason}</td>
+                      <td class="py-2.5 px-3 text-emerald-300 font-medium leading-relaxed">${l.app}</td>
                     </tr>
                   `).join('')}
                 </tbody>
@@ -11789,12 +12176,12 @@
             </div>
           </div>
 
-          <!-- Intersection Note -->
-          <div class="p-4 rounded-2xl bg-indigo-950/30 border border-indigo-500/30 text-xs sm:text-sm text-indigo-200 flex items-start gap-2.5 leading-relaxed">
-            <span class="text-base text-amber-300 mt-0.5">💡</span>
+          <!-- Intersection Insight -->
+          <div class="p-4 rounded-2xl bg-slate-950 border border-amber-500/30 flex items-start gap-3">
+            <span class="text-xl">💡</span>
             <div>
-              <b class="text-amber-300 block mb-0.5">Điểm giao thoa chính:</b>
-              ${secData.intersection}
+              <b class="text-xs sm:text-sm text-amber-300">Điểm Giao Thoa Sâu Sắc:</b>
+              <p class="text-xs text-slate-300 mt-1 leading-relaxed">${secData.intersection}</p>
             </div>
           </div>
         </div>
@@ -11808,28 +12195,33 @@
         <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-500/30 flex flex-col gap-6">
           ${renderPartHeader(sec8.title, sec8.summary, sec8.summary, sec8.audioSummary)}
 
-          <!-- 5 Rings -->
-          <div class="flex flex-col gap-3.5">
-            ${sec8.fiveRings.map(r => `
-              <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                <div class="flex items-start sm:items-center gap-3">
-                  <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-black text-xs flex items-center justify-center shrink-0">
-                    ${r.ring}
-                  </span>
-                  <div>
-                    <h4 class="text-xs sm:text-sm font-bold text-white">${r.name}</h4>
-                    <p class="text-xs text-slate-300 mt-0.5 leading-relaxed">${r.desc}</p>
+          <!-- 5 Rings Overview -->
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-3">
+            ${sec8.fiveRings.map((r, idx) => `
+              <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col justify-between gap-2.5">
+                <div>
+                  <div class="flex items-center justify-between border-b border-slate-800 pb-1.5">
+                    <span class="text-xs font-bold text-indigo-400">${r.ring}</span>
+                    <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-500/20">${r.action}</span>
                   </div>
+                  <b class="text-sm font-bold text-white mt-2 block">${r.name}</b>
+                  <p class="text-xs text-slate-300 mt-1 leading-relaxed">${r.content}</p>
                 </div>
-                <span class="px-2.5 py-1 rounded-lg bg-indigo-950 text-indigo-300 border border-indigo-500/30 text-[10px] font-black uppercase tracking-wider self-start sm:self-auto shrink-0">
-                  ${r.keyword}
-                </span>
+                <div class="pt-2 border-t border-slate-900 text-[11px] text-amber-300 italic">
+                  "${r.principle}"
+                </div>
               </div>
             `).join('')}
           </div>
 
-          <div class="p-4 rounded-2xl bg-amber-950/30 border border-amber-500/30 text-xs text-amber-200 leading-relaxed italic">
-            <b>Nguyên lý xuyên suốt:</b> ${sec8.relationshipSummary}
+          <!-- Relationship Summary -->
+          <div class="p-5 rounded-2xl bg-gradient-to-r from-indigo-950/40 via-slate-900 to-purple-950/40 border border-indigo-500/40">
+            <h3 class="text-sm font-bold text-white flex items-center gap-2">
+              <span>🌟</span> Mối Liên Kết Xuyên Suốt 5 Vòng Tròn:
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-2 leading-relaxed">
+              ${sec8.relationshipSummary}
+            </p>
           </div>
         </div>
       `;
@@ -11919,52 +12311,96 @@
     // --- PART 10: TƯƠNG TÁC BẢN ĐỒ & LỘ TRÌNH 7 NGÀY ---
     function renderPart10Interactive(container) {
       const sec10 = banDoTriThucData.section10;
+
+      // Determine today's day of week
+      const daysVN = ['Chủ Nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
+      const todayVN = daysVN[new Date().getDay()];
+
       container.innerHTML = `
         <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-500/30 flex flex-col gap-6">
           ${renderPartHeader(sec10.title, sec10.summary, sec10.summary, sec10.audioSummary)}
 
-          <!-- SVG Mindmap -->
+          <!-- SVG Mindmap Controls & Canvas -->
           <div class="p-4 rounded-2xl bg-slate-950 border border-slate-900 flex flex-col gap-3">
-            <div class="flex items-center justify-between text-xs text-slate-400">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-slate-400">
               <span class="flex items-center gap-1.5 font-bold text-white">
-                <span>🖱️</span> Bản Đồ Tương Tác (Bấm vào khối để mở chi tiết, bấm đường nối để xem lý do liên kết):
+                <span>🖱️</span> Bản Đồ Trực Quan (Kéo thả node, bấm vào khối để xem khối con, bấm đường nối xem lý do):
               </span>
               <div class="flex items-center gap-2">
-                <button onclick="resetBanDoZoom()" class="px-2 py-1 rounded bg-slate-900 border border-slate-800 text-xs">Reset</button>
-                <button onclick="zoomBanDo(1.15)" class="px-2 py-1 rounded bg-slate-900 border border-slate-800 text-xs font-bold">+</button>
-                <button onclick="zoomBanDo(0.85)" class="px-2 py-1 rounded bg-slate-900 border border-slate-800 text-xs font-bold">-</button>
+                <button onclick="sortBanDoByPriority()" class="px-2.5 py-1 rounded-lg bg-indigo-950 text-indigo-300 border border-indigo-500/40 text-xs font-semibold hover:bg-indigo-900 cursor-pointer">
+                  Sắp xếp ưu tiên
+                </button>
+                <button onclick="resetBanDoZoom()" class="px-2 py-1 rounded bg-slate-900 border border-slate-800 text-xs cursor-pointer">Reset</button>
+                <button onclick="zoomBanDo(1.15)" class="px-2 py-1 rounded bg-slate-900 border border-slate-800 text-xs font-bold cursor-pointer">+</button>
+                <button onclick="zoomBanDo(0.85)" class="px-2 py-1 rounded bg-slate-900 border border-slate-800 text-xs font-bold cursor-pointer">-</button>
               </div>
             </div>
-            <div class="w-full overflow-hidden rounded-xl bg-slate-950 min-h-[460px] flex items-center justify-center">
-              <svg id="bdt-svg-canvas" class="w-full h-[500px]" viewBox="0 0 900 600"></svg>
+
+            <!-- Color convention legend -->
+            <div class="flex items-center gap-4 text-[11px] text-slate-300 bg-slate-900/60 p-2.5 rounded-xl border border-slate-800/80 flex-wrap">
+              <span class="font-bold text-white">Quy ước màu đường nối:</span>
+              <span class="flex items-center gap-1.5"><span class="w-3 h-1 bg-emerald-500 rounded"></span> 🟢 Xanh = Hỗ trợ tốt</span>
+              <span class="flex items-center gap-1.5"><span class="w-3 h-1 bg-amber-500 rounded border-dashed"></span> 🟡 Vàng = Cần cân bằng</span>
+              <span class="flex items-center gap-1.5"><span class="w-3 h-1 bg-rose-500 rounded border-dashed"></span> 🔴 Đỏ = Rủi ro / Ảnh hưởng ngược</span>
+            </div>
+
+            <div class="w-full overflow-hidden rounded-xl bg-slate-950 min-h-[460px] flex items-center justify-center relative touch-none select-none">
+              <svg id="bdt-svg-canvas" class="w-full h-[520px]" viewBox="0 0 900 600"></svg>
             </div>
           </div>
 
-          <!-- Weekly Schedule -->
+          <!-- Dynamic Panel for Selected Node -->
+          <div id="bdt-selected-node-panel" class="hidden p-5 rounded-2xl bg-slate-950 border border-indigo-500/40 flex flex-col gap-3">
+            <!-- Injected dynamically on click node -->
+          </div>
+
+          <!-- Weekly Schedule 7 Days -->
           <div class="flex flex-col gap-3">
-            <h3 class="text-sm font-bold text-white flex items-center gap-2">
-              <span>📅</span> Lộ Trình Học Hàng Tuần 7 Ngày
-            </h3>
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                <span>📅</span> Lộ Trình Học Hàng Tuần 7 Ngày
+              </h3>
+              <div class="flex items-center gap-2">
+                <button onclick="autoSuggestBanDoFocus()" class="px-3 py-1 rounded-xl bg-indigo-950 hover:bg-indigo-900 text-indigo-300 border border-indigo-500/30 text-xs font-semibold cursor-pointer">
+                  ⚡ Gợi ý tuần này
+                </button>
+                <button onclick="setBanDo7DayReminder()" class="px-3 py-1 rounded-xl bg-purple-950 hover:bg-purple-900 text-purple-200 border border-purple-500/40 text-xs font-semibold cursor-pointer">
+                  🔔 Nhắc xem lại sau 7 ngày
+                </button>
+              </div>
+            </div>
+
+            <!-- Reminder status if present -->
+            <div id="bdt-reminder-status-badge" class="hidden text-xs text-emerald-300 bg-emerald-950/40 p-2.5 rounded-xl border border-emerald-500/30"></div>
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-              ${sec10.weeklySchedule.map((ws, idx) => `
-                <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 flex items-start gap-3">
-                  <span class="w-7 h-7 rounded-xl bg-indigo-600 text-white font-black text-xs flex items-center justify-center shrink-0">
-                    ${idx + 1}
-                  </span>
-                  <div>
-                    <div class="flex items-center gap-2">
-                      <b class="text-xs sm:text-sm text-white">${ws.day}</b>
-                      <span class="text-[10px] text-indigo-400 font-bold bg-indigo-950 px-2 py-0.5 rounded border border-indigo-500/20">${ws.focus}</span>
+              ${sec10.weeklySchedule.map((ws, idx) => {
+                const isToday = ws.day.toLowerCase() === todayVN.toLowerCase();
+                return `
+                  <div class="p-3.5 rounded-2xl ${isToday ? 'bg-indigo-950/60 border-2 border-indigo-400 shadow-lg shadow-indigo-950/50' : 'bg-slate-950/80 border border-slate-800'} flex items-start gap-3 transition-all">
+                    <span class="w-7 h-7 rounded-xl ${isToday ? 'bg-indigo-500 text-white animate-pulse' : 'bg-slate-800 text-slate-300'} font-black text-xs flex items-center justify-center shrink-0">
+                      ${idx + 1}
+                    </span>
+                    <div class="w-full">
+                      <div class="flex items-center justify-between gap-2">
+                        <div class="flex items-center gap-2">
+                          <b class="text-xs sm:text-sm text-white">${ws.day}</b>
+                          ${isToday ? '<span class="text-[10px] font-black text-amber-300 bg-amber-950/80 px-2 py-0.5 rounded border border-amber-500/40">HÔM NAY ⭐</span>' : ''}
+                        </div>
+                        <span class="text-[10px] text-indigo-400 font-bold bg-indigo-950 px-2 py-0.5 rounded border border-indigo-500/20">${ws.focus}</span>
+                      </div>
+                      <p class="text-xs text-slate-300 mt-1.5 leading-snug">${ws.task}</p>
                     </div>
-                    <p class="text-xs text-slate-300 mt-1 leading-snug">${ws.task}</p>
                   </div>
-                </div>
-              `).join('')}
+                `;
+              }).join('')}
             </div>
           </div>
         </div>
       `;
+
       renderSvgKnowledgeMap();
+      checkBanDoReminder();
     }
 
     // Modal Helper for Relation
@@ -11986,6 +12422,11 @@
       const modal = document.getElementById('bdt-relation-modal');
       if (modal) modal.classList.add('hidden');
     };
+
+    // Node Positions for drag and layout
+    let banDoNodeCoords = {};
+    let isDraggingBanDoNode = false;
+    let draggedNodeId = null;
 
     function renderSvgKnowledgeMap() {
       const svg = document.getElementById('bdt-svg-canvas');
@@ -12009,18 +12450,20 @@
       const radiusX = 330;
       const radiusY = 200;
 
-      const nodeCoords = {};
-      branches.forEach((b, idx) => {
-        const angle = (idx * 2 * Math.PI / branches.length) - (Math.PI / 2);
-        const x = cx + radiusX * Math.cos(angle);
-        const y = cy + radiusY * Math.sin(angle);
-        nodeCoords[b.id] = { x, y, branch: b };
-      });
+      // Initialize default coords if not yet set
+      if (Object.keys(banDoNodeCoords).length === 0) {
+        branches.forEach((b, idx) => {
+          const angle = (idx * 2 * Math.PI / branches.length) - (Math.PI / 2);
+          const x = cx + radiusX * Math.cos(angle);
+          const y = cy + radiusY * Math.sin(angle);
+          banDoNodeCoords[b.id] = { x, y, branch: b };
+        });
+      }
 
       let edgesSvg = '';
       crossLinks.forEach(link => {
-        const from = nodeCoords[link.from];
-        const to = nodeCoords[link.to];
+        const from = banDoNodeCoords[link.from];
+        const to = banDoNodeCoords[link.to];
         if (!from || !to) return;
 
         let strokeColor = '#10b981';
@@ -12039,56 +12482,170 @@
         edgesSvg += `
           <path 
             d="M ${from.x} ${from.y} Q ${mx} ${my} ${to.x} ${to.y}" 
-            fill="none" 
             stroke="${strokeColor}" 
             stroke-width="2.5" 
-            stroke-opacity="0.6"
+            fill="none" 
             ${strokeDash}
-            class="cursor-pointer hover:stroke-white hover:stroke-width-[4] transition-all"
+            opacity="0.8"
+            class="hover:opacity-100 hover:stroke-width-4 transition-all cursor-pointer"
             onclick="openBanDoRelationModal('${link.fromName}', '${link.toName}', '${link.reason.replace(/'/g, "\\'")}', '${link.app.replace(/'/g, "\\'")}')"
-          />
+          >
+            <title>${link.fromName} ⇄ ${link.toName}: ${link.reason}</title>
+          </path>
         `;
       });
 
-      // Center Hub
-      let centerHubSvg = `
-        <g transform="translate(${cx}, ${cy})" class="cursor-pointer">
-          <circle r="60" fill="#0f172a" stroke="#6366f1" stroke-width="3" filter="drop-shadow(0 0 15px rgba(99, 102, 241, 0.4))" />
-          <circle r="52" fill="url(#center-grad-v2)" opacity="0.2" />
-          <text text-anchor="middle" y="-14" fill="#ffffff" font-size="12" font-weight="900" letter-spacing="1">CON NGƯỜI</text>
-          <text text-anchor="middle" y="4" fill="#a5b4fc" font-size="9" font-weight="bold">SỐNG TỐT • HỌC HIỂU</text>
-          <text text-anchor="middle" y="18" fill="#38bdf8" font-size="8.5" font-weight="600">GIA ĐÌNH HÒA THUẬN</text>
+      // Center Hub SVG (CON NGƯỜI)
+      const centerSvg = `
+        <g class="cursor-pointer" onclick="selectBanDoPart(1)">
+          <circle cx="${cx}" cy="${cy}" r="64" fill="url(#centerGlow)" stroke="#6366f1" stroke-width="3" filter="drop-shadow(0 0 16px rgba(99, 102, 241, 0.4))" />
+          <text x="${cx}" y="${cy - 12}" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="900">CON NGƯỜI</text>
+          <text x="${cx}" y="${cy + 4}" text-anchor="middle" fill="#a5b4fc" font-size="8.5" font-weight="700">TRỌNG TÂM CỐT LÕI</text>
+          <text x="${cx}" y="${cy + 18}" text-anchor="middle" fill="#cbd5e1" font-size="8">Sống Tốt • Tề Gia</text>
         </g>
       `;
 
+      // Branch Nodes SVG
       let nodesSvg = '';
-      branches.forEach((b) => {
-        const pos = nodeCoords[b.id];
+      branches.forEach((b, idx) => {
+        const coord = banDoNodeCoords[b.id];
+        if (!coord) return;
+        const isSelected = selectedBanDoBranchId === b.id;
+
         nodesSvg += `
-          <g transform="translate(${pos.x}, ${pos.y})" class="cursor-pointer group" onclick="switchMainTab('${b.relatedTab}')">
-            <rect x="-65" y="-30" width="130" height="60" rx="15" fill="#0f172a" stroke="${b.color}" stroke-width="2" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.5))" class="transition-all duration-300 group-hover:brightness-125" />
-            <text text-anchor="middle" y="-4" fill="#ffffff" font-size="10.5" font-weight="bold">${b.name.split('&')[0].trim()}</text>
-            <text text-anchor="middle" y="10" fill="#cbd5e1" font-size="9" font-weight="600">${b.name.split('&')[1] ? '& ' + b.name.split('&')[1].trim() : ''}</text>
-            <text text-anchor="middle" y="22" fill="${b.color}" font-size="7.5" font-weight="bold">Bấm để mở kho →</text>
+          <g 
+            class="cursor-grab active:cursor-grabbing group select-none"
+            data-branch-id="${b.id}"
+            onmousedown="startDragBanDoNode(event, '${b.id}')"
+            ontouchstart="startDragBanDoNode(event, '${b.id}')"
+            onclick="handleBanDoNodeClick(event, '${b.id}', ${idx + 2})"
+          >
+            <line x1="${cx}" y1="${cy}" x2="${coord.x}" y2="${coord.y}" stroke="#334155" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6" />
+            <circle 
+              cx="${coord.x}" 
+              cy="${coord.y}" 
+              r="40" 
+              fill="${isSelected ? '#4338ca' : '#0f172a'}" 
+              stroke="${isSelected ? '#a5b4fc' : '#6366f1'}" 
+              stroke-width="${isSelected ? '3.5' : '2'}" 
+              filter="drop-shadow(0 4px 8px rgba(0,0,0,0.5))"
+            />
+            <text x="${coord.x}" y="${coord.y - 6}" text-anchor="middle" fill="#ffffff" font-size="10.5" font-weight="800">
+              ${b.name}
+            </text>
+            <text x="${coord.x}" y="${coord.y + 10}" text-anchor="middle" fill="#38bdf8" font-size="8" font-weight="700">
+              ${b.blocksCount} khối con
+            </text>
           </g>
         `;
       });
 
       svg.innerHTML = `
         <defs>
-          <linearGradient id="center-grad-v2" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#6366f1" />
-            <stop offset="100%" stop-color="#ec4899" />
-          </linearGradient>
+          <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#312e81" />
+            <stop offset="100%" stop-color="#0f172a" />
+          </radialGradient>
         </defs>
         ${edgesSvg}
-        ${centerHubSvg}
         ${nodesSvg}
+        ${centerSvg}
       `;
+
+      // Setup window drag listeners for SVG canvas
+      svg.onmousemove = dragBanDoNode;
+      svg.ontouchmove = dragBanDoNode;
+      window.onmouseup = endDragBanDoNode;
+      window.ontouchend = endDragBanDoNode;
     }
 
+    window.startDragBanDoNode = function(e, branchId) {
+      isDraggingBanDoNode = true;
+      draggedNodeId = branchId;
+    };
+
+    function dragBanDoNode(e) {
+      if (!isDraggingBanDoNode || !draggedNodeId) return;
+      const svg = document.getElementById('bdt-svg-canvas');
+      if (!svg) return;
+
+      const rect = svg.getBoundingClientRect();
+      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+
+      const x = ((clientX - rect.left) / rect.width) * 900;
+      const y = ((clientY - rect.top) / rect.height) * 600;
+
+      if (banDoNodeCoords[draggedNodeId]) {
+        banDoNodeCoords[draggedNodeId].x = Math.max(50, Math.min(850, x));
+        banDoNodeCoords[draggedNodeId].y = Math.max(50, Math.min(550, y));
+        renderSvgKnowledgeMap();
+      }
+    }
+
+    function endDragBanDoNode() {
+      isDraggingBanDoNode = false;
+      draggedNodeId = null;
+    }
+
+    window.handleBanDoNodeClick = function(e, branchId, partNum) {
+      if (isDraggingBanDoNode) return;
+      selectedBanDoBranchId = branchId;
+      renderSvgKnowledgeMap();
+
+      const sec = banDoTriThucData['section' + partNum];
+      const panel = document.getElementById('bdt-selected-node-panel');
+      if (!sec || !panel) return;
+
+      panel.classList.remove('hidden');
+      panel.innerHTML = `
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2.5">
+          <div class="flex items-center gap-2">
+            <span class="text-indigo-400 font-bold">📦</span>
+            <b class="text-sm font-bold text-white">${sec.title}</b>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="selectBanDoPart(${partNum})" class="px-2.5 py-1 rounded-lg bg-indigo-600 text-white text-xs font-bold hover:bg-indigo-500 cursor-pointer">
+              Mở toàn bộ Phần này →
+            </button>
+            <button onclick="document.getElementById('bdt-selected-node-panel').classList.add('hidden')" class="text-slate-400 hover:text-white text-xs cursor-pointer">
+              ✕
+            </button>
+          </div>
+        </div>
+        <p class="text-xs text-slate-300 leading-relaxed">${sec.summary}</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mt-1">
+          ${sec.subBlocks.map(b => `
+            <div class="p-2.5 rounded-xl bg-slate-900 border border-slate-800 flex flex-col gap-1">
+              <b class="text-xs text-emerald-300">${b.name}</b>
+              <p class="text-[11px] text-slate-400 leading-snug">${b.desc}</p>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    };
+
+    window.sortBanDoByPriority = function() {
+      // Re-order by priority: Sức Khỏe -> Tri Tuệ -> Gia Đình -> Tài Chính -> Xây Dựng -> Pháp Lý -> Công Nghệ -> Cổ Học
+      const priorityOrder = ['nhanh-1', 'nhanh-2', 'nhanh-8', 'nhanh-3', 'nhanh-4', 'nhanh-5', 'nhanh-7', 'nhanh-6'];
+      const cx = 450;
+      const cy = 290;
+      const radiusX = 330;
+      const radiusY = 200;
+
+      priorityOrder.forEach((id, idx) => {
+        if (banDoNodeCoords[id]) {
+          const angle = (idx * 2 * Math.PI / priorityOrder.length) - (Math.PI / 2);
+          banDoNodeCoords[id].x = cx + radiusX * Math.cos(angle);
+          banDoNodeCoords[id].y = cy + radiusY * Math.sin(angle);
+        }
+      });
+      renderSvgKnowledgeMap();
+      showToast('Đã sắp xếp lại mạng lưới theo thứ tự ưu tiên của bác!', '⭐');
+    };
+
     window.zoomBanDo = function(factor) {
-      banDoSvgScale = Math.min(2.0, Math.max(0.6, banDoSvgScale * factor));
+      banDoSvgScale = Math.max(0.5, Math.min(2.5, banDoSvgScale * factor));
       const svg = document.getElementById('bdt-svg-canvas');
       if (svg) svg.style.transform = `scale(${banDoSvgScale})`;
     };
@@ -12097,15 +12654,40 @@
       banDoSvgScale = 1;
       const svg = document.getElementById('bdt-svg-canvas');
       if (svg) svg.style.transform = 'scale(1)';
+      banDoNodeCoords = {};
+      renderSvgKnowledgeMap();
     };
 
-    function updateBanDoProgressUI() {
-      const pctEl = document.getElementById('bdt-total-progress-pct');
-      const barEl = document.getElementById('bdt-total-progress-bar');
-      const adviceEl = document.getElementById('bdt-auto-advice');
-      if (pctEl) pctEl.textContent = '100%';
-      if (barEl) barEl.style.width = '100%';
-      if (adviceEl) adviceEl.textContent = '⭐ Toàn bộ 10 phần bản đồ liên ngành đã sẵn sàng kết nối và áp dụng!';
+    window.autoSuggestBanDoFocus = function() {
+      const suggestions = [
+        "Tuần này tập trung: Nhóm 1 (Sức Khỏe) nối với Nhóm 3 (Tài Chính) — duy trì thể lực dẻo dai giúp tăng năng suất làm việc và tiết kiệm chi phí viện phí!",
+        "Tuần này tập trung: Nhóm 2 (Tri Tuệ) nối với Nhóm 4 (Xây Dựng) — áp dụng tư duy phản biện để rà soát dự toán và hợp đồng chào thầu!",
+        "Tuần này tập trung: Nhóm 6 (Công Nghệ) nối với Nhóm 8 (Gia Đình) — hướng dẫn con trai lớp 12 thực hành công cụ AI và sàn thương mại điện tử!",
+        "Tuần này tập trung: Nhóm 5 (Pháp Lý) nối với Nhóm 3 (Tài Chính) — cập nhật các điểm mới trong Luật Đất đai 2024 để bảo toàn tài sản gia đình an toàn!"
+      ];
+      const pick = suggestions[Math.floor(Math.random() * suggestions.length)];
+      showToast(pick, '⚡');
+    };
+
+    window.setBanDo7DayReminder = function() {
+      const nextDate = new Date();
+      nextDate.setDate(nextDate.getDate() + 7);
+      const str = nextDate.toLocaleDateString('vi-VN');
+      localStorage.setItem('tho_bdt_reminder_date', str);
+      checkBanDoReminder();
+      showToast('Đã đặt nhắc nhở xem lại sau 7 ngày: ' + str, '🔔');
+    };
+
+    function checkBanDoReminder() {
+      const badge = document.getElementById('bdt-reminder-status-badge');
+      if (!badge) return;
+      const saved = localStorage.getItem('tho_bdt_reminder_date');
+      if (saved) {
+        badge.classList.remove('hidden');
+        badge.innerHTML = `🔔 Nhắc nhở định kỳ: Bác đã đặt lịch xem lại toàn mạng lưới tri thức vào ngày <b>${saved}</b> để củng cố và không quên.`;
+      } else {
+        badge.classList.add('hidden');
+      }
     }
 
     // TTS Audio Helper
@@ -12123,13 +12705,13 @@
         utterance.rate = isSummary ? 1.2 : 0.95;
         const voices = window.speechSynthesis.getVoices();
         if (voices && voices.length > 0) {
-          const viVoice = voices.find(v => v.lang.includes('vi'));
+          const viVoice = voices.find(v => v.lang.startsWith('vi') || v.lang.includes('VN'));
           if (viVoice) utterance.voice = viVoice;
         }
         window.speechSynthesis.speak(utterance);
-        showToast(isSummary ? "⚡ Đang đọc tóm tắt nhanh..." : "🔊 Đang đọc nội dung Bản Đồ Kiến Thức...", "🔊");
-      } else if (window.playTTS) {
-        window.playTTS(e, text, 'vi');
+        showToast(isSummary ? "Đang đọc tóm tắt nhanh..." : "Đang phát loa đọc nội dung...", "🔊");
+      } else {
+        showToast("Trình duyệt không hỗ trợ đọc tự động.", "⚠️");
       }
     };
 
@@ -12138,12 +12720,11 @@
         e.stopPropagation();
         e.preventDefault();
       }
-      if (window.speechSynthesis) window.speechSynthesis.cancel();
-      if (window.stopAllAudio) window.stopAllAudio();
-      showToast("Đã dừng giọng đọc", "⏹️");
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        showToast("Đã dừng phát giọng đọc.", "⏹️");
+      }
     };
-
-
     // --- KINH PHAP CU LOGIC ---
     function renderPhapCuCards() {
       if (!phapCuData) return;
