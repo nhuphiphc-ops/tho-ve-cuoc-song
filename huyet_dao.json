@@ -1,0 +1,1041 @@
+{
+  "tong_quan": {
+    "tieu_de": "🌿 Cẩm Nang Huyệt Đạo Toàn Thân — Tra Cứu & Bấm Huyệt Dưỡng Sinh Tại Nhà",
+    "mo_ta": "Hệ thống tra cứu huyệt đạo chuẩn hóa theo Y học cổ truyền và WHO, hướng dẫn kỹ thuật day ấn an toàn, giảm đau tự nhiên và nâng cao sức khỏe gia đình.",
+    "loi_khang_dinh": "Bấm huyệt là phương pháp hỗ trợ tự nhiên tác động vào hệ thống kinh lạc — Cần thực hiện đúng vị trí, vừa sức và tuân thủ tuyệt đối các nguyên tắc an toàn.",
+    "canh_bao_an_toan_quan_trong": "⚠️ LƯU Ý QUAN TRỌNG: Nội dung mang tính chất tham khảo và hỗ trợ chăm sóc sức khỏe ban đầu, KHÔNG THAY THẾ chỉ định y khoa của bác sĩ. Phụ nữ mang thai, người có bệnh tim mạch nặng, sốt cao, cấp cứu ngoại khoa, hoặc vùng da bị lở loét/chấn thương tuyệt đối không tự ý day ấn."
+  },
+  "phan_1_gioi_thieu_va_an_toan": {
+    "tieu_de": "Phần 1: Khái Niệm Cốt Lõi, Hệ Thống Kinh Lạc & An Toàn Bấm Huyệt",
+    "khai_niem": {
+      "huyet_dao_la_gi": "Huyệt đạo (Acupoint) là nơi khí huyết của tạng phủ, kinh lạc hội tụ và lưu thông ra bề mặt cơ thể. Khi cơ thể mệt mỏi hoặc mất cân bằng, các điểm này có thể bị bế tắc, đau tức. Day ấn huyệt đúng cách giúp khơi thông kinh khí, tăng tuần hoàn máu và kích hoạt cơ chế tự chữa lành của cơ thể.",
+      "kinh_lac_la_gi": "Kinh lạc là mạng lưới các đường dẫn khí huyết chạy dọc (Kinh) và ngang (Lạc) khắp toàn thân, liên kết các cơ quan nội tạng với tứ chi, ngũ quan và bề mặt da.",
+      "12_kinh_chinh": "Gồm 6 kinh Âm (Thủ Thái Âm Phế, Thủ Thiếu Âm Tâm, Thủ Quyết Âm Tâm Bào, Túc Thái Âm Tỳ, Túc Thiếu Âm Thận, Túc Quyết Âm Can) và 6 kinh Dương (Thủ Dương Minh Đại Trường, Thủ Thái Dương Tiểu Trường, Thủ Thiếu Dương Tam Tiêu, Túc Dương Minh Vị, Túc Thái Dương Bàng Quang, Túc Thiếu Dương Đởm).",
+      "8_mach_ky_kinh": "Gồm Mạch Nhâm (chủ âm huyết trước cơ thể), Mạch Đốc (chủ dương khí dọc cột sống lưng), Mạch Xung, Mạch Đới, Mạch Âm Duy, Mạch Dương Duy, Mạch Âm Kiều, Mạch Dương Kiều."
+    },
+    "don_vi_do_thon": {
+      "dinh_nghia": "Thốn (F-cun) là đơn vị đo độ dài giải phẫu quy ước trong đông y dựa trên kích thước cơ thể của chính người đó (Đồng thân thốn).",
+      "cach_xac_dinh": [
+        "1 thốn ngón cái: Bề ngang đốt khớp ngón tay cái của người cần bấm.",
+        "1.5 thốn (Ngón trỏ + ngón giữa): Bề rộng của ngón trỏ và ngón giữa khép lại tại nếp gấp đốt giữa.",
+        "3 thốn (4 ngón tay): Bề rộng của 4 ngón tay (trỏ, giữa, áp út, út) khép sát lại ngang nếp gấp khớp ngón tay."
+      ]
+    },
+    "nguyen_tac_an_toan_4_khong": [
+      "1. KHÔNG bấm huyệt khi đang quá đói, quá no, say rượu hoặc kiệt sức.",
+      "2. KHÔNG bấm lên vết thương hở, vết bầm tím, gãy xương, mụn nhọt, viêm nhiễm sưng nóng đỏ đau.",
+      "3. KHÔNG tự ý bấm mạnh các huyệt cấm kỵ cho phụ nữ mang thai (như Hợp Cốc, Tam Âm Giao, Thái Xung, Côn Lôn, Kiên Tỉnh).",
+      "4. KHÔNG dùng bấm huyệt để thay thế cấp cứu y tế khẩn cấp khi có dấu hiệu đột quỵ, nhồi máu cơ tim, khó thở dữ dội, đau ruột thừa."
+    ],
+    "bang_361_huyet_who": {
+      "tong_so": 361,
+      "phan_bo": [
+        {
+          "vung": "Đầu - Mặt - Cổ",
+          "so_luong": 78,
+          "dac_diem": "Tập trung nhiều dây thần kinh, điều hòa não bộ, cảm xúc và ngũ quan."
+        },
+        {
+          "vung": "Ngực - Bụng (Mạch Nhâm & Kinh Âm)",
+          "so_luong": 60,
+          "dac_diem": "Điều hòa chức năng tạng phủ (Phế, Tâm, Tỳ, Vị, Thận, Can)."
+        },
+        {
+          "vung": "Lưng - Thắt Lưng (Mạch Đốc & Kinh Bàng Quang)",
+          "so_luong": 75,
+          "dac_diem": "Hệ thống huyệt Du tương ứng trực tiếp nâng đỡ sinh lực toàn thân."
+        },
+        {
+          "vung": "Chi trên (Tay, Cổ tay, Bàn tay)",
+          "so_luong": 68,
+          "dac_diem": "Dễ thao tác, hiệu quả tức thì với tim, phổi, hệ thần kinh và dạ dày."
+        },
+        {
+          "vung": "Chi dưới (Chân, Cổ chân, Bàn chân)",
+          "so_luong": 80,
+          "dac_diem": "Hạ áp, bổ thận, kiện tỳ, an thần và thải độc mạnh mẽ."
+        }
+      ]
+    }
+  },
+  "phan_2_huyet_vung_dau_mat_co": {
+    "tieu_de": "Phần 2: 15 Huyệt Vùng Đầu — Mặt — Cổ",
+    "mo_ta": "Vùng hội tụ của các kinh dương, giúp thanh nhiệt não bộ, giảm đau đầu, mỏi mắt, căng thẳng thần kinh và cải thiện giấc ngủ.",
+    "danh_sach_huyet": [
+      {
+        "id": "bach_hoi",
+        "ten": "Bách Hội",
+        "ky_hieu": "GV20 (Mạch Đốc)",
+        "vi_tri": "Tại đỉnh đầu, giao điểm của đường nối đỉnh hai vành tai với đường chính giữa dọc đầu.",
+        "tac_dung": "Thăng dương khí, trị đau đỉnh đầu, hoa mắt, chóng mặt, mất ngủ, hay quên, suy nhược thần kinh, hỗ trợ điều hòa huyết áp thấp.",
+        "cach_day_an": "Dùng ngón tay giữa day ấn nhẹ nhàng theo chiều kim đồng hồ 1-2 phút, lực êm ái, thở đều.",
+        "canh_bao": "Không ấn quá mạnh ở người đang tăng huyết áp kịch phát hoặc trẻ nhỏ thóp chưa liền."
+      },
+      {
+        "id": "an_duong",
+        "ten": "Ấn Đường",
+        "ky_hieu": "EX-HN3 (Ngoài kinh)",
+        "vi_tri": "Nằm chính giữa đường nối hai đầu lông mày (vị trí con mắt thứ ba).",
+        "tac_dung": "Định thần, an thần, trị đau đầu trước trán, viêm xoang mũi, nghẹt mũi, căng thẳng tâm lý, mất ngủ.",
+        "cach_day_an": "Dùng đầu ngón tay cái hoặc ngón trỏ vuốt nhẹ từ Ấn Đường lên chân tóc, sau đó day tròn 1-2 phút.",
+        "canh_bao": "Thao tác nhẹ nhàng, tránh làm xước vùng da trán nhạy cảm."
+      },
+      {
+        "id": "thai_duong",
+        "ten": "Thái Dương",
+        "ky_hieu": "EX-HN5 (Ngoài kinh)",
+        "vi_tri": "Chỗ lõm phía sau đuôi mắt và đuôi lông mày khoảng 1 thốn (vùng thái dương).",
+        "tac_dung": "Trị đau nửa đầu (Migraine), đau đầu căng thẳng, mỏi mắt, viêm màng kết, cảm mạo phát sốt.",
+        "cach_day_an": "Dùng hai ngón tay giữa day ấn đồng thời cả hai bên thái dương với lực vừa phải trong 1-2 phút.",
+        "canh_bao": "Không ấn thô bạo vào xương sọ thái dương."
+      },
+      {
+        "id": "phong_tri",
+        "ten": "Phong Trì",
+        "ky_hieu": "GB20 (Kinh Đởm)",
+        "vi_tri": "Chỗ lõm dưới xương chẩm, phía ngoài cơ thang và phía sau cơ ức đòn chũm (sau gáy hai bên).",
+        "tac_dung": "Trừ phong tán tà, thanh can minh mục, trị đau đầu sau gáy, cứng cổ vai gáy, cảm mạo, hoa mắt, huyết áp cao.",
+        "cach_day_an": "Dùng 2 ngón tay cái ôm sau gáy day ấn hướng chếch lên phía đỉnh đầu khoảng 1-2 phút.",
+        "canh_bao": "Không chọc sâu vuông góc vào tủy sống."
+      },
+      {
+        "id": "toan_truc",
+        "ten": "Toản Trúc",
+        "ky_hieu": "BL2 (Kinh Bàng Quang)",
+        "vi_tri": "Chỗ lõm ở đầu trong của cung lông mày (ngay phía trên góc mắt trong).",
+        "tac_dung": "Trị mỏi mắt, mờ mắt do nhìn máy tính nhiều, giật mi mắt, đau đầu vùng trán, nghẹt mũi.",
+        "cach_day_an": "Dùng 2 đầu ngón tay cái hoặc trỏ day nhẹ 1 phút, kết hợp nhắm mắt thư giãn.",
+        "canh_bao": "Cẩn thận không để ngón tay chọc vào nhãn cầu mắt."
+      },
+      {
+        "id": "tinh_minh",
+        "ten": "Tình Minh",
+        "ky_hieu": "BL1 (Kinh Bàng Quang)",
+        "vi_tri": "Chỗ lõm cách góc trong khóe mắt khoảng 0.1 thốn về phía sống mũi.",
+        "tac_dung": "Làm sáng mắt, giảm mỏi mắt, chảy nước mắt sống, đau nhức ổ mắt, cận thị viễn thị mỏi mệt.",
+        "cach_day_an": "Rửa sạch tay, dùng 2 ngón tay trỏ nhẹ nhàng ấn chếch nhẹ vào góc mũi mắt 30-60 giây.",
+        "canh_bao": "Lực cực nhẹ, móng tay cắt ngắn tuyệt đối không đụng giác mạc."
+      },
+      {
+        "id": "nghinh_huong",
+        "ten": "Nghinh Hương",
+        "ky_hieu": "LI20 (Kinh Đại Trường)",
+        "vi_tri": "Điểm gặp nhau của đường ngang qua chân cánh mũi và rãnh mũi má (cách cánh mũi khoảng 0.8cm).",
+        "tac_dung": "Thông mũi khai khiếu, trị viêm xoang, nghẹt mũi, sổ mũi, mất khứu giác tạm thời, liệt mặt.",
+        "cach_day_an": "Dùng 2 ngón trỏ ấn và day tròn 1-2 phút, có thể xoa dọc sống mũi cho ấm lên.",
+        "canh_bao": "Tránh day khi vùng da quanh mũi đang có mụn mủ viêm nhiễm."
+      },
+      {
+        "id": "than_dinh",
+        "ten": "Thần Đình",
+        "ky_hieu": "GV24 (Mạch Đốc)",
+        "vi_tri": "Nằm trên đường dọc giữa đầu, từ chân tóc trán đo thẳng lên 0.5 thốn.",
+        "tac_dung": "Định tâm an thần, trị mất ngủ kinh niên, chóng mặt, hồi hộp, nghẹt mũi, động kinh.",
+        "cach_day_an": "Dùng ngón giữa day tròn nhẹ nhàng 1-2 phút trước khi đi ngủ.",
+        "canh_bao": "Lực êm dịu, thả lỏng toàn bộ cơ thể khi thực hiện."
+      },
+      {
+        "id": "e_phong",
+        "ten": "Ế Phong",
+        "ky_hieu": "TE17 (Kinh Tam Tiêu)",
+        "vi_tri": "Chỗ lõm sau dái tai, nằm giữa xương chũm và góc xương hàm dưới.",
+        "tac_dung": "Trị ù tai, điếc tai nhẹ do tuần hoàn kém, đau răng, viêm tuyến mang tai (quai bị), liệt dây thần kinh số VII.",
+        "cach_day_an": "Dùng ngón tay trỏ ấn nhẹ vào chỗ lõm sau dái tai theo hướng vào trong, day 1 phút.",
+        "canh_bao": "Không ấn quá mạnh gây đau rát ống tai."
+      },
+      {
+        "id": "giap_xa",
+        "ten": "Giáp Xa",
+        "ky_hieu": "ST6 (Kinh Vị)",
+        "vi_tri": "Tại góc hàm dưới đo chéo lên trên ra trước 1 thốn (khi cắn chặt răng, chỗ cơ cắn nổi gồ lên cao nhất).",
+        "tac_dung": "Trị đau răng hàm dưới, cứng hàm khó há miệng, liệt mặt méo miệng, viêm tuyến mang tai.",
+        "cach_day_an": "Thả lỏng cơ hàm, dùng ngón tay cái day ấn vòng tròn 1-2 phút mỗi bên.",
+        "canh_bao": "Khi đang đau răng cấp có sưng mủ, day ấn chỉ hỗ trợ giảm đau tạm thời, cần đi khám nha khoa."
+      },
+      {
+        "id": "nhan_nghinh",
+        "ten": "Nhân Nghinh",
+        "ky_hieu": "ST9 (Kinh Vị)",
+        "vi_tri": "Ở cổ, ngang bờ trên sụn giáp (yết hầu), bờ trước cơ ức đòn chũm, nơi có động mạch cảnh đập.",
+        "tac_dung": "Điều hòa khí huyết vùng đầu cổ, hỗ trợ hạ huyết áp, trị hen suyễn, viêm họng, mất tiếng.",
+        "cach_day_an": "Dùng đầu ngón tay vuốt nhẹ nhàng từ trên xuống dưới dọc động mạch cổ, KHÔNG ấn mạnh.",
+        "canh_bao": "⚠️ NGUY HIỂM: Tuyệt đối không bấm mạnh hoặc bấm đồng thời 2 bên cổ vì có thể gây tụt huyết áp đột ngột hoặc ngất xỉu."
+      },
+      {
+        "id": "thien_tru",
+        "ten": "Thiên Trụ",
+        "ky_hieu": "BL10 (Kinh Bàng Quang)",
+        "vi_tri": "Dưới hộp sọ sau gáy, ở bờ ngoài cơ thang, ngang huyệt Á Môn (cách Phong Trì khoảng 1 thốn về phía trong).",
+        "tac_dung": "Trị cứng cổ gáy do nằm sai tư thế, đau đầu sau gáy, mệt mỏi vai gáy do ngồi máy tính lâu, mất ngủ.",
+        "cach_day_an": "Dùng 2 ngón cái ôm sau gáy day ấn kết hợp từ từ nghiêng và xoay cổ nhẹ nhàng.",
+        "canh_bao": "Không bẻ cổ thô bạo khi đang ấn huyệt."
+      },
+      {
+        "id": "dai_chuy",
+        "ten": "Đại Chùy",
+        "ky_hieu": "GV14 (Mạch Đốc)",
+        "vi_tri": "Chỗ lõm ngay dưới mỏm gai đốt sống cổ thứ 7 (đốt sống lồi cao nhất sau gáy khi cúi đầu).",
+        "tac_dung": "Điểm hội của các kinh dương, thông dương tán hàn, trị cảm sốt, rét run, ho hen suyễn, đau mỏi cổ vai gáy, nâng cao miễn dịch.",
+        "cach_day_an": "Dùng ngón tay giữa day tròn 2 phút hoặc xoa xát cho ấm nóng vùng này.",
+        "canh_bao": "Rất tốt khi kết hợp chườm ấm hoặc tắm nước nóng xả vào vùng này khi bị cảm lạnh."
+      },
+      {
+        "id": "thuy_cau",
+        "ten": "Thủy Câu (Nhân Trung)",
+        "ky_hieu": "GV26 (Mạch Đốc)",
+        "vi_tri": "Tại điểm nối 1/3 trên và 2/3 dưới của rãnh nhân trung (dưới mũi, trên môi trên).",
+        "tac_dung": "Cấp cứu khai khiếu tỉnh thần khi ngất xỉu, say nắng, trúng gió, choáng váng, co giật, đau cứng thắt lưng cấp.",
+        "cach_day_an": "Dùng móng tay cái bấm dứt khoát và ấn mạnh chếch lên phía sống mũi trong 10-20 giây khi cấp cứu tỉnh thần.",
+        "canh_bao": "Dùng trong sơ cứu ban đầu, sau đó phải chuyển nạn nhân đến cơ sở y tế ngay."
+      },
+      {
+        "id": "tu_than_thong",
+        "ten": "Tứ Thần Thông",
+        "ky_hieu": "EX-HN1 (Ngoài kinh)",
+        "vi_tri": "Gồm 4 huyệt nằm cách huyệt Bách Hội 1 thốn về 4 hướng: Trước, Sau, Trái, Phải.",
+        "tac_dung": "Tăng cường trí nhớ, trị mất ngủ, đau đầu đỉnh đầu, hoa mắt, rối loạn tiền đình, căng thẳng trí óc.",
+        "cach_day_an": "Dùng 4 đầu ngón tay cùng day ấn nhẹ nhàng xung quanh huyệt Bách Hội 2-3 phút.",
+        "canh_bao": "Thao tác êm dịu, tạo cảm giác thư giãn tối đa trước khi ngủ."
+      }
+    ]
+  },
+  "phan_3_huyet_vung_nguc_bung_lung": {
+    "tieu_de": "Phần 3: 15 Huyệt Vùng Ngực — Bụng — Lưng",
+    "mo_ta": "Hệ thống huyệt Mộ (trước ngực bụng) và huyệt Du (sau lưng) trực tiếp nuôi dưỡng và điều hòa ngũ tạng lục phủ (Tâm, Can, Tỳ, Phế, Thận).",
+    "danh_sach_huyet": [
+      {
+        "id": "dan_trung",
+        "ten": "Đản Trung",
+        "ky_hieu": "CV17 (Mạch Nhâm)",
+        "vi_tri": "Nằm giữa xương ức, ngang khớp liên sườn 4 (giao điểm đường giữa ngực và đường nối 2 đầu núm vú ở nam giới).",
+        "tac_dung": "Huyệt hội của Khí, giải tỏa uất ức, trị tức ngực khó thở, hồi hộp tim đập nhanh, đau thắt ngực cơ năng, viêm phế quản ho suyễn.",
+        "cach_day_an": "Dùng gốc bàn tay hoặc ngón cái xoa tròn nhẹ nhàng trên xương ức theo chiều kim đồng hồ 2 phút.",
+        "canh_bao": "Không đấm mạnh hoặc ấn quá thô bạo vào xương ức."
+      },
+      {
+        "id": "trung_quan",
+        "ten": "Trung Quản",
+        "ky_hieu": "CV12 (Mạch Nhâm)",
+        "vi_tri": "Trên đường giữa bụng, từ rốn đo thẳng lên 4 thốn (hoặc điểm chính giữa đoạn nối từ rốn đến mũi ức).",
+        "tac_dung": "Huyệt Mộ của Vị (Dạ dày), hòa vị kiện tỳ, trị đau dạ dày, viêm loét dạ dày, trào ngược thực quản, đầy bụng khó tiêu, buồn nôn.",
+        "cach_day_an": "Dùng 3 ngón tay (trỏ, giữa, áp út) đặt lên huyệt day tròn êm ái khi bụng không quá no trong 2-3 phút.",
+        "canh_bao": "Không bấm sâu khi vừa ăn no hoặc đang có nghi ngờ thủng dạ dày."
+      },
+      {
+        "id": "than_khuyet",
+        "ten": "Thần Khuyết",
+        "ky_hieu": "CV8 (Mạch Nhâm)",
+        "vi_tri": "Chính giữa lỗ rốn.",
+        "tac_dung": "Ôn dương cố thoát, kiện tỳ vị, trị tiêu chảy mạn tính, đau bụng lạnh, chân tay lạnh, mệt mỏi suy nhược.",
+        "cach_day_an": "Chỉ xoa xát ấm quanh rốn hoặc cứu ngải/chườm ấm túi muối, KHÔNG dùng vật nhọn châm chọc vào rốn.",
+        "canh_bao": "Giữ vệ sinh rốn sạch sẽ, không ấn sâu thô bạo."
+      },
+      {
+        "id": "quan_nguyen",
+        "ten": "Quan Nguyên",
+        "ky_hieu": "CV4 (Mạch Nhâm)",
+        "vi_tri": "Trên đường giữa bụng dưới, từ rốn đo thẳng xuống 3 thốn (khoảng 4 ngón tay ngang đặt dưới rốn).",
+        "tac_dung": "Nơi cất giữ nguyên khí, bổ thận cố tinh, trị thận hư, tiểu đêm nhiều, rối loạn kinh nguyệt, đau bụng kinh, mệt mỏi suy kiệt.",
+        "cach_day_an": "Dùng lòng bàn tay xoa xát ấm vùng bụng dưới hoặc ngón tay ấn nhẹ nhàng theo nhịp thở 2 phút.",
+        "canh_bao": "⚠️ Phụ nữ mang thai không bấm huyệt này. Đi tiểu sạch trước khi bấm."
+      },
+      {
+        "id": "khi_hai",
+        "ten": "Khí Hải",
+        "ky_hieu": "CV6 (Mạch Nhâm)",
+        "vi_tri": "Trên đường giữa bụng dưới, từ rốn đo thẳng xuống 1.5 thốn (giữa rốn và huyệt Quan Nguyên).",
+        "tac_dung": "Biển của nguyên khí ('Khí Hải'), bổ ích khí huyết, trị suy nhược cơ thể, thở nông, đầy hơi chướng bụng, di tinh, liệt dương.",
+        "cach_day_an": "Dùng ngón tay trỏ và giữa day ấn nhẹ nhàng kết hợp hít thở sâu bụng 2-3 phút.",
+        "canh_bao": "⚠️ Phụ nữ có thai tuyệt đối tránh day ấn bụng dưới."
+      },
+      {
+        "id": "thien_khu",
+        "ten": "Thiên Khu",
+        "ky_hieu": "ST25 (Kinh Vị)",
+        "vi_tri": "Từ rốn đo ngang sang hai bên mỗi bên 2 thốn (khoảng 3 ngón tay khép lại).",
+        "tac_dung": "Huyệt Mộ của Đại Trường, điều hòa ruột, đặc trị táo bón, tiêu chảy, đau quặn bụng, hội chứng ruột kích thích (IBS).",
+        "cach_day_an": "Dùng 2 ngón tay cái hoặc trỏ day ấn cả 2 bên cùng lúc 1-2 phút theo chiều kim đồng hồ.",
+        "canh_bao": "Không bấm khi đang đau ruột thừa cấp hoặc viêm phúc mạc."
+      },
+      {
+        "id": "kien_tinh",
+        "ten": "Kiên Tỉnh",
+        "ky_hieu": "GB21 (Kinh Đởm)",
+        "vi_tri": "Điểm cao nhất của cơ vai, chính giữa đoạn nối mỏm gai đốt sống cổ 7 (Đại Chùy) với mỏm cùng vai.",
+        "tac_dung": "Giải tỏa căng cứng cơ cổ vai gáy, trị đau mỏi bả vai, tê bì cánh tay, đau đầu do co thắt cơ vai.",
+        "cach_day_an": "Dùng ngón tay trỏ và giữa của tay đối diện ấn và véo nhẹ khối cơ vai 1-2 phút mỗi bên.",
+        "canh_bao": "⚠️ CỰC KỲ QUAN TRỌNG: Phụ nữ mang thai tuyệt đối KHÔNG bấm mạnh huyệt Kiên Tỉnh vì có tính trụy thai (kích thích co bóp tử cung)."
+      },
+      {
+        "id": "tam_du",
+        "ten": "Tâm Du",
+        "ky_hieu": "BL15 (Kinh Bàng Quang)",
+        "vi_tri": "Dưới mỏm gai đốt sống ngực thứ 5 đo ngang ra 1.5 thốn (vùng lưng trên gần bả vai).",
+        "tac_dung": "Huyệt Du của Tâm, an thần định chí, dưỡng tâm huyết, trị mất ngủ, hay giật mình, hồi hộp tim đập nhanh, hay quên.",
+        "cach_day_an": "Nhờ người thân dùng ngón tay cái day ấn tròn với lực êm ái 1-2 phút hoặc tựa lưng vào bóng massage mềm.",
+        "canh_bao": "Lực ấn vừa phải, tránh ấn mạnh vào xương sườn."
+      },
+      {
+        "id": "can_du",
+        "ten": "Can Du",
+        "ky_hieu": "BL18 (Kinh Bàng Quang)",
+        "vi_tri": "Dưới mỏm gai đốt sống ngực thứ 9 đo ngang ra 1.5 thốn.",
+        "tac_dung": "Huyệt Du của Can (Gan), thanh can hỏa, sáng mắt, trị hoa mắt chóng mặt, tức mạn sườn, giải tỏa căng thẳng bực bội, vàng da.",
+        "cach_day_an": "Day ấn nhẹ nhàng hoặc xoa xát ấm vùng lưng ngang đốt sống ngực 9.",
+        "canh_bao": "Thao tác đều tay, hít thở thư giãn."
+      },
+      {
+        "id": "dam_du",
+        "ten": "Đảm Du",
+        "ky_hieu": "BL19 (Kinh Bàng Quang)",
+        "vi_tri": "Dưới mỏm gai đốt sống ngực thứ 10 đo ngang ra 1.5 thốn.",
+        "tac_dung": "Huyệt Du của Đởm (Mật), thanh nhiệt lợi mật, trị đắng miệng, hay thở dài, ợ chua, đau sườn, mất ngủ do lo âu.",
+        "cach_day_an": "Day ấn tròn 1-2 phút mỗi bên.",
+        "canh_bao": "Thích hợp phối hợp cùng Can Du để dưỡng gan mật."
+      },
+      {
+        "id": "cach_du",
+        "ten": "Cách Du",
+        "ky_hieu": "BL17 (Kinh Bàng Quang)",
+        "vi_tri": "Dưới mỏm gai đốt sống ngực thứ 7 đo ngang ra 1.5 thốn (ngang bờ dưới góc xương bả vai).",
+        "tac_dung": "Huyệt hội của Huyết, hòa huyết lý khí, trị thiếu máu, xuất huyết dưới da, nấc cụt dai dẳng, nôn mửa, đau tức ngực sườn.",
+        "cach_day_an": "Day ấn 1-2 phút, đặc biệt hiệu quả khi bị nấc cụt liên tục.",
+        "canh_bao": "Ấn nhịp nhàng theo nhịp thở ra."
+      },
+      {
+        "id": "ty_du",
+        "ten": "Tỳ Du",
+        "ky_hieu": "BL20 (Kinh Bàng Quang)",
+        "vi_tri": "Dưới mỏm gai đốt sống ngực thứ 11 đo ngang ra 1.5 thốn.",
+        "tac_dung": "Huyệt Du của Tỳ, kiện tỳ hóa thấp, trị tiêu hóa kém, chán ăn, phân sống, mệt mỏi uể oải, phù thũng.",
+        "cach_day_an": "Day ấn lưng hoặc chườm ấm vùng này 2 phút.",
+        "canh_bao": "Rất tốt cho người gầy yếu hấp thu dinh dưỡng kém."
+      },
+      {
+        "id": "vi_du",
+        "ten": "Vị Du",
+        "ky_hieu": "BL21 (Kinh Bàng Quang)",
+        "vi_tri": "Dưới mỏm gai đốt sống ngực thứ 12 đo ngang ra 1.5 thốn.",
+        "tac_dung": "Huyệt Du của Dạ Dày, hòa vị chỉ thống, trị viêm loét dạ dày, đau vùng thượng vị, ợ hơi, nôn mửa.",
+        "cach_day_an": "Day ấn nhẹ nhàng kết hợp day huyệt Trung Quản phía trước bụng.",
+        "canh_bao": "Không day mạnh ngay sau khi ăn no."
+      },
+      {
+        "id": "than_du",
+        "ten": "Thận Du",
+        "ky_hieu": "BL23 (Kinh Bàng Quang)",
+        "vi_tri": "Dưới mỏm gai đốt sống thắt lưng thứ 2 (L2) đo ngang ra 1.5 thốn (ngang đối diện rốn ra sau lưng).",
+        "tac_dung": "Huyệt Du của Thận, dưỡng thận tráng dương, bổ tinh, trị đau lưng mỏi gối, ù tai, tiểu đêm, suy nhược sinh lý, kinh nguyệt không đều.",
+        "cach_day_an": "Xoa xát 2 bàn tay cho thật nóng rồi áp vào chà xát vùng Thận Du 30-50 lần cho ấm ran cả thắt lưng.",
+        "canh_bao": "Phương pháp dưỡng sinh thắt lưng tốt nhất mỗi buổi sáng và tối."
+      },
+      {
+        "id": "menh_mon",
+        "ten": "Mệnh Môn",
+        "ky_hieu": "GV4 (Mạch Đốc)",
+        "vi_tri": "Nằm chính giữa cột sống thắt lưng, dưới mỏm gai đốt sống L2 (nằm giữa 2 huyệt Thận Du).",
+        "tac_dung": "Nơi cất giữ chân hỏa của cơ thể ('Cửa của mạng sống'), bổ thận dương, trị sợ lạnh, chân tay lạnh, đau cột sống thắt lưng, di mộng tinh.",
+        "cach_day_an": "Dùng ngón tay cái day ấn tròn 2 phút hoặc dùng nắm tay xát ấm vùng này.",
+        "canh_bao": "Giữ ấm vùng lưng này tránh để gió lùa lạnh trực tiếp."
+      }
+    ]
+  },
+  "phan_4_huyet_vung_tay": {
+    "tieu_de": "Phần 4: 10 Huyệt Vùng Tay — Cổ Tay — Bàn Tay",
+    "mo_ta": "Các huyệt vùng chi trên cực kỳ dễ tiếp cận và thao tác mọi lúc mọi nơi, tác động mạnh mẽ đến Tim, Phổi, Ruột non, Ruột già và hệ thần kinh.",
+    "danh_sach_huyet": [
+      {
+        "id": "hop_coc",
+        "ten": "Hợp Cốc",
+        "ky_hieu": "LI4 (Kinh Đại Trường)",
+        "vi_tri": "Khép ngón cái và ngón trỏ lại, huyệt nằm ở điểm cao nhất của khối cơ nổi lên giữa ngón cái và ngón trỏ (hổ khẩu).",
+        "tac_dung": "'Vua của các huyệt vùng mặt đầu': Trị đau răng hàm trên/dưới, đau đầu, viêm xoang, cảm cúm, sốt, đau họng, liệt mặt, táo bón.",
+        "cach_day_an": "Dùng ngón tay cái của tay kia ấn chếch về phía xương ngón trỏ với lực mạnh vừa phải đến khi thấy tức nặng, day 1-2 phút.",
+        "canh_bao": "⚠️ CẢNH BÁO ĐẶC BIỆT: Phụ nữ đang mang thai TUYỆT ĐỐI KHÔNG BẤM HỢP CỐC vì kích thích co bóp dạ con mạnh, có thể gây sảy thai hoặc sinh non."
+      },
+      {
+        "id": "noi_quan",
+        "ten": "Nội Quan",
+        "ky_hieu": "PC6 (Kinh Tâm Bào)",
+        "vi_tri": "Trên nếp gấp cổ tay trong đo ngược lên cánh tay 2 thốn (khoảng 3 ngón tay ngang), nằm giữa 2 gân cơ gan tay lớn và bé.",
+        "tac_dung": "Đặc trị say tàu xe, buồn nôn, đau dạ dày, hồi hộp lo âu, mất ngủ, tức ngực, loạn nhịp tim cơ năng.",
+        "cach_day_an": "Dùng ngón cái ấn sâu vuông góc vào giữa hai đường gân, giữ và day nhẹ 1-2 phút mỗi bên tay.",
+        "canh_bao": "Bấm trước khi lên xe 15 phút để chống say xe hiệu quả."
+      },
+      {
+        "id": "than_mon",
+        "ten": "Thần Môn",
+        "ky_hieu": "HT7 (Kinh Tâm)",
+        "vi_tri": "Nằm trên nếp gấp cổ tay trong, chỗ lõm sát bờ ngoài gân cơ trụ trước (phía ngón tay út).",
+        "tac_dung": "Huyệt Nguyên của Kinh Tâm, an thần số 1, đặc trị mất ngủ, trằn trọc, ác mộng, tim đập nhanh hồi hộp, hay quên, lo âu.",
+        "cach_day_an": "Dùng ngón cái bấm vào chỗ lõm nếp cổ tay, day nhẹ nhàng 1-2 phút trước khi đi ngủ.",
+        "canh_bao": "Lực êm ái, kết hợp thả lỏng tâm trí."
+      },
+      {
+        "id": "ngoai_quan",
+        "ten": "Ngoại Quan",
+        "ky_hieu": "TE5 (Kinh Tam Tiêu)",
+        "vi_tri": "Mặt sau cẳng tay, từ nếp gấp cổ tay ngoài đo lên 2 thốn, nằm giữa 2 xương cẳng tay (đối diện với huyệt Nội Quan).",
+        "tac_dung": "Giải nhiệt cảm mạo, trị sốt cao, đau đầu một bên, đau mỏi cổ vai gáy, đau cổ tay, ù tai, đau nhức khớp cánh tay.",
+        "cach_day_an": "Dùng ngón cái ấn vào Ngoại Quan, đồng thời ngón trỏ áp vào Nội Quan ở mặt trong bóp kẹp cả hai huyệt 1-2 phút.",
+        "canh_bao": "Rất hiệu quả khi bị cảm sốt nhức đầu."
+      },
+      {
+        "id": "khuc_tri",
+        "ten": "Khúc Trì",
+        "ky_hieu": "LI11 (Kinh Đại Trường)",
+        "vi_tri": "Co cùi chỏ vuông góc 90 độ, huyệt nằm ở chỗ lõm ngoài cùng của nếp gấp khuỷu tay.",
+        "tac_dung": "Thanh nhiệt, hạ sốt, hỗ trợ hạ huyết áp, trị dị ứng mẩn ngứa nổi mề đay, đau khớp khuỷu tay và cánh tay.",
+        "cach_day_an": "Dùng ngón tay cái day ấn mạnh vào chỗ lõm khuỷu tay 1-2 phút mỗi bên.",
+        "canh_bao": "Phối hợp với Hợp Cốc để tăng hiệu quả thanh nhiệt."
+      },
+      {
+        "id": "thieu_hai",
+        "ten": "Thiếu Hải",
+        "ky_hieu": "HT3 (Kinh Tâm)",
+        "vi_tri": "Co khuỷu tay lại, huyệt nằm ở đầu trong nếp gấp khuỷu tay (chỗ lõm trước mỏm trên lồi cầu trong xương cánh tay).",
+        "tac_dung": "Thanh tâm an thần, trị đau dây thần kinh liên sườn, đau khuỷu tay, tê cẳng tay, hồi hộp lo âu.",
+        "cach_day_an": "Dùng ngón tay cái day tròn nhẹ 1-2 phút.",
+        "canh_bao": "Không bóp giật gân quá mạnh."
+      },
+      {
+        "id": "lao_cung",
+        "ten": "Lao Cung",
+        "ky_hieu": "PC8 (Kinh Tâm Bào)",
+        "vi_tri": "Nằm trong lòng bàn tay, khi nắm bàn tay tự nhiên lại, đầu ngón tay giữa chạm vào đâu ở lòng bàn tay thì đó là huyệt.",
+        "tac_dung": "Thanh tâm hỏa, trị nhiệt miệng loét miệng, ra mồ hôi tay, tim đập nhanh do căng thẳng, hạ sốt khẩn cấp, mất ngủ.",
+        "cach_day_an": "Dùng ngón tay cái day ấn vào giữa lòng bàn tay 1-2 phút hoặc xoa 2 lòng bàn tay cho nóng rực.",
+        "canh_bao": "Rất hữu ích khi cảm thấy bồn chồn lo lắng trước đám đông."
+      },
+      {
+        "id": "duong_tri",
+        "ten": "Dương Trì",
+        "ky_hieu": "TE4 (Kinh Tam Tiêu)",
+        "vi_tri": "Tại mặt mu cổ tay, nằm trên nếp gấp ngang khớp cổ tay, chỗ lõm phía ngoài gân cơ duỗi chung các ngón tay.",
+        "tac_dung": "Trị sợ lạnh, chân tay lạnh, đau khớp cổ tay, mệt mỏi suy nhược, khô họng, đái tháo đường hỗ trợ.",
+        "cach_day_an": "Dùng ngón cái day ấn nhẹ nhàng 1-2 phút kết hợp xoay nhẹ cổ tay.",
+        "canh_bao": "Giúp làm ấm cơ thể khi bị nhiễm lạnh."
+      },
+      {
+        "id": "hau_khe",
+        "ten": "Hậu Khê",
+        "ky_hieu": "SI3 (Kinh Tiểu Trường)",
+        "vi_tri": "Hơi nắm tay lại, huyệt nằm ở nếp gấp ngang thứ 2 của bờ ngoài bàn tay (phía dưới khớp ngón út).",
+        "tac_dung": "Thông mạch Đốc, đặc trị đau mỏi đốt sống cổ, đau thắt lưng, vẹo cổ cấp tính, tê ngón tay út, mỏi mắt do ngồi máy tính.",
+        "cach_day_an": "Có thể cọ xát 2 mép bàn tay vào nhau hoặc cọ mép bàn tay vào cạnh bàn làm việc 1-2 phút.",
+        "canh_bao": "Huyệt tuyệt vời cho dân văn phòng ngồi máy tính cả ngày."
+      },
+      {
+        "id": "thu_tam_ly",
+        "ten": "Thủ Tam Lý",
+        "ky_hieu": "LI10 (Kinh Đại Trường)",
+        "vi_tri": "Dưới huyệt Khúc Trì 2 thốn trên đường nối Khúc Trì với Hợp Cốc (mặt ngoài cẳng tay).",
+        "tac_dung": "Trị đau mỏi cẳng tay, vai tay không giơ lên được, đau dạ dày, liệt chi trên, đầy bụng khó tiêu.",
+        "cach_day_an": "Dùng ngón tay cái ấn sâu vào khối cơ cẳng tay, day 1-2 phút mỗi bên.",
+        "canh_bao": "Thường có cảm giác tức lan tỏa xuống cổ tay khi ấn đúng điểm."
+      }
+    ]
+  },
+  "phan_5_huyet_vung_chan": {
+    "tieu_de": "Phần 5: 15 Huyệt Vùng Chân — Cổ Chân — Bàn Chân",
+    "mo_ta": "Chi dưới chứa các kinh Âm và Dương lớn nhất cơ thể, có tác dụng hạ hỏa, dẫn huyết xuống dưới, bổ thận, kiện tỳ và tăng cường tuổi thọ.",
+    "danh_sach_huyet": [
+      {
+        "id": "tuc_tam_ly",
+        "ten": "Túc Tam Lý",
+        "ky_hieu": "ST36 (Kinh Vị)",
+        "vi_tri": "Dưới mắt dưới ngoài xương bánh chè (huyệt Độc Tỵ) đo xuống 3 thốn (4 ngón tay ngang), cách mào xương chày ra ngoài 1 khoát ngón tay.",
+        "tac_dung": "'Huyệt trường thọ số 1': Kiện tỳ hòa vị, tăng cường miễn dịch, phục hồi sức khỏe sau ốm, trị đau dạ dày, khó tiêu, đau chân, cao huyết áp.",
+        "cach_day_an": "Dùng ngón tay cái ấn mạnh và day tròn 2-3 phút mỗi chân vào buổi sáng.",
+        "canh_bao": "Người xưa có câu: 'Muốn sống thăng hoa, Túc Tam Lý không ngày nào không xoa'."
+      },
+      {
+        "id": "tam_am_giao",
+        "ten": "Tam Âm Giao",
+        "ky_hieu": "SP6 (Kinh Tỳ)",
+        "vi_tri": "Tại mặt trong cẳng chân, từ đỉnh cao nhất của mắt cá trong đo thẳng lên 3 thốn (4 ngón tay ngang), sát bờ sau xương chày.",
+        "tac_dung": "Giao điểm của 3 kinh Âm (Tỳ, Can, Thận): Trị đau bụng kinh, rối loạn kinh nguyệt, mất ngủ, tiểu đêm, phù thũng, kiện tỳ ích khí.",
+        "cach_day_an": "Dùng ngón cái ấn sâu góc 90 độ vào sát xương chày, day 1-2 phút mỗi bên.",
+        "canh_bao": "⚠️ CẢNH BÁO NGUY HIỂM: Phụ nữ mang thai TUYỆT ĐỐI KHÔNG ĐƯỢC BẤM TAM ÂM GIAO vì có thể gây sảy thai hoặc đẻ non."
+      },
+      {
+        "id": "thai_khe",
+        "ten": "Thái Khê",
+        "ky_hieu": "KI3 (Kinh Thận)",
+        "vi_tri": "Tại chỗ lõm giữa đỉnh mắt cá trong chân và bờ trong gân gót chân (gân Achilles).",
+        "tac_dung": "Huyệt Nguyên của Kinh Thận, tư âm bổ thận, trị đau lưng mỏi gối, ù tai, mất ngủ, rụng tóc, viêm họng mạn tính, sinh lý yếu.",
+        "cach_day_an": "Dùng ngón tay cái day ấn nhẹ nhàng vào chỗ lõm gót chân 2 phút mỗi bên.",
+        "canh_bao": "Dưỡng thận cực tốt khi ngâm chân nước ấm trước khi day huyệt."
+      },
+      {
+        "id": "con_lon",
+        "ten": "Côn Lôn",
+        "ky_hieu": "BL60 (Kinh Bàng Quang)",
+        "vi_tri": "Tại chỗ lõm giữa đỉnh mắt cá ngoài chân và bờ ngoài gân gót chân (đối diện huyệt Thái Khê).",
+        "tac_dung": "Trị đau thắt lưng, đau dây thần kinh tọa, đau cứng gáy, đau gót chân, đau đầu hoa mắt.",
+        "cach_day_an": "Dùng ngón tay cái và trỏ bóp kẹp cả huyệt Thái Khê và Côn Lôn cùng lúc 1-2 phút.",
+        "canh_bao": "⚠️ Phụ nữ có thai nên tránh bấm mạnh huyệt này."
+      },
+      {
+        "id": "thai_xung",
+        "ten": "Thái Xung",
+        "ky_hieu": "LR3 (Kinh Can)",
+        "vi_tri": "Tại mu bàn chân, từ kẽ giữa ngón chân cái và ngón thứ 2 đo ngược lên phía cổ chân khoảng 1.5 - 2 thốn (chỗ lõm giữa 2 xương bàn chân).",
+        "tac_dung": "Bình can tức phong, hạ huyết áp cực nhanh, giải tỏa nóng giận stress, trị đau đầu thái dương, mờ mắt, đau tức sườn ngực, mất ngủ.",
+        "cach_day_an": "Dùng ngón tay cái miết nhẹ từ kẽ ngón chân ngược lên chỗ lõm huyệt, day ấn 1-2 phút đến khi thấy tức chịu được.",
+        "canh_bao": "⚠️ Phụ nữ mang thai không bấm mạnh. Rất tốt cho người hay cáu gắt, cao huyết áp."
+      },
+      {
+        "id": "dung_tuyen",
+        "ten": "Dũng Tuyền",
+        "ky_hieu": "KI1 (Kinh Thận)",
+        "vi_tri": "Tại lòng bàn chân, ở điểm nối 1/3 trước và 2/3 sau của gan bàn chân (chỗ lõm hình chữ Y khi co các ngón chân lại).",
+        "tac_dung": "Huyệt đầu tiên của kinh Thận, hạ hỏa giáng khí, trị mất ngủ kinh niên, ho khan dai dẳng, hạ huyết áp, chống đột quỵ, ấm đôi chân.",
+        "cach_day_an": "Xoa xát lòng bàn chân hoặc dùng ngón cái day ấn mạnh 2-3 phút trước khi đi ngủ. Có thể dán cao ấm.",
+        "canh_bao": "Ngâm chân nước ấm gừng muối rồi day Dũng Tuyền giúp ngủ sâu như trẻ thơ."
+      },
+      {
+        "id": "giai_khe",
+        "ten": "Giải Khê",
+        "ky_hieu": "ST41 (Kinh Vị)",
+        "vi_tri": "Chính giữa nếp gấp cổ chân trước, tại chỗ lõm giữa 2 gân cơ (gân cơ duỗi dài ngón cái và ngón chân).",
+        "tac_dung": "Trị đau sưng khớp cổ chân, đầy bụng trướng hơi, đau đầu, viêm tắc mạch chi dưới.",
+        "cach_day_an": "Dùng ngón tay cái day ấn tròn 1 phút kết hợp xoay nhẹ cổ chân.",
+        "canh_bao": "Không ấn mạnh nếu cổ chân đang có bong gân sưng cấp tính."
+      },
+      {
+        "id": "cong_ton",
+        "ten": "Công Tôn",
+        "ky_hieu": "SP4 (Kinh Tỳ)",
+        "vi_tri": "Tại bờ trong bàn chân, ở chỗ lõm phía sau đầu dưới xương bàn ngón chân cái (cách khớp ngón cái khoảng 1 thốn về phía sau).",
+        "tac_dung": "Huyệt Lạc của kinh Tỳ thông mạch Xung, đặc trị đau dạ dày co thắt, đau quặn bụng, đầy bụng khó tiêu, phụ nữ đau bụng kinh.",
+        "cach_day_an": "Dùng ngón cái day ấn theo hướng từ gót chân về mũi chân 1-2 phút.",
+        "canh_bao": "Kết hợp với Nội Quan tạo thành cặp đôi vàng trị bệnh dạ dày tiêu hóa."
+      },
+      {
+        "id": "duong_lang_tuyen",
+        "ten": "Dương Lăng Tuyền",
+        "ky_hieu": "GB34 (Kinh Đởm)",
+        "vi_tri": "Ở mặt ngoài cẳng chân, tại chỗ lõm phía trước và dưới đầu nhỏ xương mác (dưới khớp gối ngoài khoảng 1 thốn).",
+        "tac_dung": "Huyệt hội của Cân (gân cơ), chuyên trị co rút gân, đau khớp gối, đau thần kinh tọa, đau mạn sườn, tê bại chân.",
+        "cach_day_an": "Dùng ngón cái ấn sâu vào chỗ lõm cạnh đầu xương mác, day 2 phút mỗi bên.",
+        "canh_bao": "Cực kỳ hiệu quả cho người bị chuột rút hoặc đau nhức gân cơ khớp gối."
+      },
+      {
+        "id": "am_lang_tuyen",
+        "ten": "Âm Lăng Tuyền",
+        "ky_hieu": "SP9 (Kinh Tỳ)",
+        "vi_tri": "Ở mặt trong cẳng chân, tại chỗ lõm dưới lồi cầu trong xương chày (đối diện với Dương Lăng Tuyền ở mặt trong gối).",
+        "tac_dung": "Hóa thấp kiện tỳ, trị tiểu khó, tiểu buốt, phù thũng chân, tiêu chảy phân sống, đau nhức khớp gối bên trong.",
+        "cach_day_an": "Dùng ngón cái day ấn chếch từ dưới lên trên 1-2 phút.",
+        "canh_bao": "Phối hợp Dương Lăng Tuyền giúp khớp gối linh hoạt dẻo dai."
+      },
+      {
+        "id": "phong_long",
+        "ten": "Phong Long",
+        "ky_hieu": "ST40 (Kinh Vị)",
+        "vi_tri": "Mặt ngoài cẳng chân, từ mắt cá ngoài đo thẳng lên 8 thốn (nằm giữa khoảng cách từ mắt cá ngoài đến nếp gấp đầu gối, cách mào xương chày 2 khoát ngón tay).",
+        "tac_dung": "'Huyệt hóa đờm số 1 toàn thân': Trị đờm nhiều trong cổ họng, ho có đờm, hen suyễn, giảm mỡ máu, béo phì, hoa mắt váng đầu.",
+        "cach_day_an": "Dùng ngón tay cái ấn sâu và day tròn 2 phút mỗi chân.",
+        "canh_bao": "Người có đờm ẩm, mỡ máu cao nên day bấm đều đặn hàng ngày."
+      },
+      {
+        "id": "thuong_cu_hu",
+        "ten": "Thượng Cự Hư",
+        "ky_hieu": "ST37 (Kinh Vị)",
+        "vi_tri": "Dưới huyệt Túc Tam Lý 3 thốn (6 thốn dưới mắt ngoài đầu gối), cách mào xương chày 1 khoát ngón tay.",
+        "tac_dung": "Huyệt Hạ Hợp của Đại Trường, trị viêm đại tràng, đau bụng quanh rốn, tiêu chảy cấp mạn, táo bón, liệt chân.",
+        "cach_day_an": "Day ấn 1-2 phút mỗi bên.",
+        "canh_bao": "Hỗ trợ tuyệt vời cho các bệnh lý đường ruột già."
+      },
+      {
+        "id": "tuc_lam_khap",
+        "ten": "Túc Lâm Khấp",
+        "ky_hieu": "GB41 (Kinh Đởm)",
+        "vi_tri": "Tại mu bàn chân, trong chỗ lõm phía sau khớp ngón chân thứ 4 và thứ 5.",
+        "tac_dung": "Thông mạch Đới, trị đau nửa đầu, đau sườn ngực, viêm tuyến vú, đau mu bàn chân, kinh nguyệt không đều.",
+        "cach_day_an": "Dùng đầu ngón tay cái miết nhẹ vào kẽ xương ngón chân 4-5.",
+        "canh_bao": "Phối hợp Ngoại Quan ở tay trị đau nửa đầu cực nhạy."
+      },
+      {
+        "id": "bat_phong",
+        "ten": "Bát Phong",
+        "ky_hieu": "EX-LE10 (Ngoài kinh)",
+        "vi_tri": "Gồm 8 huyệt nằm tại các kẽ ngón chân của 2 bàn chân (ngay sát nếp gấp da giữa các ngón chân).",
+        "tac_dung": "Trị sưng đau mu bàn chân, tê bì các đầu ngón chân, lạnh cóng chân, phong thấp sưng đau khớp ngón chân.",
+        "cach_day_an": "Dùng ngón cái và ngón trỏ bóp kẹp từng kẽ ngón chân, day ấn nhả nhịp nhàng 30 giây mỗi kẽ.",
+        "canh_bao": "Rất tốt khi ngâm chân nước gừng ấm rồi bấm Bát Phong."
+      },
+      {
+        "id": "doc_ty",
+        "ten": "Độc Tỵ",
+        "ky_hieu": "ST35 (Kinh Vị)",
+        "vi_tri": "Tại khớp gối, chỗ lõm dưới bờ ngoài xương bánh chè (khi hơi co đầu gối lại).",
+        "tac_dung": "Đặc trị thoái hóa khớp gối, sưng đau cứng khớp gối, tràn dịch khớp gối nhẹ, đi lại khó khăn.",
+        "cach_day_an": "Dùng 2 ngón tay trỏ ấn vào 2 mắt gối (Độc Tỵ ở ngoài, Tất Nhãn ở trong) day tròn 2 phút.",
+        "canh_bao": "Không day mạnh khi khớp gối đang viêm nhiễm sưng nóng đỏ dữ dội."
+      }
+    ]
+  },
+  "phan_6_top_20_huyet_vang": {
+    "tieu_de": "Phần 6: Top 20 Huyệt Vàng Bấm Hàng Ngày & Biểu Đồ Thời Gian Vàng Dưỡng Sinh",
+    "mo_ta": "20 đại huyệt linh nghiệm nhất trên cơ thể giúp duy trì sinh lực, phòng chống bách bệnh và dưỡng sinh trường thọ theo nhịp sinh học 12 canh giờ kinh lạc.",
+    "top_20_huyet": [
+      {
+        "hang": 1,
+        "sao": "⭐⭐⭐⭐⭐",
+        "ten": "Túc Tam Lý",
+        "vung": "Chân",
+        "khi_nao_dung": "Mỗi sáng thức dậy, người mệt mỏi, tiêu hóa kém, muốn tăng đề kháng.",
+        "cach_lam": "Day ấn ngón cái 2 phút mỗi chân, ấn sâu thấy tức nhẹ là đạt."
+      },
+      {
+        "hang": 2,
+        "sao": "⭐⭐⭐⭐⭐",
+        "ten": "Hợp Cốc",
+        "vung": "Tay",
+        "khi_nao_dung": "Đau đầu, đau răng, nghẹt mũi, cảm cúm, căng thẳng (Tránh thai phụ).",
+        "cach_lam": "Dùng ngón tay cái bóp chặt vào hổ khẩu day tròn 1-2 phút."
+      },
+      {
+        "hang": 3,
+        "sao": "⭐⭐⭐⭐⭐",
+        "ten": "Nội Quan",
+        "vung": "Tay",
+        "khi_nao_dung": "Say tàu xe, buồn nôn, đau dạ dày, tim đập nhanh hồi hộp, mất ngủ.",
+        "cach_lam": "Ấn vuông góc vào giữa 2 gân cổ tay trong 2 phút."
+      },
+      {
+        "hang": 4,
+        "sao": "⭐⭐⭐⭐⭐",
+        "ten": "Thái Xung",
+        "vung": "Chân",
+        "khi_nao_dung": "Huyết áp cao, cáu gắt tức giận, đau đầu hoa mắt, stress nặng.",
+        "cach_lam": "Miết từ kẽ ngón chân 1-2 lên mu bàn chân day 2 phút."
+      },
+      {
+        "hang": 5,
+        "sao": "⭐⭐⭐⭐⭐",
+        "ten": "Dũng Tuyền",
+        "vung": "Bàn chân",
+        "khi_nao_dung": "Mất ngủ, huyết áp cao, chân tay lạnh, ho dai dẳng, nhức đầu.",
+        "cach_lam": "Xoa xát nóng lòng bàn chân trước khi ngủ 3 phút."
+      },
+      {
+        "hang": 6,
+        "sao": "⭐⭐⭐⭐",
+        "ten": "Tam Âm Giao",
+        "vung": "Chân",
+        "khi_nao_dung": "Phụ nữ đau bụng kinh, mất ngủ, da sạm, tiểu đêm (Tránh thai phụ).",
+        "cach_lam": "Day ấn trên mắt cá trong 3 thốn sát xương chày 2 phút."
+      },
+      {
+        "hang": 7,
+        "sao": "⭐⭐⭐⭐",
+        "ten": "Bách Hội",
+        "vung": "Đỉnh đầu",
+        "khi_nao_dung": "Mệt mỏi trí óc, hay quên, chóng mặt, đau đỉnh đầu, hạ huyết áp.",
+        "cach_lam": "Day đỉnh đầu nhẹ nhàng theo chiều kim đồng hồ 2 phút."
+      },
+      {
+        "hang": 8,
+        "sao": "⭐⭐⭐⭐",
+        "ten": "Ấn Đường",
+        "vung": "Trán",
+        "khi_nao_dung": "Khó ngủ, căng thẳng trán, viêm xoang mũi, mệt mỏi mắt.",
+        "cach_lam": "Vuốt từ Ấn Đường lên chân tóc rồi day nhẹ giữa 2 đầu mày."
+      },
+      {
+        "hang": 9,
+        "sao": "⭐⭐⭐⭐",
+        "ten": "Phong Trì",
+        "vung": "Sau gáy",
+        "khi_nao_dung": "Đau mỏi cổ vai gáy, cảm cúm, hoa mắt, làm việc máy tính lâu.",
+        "cach_lam": "2 ngón cái ôm sau gáy day ấn hướng lên đỉnh đầu 2 phút."
+      },
+      {
+        "hang": 10,
+        "sao": "⭐⭐⭐⭐",
+        "ten": "Thần Môn",
+        "vung": "Cổ tay",
+        "khi_nao_dung": "Khó ngủ, trằn trọc, hồi hộp lo âu, tim đập thình thịch.",
+        "cach_lam": "Ấn chỗ lõm cổ tay phía ngón út 1-2 phút trước khi ngủ."
+      },
+      {
+        "hang": 11,
+        "sao": "⭐⭐⭐⭐",
+        "ten": "Thận Du",
+        "vung": "Thắt lưng",
+        "khi_nao_dung": "Đau mỏi lưng gối, tiểu đêm nhiều, suy nhược sinh lý, lạnh lưng.",
+        "cach_lam": "Xoa 2 bàn tay thật nóng rồi chà xát ngang thắt lưng 50 lần."
+      },
+      {
+        "hang": 12,
+        "sao": "⭐⭐⭐⭐",
+        "ten": "Trung Quản",
+        "vung": "Bụng",
+        "khi_nao_dung": "Đau dạ dày, trào ngược thực quản, ợ chua, đầy bụng khó tiêu.",
+        "cach_lam": "Xoa tròn nhẹ nhàng trên rốn 4 thốn khi bụng rỗng 2 phút."
+      },
+      {
+        "hang": 13,
+        "sao": "⭐⭐⭐",
+        "ten": "Quan Nguyên",
+        "vung": "Bụng dưới",
+        "khi_nao_dung": "Bồi bổ nguyên khí, chống lão hóa, tiểu đêm, tay chân lạnh.",
+        "cach_lam": "Xoa ấm bụng dưới dưới rốn 3 thốn (Tránh phụ nữ mang thai)."
+      },
+      {
+        "hang": 14,
+        "sao": "⭐⭐⭐",
+        "ten": "Thái Khê",
+        "vung": "Gót chân",
+        "khi_nao_dung": "Bổ thận âm, viêm họng hạt mạn tính, rụng tóc, ù tai.",
+        "cach_lam": "Day chỗ lõm sau mắt cá trong 2 phút mỗi chân."
+      },
+      {
+        "hang": 15,
+        "sao": "⭐⭐⭐",
+        "ten": "Khúc Trì",
+        "vung": "Khuỷu tay",
+        "khi_nao_dung": "Sốt cao, mẩn ngứa dị ứng, huyết áp cao, đau khớp tay.",
+        "cach_lam": "Day đầu nếp gấp khuỷu tay ngoài 2 phút."
+      },
+      {
+        "hang": 16,
+        "sao": "⭐⭐⭐",
+        "ten": "Đản Trung",
+        "vung": "Giữa ngực",
+        "khi_nao_dung": "Tức ngực, uất ức khó thở, thở nông, tim hồi hộp.",
+        "cach_lam": "Gốc bàn tay xoa nhẹ nhàng xương ức giữa 2 ngực 2 phút."
+      },
+      {
+        "hang": 17,
+        "sao": "⭐⭐⭐",
+        "ten": "Thiên Khu",
+        "vung": "Bụng",
+        "khi_nao_dung": "Táo bón, tiêu chảy, đau bụng đại tràng, rối loạn tiêu hóa.",
+        "cach_lam": "Day 2 bên rốn cách 2 thốn theo chiều kim đồng hồ."
+      },
+      {
+        "hang": 18,
+        "sao": "⭐⭐⭐",
+        "ten": "Phong Long",
+        "vung": "Cẳng chân",
+        "khi_nao_dung": "Đờm nhiều cổ họng, mỡ máu cao, béo phì, ho dai dẳng.",
+        "cach_lam": "Day ấn mạnh mặt ngoài cẳng chân 2 phút."
+      },
+      {
+        "hang": 19,
+        "sao": "⭐⭐⭐",
+        "ten": "Hậu Khê",
+        "vung": "Mép bàn tay",
+        "khi_nao_dung": "Đau mỏi cột sống cổ, vẹo cổ, ngồi máy tính mỏi mắt gáy.",
+        "cach_lam": "Cọ mép bàn tay vào cạnh bàn làm việc liên tục 2 phút."
+      },
+      {
+        "hang": 20,
+        "sao": "⭐⭐⭐",
+        "ten": "Đại Chùy",
+        "vung": "Sau gáy",
+        "khi_nao_dung": "Nhiễm lạnh, cảm sốt rét run, ho hen, tăng đề kháng toàn thân.",
+        "cach_lam": "Xoa xát ấm nóng mỏm xương lồi sau gáy khi tắm hoặc trước khi ngủ."
+      }
+    ],
+    "bieu_do_thoi_gian_vang_12_gio": [
+      {
+        "khung_gio": "03:00 – 05:00",
+        "kinh_lac": "Phế Kinh (Phổi)",
+        "huyet_chu": "Trung Phủ, Thái Uyên",
+        "loi_khuyen": "Thức giấc hít thở sâu, tránh khí lạnh, uống 1 ly nước ấm."
+      },
+      {
+        "khung_gio": "05:00 – 07:00",
+        "kinh_lac": "Đại Trường Kinh (Ruột già)",
+        "huyet_chu": "Hợp Cốc, Thiên Khu",
+        "loi_khuyen": "Đi vệ sinh đại tiện thải độc, xoa bụng quanh rốn theo chiều kim đồng hồ."
+      },
+      {
+        "khung_gio": "07:00 – 09:00",
+        "kinh_lac": "Vị Kinh (Dạ dày)",
+        "huyet_chu": "Túc Tam Lý, Trung Quản",
+        "loi_khuyen": "Ăn sáng đầy đủ dinh dưỡng, day nhẹ Túc Tam Lý để hấp thu tốt."
+      },
+      {
+        "khung_gio": "09:00 – 11:00",
+        "kinh_lac": "Tỳ Kinh (Lá lách)",
+        "huyet_chu": "Tam Âm Giao, Âm Lăng Tuyền",
+        "loi_khuyen": "Làm việc tập trung, uống nước ấm, tỳ chuyển hóa năng lượng nuôi cơ bắp."
+      },
+      {
+        "khung_gio": "11:00 – 13:00",
+        "kinh_lac": "Tâm Kinh (Tim)",
+        "huyet_chu": "Thần Môn, Nội Quan",
+        "loi_khuyen": "Nghỉ trưa ngắn 15-30 phút, day Thần Môn giúp an thần dưỡng tim."
+      },
+      {
+        "khung_gio": "13:00 – 15:00",
+        "kinh_lac": "Tiểu Trường Kinh (Ruột non)",
+        "huyet_chu": "Hậu Khê, Thiếu Hải",
+        "loi_khuyen": "Hấp thu dưỡng chất vào máu, vận động nhẹ nhàng sau giờ nghỉ trưa."
+      },
+      {
+        "khung_gio": "15:00 – 17:00",
+        "kinh_lac": "Bàng Quang Kinh (Bọng đái)",
+        "huyet_chu": "Côn Lôn, Phong Trì, Ủy Trung",
+        "loi_khuyen": "Uống nước lọc, bài tiết nước tiểu, vận động vươn vai thư giãn gân cốt."
+      },
+      {
+        "khung_gio": "17:00 – 19:00",
+        "kinh_lac": "Thận Kinh (Thận)",
+        "huyet_chu": "Thái Khê, Dũng Tuyền, Thận Du",
+        "loi_khuyen": "Xoa xát ấm vùng thắt lưng, ngâm chân nước ấm bổ thận dưỡng cốt."
+      },
+      {
+        "khung_gio": "19:00 – 21:00",
+        "kinh_lac": "Tâm Bào Kinh (Màng tim)",
+        "huyet_chu": "Nội Quan, Lao Cung",
+        "loi_khuyen": "Ăn tối thanh đạm, trò chuyện vui vẻ, day Nội Quan giải tỏa áp lực."
+      },
+      {
+        "khung_gio": "21:00 – 23:00",
+        "kinh_lac": "Tam Tiêu Kinh (Toàn thân)",
+        "huyet_chu": "Ngoại Quan, Đản Trung",
+        "loi_khuyen": "Chuẩn bị đi ngủ, không dùng điện thoại, xoa dịu toàn thân thư giãn."
+      },
+      {
+        "khung_gio": "23:00 – 01:00",
+        "kinh_lac": "Đởm Kinh (Mật)",
+        "huyet_chu": "Dương Lăng Tuyền, Phong Trì",
+        "loi_khuyen": "Ngủ say giấc để mật tiết dịch và phục hồi chức năng chuyển hóa."
+      },
+      {
+        "khung_gio": "01:00 – 03:00",
+        "kinh_lac": "Can Kinh (Gan)",
+        "huyet_chu": "Thái Xung",
+        "loi_khuyen": "Tuyệt đối ngủ sâu để gan lọc máu và giải độc cho cơ thể."
+      }
+    ]
+  },
+  "phan_7_cach_day_an_dung": {
+    "tieu_de": "Phần 7: Kỹ Thuật Day Ấn Chuẩn — An Toàn, Hiệu Quả & Phòng Tránh Sai Lầm",
+    "quy_tac_3_luc": {
+      "luc_nhe": "Dùng đầu ngón tay chạm êm, day tròn nhẹ trên bề mặt da (thích hợp vùng mặt, mắt, trẻ em, người cao tuổi yếu).",
+      "luc_vua": "Ấn từ từ xuống lớp cơ dưới da, cảm nhận độ đàn hồi, có cảm giác tức êm dễ chịu ('Đắc khí') — Đây là lực chuẩn nhất.",
+      "luc_manh": "Dùng gốc ngón tay hoặc khớp ngón tay ấn sâu có kiểm soát (thích hợp huyệt vùng mông, thắt lưng, bắp chân ở người khỏe mạnh).",
+      "nguyen_tac_vang": "Chỉ day ấn đến mức tức nặng êm ái, TUYỆT ĐỐI KHÔNG ấn đến mức đau nhói rát buốt hoặc bầm tím da thịt."
+    },
+    "thoi_gian_va_tan_suat": {
+      "thoi_gian_moi_huyet": "Từ 30 giây đến 2 phút cho mỗi huyệt. Không bấm một huyệt liên tục quá 3 phút.",
+      "tan_suat": "Thực hiện 1–2 lần mỗi ngày (sáng sớm và buổi tối trước khi ngủ là thời điểm lý tưởng). Một liệu trình duy trì 7–10 ngày, nghỉ 2-3 ngày rồi tiếp tục."
+    },
+    "thao_tac_chuan_4_buoc": [
+      "Bước 1: Rửa tay sạch, cắt ngắn móng tay, thả lỏng toàn bộ cơ thể và ngồi/nằm ở tư thế thoải mái.",
+      "Bước 2: Xác định chính xác vị trí huyệt theo mốc giải phẫu tự nhiên (chỗ lõm, kẽ xương, nếp gấp).",
+      "Bước 3: Đặt đầu ngón tay cái hoặc ngón trỏ vuông góc với bề mặt da, ấn từ từ theo nhịp thở ra.",
+      "Bước 4: Day tròn nhịp nhàng theo chiều kim đồng hồ (bổ dưỡng) hoặc ngược chiều (tả trừ nhiệt), kết hợp hít sâu thở chậm."
+    ],
+    "sai_lam_thuong_gap": [
+      "Dùng móng tay bấm cào làm trầy xước rách da và nhiễm trùng.",
+      "Nôn nóng dùng lực quá mạnh, nghiến răng ấn gây bầm tím tổn thương mao mạch.",
+      "Bấm huyệt ngay sau khi vừa ăn no căng hoặc khi bụng đang đói cồn cào.",
+      "Tự bấm các huyệt cấm kỵ khi đang mang thai gây nguy hiểm cho thai nhi.",
+      "Tự ý bỏ thuốc điều trị bệnh mạn tính của bác sĩ chuyên khoa."
+    ]
+  },
+  "phan_8_tra_cuu_theo_benh": {
+    "tieu_de": "Phần 8: Bảng Phác Đồ Tra Cứu & Bấm Huyệt Theo 15 Nhóm Bệnh Phổ Biến",
+    "danh_sach_benh": [
+      {
+        "stt": 1,
+        "ten_benh": "Đau Đầu Căng Thẳng (Tension Headache)",
+        "trieu_chung": "Đau âm ỉ hai bên thái dương, nặng đầu, mỏi gáy do làm việc máy tính, suy nghĩ nhiều.",
+        "danh_sach_huyet": [
+          "Bách Hội",
+          "Thái Dương",
+          "Phong Trì",
+          "Hợp Cốc",
+          "Ấn Đường"
+        ],
+        "phac_do": "Vuốt nhẹ từ Ấn Đường lên trán -> Day 2 huyệt Thái Dương 1 phút -> Bóp 2 huyệt Phong Trì sau gáy 2 phút -> Day mạnh huyệt Hợp Cốc ở bàn tay 2 phút."
+      },
+      {
+        "stt": 2,
+        "ten_benh": "Đau Nửa Đầu (Migraine)",
+        "trieu_chung": "Đau giật theo nhịp mạch một bên đầu, sợ ánh sáng và tiếng ồn, có thể kèm buồn nôn.",
+        "danh_sach_huyet": [
+          "Thái Dương",
+          "Phong Trì",
+          "Thái Xung",
+          "Ngoại Quan",
+          "Túc Lâm Khấp"
+        ],
+        "phac_do": "Nằm phòng tối yên tĩnh -> Day Thái Dương nhẹ nhàng -> Day sâu huyệt Thái Xung ở mu chân để hạ hỏa -> Bóp đồng thời Ngoại Quan và Túc Lâm Khấp."
+      },
+      {
+        "stt": 3,
+        "ten_benh": "Mất Ngủ & Khó Ngủ (Insomnia)",
+        "trieu_chung": "Trằn trọc khó vào giấc, hay tỉnh giấc giữa đêm, ngủ dậy mệt mỏi, hay mơ mộng.",
+        "danh_sach_huyet": [
+          "Thần Môn",
+          "Tam Âm Giao",
+          "Dũng Tuyền",
+          "Nội Quan",
+          "Ấn Đường",
+          "Bách Hội"
+        ],
+        "phac_do": "Ngâm chân nước ấm 15 phút -> Xoa xát nóng huyệt Dũng Tuyền ở lòng bàn chân -> Day Thần Môn ở cổ tay 2 phút -> Day nhẹ Ấn Đường và Bách Hội."
+      },
+      {
+        "stt": 4,
+        "ten_benh": "Cảm Cúm, Sổ Mũi & Hắt Hơi (Cold & Flu)",
+        "trieu_chung": "Nghẹt mũi, chảy nước mũi trong, ớn lạnh sau gáy, sốt nhẹ, đau nhức mình mẩy.",
+        "danh_sach_huyet": [
+          "Nghinh Hương",
+          "Phong Trì",
+          "Hợp Cốc",
+          "Đại Chùy"
+        ],
+        "phac_do": "Xoa nóng sống mũi và day Nghinh Hương 2 phút -> Xoa xát nóng huyệt Đại Chùy sau gáy -> Bóp huyệt Phong Trì và Hợp Cốc cho toát mồ hôi nhẹ."
+      },
+      {
+        "stt": 5,
+        "ten_benh": "Đau Dạ Dày & Trào Ngược Dạ Dày (Gastritis / GERD)",
+        "trieu_chung": "Đau cồn cào thượng vị, ợ chua, ợ hơi, đầy trướng bụng, khó tiêu sau ăn.",
+        "danh_sach_huyet": [
+          "Trung Quản",
+          "Túc Tam Lý",
+          "Nội Quan",
+          "Công Tôn"
+        ],
+        "phac_do": "Xoa ấm bụng quanh Trung Quản theo chiều kim đồng hồ 3 phút -> Day ấn sâu huyệt Túc Tam Lý ở cẳng chân -> Bấm phối hợp Nội Quan (ở tay) và Công Tôn (ở chân)."
+      },
+      {
+        "stt": 6,
+        "ten_benh": "Huyết Áp Cao (Hypertension Support)",
+        "trieu_chung": "Huyết áp tăng, mặt đỏ phừng phừng, hoa mắt, tức giận, đau đỉnh đầu.",
+        "danh_sach_huyet": [
+          "Thái Xung",
+          "Dũng Tuyền",
+          "Khúc Trì",
+          "Bách Hội"
+        ],
+        "phac_do": "Nghỉ ngơi thả lỏng -> Miết mạnh huyệt Thái Xung từ kẽ ngón chân ngược lên 2-3 phút -> Xoa nóng Dũng Tuyền -> Day Khúc Trì ở khuỷu tay."
+      },
+      {
+        "stt": 7,
+        "ten_benh": "Đau Mỏi Vai Gáy & Cứng Cổ (Neck & Shoulder Pain)",
+        "trieu_chung": "Cổ cứng đờ khó xoay, vai ê ẩm, đau nhức bả vai do nằm gối cao hoặc ngồi điều hòa lạnh.",
+        "danh_sach_huyet": [
+          "Kiên Tỉnh",
+          "Phong Trì",
+          "Thiên Trụ",
+          "Hậu Khê",
+          "Lạc Chẩm"
+        ],
+        "phac_do": "Chườm ấm sau gáy -> Day ấn Phong Trì và Thiên Trụ 2 phút -> Bóp nhẹ cơ vai huyệt Kiên Tỉnh -> Cọ xát huyệt Hậu Khê ở mép bàn tay kết hợp xoay nhẹ cổ."
+      },
+      {
+        "stt": 8,
+        "ten_benh": "Đau Thắt Lưng & Đau Thần Kinh Tọa (Back Pain / Sciatica)",
+        "trieu_chung": "Đau mỏi vùng thắt lưng, đau lan dọc mông xuống đùi và bắp chân, cúi ngửa khó khăn.",
+        "danh_sach_huyet": [
+          "Thận Du",
+          "Mệnh Môn",
+          "Ủy Trung",
+          "Dương Lăng Tuyền",
+          "Côn Lôn"
+        ],
+        "phac_do": "Xát ấm vùng thắt lưng Thận Du - Mệnh Môn -> Day ấn huyệt Dương Lăng Tuyền ở gối ngoài -> Bóp huyệt Côn Lôn ở gót chân."
+      },
+      {
+        "stt": 9,
+        "ten_benh": "Say Tàu Xe & Buồn Nôn (Motion Sickness)",
+        "trieu_chung": "Chóng mặt, buồn nôn, cồn cào ruột gan, vã mồ hôi lạnh khi đi ô tô, tàu thuyền, máy bay.",
+        "danh_sach_huyet": [
+          "Nội Quan",
+          "Hợp Cốc",
+          "Ấn Đường",
+          "Túc Tam Lý"
+        ],
+        "phac_do": "Bấm giữ chặt huyệt Nội Quan ở cổ tay 2-3 phút (có thể dùng ngón tay cái ấn sâu hoặc dán hạt đỗ) -> Day bổ sung Hợp Cốc và Ấn Đường."
+      },
+      {
+        "stt": 10,
+        "ten_benh": "Đau Bụng Kinh & Rối Loạn Kinh Nguyệt (Dysmenorrhea)",
+        "trieu_chung": "Đau quặn bụng dưới khi hành kinh, kinh nguyệt không đều, mệt mỏi lưng gối.",
+        "danh_sach_huyet": [
+          "Tam Âm Giao",
+          "Quan Nguyên",
+          "Khí Hải",
+          "Huyết Hải",
+          "Thái Khê"
+        ],
+        "phac_do": "Chườm ấm bụng dưới vùng Quan Nguyên - Khí Hải -> Day ấn huyệt Tam Âm Giao ở cẳng chân 2 phút (chỉ áp dụng khi không mang thai) -> Day Thái Khê."
+      },
+      {
+        "stt": 11,
+        "ten_benh": "Táo Bón & Tiêu Chảy (Constipation & Diarrhea)",
+        "trieu_chung": "Đại tiện khó khăn nhiều ngày không đi (táo bón) hoặc đi ngoài phân lỏng nhiều lần (tiêu chảy).",
+        "danh_sach_huyet": [
+          "Thiên Khu",
+          "Thượng Cự Hư",
+          "Túc Tam Lý",
+          "Thần Khuyết"
+        ],
+        "phac_do": "Táo bón: Day Thiên Khu + Thượng Cự Hư và xoa bụng theo chiều kim đồng hồ. Tiêu chảy: Chườm ấm rốn (Thần Khuyết) + Day Túc Tam Lý ngược chiều kim đồng hồ."
+      },
+      {
+        "stt": 12,
+        "ten_benh": "Ù Tai, Chóng Mặt & Tiền Đình (Tinnitus / Vertigo)",
+        "trieu_chung": "Tiếng ve kêu trong tai, choáng váng hoa mắt khi thay đổi tư thế, đầu lâng lâng.",
+        "danh_sach_huyet": [
+          "Ế Phong",
+          "Thính Cung",
+          "Phong Trì",
+          "Thái Khê",
+          "Bách Hội"
+        ],
+        "phac_do": "Day ấn nhẹ nhàng chỗ lõm sau dái tai (Ế Phong) 1 phút -> Bóp Phong Trì sau gáy -> Day bổ thận ở huyệt Thái Khê 2 phút."
+      },
+      {
+        "stt": 13,
+        "ten_benh": "Mệt Mỏi, Uể Oải & Suy Nhược Cơ Thể (Chronic Fatigue)",
+        "trieu_chung": "Thiếu năng lượng, sáng dậy uể oải, chân tay rã rời, làm việc nhanh mệt, hơi thở ngắn.",
+        "danh_sach_huyet": [
+          "Túc Tam Lý",
+          "Khí Hải",
+          "Quan Nguyên",
+          "Bách Hội",
+          "Dũng Tuyền"
+        ],
+        "phac_do": "Day Túc Tam Lý và Bách Hội vào buổi sáng -> Xoa ấm bụng dưới Khí Hải - Quan Nguyên -> Xoa nóng Dũng Tuyền trước khi ngủ."
+      },
+      {
+        "stt": 14,
+        "ten_benh": "Đau Răng & Viêm Lợi Cấp (Toothache Relief)",
+        "trieu_chung": "Đau nhức ê buốt răng hàm trên hoặc dưới, sưng nhẹ nướu răng, khó nhai nuốt.",
+        "danh_sach_huyet": [
+          "Hợp Cốc",
+          "Giáp Xa",
+          "Hạ Quan",
+          "Nội Đình"
+        ],
+        "phac_do": "Bấm mạnh huyệt Hợp Cốc cùng bên hoặc đối bên với răng đau 2-3 phút -> Day huyệt Giáp Xa ở góc hàm dưới -> Đi khám nha sĩ để điều trị triệt để."
+      },
+      {
+        "stt": 15,
+        "ten_benh": "Nghẹt Mũi, Viêm Xoang & Dị Ứng (Nasal Congestion / Sinusitis)",
+        "trieu_chung": "Tắc mũi khó thở, khụt khịt mũi, đau nhức hốc mắt và xoang trán khi thời tiết đổi mùa.",
+        "danh_sach_huyet": [
+          "Nghinh Hương",
+          "Ấn Đường",
+          "Toản Trúc",
+          "Hợp Cốc",
+          "Phế Du"
+        ],
+        "phac_do": "Dùng 2 ngón tay miết dọc 2 bên sống mũi từ trên xuống 30 lần -> Day ấn Nghinh Hương và Toản Trúc 1 phút -> Bấm Hợp Cốc ở tay 2 phút."
+      }
+    ]
+  }
+}

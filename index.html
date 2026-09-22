@@ -271,6 +271,13 @@
             <span>🏡</span> <span>Phong Thủy Nhà Ở</span>
           </button>
           <button
+            id="tab-huyetdao"
+            onclick="switchMainTab('huyetdao')"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+          >
+            <span>🌿</span> <span>Huyệt Đạo</span>
+          </button>
+          <button
             id="tab-aiagent"
             onclick="switchMainTab('aiagent')"
             class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
@@ -2225,6 +2232,7 @@
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-phapluat" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>⚖️ Pháp Luật VN</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-gout" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🦶 Bệnh Gút</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-phongthuy" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🏡 Phong Thủy</span></label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-huyetdao" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🌿 Huyệt Đạo</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-aiagent" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🤖 Trợ Lý AI</span></label>
             </div>
           </div>
@@ -2400,6 +2408,150 @@
               </tbody>
             </table>
           </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <!-- ==================== HUYET DAO & BAM HUYET MODULE ==================== -->
+    <div id="huyetdao-section" class="flex flex-col gap-6 hidden">
+      <!-- Hero Banner -->
+      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-rose-950/40 via-emerald-950/25 to-slate-950/50 border border-emerald-500/30 p-6 sm:p-8 text-center flex flex-col items-center max-w-5xl mx-auto w-full shadow-2xl">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-emerald-500/15 via-rose-500/10 to-transparent pointer-events-none"></div>
+
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-emerald-300 text-xs font-bold uppercase tracking-wider mb-3 shadow-sm">
+          <span>🌿</span> <span>Cẩm Nang Y Học Cổ Truyền & Dưỡng Sinh</span>
+        </div>
+
+        <h2 class="text-2xl sm:text-4xl font-black font-display text-transparent bg-clip-text bg-gradient-to-r from-emerald-200 via-rose-100 to-teal-300 mb-3">
+          🌿 Huyệt Đạo Toàn Thân — Tra Cứu & Bấm Huyệt Tại Nhà
+        </h2>
+
+        <p class="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed mb-4">
+          "Khơi thông 12 đường kinh lạc, kích hoạt dòng khí huyết tự chữa lành, giảm đau tự nhiên và nâng cao thể chất theo nguyên lý Y học cổ truyền chuẩn mực."
+        </p>
+
+        <!-- Quick Listen Button for Hero Banner -->
+        <div class="mb-4 flex flex-wrap items-center justify-center gap-2">
+          <button 
+            onclick="playTTS(event, 'Cẩm nang Huyệt Đạo Toàn Thân và Hướng dẫn Tự Bấm Huyệt Tại Nhà. Bấm huyệt là phương pháp hỗ trợ tự nhiên tác động vào hệ thống kinh lạc giúp lưu thông khí huyết. Lưu ý quan trọng: Nội dung mang tính chất tham khảo, không thay thế bác sĩ. Phụ nữ mang thai, người có bệnh tim mạch nặng, sốt cao, chấn thương cấp tuyệt đối không tự ý day ấn.', 'vi')"
+            class="px-4 py-2 rounded-2xl bg-emerald-900/60 hover:bg-emerald-800/80 border border-emerald-500/40 text-emerald-200 text-xs font-bold flex items-center gap-2 transition-all cursor-pointer shadow-lg hover:scale-105"
+          >
+            <span>🔊</span> <span>Nghe Giới Thiệu & Cảnh Báo An Toàn</span>
+          </button>
+        </div>
+
+        <!-- Safety Alert Box (Nổi bật) -->
+        <div class="w-full max-w-3xl p-3.5 rounded-2xl bg-rose-950/40 border border-rose-500/40 text-xs text-rose-200 text-left flex items-start gap-3 shadow-inner">
+          <span class="text-xl">⚠️</span>
+          <div>
+            <b class="text-rose-300 font-bold block mb-1">CẢNH BÁO AN TOÀN Y KHOA:</b>
+            <p class="leading-relaxed text-rose-200/90">
+              Phương pháp tham khảo hỗ trợ chăm sóc sức khỏe ban đầu — <b>KHÔNG THAY THẾ CHỈ ĐỊNH CỦA BÁC SĨ</b>. Phụ nữ mang thai cần hỏi ý kiến bác sĩ; tuyệt đối <b>TRÁNH</b> day ấn mạnh các huyệt: <b>Hợp Cốc, Tam Âm Giao, Thái Xung, Kiên Tỉnh, Quan Nguyên</b> vì có thể kích thích co bóp tử cung.
+            </p>
+          </div>
+        </div>
+
+        <!-- Sơ Đồ Cơ Thể Nhanh (Interactive Body Navigator) -->
+        <div class="mt-6 w-full max-w-3xl pt-4 border-t border-slate-800">
+          <p class="text-xs font-bold text-slate-400 mb-2.5 flex items-center justify-center gap-1.5">
+            <span>🧭</span> <span>Chọn nhanh vùng cơ thể để xem huyệt:</span>
+          </p>
+          <div class="flex flex-wrap justify-center gap-2">
+            <button onclick="selectHuyetDaoSubTab('dau_mat_co')" class="px-3 py-1.5 rounded-xl bg-slate-900/90 hover:bg-emerald-900/40 border border-slate-800 hover:border-emerald-500/40 text-xs font-semibold text-slate-300 hover:text-emerald-200 transition-all cursor-pointer">🧠 Đầu - Mặt - Cổ (15)</button>
+            <button onclick="selectHuyetDaoSubTab('nguc_bung_lung')" class="px-3 py-1.5 rounded-xl bg-slate-900/90 hover:bg-emerald-900/40 border border-slate-800 hover:border-emerald-500/40 text-xs font-semibold text-slate-300 hover:text-emerald-200 transition-all cursor-pointer">🫁 Ngực - Bụng - Lưng (15)</button>
+            <button onclick="selectHuyetDaoSubTab('tay')" class="px-3 py-1.5 rounded-xl bg-slate-900/90 hover:bg-emerald-900/40 border border-slate-800 hover:border-emerald-500/40 text-xs font-semibold text-slate-300 hover:text-emerald-200 transition-all cursor-pointer">✋ Tay & Cổ Tay (10)</button>
+            <button onclick="selectHuyetDaoSubTab('chan')" class="px-3 py-1.5 rounded-xl bg-slate-900/90 hover:bg-emerald-900/40 border border-slate-800 hover:border-emerald-500/40 text-xs font-semibold text-slate-300 hover:text-emerald-200 transition-all cursor-pointer">🦵 Chân & Bàn Chân (15)</button>
+            <button onclick="selectHuyetDaoSubTab('top_20')" class="px-3 py-1.5 rounded-xl bg-amber-950/40 hover:bg-amber-900/60 border border-amber-500/40 text-xs font-bold text-amber-300 transition-all cursor-pointer">⭐ Top 20 Huyệt Vàng</button>
+            <button onclick="selectHuyetDaoSubTab('tra_cuu_benh')" class="px-3 py-1.5 rounded-xl bg-rose-950/40 hover:bg-rose-900/60 border border-rose-500/40 text-xs font-bold text-rose-300 transition-all cursor-pointer">🩺 15 Nhóm Bệnh</button>
+          </div>
+        </div>
+
+        <!-- Sub-Tabs Filter (8 Phần Chính + Yêu Thích + Sổ Tay) -->
+        <div class="w-full flex justify-center mt-5">
+          <div class="inline-flex items-center gap-1.5 p-1.5 rounded-2xl bg-slate-900/90 border border-slate-800 overflow-x-auto max-w-full" id="huyetdao-sub-tabs">
+            <button onclick="selectHuyetDaoSubTab('all')" id="hd-tab-all" class="hd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-emerald-500 bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 font-black shadow-lg shadow-emerald-500/20 cursor-pointer">✨ Tất Cả</button>
+            <button onclick="selectHuyetDaoSubTab('gioi_thieu')" id="hd-tab-gioi_thieu" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📖 1. Cơ Sở & An Toàn</button>
+            <button onclick="selectHuyetDaoSubTab('dau_mat_co')" id="hd-tab-dau_mat_co" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🧠 2. Đầu - Mặt - Cổ</button>
+            <button onclick="selectHuyetDaoSubTab('nguc_bung_lung')" id="hd-tab-nguc_bung_lung" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🫁 3. Ngực - Bụng - Lưng</button>
+            <button onclick="selectHuyetDaoSubTab('tay')" id="hd-tab-tay" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">✋ 4. Tay</button>
+            <button onclick="selectHuyetDaoSubTab('chan')" id="hd-tab-chan" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🦵 5. Chân</button>
+            <button onclick="selectHuyetDaoSubTab('top_20')" id="hd-tab-top_20" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">⭐ 6. 20 Huyệt Vàng</button>
+            <button onclick="selectHuyetDaoSubTab('gio_vang')" id="hd-tab-gio_vang" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">⏰ Giờ Vàng Kinh Lạc</button>
+            <button onclick="selectHuyetDaoSubTab('ky_thuat')" id="hd-tab-ky_thuat" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">💆 7. Kỹ Thuật Bấm</button>
+            <button onclick="selectHuyetDaoSubTab('tra_cuu_benh')" id="hd-tab-tra_cuu_benh" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🩺 8. Tra Cứu Theo Bệnh</button>
+            <button onclick="selectHuyetDaoSubTab('yeu_thich')" id="hd-tab-yeu_thich" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-rose-400 hover:text-rose-200 cursor-pointer">❤️ Đã Lưu</button>
+            <button onclick="selectHuyetDaoSubTab('so_tay')" id="hd-tab-so_tay" class="hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📝 Sổ Tay</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls Bar -->
+      <div id="huyetdao-controls" class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-4 items-center justify-between border-emerald-500/20">
+        <div class="w-full md:max-w-md relative">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-emerald-400">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <input
+            type="text"
+            id="huyetdao-search"
+            placeholder="Tìm theo tên huyệt, tên bệnh, vị trí, đau đầu, mất ngủ, dạ dày..."
+            class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-750 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm shadow-inner"
+          >
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2 w-full md:w-auto justify-between md:justify-end">
+          <label class="inline-flex items-center gap-1.5 text-xs text-rose-300 font-medium cursor-pointer bg-rose-950/30 px-3 py-1.5 rounded-xl border border-rose-500/20">
+            <input type="checkbox" id="hd-filter-pregnancy-safe" onchange="renderHuyetDao()" class="rounded text-rose-600 focus:ring-rose-500 bg-slate-900">
+            <span>Chỉ hiện huyệt an toàn cho thai phụ</span>
+          </label>
+          <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-3 py-1.5 rounded-full border border-emerald-500/20" id="huyetdao-item-count">Đang nạp dữ liệu...</span>
+        </div>
+      </div>
+
+      <!-- Cards Display Area -->
+      <div id="huyetdao-display-container">
+        <div id="huyetdao-display-area" class="grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[300px]"></div>
+      </div>
+
+      <!-- Sổ Tay Ghi Chép Bấm Huyệt Area -->
+      <div id="huyetdao-notebook-area" class="hidden flex flex-col gap-6">
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border-emerald-500/30">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-800 pb-4 mb-6">
+            <div>
+              <h3 class="text-lg font-bold text-emerald-300 font-display flex items-center gap-2">
+                <span>📝</span> Sổ Tay Theo Dõi Bấm Huyệt & Dưỡng Sinh Cá Nhân
+              </h3>
+              <p class="text-xs text-slate-400 mt-1">Ghi chép tình trạng sức khỏe, các huyệt đã bấm và mức độ cải thiện hàng ngày.</p>
+            </div>
+            <button onclick="exportHuyetDaoNotes()" class="px-3.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-emerald-500/40 text-xs font-bold text-emerald-300 hover:text-white transition-all flex items-center gap-1.5 cursor-pointer">
+              <span>📥</span> <span>Xuất Dữ Liệu Sổ Tay</span>
+            </button>
+          </div>
+
+          <!-- Add Note Form -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 bg-slate-900/60 p-4 rounded-2xl border border-slate-800">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Vấn đề / Triệu chứng:</label>
+              <input type="text" id="hd-note-issue" placeholder="VD: Đau nửa đầu bên phải, mất ngủ trằn trọc..." class="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-emerald-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Các huyệt đã day ấn:</label>
+              <input type="text" id="hd-note-points" placeholder="VD: Phong Trì, Thái Dương, Hợp Cốc..." class="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-emerald-500">
+            </div>
+            <div class="sm:col-span-2">
+              <label class="block text-xs font-bold text-slate-300 mb-1">Cảm nhận sau khi bấm & Ghi chú:</label>
+              <textarea id="hd-note-desc" rows="2" placeholder="VD: Sau khi day 2 phút thấy đầu nhẹ nhõm hẳn, mắt đỡ mỏi..." class="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-emerald-500"></textarea>
+            </div>
+            <div class="sm:col-span-2 flex justify-end">
+              <button onclick="addHuyetDaoNote()" class="px-5 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 font-bold text-xs shadow-lg shadow-emerald-500/20 hover:opacity-90 transition-all cursor-pointer">
+                + Lưu Ghi Chép Mới
+              </button>
+            </div>
+          </div>
+
+          <!-- Notes List Container -->
+          <div id="hd-notes-list" class="grid grid-cols-1 gap-3"></div>
         </div>
       </div>
     </div>
@@ -2659,6 +2811,7 @@
     const tabGout = document.getElementById('tab-gout');
     const tabPhongthuy = document.getElementById('tab-phongthuy');
     const phongthuySection = document.getElementById('phongthuy-section');
+    const huyetdaoSection = document.getElementById('huyetdao-section');
     const tabAiagent = document.getElementById('tab-aiagent');
     const headerStatus = document.getElementById('header-status');
 
@@ -7656,6 +7809,589 @@
     });
 
 
+
+    // ==================== HUYET DAO & BAM HUYET MODULE LOGIC ====================
+    async function loadHuyetDaoData() {
+      loadHuyetDaoNotes();
+      loadHuyetDaoFavorites();
+      if (huyetDaoData) {
+        renderHuyetDao();
+        return;
+      }
+      headerStatus.textContent = "Đang nạp tri thức Huyệt Đạo Toàn Thân...";
+      try {
+        huyetDaoData = await fetchJsonWithCache('./huyet_dao.json', 'Không thể tải huyet_dao.json');
+        headerStatus.textContent = "Huyệt Đạo & Bấm Huyệt sẵn sàng";
+        renderHuyetDao();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('huyetdao-display-area').innerHTML =
+          `<p class="col-span-full py-12 text-center text-rose-400 font-bold">Không thể tải dữ liệu Huyệt Đạo. Vui lòng thử lại sau.</p>`;
+      }
+    }
+
+    window.selectHuyetDaoSubTab = function(subTab) {
+      activeHuyetDaoSubTab = subTab;
+      document.querySelectorAll('.hd-badge').forEach(btn => {
+        if (btn.id === `hd-tab-${subTab}`) {
+          btn.className = "hd-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-black border border-emerald-500 bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 shadow-lg shadow-emerald-500/20 cursor-pointer";
+        } else {
+          btn.className = "hd-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer";
+        }
+      });
+
+      const container = document.getElementById('huyetdao-display-container');
+      const controls = document.getElementById('huyetdao-controls');
+      const notebook = document.getElementById('huyetdao-notebook-area');
+
+      if (subTab === 'so_tay') {
+        if (container) container.classList.add('hidden');
+        if (controls) controls.classList.add('hidden');
+        if (notebook) {
+          notebook.classList.remove('hidden');
+          renderHuyetDaoNotes();
+        }
+      } else {
+        if (container) container.classList.remove('hidden');
+        if (controls) controls.classList.remove('hidden');
+        if (notebook) notebook.classList.add('hidden');
+        renderHuyetDao();
+      }
+    };
+
+    function loadHuyetDaoNotes() {
+      try {
+        const stored = localStorage.getItem('huyetDaoNotes');
+        huyetDaoNotes = stored ? JSON.parse(stored) : [];
+      } catch (e) {
+        huyetDaoNotes = [];
+      }
+    }
+
+    function saveHuyetDaoNotes() {
+      try {
+        localStorage.setItem('huyetDaoNotes', JSON.stringify(huyetDaoNotes));
+      } catch (e) {}
+    }
+
+    function loadHuyetDaoFavorites() {
+      try {
+        const stored = localStorage.getItem('huyetDaoFavorites');
+        huyetDaoFavorites = stored ? JSON.parse(stored) : [];
+      } catch (e) {
+        huyetDaoFavorites = [];
+      }
+    }
+
+    function saveHuyetDaoFavorites() {
+      try {
+        localStorage.setItem('huyetDaoFavorites', JSON.stringify(huyetDaoFavorites));
+      } catch (e) {}
+    }
+
+    window.toggleFavoriteHuyetDao = function(pointId) {
+      if (huyetDaoFavorites.includes(pointId)) {
+        huyetDaoFavorites = huyetDaoFavorites.filter(id => id !== pointId);
+        showToast('Đã xóa khỏi danh sách yêu thích', '🤍');
+      } else {
+        huyetDaoFavorites.push(pointId);
+        showToast('Đã lưu vào danh sách yêu thích', '❤️');
+      }
+      saveHuyetDaoFavorites();
+      renderHuyetDao();
+    };
+
+    window.addHuyetDaoNote = function() {
+      const issueInput = document.getElementById('hd-note-issue');
+      const pointsInput = document.getElementById('hd-note-points');
+      const descInput = document.getElementById('hd-note-desc');
+
+      const issue = issueInput ? issueInput.value.trim() : '';
+      const points = pointsInput ? pointsInput.value.trim() : '';
+      const desc = descInput ? descInput.value.trim() : '';
+
+      if (!issue || !points) {
+        showToast('Vui lòng nhập triệu chứng và các huyệt đã bấm!', '⚠️');
+        return;
+      }
+
+      const newNote = {
+        id: 'hd_' + Date.now(),
+        date: new Date().toLocaleDateString('vi-VN', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }),
+        issue: issue,
+        points: points,
+        desc: desc
+      };
+
+      huyetDaoNotes.unshift(newNote);
+      saveHuyetDaoNotes();
+      renderHuyetDaoNotes();
+
+      if (issueInput) issueInput.value = '';
+      if (pointsInput) pointsInput.value = '';
+      if (descInput) descInput.value = '';
+
+      showToast('Đã lưu nhật ký bấm huyệt thành công!', '✅');
+    };
+
+    window.deleteHuyetDaoNote = function(id) {
+      huyetDaoNotes = huyetDaoNotes.filter(n => n.id !== id);
+      saveHuyetDaoNotes();
+      renderHuyetDaoNotes();
+      showToast('Đã xóa ghi chú', '🗑️');
+    };
+
+    function renderHuyetDaoNotes() {
+      const container = document.getElementById('hd-notes-list');
+      if (!container) return;
+
+      if (huyetDaoNotes.length === 0) {
+        container.innerHTML = `<div class="py-12 text-center text-slate-500 italic bg-slate-950/40 rounded-2xl border border-slate-800">Chưa có nhật ký bấm huyệt nào. Hãy thêm ghi chú đầu tiên ở biểu mẫu phía trên!</div>`;
+        return;
+      }
+
+      container.innerHTML = huyetDaoNotes.map(n => `
+        <div class="p-4 rounded-2xl bg-slate-950/90 border border-slate-800 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 hover:border-emerald-500/30 transition-all">
+          <div class="space-y-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <b class="text-emerald-300 text-sm font-bold">${n.issue}</b>
+              <span class="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded-full border border-slate-800">${n.date}</span>
+            </div>
+            <p class="text-xs text-amber-300"><b>Huyệt tác động:</b> ${n.points}</p>
+            ${n.desc ? `<p class="text-xs text-slate-300 leading-relaxed italic">${n.desc}</p>` : ''}
+          </div>
+          <button onclick="deleteHuyetDaoNote('${n.id}')" class="px-3 py-1 rounded-xl bg-rose-950/40 hover:bg-rose-900/60 border border-rose-500/30 text-rose-300 text-xs font-bold transition-all shrink-0 cursor-pointer">
+            Xóa
+          </button>
+        </div>
+      `).join('');
+    }
+
+    window.exportHuyetDaoNotes = function() {
+      if (huyetDaoNotes.length === 0) {
+        showToast('Chưa có ghi chép nào để xuất!', 'ℹ️');
+        return;
+      }
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(huyetDaoNotes, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", "nhat_ky_bam_huyet_" + new Date().toISOString().slice(0, 10) + ".json");
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+      showToast('Đã xuất dữ liệu sổ tay thành công!', '📥');
+    };
+
+    // Card Renderer for Acupoint
+    function renderAcupointCard(point, regionName) {
+      const isFav = huyetDaoFavorites.includes(point.id);
+      const isPregnancyWarning = point.canh_bao && (point.canh_bao.includes('mang thai') || point.canh_bao.includes('có thai') || point.canh_bao.includes('sảy thai'));
+
+      const audioSpeech = `Huyệt ${point.ten}, ký hiệu ${point.ky_hieu}. Vị trí: ${point.vi_tri}. Tác dụng: ${point.tac_dung}. Cách day ấn: ${point.cach_day_an}. ${point.canh_bao ? 'Lưu ý: ' + point.canh_bao : ''}`;
+      const safeAudio = audioSpeech.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+
+      return `
+        <div class="glass-card p-5 sm:p-6 rounded-3xl border-emerald-500/20 hover:border-emerald-500/40 flex flex-col justify-between transition-all duration-300 group shadow-lg">
+          <div>
+            <!-- Header Card -->
+            <div class="flex items-start justify-between gap-3 border-b border-slate-800/80 pb-3 mb-3">
+              <div>
+                <div class="flex items-center gap-2 flex-wrap mb-1">
+                  <h4 class="text-base sm:text-lg font-black text-emerald-300 font-display flex items-center gap-1.5">
+                    <span>📍</span> ${point.ten}
+                  </h4>
+                  <span class="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-md bg-emerald-950/60 border border-emerald-500/30 text-emerald-200">${point.ky_hieu}</span>
+                  ${regionName ? `<span class="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-slate-900 border border-slate-800 text-slate-300">${regionName}</span>` : ''}
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="flex items-center gap-1.5 shrink-0">
+                <button 
+                  onclick="toggleFavoriteHuyetDao('${point.id}')" 
+                  class="p-1.5 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-rose-500/40 text-xs transition-all cursor-pointer"
+                  title="${isFav ? 'Bỏ lưu yêu thích' : 'Lưu yêu thích'}"
+                >
+                  <span>${isFav ? '❤️' : '🤍'}</span>
+                </button>
+                <button 
+                  onclick="playTTS(event, '${safeAudio}', 'vi')" 
+                  class="p-1.5 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 text-emerald-300 hover:text-white transition-all text-xs font-bold cursor-pointer"
+                  title="Nghe đọc huyệt này"
+                >
+                  <svg class="w-4 h-4 text-emerald-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Body Details -->
+            <div class="space-y-2.5 text-xs text-slate-300">
+              <div class="p-3 rounded-2xl bg-slate-950/60 border border-slate-850">
+                <b class="text-amber-300 flex items-center gap-1 mb-1">
+                  <span>🎯</span> <span>Vị trí xác định:</span>
+                </b>
+                <p class="leading-relaxed text-slate-200">${point.vi_tri}</p>
+              </div>
+
+              <div class="p-3 rounded-2xl bg-emerald-950/20 border border-emerald-500/20">
+                <b class="text-emerald-300 flex items-center gap-1 mb-1">
+                  <span>✨</span> <span>Tác dụng chữa trị:</span>
+                </b>
+                <p class="leading-relaxed text-emerald-100/90">${point.tac_dung}</p>
+              </div>
+
+              <div class="p-3 rounded-2xl bg-slate-900/60 border border-slate-800">
+                <b class="text-teal-300 flex items-center gap-1 mb-1">
+                  <span>💆</span> <span>Cách day ấn chuẩn:</span>
+                </b>
+                <p class="leading-relaxed text-slate-300">${point.cach_day_an}</p>
+              </div>
+
+              ${point.canh_bao ? `
+                <div class="p-2.5 rounded-2xl ${isPregnancyWarning ? 'bg-rose-950/40 border border-rose-500/30 text-rose-200' : 'bg-amber-950/30 border border-amber-500/20 text-amber-200'}">
+                  <b class="${isPregnancyWarning ? 'text-rose-300' : 'text-yellow-300'} flex items-center gap-1 mb-0.5">
+                    <span>⚠️</span> <span>Lưu ý & Cảnh báo:</span>
+                  </b>
+                  <p class="leading-relaxed text-[11px]">${point.canh_bao}</p>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // Render Main Huyet Dao Content
+    window.renderHuyetDao = function() {
+      if (!huyetDaoData) return;
+
+      const area = document.getElementById('huyetdao-display-area');
+      const countEl = document.getElementById('huyetdao-item-count');
+      const searchVal = removeVietnameseTones((document.getElementById('huyetdao-search')?.value || '').toLowerCase());
+      const onlyPregnancySafe = document.getElementById('hd-filter-pregnancy-safe')?.checked;
+
+      if (!area) return;
+
+      let cardsHtml = [];
+      const subTab = activeHuyetDaoSubTab;
+
+      // Helper to collect all points
+      const allPointsWithRegion = [
+        ...(huyetDaoData.phan_2_huyet_vung_dau_mat_co?.danh_sach_huyet || []).map(p => ({ ...p, region: 'Đầu - Mặt - Cổ', subKey: 'dau_mat_co' })),
+        ...(huyetDaoData.phan_3_huyet_vung_nguc_bung_lung?.danh_sach_huyet || []).map(p => ({ ...p, region: 'Ngực - Bụng - Lưng', subKey: 'nguc_bung_lung' })),
+        ...(huyetDaoData.phan_4_huyet_vung_tay?.danh_sach_huyet || []).map(p => ({ ...p, region: 'Tay - Cổ Tay', subKey: 'tay' })),
+        ...(huyetDaoData.phan_5_huyet_vung_chan?.danh_sach_huyet || []).map(p => ({ ...p, region: 'Chân - Bàn Chân', subKey: 'chan' }))
+      ];
+
+      // 1. PHẦN 1: GIỚI THIỆU & AN TOÀN
+      if (subTab === 'all' || subTab === 'gioi_thieu') {
+        const p1 = huyetDaoData.phan_1_gioi_thieu_va_an_toan;
+        if (p1 && (!searchVal || removeVietnameseTones(JSON.stringify(p1)).toLowerCase().includes(searchVal))) {
+          const safeSpeakP1 = `${p1.tieu_de}. Huyệt đạo là gì: ${p1.khai_niem.huyet_dao_la_gi}. Đơn vị đo thốn: ${p1.don_vi_do_thon.dinh_nghia}. 4 nguyên tắc an toàn: ${p1.nguyen_tac_an_toan_4_khong.join('. ')}`.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+
+          cardsHtml.push(`
+            <div class="col-span-full glass-card p-6 sm:p-8 rounded-3xl border-emerald-500/30 shadow-2xl">
+              <div class="flex justify-between items-start gap-4 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Phần 1</span>
+                  <h3 class="text-lg sm:text-2xl font-black text-emerald-200 font-display">${p1.tieu_de}</h3>
+                </div>
+                <button onclick="playTTS(event, '${safeSpeakP1}', 'vi')" class="px-3.5 py-1.5 rounded-xl bg-emerald-900/60 border border-emerald-500/40 text-emerald-300 hover:text-white text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer">
+                  <span>🔊</span> <span>Nghe Phần 1</span>
+                </button>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-300">
+                <!-- Khái niệm cốt lõi -->
+                <div class="p-4 rounded-2xl bg-slate-950/70 border border-slate-850 space-y-2.5">
+                  <b class="text-emerald-300 text-sm block">🌿 Bản Chất Huyệt Đạo & Kinh Lạc</b>
+                  <p class="leading-relaxed"><b class="text-slate-200">Huyệt đạo:</b> ${p1.khai_niem.huyet_dao_la_gi}</p>
+                  <p class="leading-relaxed"><b class="text-slate-200">Kinh lạc:</b> ${p1.khai_niem.kinh_lac_la_gi}</p>
+                  <p class="leading-relaxed text-teal-300"><b>12 Kinh chính:</b> ${p1.khai_niem['12_kinh_chinh']}</p>
+                  <p class="leading-relaxed text-indigo-300"><b>8 Mạch kỳ kinh:</b> ${p1.khai_niem['8_mach_ky_kinh']}</p>
+                </div>
+
+                <!-- Đơn vị đo thốn -->
+                <div class="p-4 rounded-2xl bg-slate-950/70 border border-slate-850 space-y-2.5">
+                  <b class="text-yellow-300 text-sm block">📏 Đơn Vị Đo Thốn (F-cun) Chuẩn</b>
+                  <p class="leading-relaxed">${p1.don_vi_do_thon.dinh_nghia}</p>
+                  <ul class="space-y-1.5 list-disc pl-4 text-slate-300">
+                    ${p1.don_vi_do_thon.cach_xac_dinh.map(c => `<li>${c}</li>`).join('')}
+                  </ul>
+                </div>
+
+                <!-- 4 Nguyên tắc an toàn -->
+                <div class="col-span-full p-4 rounded-2xl bg-rose-950/30 border border-rose-500/30 text-rose-200 space-y-2">
+                  <b class="text-rose-300 text-sm block">⚠️ 4 Nguyên Tắc Vàng Tuyệt Đối Tránh Khi Bấm Huyệt</b>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    ${p1.nguyen_tac_an_toan_4_khong.map(k => `
+                      <div class="p-2.5 rounded-xl bg-slate-950/80 border border-rose-900/40 text-[11px] leading-relaxed">${k}</div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Bảng 361 huyệt WHO -->
+                <div class="col-span-full p-4 rounded-2xl bg-slate-950/80 border border-slate-800">
+                  <b class="text-cyan-300 text-sm block mb-3">🌐 Bảng Phân Bố 361 Huyệt Đạo Chuẩn Quốc Tế (WHO)</b>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+                    ${p1.bang_361_huyet_who.phan_bo.map(pb => `
+                      <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                        <div>
+                          <b class="text-amber-300 text-xs block mb-1">${pb.vung}</b>
+                          <span class="text-xs font-mono font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/20 inline-block mb-1.5">${pb.so_luong} huyệt</span>
+                        </div>
+                        <p class="text-[10px] text-slate-400 italic">${pb.dac_diem}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // 2, 3, 4, 5: HUYỆT THEO VÙNG (Đầu - Mặt, Ngực - Bụng, Tay, Chân)
+      const targetPoints = (subTab === 'all')
+        ? allPointsWithRegion
+        : (subTab === 'yeu_thich')
+          ? allPointsWithRegion.filter(p => huyetDaoFavorites.includes(p.id))
+          : allPointsWithRegion.filter(p => p.subKey === subTab);
+
+      if (['all', 'dau_mat_co', 'nguc_bung_lung', 'tay', 'chan', 'yeu_thich'].includes(subTab)) {
+        targetPoints.forEach(p => {
+          if (onlyPregnancySafe && p.canh_bao && (p.canh_bao.includes('mang thai') || p.canh_bao.includes('có thai') || p.canh_bao.includes('sảy thai'))) {
+            return;
+          }
+
+          if (searchVal) {
+            const combined = removeVietnameseTones(`${p.ten} ${p.ky_hieu} ${p.vi_tri} ${p.tac_dung} ${p.cach_day_an} ${p.canh_bao || ''}`).toLowerCase();
+            if (!combined.includes(searchVal)) return;
+          }
+
+          cardsHtml.push(renderAcupointCard(p, p.region));
+        });
+      }
+
+      // 6. PHẦN 6: TOP 20 HUYỆT VÀNG & BIỂU ĐỒ GIỜ VÀNG
+      if (subTab === 'all' || subTab === 'top_20' || subTab === 'gio_vang') {
+        const p6 = huyetDaoData.phan_6_top_20_huyet_vang;
+        if (p6) {
+          // Top 20 points
+          if (subTab === 'all' || subTab === 'top_20') {
+            const filteredTop20 = (p6.top_20_huyet || []).filter(h => {
+              if (!searchVal) return true;
+              return removeVietnameseTones(`${h.hang} ${h.ten} ${h.vung} ${h.khi_nao_dung} ${h.cach_lam}`).toLowerCase().includes(searchVal);
+            });
+
+            if (filteredTop20.length > 0) {
+              cardsHtml.push(`
+                <div class="col-span-full glass-card p-6 rounded-3xl border-amber-500/30">
+                  <div class="flex justify-between items-start gap-4 border-b border-slate-800 pb-3 mb-4">
+                    <div>
+                      <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">Phần 6.1</span>
+                      <h3 class="text-lg sm:text-xl font-black text-yellow-200 font-display">⭐ Top 20 Huyệt Vàng Bấm Hàng Ngày Dưỡng Sinh</h3>
+                    </div>
+                    <button 
+                      onclick="playTTS(event, '${(p6.top_20_huyet || []).map(h => 'Hạng ' + h.hang + ': Huyệt ' + h.ten + ' vùng ' + h.vung + '. Dùng khi: ' + h.khi_nao_dung + '. Cách làm: ' + h.cach_lam).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      class="px-3.5 py-1.5 rounded-xl bg-amber-950/60 border border-amber-500/40 text-amber-300 hover:text-white text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer"
+                    >
+                      <span>🔊</span> <span>Nghe Top 20 Huyệt</span>
+                    </button>
+                  </div>
+
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 text-xs">
+                    ${filteredTop20.map(h => `
+                      <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-amber-500/40 flex flex-col justify-between transition-all">
+                        <div>
+                          <div class="flex items-center justify-between gap-2 mb-1.5">
+                            <b class="text-amber-300 font-bold text-sm">#${h.hang}. ${h.ten}</b>
+                            <span class="text-xs">${h.sao}</span>
+                          </div>
+                          <span class="text-[10px] font-semibold text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800 block mb-2 w-fit">Vùng: ${h.vung}</span>
+                          <p class="text-slate-200 text-xs mb-2"><b>Khi nào dùng:</b> ${h.khi_nao_dung}</p>
+                        </div>
+                        <p class="text-emerald-300 text-[11px] p-2 rounded-xl bg-slate-900/90 border border-slate-850"><b>💆 Cách làm:</b> ${h.cach_lam}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              `);
+            }
+          }
+
+          // Biểu đồ 12 giờ vàng kinh lạc
+          if (subTab === 'all' || subTab === 'gio_vang') {
+            const filteredGio = (p6.bieu_do_thoi_gian_vang_12_gio || []).filter(g => {
+              if (!searchVal) return true;
+              return removeVietnameseTones(`${g.khung_gio} ${g.kinh_lac} ${g.huyet_chu} ${g.loi_khuyen}`).toLowerCase().includes(searchVal);
+            });
+
+            if (filteredGio.length > 0) {
+              cardsHtml.push(`
+                <div class="col-span-full glass-card p-6 rounded-3xl border-teal-500/30">
+                  <div class="flex justify-between items-start gap-4 border-b border-slate-800 pb-3 mb-4">
+                    <div>
+                      <span class="text-xs font-bold text-teal-400 uppercase tracking-wider">Phần 6.2</span>
+                      <h3 class="text-lg sm:text-xl font-black text-teal-200 font-display">⏰ Biểu Đồ 12 Canh Giờ Vàng Dưỡng Sinh Kinh Lạc</h3>
+                    </div>
+                    <button 
+                      onclick="playTTS(event, '${(p6.bieu_do_thoi_gian_vang_12_gio || []).map(g => 'Khung giờ ' + g.khung_gio + ': ' + g.kinh_lac + '. Huyệt chủ: ' + g.huyet_chu + '. Lời khuyên: ' + g.loi_khuyen).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      class="px-3.5 py-1.5 rounded-xl bg-teal-950/60 border border-teal-500/40 text-teal-300 hover:text-white text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer"
+                    >
+                      <span>🔊</span> <span>Nghe 12 Giờ Vàng</span>
+                    </button>
+                  </div>
+
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+                    ${filteredGio.map(g => `
+                      <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-teal-500/30 flex flex-col justify-between">
+                        <div>
+                          <b class="text-teal-300 font-bold block mb-1 text-sm">${g.khung_gio}</b>
+                          <p class="text-amber-200 font-bold text-xs mb-1">${g.kinh_lac}</p>
+                          <p class="text-emerald-300 text-[11px] mb-2"><b>Huyệt chủ:</b> ${g.huyet_chu}</p>
+                        </div>
+                        <p class="text-[11px] text-slate-300 italic pt-1 border-t border-slate-850">${g.loi_khuyen}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              `);
+            }
+          }
+        }
+      }
+
+      // 7. PHẦN 7: KỸ THUẬT DAY ẤN CHUẨN
+      if (subTab === 'all' || subTab === 'ky_thuat') {
+        const p7 = huyetDaoData.phan_7_cach_day_an_dung;
+        if (p7 && (!searchVal || removeVietnameseTones(JSON.stringify(p7)).toLowerCase().includes(searchVal))) {
+          const safeSpeakP7 = `${p7.tieu_de}. Quy tắc 3 lực: Nhẹ, Vừa, Mạnh. ${p7.quy_tac_3_luc.nguyen_tac_vang}. Thời gian mỗi huyệt: ${p7.thoi_gian_va_tan_suat.thoi_gian_moi_huyet}. 4 bước thao tác chuẩn: ${p7.thao_tac_chuan_4_buoc.join('. ')}`.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+
+          cardsHtml.push(`
+            <div class="col-span-full glass-card p-6 rounded-3xl border-emerald-500/30">
+              <div class="flex justify-between items-start gap-4 border-b border-slate-800 pb-3 mb-4">
+                <div>
+                  <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Phần 7</span>
+                  <h3 class="text-lg sm:text-xl font-black text-emerald-200 font-display">${p7.tieu_de}</h3>
+                </div>
+                <button onclick="playTTS(event, '${safeSpeakP7}', 'vi')" class="px-3.5 py-1.5 rounded-xl bg-emerald-900/60 border border-emerald-500/40 text-emerald-300 hover:text-white text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer">
+                  <span>🔊</span> <span>Nghe Kỹ Thuật</span>
+                </button>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-300">
+                <!-- Quy tắc 3 lực -->
+                <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-850 space-y-2.5">
+                  <b class="text-amber-300 text-sm block">✋ Quy Tắc 3 Mức Lực Bấm</b>
+                  <p><b class="text-slate-200">1. Lực nhẹ:</b> ${p7.quy_tac_3_luc.luc_nhe}</p>
+                  <p><b class="text-slate-200">2. Lực vừa:</b> ${p7.quy_tac_3_luc.luc_vua}</p>
+                  <p><b class="text-slate-200">3. Lực mạnh:</b> ${p7.quy_tac_3_luc.luc_manh}</p>
+                  <div class="p-2.5 rounded-xl bg-amber-950/40 border border-amber-500/20 text-amber-200 font-bold">${p7.quy_tac_3_luc.nguyen_tac_vang}</div>
+                </div>
+
+                <!-- 4 bước chuẩn -->
+                <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-850 space-y-2.5">
+                  <b class="text-emerald-300 text-sm block">🔄 Quy Trình 4 Bước Thao Tác Chuẩn</b>
+                  <ul class="space-y-2">
+                    ${p7.thao_tac_chuan_4_buoc.map(b => `
+                      <li class="p-2 rounded-xl bg-slate-900/80 border border-slate-800">${b}</li>
+                    `).join('')}
+                  </ul>
+                </div>
+
+                <!-- Sai lầm thường gặp -->
+                <div class="col-span-full p-4 rounded-2xl bg-rose-950/30 border border-rose-500/20 text-rose-200">
+                  <b class="text-rose-300 text-sm block mb-2">🚫 Các Sai Lầm Cần Tuyệt Đối Tránh</b>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    ${p7.sai_lam_thuong_gap.map(s => `
+                      <div class="p-2.5 rounded-xl bg-slate-950 border border-rose-900/30 text-[11px]">${s}</div>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // 8. PHẦN 8: TRA CỨU THEO 15 NHÓM BỆNH
+      if (subTab === 'all' || subTab === 'tra_cuu_benh') {
+        const p8 = huyetDaoData.phan_8_tra_cuu_theo_benh;
+        if (p8) {
+          const filteredDiseases = (p8.danh_sach_benh || []).filter(b => {
+            if (!searchVal) return true;
+            return removeVietnameseTones(`${b.stt} ${b.ten_benh} ${b.trieu_chung} ${b.danh_sach_huyet.join(' ')} ${b.phac_do}`).toLowerCase().includes(searchVal);
+          });
+
+          if (filteredDiseases.length > 0) {
+            cardsHtml.push(`
+              <div class="col-span-full glass-card p-6 rounded-3xl border-rose-500/30">
+                <div class="flex justify-between items-start gap-4 border-b border-slate-800 pb-3 mb-4">
+                  <div>
+                    <span class="text-xs font-bold text-rose-400 uppercase tracking-wider">Phần 8</span>
+                    <h3 class="text-lg sm:text-xl font-black text-rose-200 font-display">🩺 Bảng Phác Đồ Bấm Huyệt 15 Nhóm Bệnh Phổ Biến</h3>
+                  </div>
+                  <button 
+                    onclick="playTTS(event, '${filteredDiseases.map(d => 'Bệnh số ' + d.stt + ': ' + d.ten_benh + '. Triệu chứng: ' + d.trieu_chung + '. Các huyệt chính: ' + d.danh_sach_huyet.join(', ') + '. Phác đồ thực hiện: ' + d.phac_do).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                    class="px-3.5 py-1.5 rounded-xl bg-rose-950/60 border border-rose-500/40 text-rose-300 hover:text-white text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer"
+                  >
+                    <span>🔊</span> <span>Nghe Danh Sách Bệnh</span>
+                  </button>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                  ${filteredDiseases.map(b => {
+                    const audioB = `Bệnh số ${b.stt}: ${b.ten_benh}. Triệu chứng: ${b.trieu_chung}. Các huyệt chủ trị gồm có: ${b.danh_sach_huyet.join(', ')}. Phác đồ thực hiện: ${b.phac_do}`;
+                    const safeAudioB = audioB.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+
+                    return `
+                      <div class="p-4 rounded-2xl bg-slate-950/90 border border-slate-800 hover:border-rose-500/40 flex flex-col justify-between transition-all">
+                        <div>
+                          <div class="flex items-center justify-between gap-2 border-b border-slate-850 pb-2 mb-2">
+                            <b class="text-rose-300 font-bold text-sm">#${b.stt}. ${b.ten_benh}</b>
+                            <button 
+                              onclick="playTTS(event, '${safeAudioB}', 'vi')" 
+                              class="p-1.5 rounded-lg bg-slate-900 text-rose-300 hover:text-white"
+                              title="Nghe bệnh này"
+                            >
+                              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                            </button>
+                          </div>
+                          <p class="text-slate-300 mb-2"><b>Triệu chứng:</b> ${b.trieu_chung}</p>
+                          <div class="flex flex-wrap gap-1.5 mb-2.5">
+                            ${b.danh_sach_huyet.map(h => `<span class="px-2 py-0.5 rounded-md bg-emerald-950/60 border border-emerald-500/30 text-emerald-300 font-bold text-[11px]">${h}</span>`).join('')}
+                          </div>
+                        </div>
+                        <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 text-slate-200 text-[11px]">
+                          <b class="text-amber-300 block mb-1">📋 Phác đồ thao tác:</b>
+                          <p class="leading-relaxed">${b.phac_do}</p>
+                        </div>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+              </div>
+            `);
+          }
+        }
+      }
+
+      // Display Empty State or Results
+      if (cardsHtml.length === 0) {
+        area.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 glass-card rounded-3xl"><p class="font-bold text-slate-400">Không tìm thấy nội dung phù hợp với từ khóa "${searchVal}".</p></div>`;
+        if (countEl) countEl.textContent = "0 kết quả";
+      } else {
+        area.innerHTML = cardsHtml.join('');
+        if (countEl) countEl.textContent = `Hiển thị: ${cardsHtml.length} mục chi tiết`;
+      }
+    };
+
+    document.getElementById('huyetdao-search')?.addEventListener('input', () => {
+      renderHuyetDao();
+    });
+
+
     // --- KINH PHAP CU LOGIC ---
     function renderPhapCuCards() {
       if (!phapCuData) return;
@@ -10166,6 +10902,7 @@
         const hasPhapLuat = isAdmin || currentUser.quyen.includes('phapluat');
         const hasGout = isAdmin || currentUser.quyen.includes('gout');
         const hasPhongThuy = isAdmin || currentUser.quyen.includes('phongthuy');
+        const hasHuyetDao = isAdmin || currentUser.quyen.includes('huyetdao');
         const hasAiAgent = isAdmin || currentUser.quyen.includes('aiagent');
         const hasUsers = isAdmin || currentUser.quyen.includes('users');
 
@@ -10183,6 +10920,7 @@
         toggleTabButtonVisibility('tab-phapluat', hasPhapLuat);
         toggleTabButtonVisibility('tab-gout', hasGout);
         toggleTabButtonVisibility('tab-phongthuy', hasPhongThuy);
+        toggleTabButtonVisibility('tab-huyetdao', hasHuyetDao);
         toggleTabButtonVisibility('tab-aiagent', hasAiAgent);
         toggleTabButtonVisibility('tab-users', hasUsers);
 
@@ -10201,6 +10939,7 @@
           'phapluat': hasPhapLuat,
           'gout': hasGout,
           'phongthuy': hasPhongThuy,
+          'huyetdao': hasHuyetDao,
           'aiagent': hasAiAgent,
           'users': hasUsers
         };
@@ -10220,6 +10959,7 @@
         else if (phapluatSection && !phapluatSection.classList.contains('hidden')) currentTab = 'phapluat';
         else if (goutSection && !goutSection.classList.contains('hidden')) currentTab = 'gout';
         else if (phongthuySection && !phongthuySection.classList.contains('hidden')) currentTab = 'phongthuy';
+        else if (huyetdaoSection && !huyetdaoSection.classList.contains('hidden')) currentTab = 'huyetdao';
         else if (!aiagentSection.classList.contains('hidden')) currentTab = 'aiagent';
         else if (!document.getElementById('users-section').classList.contains('hidden')) currentTab = 'users';
 
@@ -10238,6 +10978,7 @@
           else if (hasPhapLuat) switchMainTab('phapluat');
           else if (hasGout) switchMainTab('gout');
           else if (hasPhongThuy) switchMainTab('phongthuy');
+          else if (hasHuyetDao) switchMainTab('huyetdao');
           else if (hasAiAgent) switchMainTab('aiagent');
           else if (hasUsers) switchMainTab('users');
         }
@@ -10344,6 +11085,7 @@
         if (u.quyen.includes('phapluat')) permsList.push('Pháp Luật');
         if (u.quyen.includes('gout')) permsList.push('Gút');
         if (u.quyen.includes('phongthuy')) permsList.push('Phong Thủy');
+        if (u.quyen.includes('huyetdao')) permsList.push('Huyệt Đạo');
         if (u.quyen.includes('aiagent')) permsList.push('Trợ Lý AI');
         if (u.quyen.includes('users')) permsList.push('Quản Trị');
 
@@ -10471,6 +11213,7 @@
       if (document.getElementById('perm-phapluat')?.checked) quyen.push('phapluat');
       if (document.getElementById('perm-gout')?.checked) quyen.push('gout');
       if (document.getElementById('perm-phongthuy')?.checked) quyen.push('phongthuy');
+      if (document.getElementById('perm-huyetdao')?.checked) quyen.push('huyetdao');
       if (document.getElementById('perm-aiagent')?.checked) quyen.push('aiagent');
 
       const isDefaultAdmin = email.toLowerCase() === 'admin@gmail.com';
@@ -10505,6 +11248,7 @@
       if (document.getElementById('perm-phapluat')) document.getElementById('perm-phapluat').checked = false;
       if (document.getElementById('perm-gout')) document.getElementById('perm-gout').checked = false;
       if (document.getElementById('perm-phongthuy')) document.getElementById('perm-phongthuy').checked = false;
+      if (document.getElementById('perm-huyetdao')) document.getElementById('perm-huyetdao').checked = false;
       document.getElementById('perm-aiagent').checked = false;
 
       renderMembersList();
@@ -10539,7 +11283,7 @@
 
     async function preloadAllData() {
       try {
-        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt] = await Promise.all([
+        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt, rawHd] = await Promise.all([
           fetchJsonWithCache('./data.json').catch(() => []),
           fetchJsonWithCache('./tieng_trung.json').catch(() => null),
           fetchJsonWithCache('./kinh_dich.json').catch(() => null),
@@ -10553,7 +11297,8 @@
           fetchJsonWithCache('./tu_thu_ngu_kinh.json').catch(() => null),
           fetchJsonWithCache('./phap_luat_vn.json').catch(() => null),
           fetchJsonWithCache('./gout.json').catch(() => null),
-          fetchJsonWithCache('./phong_thuy.json').catch(() => null)
+          fetchJsonWithCache('./phong_thuy.json').catch(() => null),
+          fetchJsonWithCache('./huyet_dao.json').catch(() => null)
         ]);
 
         if (rawP && rawP.length > 0) {
