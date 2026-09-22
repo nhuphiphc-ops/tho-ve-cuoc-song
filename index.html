@@ -7089,7 +7089,7 @@
                         <div>
                           <b class="text-yellow-300 text-xs block mb-1">${item.nhom}</b>
                           <p class="text-slate-300 text-[11px] mb-1"><b>Cung:</b> ${item.cac_cung}</p>
-                          <p class="text-emerald-300 text-[11px] mb-1.5"><b>4 Hướng Tốt:</b> ${item.4_huong_tot}</p>
+                          <p class="text-emerald-300 text-[11px] mb-1.5"><b>4 Hướng Tốt:</b> ${item['4_huong_tot']}</p>
                         </div>
                         <p class="text-[10px] text-slate-400 italic pt-1 border-t border-slate-850">${item.loai_khuyen}</p>
                       </div>
@@ -7273,7 +7273,7 @@
                     <b class="text-yellow-300 text-xs block mb-1.5">🍳 4.3 Bếp Nấu (Trái Tim Nhà)</b>
                     <span class="text-[10px] font-bold text-amber-400 bg-amber-950/60 px-2 py-0.5 rounded border border-amber-500/30 block mb-2">${p4.bep_nau.nguyen_tac_toa_hung_huong_cat}</span>
                     <ul class="space-y-1 text-[10px] text-slate-300 mb-2">
-                      ${p4.bep_nau.4_dieu_cam_ky_tuyet_doi.map(c => `<li>${c}</li>`).join('')}
+                      ${p4.bep_nau['4_dieu_cam_ky_tuyet_doi'].map(c => `<li>${c}</li>`).join('')}
                     </ul>
                   </div>
                   <p class="text-emerald-300 text-[10px] p-2 rounded-xl bg-slate-950 border border-slate-850"><b>🛠️ Hóa giải Thủy Hỏa:</b> ${p4.bep_nau.xung_khac_thuy_hoa.giai_phap}</p>
@@ -7285,7 +7285,7 @@
                     <b class="text-amber-300 text-xs block mb-1.5">🛏️ 4.4 Phòng Ngủ (Tái Tạo Khí)</b>
                     <p class="text-emerald-300 text-[11px] leading-relaxed mb-1.5">✓ ${p4.phong_ngu.vi_tri_giuong}</p>
                     <ul class="space-y-1 text-[10px] text-rose-300/90 mb-2">
-                      ${p4.phong_ngu.5_loi_cam_ky_dat_giuong.map(l => `<li>${l}</li>`).join('')}
+                      ${p4.phong_ngu['5_loi_cam_ky_dat_giuong'].map(l => `<li>${l}</li>`).join('')}
                     </ul>
                   </div>
                   <p class="text-slate-300 text-[10px] p-2 rounded-xl bg-slate-950">🎨 ${p4.phong_ngu.mau_sac_phong_ngu}</p>
