@@ -746,5 +746,520 @@
         }
       }
     ]
+  },
+  "van_ban_moi_doanh_nghiep_niem_yet": {
+    "tieu_de": "📜 VĂN BẢN PHÁP LUẬT MỚI NHẤT — DOANH NGHIỆP NIÊM YẾT (XÂY DỰNG & BẤT ĐỘNG SẢN)",
+    "loi_dan": "Hệ thống văn bản pháp luật chuẩn mực, đầy đủ và cập nhật mới nhất năm 2026 dành riêng cho các Doanh nghiệp Niêm yết thuộc khối ngành Xây dựng & Bất động sản. Phân tầng rõ ràng: Luật cơ sở → Nghị định hướng dẫn → Thông tư → Quy chế sàn HOSE/HNX/UPCoM.",
+    "khau_hieu_cot_loi": "Nắm vững pháp lý — Tuân thủ chuẩn xác — Công bố minh bạch — Bảo vệ an toàn doanh nghiệp và nhà đầu tư.",
+    "bang_tong_hop_trang_thai": [
+      {
+        "nhom": "I. Nhóm Luật cơ sở",
+        "tong_so": 6,
+        "moi_2026": 1,
+        "dang_ap_dung": 6,
+        "het_hieu_luc": 1,
+        "sap_co_hieu_luc": "1 (dự kiến)",
+        "ghi_chu": "Nền tảng pháp lý cốt lõi về quản trị, chứng khoán, đất đai, nhà ở, thuế GTGT"
+      },
+      {
+        "nhom": "II. Nhóm Nghị định hướng dẫn",
+        "tong_so": 8,
+        "moi_2026": 3,
+        "dang_ap_dung": 8,
+        "het_hieu_luc": 2,
+        "sap_co_hieu_luc": "—",
+        "ghi_chu": "Quy định chi tiết thi hành Luật, mức xử phạt vi phạm chứng khoán, xây dựng & BĐS"
+      },
+      {
+        "nhom": "III. Nhóm Thông tư hướng dẫn",
+        "tong_so": 10,
+        "moi_2026": 4,
+        "dang_ap_dung": 10,
+        "het_hieu_luc": 2,
+        "sap_co_hieu_luc": "—",
+        "ghi_chu": "Kế toán DN (TT 99 thay TT 200), BCTC hợp nhất (TT 43 sửa TT 202), CBTT (TT 05 sửa TT 96), Định mức XD & Thuế"
+      },
+      {
+        "nhom": "IV. Quy chế sàn & UBCK",
+        "tong_so": 3,
+        "moi_2026": "Cập nhật liên tục",
+        "dang_ap_dung": 3,
+        "het_hieu_luc": 0,
+        "sap_co_hieu_luc": "Theo thông báo",
+        "ghi_chu": "Quy chế niêm yết & giao dịch HOSE, HNX, UPCoM"
+      },
+      {
+        "nhom": "V. Văn bản liên quan trực tiếp",
+        "tong_so": 4,
+        "moi_2026": 2,
+        "dang_ap_dung": 4,
+        "het_hieu_luc": 0,
+        "sap_co_hieu_luc": "—",
+        "ghi_chu": "Đăng ký kinh doanh, lao động, môi trường, PCCC trong xây dựng"
+      }
+    ],
+    "tong_so_luong": {
+      "tong": 31,
+      "moi_2026": 10,
+      "dang_ap_dung": 31,
+      "het_hieu_luc": 4,
+      "sap_co_hieu_luc": 1
+    },
+    "nhom_1_luat_co_so": [
+      {
+        "stt": "L1",
+        "ten_van_ban": "Luật Doanh nghiệp 59/2020/QH14",
+        "ngay_hieu_luc": "01/01/2021",
+        "trang_thai": "Đang áp dụng",
+        "loai_trang_thai": "active",
+        "ap_dung_chinh": "Cơ cấu tổ chức, quản trị công ty cổ phần, thẩm quyền và trình tự họp ĐHĐCĐ, quyền hạn HĐQT, Ban kiểm soát, người đại diện theo pháp luật, chế độ báo cáo tài chính và công bố thông tin nội bộ.",
+        "diem_luu_y": "Quy định chặt chẽ về quyền biểu quyết, giao dịch với người có liên quan và trách nhiệm người quản lý doanh nghiệp.",
+        "bo_phan_phu_trach": "HĐQT, Ban Tổng Giám Đốc, Thư ký Công ty, Pháp chế"
+      },
+      {
+        "stt": "L2",
+        "ten_van_ban": "Luật Chứng khoán 54/2019/QH14",
+        "ngay_hieu_luc": "01/01/2021",
+        "trang_thai": "Đang áp dụng",
+        "loai_trang_thai": "active",
+        "ap_dung_chinh": "Điều kiện duy trì tư cách công ty đại chúng, tiêu chuẩn niêm yết cổ phiếu trên sàn HOSE/HNX, nghĩa vụ công bố thông tin (định kỳ, bất thường, theo yêu cầu), quản trị công ty đại chúng, giám sát giao dịch của cổ đông lớn và người nội bộ.",
+        "diem_luu_y": "Nghiêm cấm các hành vi thao túng giá, sử dụng thông tin nội bộ để mua bán cổ phiếu, che giấu thông tin sở hữu.",
+        "bo_phan_phu_trach": "Quan hệ Cổ đông (IR), Thư ký HĐQT, Tài chính - Kế toán"
+      },
+      {
+        "stt": "L3",
+        "ten_van_ban": "Luật Xây dựng 50/2014/QH13 (sửa đổi, bổ sung bởi Luật số 62/2020/QH14)",
+        "ngay_hieu_luc": "01/01/2015",
+        "trang_thai": "Đang áp dụng",
+        "loai_trang_thai": "active",
+        "ap_dung_chinh": "Lập, thẩm định, phê duyệt dự án đầu tư xây dựng; cấp giấy phép xây dựng; quản lý thi công xây dựng công trình; quản lý chi phí đầu tư và hợp đồng xây dựng; nghiệm thu, bàn giao đưa công trình vào sử dụng; bảo hành công trình và điều kiện năng lực hoạt động xây dựng.",
+        "diem_luu_y": "Bắt buộc tuân thủ quy chuẩn kỹ thuật, tiêu chuẩn an toàn lao động và bảo vệ môi trường trong suốt quá trình thi công.",
+        "bo_phan_phu_trach": "Khối Kỹ thuật & Dự án, Ban Quản lý Dự án, Giám sát Công trường"
+      },
+      {
+        "stt": "L4",
+        "ten_van_ban": "Luật Đất đai 31/2024/QH15",
+        "ngay_hieu_luc": "01/01/2026",
+        "trang_thai": "Đang áp dụng (MỚI)",
+        "loai_trang_thai": "new_active",
+        "ap_dung_chinh": "Quyền và nghĩa vụ của người sử dụng đất; bồi thường, hỗ trợ, tái định cư và giải phóng mặt bằng (GPMB); bỏ khung giá đất chuyển sang Bảng giá đất theo nguyên tắc thị trường; quy hoạch sử dụng đất; giao đất, cho thuê đất thông qua đấu giá quyền sử dụng đất hoặc đấu thầu lựa chọn nhà đầu tư; dành tối thiểu 20% quỹ đất làm Nhà ở xã hội (NOXH).",
+        "diem_luu_y": "Doanh nghiệp BĐS cần đặc biệt chú ý cách tính tiền sử dụng đất mới theo bảng giá đất thị trường để lập phương án tài chính dự án.",
+        "bo_phan_phu_trach": "Khối Phát triển Dự án, Pháp chế BĐS, Ban Đầu tư"
+      },
+      {
+        "stt": "L5",
+        "ten_van_ban": "Luật Nhà ở 65/2014/QH13 (sửa đổi, bổ sung 2023 - 2024)",
+        "ngay_hieu_luc": "01/07/2015",
+        "trang_thai": "Đang áp dụng",
+        "loai_trang_thai": "active",
+        "ap_dung_chinh": "Phân loại nhà ở (thương mại, xã hội, công vụ, tái định cư); chính sách phát triển nhà ở xã hội (NOXH); quản lý sử dụng nhà chung cư, quy chế thành lập Ban Quản trị chung cư; quản lý quỹ bảo trì 2% phần sở hữu chung.",
+        "diem_luu_y": "Minh bạch tuyệt đối tài khoản thu và bàn giao quỹ bảo trì 2% cho Ban quản trị nhà chung cư theo đúng thời hạn luật định.",
+        "bo_phan_phu_trach": "Ban Quản lý Tòa nhà, Ban Bán hàng BĐS, Kế toán Quỹ"
+      },
+      {
+        "stt": "L6",
+        "ten_van_ban": "Luật Kinh doanh Bất động sản 66/2014/QH13 (sửa đổi, bổ sung 2023 - 2024)",
+        "ngay_hieu_luc": "01/07/2015",
+        "trang_thai": "Đang áp dụng",
+        "loai_trang_thai": "active",
+        "ap_dung_chinh": "Điều kiện đưa bất động sản hình thành trong tương lai vào kinh doanh (bán trước); bảo lãnh ngân hàng trong bán nhà hình thành trong tương lai; hợp đồng kinh doanh BĐS theo mẫu quy chuẩn; công khai minh bạch thông tin dự án trước khi mở bán; điều kiện kinh doanh dịch vụ sàn giao dịch BĐS.",
+        "diem_luu_y": "Tuyệt đối không huy động vốn trái phép, không bán nhà khi chưa đủ điều kiện pháp lý và chưa có bảo lãnh ngân hàng.",
+        "bo_phan_phu_trach": "Khối Kinh doanh BĐS, Pháp chế Dự án, Phòng Hợp đồng"
+      },
+      {
+        "stt": "L7",
+        "ten_van_ban": "Luật Thuế GTGT 48/2024/QH15",
+        "ngay_hieu_luc": "01/01/2026",
+        "trang_thai": "Đang áp dụng (MỚI 2026)",
+        "loai_trang_thai": "new_active",
+        "ap_dung_chinh": "Quy định thuế suất thuế GTGT 5% đối với Nhà ở xã hội (NOXH) và 10% đối với Bất động sản thương mại; thời điểm xác định nghĩa vụ thuế GTGT theo thời điểm lập hóa đơn nghiệm thu/thu tiền theo tiến độ hợp đồng.",
+        "diem_luu_y": "Phải hạch toán và kê khai riêng biệt doanh thu, thuế đầu ra giữa NOXH và nhà ở thương mại; không được gộp chung.",
+        "bo_phan_phu_trach": "Phòng Kế toán Thuế, Phòng Tài chính"
+      },
+      {
+        "stt": "—",
+        "ten_van_ban": "Luật Thuế GTGT 2008 (và các luật sửa đổi cũ)",
+        "ngay_hieu_luc": "—",
+        "trang_thai": "Hết hiệu lực",
+        "loai_trang_thai": "expired",
+        "ap_dung_chinh": "Đã được thay thế hoàn toàn bởi Luật Thuế GTGT số 48/2024/QH15 có hiệu lực từ ngày 01/01/2026.",
+        "diem_luu_y": "Chỉ áp dụng để quyết toán các kỳ thuế trước ngày 01/01/2026.",
+        "bo_phan_phu_trach": "Kế toán Thuế"
+      }
+    ],
+    "nhom_2_nghi_dinh": [
+      {
+        "stt": "N1",
+        "ten_van_ban": "Nghị định 155/2020/NĐ-CP",
+        "ngay_hieu_luc": "01/01/2021",
+        "trang_thai": "Đang áp dụng",
+        "loai_trang_thai": "active",
+        "noi_dung_chinh": "Quy định chi tiết thi hành một số điều của Luật Chứng khoán: Điều kiện chào bán chứng khoán ra công chúng, niêm yết tại Sở giao dịch chứng khoán, tổ chức thị trường giao dịch, công bố thông tin và quản trị công ty đại chúng.",
+        "anh_huong": "Khung pháp lý nền tảng cho việc vận hành công ty đại chúng niêm yết.",
+        "bo_phan": "Thư ký HĐQT, IR, Ban Tài chính"
+      },
+      {
+        "stt": "N2",
+        "ten_van_ban": "Nghị định 36/2026/NĐ-CP (Sửa đổi, bổ sung NĐ 155/2020/NĐ-CP)",
+        "ngay_hieu_luc": "01/07/2026",
+        "trang_thai": "MỚI NĂM 2026",
+        "loai_trang_thai": "new_active",
+        "noi_dung_chinh": "⚠️ THAY ĐỔI CỐT LÕI: (1) Rút ngắn thời hạn Công bố thông tin bất thường từ 24 giờ xuống 12 giờ kể từ khi phát sinh sự kiện; (2) Hạ ngưỡng báo cáo sở hữu cổ phiếu của cổ đông lớn từ 5% xuống 3%; (3) Bắt buộc công khai tiến độ triển khai các dự án đầu tư lớn định kỳ hàng tháng trên website và hệ thống CBTT của sàn.",
+        "anh_huong": "Yêu cầu hệ thống giám sát và phê duyệt thông tin của doanh nghiệp phải phản ứng cực nhanh; bộ phận IR và Thư ký phải trực 24/7.",
+        "bo_phan": "Thư ký HĐQT, Quan hệ Nhà đầu tư (IR), Ban Giám đốc"
+      },
+      {
+        "stt": "N3",
+        "ten_van_ban": "Nghị định 108/2024/NĐ-CP (Xử phạt vi phạm hành chính trong lĩnh vực chứng khoán)",
+        "ngay_hieu_luc": "01/01/2025",
+        "trang_thai": "Đang áp dụng",
+        "loai_trang_thai": "active",
+        "noi_dung_chinh": "Quy định chi tiết mức phạt vi phạm về công bố thông tin, vi phạm quản trị công ty, giao dịch cổ phiếu của người nội bộ/người có liên quan. Phạt tiền từ 10 - 100 triệu đồng đối với hành vi chậm CBTT; giao dịch không báo cáo trước bị tịch thu toàn bộ khoản thu bất hợp pháp + đình chỉ giao dịch từ 3 - 5 tháng.",
+        "anh_huong": "Rủi ro pháp lý và uy tín rất lớn nếu để lãnh đạo hoặc người nội bộ vi phạm giao dịch cổ phiếu.",
+        "bo_phan": "Pháp chế, Thư ký HĐQT, Toàn thể Thành viên HĐQT & BKS"
+      },
+      {
+        "stt": "N4",
+        "ten_van_ban": "Nghị định 339/2026/NĐ-CP (Xử phạt vi phạm hành chính xây dựng & BĐS)",
+        "ngay_hieu_luc": "26/08/2026",
+        "trang_thai": "MỚI NĂM 2026",
+        "loai_trang_thai": "new_active",
+        "noi_dung_chinh": "⚠️ THAY THẾ HOÀN TOÀN NĐ 16/2022/NĐ-CP: Tăng mạnh chế tài xử phạt đối với các hành vi: (1) Bán nhà ở hình thành trong tương lai khi chưa đủ điều kiện/chưa có bảo lãnh: phạt 200 - 500 triệu đồng + buộc hoàn trả tiền gốc và lãi; (2) Thi công không phép hoặc sai giấy phép xây dựng: phạt 500 triệu - 1 tỷ đồng + buộc tháo dỡ công trình vi phạm.",
+        "anh_huong": "Kiểm soát tuyệt đối hồ sơ pháp lý dự án và biện pháp thi công tại hiện trường để tránh bị phạt và đình chỉ dự án.",
+        "bo_phan": "Ban Quản lý Dự án, Khối Kinh doanh BĐS, Giám sát Thi công"
+      },
+      {
+        "stt": "—",
+        "ten_van_ban": "Nghị định 16/2022/NĐ-CP (Quy định xử phạt vi phạm hành chính xây dựng)",
+        "ngay_hieu_luc": "—",
+        "trang_thai": "Hết hiệu lực",
+        "loai_trang_thai": "expired",
+        "noi_dung_chinh": "Đã hết hiệu lực và được thay thế toàn diện bởi Nghị định số 339/2026/NĐ-CP kể từ ngày 26/08/2026.",
+        "anh_huong": "Chuyển toàn bộ quy trình kiểm tra xử phạt nội bộ sang áp dụng biểu mức phạt theo NĐ 339/2026/NĐ-CP.",
+        "bo_phan": "Pháp chế Dự án"
+      },
+      {
+        "stt": "N5",
+        "ten_van_ban": "Nghị định 49/2025/NĐ-CP (Quy định chi tiết phát triển và quản lý khu đô thị mới)",
+        "ngay_hieu_luc": "15/01/2026",
+        "trang_thai": "MỚI NĂM 2026",
+        "loai_trang_thai": "new_active",
+        "noi_dung_chinh": "Quy định bắt buộc dự án khu đô thị mới phải bố trí quỹ đất dành riêng cho Nhà ở xã hội (NOXH) đạt tỷ lệ tối thiểu 20% tổng diện tích đất ở; hoàn thiện đồng bộ 100% hạ tầng kỹ thuật và xã hội (trường học, y tế, cây xanh) trước khi được bàn giao nhà thương mại.",
+        "anh_huong": "Quy hoạch phân kỳ đầu tư và phân bổ dòng vốn dự án phải ưu tiên hoàn thiện hạ tầng và quỹ đất NOXH.",
+        "bo_phan": "Khối Kỹ thuật & Thiết kế, Ban Đầu tư, Tài chính Dự án"
+      },
+      {
+        "stt": "N6",
+        "ten_van_ban": "Nghị định 09/2024/NĐ-CP (Sửa đổi, bổ sung chi tiết Luật Doanh nghiệp)",
+        "ngay_hieu_luc": "15/03/2024",
+        "trang_thai": "Đang áp dụng",
+        "loai_trang_thai": "active",
+        "noi_dung_chinh": "Cho phép và chuẩn hóa quy trình tổ chức Đại hội đồng Cổ đông (ĐHĐCĐ) theo hình thức trực tuyến (E-voting), lấy ý kiến cổ đông bằng văn bản điện tử, đơn giản hóa thủ tục công bố thông tin và đăng ký người đại diện theo pháp luật.",
+        "anh_huong": "Tiết kiệm chi phí tổ chức ĐHĐCĐ, tăng tỷ lệ tham gia biểu quyết của cổ đông trong và ngoài nước.",
+        "bo_phan": "Thư ký Công ty, Phòng CNTT, Pháp chế"
+      },
+      {
+        "stt": "N7",
+        "ten_van_ban": "Nghị quyết / Nghị định 43/2026/QH16 (Chính sách giảm thuế TNDN hỗ trợ doanh nghiệp)",
+        "ngay_hieu_luc": "24/08/2026",
+        "trang_thai": "MỚI NĂM 2026",
+        "loai_trang_thai": "new_active",
+        "noi_dung_chinh": "Giảm 30% số thuế Thu nhập Doanh nghiệp (TNDN) phải nộp trong kỳ tính thuế năm 2026 - 2027 đối với các doanh nghiệp có tổng doanh thu năm không quá 10 tỷ đồng và không có nợ thuế quá hạn.",
+        "anh_huong": "Áp dụng tối ưu thuế cho các công ty con/công ty thành viên trong tập đoàn đủ điều kiện doanh thu.",
+        "bo_phan": "Phòng Kế toán Thuế, Ban Tài chính Tập đoàn"
+      },
+      {
+        "stt": "N8",
+        "ten_van_ban": "Nghị định 159/2020/NĐ-CP (Quy định về đăng ký doanh nghiệp)",
+        "ngay_hieu_luc": "15/01/2021",
+        "trang_thai": "Đang áp dụng",
+        "loai_trang_thai": "active",
+        "noi_dung_chinh": "Quy định hồ sơ, trình tự, thủ tục đăng ký thành lập doanh nghiệp, đăng ký thay đổi nội dung Giấy chứng nhận ĐKDN, tạm ngừng kinh doanh, giải thể. Bắt buộc thực hiện thủ tục thay đổi trong 10 ngày làm việc và CBTT đồng thời trên cổng thông tin quốc gia.",
+        "anh_huong": "Tuân thủ chặt chẽ thời hạn 10 ngày khi có bất kỳ thay đổi nào về ngành nghề kinh doanh, vốn điều lệ hoặc người đại diện.",
+        "bo_phan": "Pháp chế Doanh nghiệp, Hành chính - Tổng hợp"
+      }
+    ],
+    "nhom_3_thong_tu": {
+      "ke_toan_tai_chinh": [
+        {
+          "stt": "T1",
+          "ten_van_ban": "Thông tư 99/2025/TT-BTC (Hướng dẫn chế độ Kế toán Doanh nghiệp)",
+          "ngay_hieu_luc": "01/01/2026",
+          "trang_thai": "MỚI NĂM 2026",
+          "loai_trang_thai": "new_active",
+          "noi_dung_chinh": "⚠️ THAY THẾ HOÀN TOÀN THÔNG TƯ 200/2014/TT-BTC: (1) Đổi tên Bảng Cân đối kế toán thành 'Báo cáo Tình hình Tài chính'; (2) Trao quyền tự chủ cho doanh nghiệp trong việc mở và đổi tên các tài khoản cấp 2, cấp 3 phù hợp với đặc thù sản xuất kinh doanh xây dựng/BĐS; (3) Cập nhật hệ thống biểu mẫu BCTC mới theo chuẩn quốc tế IFRS.",
+          "anh_huong": "Phòng Kế toán phải cấu hình lại toàn bộ phần mềm ERP/kế toán, tập huấn nhân sự và lập BCTC quý 1/2026 theo biểu mẫu Thông tư 99.",
+          "bo_phan": "Phòng Kế toán Trưởng, Phòng CNTT/ERP"
+        },
+        {
+          "stt": "—",
+          "ten_van_ban": "Thông tư 200/2014/TT-BTC (Chế độ Kế toán Doanh nghiệp cũ)",
+          "ngay_hieu_luc": "—",
+          "trang_thai": "Hết hiệu lực",
+          "loai_trang_thai": "expired",
+          "noi_dung_chinh": "Đã hết hiệu lực và được thay thế toàn diện bởi Thông tư số 99/2025/TT-BTC từ ngày 01/01/2026.",
+          "anh_huong": "Không áp dụng cho các niên độ tài chính từ năm 2026 trở đi.",
+          "bo_phan": "Phòng Kế toán"
+        },
+        {
+          "stt": "T2",
+          "ten_van_ban": "Thông tư 202/2014/TT-BTC (Hướng dẫn lập BCTC hợp nhất)",
+          "ngay_hieu_luc": "05/02/2015",
+          "trang_thai": "Vẫn đang áp dụng",
+          "loai_trang_thai": "active",
+          "noi_dung_chinh": "Quy định phương pháp lập và trình bày Báo cáo tài chính hợp nhất cho công ty mẹ và các công ty con; nguyên tắc loại trừ giao dịch nội bộ, phân bổ lợi thế thương mại và xử lý lợi ích của cổ đông không kiểm soát.",
+          "anh_huong": "Vẫn giữ nguyên các nguyên tắc hợp nhất cốt lõi, chỉ sửa đổi phần biểu mẫu theo Thông tư 43/2026.",
+          "bo_phan": "Bộ phận Kế toán Hợp nhất BCTC"
+        },
+        {
+          "stt": "T3",
+          "ten_van_ban": "Thông tư 43/2026/TT-BTC (Sửa đổi, bổ sung Thông tư 202/2014/TT-BTC)",
+          "ngay_hieu_luc": "20/04/2026",
+          "trang_thai": "MỚI NĂM 2026",
+          "loai_trang_thai": "new_active",
+          "noi_dung_chinh": "⚠️ CHỈ SỬA ĐỔI BIỂU MẪU BCTC HỢP NHẤT, KHÔNG THAY THẾ TT 202: Đồng bộ biểu mẫu BCTC hợp nhất với Thông tư 99/2025; cập nhật chi tiết các chỉ tiêu về lợi thế thương mại và phân chia lợi nhuận cổ đông không kiểm soát.",
+          "anh_huong": "Áp dụng biểu mẫu hợp nhất mới ngay từ kỳ BCTC hợp nhất bán niên và quý 2/2026.",
+          "bo_phan": "Kế toán Hợp nhất, Kiểm toán nội bộ"
+        },
+        {
+          "stt": "T4",
+          "ten_van_ban": "Thông tư 118/2021/TT-BTC (Quy định về kiểm toán độc lập)",
+          "ngay_hieu_luc": "01/01/2022",
+          "trang_thai": "Đang áp dụng",
+          "loai_trang_thai": "active",
+          "noi_dung_chinh": "Tiêu chuẩn lựa chọn tổ chức kiểm toán độc lập được UBCKNN chấp thuận kiểm toán cho đơn vị có lợi ích công chúng thuộc lĩnh vực chứng khoán; chuẩn mực kiểm toán quốc tế về soát xét BCTC bán niên và kiểm toán BCTC năm.",
+          "anh_huong": "Lựa chọn công ty kiểm toán nằm trong danh sách Big 4 hoặc tổ chức kiểm toán được UBCKNN cấp phép hàng năm.",
+          "bo_phan": "Ban Kiểm soát, Ủy ban Kiểm toán trực thuộc HĐQT"
+        }
+      ],
+      "cong_bo_thong_tin": [
+        {
+          "stt": "T5",
+          "ten_van_ban": "Thông tư 96/2020/TT-BTC (Hướng dẫn Công bố thông tin trên thị trường chứng khoán)",
+          "ngay_hieu_luc": "01/01/2021",
+          "trang_thai": "Đang áp dụng",
+          "loai_trang_thai": "active",
+          "noi_dung_chinh": "Quy định đối tượng, phương tiện, ngôn ngữ và thời hạn công bố thông tin định kỳ (BCTC quý/bán niên/năm, Báo cáo thường niên, Báo cáo quản trị 6 tháng/năm), công bố thông tin bất thường và công bố theo yêu cầu của UBCK/Sở giao dịch.",
+          "anh_huong": "Cẩm nang tác nghiệp bắt buộc hàng ngày của cán bộ phụ trách công bố thông tin.",
+          "bo_phan": "Người được ủy quyền CBTT, Ban IR, Thư ký HĐQT"
+        },
+        {
+          "stt": "T6",
+          "ten_van_ban": "Thông tư 05/2026/TT-BTC (Sửa đổi, bổ sung Thông tư 96/2020/TT-BTC)",
+          "ngay_hieu_luc": "15/05/2026",
+          "trang_thai": "MỚI NĂM 2026",
+          "loai_trang_thai": "new_active",
+          "noi_dung_chinh": "⚠️ RÚT NGẮN THỜI HẠN CBTT BẤT THƯỜNG: Bắt buộc CBTT trong vòng 12 giờ kể từ khi có quyết định/sự kiện phát sinh (thay vì 24 giờ như trước); yêu cầu giải trình cụ thể biến động lợi nhuận sau thuế từ 10% trở lên hoặc chuyển từ lãi sang lỗ; công bố chi tiết tiến độ giải ngân và xây dựng các dự án BĐS trọng điểm.",
+          "anh_huong": "Tăng cường quy trình phê duyệt nội bộ; báo cáo ngay cho người đại diện pháp luật và Chủ tịch HĐQT khi có sự kiện phát sinh.",
+          "bo_phan": "Cán bộ CBTT, Quan hệ Nhà đầu tư (IR), Thư ký HĐQT"
+        },
+        {
+          "stt": "T7",
+          "ten_van_ban": "Thông tư 116/2021/TT-BTC (Hướng dẫn Quản trị Công ty Đại chúng)",
+          "ngay_hieu_luc": "01/01/2022",
+          "trang_thai": "Đang áp dụng",
+          "loai_trang_thai": "active",
+          "noi_dung_chinh": "Quy định cơ cấu HĐQT phải có tối thiểu 1/3 thành viên độc lập; bắt buộc có Thư ký công ty và Người phụ trách quản trị công ty; thành lập Ban Kiểm soát hoặc Ủy ban Kiểm toán trực thuộc HĐQT; quy định kỳ cấm giao dịch cổ phiếu (Blackout Period) trong vòng 30 ngày trước ngày công bố BCTC.",
+          "anh_huong": "Đảm bảo tính độc lập và minh bạch trong hoạt động của HĐQT; cấm tuyệt đối người nội bộ mua bán cổ phiếu trong thời gian nhạy cảm.",
+          "bo_phan": "Hội đồng Quản trị, Ban Kiểm soát, Thư ký Công ty"
+        }
+      ],
+      "xay_dung_bat_dong_san": [
+        {
+          "stt": "T8",
+          "ten_van_ban": "Thông tư 08/2026/TT-BXD (Phương pháp xác định và quản lý chi phí đầu tư xây dựng)",
+          "ngay_hieu_luc": "10/03/2026",
+          "trang_thai": "MỚI NĂM 2026",
+          "loai_trang_thai": "new_active",
+          "noi_dung_chinh": "Cập nhật cơ cấu 7 khoản mục chi phí trong Tổng mức đầu tư; quy định chi phí dự phòng rủi ro từ 5% - 10%; hạch toán chi phí lãi vay trong thời gian xây dựng vào tổng mức đầu tư; cập nhật phương pháp tính đơn giá nhân công, ca máy và định mức hao phí vật liệu mới.",
+          "anh_huong": "Lập dự toán và kế hoạch tài chính cho các dự án mới phê duyệt trong năm 2026 chuẩn xác theo định mức mới.",
+          "bo_phan": "Phòng Dự toán & Kinh tế Xây dựng, Ban Quản lý Dự án"
+        },
+        {
+          "stt": "T9",
+          "ten_van_ban": "Thông tư 12/2026/TT-BTC (Hướng dẫn chính sách thuế trong hoạt động Xây dựng & BĐS)",
+          "ngay_hieu_luc": "01/04/2026",
+          "trang_thai": "MỚI NĂM 2026",
+          "loai_trang_thai": "new_active",
+          "noi_dung_chinh": "Quy định thời điểm kê khai thuế GTGT và TNDN theo từng biên bản nghiệm thu giai đoạn hoặc tiến độ thanh toán; bắt buộc tách riêng doanh thu thuế suất 5% đối với NOXH và 10% đối với nhà thương mại; hướng dẫn đăng ký nộp thuế vãng lai 1% tại địa phương nơi có công trường xây dựng khác tỉnh.",
+          "anh_huong": "Tránh rủi ro bị truy thu thuế và xử phạt kê khai sai thời điểm doanh thu dự án.",
+          "bo_phan": "Phòng Kế toán Thuế, Kế toán Công trường"
+        },
+        {
+          "stt": "T10",
+          "ten_van_ban": "Thông tư 27/2025/TT-BXD (Quản lý chứng chỉ năng lực hoạt động xây dựng)",
+          "ngay_hieu_luc": "01/01/2026",
+          "trang_thai": "MỚI NĂM 2026",
+          "loai_trang_thai": "new_active",
+          "noi_dung_chinh": "Cập nhật tiêu chuẩn phân cấp chứng chỉ năng lực hoạt động xây dựng (Hạng I, Hạng II, Hạng III) cho tổ chức và chứng chỉ hành nghề của cá nhân; tích hợp tra cứu trực tuyến trên Cổng thông tin năng lực hoạt động xây dựng của Bộ Xây dựng.",
+          "anh_huong": "Rà soát toàn bộ chứng chỉ hành nghề của chỉ huy trưởng, kỹ sư giám sát và chứng chỉ năng lực công ty trước khi nộp hồ sơ dự thầu.",
+          "bo_phan": "Phòng Nhân sự, Phòng Kỹ thuật & Đấu thầu"
+        }
+      ]
+    },
+    "nhom_4_quy_che_san": [
+      {
+        "stt": "Q1",
+        "ten_van_ban": "Quy chế Niêm yết và Giao dịch Chứng khoán — HOSE",
+        "cap_nhat": "Cập nhật 2026",
+        "yeu_cau_chinh": "Bắt buộc báo cáo định kỳ tiến độ thực hiện các dự án sử dụng vốn huy động từ đợt phát hành cổ phiếu/trái phiếu; giải trình khi giá cổ phiếu tăng trần hoặc giảm sàn 5 phiên liên tiếp; phối hợp tổ chức các buổi gặp gỡ nhà đầu tư định kỳ.",
+        "ghi_chu": "Áp dụng cho doanh nghiệp niêm yết tại Sở Giao dịch Chứng khoán TP.HCM (HOSE)."
+      },
+      {
+        "stt": "Q2",
+        "ten_van_ban": "Quy chế Niêm yết và Giám sát Thị trường — HNX",
+        "cap_nhat": "Cập nhật 2026",
+        "yeu_cau_chinh": "Quy định tiêu chuẩn công bố báo cáo quản trị chi tiết, kiểm soát giao dịch cổ đông nội bộ, giải trình chênh lệch số liệu BCTC trước và sau kiểm toán từ 5% trở lên.",
+        "ghi_chu": "Áp dụng cho doanh nghiệp niêm yết tại Sở Giao dịch Chứng khoán Hà Nội (HNX)."
+      },
+      {
+        "stt": "Q3",
+        "ten_van_ban": "Quy chế Đăng ký Giao dịch — UPCoM",
+        "cap_nhat": "Cập nhật 2026",
+        "yeu_cau_chinh": "Tối giản một số thủ tục hành chính nhưng bắt buộc tuân thủ đầy đủ nghĩa vụ CBTT định kỳ (BCTC kiểm toán, Báo cáo thường niên) và CBTT bất thường theo quy định.",
+        "ghi_chu": "Áp dụng cho các công ty đại chúng đăng ký giao dịch trên sàn UPCoM."
+      }
+    ],
+    "tom_tat_thay_doi_2026": [
+      {
+        "stt": 1,
+        "noi_dung": "Áp dụng Thông tư 99/2025/TT-BTC — Thay thế TT 200/2014 từ BCTC Quý 1/2026 trở đi",
+        "han_chot": "Đã áp dụng",
+        "bo_phan": "Kế toán, Tài chính",
+        "canh_bao": "Đổi tên 'Báo cáo Tình hình Tài chính', cập nhật bảng danh mục tài khoản mới"
+      },
+      {
+        "stt": 2,
+        "noi_dung": "Rút ngắn thời hạn Công bố thông tin bất thường: 24 giờ ➔ 12 giờ (TT 05/2026/TT-BTC)",
+        "han_chot": "Đã áp dụng (Từ 15/05/2026)",
+        "bo_phan": "Thư ký HĐQT, Ban IR, Pháp chế",
+        "canh_bao": "Trực 24/7, phát sinh sự kiện phải phát hành CBTT ngay trong 12 tiếng"
+      },
+      {
+        "stt": 3,
+        "noi_dung": "Hạ ngưỡng báo cáo sở hữu cổ phiếu của Cổ đông lớn: 5% ➔ 3% (Nghị định 36/2026/NĐ-CP)",
+        "han_chot": "Từ 01/07/2026",
+        "bo_phan": "Thư ký HĐQT, Ban IR, Cổ đông lớn",
+        "canh_bao": "Khi sở hữu đạt từ 3% phải báo cáo UBCK và Sở Giao dịch trong 05 ngày làm việc"
+      },
+      {
+        "stt": 4,
+        "noi_dung": "Áp dụng Biểu mẫu BCTC Hợp nhất mới theo Thông tư 43/2026/TT-BTC (sửa TT 202/2014)",
+        "han_chot": "Đã áp dụng (Từ 20/04/2026)",
+        "bo_phan": "Kế toán Hợp nhất, Kiểm toán nội bộ",
+        "canh_bao": "Cập nhật chỉ tiêu lợi thế thương mại và lợi ích cổ đông không kiểm soát"
+      },
+      {
+        "stt": 5,
+        "noi_dung": "Tách thuế suất GTGT 5% NOXH và 10% BĐS thương mại theo Luật mới & TT 12/2026/TT-BTC",
+        "han_chot": "Kỳ khai thuế tháng 04/2026 trở đi",
+        "bo_phan": "Phòng Kế toán Thuế",
+        "canh_bao": "Hạch toán hóa đơn đầu ra riêng biệt, không gộp chung gây sai lệch quyết toán"
+      },
+      {
+        "stt": 6,
+        "noi_dung": "Rà soát cấu trúc Tổng mức đầu tư dự án theo Thông tư 08/2026/TT-BXD",
+        "han_chot": "Trước khi phê duyệt dự án mới",
+        "bo_phan": "Khối Kỹ thuật, Ban Quản lý Dự án",
+        "canh_bao": "Dự phòng 5-10%, tính chi phí lãi vay vào tổng mức đầu tư"
+      },
+      {
+        "stt": 7,
+        "noi_dung": "Rà soát chứng chỉ năng lực xây dựng của công ty và nhân sự theo Thông tư 27/2025/TT-BXD",
+        "han_chot": "Trước ngày 31/12/2026",
+        "bo_phan": "Phòng Nhân sự, Khối Đấu thầu",
+        "canh_bao": "Tra cứu trực tuyến trên Cổng Bộ Xây dựng trước khi nộp hồ sơ dự thầu"
+      },
+      {
+        "stt": 8,
+        "noi_dung": "Kiểm tra điều kiện hưởng chính sách giảm 30% thuế TNDN theo Nghị quyết 43/2026/QH16",
+        "han_chot": "Kỳ kê khai quyết toán năm 2026",
+        "bo_phan": "Kế toán Thuế, Tài chính Tập đoàn",
+        "canh_bao": "Doanh thu năm ≤ 10 tỷ đồng, không có nợ thuế quá hạn"
+      },
+      {
+        "stt": 9,
+        "noi_dung": "Rà soát quy trình quản lý hiện trường và phòng ngừa phạt theo Nghị định 339/2026/NĐ-CP (thay NĐ 16/2022)",
+        "han_chot": "Trước ngày 30/09/2026",
+        "bo_phan": "Pháp chế, Giám sát Công trường",
+        "canh_bao": "Phạt 200-500 triệu nếu bán nhà chưa đủ điều kiện; phạt 500tr-1 tỷ nếu xây sai phép"
+      },
+      {
+        "stt": 10,
+        "noi_dung": "Đảm bảo tỷ lệ quỹ đất NOXH ≥ 20% trong các dự án Khu đô thị mới theo Nghị định 49/2025/NĐ-CP",
+        "han_chot": "Theo tiến độ phê duyệt quy hoạch",
+        "bo_phan": "Khối Phát triển Dự án, Kinh doanh",
+        "canh_bao": "Bắt buộc hoàn thành hạ tầng đồng bộ trước khi bàn giao nhà thương mại"
+      }
+    ],
+    "bang_tra_cuu_nhanh": [
+      {
+        "cau_hoi": "Thông tư 200/2014/TT-BTC còn áp dụng không?",
+        "tra_loi": "❌ KHÔNG. Đã hết hiệu lực và được thay thế hoàn toàn bởi Thông tư 99/2025/TT-BTC từ ngày 01/01/2026.",
+        "ghi_chu": "Đổi tên Bảng CĐKT thành 'Báo cáo Tình hình Tài chính', áp dụng biểu mẫu mới."
+      },
+      {
+        "cau_hoi": "Thông tư 202/2014/TT-BTC về BCTC hợp nhất đã hết hiệu lực chưa?",
+        "tra_loi": "✅ CHƯA. Thông tư 202 vẫn đang áp dụng, chỉ có Thông tư 43/2026/TT-BTC sửa đổi, cập nhật lại biểu mẫu BCTC hợp nhất.",
+        "ghi_chu": "Vẫn giữ nguyên các nguyên tắc hợp nhất cốt lõi."
+      },
+      {
+        "cau_hoi": "Thời hạn công bố thông tin bất thường của công ty niêm yết hiện nay là bao lâu?",
+        "tra_loi": "⏱️ 12 GIỜ kể từ khi sự kiện phát sinh (áp dụng từ ngày 15/05/2026 theo TT 05/2026/TT-BTC và NĐ 36/2026/NĐ-CP, rút ngắn so với mức 24 giờ trước đây).",
+        "ghi_chu": "Yêu cầu bộ phận IR và Thư ký phải trực 24/7 để phát hành thông tin kịp thời."
+      },
+      {
+        "cau_hoi": "Ngưỡng tỷ lệ sở hữu để xác định cổ đông lớn cần báo cáo là bao nhiêu %?",
+        "tra_loi": "📊 Từ 3% TRỞ LÊN kể từ ngày 01/07/2026 theo Nghị định 36/2026/NĐ-CP (trước đây là 5%).",
+        "ghi_chu": "Khi đạt hoặc thay đổi bước 1% trên ngưỡng 3% phải báo cáo trong 05 ngày làm việc."
+      },
+      {
+        "cau_hoi": "Thuế suất GTGT đối với Nhà ở xã hội (NOXH) và BĐS thương mại tính như thế nào?",
+        "tra_loi": "🏷️ 5% đối với NOXH và 10% đối với Bất động sản thương mại theo Luật Thuế GTGT 48/2024/QH15.",
+        "ghi_chu": "Bắt buộc phải tách riêng hóa đơn và doanh thu, không được hạch toán gộp."
+      },
+      {
+        "cau_hoi": "Chính sách giảm 30% thuế TNDN áp dụng cho đối tượng nào?",
+        "tra_loi": "💰 Áp dụng cho các năm 2026 - 2027 đối với doanh nghiệp có tổng doanh thu năm không quá 10 tỷ đồng và không nợ thuế quá hạn (NQ 43/2026/QH16).",
+        "ghi_chu": "Áp dụng cho các công ty con/thành viên đủ điều kiện trong tập đoàn."
+      },
+      {
+        "cau_hoi": "Nghị định 16/2022/NĐ-CP về xử phạt xây dựng còn hiệu lực không?",
+        "tra_loi": "❌ KHÔNG. Đã được thay thế hoàn toàn bởi Nghị định 339/2026/NĐ-CP từ ngày 26/08/2026 với mức phạt tăng cao gấp nhiều lần.",
+        "ghi_chu": "Phạt 200 - 500 triệu nếu bán nhà chưa đủ điều kiện; 500 triệu - 1 tỷ nếu thi công không phép."
+      },
+      {
+        "cau_hoi": "Tỷ lệ quỹ đất dành cho Nhà ở xã hội (NOXH) trong dự án Khu đô thị mới là bao nhiêu?",
+        "tra_loi": "🏡 Tối thiểu 20% tổng diện tích đất ở trong đồ án quy hoạch theo Nghị định 49/2025/NĐ-CP và Luật Đất đai 2024.",
+        "ghi_chu": "Phải hoàn thành đồng bộ hạ tầng trước khi bàn giao nhà ở thương mại."
+      }
+    ],
+    "quy_tac_cap_nhat_luu_tru": {
+      "cap_nhat_tu_dong": [
+        "Nguồn kiểm tra dữ liệu hàng ngày: Cổng Thông tin Điện tử Chính phủ, UBCKNN, Bộ Tài chính, Bộ Xây dựng, Sở Giao dịch Chứng khoán HOSE / HNX.",
+        "Khi có văn bản mới ban hành: Tóm tắt theo cấu trúc chuẩn trong vòng 24 giờ và gửi thông báo khẩn tới các bộ phận liên quan.",
+        "Đánh dấu trạng thái màu sắc: 🔴 MỚI (trong 7 ngày đầu) | 🟡 SẮP CÓ HIỆU LỰC (thông báo trước 30 ngày) | ✅ ĐÃ CẬP NHẬT ĐANG ÁP DỤNG.",
+        "Khi văn bản hết hiệu lực: Di chuyển vào danh mục LỊCH SỬ TRA CỨU — ghi rõ ngày hết hiệu lực và văn bản thay thế tương ứng.",
+        "Luôn đính kèm đường link dẫn đến văn bản gốc chính thức để đối chiếu khi ký duyệt hồ sơ, hợp đồng và phát hành báo cáo."
+      ],
+      "luu_tru_tai_cong_ty": [
+        "Lưu trữ bản gốc / bản in có dấu: Đặt tại Văn phòng chính / Phòng Pháp chế — lập danh mục mã số văn bản theo đúng 5 nhóm trên.",
+        "Lưu trữ bản sao điện tử: Phân quyền chia sẻ nội bộ trên máy chủ Cloud/Intranet cho các Trưởng bộ phận chịu trách nhiệm tương ứng.",
+        "Chế độ rà soát định kỳ: Rà soát hàng quý để cập nhật các văn bản mới ban hành; In toàn bộ danh mục rà soát pháp lý hàng năm phục vụ kiểm toán."
+      ],
+      "lien_ket_module": [
+        "Liên kết Hồ sơ pháp lý doanh nghiệp: Đối chiếu danh mục văn bản bắt buộc lưu trữ phục vụ thanh tra, kiểm tra.",
+        "Liên kết Quản trị Công ty Niêm yết: Cập nhật quy trình họp ĐHĐCĐ, quy chế HĐQT, Ban Kiểm soát và lịch cấm giao dịch cổ phiếu.",
+        "Liên kết Thuế & Tài chính: Áp dụng chuẩn xác thuế suất GTGT 5%/10%, chính sách giảm thuế TNDN và chuẩn mực BCTC mới theo TT 99.",
+        "Liên kết Dự án & Tổng mức đầu tư: Kiểm soát cơ cấu 7 khoản mục chi phí, dự phòng rủi ro và quỹ đất NOXH 20%.",
+        "Liên kết Phòng ngừa Xử phạt & Rủi ro: Cập nhật mức phạt NĐ 339/2026 và NĐ 108/2024 để siết chặt kỷ luật công trường và CBTT."
+      ],
+      "huong_dan_tts": [
+        "🔊 Nghe Tóm Tắt 10 Thay Đổi 2026: Nắm nhanh toàn bộ 10 điểm then chốt cần thực hiện ngay.",
+        "🔊 Nghe Từng Nhóm Văn Bản: Tập trung nghe chi tiết trách nhiệm và ảnh hưởng của từng nhóm Luật, Nghị định, Thông tư.",
+        "🔊 Nghe Bảng Tra Cứu Nhanh: Nghe giải đáp chuẩn xác 8 câu hỏi phổ biến nhất để tránh nhầm lẫn trong công việc hàng ngày.",
+        "📱 Thuận tiện tra cứu: Nghe trực tiếp trên điện thoại hoặc máy tính khi đi công tác, kiểm tra công trường hoặc họp giao ban."
+      ]
+    }
   }
 }
