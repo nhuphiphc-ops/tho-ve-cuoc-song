@@ -2570,7 +2570,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v38';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v42';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -4940,7 +4940,7 @@
                   <div class="flex items-center gap-2.5">
                     <span class="text-2xl">${doc.bieu_tuong}</span>
                     <div>
-                      <span class="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">Cấp ${doc.cap_bac}</span>
+                      <span class="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">Cấp ${doc.thu_tu}</span>
                       <h4 class="text-lg font-bold text-white mt-1">${doc.ten}</h4>
                     </div>
                   </div>
@@ -4996,8 +4996,8 @@
 
       // 3. Quy Tắc Ưu Tiên
       if (activePhapLuatSubTab === 'all' || activePhapLuatSubTab === 'quy_tac') {
-        const fullQuyTacSpeak = (phapLuatData.quy_tac_uu_tien || []).map(qt => 
-          `Quy tắc ${qt.stt}: ${qt.ten_quy_tac}. Nguyên tắc: ${qt.nguyen_tac}. Ví dụ: ${qt.vi_du}. Ý nghĩa: ${qt.y_nghia}`
+        const fullQuyTacSpeak = (phapLuatData.quy_tac_uu_tien || []).map(qt =>
+          `${qt.nguyen_tac}. Giải thích: ${qt.giai_thich}. Hệ quả: ${qt.he_qua}`
         ).join('. ');
         const safeFullQuyTacSpeak = fullQuyTacSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
@@ -5029,24 +5029,21 @@
 
               <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 ${filteredQuyTac.map(qt => {
-                  const singleQtSpeak = `Quy tắc ${qt.stt}: ${qt.ten_quy_tac}. Nguyên tắc: ${qt.nguyen_tac}. Ví dụ: ${qt.vi_du}. Ý nghĩa: ${qt.y_nghia}`;
+                  const singleQtSpeak = `${qt.nguyen_tac}. Giải thích: ${qt.giai_thich}. Hệ quả: ${qt.he_qua}`;
                   const safeSingleQtSpeak = singleQtSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
                   return `
                     <div class="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
                       <div>
                         <div class="flex items-center justify-between mb-3">
-                          <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">Quy tắc ${qt.stt}</span>
+                          <span class="text-lg">${qt.bieu_tuong || '⚖️'}</span>
                           <button onclick="playTTS(event, '${safeSingleQtSpeak}', 'vi')" class="p-1.5 rounded-lg bg-slate-950 border border-slate-800 text-indigo-400 hover:text-white" title="Nghe quy tắc này"><svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
                         </div>
-                        <h5 class="text-sm font-bold text-white mb-2">${qt.ten_quy_tac}</h5>
-                        <p class="text-xs text-indigo-200 mb-3 leading-relaxed">${qt.nguyen_tac}</p>
+                        <h5 class="text-sm font-bold text-white mb-2">${qt.nguyen_tac}</h5>
+                        <p class="text-xs text-indigo-200 mb-3 leading-relaxed">${qt.giai_thich}</p>
                         <div class="p-3 rounded-xl bg-slate-950/80 border border-slate-800/80 text-[11px] text-amber-300 mb-3">
-                          <b>Ví dụ:</b> ${qt.vi_du}
+                          <b>Hệ quả:</b> ${qt.he_qua}
                         </div>
-                      </div>
-                      <div class="text-[10px] text-slate-400 italic">
-                        💡 ${qt.y_nghia}
                       </div>
                     </div>
                   `;
@@ -5059,9 +5056,9 @@
 
       // 4. Ví Dụ Thực Tế: Xây Nhà Ở
       if (activePhapLuatSubTab === 'all' || activePhapLuatSubTab === 'vi_du') {
-        const vd = phapLuatData.vi_du_thuc_te_xay_nha;
+        const vd = phapLuatData.vi_du_thuc_te;
         if (vd) {
-          const fullVdSpeak = `Ví dụ thực tế: ${vd.tieu_de}. Tình huống: ${vd.tinh_huong}. Các cấp văn bản áp dụng: ${vd.cac_cap_van_ban.map(c => 'Cấp ' + c.cap + ' ' + c.loai + ' do ' + c.co_quan + ' ban hành: ' + c.quy_dinh_cu_the).join('. ')}. Kết luận: ${vd.ket_luan}`;
+          const fullVdSpeak = `Ví dụ thực tế: ${vd.chu_de}. ${vd.mo_ta}. Các cấp văn bản áp dụng: ${(vd.cac_buoc || []).map(c => 'Cấp ' + c.cap + ': ' + c.van_ban + '. ' + c.noi_dung_dieu_chinh).join('. ')}. Nhận xét: ${vd.nhan_xet}`;
           const safeFullVdSpeak = fullVdSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
           cardsHtml.push(`
@@ -5069,11 +5066,11 @@
               <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
                 <div>
                   <h4 class="text-xl font-bold font-display text-indigo-300 flex items-center gap-2">
-                    <span>🏠</span> ${vd.tieu_de}
+                    ${vd.chu_de}
                   </h4>
-                  <p class="text-xs text-slate-300 mt-1.5 leading-relaxed">${vd.tinh_huong}</p>
+                  <p class="text-xs text-slate-300 mt-1.5 leading-relaxed">${vd.mo_ta}</p>
                 </div>
-                <button 
+                <button
                   onclick="playTTS(event, '${safeFullVdSpeak}', 'vi')"
                   class="px-3.5 py-2 rounded-xl bg-indigo-950/70 border border-indigo-500/40 text-indigo-300 hover:text-white hover:bg-indigo-600 transition-all text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer"
                   title="Nghe toàn bộ ví dụ xây nhà"
@@ -5084,17 +5081,17 @@
               </div>
 
               <div class="space-y-3 mb-6">
-                ${vd.cac_cap_van_ban.map(c => {
-                  const capSpeak = `Cấp ${c.cap}: ${c.loai} do ${c.co_quan} ban hành. Quy định: ${c.quy_dinh_cu_the}`;
+                ${(vd.cac_buoc || []).map(c => {
+                  const capSpeak = `Cấp ${c.cap}: ${c.van_ban}. ${c.noi_dung_dieu_chinh}`;
                   const safeCapSpeak = capSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
                   return `
                     <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 flex items-start justify-between gap-3 text-xs">
                       <div class="flex items-start gap-3">
-                        <span class="px-2.5 py-1 rounded-xl bg-indigo-500/20 text-indigo-300 font-bold shrink-0 mt-0.5">Cấp ${c.cap}</span>
+                        <span class="px-2.5 py-1 rounded-xl bg-indigo-500/20 text-indigo-300 font-bold shrink-0 mt-0.5">${c.cap}</span>
                         <div>
-                          <b class="text-white text-sm">${c.loai}</b> <span class="text-slate-400 font-normal text-[11px]">(${c.co_quan})</span>
-                          <p class="text-slate-300 mt-1 leading-relaxed">${c.quy_dinh_cu_the}</p>
+                          <b class="text-white text-sm">${c.van_ban}</b>
+                          <p class="text-slate-300 mt-1 leading-relaxed">${c.noi_dung_dieu_chinh}</p>
                         </div>
                       </div>
                       <button onclick="playTTS(event, '${safeCapSpeak}', 'vi')" class="p-1.5 rounded-lg bg-slate-950 border border-slate-800 text-indigo-400 hover:text-white shrink-0 mt-1" title="Nghe bước này"><svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
@@ -5105,15 +5102,15 @@
 
               <div class="p-4 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 flex flex-col sm:flex-row items-center justify-between gap-3">
                 <div class="text-xs text-emerald-200 leading-relaxed text-center sm:text-left">
-                  <b class="text-emerald-300 text-sm block mb-0.5">📌 Kết luận bài học:</b>
-                  ${vd.ket_luan}
+                  <b class="text-emerald-300 text-sm block mb-0.5">📌 Nhận xét:</b>
+                  ${vd.nhan_xet}
                 </div>
-                <button 
-                  onclick="playTTS(event, 'Kết luận bài học: ${vd.ket_luan.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                <button
+                  onclick="playTTS(event, 'Nhận xét: ${(vd.nhan_xet || '').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
                   class="px-3 py-1.5 rounded-xl bg-emerald-900/60 border border-emerald-500/40 text-emerald-300 hover:text-white transition-all text-xs font-bold flex items-center gap-1 shrink-0 cursor-pointer"
                 >
                   <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                  <span>Nghe Kết Luận</span>
+                  <span>Nghe Nhận Xét</span>
                 </button>
               </div>
             </div>
@@ -5123,12 +5120,12 @@
 
       // 5. Từ Vựng Pháp Lý
       if (activePhapLuatSubTab === 'all' || activePhapLuatSubTab === 'tu_vung') {
-        const fullVocabSpeak = (phapLuatData.tu_vung_phap_ly || []).map(v => 
+        const fullVocabSpeak = (phapLuatData.tu_vung_co_ban || []).map(v =>
           `${v.thuat_ngu}: ${v.nghia_don_gian}`
         ).join('. ');
         const safeFullVocabSpeak = fullVocabSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
-        const filteredVocab = (phapLuatData.tu_vung_phap_ly || []).filter(v => {
+        const filteredVocab = (phapLuatData.tu_vung_co_ban || []).filter(v => {
           if (!searchVal) return true;
           const full = `${v.thuat_ngu} ${v.nghia_don_gian}`;
           return removeVietnameseTones(full.toLowerCase()).includes(searchVal);
@@ -5163,9 +5160,10 @@
                     <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
                       <div>
                         <div class="flex items-center gap-2 mb-1.5">
-                          <span class="text-lg">${v.bieu_tuong}</span>
+                          <span class="text-lg">📖</span>
                           <b class="text-sm text-indigo-300">${v.thuat_ngu}</b>
                         </div>
+                        ${v.ten_day_du ? `<p class="text-slate-400 text-[10px] italic mb-1">${v.ten_day_du}</p>` : ''}
                         <p class="text-slate-200 text-[11px] leading-relaxed mb-2">${v.nghia_don_gian}</p>
                       </div>
                       <div class="text-right pt-2 border-t border-slate-800/80">
@@ -5463,7 +5461,7 @@
                       <span>🛡️</span> 5. 5 Nguyên Tắc Vàng Giữ Mình Khi Làm Việc Với Cơ Quan Điều Tra
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(dt.nguyen_tac_vang_khi_lam_viec || []).map(nt => 'Nguyên tắc ' + nt.so + ': ' + nt.ten + '. ' + nt.chi_tiet).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(dt.nguyen_tac_vang_khi_lam_viec || []).map(nt => nt.nguyen_tac + '. ' + nt.chi_tiet).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5473,14 +5471,14 @@
 
                   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs">
                     ${dt.nguyen_tac_vang_khi_lam_viec.map(nt => {
-                      const ntSpeak = `Nguyên tắc ${nt.so}: ${nt.ten}. ${nt.chi_tiet}`;
+                      const ntSpeak = `${nt.nguyen_tac}. ${nt.chi_tiet}`;
                       const safeNtSpeak = ntSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
                       return `
                         <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
                           <div>
                             <div class="flex items-center justify-between mb-2">
-                              <span class="text-xs font-bold text-amber-300">#${nt.so}. ${nt.ten}</span>
+                              <span class="text-xs font-bold text-amber-300">${nt.nguyen_tac}</span>
                               <button onclick="playTTS(event, '${safeNtSpeak}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
                             </div>
                             <p class="text-slate-300 text-[11px] leading-relaxed">${nt.chi_tiet}</p>
@@ -6084,23 +6082,22 @@
 
       // 6. Bảng Tóm Tắt & Lời Kết
       if (activePhapLuatSubTab === 'all' || activePhapLuatSubTab === 'bang_tong_hop') {
-        const fullSummarySpeak = (phapLuatData.bang_so_sanh_nhanh || []).map(row => 
-          `${row.tieu_chi}: Hiến pháp ${row.hien_phap}. Luật ${row.luat}. Nghị định ${row.nghi_dinh}. Thông tư ${row.thong_tu}. Quyết định Tỉnh ${row.qd_tinh}`
+        const fullSummarySpeak = (phapLuatData.bang_tom_tat || []).map(row =>
+          `Cấp ${row.cap}: ${row.loai}, do ${row.ai_ra} ban hành, áp dụng tại ${row.noi_ap_dung}. Vai trò: ${row.vai_tro}`
         ).join('. ');
         const safeFullSummarySpeak = fullSummarySpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
-        const summaryRows = (phapLuatData.bang_so_sanh_nhanh || []).map(row => {
-          const rowSpeak = `${row.tieu_chi}: Hiến pháp ${row.hien_phap}, Luật ${row.luat}, Nghị định ${row.nghi_dinh}, Thông tư ${row.thong_tu}, Quyết định Tỉnh ${row.qd_tinh}`;
+        const summaryRows = (phapLuatData.bang_tom_tat || []).map(row => {
+          const rowSpeak = `Cấp ${row.cap}: ${row.loai}, do ${row.ai_ra} ban hành, áp dụng tại ${row.noi_ap_dung}. Vai trò: ${row.vai_tro}`;
           const safeRowSpeak = rowSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
           return `
             <tr class="border-b border-slate-800/80 hover:bg-slate-900/50 transition-colors">
-              <td class="py-3 px-3 font-bold text-white whitespace-nowrap">${row.tieu_chi}</td>
-              <td class="py-3 px-3 text-rose-300 font-medium">${row.hien_phap}</td>
-              <td class="py-3 px-3 text-amber-300 font-medium">${row.luat}</td>
-              <td class="py-3 px-3 text-yellow-300 font-medium">${row.nghi_dinh}</td>
-              <td class="py-3 px-3 text-emerald-300 font-medium">${row.thong_tu}</td>
-              <td class="py-3 px-3 text-teal-300 font-medium">${row.qd_tinh}</td>
+              <td class="py-3 px-3 font-bold text-white whitespace-nowrap">Cấp ${row.cap}</td>
+              <td class="py-3 px-3 text-rose-300 font-medium whitespace-nowrap">${row.loai}</td>
+              <td class="py-3 px-3 text-amber-300 font-medium">${row.ai_ra}</td>
+              <td class="py-3 px-3 text-emerald-300 font-medium">${row.noi_ap_dung}</td>
+              <td class="py-3 px-3 text-slate-300">${row.vai_tro}</td>
               <td class="py-3 px-2 text-right">
                 <button onclick="playTTS(event, '${safeRowSpeak}', 'vi')" class="p-1.5 rounded-lg bg-slate-900 border border-slate-800 text-indigo-400 hover:text-white" title="Nghe"><svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
               </td>
@@ -6114,17 +6111,17 @@
               <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
                 <div>
                   <h4 class="text-xl font-bold font-display text-indigo-300 flex items-center gap-2">
-                    <span>📊</span> Bảng So Sánh Nhanh Các Cấp Văn Bản
+                    <span>📊</span> Bảng Tóm Tắt Các Cấp Văn Bản
                   </h4>
-                  <p class="text-xs text-slate-400 mt-1">Tổng hợp tiêu chí phân biệt rõ ràng giữa các cấp bậc văn bản pháp luật.</p>
+                  <p class="text-xs text-slate-400 mt-1">Tổng hợp nhanh 7 cấp bậc văn bản pháp luật: ai ban hành, áp dụng ở đâu, vai trò gì.</p>
                 </div>
-                <button 
+                <button
                   onclick="playTTS(event, '${safeFullSummarySpeak}', 'vi')"
                   class="px-3.5 py-2 rounded-xl bg-indigo-950/70 border border-indigo-500/40 text-indigo-300 hover:text-white hover:bg-indigo-600 transition-all text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer"
-                  title="Nghe toàn bộ bảng so sánh"
+                  title="Nghe toàn bộ bảng tóm tắt"
                 >
                   <svg class="w-4 h-4 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                  <span>🔊 Nghe Toàn Bộ Bảng So Sánh</span>
+                  <span>🔊 Nghe Toàn Bộ Bảng Tóm Tắt</span>
                 </button>
               </div>
 
@@ -6132,12 +6129,11 @@
                 <table class="w-full text-left text-xs border-collapse">
                   <thead>
                     <tr class="bg-slate-900/90 text-slate-400 font-bold uppercase tracking-wider text-[11px] border-b border-slate-800">
-                      <th class="py-3 px-3">Tiêu Chí</th>
-                      <th class="py-3 px-3">Hiến Pháp</th>
-                      <th class="py-3 px-3">Luật</th>
-                      <th class="py-3 px-3">Nghị Định</th>
-                      <th class="py-3 px-3">Thông Tư</th>
-                      <th class="py-3 px-3">QĐ Tỉnh</th>
+                      <th class="py-3 px-3">Cấp</th>
+                      <th class="py-3 px-3">Loại Văn Bản</th>
+                      <th class="py-3 px-3">Ai Ban Hành</th>
+                      <th class="py-3 px-3">Nơi Áp Dụng</th>
+                      <th class="py-3 px-3">Vai Trò</th>
                       <th class="py-3 px-2 text-right">Loa</th>
                     </tr>
                   </thead>
@@ -9526,7 +9522,9 @@
       ['tuthu', [' tu thu', ' ngu kinh', ' dai hoc', ' trung dung', ' luan ngu', ' kinh thi', ' kinh thu',
         ' kinh le', ' kinh xuan thu', ' dao hoc', ' tu thu ngu kinh']],
       ['phapluat', [' phap luat', ' hien phap', ' nghi dinh', ' thong tu', ' van ban quy pham', ' luat giao thong',
-        ' bo luat', ' quoc hoi ban hanh', ' hieu luc phap ly', ' cap bac van ban']],
+        ' bo luat', ' quoc hoi ban hanh', ' hieu luc phap ly', ' cap bac van ban', ' an dau thau', ' dau thau',
+        ' bo cong an', ' c03', ' a03', ' pc03', ' giay trieu tap', ' co quan dieu tra', ' doanh nghiep niem yet',
+        ' uy ban chung khoan', ' cong bo thong tin', ' quy che san']],
       ['gout', [' benh gut', ' gut ', ' axit uric', ' thong phong', ' viem khop', ' colchicine', ' gut cap',
         ' urat']]
     ];
@@ -9863,6 +9861,58 @@
           add('phapluat', null, '[PHÁP LUẬT VN - Thuật Ngữ] ' + item.thuat_ngu + ' (' + (item.ten_day_du || '') + ')',
             item.nghia_don_gian || '');
         });
+        (phapLuatData.bang_tom_tat || []).forEach(function (row) {
+          add('phapluat', row.cap, '[PHÁP LUẬT VN - Tóm Tắt Cấp ' + row.cap + '] ' + row.loai, aiFlattenRow(row, 400));
+        });
+        const dtChuyenDe = phapLuatData.an_dau_thau_bca;
+        if (dtChuyenDe) {
+          add('phapluat', null, '[PHÁP LUẬT VN - Chuyên Đề Đấu Thầu & BCA] ' + (dtChuyenDe.tieu_de || ''),
+            (dtChuyenDe.loi_dan || '') + ' ' + (dtChuyenDe.khau_hieu_cot_loi || ''));
+          (dtChuyenDe.cac_co_quan_bca || []).forEach(function (item) {
+            add('phapluat', null, '[ĐẤU THẦU & BCA - Cơ Quan] ' + item.ma_hieu, aiFlattenRow(item, 400));
+          });
+          (dtChuyenDe.dieu_khoan_hinh_su || []).forEach(function (item) {
+            add('phapluat', null, '[ĐẤU THẦU & BCA - Điều Khoản Hình Sự] ' + item.dieu_luat, aiFlattenRow(item, 500));
+          });
+          (dtChuyenDe.luat_dau_thau_2023_hanh_vi_cam || []).forEach(function (item) {
+            add('phapluat', null, '[ĐẤU THẦU & BCA - Hành Vi Cấm] ' + item.nhom, item.noi_dung || '');
+          });
+          if (dtChuyenDe.quyen_nghia_vu_to_tung) {
+            add('phapluat', null, '[ĐẤU THẦU & BCA - Quyền & Nghĩa Vụ Tố Tụng]', JSON.stringify(dtChuyenDe.quyen_nghia_vu_to_tung));
+          }
+          (dtChuyenDe.nguyen_tac_vang_khi_lam_viec || []).forEach(function (item) {
+            add('phapluat', null, '[ĐẤU THẦU & BCA - Nguyên Tắc Vàng] ' + item.nguyen_tac, item.chi_tiet || '');
+          });
+          (dtChuyenDe.quy_trinh_chi_tiet || []).forEach(function (item) {
+            add('phapluat', item.buoc, '[ĐẤU THẦU & BCA - Quy Trình Bước ' + item.buoc + '] ' + item.ten, aiFlattenRow(item, 600));
+          });
+        }
+        const vbnMoi = phapLuatData.van_ban_moi_doanh_nghiep_niem_yet;
+        if (vbnMoi) {
+          add('phapluat', null, '[PHÁP LUẬT VN - Văn Bản Mới Doanh Nghiệp Niêm Yết] ' + (vbnMoi.tieu_de || ''),
+            (vbnMoi.loi_dan || '') + ' ' + (vbnMoi.khau_hieu_cot_loi || ''));
+          (vbnMoi.bang_tong_hop_trang_thai || []).forEach(function (item) {
+            add('phapluat', null, '[VĂN BẢN MỚI DN NIÊM YẾT - Tổng Hợp] ' + item.nhom, aiFlattenRow(item, 400));
+          });
+          (vbnMoi.nhom_1_luat_co_so || []).forEach(function (item) {
+            add('phapluat', null, '[VĂN BẢN MỚI DN NIÊM YẾT - Luật Cơ Sở] ' + item.ten_van_ban, aiFlattenRow(item, 500));
+          });
+          (vbnMoi.nhom_2_nghi_dinh || []).forEach(function (item) {
+            add('phapluat', null, '[VĂN BẢN MỚI DN NIÊM YẾT - Nghị Định] ' + item.ten_van_ban, aiFlattenRow(item, 500));
+          });
+          if (vbnMoi.nhom_3_thong_tu) {
+            add('phapluat', null, '[VĂN BẢN MỚI DN NIÊM YẾT - Thông Tư]', JSON.stringify(vbnMoi.nhom_3_thong_tu));
+          }
+          (vbnMoi.nhom_4_quy_che_san || []).forEach(function (item) {
+            add('phapluat', null, '[VĂN BẢN MỚI DN NIÊM YẾT - Quy Chế Sàn] ' + item.ten_van_ban, aiFlattenRow(item, 400));
+          });
+          (vbnMoi.tom_tat_thay_doi_2026 || []).forEach(function (item) {
+            add('phapluat', null, '[VĂN BẢN MỚI DN NIÊM YẾT - Thay Đổi 2026] ' + item.noi_dung, aiFlattenRow(item, 400));
+          });
+          (vbnMoi.bang_tra_cuu_nhanh || []).forEach(function (item) {
+            add('phapluat', null, '[VĂN BẢN MỚI DN NIÊM YẾT - Hỏi Đáp Nhanh] ' + item.cau_hoi, item.tra_loi || '');
+          });
+        }
       }
 
       // 13. Bệnh Gút (Gout)
