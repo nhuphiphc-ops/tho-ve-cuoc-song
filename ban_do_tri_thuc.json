@@ -144,32 +144,38 @@
       {
         "from": "Huyệt đạo",
         "to": "Bệnh Gút",
-        "reason": "Bấm huyệt (Tam âm giao, Thái xung) giảm đau, điều hòa khí huyết, hỗ trợ hạ axit uric."
+        "reason": "Bấm huyệt Tam âm giao, Thái xung giảm đau, điều hòa khí huyết, hỗ trợ hạ axit uric.",
+        "app": "Khi khớp sưng nóng ban đêm, bố bấm Thái xung + Tam âm giao giảm đau nhanh trước khi uống thuốc."
       },
       {
         "from": "Bệnh Gút",
-        "to": "Dinh dưỡng",
-        "reason": "Kiêng ăn nội tạng, hải sản, rượu bia quyết định axit uric có tăng cao hay không."
+        "to": "Cấp cứu tại nhà",
+        "reason": "Cơn Gút cấp tính gây đau dữ dội, sốt cao — cần biết cách xử lý kịp thời tránh biến chứng.",
+        "app": "Nhận biết sớm triệu chứng Gút cấp để chườm lạnh, uống thuốc, không xoa bóp mạnh khớp đang sưng."
       },
       {
-        "from": "Cấp cứu",
-        "to": "Tất cả các khối",
-        "reason": "Xử lý đột xuất khi có tai nạn, nhồi máu cơ tim, đột quỵ, không để trễ giờ vàng."
+        "from": "Thể dục & khí huyết",
+        "to": "Giấc ngủ",
+        "reason": "Tập nhẹ nhàng buổi chiều giúp cơ thể tiết melatonin tự nhiên, ngủ sâu hơn, phục hồi cơ khớp.",
+        "app": "Bố tập vẩy tay 300 cái và đi bộ 20 phút trước 18h giúp giấc ngủ sâu hơn trước 23h."
       },
       {
-        "from": "Tinh thần",
-        "to": "Bệnh Gút",
-        "reason": "Căng thẳng kích hoạt tuyến thượng thận làm tăng axit uric, dễ tái phát cơn đau cấp."
+        "from": "Khám định kỳ",
+        "to": "Gút & sức khỏe",
+        "reason": "Xét nghiệm máu định kỳ 3-6 tháng phát hiện sớm chỉ số axit uric, creatinin, chức năng gan thận.",
+        "app": "Đặt lịch xét nghiệm máu tổng quát mỗi 3 tháng tại bệnh viện gần nhà để kiểm soát Gút chủ động."
+      },
+      {
+        "from": "Giấc ngủ",
+        "to": "Huyệt đạo",
+        "reason": "Bấm An Miên, Thần Môn trước khi ngủ giúp an thần, giảm stress, dễ đi vào giấc ngủ sâu.",
+        "app": "Trước khi ngủ 15 phút, bấm nhẹ huyệt An Miên sau tai và Thần Môn ở cổ tay giúp thư giãn."
       },
       {
         "from": "Thể dục",
-        "to": "Tài chính",
-        "reason": "Thân thể khỏe mạnh → làm việc năng suất cao, ít nghỉ ốm, tiết kiệm hàng trăm triệu tiền viện phí."
-      },
-      {
-        "from": "Sức khỏe",
-        "to": "Gia đình",
-        "reason": "Cha mẹ khỏe mạnh thì con cái an tâm học tập, gia đình đầm ấm hạnh phúc dài lâu."
+        "to": "Huyệt đạo",
+        "reason": "Tập khí công kết hợp bấm Túc tam lý giúp kiện tỳ vị, tăng tuần hoàn máu, bổ khí lực.",
+        "app": "Sau khi tập thể dục sáng, bấm Túc tam lý 2 phút mỗi chân để kiện tỳ bổ khí toàn thân."
       }
     ],
     "intersection": "Sức khỏe không chỉ là không có bệnh, mà là trạng thái cân bằng trọn vẹn giữa ăn uống, vận động, giấc ngủ, tâm lý và sơ cấp cứu sẵn sàng."
@@ -218,39 +224,46 @@
     ],
     "links": [
       {
-        "from": "Kinh Dịch",
-        "to": "Tư duy",
-        "reason": "Dạy cách nhìn sự vật trong trạng thái biến đổi liên tục, thấy cơ hội trong nguy nan."
-      },
-      {
         "from": "Câu đố trí tuệ",
-        "to": "Tất cả các khối",
-        "reason": "Rèn luyện khả năng bóc tách vấn đề, phản biện sắc sảo, không vội vàng phán xét."
-      },
-      {
-        "from": "Cổ học",
-        "to": "Đạo đức",
-        "reason": "Xây dựng chuẩn mực sống ngay thẳng, giữ chữ Tín trong quan hệ gia đình và xã hội."
-      },
-      {
-        "from": "Ngôn ngữ",
-        "to": "Thế giới",
-        "reason": "Cánh cửa mở ra hiểu biết văn hóa, kinh tế, kết nối giao thương quốc tế."
-      },
-      {
-        "from": "Tư duy logic",
-        "to": "Tài chính",
-        "reason": "Phân tích số liệu và rủi ro thị trường một cách độc lập, không bị đám đông lừa gạt."
+        "to": "Kinh Dịch",
+        "reason": "Rèn tư duy logic giúp hiểu sâu quy luật biến dịch âm dương, phân tích quẻ nhanh hơn.",
+        "app": "Giải 5 câu đố logic mỗi tối giúp bố và con phản xạ nhanh khi phân tích quẻ Kinh Dịch."
       },
       {
         "from": "Kinh Dịch",
-        "to": "Chọn ngày tốt",
-        "reason": "Nguyên tắc âm dương, can chi ngũ hành áp dụng trực tiếp vào chọn ngày lành tháng tốt."
+        "to": "Tứ Thư Ngũ Kinh",
+        "reason": "Kinh Dịch là nền tảng triết học phương Đông, Tứ Thư bổ sung đạo lý tu thân tề gia.",
+        "app": "Đọc Kinh Dịch quẻ Thuần Càn + Đại Học chương Tu thân để nắm trọn gốc rễ đạo quân tử."
       },
       {
-        "from": "Tri tuệ người cha",
-        "to": "Con cái",
-        "reason": "Truyền cho thế hệ sau phương pháp tư duy và cách nhìn nhận cuộc sống thấu suốt."
+        "from": "Tiếng Trung",
+        "to": "Cổ học",
+        "reason": "Hiểu Hán tự giúp đọc trực tiếp nguyên bản cổ thư, không phụ thuộc bản dịch sai lệch.",
+        "app": "Con lớp 7 học 10 Hán tự mới mỗi tuần, kết hợp đọc câu danh ngôn cổ nhân gốc chữ Hán."
+      },
+      {
+        "from": "Sơ đồ tư duy",
+        "to": "Câu đố trí tuệ",
+        "reason": "Vẽ sơ đồ giúp hệ thống hóa lời giải, nhìn thấy nhiều hướng tiếp cận bài toán logic.",
+        "app": "Vẽ mindmap khi giải câu đố khó giúp con trai nhìn ra mối liên hệ giữa các dữ kiện."
+      },
+      {
+        "from": "Lịch sử VN",
+        "to": "Pháp luật",
+        "reason": "Hiểu bối cảnh lịch sử giúp hiểu vì sao pháp luật hiện hành được xây dựng như vậy.",
+        "app": "Tìm hiểu lịch sử Luật Đất đai qua các thời kỳ giúp hiểu gốc rễ tranh chấp đất hiện tại."
+      },
+      {
+        "from": "Tứ Thư",
+        "to": "Đạo đức ứng xử",
+        "reason": "Luận Ngữ và Trung Dung dạy cách đối nhân xử thế, giữ hòa khí trong mọi hoàn cảnh.",
+        "app": "Đọc 1 câu Luận Ngữ mỗi tối và thảo luận cùng gia đình về cách áp dụng vào cuộc sống."
+      },
+      {
+        "from": "Câu đố",
+        "to": "Công nghệ",
+        "reason": "Rèn tư duy phản biện giúp không bị lừa bởi tin giả, nhận diện bẫy công nghệ cao.",
+        "app": "Con lớp 12 dùng tư duy phản biện để kiểm chứng thông tin trên mạng trước khi tin theo."
       }
     ],
     "intersection": "Tư duy phản biện kết hợp với trí tuệ cổ nhân tạo nên nền tảng vững vàng giúp bạn không bao giờ bị lạc lối giữa thời đại bùng nổ thông tin."
@@ -299,39 +312,46 @@
     ],
     "links": [
       {
-        "from": "Chính sách kinh tế",
-        "to": "Bất động sản",
-        "reason": "Lãi suất ngân hàng hạ nhiệt → dòng tiền rẻ chảy vào kênh bất động sản làm giá tăng."
+        "from": "Cổ phiếu FPT/MBB",
+        "to": "Kinh tế vĩ mô",
+        "reason": "Giá cổ phiếu phản ánh kỳ vọng tương lai dựa trên chu kỳ lãi suất và tăng trưởng GDP.",
+        "app": "Theo dõi quyết định lãi suất của NHNN để dự báo dòng tiền vào cổ phiếu FPT và MBB."
       },
       {
-        "from": "Nguyên vật liệu",
+        "from": "BĐS chu kỳ",
+        "to": "Đầu tư công",
+        "reason": "Giải ngân đầu tư công hạ tầng sân bay Long Thành kéo giá BĐS khu vực lân cận tăng.",
+        "app": "Theo dõi tiến độ giải ngân sân bay Long Thành để nhận biết thời điểm BĐS vùng ven khởi sắc."
+      },
+      {
+        "from": "Vật liệu XD",
         "to": "Xây dựng",
-        "reason": "Giá thép và cát đá tăng đột biến → tổng mức đầu tư công trình đội vốn nếu không lường trước."
+        "reason": "Giá thép, xi măng biến động trực tiếp ảnh hưởng dự toán và lợi nhuận nhà thầu.",
+        "app": "Chốt hợp đồng mua thép sớm khi giá giảm để khóa giá, tránh đội vốn công trình 5-10%."
       },
       {
-        "from": "Đầu tư công",
-        "to": "Thị trường xây dựng",
-        "reason": "Giải ngân đầu tư công mạnh mẽ tạo ra hàng loạt gói thầu thi công hạ tầng cho doanh nghiệp."
+        "from": "Quản lý chi tiêu",
+        "to": "Cổ phiếu",
+        "reason": "Tiết kiệm hệ thống tạo dòng tiền nhàn rỗi ổn định để đầu tư dài hạn hiệu quả.",
+        "app": "Lập bảng thu chi gia đình mỗi tháng, trích 15-20% thu nhập cho quỹ đầu tư dài hạn."
       },
       {
-        "from": "Cổ phiếu",
-        "to": "Bất động sản",
-        "reason": "Cùng chịu sự chi phối của chu kỳ dòng tiền, thanh khoản ngân hàng và tâm lý nhà đầu tư."
-      },
-      {
-        "from": "Phân tích BĐS",
-        "to": "Pháp lý",
-        "reason": "Quy hoạch và giấy chứng nhận quyền sử dụng đất quyết định 80% tính thanh khoản và giá trị thật."
-      },
-      {
-        "from": "Tư duy logic",
+        "from": "Kinh Dịch",
         "to": "Tài chính",
-        "reason": "Nhận biết bẫy đa cấp, lừa đảo tài chính lãi suất cao nhờ tư duy phản biện tỉnh táo."
+        "reason": "Quy luật Bĩ Cực Thái Lai nhắc nhở khi thị trường hưng phấn tột cùng là lúc thận trọng nhất.",
+        "app": "Khi chỉ số VN-Index tăng nóng quá 20% trong 1 tháng, giảm dần tỷ trọng cổ phiếu theo Kinh Dịch."
       },
       {
-        "from": "Tài chính vững",
-        "to": "Gia đình",
-        "reason": "Kế hoạch tài chính chu đáo giúp con cái an tâm học đại học và chuẩn bị lập nghiệp."
+        "from": "Pháp luật",
+        "to": "Tài chính",
+        "reason": "Tuân thủ Luật Chứng khoán và Thuế giúp tránh rủi ro pháp lý khi đầu tư kinh doanh.",
+        "app": "Kiểm tra tính pháp lý sổ đỏ kỹ lưỡng trước khi mua BĐS để bảo toàn tài sản gia đình."
+      },
+      {
+        "from": "Công nghệ",
+        "to": "TMĐT",
+        "reason": "AI và Marketing số tạo kênh thu nhập mới cho con trai qua thương mại điện tử.",
+        "app": "Hỗ trợ con lớp 12 mở gian hàng trên Shopee, dùng AI viết mô tả sản phẩm chuyên nghiệp."
       }
     ],
     "intersection": "Tài chính thông minh là sự kết hợp giữa hiểu biết vĩ mô, kỷ luật chi tiêu gia đình và khả năng nhìn nhận chu kỳ của dòng tiền."
@@ -380,34 +400,40 @@
     ],
     "links": [
       {
-        "from": "Thiên tai",
-        "to": "Quy hoạch",
-        "reason": "Vùng trũng ngập lụt tuyệt đối không bố trí hầm ngập; công trình ven biển phải gia cố giằng bão."
+        "from": "Quản lý dự án",
+        "to": "Pháp lý đất đai",
+        "reason": "Thi công phải có đầy đủ giấy phép xây dựng và tuân thủ quy hoạch sử dụng đất.",
+        "app": "Kiểm tra quy hoạch 1/500 và giấy phép XD trước khi khởi công bất kỳ dự án thi công nào."
       },
       {
-        "from": "Pháp lý",
-        "to": "Giá trị BĐS",
-        "reason": "Công trình có pháp lý đầy đủ, sổ hồng sang tên ngay luôn có tính thanh khoản vượt trội."
-      },
-      {
-        "from": "Nguyên vật liệu",
-        "to": "Chi phí",
-        "reason": "Ký hợp đồng chốt giá vật tư sớm giúp tránh rủi ro biến động giá nguyên vật liệu thi công."
+        "from": "Thiên tai bão lũ",
+        "to": "Quản lý dự án",
+        "reason": "Mùa mưa bão ảnh hưởng tiến độ thi công, cần dự phòng biện pháp chống ngập công trường.",
+        "app": "Lập kế hoạch thi công phần móng và kết cấu trước mùa mưa để tránh gián đoạn tiến độ."
       },
       {
         "from": "Thẩm định CĐT",
-        "to": "Dòng tiền",
-        "reason": "Kiểm tra dòng tiền thanh toán của CĐT giúp nhà thầu tránh nguy cơ đọng vốn, nợ xấu."
+        "to": "Pháp lý",
+        "reason": "Năng lực tài chính và pháp lý CĐT quyết định khả năng thanh toán và rủi ro hợp đồng.",
+        "app": "Luôn kiểm tra năng lực tài chính CĐT qua báo cáo tài chính trước khi ký hợp đồng thầu."
       },
       {
-        "from": "Kinh Dịch",
-        "to": "Chọn ngày khởi công",
-        "reason": "Xem ngày lành giờ tốt theo Trực nhật kết hợp thời tiết thực tế giúp khởi công đại cát."
+        "from": "Quy hoạch",
+        "to": "BĐS & Tài chính",
+        "reason": "Quy hoạch hạ tầng giao thông mới tạo sóng BĐS, ảnh hưởng trực tiếp đến giá đất.",
+        "app": "Theo dõi quy hoạch cao tốc và sân bay Long Thành để nhận biết cơ hội đầu tư đất vùng ven."
       },
       {
-        "from": "Ngôi nhà kiên cố",
-        "to": "Gia đình",
-        "reason": "Ngôi nhà được xây dựng vững chãi, hợp phong thủy là tổ ấm che chở cho nhiều thế hệ."
+        "from": "An toàn LĐ",
+        "to": "Quản lý dự án",
+        "reason": "Tai nạn lao động gây chậm tiến độ, tổn thất nhân mạng và chi phí bồi thường khổng lồ.",
+        "app": "Tổ chức huấn luyện ATLĐ 6 tháng/lần cho công nhân và kiểm tra thiết bị bảo hộ hàng ngày."
+      },
+      {
+        "from": "Vật liệu XD",
+        "to": "Dự toán",
+        "reason": "Biến động giá vật liệu trực tiếp ảnh hưởng tổng mức đầu tư và lợi nhuận dự án.",
+        "app": "Cập nhật bảng giá vật liệu từ Sở Xây dựng hàng quý để dự toán sát thực tế thị trường."
       }
     ],
     "intersection": "Xây dựng bền vững là công trình vững chắc về kết cấu, chuẩn mực về pháp lý, tối ưu về chi phí và an lành về phong thủy sinh khí."
@@ -456,34 +482,40 @@
     ],
     "links": [
       {
-        "from": "Pháp luật",
-        "to": "Tài chính",
-        "reason": "Doanh nghiệp tuân thủ pháp lý kế toán thuế sẽ phát triển bền vững, không sợ thanh tra."
+        "from": "Luật Xây dựng",
+        "to": "Đấu thầu",
+        "reason": "Luật Xây dựng và Luật Đấu thầu liên kết chặt chẽ trong quản lý dự án đầu tư công.",
+        "app": "Nắm vững Nghị định 24/2024 về Luật Đấu thầu mới để tránh sai sót trong hồ sơ dự thầu."
       },
       {
-        "from": "Luật xây dựng",
-        "to": "Dự án",
-        "reason": "Thi công đúng giấy phép và quy chuẩn kỹ thuật tránh bị đình chỉ công trình gây thiệt hại."
+        "from": "Luật Đất đai 2024",
+        "to": "Tài sản gia đình",
+        "reason": "Hiểu rõ quyền sở hữu, chuyển nhượng đất đai giúp bảo vệ tài sản trước mọi rủi ro.",
+        "app": "Kiểm tra quy hoạch sử dụng đất trước khi giao dịch bất kỳ thửa đất nào để tránh tranh chấp."
       },
       {
-        "from": "Pháp lý đất",
-        "to": "Bất động sản",
-        "reason": "Kiểm tra kỹ tình trạng thế chấp ngân hàng và tranh chấp trước khi xuống tiền mua nhà đất."
-      },
-      {
-        "from": "Hiểu luật",
-        "to": "Con cái",
-        "reason": "Dạy con hiểu và tôn trọng luật pháp giúp con tự bảo vệ mình và trở thành công dân gương mẫu."
+        "from": "Quyền công dân",
+        "to": "Bảo vệ gia đình",
+        "reason": "Biết rõ quyền và nghĩa vụ pháp lý giúp gia đình không bị lạm dụng hay thiệt thòi.",
+        "app": "Dạy con biết quyền từ chối cung cấp thông tin cá nhân và quyền yêu cầu luật sư khi cần."
       },
       {
         "from": "Đạo đức",
         "to": "Kinh doanh",
-        "reason": "Chữ Tín và sự tử tế là tài sản vô hình lớn nhất giúp đối tác luôn tin tưởng đồng hành."
+        "reason": "Kinh doanh bền vững phải dựa trên nền tảng đạo đức, minh bạch và uy tín lâu dài.",
+        "app": "Không bao giờ thông thầu, luôn giữ chữ tín trong mọi hợp đồng dù lời hay lỗ."
       },
       {
-        "from": "Pháp lý",
-        "to": "Kinh Dịch",
-        "reason": "Luật pháp thể hiện lẽ cân bằng Âm Dương: quyền lợi đi liền nghĩa vụ, tự do trong khuôn khổ."
+        "from": "Nhận diện lừa đảo",
+        "to": "An toàn mạng",
+        "reason": "Tội phạm công nghệ cao ngày càng tinh vi, cần nhận biết các chiêu trò mới để phòng tránh.",
+        "app": "Không bao giờ click link lạ qua tin nhắn, không chuyển tiền cho người không xác minh danh tính."
+      },
+      {
+        "from": "Pháp luật",
+        "to": "Xây dựng",
+        "reason": "Mọi hoạt động xây dựng đều phải tuân thủ pháp luật từ giấy phép đến nghiệm thu PCCC.",
+        "app": "Lưu trữ đầy đủ hồ sơ pháp lý dự án: giấy phép XD, hợp đồng, biên bản nghiệm thu, bảo hiểm."
       }
     ],
     "intersection": "Sống và làm việc theo pháp luật là tấm khiên hộ thân vững chắc nhất cho sự nghiệp và sự bình an của gia đình."
@@ -532,34 +564,40 @@
     ],
     "links": [
       {
-        "from": "Web app",
-        "to": "Tất cả các module",
-        "reason": "Web app chính là ngôi nhà số lưu giữ và vận hành toàn bộ kho tàng tri thức bạn đã gây dựng."
+        "from": "AI thực tế",
+        "to": "Công việc",
+        "reason": "AI hỗ trợ viết báo cáo, phân tích dữ liệu, tóm tắt hợp đồng nhanh gấp 10 lần thủ công.",
+        "app": "Dùng AI tóm tắt tài liệu dự thầu dày 200 trang trong 5 phút thay vì đọc 2 ngày."
       },
       {
-        "from": "AI",
-        "to": "Tư duy phản biện",
-        "reason": "AI không thay thế tư duy con người mà là trợ lý đắc lực giúp phân tích dữ liệu siêu tốc."
+        "from": "Web App",
+        "to": "Gia đình",
+        "reason": "Ứng dụng web kết nối gia đình với kho tri thức đồ sộ, truy cập mọi lúc mọi nơi.",
+        "app": "Cả nhà dùng webapp Cổ Học Tinh Hoa để học cùng nhau mỗi tối, mỗi người một module phù hợp."
       },
       {
-        "from": "Thương mại điện tử",
-        "to": "Kinh tế tương lai",
-        "reason": "Xu thế tiêu dùng trực tuyến mở ra không gian khởi nghiệp không giới hạn cho thế hệ trẻ."
+        "from": "TMĐT",
+        "to": "Con lớp 12",
+        "reason": "Thương mại điện tử là kỹ năng sống thiết yếu trong kỷ nguyên số cho thế hệ trẻ.",
+        "app": "Con lớp 12 thực hành bán hàng trên Shopee, TikTok Shop để tích lũy kinh nghiệm kinh doanh."
       },
       {
-        "from": "Công nghệ",
-        "to": "Sức khỏe",
-        "reason": "Ứng dụng máy đo huyết áp điện tử, nhật ký sức khỏe, AI tư vấn sơ cứu ban đầu tức thì."
+        "from": "Nghề 2030",
+        "to": "Tri tuệ",
+        "reason": "Nghề nghiệp tương lai đòi hỏi tư duy phản biện, sáng tạo và khả năng học suốt đời.",
+        "app": "Định hướng con theo lĩnh vực AI, Data Science, Logistics số — ngành có nhu cầu cao đến 2035."
       },
       {
-        "from": "Công nghệ",
+        "from": "An ninh mạng",
         "to": "Tài chính",
-        "reason": "Giao dịch ngân hàng số tiện lợi nhưng đòi hỏi ý thức bảo mật mật khẩu OTP tuyệt đối."
+        "reason": "Mất an toàn tài khoản ngân hàng có thể thiệt hại hàng trăm triệu trong vài phút.",
+        "app": "Bật xác thực 2 lớp cho tất cả tài khoản ngân hàng, không dùng wifi công cộng khi giao dịch."
       },
       {
-        "from": "Tương lai",
-        "to": "Con cái",
-        "reason": "Trang bị cho con tư duy làm chủ công nghệ thay vì trở thành nô lệ của thuật toán mạng xã hội."
+        "from": "Năng lượng xanh",
+        "to": "Xây dựng",
+        "reason": "Công trình xanh, tiết kiệm năng lượng là xu hướng bắt buộc trong xây dựng hiện đại.",
+        "app": "Tư vấn CĐT lắp đặt điện mặt trời áp mái cho nhà xưởng để tiết kiệm 30-40% chi phí điện."
       }
     ],
     "intersection": "Người làm chủ công nghệ bằng tư duy và đạo đức sẽ dẫn dắt tương lai; kẻ lệ thuộc vào công nghệ sẽ bị đào thải."
@@ -570,34 +608,39 @@
     "audioSummary": "Phần 8: Bản đồ con người từ bản thân lan tỏa ra gia đình và xã hội. 5 vòng tròn đồng tâm: Bản thân tu dưỡng thân tâm, Vợ chồng thấu hiểu chia sẻ, Con cái làm gương dạy dỗ, Doanh nghiệp uy tín đàng hoàng và Đóng góp cho xã hội. Tu thân là gốc của tề gia trị quốc.",
     "fiveRings": [
       {
-        "ring": 1,
-        "name": "VÒNG 1: BẢN THÂN (GỐC RỄ)",
-        "desc": "Thân thể khỏe mạnh (không bệnh Gút, huyết áp tốt), tâm trí an định (tĩnh tâm, đọc sách), tư duy sáng suốt, tu dưỡng đạo đức mỗi ngày.",
-        "keyword": "TU THÂN"
+        "ring": "Vòng 1",
+        "name": "BẢN THÂN (GỐC RỄ)",
+        "action": "TU THÂN",
+        "content": "Thân thể khỏe mạnh (không bệnh Gút, huyết áp tốt), tâm trí an định (tĩnh tâm, đọc sách), tư duy sáng suốt, tu dưỡng đạo đức mỗi ngày.",
+        "principle": "Tu thân là gốc rễ — chưa tu thân thì chưa tề gia được."
       },
       {
-        "ring": 2,
-        "name": "VÒNG 2: VỢ CHỒNG & GIA ĐÌNH",
-        "desc": "Vợ chồng đồng lòng, tôn trọng, sẻ chia việc nhà và tài chính. Nhà cửa ngăn nắp, phong thủy ấm cúng, bữa cơm sum vầy.",
-        "keyword": "TỀ GIA"
+        "ring": "Vòng 2",
+        "name": "VỢ CHỒNG (TỀ GIA)",
+        "action": "TỀ GIA",
+        "content": "Vợ chồng đồng thuận, phân công rõ ràng, tôn trọng nhau, cùng hướng về một mục tiêu chung cho gia đình.",
+        "principle": "Gia đình hòa thuận thì vạn sự thành — bất hòa thì dù giàu cũng rạn nứt."
       },
       {
-        "ring": 3,
-        "name": "VÒNG 3: CON CÁI (THẾ HỆ SAU)",
-        "desc": "Làm gương cho con lớp 7 về tự lập, hiếu học, thể thao; đồng hành định hướng cho con lớp 12 về thương mại điện tử, tài chính và lập nghiệp.",
-        "keyword": "DẠY CON"
+        "ring": "Vòng 3",
+        "name": "CON CÁI (DẠY CON)",
+        "action": "DẠY CON",
+        "content": "Dạy con bằng gương sống của bố mẹ: cách tư duy, cách ứng xử, cách vượt khó khăn, cách giữ lời hứa và tự lập.",
+        "principle": "Con học từ cách bố sống, không chỉ từ lời bố nói — hành động là bài giảng mạnh nhất."
       },
       {
-        "ring": 4,
-        "name": "VÒNG 4: DOANH NGHIỆP & ĐỐI TÁC",
-        "desc": "Kinh doanh minh bạch, giữ chữ Tín với khách hàng và nhà thầu, quản lý dự án chuẩn tiến độ, tuân thủ pháp luật tuyệt đối.",
-        "keyword": "LẬP NGHIỆP"
+        "ring": "Vòng 4",
+        "name": "DOANH NGHIỆP (LẬP NGHIỆP)",
+        "action": "LẬP NGHIỆP",
+        "content": "Kinh doanh minh bạch, giữ chữ tín, xây dựng đội ngũ đáng tin cậy, tạo giá trị thực cho xã hội.",
+        "principle": "Lập nghiệp không phải để giàu nhanh — mà là tạo giá trị bền vững qua nhiều thế hệ."
       },
       {
-        "ring": 5,
-        "name": "VÒNG 5: CỘNG ĐỒNG & XÃ HỘI",
-        "desc": "Sống có trách nhiệm, giúp đỡ người hoạn nạn, chia sẻ tri thức và kinh nghiệm sống, lan tỏa năng lượng tích cực.",
-        "keyword": "GIÚP ĐỜI"
+        "ring": "Vòng 5",
+        "name": "XÃ HỘI (GIÚP ĐỜI)",
+        "action": "GIÚP ĐỜI",
+        "content": "Khi đã đủ vững vàng, hãy lan tỏa giá trị cho cộng đồng: chia sẻ kiến thức, giúp đỡ người khó khăn, đóng góp xã hội.",
+        "principle": "Sống không chỉ cho mình — người có đức sẽ được trời đất và người tốt hỗ trợ."
       }
     ],
     "relationshipSummary": "Không thể dạy con nếu bản thân sống buông thả; không thể quản trị doanh nghiệp bền nếu gia đình lục đục; không thể phụng sự xã hội nếu bản thân kiệt quệ sức khỏe. Tu thân là gốc của vạn sự."
