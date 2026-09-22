@@ -163,7 +163,7 @@
         <!-- User profile for mobile -->
         <div class="flex xl:hidden items-center gap-2">
           <button onclick="document.getElementById('quick-hub-modal')?.classList.remove('hidden')" class="px-2.5 py-1.5 rounded-xl text-xs font-bold bg-indigo-950/60 border border-indigo-500/40 text-indigo-300 flex items-center gap-1 cursor-pointer">
-            <span>🧭</span> <span>Mục Lục 17 Chủ Đề</span>
+            <span>🧭</span> <span>Mục Lục 18 Chủ Đề</span>
           </button>
           <div id="mobile-user-badge" class="hidden text-[11px] font-bold text-indigo-300 bg-indigo-500/15 px-2.5 py-1 rounded-xl border border-indigo-500/20"></div>
           <button onclick="handleLogout()" id="btn-logout-mobile" class="hidden p-1.5 rounded-xl text-xs bg-rose-950/40 text-rose-300 border border-rose-800/40">
@@ -286,6 +286,13 @@
             class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200 hidden"
           >
             <span>🧠</span> <span>Câu Đố Trí Tuệ</span>
+          </button>
+          <button
+            id="tab-capcuu"
+            onclick="switchMainTab('capcuu')"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200 hidden"
+          >
+            <span>🚨</span> <span>Cấp Cứu</span>
           </button>
 <button
             id="tab-chongaytot"
@@ -412,6 +419,13 @@
             <div class="text-2xl mb-1.5">🧠</div>
             <b class="text-emerald-200 text-xs font-bold block mb-1 group-hover:text-white">Câu Đố Trí Tuệ</b>
             <p class="text-[10px] text-slate-300 leading-snug">Rèn tư duy nhanh, 160 câu 4 cấp độ, đếm ngược</p>
+          </button>
+          <!-- Cấp Cứu Tại Nhà (MỚI) -->
+          <button onclick="switchMainTab('capcuu')" class="p-3.5 rounded-2xl bg-gradient-to-br from-red-950/70 via-rose-950/50 to-slate-900 border-2 border-red-500/70 hover:border-red-400 text-left transition-all duration-300 hover:scale-[1.03] shadow-lg shadow-red-950/40 group relative overflow-hidden cursor-pointer">
+            <span class="absolute top-1.5 right-1.5 text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-red-600 text-white animate-pulse">MỚI ⭐</span>
+            <div class="text-2xl mb-1.5">🚨</div>
+            <b class="text-red-200 text-xs font-bold block mb-1 group-hover:text-white">Cấp Cứu Tại Nhà</b>
+            <p class="text-[10px] text-slate-300 leading-snug">9 phần khẩn cấp, Gọi 115, CPR Metronome, Loa đọc</p>
           </button>
 
           <!-- 3. Chọn Ngày Tốt (MỚI) -->
@@ -2399,6 +2413,7 @@
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-huyetdao" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🌿 Huyệt Đạo</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-chongaytot" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🗓️ Chọn Ngày Tốt</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-caudotritue" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🧠 Câu Đố Trí Tuệ</span></label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-capcuu" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🚨 Cấp Cứu</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-aiagent" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🤖 Trợ Lý AI</span></label>
             </div>
           </div>
@@ -2859,6 +2874,16 @@
             </div>
             <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-emerald-500 text-slate-950">MỚI</span>
           </button>
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('capcuu')" class="p-3 rounded-2xl bg-red-950/40 border border-red-500/40 text-left flex items-center justify-between hover:bg-red-900/40 transition-all cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span class="text-xl">🚨</span>
+              <div>
+                <b class="text-red-200 block text-xs">Cấp Cứu Tại Nhà</b>
+                <span class="text-[10px] text-slate-400">9 phần khẩn cấp, Gọi 115, CPR Metronome</span>
+              </div>
+            </div>
+            <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-red-600 text-white">MỚI</span>
+          </button>
 
           <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('muuke')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-purple-500/40 transition-all cursor-pointer">
             <span class="text-xl">⚔️</span>
@@ -3109,6 +3134,140 @@
 
       <!-- Progress Tracking Area -->
       <div id="caudotritue-progress-area" class="hidden flex flex-col gap-6"></div>
+    </div>
+
+  
+    <!-- CAP CUU TAI NHA SECTION (MỚI) -->
+    <div id="capcuu-section" class="flex flex-col gap-6 hidden">
+      <!-- Hero Header -->
+      <div class="glass-card p-6 md:p-8 rounded-3xl relative overflow-hidden border-2 border-red-500/60 shadow-2xl shadow-red-950/40 bg-gradient-to-br from-slate-900 via-red-950/30 to-slate-900">
+        <div class="absolute -right-10 -bottom-10 text-9xl text-red-500/10 pointer-events-none select-none font-black">115</div>
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/20 border border-red-500/40 text-red-300 text-xs font-bold uppercase tracking-wider mb-3">
+              <span class="animate-pulse text-sm">🚨</span> CẨM NANG KHẨN CẤP GIA ĐÌNH • CHUẨN Y KHOA
+            </div>
+            <h1 class="text-2xl md:text-4xl font-black font-display text-white tracking-tight flex items-center gap-3">
+              <span>CẤP CỨU TẠI NHÀ</span>
+              <span class="text-xs md:text-sm font-semibold px-2.5 py-0.5 rounded-lg bg-red-600 text-white tracking-normal">XỬ LÝ NGAY</span>
+            </h1>
+            <p class="text-xs md:text-sm text-slate-300 mt-2 max-w-2xl leading-relaxed">
+              Thực hiện đúng thứ tự <b>BƯỚC 1 → BƯỚC 2 → BƯỚC 3</b>. Giữ bình tĩnh, thao tác dứt khoát để cứu sống người thân trong thời khắc vàng!
+            </p>
+          </div>
+
+          <!-- Fast Action Toolbar -->
+          <div class="flex flex-wrap md:flex-col gap-2.5 shrink-0">
+            <button 
+              id="btn-emergency-mode"
+              onclick="toggleEmergencyMode()" 
+              class="px-4 py-2.5 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700 text-xs font-bold transition-all flex items-center gap-2 cursor-pointer shadow-lg active:scale-95"
+              title="Phóng cực đại cỡ chữ và nổi bật bước hành động"
+            >
+              <span>🚨</span> <span>CHẾ ĐỘ KHẨN CẤP (CHỮ TO)</span>
+            </button>
+
+            <button 
+              id="cpr-metronome-btn"
+              onclick="toggleCprMetronome()" 
+              class="px-4 py-2.5 rounded-2xl bg-slate-800 hover:bg-slate-700 text-red-400 hover:text-red-300 border border-red-500/40 text-xs font-bold transition-all flex items-center gap-2 cursor-pointer shadow-lg active:scale-95"
+              title="Máy gõ nhịp 110 nhịp/phút chuẩn CPR"
+            >
+              <span id="cpr-visual-pulse" class="inline-block w-2.5 h-2.5 rounded-full bg-red-500 transition-all duration-150"></span>
+              <span>Bật Nhịp Ép Tim CPR (110 bpm)</span>
+            </button>
+
+            <button 
+              onclick="openEmergencyModal()" 
+              class="px-4 py-2.5 rounded-2xl bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 text-white text-xs font-black tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-xl shadow-red-600/30 active:scale-95"
+            >
+              <span>📞</span> <span>GỌI 115 & ĐỊA CHỈ NHÀ</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Safety Notice Banner -->
+        <div class="mt-5 p-3 rounded-2xl bg-red-950/50 border border-red-500/40 flex items-start gap-2.5 text-xs text-red-200">
+          <span class="text-base text-red-400 shrink-0">⚠️</span>
+          <p class="leading-relaxed">
+            <b>CẢNH BÁO AN TOÀN:</b> Tài liệu hướng dẫn hỗ trợ xử lý ban đầu trong khi chờ xe cứu thương. Hãy luôn chỉ định một người <b>gọi ngay 115</b> trước khi bắt đầu can thiệp trong mọi tình huống nguy kịch!
+          </p>
+        </div>
+      </div>
+
+      <!-- Navigation Sub-Tabs -->
+      <div class="glass-card p-3 rounded-2xl border-red-500/20 overflow-x-auto scrollbar-none">
+        <div class="inline-flex items-center gap-1.5 p-1 rounded-2xl bg-slate-900/90 border border-slate-800 overflow-x-auto max-w-full" id="capcuu-sub-tabs">
+          <button onclick="selectCapCuuSubTab('all')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-white bg-gradient-to-r from-red-600 to-rose-600 shadow-md cursor-pointer whitespace-nowrap" data-tab="all">
+            ⭐ Tất Cả (9 Phần)
+          </button>
+          <button onclick="selectCapCuuSubTab('phan-1')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="phan-1">
+            1. 4 Bước Vàng
+          </button>
+          <button onclick="selectCapCuuSubTab('phan-2')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="phan-2">
+            2. Ép Tim CPR
+          </button>
+          <button onclick="selectCapCuuSubTab('phan-3')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="phan-3">
+            3. Cầm Máu
+          </button>
+          <button onclick="selectCapCuuSubTab('phan-4')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="phan-4">
+            4. Hóc Dị Vật
+          </button>
+          <button onclick="selectCapCuuSubTab('phan-5')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="phan-5">
+            5. Đau Ngực Tim
+          </button>
+          <button onclick="selectCapCuuSubTab('phan-6')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="phan-6">
+            6. Đột Quỵ FAST
+          </button>
+          <button onclick="selectCapCuuSubTab('phan-7')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="phan-7">
+            7. Co Giật & Ngất
+          </button>
+          <button onclick="selectCapCuuSubTab('phan-8')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="phan-8">
+            8. Bỏng, Điện & Độc
+          </button>
+          <button onclick="selectCapCuuSubTab('phan-9')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="phan-9">
+            9. Túi Sơ Cứu
+          </button>
+          <button onclick="selectCapCuuSubTab('quiz')" class="capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-tab="quiz">
+            🎯 Trắc Nghiệm (5 Bài)
+          </button>
+        </div>
+      </div>
+
+      <!-- Search & Filters Toolbar -->
+      <div id="capcuu-controls" class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-3 items-center justify-between border-red-500/20">
+        <div class="relative w-full md:w-96">
+          <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-500 text-sm">🔍</span>
+          <input
+            type="text"
+            id="capcuu-search"
+            placeholder="Tìm triệu chứng: co giật, ép tim, máu cam, bỏng, đột quỵ..."
+            class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-red-500 transition-all shadow-inner"
+          >
+        </div>
+
+        <div class="flex items-center gap-2 w-full md:w-auto justify-between md:justify-end">
+          <span class="text-xs font-semibold text-red-400 bg-red-500/10 px-3 py-1.5 rounded-full border border-red-500/20" id="capcuu-item-count">
+            9 Phần chuẩn bị sẵn sàng
+          </span>
+        </div>
+      </div>
+
+      <!-- Main Display Area -->
+      <div id="capcuu-display-area" class="flex flex-col gap-8 min-h-[350px]"></div>
+
+      <!-- Quiz Area -->
+      <div id="capcuu-quiz-area" class="hidden flex flex-col gap-6"></div>
+
+      <!-- Footer Quote -->
+      <div class="glass-card p-6 rounded-3xl text-center border-red-500/30 bg-gradient-to-r from-red-950/20 via-slate-900 to-red-950/20">
+        <p class="text-sm md:text-base font-semibold text-red-200 italic">
+          "Giữ bình tĩnh là bước đầu tiên của cấp cứu — hành động đúng, không vội, không hoảng"
+        </p>
+        <p class="text-[11px] text-slate-400 mt-2">
+          Cẩm nang Sơ Cấp Cứu Gia Đình • Ứng dụng Trí Tuệ Cuộc Sống
+        </p>
+      </div>
     </div>
 
   </main>
@@ -3373,7 +3532,9 @@
     const tabChongaytot = document.getElementById('tab-chongaytot');
     const chongaytotSection = document.getElementById('chongaytot-section');
     const tabCaudotritue = document.getElementById('tab-caudotritue');
+    const tabCapcuu = document.getElementById('tab-capcuu');
     const caudotritueSection = document.getElementById('caudotritue-section');
+    const capcuuSection = document.getElementById('capcuu-section');
     const tabAiagent = document.getElementById('tab-aiagent');
     const headerStatus = document.getElementById('header-status');
 
@@ -3576,6 +3737,8 @@
       if (tabChongaytot) setTabClass(tabChongaytot, inactiveClass);
       if (caudotritueSection) caudotritueSection.classList.add('hidden');
       if (tabCaudotritue) setTabClass(tabCaudotritue, inactiveClass);
+      if (capcuuSection) capcuuSection.classList.add('hidden');
+      if (tabCapcuu) setTabClass(tabCapcuu, inactiveClass);
       setTabClass(tabAiagent, inactiveClass);
       setTabClass(document.getElementById('tab-users'), inactiveClass);
 
@@ -3653,6 +3816,10 @@
         if (caudotritueSection) caudotritueSection.classList.remove('hidden');
         if (tabCaudotritue) setTabClass(tabCaudotritue, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-emerald-500 via-teal-500 to-green-600 text-white font-bold shadow-lg shadow-emerald-500/25");
         loadCauDoTriTueData();
+      } else if (tab === 'capcuu') {
+        if (capcuuSection) capcuuSection.classList.remove('hidden');
+        if (tabCapcuu) setTabClass(tabCapcuu, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-red-600 via-rose-600 to-orange-600 text-white font-bold shadow-lg shadow-red-500/25");
+        loadCapCuuData();
       } else if (tab === 'aiagent') {
         aiagentSection.classList.remove('hidden');
         setTabClass(tabAiagent, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25");
@@ -10736,6 +10903,519 @@
     });
 
 
+    
+    // ==================== CẤP CỨU TẠI NHÀ LOGIC ====================
+    let capCuuData = null;
+    let activeCapCuuTab = 'all';
+    let isEmergencyMode = false;
+    let isCprActive = false;
+    let cprAudioCtx = null;
+    let cprInterval = null;
+
+    async function loadCapCuuData() {
+      if (capCuuData) {
+        renderCapCuu();
+        return;
+      }
+      try {
+        const data = await fetchJsonWithCache('./cap_cuu_tai_nha.json', 'Không thể tải cẩm nang Cấp Cứu.');
+        if (data && data.sections) {
+          capCuuData = data;
+          initEmergencyHomeInfo();
+          renderCapCuu();
+        }
+      } catch (err) {
+        console.error("Lỗi nạp cấp cứu:", err);
+        showToast("Không thể nạp dữ liệu cấp cứu", "⚠️");
+      }
+    }
+
+    function initEmergencyHomeInfo() {
+      const savedAddr = localStorage.getItem('capcuu_home_address') || 'Chưa lưu địa chỉ (Bấm sửa để nhập)';
+      const savedDoc = localStorage.getItem('capcuu_doctor_phone') || '115';
+      
+      const addrEl = document.getElementById('emergency-home-address-display');
+      const sampleAddrEl = document.getElementById('emergency-sample-addr');
+      if (addrEl) addrEl.textContent = savedAddr;
+      if (sampleAddrEl) sampleAddrEl.textContent = savedAddr;
+
+      const docEl = document.getElementById('emergency-doctor-phone-display');
+      const docLink = document.getElementById('emergency-doctor-call-link');
+      if (docEl) docEl.textContent = savedDoc;
+      if (docLink) docLink.href = 'tel:' + savedDoc;
+    }
+
+    window.openEmergencyModal = function() {
+      const modal = document.getElementById('emergency-modal');
+      if (modal) {
+        initEmergencyHomeInfo();
+        modal.classList.remove('hidden');
+      }
+    };
+
+    window.closeEmergencyModal = function() {
+      const modal = document.getElementById('emergency-modal');
+      if (modal) modal.classList.add('hidden');
+    };
+
+    window.editEmergencyHomeInfo = function() {
+      const current = localStorage.getItem('capcuu_home_address') || '';
+      const input = prompt("Nhập ĐỊA CHỈ NHÀ CHÍNH XÁC của bạn (số nhà, ngõ/đường, phường/xã, quận/huyện, điểm mốc dễ tìm) để đọc ngay cho 115 khi cần:", current);
+      if (input !== null && input.trim() !== '') {
+        localStorage.setItem('capcuu_home_address', input.trim());
+        initEmergencyHomeInfo();
+        showToast("Đã lưu địa chỉ nhà khẩn cấp!", "📍");
+      }
+    };
+
+    window.editEmergencyDoctorInfo = function() {
+      const current = localStorage.getItem('capcuu_doctor_phone') || '';
+      const input = prompt("Nhập SỐ ĐIỆN THOẠI Bác sĩ gia đình hoặc người thân cần gọi:", current);
+      if (input !== null && input.trim() !== '') {
+        localStorage.setItem('capcuu_doctor_phone', input.trim());
+        initEmergencyHomeInfo();
+        showToast("Đã lưu số điện thoại khẩn cấp!", "👨‍⚕️");
+      }
+    };
+
+    window.toggleEmergencyMode = function() {
+      isEmergencyMode = !isEmergencyMode;
+      const section = document.getElementById('capcuu-section');
+      const btn = document.getElementById('btn-emergency-mode');
+      if (isEmergencyMode) {
+        section?.classList.add('emergency-mode-active');
+        if (btn) {
+          btn.classList.remove('bg-slate-800', 'text-slate-200');
+          btn.classList.add('bg-red-600', 'text-white', 'animate-pulse');
+          btn.innerHTML = '<span>🚨</span> <span>TẮT CHẾ ĐỘ KHẨN CẤP</span>';
+        }
+        showToast("Đã BẬT Chế Độ Khẩn Cấp (Chữ cực to & viền đỏ)!", "🚨");
+      } else {
+        section?.classList.remove('emergency-mode-active');
+        if (btn) {
+          btn.classList.remove('bg-red-600', 'text-white', 'animate-pulse');
+          btn.classList.add('bg-slate-800', 'text-slate-200');
+          btn.innerHTML = '<span>🚨</span> <span>CHẾ ĐỘ KHẨN CẤP (CHỮ TO)</span>';
+        }
+        showToast("Đã tắt chế độ khẩn cấp", "ℹ️");
+      }
+      renderCapCuu();
+    };
+
+    window.toggleCprMetronome = function() {
+      const btn = document.getElementById('cpr-metronome-btn');
+      const pulseEl = document.getElementById('cpr-visual-pulse');
+      if (isCprActive) {
+        if (cprInterval) clearInterval(cprInterval);
+        cprInterval = null;
+        isCprActive = false;
+        if (btn) {
+          btn.classList.remove('bg-red-600', 'text-white', 'animate-pulse');
+          btn.classList.add('bg-slate-800', 'text-red-400');
+          btn.innerHTML = '<span id="cpr-visual-pulse" class="inline-block w-2.5 h-2.5 rounded-full bg-red-500 transition-all duration-150"></span> <span>Bật Nhịp Ép Tim CPR (110 bpm)</span>';
+        }
+        showToast("Đã dừng máy gõ nhịp CPR", "⏹️");
+        return;
+      }
+
+      try {
+        const AudioCtx = window.AudioContext || window.webkitAudioContext;
+        if (!cprAudioCtx) cprAudioCtx = new AudioCtx();
+        if (cprAudioCtx.state === 'suspended') cprAudioCtx.resume();
+      } catch (e) {
+        console.warn("AudioContext error:", e);
+      }
+
+      isCprActive = true;
+      if (btn) {
+        btn.classList.remove('bg-slate-800', 'text-red-400');
+        btn.classList.add('bg-red-600', 'text-white', 'animate-pulse');
+        btn.innerHTML = '<span id="cpr-visual-pulse" class="inline-block w-2.5 h-2.5 rounded-full bg-white transition-all duration-150"></span> <span>ĐANG GÕ NHỊP 110 BPM (Dừng)</span>';
+      }
+      showToast("Đang phát nhịp ép tim 110 bpm!", "💓");
+
+      function playBeep() {
+        try {
+          if (cprAudioCtx) {
+            const osc = cprAudioCtx.createOscillator();
+            const gain = cprAudioCtx.createGain();
+            osc.connect(gain);
+            gain.connect(cprAudioCtx.destination);
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(880, cprAudioCtx.currentTime);
+            gain.gain.setValueAtTime(0.35, cprAudioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, cprAudioCtx.currentTime + 0.08);
+            osc.start();
+            osc.stop(cprAudioCtx.currentTime + 0.08);
+          }
+        } catch (e) {}
+
+        const p = document.getElementById('cpr-visual-pulse');
+        if (p) {
+          p.classList.add('scale-150', 'bg-yellow-300');
+          setTimeout(() => {
+            p.classList.remove('scale-150', 'bg-yellow-300');
+          }, 120);
+        }
+      }
+
+      playBeep();
+      cprInterval = setInterval(playBeep, Math.round(60000 / 110));
+    };
+
+    window.playTTSCapCuu = function(e, text, isFast) {
+      if (e) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+      if (!text) return;
+
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'vi-VN';
+        utterance.rate = isFast ? 1.25 : 0.95;
+        const voices = window.speechSynthesis.getVoices();
+        if (voices && voices.length > 0) {
+          const viVoice = voices.find(v => v.lang.includes('vi'));
+          if (viVoice) utterance.voice = viVoice;
+        }
+        window.speechSynthesis.speak(utterance);
+        showToast(isFast ? "⚡ Đang đọc nhanh khẩn cấp..." : "🔊 Đang đọc hướng dẫn cấp cứu...", "🔊");
+      } else if (window.playTTS) {
+        window.playTTS(e, text, 'vi');
+      }
+    };
+
+    window.stopTTSCapCuu = function(e) {
+      if (e) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
+      if (window.stopAllAudio) window.stopAllAudio();
+      showToast("Đã dừng giọng đọc", "⏹️");
+    };
+
+    window.selectCapCuuSubTab = function(tabId) {
+      activeCapCuuTab = tabId;
+      const badges = document.querySelectorAll('#capcuu-sub-tabs .capcuu-badge');
+      badges.forEach(b => {
+        if (b.getAttribute('data-tab') === tabId) {
+          b.className = 'capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-white bg-gradient-to-r from-red-600 to-rose-600 shadow-md cursor-pointer whitespace-nowrap';
+        } else {
+          b.className = 'capcuu-badge px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap';
+        }
+      });
+
+      const displayArea = document.getElementById('capcuu-display-area');
+      const quizArea = document.getElementById('capcuu-quiz-area');
+      const controls = document.getElementById('capcuu-controls');
+
+      if (tabId === 'quiz') {
+        if (displayArea) displayArea.classList.add('hidden');
+        if (quizArea) quizArea.classList.remove('hidden');
+        if (controls) controls.classList.add('hidden');
+        renderCapCuuQuiz();
+      } else {
+        if (displayArea) displayArea.classList.remove('hidden');
+        if (quizArea) quizArea.classList.add('hidden');
+        if (controls) controls.classList.remove('hidden');
+        renderCapCuu();
+      }
+    };
+
+    function renderCapCuu() {
+      if (!capCuuData || !capCuuData.sections) return;
+      const area = document.getElementById('capcuu-display-area');
+      const countEl = document.getElementById('capcuu-item-count');
+      const searchVal = removeVietnameseTones((document.getElementById('capcuu-search')?.value || '').toLowerCase());
+
+      let sectionsToRender = capCuuData.sections;
+      if (activeCapCuuTab !== 'all') {
+        sectionsToRender = sectionsToRender.filter(s => s.id === activeCapCuuTab);
+      }
+
+      if (searchVal) {
+        sectionsToRender = sectionsToRender.filter(s => {
+          const raw = removeVietnameseTones(JSON.stringify(s)).toLowerCase();
+          return raw.includes(searchVal);
+        });
+      }
+
+      if (countEl) {
+        countEl.textContent = `${sectionsToRender.length} Phần hiển thị`;
+      }
+
+      if (sectionsToRender.length === 0) {
+        area.innerHTML = `
+          <div class="glass-card p-12 text-center rounded-3xl border border-slate-800">
+            <span class="text-4xl block mb-3">🔍</span>
+            <p class="text-slate-300 font-bold">Không tìm thấy phần cấp cứu phù hợp với từ khóa.</p>
+            <button onclick="document.getElementById('capcuu-search').value=''; renderCapCuu();" class="mt-4 px-4 py-2 rounded-xl bg-red-600 hover:bg-red-500 text-white text-xs font-bold transition-all cursor-pointer">
+              Xóa bộ lọc tìm kiếm
+            </button>
+          </div>`;
+        return;
+      }
+
+      const fontSizeStep = isEmergencyMode ? 'text-lg sm:text-xl font-bold' : 'text-sm sm:text-base';
+      const fontSizeTitle = isEmergencyMode ? 'text-xl sm:text-2xl font-black' : 'text-base sm:text-lg font-bold';
+      const cardBorder = isEmergencyMode ? 'border-2 border-red-500 shadow-2xl shadow-red-950/50 bg-slate-900' : 'border border-red-500/30 bg-slate-900/90';
+
+      const html = sectionsToRender.map(sec => {
+        const audioText = sec.audioSummary || (sec.title + '. ' + sec.intro);
+
+        let stepsHtml = '';
+        if (sec.steps && sec.steps.length > 0) {
+          stepsHtml = `
+            <div class="flex flex-col gap-3.5 my-4">
+              ${sec.steps.map(st => `
+                <div class="p-4 rounded-2xl bg-slate-950/70 border ${st.isCritical ? 'border-red-500/50' : 'border-slate-800'} flex flex-col gap-2">
+                  <div class="flex items-center gap-2.5">
+                    <span class="px-2.5 py-1 rounded-lg ${st.isCritical ? 'bg-red-600 text-white' : 'bg-slate-800 text-slate-300'} text-xs font-black tracking-wider uppercase">
+                      BƯỚC ${st.stepNumber}
+                    </span>
+                    <h4 class="${fontSizeTitle} text-white">${st.name}</h4>
+                  </div>
+                  <p class="${fontSizeStep} text-slate-200 leading-relaxed pl-1">
+                    ${st.action}
+                  </p>
+                  ${st.warning ? `
+                    <div class="mt-1 p-2.5 rounded-xl bg-red-950/40 border border-red-500/30 text-xs text-red-300 font-semibold flex items-center gap-2">
+                      <span>⚠️</span> <span>${st.warning}</span>
+                    </div>` : ''}
+                </div>
+              `).join('')}
+            </div>`;
+        }
+
+        let subSectionsHtml = '';
+        if (sec.subSections && sec.subSections.length > 0) {
+          subSectionsHtml = `
+            <div class="flex flex-col gap-4 my-4">
+              ${sec.subSections.map(sub => `
+                <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col gap-3">
+                  <h4 class="${fontSizeTitle} text-red-300 flex items-center gap-2">
+                    <span>📌</span> ${sub.title}
+                  </h4>
+                  <div class="flex flex-col gap-2.5">
+                    ${sub.steps.map(stepText => {
+                      const isDanger = stepText.includes('CẤM') || stepText.includes('TUYỆT ĐỐI') || stepText.includes('CẢNH BÁO');
+                      return `
+                        <div class="p-3 rounded-xl ${isDanger ? 'bg-red-950/50 border border-red-500/40 text-red-200 font-medium' : 'bg-slate-900/60 border border-slate-800/80 text-slate-200'} ${fontSizeStep} leading-relaxed">
+                          ${stepText}
+                        </div>`;
+                    }).join('')}
+                  </div>
+                </div>
+              `).join('')}
+            </div>`;
+        }
+
+        let dangerNotesHtml = '';
+        if (sec.dangerNotes && sec.dangerNotes.length > 0) {
+          dangerNotesHtml = `
+            <div class="mt-4 p-4 rounded-2xl bg-red-950/70 border-2 border-red-500/70 flex flex-col gap-2">
+              <span class="text-xs font-black uppercase tracking-wider text-red-300 flex items-center gap-1.5">
+                <span>⛔</span> CẢNH BÁO TỐI KỴ & LỖI NGUY HIỂM:
+              </span>
+              <ul class="flex flex-col gap-1.5 list-disc list-inside text-xs sm:text-sm text-red-100 font-medium leading-relaxed">
+                ${sec.dangerNotes.map(n => `<li>${n}</li>`).join('')}
+              </ul>
+            </div>`;
+        }
+
+        let checklistHtml = '';
+        if (sec.checklist && sec.checklist.length > 0) {
+          const savedChecks = JSON.parse(localStorage.getItem('capcuu_checklist') || '{}');
+          checklistHtml = `
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 my-4">
+              ${sec.checklist.map((item, idx) => {
+                const isChecked = !!savedChecks[idx];
+                return `
+                  <label class="p-3 rounded-2xl bg-slate-950/80 border ${isChecked ? 'border-emerald-500/60 bg-emerald-950/20' : 'border-slate-800'} flex items-start gap-3 cursor-pointer hover:border-slate-700 transition-all">
+                    <input type="checkbox" onchange="toggleCapCuuChecklist(${idx})" ${isChecked ? 'checked' : ''} class="mt-1 rounded text-red-600 focus:ring-red-500 bg-slate-900 cursor-pointer">
+                    <div>
+                      <b class="text-xs sm:text-sm text-white block ${isChecked ? 'line-through text-slate-400' : ''}">${item.item}</b>
+                      <span class="text-[11px] text-slate-400 block mt-0.5">${item.usage}</span>
+                    </div>
+                  </label>`;
+              }).join('')}
+            </div>
+            ${sec.maintenanceRules ? `
+              <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 flex flex-col gap-1">
+                <b class="text-amber-300">Quy tắc bảo quản túi sơ cứu:</b>
+                ${sec.maintenanceRules.map(r => `<p>• ${r}</p>`).join('')}
+              </div>` : ''}`;
+        }
+
+        let metronomeCard = '';
+        if (sec.hasMetronome) {
+          metronomeCard = `
+            <div class="my-4 p-4 rounded-2xl bg-gradient-to-r from-red-950/60 via-slate-900 to-red-950/60 border border-red-500/40 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <span class="text-3xl text-red-500 animate-pulse">💓</span>
+                <div>
+                  <h4 class="text-sm font-bold text-white">Máy Gõ Nhịp Chuẩn CPR 110 Nhịp/Phút</h4>
+                  <p class="text-xs text-slate-300">Theo nhịp bài hát 'Đoàn quân Việt Nam đi' — ấn sâu 5-6cm</p>
+                </div>
+              </div>
+              <button onclick="toggleCprMetronome()" class="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs flex items-center justify-center gap-2 cursor-pointer shadow-lg active:scale-95 transition-all">
+                <span>🎵</span> <span>Bật/Tắt Nhịp Gõ</span>
+              </button>
+            </div>`;
+        }
+
+        return `
+          <div class="glass-card p-5 sm:p-7 rounded-3xl ${cardBorder} flex flex-col gap-3 transition-all duration-300">
+            <!-- Card Header -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800/80 pb-4">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-2xl bg-red-600/20 border border-red-500/40 flex items-center justify-center text-red-400 text-2xl shrink-0">
+                  <i class="fa-solid ${sec.icon || 'fa-kit-medical'}"></i>
+                </div>
+                <div>
+                  <span class="text-[11px] font-black uppercase text-red-400 tracking-wider">${sec.number}</span>
+                  <h3 class="${fontSizeTitle} text-white leading-tight">${sec.title}</h3>
+                </div>
+              </div>
+
+              <!-- Audio Controls -->
+              <div class="flex items-center gap-2 shrink-0">
+                <button 
+                  onclick="playTTSCapCuu(event, '${audioText.replace(/'/g, "\\'")}', false)" 
+                  class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-red-950/60 text-slate-200 hover:text-white border border-slate-700 hover:border-red-500/40 text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer"
+                  title="Nghe giọng đọc bình thường"
+                >
+                  <span>🔊</span> <span>Nghe</span>
+                </button>
+                <button 
+                  onclick="playTTSCapCuu(event, '${audioText.replace(/'/g, "\\'")}', true)" 
+                  class="px-3 py-1.5 rounded-xl bg-red-950/60 hover:bg-red-900/60 text-red-200 hover:text-white border border-red-500/40 text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer"
+                  title="Đọc nhanh khẩn cấp"
+                >
+                  <span>⚡</span> <span>Đọc Nhanh</span>
+                </button>
+                <button 
+                  onclick="stopTTSCapCuu(event)" 
+                  class="p-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 text-xs cursor-pointer"
+                  title="Dừng đọc"
+                >
+                  ⏹️
+                </button>
+              </div>
+            </div>
+
+            <!-- Intro -->
+            <p class="${fontSizeStep} text-slate-300 italic leading-relaxed mt-1">
+              ${sec.intro}
+            </p>
+
+            ${metronomeCard}
+            ${stepsHtml}
+            ${subSectionsHtml}
+            ${dangerNotesHtml}
+            ${checklistHtml}
+          </div>
+        `;
+      }).join('');
+
+      area.innerHTML = html;
+    }
+
+    window.toggleCapCuuChecklist = function(idx) {
+      const savedChecks = JSON.parse(localStorage.getItem('capcuu_checklist') || '{}');
+      savedChecks[idx] = !savedChecks[idx];
+      localStorage.setItem('capcuu_checklist', JSON.stringify(savedChecks));
+      renderCapCuu();
+    };
+
+    // Quiz logic
+    let quizAnswers = {};
+    function renderCapCuuQuiz() {
+      if (!capCuuData || !capCuuData.quiz) return;
+      const area = document.getElementById('capcuu-quiz-area');
+      if (!area) return;
+
+      const html = `
+        <div class="glass-card p-6 md:p-8 rounded-3xl border-2 border-red-500/50 bg-slate-900 flex flex-col gap-6">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+            <div>
+              <span class="text-xs font-black uppercase text-red-400 tracking-wider">BÀI TẬP PHẢN XẠ THỰC TẾ</span>
+              <h3 class="text-xl md:text-2xl font-black text-white">5 Tình Huống Cấp Cứu Giả Lập</h3>
+            </div>
+            <button onclick="resetCapCuuQuiz()" class="px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold cursor-pointer">
+              🔄 Làm Lại
+            </button>
+          </div>
+
+          <div class="flex flex-col gap-6">
+            ${capCuuData.quiz.map(q => {
+              const userAns = quizAnswers[q.id];
+              const isAnswered = userAns !== undefined;
+              const isCorrect = userAns === q.correctAnswer;
+
+              return `
+                <div class="p-5 rounded-2xl bg-slate-950/70 border ${isAnswered ? (isCorrect ? 'border-emerald-500/60 bg-emerald-950/10' : 'border-red-500/60 bg-red-950/10') : 'border-slate-800'} flex flex-col gap-3.5">
+                  <h4 class="text-sm sm:text-base font-bold text-white leading-snug">
+                    ${q.scenario}
+                  </h4>
+
+                  <div class="grid grid-cols-1 gap-2.5">
+                    ${q.options.map((opt, optIdx) => {
+                      let btnStyle = 'bg-slate-900 border-slate-800 text-slate-200 hover:border-slate-700';
+                      if (isAnswered) {
+                        if (optIdx === q.correctAnswer) {
+                          btnStyle = 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold';
+                        } else if (optIdx === userAns) {
+                          btnStyle = 'bg-red-950/80 border-red-500 text-red-200 font-bold';
+                        } else {
+                          btnStyle = 'opacity-40 bg-slate-950 border-slate-900 text-slate-500';
+                        }
+                      }
+                      return `
+                        <button 
+                          onclick="selectCapCuuQuizOption(${q.id}, ${optIdx})" 
+                          ${isAnswered ? 'disabled' : ''}
+                          class="p-3 rounded-xl border text-left text-xs sm:text-sm transition-all ${btnStyle} cursor-pointer"
+                        >
+                          ${opt}
+                        </button>`;
+                    }).join('')}
+                  </div>
+
+                  ${isAnswered ? `
+                    <div class="mt-2 p-3 rounded-xl ${isCorrect ? 'bg-emerald-950/50 border border-emerald-500/40 text-emerald-200' : 'bg-red-950/50 border border-red-500/40 text-red-200'} text-xs leading-relaxed">
+                      <b>${isCorrect ? '✅ ĐÁNH GIÁ CHUẨN XÁC!' : '❌ CHƯA CHUẨN!'}</b> ${q.explanation}
+                    </div>` : ''}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+
+      area.innerHTML = html;
+    }
+
+    window.selectCapCuuQuizOption = function(qId, optIdx) {
+      quizAnswers[qId] = optIdx;
+      renderCapCuuQuiz();
+    };
+
+    window.resetCapCuuQuiz = function() {
+      quizAnswers = {};
+      renderCapCuuQuiz();
+      showToast("Đã làm mới bài trắc nghiệm", "🔄");
+    };
+
+    // Attach search input listener
+    document.getElementById('capcuu-search')?.addEventListener('input', () => {
+      renderCapCuu();
+    });
+
+
     // --- KINH PHAP CU LOGIC ---
     function renderPhapCuCards() {
       if (!phapCuData) return;
@@ -13127,13 +13807,13 @@
         "email": "admin@gmail.com",
         "mat_khau": "admin",
         "vai_tro": "Admin",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "caudotritue", "aiagent", "users"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "caudotritue", "capcuu", "aiagent", "users"]
       },
       {
         "email": "khach@gmail.com",
         "mat_khau": "123456",
         "vai_tro": "Khách",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "caudotritue", "aiagent"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "caudotritue", "capcuu", "aiagent"]
       }
     ];
 
@@ -13229,7 +13909,7 @@
 
         const isAdmin = currentUser.vai_tro === 'Admin' || currentUser.email.toLowerCase() === 'admin@gmail.com';
         if (isAdmin) {
-          currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'nhannhan', 'thany', 'muuke', 'chuyenranday', 'tuthu', 'phapluat', 'gout', 'phongthuy', 'huyetdao', 'chongaytot', 'caudotritue', 'aiagent', 'users'];
+          currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'nhannhan', 'thany', 'muuke', 'chuyenranday', 'tuthu', 'phapluat', 'gout', 'phongthuy', 'huyetdao', 'chongaytot', 'caudotritue', 'capcuu', 'aiagent', 'users'];
         }
 
         const hasPoems = isAdmin || currentUser.quyen.includes('poems');
@@ -13249,6 +13929,7 @@
         const hasHuyetDao = isAdmin || currentUser.quyen.includes('huyetdao');
         const hasChonNgayTot = isAdmin || currentUser.quyen.includes('chongaytot');
         const hasCauDoTriTue = isAdmin || currentUser.quyen.includes('caudotritue');
+        const hasCapCuu = isAdmin || currentUser.quyen.includes('capcuu');
         const hasAiAgent = isAdmin || currentUser.quyen.includes('aiagent');
         const hasUsers = isAdmin || currentUser.quyen.includes('users');
 
@@ -13269,6 +13950,7 @@
         toggleTabButtonVisibility('tab-huyetdao', hasHuyetDao);
         toggleTabButtonVisibility('tab-chongaytot', hasChonNgayTot);
         toggleTabButtonVisibility('tab-caudotritue', hasCauDoTriTue);
+        toggleTabButtonVisibility('tab-capcuu', hasCapCuu);
         toggleTabButtonVisibility('tab-aiagent', hasAiAgent);
         toggleTabButtonVisibility('tab-users', hasUsers);
 
@@ -13290,6 +13972,7 @@
           'huyetdao': hasHuyetDao,
           'chongaytot': hasChonNgayTot,
           'caudotritue': hasCauDoTriTue,
+          'capcuu': hasCapCuu,
           'aiagent': hasAiAgent,
           'users': hasUsers
         };
@@ -13312,6 +13995,7 @@
         else if (huyetdaoSection && !huyetdaoSection.classList.contains('hidden')) currentTab = 'huyetdao';
         else if (chongaytotSection && !chongaytotSection.classList.contains('hidden')) currentTab = 'chongaytot';
         else if (caudotritueSection && !caudotritueSection.classList.contains('hidden')) currentTab = 'caudotritue';
+        else if (capcuuSection && !capcuuSection.classList.contains('hidden')) currentTab = 'capcuu';
         else if (!aiagentSection.classList.contains('hidden')) currentTab = 'aiagent';
         else if (!document.getElementById('users-section').classList.contains('hidden')) currentTab = 'users';
 
@@ -13333,6 +14017,7 @@
           else if (hasHuyetDao) switchMainTab('huyetdao');
           else if (hasChonNgayTot) switchMainTab('chongaytot');
           else if (hasCauDoTriTue) switchMainTab('caudotritue');
+          else if (hasCapCuu) switchMainTab('capcuu');
           else if (hasAiAgent) switchMainTab('aiagent');
           else if (hasUsers) switchMainTab('users');
         }
@@ -13442,6 +14127,7 @@
         if (u.quyen.includes('huyetdao')) permsList.push('Huyệt Đạo');
         if (u.quyen.includes('chongaytot')) permsList.push('Chọn Ngày Tốt');
         if (u.quyen.includes('caudotritue')) permsList.push('Câu Đố Trí Tuệ');
+        if (u.quyen.includes('capcuu')) permsList.push('Cấp Cứu');
         if (u.quyen.includes('aiagent')) permsList.push('Trợ Lý AI');
         if (u.quyen.includes('users')) permsList.push('Quản Trị');
 
@@ -13525,6 +14211,7 @@
       if (document.getElementById('perm-huyetdao')) document.getElementById('perm-huyetdao').checked = u.quyen.includes('huyetdao');
       if (document.getElementById('perm-chongaytot')) document.getElementById('perm-chongaytot').checked = u.quyen.includes('chongaytot');
       if (document.getElementById('perm-caudotritue')) document.getElementById('perm-caudotritue').checked = u.quyen.includes('caudotritue');
+      if (document.getElementById('perm-capcuu')) document.getElementById('perm-capcuu').checked = u.quyen.includes('capcuu');
       if (document.getElementById('perm-aiagent')) document.getElementById('perm-aiagent').checked = u.quyen.includes('aiagent');
 
       showToast(`Đang chỉnh sửa quyền cho ${u.email}`, "✏️");
@@ -13576,6 +14263,7 @@
       if (document.getElementById('perm-huyetdao')?.checked) quyen.push('huyetdao');
       if (document.getElementById('perm-chongaytot')?.checked) quyen.push('chongaytot');
       if (document.getElementById('perm-caudotritue')?.checked) quyen.push('caudotritue');
+      if (document.getElementById('perm-capcuu')?.checked) quyen.push('capcuu');
       if (document.getElementById('perm-aiagent')?.checked) quyen.push('aiagent');
 
       const isDefaultAdmin = email.toLowerCase() === 'admin@gmail.com';
@@ -13613,6 +14301,7 @@
       if (document.getElementById('perm-huyetdao')) document.getElementById('perm-huyetdao').checked = false;
       if (document.getElementById('perm-chongaytot')) document.getElementById('perm-chongaytot').checked = false;
       if (document.getElementById('perm-caudotritue')) document.getElementById('perm-caudotritue').checked = false;
+      if (document.getElementById('perm-capcuu')) document.getElementById('perm-capcuu').checked = false;
       document.getElementById('perm-aiagent').checked = false;
 
       renderMembersList();
@@ -13647,7 +14336,7 @@
 
     async function preloadAllData() {
       try {
-        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt, rawHd, rawCngt, rawCddt] = await Promise.all([
+        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt, rawHd, rawCngt, rawCddt, rawCc] = await Promise.all([
           fetchJsonWithCache('./data.json').catch(() => []),
           fetchJsonWithCache('./tieng_trung.json').catch(() => null),
           fetchJsonWithCache('./kinh_dich.json').catch(() => null),
@@ -13664,7 +14353,8 @@
           fetchJsonWithCache('./phong_thuy.json').catch(() => null),
           fetchJsonWithCache('./huyet_dao.json').catch(() => null),
           fetchJsonWithCache('./chon_ngay_tot.json').catch(() => null),
-          fetchJsonWithCache('./cau_do_tri_tue.json').catch(() => null)
+          fetchJsonWithCache('./cau_do_tri_tue.json').catch(() => null),
+          fetchJsonWithCache('./cap_cuu_tai_nha.json').catch(() => null)
         ]);
 
         if (rawP && rawP.length > 0) {
@@ -13757,6 +14447,10 @@
 
         if (rawCddt) {
           cauDoTriTueData = rawCddt;
+        }
+
+        if (rawCc) {
+          capCuuData = rawCc;
         }
 
         headerStatus.textContent = 'Đã nạp toàn bộ kho tri thức';
@@ -13864,7 +14558,8 @@
       ['phongthuy', [' phong thuy', ' huong nha', ' the dat', ' bat cung', ' bat quai', ' phong khach', ' phong ngu', ' ban tho']],
       ['huyetdao', [' huyet dao', ' bam huyet', ' huyet vi', ' hop coc', ' thai xung', ' tam am giao', ' tuc tam ly', ' bach hoi']],
       ['chongaytot', [' chon ngay tot', ' ngay lanh', ' truc nhat', ' can chi', ' am duong ngu hanh', ' khoi cong', ' dong tho', ' cuoi hoi', ' khai truong']],
-      ['caudotritue', [' cau do tri tue', ' ren tu duy nhanh', ' cau do logic', ' do vui', ' tu duy phan bien', ' 160 cau do', ' bay tu duy', ' cau do hay']]
+      ['caudotritue', [' cau do tri tue', ' ren tu duy nhanh', ' cau do logic', ' do vui', ' tu duy phan bien', ' 160 cau do', ' bay tu duy', ' cau do hay']],
+      ['capcuu', [' cap cuu', ' so cuu', ' ep tim', ' cpr', ' 115', ' ngat tho', ' heimlich', ' dot quy', ' tai bien', ' nhoi mau co tim', ' chay mau', ' say nang', ' bong ', ' dien giat', ' ngo doc', ' co giat', ' ngat xiu']]
     ];
 
     function aiDetectModules(question) {
@@ -14358,6 +15053,16 @@
         }
         (cauDoTriTueData.phan_7_bay_ky_nang_tu_duy?.danh_sach_7_ky_nang || []).forEach(function (k) {
           add('caudotritue', k.stt, '[CÂU ĐỐ TRÍ TUỆ - Kỹ Năng #' + k.stt + '] ' + (k.ten || ''), aiFlattenRow(k, 400));
+        });
+      }
+
+      
+      if (capCuuData) {
+        if (capCuuData.metadata) {
+          add('capcuu', null, '[CẤP CỨU TẠI NHÀ - Tổng Quan]', JSON.stringify(capCuuData.metadata));
+        }
+        (capCuuData.sections || []).forEach(function (sec) {
+          add('capcuu', sec.id, '[CẤP CỨU - ' + sec.number + '] ' + (sec.title || ''), aiFlattenRow(sec, 800));
         });
       }
 
@@ -14925,5 +15630,99 @@
       }
     });
   </script>
+
+  <!-- Floating Emergency 115 Button -->
+  <div id="floating-emergency-btn-wrap" class="fixed bottom-20 right-4 z-40 sm:bottom-6 sm:right-6">
+    <button onclick="openEmergencyModal()" class="flex items-center gap-2 px-4 py-3 rounded-full bg-gradient-to-r from-red-600 via-rose-600 to-red-700 text-white font-black text-xs sm:text-sm tracking-wider shadow-2xl shadow-red-600/60 hover:scale-105 active:scale-95 transition-all duration-300 border-2 border-red-300/60 cursor-pointer animate-pulse">
+      <span class="text-lg">🚨</span>
+      <span class="tracking-widest font-black uppercase">GỌI 115</span>
+    </button>
+  </div>
+
+  <!-- Emergency 115 Modal -->
+  <div id="emergency-modal" class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/90 backdrop-blur-xl hidden" role="dialog" aria-modal="true">
+    <div class="glass-card p-6 sm:p-8 rounded-3xl w-full max-w-lg flex flex-col gap-5 shadow-2xl relative border-2 border-red-500/80 bg-slate-900/95 max-h-[90vh] overflow-y-auto">
+      
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between border-b border-red-500/30 pb-3">
+        <div class="flex items-center gap-2.5">
+          <span class="text-2xl text-red-500 animate-pulse">🚨</span>
+          <div>
+            <h2 class="text-lg sm:text-xl font-black font-display text-white">TRỢ GIÚP KHẨN CẤP 115</h2>
+            <p class="text-[11px] text-red-300 font-medium">Bấm là gọi ngay • Luôn đọc rõ địa chỉ</p>
+          </div>
+        </div>
+        <button onclick="closeEmergencyModal()" class="p-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 cursor-pointer transition-all">
+          ✕
+        </button>
+      </div>
+
+      <!-- Big 115 Call Button -->
+      <a href="tel:115" class="w-full py-4 rounded-2xl bg-gradient-to-r from-red-600 via-rose-600 to-red-700 hover:from-red-500 hover:to-rose-500 text-white text-center font-black text-xl flex items-center justify-center gap-3 shadow-2xl shadow-red-600/50 hover:brightness-110 active:scale-95 transition-all">
+        <span class="text-2xl animate-bounce">📞</span>
+        <span>BẤM GỌI CẤP CỨU 115 NGAY</span>
+      </a>
+
+      <!-- Quick Alternative Services -->
+      <div class="grid grid-cols-2 gap-3">
+        <a href="tel:114" class="p-3 rounded-2xl bg-orange-950/60 border border-orange-500/50 text-orange-200 text-center font-bold text-xs flex items-center justify-center gap-2 hover:bg-orange-900/60 transition-all">
+          <span>🚒</span> <span>114 Cứu Hỏa</span>
+        </a>
+        <a href="tel:113" class="p-3 rounded-2xl bg-blue-950/60 border border-blue-500/50 text-blue-200 text-center font-bold text-xs flex items-center justify-center gap-2 hover:bg-blue-900/60 transition-all">
+          <span>🚓</span> <span>113 Cảnh Sát</span>
+        </a>
+      </div>
+
+      <!-- Family Address Box -->
+      <div class="p-4 rounded-2xl bg-slate-950 border border-red-500/30 flex flex-col gap-2">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold text-red-300 flex items-center gap-1.5">
+            <span>📍</span> ĐỊA CHỈ NHÀ BẠN (ĐỌC CHO 115):
+          </span>
+          <button onclick="editEmergencyHomeInfo()" class="text-[11px] text-teal-400 hover:text-teal-300 font-bold underline cursor-pointer">
+            ✏️ Sửa địa chỉ
+          </button>
+        </div>
+        <div id="emergency-home-address-display" class="text-sm sm:text-base font-black text-amber-200 bg-red-950/30 p-3 rounded-xl border border-red-500/20 select-all leading-snug">
+          Chưa cài đặt địa chỉ nhà. Hãy bấm 'Sửa địa chỉ' để lưu sẵn!
+        </div>
+      </div>
+
+      <!-- Doctor Phone Box -->
+      <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800 flex flex-col gap-2">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold text-emerald-300 flex items-center gap-1.5">
+            <span>👨‍⚕️</span> BÁC SĨ GIA ĐÌNH / NGƯỜI THÂN:
+          </span>
+          <button onclick="editEmergencyDoctorInfo()" class="text-[11px] text-teal-400 hover:text-teal-300 font-bold underline cursor-pointer">
+            ✏️ Sửa số
+          </button>
+        </div>
+        <div class="flex items-center justify-between bg-emerald-950/20 p-3 rounded-xl border border-emerald-500/20">
+          <span id="emergency-doctor-phone-display" class="text-sm font-bold text-emerald-200 font-mono select-all">
+            Chưa lưu số
+          </span>
+          <a id="emergency-doctor-call-link" href="#" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center gap-1">
+            📞 Gọi
+          </a>
+        </div>
+      </div>
+
+      <!-- Script Template Box -->
+      <div class="p-4 rounded-2xl bg-slate-800/60 border border-slate-700 text-xs text-slate-300 flex flex-col gap-1.5">
+        <span class="font-bold text-white flex items-center gap-1">
+          <span>🗣️</span> MẪU CÂU ĐỌC NHANH CHO 115:
+        </span>
+        <p class="italic text-amber-200 bg-slate-900/80 p-2.5 rounded-xl border border-slate-700/60">
+          "Tôi đang ở: <span id="emergency-sample-addr" class="font-bold underline text-white">[ĐỊA CHỈ NHÀ]</span>. Nhà tôi có 1 người đang <span class="font-bold text-red-300">[BẤT TỈNH / NGƯNG THỞ / ĐỘT QUỴ / CO GIẬT]</span>, xin điều xe cấp cứu đến ngay!"
+        </p>
+      </div>
+
+      <button onclick="closeEmergencyModal()" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs cursor-pointer transition-all">
+        Đóng Cửa Sổ Khẩn Cấp
+      </button>
+    </div>
+  </div>
+
 </body>
 </html>

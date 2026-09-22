@@ -1,0 +1,521 @@
+{
+  "metadata": {
+    "id": "capcuu",
+    "title": "CẤP CỨU TẠI NHÀ — XỬ LÝ NGAY KHI CẦN",
+    "subtitle": "Cẩm nang hướng dẫn sơ cứu nhanh theo từng bước — Giữ bình tĩnh, cứu sống người thân",
+    "author": "Tổ Y Tế & Chăm Sóc Sức Khỏe Gia Đình",
+    "version": "1.0.0",
+    "updateDate": "2026-09-22",
+    "theme": {
+      "primary": "#dc2626",
+      "secondary": "#ea580c",
+      "accent": "#fef2f2",
+      "badge": "KHẨN CẤP"
+    },
+    "footerQuote": "Giữ bình tĩnh là bước đầu tiên của cấp cứu — hành động đúng, không vội, không hoảng",
+    "safetyDisclaimer": "Tài liệu hướng dẫn sơ cứu khẩn cấp ban đầu trong khi chờ đội ngũ y tế. Luôn ưu tiên gọi 115 trong mọi trường hợp nguy kịch hoặc không chắc chắn."
+  },
+  "emergencyContacts": [
+    {
+      "name": "Cấp cứu Y tế Toàn quốc",
+      "phone": "115",
+      "desc": "Gọi ngay khi ngừng thở, bất tỉnh, đột quỵ, nhồi máu cơ tim, tai nạn nặng",
+      "color": "red"
+    },
+    {
+      "name": "Cứu nạn & Cứu hỏa",
+      "phone": "114",
+      "desc": "Cháy nổ, sập đổ công trình, mắc kẹt nguy hiểm, đuối nước",
+      "color": "orange"
+    },
+    {
+      "name": "Cảnh sát phản ứng nhanh",
+      "phone": "113",
+      "desc": "Tai nạn giao thông, ẩu đả, bảo vệ hiện trường khẩn cấp",
+      "color": "blue"
+    }
+  ],
+  "sections": [
+    {
+      "id": "phan-1",
+      "number": "PHẦN 1",
+      "title": "NỀN TẢNG — 4 BƯỚC VÀNG TRƯỚC KHI XỬ LÝ",
+      "shortTitle": "4 Bước Vàng Nền Tảng",
+      "icon": "fa-shield-halved",
+      "color": "red",
+      "intro": "Trong bất kỳ sự cố khẩn cấp nào, sự hoảng loạn của người cứu nạn có thể gây nguy hiểm cho cả hai. Hãy luôn ghi nhớ thần chú 4 bước vàng sau:",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "name": "BÌNH TĨNH & DỪNG LẠI 3 GIÂY",
+          "action": "Hít thật sâu vào lồng ngực, thở ra chậm rãi. Tự nhủ trong đầu: 'Mình phải bình tĩnh thì mới cứu được người thân'. Không la hét hoảng loạn làm rối hiện trường.",
+          "warning": "Người cấp cứu mất bình tĩnh sẽ quên sạch kiến thức và dễ thao tác sai lầm chết người.",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 2,
+          "name": "QUAN SÁT AN TOÀN HIỆN TRƯỜNG",
+          "action": "Nhìn nhanh xung quanh: Có dây điện hở dưới đất không? Có mùi khí gas rò rỉ không? Có nguy cơ đồ đạc rơi vỡ hoặc xe cộ đâm trúng không? CHỈ TIẾP CẬN KHI HIỆN TRƯỜNG AN TOÀN CHO BẢN THÂN.",
+          "warning": "Không biến bản thân thành nạn nhân thứ hai. Nếu có điện giật phải ngắt cầu dao trước!",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 3,
+          "name": "ĐÁNH GIÁ TÌNH TRẠNG NHANH TRONG 10 GIÂY",
+          "action": "Kiểm tra 3 yếu tố sống còn: 1. Nạn nhân có tỉnh táo trả lời được không? 2. Có thở bình thường không (nhìn lồng ngực nâng hạ)? 3. Có chảy máu xối xả đe dọa tính mạng không?",
+          "warning": "Nếu không thở hoặc chỉ thở ngáp cá, cần ép tim cấp cứu ngay lập tức.",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 4,
+          "name": "GỌI 115 HOẶC HÉT TO NHỜ TRỢ GIÚP",
+          "action": "Bấm gọi 115 ngay (mở loa ngoài), nói rõ 3 thông tin: 1. ĐỊA CHỈ CHÍNH XÁC (số nhà, ngõ, phường); 2. TÌNH TRẠNG NẠN NHÂN (bất tỉnh, ngưng thở, co giật); 3. SỐ LƯỢNG NGƯỜI BỊ NẠN.",
+          "warning": "Chỉ cúp máy sau khi nhân viên y tế 115 đã xác nhận thông tin và hướng dẫn xong.",
+          "isCritical": true
+        }
+      ],
+      "audioSummary": "Phần 1: Bốn bước vàng trước khi xử lý cấp cứu. Bước 1: Dừng lại 3 giây, hít sâu để giữ bình tĩnh tuyệt đối. Bước 2: Quan sát an toàn hiện trường, tránh dây điện hở, cháy nổ, khí ga. Bước 3: Đánh giá nhanh trong 10 giây xem nạn nhân còn tỉnh, còn thở và có chảy máu xối xả không. Bước 4: Gọi 115 ngay, bật loa ngoài, đọc chính xác địa chỉ nhà và tình trạng nạn nhân."
+    },
+    {
+      "id": "phan-2",
+      "number": "PHẦN 2",
+      "title": "HỒI SINH TIM PHỔI (CPR) — KHI NGƯỜI NGẤT KHÔNG THỞ",
+      "shortTitle": "Ép Tim CPR Cấp Cứu",
+      "icon": "fa-heart-pulse",
+      "color": "red",
+      "hasMetronome": true,
+      "intro": "Khi tim ngừng đập, não chỉ chịu được thiếu oxy từ 4 đến 6 phút trước khi tổn thương vĩnh viễn hoặc tử vong. Ép tim nhân tạo duy trì dòng máu nuôi não và tim.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "name": "KIỂM TRA PHẢN ỨNG VÀ HƠI THỞ",
+          "action": "Vỗ mạnh vào hai bả vai nạn nhân và gọi to: 'Bác ơi, anh ơi tỉnh lại không!'. Đồng thời ghé sát tai vào miệng mũi nạn nhân, mắt nhìn xuống lồng ngực trong 5 đến 10 giây. Nếu không thấy lồng ngực phập phồng hoặc chỉ thở ngáp cá đứt quãng -> NẠN NHÂN ĐÃ NGƯNG TIM.",
+          "warning": "Thở ngáp cá không phải là thở bình thường. Đó là dấu hiệu sắp tử vong, phải ép tim ngay.",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 2,
+          "name": "GỌI 115 VÀ ĐẶT NẠN NHÂN ĐÚNG TƯ THẾ",
+          "action": "Hét to nhờ người xung quanh gọi 115 hoặc tự bật loa ngoài điện thoại gọi 115. Đặt nạn nhân nằm ngửa trên NỀN CỨNG VÀ PHẲNG (như sàn nhà gạch, cấm để trên đệm lò xo lún mềm). Bộc lộ ngực nạn nhân.",
+          "warning": "Tuyệt đối không ép tim trên nệm mềm vì lực ép sẽ bị nệm hấp thụ hết.",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 3,
+          "name": "TƯ THẾ TAY VÀ VỊ TRÍ ÉP TIM CHUẨN",
+          "action": "Quỳ cạnh ngực nạn nhân. Đặt gót một bàn tay vào CHÍNH GIỮA LỒNG NGỰC (nửa dưới xương ức, ngang đường nối 2 đầu ngực). Đặt bàn tay thứ hai đan lên trên mu bàn tay thứ nhất. Khửu tay giữ THẲNG ĐỨNG 90 ĐỘ so với ngực nạn nhân.",
+          "warning": "Dùng lực từ toàn bộ thân trên nhấn thẳng đứng xuống, không dùng lực cổ tay hay cẳng tay.",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 4,
+          "name": "TIẾN HÀNH ÉP TIM LIÊN TỤC 100 - 120 LẦN/PHÚT",
+          "action": "Nhấn mạnh sâu từ 5 đến 6 cm (khoảng 1/3 bề dày ngực). Sau mỗi lần nhấn, để ngực nở hoàn toàn trở lại nhưng không nhấc tay rời khỏi mặt ngực. Tốc độ ép từ 100 đến 120 nhịp mỗi phút (nhẩm theo bài hát 'Đoàn quân Việt Nam đi' hoặc 'Stayin Alive').",
+          "warning": "Ép liên tục, không ngừng quá 10 giây trừ khi đổi người hoặc kiểm tra nhịp.",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 5,
+          "name": "KẾT HỢP THỔI NGẠT (NẾU ĐÃ HUẤN LUYỆN & SẴN SÀNG)",
+          "action": "Tỷ lệ chuẩn: 30 lần ép tim xen kẽ 2 lần thổi ngạt. Ngửa đầu nâng cằm nạn nhân, kẹp chặt 2 cánh mũi, áp kín miệng thổi mạnh trong 1 giây thấy ngực phồng lên, thả ra cho ngực xẹp xuống rồi thổi lần 2. Nếu không có màng lọc hoặc sợ lây nhiễm, HÃY ÉP TIM LIÊN TỤC KHÔNG CẦN THỔI NGẠT.",
+          "warning": "Chỉ ép tim tay không (Hands-only CPR) vẫn cứu sống được nạn nhân!",
+          "isCritical": false
+        }
+      ],
+      "dangerNotes": [
+        "CẤM ngưng ép tim quá 10 giây.",
+        "CẤM cong khửu tay hoặc nhún nhảy lộn xộn khiến lực ép không đủ sâu.",
+        "CẤM ép lên vùng bụng hoặc xương sườn hai bên vì dễ gãy xương sườn đâm thủng tạng.",
+        "Khi nào dừng lại: Chỉ dừng khi nạn nhân tự cựa quậy, thở đều lại, hoặc nhân viên y tế 115 đến tiếp quản, hoặc người cứu đã hoàn toàn kiệt sức."
+      ],
+      "audioSummary": "Phần 2: Hồi sinh tim phổi CPR khi ngất ngừng thở. Đặt nạn nhân nằm ngửa trên sàn nhà cứng. Quỳ bên cạnh, đặt gót tay vào chính giữa ngực, đan hai tay vào nhau, khửu tay thẳng đứng 90 độ. Ép tim liên tục với độ sâu 5 đến 6 phân, tốc độ 100 đến 120 nhịp mỗi phút. Dùng nhịp bài hát Đoàn quân Việt Nam đi hoặc bật máy đập nhịp CPR trên màn hình. Ép liên tục cho tới khi xe cấp cứu 115 đến."
+    },
+    {
+      "id": "phan-3",
+      "number": "PHẦN 3",
+      "title": "CHẢY MÁU — CÁCH NGĂN CHẶN NGAY LẬP TỨC",
+      "shortTitle": "Cầm Máu Vết Thương",
+      "icon": "fa-droplet",
+      "color": "rose",
+      "intro": "Mất máu quá nhiều trong thời gian ngắn là nguyên nhân hàng đầu dẫn đến sốc và tử vong. Phải hành động nhanh trong những phút đầu tiên.",
+      "subSections": [
+        {
+          "title": "3.1 Chảy máu ngoài (vết rách sâu, máu phun xối xả)",
+          "steps": [
+            "BƯỚC 1: Dùng miếng gạc vô trùng, khăn mặt sạch hoặc lòng bàn tay (nếu không có đồ) ẤN TRỰC TIẾP THẬT MẠNH lên miệng vết thương.",
+            "BƯỚC 2: Giữ chặt liên tục trong 10 đến 15 phút. TUYỆT ĐỐI KHÔNG mở ra ngó xem máu đã cầm chưa, vì sẽ phá vỡ cục máu đông vừa hình thành.",
+            "BƯỚC 3: Nếu máu thấm đẫm miếng gạc, KHÔNG gỡ ra mà ĐẶT THÊM miếng gạc mới đè lên trên và tiếp tục ấn chặt.",
+            "BƯỚC 4: Nâng chi bị thương (tay hoặc chân) cao hơn mức tim nếu không có dấu hiệu gãy xương kèm theo.",
+            "CẢNH BÁO CẤM KỴ: TUYỆT ĐỐI KHÔNG rút dao, mảnh kính, que sắt đang găm xuyên thấu vết thương (rút ra máu sẽ phun ồ ạt gây tử vong ngay). Dùng băng gạc chèn xung quanh cố định dị vật rồi gọi 115. TUYỆT ĐỐI KHÔNG rắc bột cà phê, thuốc lào, tro bếp, mạng nhện vào vết thương vì sẽ gây hoại tử và nhiễm trùng máu."
+          ]
+        },
+        {
+          "title": "3.2 Chảy máu cam (chảy máu mũi)",
+          "steps": [
+            "BƯỚC 1: Ngồi thẳng lưng, HƠI CÚI ĐẦU VỀ PHÍA TRƯỚC. TUYỆT ĐỐI CẤM NGỬA CỔ RA SAU vì máu sẽ chảy ngược vào cổ họng gây nôn mửa hoặc sặc vào phổi.",
+            "BƯỚC 2: Dùng ngón cái và ngón trỏ BÓP CHẶT HAI CÁNH MŨI (phần mềm bên dưới xương sống mũi) liên tục trong 10 đến 15 phút.",
+            "BƯỚC 3: Thở hoàn toàn bằng miệng. Nhổ hết máu hoặc nước bọt trong họng ra khăn giấy, không nuốt.",
+            "BƯỚC 4: Có thể chườm khăn mát hoặc đá lạnh lên sống mũi để co mạch máu.",
+            "Sau 15 phút thả tay nhẹ nhàng. Nếu máu vẫn chảy tiếp, bóp lại thêm 10 phút. Nếu sau 30 phút không cầm hoặc chảy ồ ạt sau chấn thương đầu -> GỌI 115 HOẶC ĐẾN BỆNH VIỆN NGAY."
+          ]
+        },
+        {
+          "title": "3.3 Dấu hiệu chảy máu trong nguy hiểm (Cực kỳ khẩn cấp)",
+          "steps": [
+            "DẤU HIỆU: Sau va chạm mạnh hoặc tai nạn ngã, bụng căng cứng sờ rất đau, nôn ra máu hoặc chất dịch nâu như bã cà phê, đi ngoài phân đen hôi tanh, bầm tím lan rộng ở ngực bụng, người vã mồ hôi lạnh, hoa mắt chóng mặt, môi nhợt nhạt.",
+            "XỬ LÝ: GỌI 115 NGAY LẬP TỨC. Đặt nạn nhân nằm yên, nâng chân cao 20-30cm, đắp chăn giữ ấm. CẤM cho ăn hoặc uống bất cứ thứ gì."
+          ]
+        }
+      ],
+      "audioSummary": "Phần 3: Xử lý chảy máu. Với vết thương rách: lấy gạc hoặc khăn sạch ấn trực tiếp thật mạnh lên vết thương và giữ liên tục 15 phút, không mở ra xem. Tuyệt đối không rút dị vật đâm xuyên, không rắc thuốc lào hay bột cà phê. Với chảy máu cam: ngồi thẳng, cúi đầu về phía trước, bóp chặt hai cánh mũi trong 15 phút, thở bằng miệng, cấm ngửa cổ ra sau."
+    },
+    {
+      "id": "phan-4",
+      "number": "PHẦN 4",
+      "title": "NGẠT THỞ — DỊ VẬT ĐƯỜNG THỞ (HÓC THỨC ĂN, DỊ VẬT)",
+      "shortTitle": "Hóc Dị Vật & Heimlich",
+      "icon": "fa-lungs",
+      "color": "amber",
+      "intro": "Khi dị vật bít kín khí quản, nạn nhân không thể hít thở và sẽ rơi vào hôn mê chỉ sau 2-3 phút. Nhận biết và xử trí đúng kỹ thuật Heimlich giúp tống dị vật ra ngoài tức thì.",
+      "subSections": [
+        {
+          "title": "4.1 Nhận biết dấu hiệu ngạt thở cấp tính",
+          "steps": [
+            "Dấu hiệu quốc tế: Nạn nhân hai tay ôm chặt lấy cổ họng, vẻ mặt hốt hoảng, mắt trợn trừng.",
+            "Không nói được, không khóc được, không thể ho ra tiếng.",
+            "Môi và đầu ngón tay bắt đầu tím tái, nhanh chóng lịm đi."
+          ]
+        },
+        {
+          "title": "4.2 Phân biệt: Còn ho được vs Không thể thở",
+          "steps": [
+            "TRƯỜNG HỢP 1 - NẠN NHÂN CÒN HO MẠNH ĐƯỢC: Khuyến khích nạn nhân tiếp tục ho mạnh để dị vật tự bật ra. TUYỆT ĐỐI KHÔNG đập lưng lúc này vì phản xạ đập lưng có thể làm dị vật tụt sâu hơn vào phế quản.",
+            "TRƯỜNG HỢP 2 - NẠN NHÂN KHÔNG NÓI ĐƯỢC, KHÔNG THỞ ĐƯỢC, TÍM TÁI: PHẢI THỰC HIỆN NGHIỆM PHÁP HEIMLICH NGAY LẬP TỨC!"
+          ]
+        },
+        {
+          "title": "4.3 Nghiệm pháp Heimlich cho Người lớn và Trẻ > 1 tuổi",
+          "steps": [
+            "BƯỚC 1: Đứng hoặc quỳ ngay sau lưng nạn nhân, vòng hai cánh tay qua eo nạn nhân.",
+            "BƯỚC 2: Bàn tay thuận nắm lại thành nắm đấm, đặt ngón cái hướng vào bụng nạn nhân, vị trí NGAY TRÊN RỐN VÀ DƯỚI MŨI ỨC.",
+            "BƯỚC 3: Bàn tay kia nắm chặt lấy nắm đấm.",
+            "BƯỚC 4: Giật mạnh dứt khoát theo hướng VÀO TRONG VÀ HƯỚNG LÊN TRÊN (như vẽ hình chữ J) để tạo luồng khí đẩy dị vật ra ngoài.",
+            "BƯỚC 5: Thực hiện 5 lần ấn bụng dứt khoát. Nếu dị vật chưa ra, xen kẽ 5 lần vỗ lưng mạnh bằng gót bàn tay giữa hai bả vai nạn nhân."
+          ]
+        },
+        {
+          "title": "4.4 Xử lý Hóc Dị Vật cho Trẻ Dưới 1 Tuổi (Tuyệt đối không ấn bụng)",
+          "steps": [
+            "5 LẦN VỖ LƯNG: Đặt em bé nằm sấp xuôi theo cẳng tay của bạn, bàn tay đỡ chắc xương hàm và đầu bé, giữ đầu thấp hơn ngực. Dùng gót bàn tay kia vỗ dứt khoát 5 cái vào vùng giữa hai bả vai của bé.",
+            "5 LẦN ÉP NGỰC: Nếu dị vật chưa bật ra, lật ngửa bé lại trên cẳng tay kia, giữ đầu vẫn thấp hơn thân. Dùng 2 ngón tay (ngón trỏ và giữa) ấn mạnh vào giữa xương ức 5 lần (sâu khoảng 4cm).",
+            "Lặp lại chu kỳ 5 vỗ lưng - 5 ép ngực cho tới khi bé khóc to hoặc dị vật bật ra.",
+            "CẢNH BÁO: CẤM mò tay bừa bãi vào cổ họng trẻ nếu không nhìn thấy rõ dị vật, vì sẽ đẩy dị vật kẹt sâu hơn."
+          ]
+        },
+        {
+          "title": "4.5 Nếu nạn nhân bất tỉnh lịm đi",
+          "steps": [
+            "Đặt nạn nhân nằm ngửa xuống sàn cứng, hô hoán gọi 115 ngay lập tức.",
+            "Tiến hành ép tim CPR như ở Phần 2. Trước mỗi lần thổi ngạt, mở miệng quan sát xem dị vật đã bật lên họng chưa, nếu thấy rõ thì dùng ngón tay móc nhẹ ra ngoài."
+          ]
+        }
+      ],
+      "audioSummary": "Phần 4: Xử lý ngạt thở do hóc dị vật. Nếu nạn nhân còn ho được, hãy khuyến khích ho mạnh, không đập lưng. Nếu không thở được và tím tái, áp dụng nghiệm pháp Heimlich: Đứng sau lưng, vòng tay qua eo, nắm đấm đặt trên rốn dưới xương ức, giật mạnh theo hình chữ J vào trong và lên trên 5 lần. Với trẻ dưới 1 tuổi, luân phiên 5 lần vỗ lưng và 5 lần ấn ngực bằng 2 ngón tay, cấm ép bụng."
+    },
+    {
+      "id": "phan-5",
+      "number": "PHẦN 5",
+      "title": "ĐAU NGỰC DỮ DỘI — NGHI NGỜ NHỒI MÁU CƠ TIM",
+      "shortTitle": "Cơn Đau Tim Cấp",
+      "icon": "fa-heart-circle-exclamation",
+      "color": "red",
+      "intro": "Nhồi máu cơ tim xảy ra khi mạch vành nuôi tim bị tắc nghẽn đột ngột. Cứ mỗi phút trôi qua, một phần cơ tim sẽ hoại tử nếu không được tái thông mạch máu kịp thời.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "name": "NHẬN BIẾT CƠN ĐAU NGỰC ĐIỂN HÌNH",
+          "action": "Cảm giác đè nặng, bóp nghẹt, nóng rát như đá tảng đè lên giữa ngực kéo dài trên 15 phút và không đỡ khi nghỉ ngơi. Cơn đau lan lên cổ, cằm, lưng hoặc lan dọc cánh tay trái xuống ngón tay. Đi kèm vã mồ hôi lạnh đầm đìa, khó thở, buồn nôn, hồi hộp hoảng sợ.",
+          "warning": "Ở người già và phụ nữ, triệu chứng có thể chỉ là mệt lả đột ngột, khó thở, tức thượng vị nhầm với đau dạ dày.",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 2,
+          "name": "GỌI 115 NGAY LẬP TỨC — KHÔNG CHẦN CHỪ",
+          "action": "Gọi ngay xe cấp cứu 115. Báo rõ với nhân viên y tế: 'Nghi ngờ nhồi máu cơ tim cấp'. TUYỆT ĐỐI KHÔNG để bệnh nhân tự lái xe hoặc đi xe máy tới bệnh viện vì có thể ngất lịm trên đường gây tai nạn thảm khốc.",
+          "warning": "Chậm trễ từng phút là cơ tim chết đi không thể phục hồi.",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 3,
+          "name": "TƯ THẾ NGHỈ NGƠI CHUẨN (TƯ THẾ FOWLER)",
+          "action": "Cho bệnh nhân dừng ngay mọi vận động. Đặt bệnh nhân ngồi tựa lưng góc 45 độ trên giường hoặc ghế sofa, kê gối êm dưới đầu và hơi co nhẹ đầu gối. Nới lỏng cổ áo, cúc áo, thắt lưng, mở toang cửa sổ cho không khí lưu thông.",
+          "warning": "Không để bệnh nhân đi lại hay cố sức làm việc.",
+          "isCritical": true
+        },
+        {
+          "stepNumber": 4,
+          "name": "HỖ TRỢ THUỐC ĐÃ ĐƯỢC BÁC SĨ KÊ TRƯỚC",
+          "action": "Nếu bệnh nhân đã được bác sĩ chẩn đoán bệnh tim từ trước và có sẵn thuốc cấp cứu mang theo: Cho ngậm hoặc xịt 1 liều Nitroglycerin dưới lưỡi. Nếu bác sĩ đã hướng dẫn dùng Aspirin, cho nhai nuốt 1 viên Aspirin 81-325mg (chống chỉ định nếu dị ứng aspirin hoặc đang chảy máu dạ dày).",
+          "warning": "Không tùy tiện cho uống các loại thuốc lạ không rõ nguồn gốc.",
+          "isCritical": false
+        }
+      ],
+      "dangerNotes": [
+        "TUYỆT ĐỐI CẤM cạo gió, giác hơi, cắt lể trích máu ở ngực lưng.",
+        "TUYỆT ĐỐI CẤM ép bệnh nhân uống nước nóng, ăn cháo hay uống sữa no.",
+        "NẾU BỆNH NHÂN ĐỘT NGỘT BẤT TỈNH VÀ NGƯNG THỞ: Đặt ngay xuống nền cứng và tiến hành ép tim CPR liên tục như ở Phần 2!"
+      ],
+      "audioSummary": "Phần 5: Xử lý cơn đau ngực nghi ngờ nhồi máu cơ tim. Dấu hiệu là cảm giác đè nặng bóp nghẹt giữa ngực kéo dài trên 15 phút lan lên cằm và tay trái, vã mồ hôi lạnh. Bước 1: Gọi 115 ngay lập tức. Bước 2: Dừng mọi vận động, ngồi tựa lưng 45 độ tư thế nửa nằm nửa ngồi. Bước 3: Nới lỏng quần áo, mở cửa sổ. Cấm cạo gió, giác hơi, không tự đi xe máy đến viện."
+    },
+    {
+      "id": "phan-6",
+      "number": "PHẦN 6",
+      "title": "ĐỘT QUỴ (TAI BIẾN MẠCH MÁU NÃO) — QUY TẮC 'NHANH'",
+      "shortTitle": "Đột Quỵ & Quy Tắc NHANH",
+      "icon": "fa-brain",
+      "color": "purple",
+      "intro": "Đột quỵ là thảm họa thần kinh cấp tính do mạch máu não bị vỡ hoặc tắc nghẽn. Giờ vàng cứu sống tế bào não là 3 đến 4.5 giờ đầu tiên. Ghi nhớ thần chú FAST (Quy tắc NHANH).",
+      "subSections": [
+        {
+          "title": "6.1 Nhận biết 5 dấu hiệu Đột Quỵ bằng Quy Tắc 'NHANH'",
+          "steps": [
+            "N - NÉT MẶT (Face): Yêu cầu người bệnh cười hoặc nhe răng. Thấy một bên méo xệch, nhân trung lệch sang một bên, khóe miệng rũ xuống.",
+            "H - HAI TAY (Arms): Yêu cầu giơ thẳng hai cánh tay về phía trước. Một bên tay bị yếu, run rẩy hoặc rơi tự do xuống không nâng lên được.",
+            "A - ĂN NÓI (Speech): Yêu cầu lặp lại một câu nói đơn giản (ví dụ: 'Trời hôm nay nắng đẹp'). Người bệnh nói ngọng líu lưỡi, nói khó hiểu hoặc ú ớ không thành lời.",
+            "N - NHANH GỌI 115 (Time): Xuất hiện bất kỳ 1 trong 3 dấu hiệu trên -> GỌI 115 NGAY LẬP TỨC! Nói rõ nghi đột quỵ để bệnh viện kích hoạt phòng can thiệp mạch não.",
+            "H - HẸN GIỜ KHỞI PHÁT: Ghi chép chính xác giờ và phút phát hiện triệu chứng đầu tiên. Đây là thông tin quyết định bác sĩ có thể tiêm thuốc tiêu sợi huyết cứu não hay không."
+          ]
+        },
+        {
+          "title": "6.2 Các bước sơ cứu đúng chuẩn tại nhà",
+          "steps": [
+            "BƯỚC 1: Gọi 115 ngay không được trì hoãn.",
+            "BƯỚC 2: Nếu bệnh nhân còn tỉnh táo: Đặt nằm trên giường, kê đầu cao khoảng 30 độ so với thân mình, nới rộng cổ áo thắt lưng.",
+            "BƯỚC 3: Nếu bệnh nhân hôn mê, lơ mơ hoặc nôn mửa: ĐẶT NẰM NGHIÊNG AN TOÀN (tư thế hồi phục) sang một bên để đờm nhớt và dịch nôn chảy ra ngoài, tránh hít sặc làm tắc khí quản.",
+            "BƯỚC 4: Theo dõi sát nhịp thở. Nếu ngừng thở phải lập tức lật ngửa ép tim CPR ngay."
+          ]
+        },
+        {
+          "title": "6.3 NHỮNG SAI LẦM TAI HẠI PHẢI TUYỆT ĐỐI TRÁNH",
+          "steps": [
+            "CẤM KỴ 1: CẤM dùng kim châm 10 đầu ngón tay hoặc chích dái tai. Việc này hoàn toàn phản khoa học, làm chậm trễ giờ vàng, gây đau đớn kích thích tăng huyết áp và nguy cơ nhiễm trùng máu.",
+            "CẤM KỴ 2: CẤM cho uống viên An Cung Ngưu Hoàng Hoàn khi chưa chụp CT não. Đột quỵ có 2 thể: nhồi máu não và xuất huyết não. Nếu là xuất huyết não mà uống An Cung sẽ làm máu chảy ồ ạt trong hộp sọ gây tử vong tức thì!",
+            "CẤM KỴ 3: CẤM tự ý cho uống thuốc hạ huyết áp nhanh (như Adalat ngậm), vì huyết áp tụt đột ngột sẽ làm chết tế bào não vùng thiếu máu.",
+            "CẤM KỴ 4: CẤM cho ăn cháo, uống nước đường, vắt chanh vào miệng vì người đột quỵ bị liệt hầu họng, nuốt vào sẽ sặc nghẹt thở chết ngay lập tức."
+          ]
+        }
+      ],
+      "audioSummary": "Phần 6: Sơ cứu đột quỵ theo quy tắc NHANH. N là Nét mặt méo xệch khi cười. H là Hai tay giơ lên bị rơi một bên. A là Ăn nói ngọng nghịu líu lưỡi. N là Nhanh chóng gọi 115. H là Hẹn giờ chính xác lúc khởi phát. Đặt người bệnh nằm đầu cao 30 độ hoặc nằm nghiêng nếu nôn. Cấm chích máu đầu ngón tay, cấm ngậm An Cung Ngưu Hoàng Hoàn, cấm cho ăn uống nước."
+    },
+    {
+      "id": "phan-7",
+      "number": "PHẦN 7",
+      "title": "SỐT CAO — CO GIẬT — NGẤT XỈU ĐỘT NGỘT",
+      "shortTitle": "Sốt Co Giật & Ngất Xỉu",
+      "icon": "fa-temperature-arrow-up",
+      "color": "orange",
+      "intro": "Sốt cao co giật ở trẻ em và ngất xỉu tụt huyết áp ở người lớn là những tình huống thường gặp gây hoang mang trong gia đình. Cần xử trí bình tĩnh, bài bản.",
+      "subSections": [
+        {
+          "title": "7.1 Sốt cao co giật (Thường gặp ở trẻ từ 6 tháng đến 5 tuổi)",
+          "steps": [
+            "BƯỚC 1: Đặt trẻ nằm nghiêng sang một bên trên mặt phẳng an toàn (như đệm trải dưới sàn), tránh xa các vật sắc nhọn cứng để dịch nhớt trong miệng chảy ra ngoài.",
+            "BƯỚC 2: Cởi bỏ bớt quần áo, tã lót để nhiệt độ cơ thể thoát ra dễ dàng.",
+            "BƯỚC 3: Dùng 5 khăn mềm nhúng NƯỚC ẤM (nhiệt độ ấm như nước tắm trẻ em, khoảng 36-37 độ C, vắt ráo): đắp 2 nách, 2 bẹn và 1 khăn lau khắp người. Nước ấm làm giãn mạch máu dưới da giúp hạ nhiệt. KHÔNG DÙNG NƯỚC ĐÁ LẠNH.",
+            "CẢNH BÁO SỐNG CÒN: TUYỆT ĐỐI CẤM nhét thìa nhôm, đũa, ngón tay vào miệng trẻ (dễ gây gãy răng, rách lợi, dị vật lọt vào phế quản gây tắc thở). Trẻ sốt co giật không bao giờ tự cắn đứt lưỡi!",
+            "TUYỆT ĐỐI CẤM đè ghì chặt chân tay đang co giật vì có thể làm gãy xương hoặc rách cơ của trẻ.",
+            "Khi cơn giật kết thúc: Đặt thuốc hạ sốt Paracetamol dạng viên đạn vào hậu môn đúng liều lượng cân nặng. Đưa trẻ đến cơ sở y tế gần nhất khám.",
+            "NẾU CƠN GIẬT KÉO DÀI TRÊN 5 PHÚT HOẶC CO GIẬT TÍM TÁI TOÀN THÂN -> GỌI 115 NGAY."
+          ]
+        },
+        {
+          "title": "7.2 Ngất xỉu đột ngột (Tụt huyết áp, say nắng, đói lả, xúc động)",
+          "steps": [
+            "BƯỚC 1: Đặt nạn nhân nằm ngửa trên mặt sàn phẳng thông thoáng khí.",
+            "BƯỚC 2: Kê gối hoặc đỡ hai chân của nạn nhân CAO HƠN MỨC TIM khoảng 20 đến 30 cm để máu dồn về tim và não nhanh chóng.",
+            "BƯỚC 3: Nới lỏng cúc áo, thắt lưng, giải tán đám đông vây quanh tạo khoảng không khí trong lành.",
+            "BƯỚC 4: Nếu say nắng: Di chuyển vào chỗ râm mát, chườm khăn mát lên trán, nách, cổ.",
+            "BƯỚC 5: Khi nạn nhân tỉnh táo hẳn: Cho uống từng ngụm nước ấm, nếu nghi do hạ đường huyết thì cho uống một cốc nước đường hoặc trà gừng ấm. Không cho ngồi dậy quá nhanh để tránh ngất tái phát."
+          ]
+        }
+      ],
+      "audioSummary": "Phần 7: Sốt co giật và ngất xỉu. Với trẻ sốt co giật: Đặt trẻ nằm nghiêng sang một bên, cởi bớt quần áo, lau mát bằng nước ấm ở nách và bẹn. Tuyệt đối không nhét thìa hay ngón tay vào miệng trẻ, không ghì chân tay trẻ. Với ngất xỉu: Đặt nằm ngửa, nâng hai chân cao hơn tim 30 phân, nới lỏng áo và giải tán đám đông cho thoáng khí."
+    },
+    {
+      "id": "phan-8",
+      "number": "PHẦN 8",
+      "title": "BỎNG — ĐIỆN GIẬT — NGỘ ĐỘC THỰC PHẨM & HÓA CHẤT",
+      "shortTitle": "Bỏng, Điện Giật & Ngộ Độc",
+      "icon": "fa-fire-burner",
+      "color": "red",
+      "intro": "Tai nạn sinh hoạt thường đến bất ngờ từ căn bếp hoặc đồ điện trong nhà. Xử trí đúng 10 phút đầu sẽ hạn chế tối đa di chứng tàn tật và sẹo co rút.",
+      "subSections": [
+        {
+          "title": "8.1 Bỏng (Nước sôi, dầu mỡ nóng, lửa, bô xe máy)",
+          "steps": [
+            "BƯỚC 1: NGÂM HOẶC XẢ NƯỚC MÁT SẠCH (nhiệt độ nước máy bình thường 15 - 20 độ C) liên tục lên vết bỏng từ 15 ĐẾN 20 PHÚT. Đây là bước quan trọng nhất giúp hạ nhiệt sâu dưới da và giảm phồng rộp.",
+            "BƯỚC 2: Nhẹ nhàng tháo nhẫn, đồng hồ, vòng tay, giày dép trước khi vết bỏng sưng nề. Nếu quần áo dính chặt vào vết bỏng thì dùng kéo cắt xung quanh, KHÔNG giật rách da.",
+            "BƯỚC 3: Che phủ vết bỏng bằng gạc vô trùng hoặc dùng màng bọc thực phẩm sạch cuốn nhẹ để ngăn bụi bẩn và vi khuẩn xâm nhập.",
+            "CẢNH BÁO TỐI KỴ: TUYỆT ĐỐI CẤM bôi kem đánh răng, mỡ trăn, nước mắm, trứng gà, củ chuối vào vết bỏng vì sẽ gây nhiễm trùng nặng và hoại tử da. CẤM chọc vỡ các bóng nước phồng rộp. CẤM dùng đá lạnh chườm trực tiếp vì gây bỏng lạnh hoại tử mô."
+          ]
+        },
+        {
+          "title": "8.2 Điện giật (Khẩn cấp từng giây)",
+          "steps": [
+            "BƯỚC SỐNG CÒN 1: NGẮT NGAY NGUỒN ĐIỆN (dập cầu dao, aptomat, rút phích cắm điện).",
+            "BƯỚC SỐNG CÒN 2: Nếu chưa ngắt được điện, TUYỆT ĐỐI KHÔNG CHẠM TAY TRỰC TIẾP VÀO NẠN NHÂN. Đứng trên vật cách điện khô ráo (ván gỗ khô, dép cao su, thảm vải khô), dùng thanh gỗ khô, cán chổi tre khô gạt dây điện hoặc đẩy nạn nhân ra xa nguồn điện.",
+            "BƯỚC SỐNG CÒN 3: Đánh giá ngay nạn nhân. Nếu nạn nhân bất tỉnh, ngừng thở: TIẾN HÀNH ÉP TIM CPR NGAY LẬP TỨC (như Phần 2). Đồng thời nhờ người gọi 115."
+          ]
+        },
+        {
+          "title": "8.3 Ngộ độc hóa chất và thực phẩm",
+          "steps": [
+            "VỚI HÓA CHẤT ĂN MÒN (Axit, thuốc tẩy bồn cầu, xút, xăng, dầu hỏa): TUYỆT ĐỐI CẤM GÂY NÔN! Vì hóa chất ăn mòn trào ngược lên sẽ làm cháy bỏng thực quản và thanh quản lần thứ hai gây thủng họng hoặc sặc vào phổi.",
+            "GIỮ LẠI TẤT CẢ VỎ HỘP, chai lọ hóa chất hoặc thức ăn nghi độc mang theo đến bệnh viện để bác sĩ dùng thuốc giải độc đặc hiệu.",
+            "VỚI NGỘ ĐỘC THỰC PHẨM CẤP (Nôn ói, đau bụng đi ngoài): Cho uống nhiều dung dịch Oresol pha đúng tỷ lệ để bù nước và điện giải. Đến viện ngay nếu nôn ra máu, đi ngoài phân đen hoặc sốt cao li bì."
+          ]
+        }
+      ],
+      "audioSummary": "Phần 8: Sơ cứu bỏng, điện giật và ngộ độc. Bỏng: xả nước mát sạch liên tục 15 đến 20 phút, cấm bôi kem đánh răng hay nước mắm, cấm chườm đá lạnh. Điện giật: ngắt ngay cầu dao điện, dùng gậy gỗ khô tách nguồn điện, ép tim CPR ngay nếu ngừng thở. Ngộ độc axit, nước tẩy rửa, xăng dầu tuyệt đối cấm gây nôn, giữ lại vỏ chai mang đến bệnh viện."
+    },
+    {
+      "id": "phan-9",
+      "number": "PHẦN 9",
+      "title": "TÚI SƠ CỨU GIA ĐÌNH — DANH MỤC THIẾT YẾU CẦN CÓ",
+      "shortTitle": "Túi Cấp Cứu Gia Đình",
+      "icon": "fa-kit-medical",
+      "color": "emerald",
+      "intro": "Mỗi gia đình nên trang bị sẵn một chiếc hộp hoặc túi y tế chuyên dụng, đặt ở vị trí cố định, dễ thấy, dễ lấy nhưng ngoài tầm với của trẻ nhỏ dưới 6 tuổi.",
+      "checklist": [
+        {
+          "item": "Băng cuộn y tế & gạc vô trùng tiệt trùng",
+          "usage": "Băng bó vết thương hở, cố định cầm máu",
+          "checked": false
+        },
+        {
+          "item": "Băng dán cá nhân (Urgo) nhiều kích cỡ",
+          "usage": "Dán các vết đứt tay, trầy xước nhỏ",
+          "checked": false
+        },
+        {
+          "item": "Băng keo lụa y tế cuộn tròn",
+          "usage": "Dán cố định mép gạc",
+          "checked": false
+        },
+        {
+          "item": "Nước muối sinh lý NaCl 0.9% (chai 500ml & lọ nhỏ 10ml)",
+          "usage": "Rửa sạch bụi bẩn vết thương, súc họng, nhỏ mắt",
+          "checked": false
+        },
+        {
+          "item": "Cồn sát khuẩn Povidine (Betadine vàng)",
+          "usage": "Sát khuẩn vùng da xung quanh vết thương",
+          "checked": false
+        },
+        {
+          "item": "Kéo y tế mũi tù & Nhíp gắp dị vật",
+          "usage": "Cắt băng gạc, cắt quần áo cứu nạn, gắp dằm gai",
+          "checked": false
+        },
+        {
+          "item": "Găng tay cao su y tế tiệt trùng (3 - 5 đôi)",
+          "usage": "Bảo vệ bản thân khỏi lây nhiễm dịch tiết và máu",
+          "checked": false
+        },
+        {
+          "item": "Nhiệt kế điện tử đo trán hoặc nách",
+          "usage": "Theo dõi chính xác nhiệt độ sốt của người nhà",
+          "checked": false
+        },
+        {
+          "item": "Máy đo huyết áp điện tử bắp tay",
+          "usage": "Kiểm tra huyết áp khi chóng mặt hoặc nghi đột quỵ",
+          "checked": false
+        },
+        {
+          "item": "Gói bù nước điện giải Oresol",
+          "usage": "Bù nước khi sốt cao, tiêu chảy, say nắng",
+          "checked": false
+        },
+        {
+          "item": "Thuốc hạ sốt Paracetamol chuẩn liều (viên & gói)",
+          "usage": "Giảm đau hạ sốt an toàn",
+          "checked": false
+        },
+        {
+          "item": "Bịt mắt bảo vệ & mặt nạ thở CPR bỏ túi",
+          "usage": "Hỗ trợ sơ cứu khẩn cấp an toàn",
+          "checked": false
+        }
+      ],
+      "maintenanceRules": [
+        "Kiểm tra định kỳ 3 tháng một lần để thay mới thuốc và vật tư đã hết hạn sử dụng.",
+        "Đặt túi ở nơi thoáng mát khô ráo, tất cả thành viên người lớn trong nhà đều phải biết vị trí để túi.",
+        "Dán số điện thoại 115 và số bác sĩ gia đình ngay mặt ngoài của hộp túi sơ cứu."
+      ],
+      "audioSummary": "Phần 9: Danh mục túi sơ cứu y tế gia đình. Cần có sẵn gạc vô trùng, băng cuộn, băng dán cá nhân, nước muối sinh lý, cồn sát khuẩn Betadine, kéo y tế, nhiệt kế điện tử, máy đo huyết áp, gói bù nước oresol và thuốc hạ sốt Paracetamol. Đặt túi ở nơi khô ráo dễ lấy, kiểm tra hạn sử dụng 3 tháng một lần."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "scenario": "Tình huống 1: Người thân bất ngờ ngã gục xuống sàn nhà, lay gọi không tỉnh, ghé tai nghe không thấy thở. Bạn cần làm gì ĐẦU TIÊN?",
+      "options": [
+        "A. Chạy đi lấy cốc nước chanh đường cho uống",
+        "B. Cạo gió và bấm huyệt nhân trung thật mạnh",
+        "C. Gọi to nhờ gọi 115 và đặt nạn nhân nằm ngửa trên sàn cứng ép tim CPR ngay",
+        "D. Bế xốc nạn nhân chạy lên xe máy chở đi viện"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Khi nạn nhân bất tỉnh và ngừng thở, tim đã ngừng đập. Cần gọi 115 và tiến hành ép tim liên tục ngay lập tức trên sàn cứng để duy trì dòng máu nuôi não."
+    },
+    {
+      "id": 2,
+      "scenario": "Tình huống 2: Người nhà bị chảy máu cam (chảy máu mũi) ồ ạt sau khi hắt xì hơi. Tư thế nào sau đây là ĐÚNG NHẤT?",
+      "options": [
+        "A. Ngửa cổ ra sau thật sâu và giơ hai tay lên trời",
+        "B. Ngồi thẳng lưng, hơi cúi đầu về phía trước, bóp chặt hai cánh mũi trong 10-15 phút",
+        "C. Nằm ngửa ra giường và nhét giấy vệ sinh cuộn tròn sâu vào mũi",
+        "D. Nhắm mắt và uống thật nhiều nước lạnh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cúi đầu về phía trước và bóp chặt hai cánh mũi trong 10-15 phút là chuẩn y khoa. Ngửa cổ ra sau sẽ làm máu chảy ngược vào họng gây sặc vào phổi rất nguy hiểm."
+    },
+    {
+      "id": 3,
+      "scenario": "Tình huống 3: Một người đang ăn bỗng nhiên ôm lấy cổ họng, không nói được, mặt tím tái hoảng loạn. Bạn nên làm gì?",
+      "options": [
+        "A. Lấy tay móc thật sâu vào họng để tìm dị vật",
+        "B. Vòng hai tay qua eo người đó từ phía sau, ấn mạnh vào bụng theo hình chữ J (Heimlich)",
+        "C. Cho người đó uống ngay một ngụm nước to để trôi thức ăn",
+        "D. Đập liên tục thật mạnh vào lưng khi người đó đang đứng thẳng"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nghiệm pháp Heimlich (ấn bụng hướng vào trong và lên trên) sẽ tạo áp lực khí từ phổi tống dị vật bít tắc đường thở ra ngoài lập tức."
+    },
+    {
+      "id": 4,
+      "scenario": "Tình huống 4: Ông bà lớn tuổi bỗng nhiên một bên miệng cười méo xệch, giơ hai tay thì tay trái rơi xuống, nói ú ớ ngọng nghịu. Việc TUYỆT ĐỐI CẤM LÀM là gì?",
+      "options": [
+        "A. Gọi xe cấp cứu 115 ngay lập tức",
+        "B. Ghi lại chính xác giờ phát hiện triệu chứng",
+        "C. Châm kim trích máu mười đầu ngón tay hoặc cho uống viên An Cung Ngưu Hoàng Hoàn",
+        "D. Đặt bệnh nhân nằm kê gối cao 30 độ hoặc nằm nghiêng an toàn"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trích máu đầu ngón tay làm mất giờ vàng điều trị. Uống An Cung khi chưa chụp CT nếu bị xuất huyết não sẽ gây vỡ mạch ồ ạt dẫn đến tử vong tại chỗ."
+    },
+    {
+      "id": 5,
+      "scenario": "Tình huống 5: Trẻ nhỏ vô tình bị nước sôi đổ vào cẳng tay gây bỏng rát đỏ. Cách xử lý ngay lúc đó là:",
+      "options": [
+        "A. Bôi ngay kem đánh răng hoặc mỡ trăn lên vết thương",
+        "B. Chườm trực tiếp cục đá lạnh to lên da",
+        "C. Ngâm hoặc xả nước máy sạch mát (15-20 độ C) liên tục trong 15-20 phút rồi che gạc sạch",
+        "D. Rắc bột nghệ và đắp lòng trắng trứng gà"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Xả nước mát sạch liên tục 15-20 phút giúp hạ nhiệt độ sâu của mô tổn thương, giảm đau rát và ngừa sẹo co rút. Bôi kem đánh răng hoặc mỡ làm bít nhiệt và tăng nguy cơ nhiễm trùng."
+    }
+  ]
+}
