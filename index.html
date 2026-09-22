@@ -3514,6 +3514,10 @@
       if (tabPhongthuy) setTabClass(tabPhongthuy, inactiveClass);
       if (huyetdaoSection) huyetdaoSection.classList.add('hidden');
       if (tabHuyetdao) setTabClass(tabHuyetdao, inactiveClass);
+      if (chongaytotSection) chongaytotSection.classList.add('hidden');
+      if (tabChongaytot) setTabClass(tabChongaytot, inactiveClass);
+      if (caudotritueSection) caudotritueSection.classList.add('hidden');
+      if (tabCaudotritue) setTabClass(tabCaudotritue, inactiveClass);
       setTabClass(tabAiagent, inactiveClass);
       setTabClass(document.getElementById('tab-users'), inactiveClass);
 
@@ -3583,6 +3587,14 @@
         if (huyetdaoSection) huyetdaoSection.classList.remove('hidden');
         if (tabHuyetdao) setTabClass(tabHuyetdao, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-600 text-white font-bold shadow-lg shadow-emerald-500/25");
         loadHuyetDaoData();
+      } else if (tab === 'chongaytot') {
+        if (chongaytotSection) chongaytotSection.classList.remove('hidden');
+        if (tabChongaytot) setTabClass(tabChongaytot, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-slate-950 font-black shadow-lg shadow-amber-500/25");
+        loadChonNgayTotData();
+      } else if (tab === 'caudotritue') {
+        if (caudotritueSection) caudotritueSection.classList.remove('hidden');
+        if (tabCaudotritue) setTabClass(tabCaudotritue, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-emerald-500 via-teal-500 to-green-600 text-white font-bold shadow-lg shadow-emerald-500/25");
+        loadCauDoTriTueData();
       } else if (tab === 'aiagent') {
         aiagentSection.classList.remove('hidden');
         setTabClass(tabAiagent, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25");
