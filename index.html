@@ -264,6 +264,13 @@
             <span>🦶</span> <span>Bệnh Gút</span>
           </button>
           <button
+            id="tab-phongthuy"
+            onclick="switchMainTab('phongthuy')"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+          >
+            <span>🏡</span> <span>Phong Thủy Nhà Ở</span>
+          </button>
+          <button
             id="tab-aiagent"
             onclick="switchMainTab('aiagent')"
             class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
@@ -2217,6 +2224,7 @@
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-tuthu" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>📜 Tứ Thư Ngũ Kinh</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-phapluat" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>⚖️ Pháp Luật VN</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-gout" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🦶 Bệnh Gút</span></label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-phongthuy" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🏡 Phong Thủy</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-aiagent" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🤖 Trợ Lý AI</span></label>
             </div>
           </div>
@@ -2253,6 +2261,149 @@
         </div>
       </div>
     </div>
+  
+    <!-- ==================== PHONG THUY NHA O MODULE ==================== -->
+    <div id="phongthuy-section" class="flex flex-col gap-6 hidden">
+      <!-- Hero Banner -->
+      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-amber-950/40 via-yellow-950/25 to-slate-950/50 border border-amber-500/30 p-6 sm:p-8 text-center flex flex-col items-center max-w-5xl mx-auto w-full shadow-2xl">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-amber-500/15 via-transparent to-transparent pointer-events-none"></div>
+
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/40 text-amber-300 text-xs font-bold uppercase tracking-wider mb-3 shadow-sm">
+          <span>🏡</span> <span>Cẩm Nang Khoa Học Bố Trí Không Gian Sống</span>
+        </div>
+
+        <h2 class="text-2xl sm:text-4xl font-black font-display text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-300 mb-3">
+          🏡 Phong Thủy Nhà Ở — Tụ Khí Sinh Tài • Gia Đạo Bình An
+        </h2>
+
+        <p class="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed mb-4">
+          "Phong thủy chân chính là khoa học môi trường sống hài hòa: đón ánh sáng, lưu thông gió êm ả, sạch sẽ, cân bằng Ngũ Hành và tôn trọng tự nhiên để con người khỏe mạnh, minh mẫn và hưng thịnh."
+        </p>
+
+        <!-- Quick Listen Button for Hero Banner -->
+        <div class="mb-5 flex flex-wrap items-center justify-center gap-2">
+          <button 
+            onclick="playTTS(event, 'Phong Thủy Nhà Ở — Khoa học bố trí không gian sống. Phong thủy là môi trường hỗ trợ — Chính sự hòa thuận, đức độ, chăm chỉ mới là gốc vận khí bền lâu của gia đình. Nguyên tắc cốt lõi: Tụ khí tránh tán, âm dương cân bằng, thuận theo tự nhiên, tâm an vạn sự an.', 'vi')"
+            class="px-4 py-2 rounded-2xl bg-gradient-to-r from-amber-600 via-yellow-600 to-amber-700 hover:from-amber-500 hover:to-yellow-500 text-slate-950 font-black text-xs shadow-lg shadow-amber-600/30 transition-all cursor-pointer flex items-center gap-2 border border-amber-400/50"
+            title="Nghe tổng quan cẩm nang phong thủy"
+          >
+            <svg class="w-4 h-4 text-slate-950 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+            <span>🔊 Bấm Nghe Tổng Quan & Châm Ngôn Vàng</span>
+          </button>
+        </div>
+
+        <!-- Châm ngôn vàng Footer Banner -->
+        <div class="w-full max-w-3xl p-3.5 rounded-2xl bg-amber-950/40 border border-amber-500/30 text-amber-200 text-xs sm:text-sm font-serif italic mb-5 shadow-inner">
+          ✨ "Phong thủy là môi trường hỗ trợ — Chính sự hòa thuận, đức độ, chăm chỉ mới là gốc vận khí bền lâu của gia đình"
+        </div>
+
+        <!-- Sub-Tabs Filter (10 Mục + Sổ Tay) -->
+        <div class="w-full flex justify-center">
+          <div class="inline-flex items-center gap-1.5 p-1.5 rounded-2xl bg-slate-900/90 border border-slate-800 overflow-x-auto max-w-full" id="phongthuy-sub-tabs">
+            <button onclick="selectPhongThuySubTab('all')" id="pt-tab-all" class="pt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-amber-500 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 font-black shadow-lg shadow-amber-500/20 cursor-pointer">✨ Tất Cả</button>
+            <button onclick="selectPhongThuySubTab('co_so')" id="pt-tab-co_so" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📚 1. Cơ Sở</button>
+            <button onclick="selectPhongThuySubTab('the_dat')" id="pt-tab-the_dat" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🏔️ 2. Thế Đất & Hướng</button>
+            <button onclick="selectPhongThuySubTab('ngoai_nha')" id="pt-tab-ngoai_nha" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🚪 3. Ngoài Nhà</button>
+            <button onclick="selectPhongThuySubTab('trong_nha')" id="pt-tab-trong_nha" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🛋️ 4. Từng Phòng</button>
+            <button onclick="selectPhongThuySubTab('bat_cung')" id="pt-tab-bat_cung" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🧭 5. Bát Cung 8 Vùng</button>
+            <button onclick="selectPhongThuySubTab('mau_sac')" id="pt-tab-mau_sac" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🎨 6. Màu Sắc</button>
+            <button onclick="selectPhongThuySubTab('vat_pham')" id="pt-tab-vat_pham" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🌿 7. Vật Phẩm</button>
+            <button onclick="selectPhongThuySubTab('20_loi')" id="pt-tab-20_loi" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">⚠️ 8. 20 Lỗi & Hóa Giải</button>
+            <button onclick="selectPhongThuySubTab('cung_menh')" id="pt-tab-cung_menh" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🧮 9. Tra Cung Mệnh</button>
+            <button onclick="selectPhongThuySubTab('danh_gia')" id="pt-tab-danh_gia" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📋 10. Tự Đánh Giá</button>
+            <button onclick="selectPhongThuySubTab('so_tay')" id="pt-tab-so_tay" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📝 Sổ Tay</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls Bar -->
+      <div id="phongthuy-controls" class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-4 items-center justify-between border-amber-500/20">
+        <div class="w-full md:max-w-md relative">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-amber-400">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <input
+            type="text"
+            id="phongthuy-search"
+            placeholder="Tìm theo chủ đề, phòng, hướng nhà, ngũ hành, lỗi phong thủy..."
+            class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-750 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm shadow-inner"
+          >
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-semibold text-amber-400 bg-amber-500/10 px-3 py-1.5 rounded-full border border-amber-500/20" id="phongthuy-item-count">Đang hiển thị dữ liệu</span>
+        </div>
+      </div>
+
+      <!-- Cards Display Area -->
+      <div id="phongthuy-display-container">
+        <div id="phongthuy-display-area" class="grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[300px]"></div>
+      </div>
+
+      <!-- Sổ Tay Ghi Chép Phong Thủy Area -->
+      <div id="phongthuy-notebook-area" class="hidden flex flex-col gap-6">
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border-amber-500/30">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-800 pb-4 mb-6">
+            <div>
+              <h3 class="text-lg font-bold text-amber-300 font-display flex items-center gap-2">
+                <span>📝</span> Sổ Tay Bố Trí & Cải Thiện Phong Thủy Gia Đình
+              </h3>
+              <p class="text-xs text-slate-400 mt-1">
+                Ghi chú lại các vị trí cần sửa sang, vật phẩm cần bổ sung, kế hoạch kê lại giường ngủ, bếp hoặc dọn dẹp không gian.
+              </p>
+            </div>
+            <button onclick="exportPhongThuyNotes()" class="text-xs bg-slate-900 hover:bg-slate-800 border border-slate-800 text-amber-300 px-3.5 py-2 rounded-xl flex items-center gap-1.5 transition-all cursor-pointer">
+              <span>📋</span> Sao chép Sổ Tay
+            </button>
+          </div>
+
+          <!-- Note Form -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-4">
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 mb-1">📅 Ngày ghi chép</label>
+              <input type="date" id="pt-note-date" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-amber-500">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 mb-1">📍 Khu vực / Hạng mục</label>
+              <input type="text" id="pt-note-area" placeholder="Ví dụ: Phòng khách, Bếp nấu, Giường ngủ..." class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-amber-500">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 mb-1">⚠️ Vấn đề / Lỗi hiện tại</label>
+              <input type="text" id="pt-note-issue" placeholder="Ví dụ: Gương chiếu giường, bếp sát bồn rửa..." class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-amber-500">
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 mb-1">🛠️ Hướng điều chỉnh</label>
+              <input type="text" id="pt-note-solution" placeholder="Ví dụ: Đặt thớt gỗ giữa bếp, dời gương..." class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-amber-500">
+            </div>
+          </div>
+
+          <div class="flex justify-end mb-6">
+            <button onclick="addPhongThuyNote()" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 hover:to-yellow-500 text-slate-950 font-black text-xs shadow-lg shadow-amber-500/25 transition-all cursor-pointer flex items-center gap-1.5">
+              <span>➕</span> Thêm Vào Sổ Tay
+            </button>
+          </div>
+
+          <!-- Notes Table -->
+          <div class="overflow-x-auto rounded-2xl border border-slate-800">
+            <table class="w-full text-left text-xs border-collapse">
+              <thead>
+                <tr class="bg-slate-900/90 text-slate-400 font-bold uppercase tracking-wider text-[11px] border-b border-slate-800">
+                  <th class="py-3 px-3">Ngày</th>
+                  <th class="py-3 px-3">Khu Vực</th>
+                  <th class="py-3 px-3">Vấn Đề / Lỗi</th>
+                  <th class="py-3 px-3">Hướng Điều Chỉnh</th>
+                  <th class="py-3 px-3 text-right">Xóa</th>
+                </tr>
+              </thead>
+              <tbody id="phongthuy-notes-table-body">
+                <!-- Injected via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <!-- Login Screen Overlay -->
@@ -2477,6 +2628,12 @@
     let activeGoutSubTab = 'all';
     let goutNotes = [];
 
+    // Phong Thuy state
+    let phongThuyData = null;
+    let activePhongThuySubTab = 'all';
+    let phongThuyNotes = [];
+    let phongThuyEvalAnswers = {};
+
     // AI Agent state
     let aiMessages = [];
     let aiIsSending = false;
@@ -2500,6 +2657,8 @@
     const tabPhapluat = document.getElementById('tab-phapluat');
     const phapluatSection = document.getElementById('phapluat-section');
     const tabGout = document.getElementById('tab-gout');
+    const tabPhongthuy = document.getElementById('tab-phongthuy');
+    const phongthuySection = document.getElementById('phongthuy-section');
     const tabAiagent = document.getElementById('tab-aiagent');
     const headerStatus = document.getElementById('header-status');
 
@@ -2755,6 +2914,10 @@
         if (goutSection) goutSection.classList.remove('hidden');
         if (tabGout) setTabClass(tabGout, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-600 text-white font-bold shadow-lg shadow-emerald-500/25");
         loadGoutData();
+      } else if (tab === 'phongthuy') {
+        if (phongthuySection) phongthuySection.classList.remove('hidden');
+        if (tabPhongthuy) setTabClass(tabPhongthuy, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-slate-950 font-black shadow-lg shadow-amber-500/25");
+        loadPhongThuyData();
       } else if (tab === 'aiagent') {
         aiagentSection.classList.remove('hidden');
         setTabClass(tabAiagent, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25");
@@ -4345,7 +4508,7 @@
           }
 
           const speakText = `Tứ Thư: ${book.ten_sach}. Tác giả: ${book.tac_gia}. Tư tưởng cốt lõi: ${book.tu_tuong_cot_loi}. ${book.y_nghia_tong_quat}. Lời vàng: ${book.loi_vang}. Ứng dụng thực tế: ${book.ung_dung_thuc_te}`;
-          const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="glass-card col-span-1 md:col-span-2 rounded-3xl p-6 md:p-8 flex flex-col justify-between border-slate-800 hover:border-amber-500/50 transition-all duration-300">
@@ -4568,7 +4731,7 @@
           }
 
           const speakText = `Ngũ Kinh: ${book.ten_sach}. Tác giả: ${book.tac_gia}. Tư tưởng cốt lõi: ${book.tu_tuong_cot_loi}. ${book.y_nghia_tong_quat}. Lời vàng: ${book.loi_vang}. Ứng dụng thực tế: ${book.ung_dung_thuc_te}`;
-          const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="glass-card col-span-1 md:col-span-2 rounded-3xl p-6 md:p-8 flex flex-col justify-between border-slate-800 hover:border-teal-500/50 transition-all duration-300">
@@ -4851,7 +5014,7 @@
         const fullAllTiersSpeak = (phapLuatData.thu_tu_cap_bac || []).map(item => 
           `Cấp ${item.thu_tu}: ${item.loai_van_ban}. Do ${item.co_quan_ban_hanh} ban hành. Phạm vi áp dụng: ${item.pham_vi_ap_dung}. Tính chất: ${item.tinh_chat_chinh}`
         ).join('. ');
-        const safeFullTiersSpeak = fullAllTiersSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        const safeFullTiersSpeak = fullAllTiersSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
         const rows = (phapLuatData.thu_tu_cap_bac || []).filter(item => {
           if (!searchVal) return true;
@@ -4859,7 +5022,7 @@
           return removeVietnameseTones(full.toLowerCase()).includes(searchVal);
         }).map(item => {
           const rowSpeakText = `Cấp ${item.thu_tu}: ${item.loai_van_ban}. Do ${item.co_quan_ban_hanh} ban hành. Phạm vi áp dụng: ${item.pham_vi_ap_dung}. Tính chất: ${item.tinh_chat_chinh}`;
-          const safeRowSpeak = rowSpeakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeRowSpeak = rowSpeakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           return `
             <tr class="border-b border-slate-800/80 hover:bg-slate-900/50 transition-colors">
@@ -4931,7 +5094,7 @@
           }
 
           const speakText = `${doc.ten}. Cơ quan ban hành: ${doc.co_quan_ban_hanh}. Vị trí pháp lý: ${doc.vi_tri_phap_ly}. Ý nghĩa: ${doc.y_nghia}. Nội dung chính: ${doc.noi_dung_chinh.join('. ')}. Ví dụ: ${doc.vi_du.join('. ')}. Đặc điểm: ${doc.dac_diem}`;
-          const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="glass-card rounded-3xl p-6 border-indigo-500/20 hover:border-indigo-500/40 transition-all flex flex-col justify-between">
@@ -4999,7 +5162,7 @@
         const fullQuyTacSpeak = (phapLuatData.quy_tac_uu_tien || []).map(qt =>
           `${qt.nguyen_tac}. Giải thích: ${qt.giai_thich}. Hệ quả: ${qt.he_qua}`
         ).join('. ');
-        const safeFullQuyTacSpeak = fullQuyTacSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        const safeFullQuyTacSpeak = fullQuyTacSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
         const filteredQuyTac = (phapLuatData.quy_tac_uu_tien || []).filter(qt => {
           if (!searchVal) return true;
@@ -5030,7 +5193,7 @@
               <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 ${filteredQuyTac.map(qt => {
                   const singleQtSpeak = `${qt.nguyen_tac}. Giải thích: ${qt.giai_thich}. Hệ quả: ${qt.he_qua}`;
-                  const safeSingleQtSpeak = singleQtSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                  const safeSingleQtSpeak = singleQtSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                   return `
                     <div class="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
@@ -5059,7 +5222,7 @@
         const vd = phapLuatData.vi_du_thuc_te;
         if (vd) {
           const fullVdSpeak = `Ví dụ thực tế: ${vd.chu_de}. ${vd.mo_ta}. Các cấp văn bản áp dụng: ${(vd.cac_buoc || []).map(c => 'Cấp ' + c.cap + ': ' + c.van_ban + '. ' + c.noi_dung_dieu_chinh).join('. ')}. Nhận xét: ${vd.nhan_xet}`;
-          const safeFullVdSpeak = fullVdSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeFullVdSpeak = fullVdSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-indigo-500/30">
@@ -5083,7 +5246,7 @@
               <div class="space-y-3 mb-6">
                 ${(vd.cac_buoc || []).map(c => {
                   const capSpeak = `Cấp ${c.cap}: ${c.van_ban}. ${c.noi_dung_dieu_chinh}`;
-                  const safeCapSpeak = capSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                  const safeCapSpeak = capSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                   return `
                     <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 flex items-start justify-between gap-3 text-xs">
@@ -5106,7 +5269,7 @@
                   ${vd.nhan_xet}
                 </div>
                 <button
-                  onclick="playTTS(event, 'Nhận xét: ${(vd.nhan_xet || '').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                  onclick="playTTS(event, 'Nhận xét: ${(vd.nhan_xet || '').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                   class="px-3 py-1.5 rounded-xl bg-emerald-900/60 border border-emerald-500/40 text-emerald-300 hover:text-white transition-all text-xs font-bold flex items-center gap-1 shrink-0 cursor-pointer"
                 >
                   <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5123,7 +5286,7 @@
         const fullVocabSpeak = (phapLuatData.tu_vung_co_ban || []).map(v =>
           `${v.thuat_ngu}: ${v.nghia_don_gian}`
         ).join('. ');
-        const safeFullVocabSpeak = fullVocabSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        const safeFullVocabSpeak = fullVocabSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
         const filteredVocab = (phapLuatData.tu_vung_co_ban || []).filter(v => {
           if (!searchVal) return true;
@@ -5154,7 +5317,7 @@
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 ${filteredVocab.map(v => {
                   const vocabSpeak = `${v.thuat_ngu}: ${v.nghia_don_gian}`;
-                  const safeVocabSpeak = vocabSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                  const safeVocabSpeak = vocabSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                   return `
                     <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
@@ -5189,7 +5352,7 @@
         const dt = phapLuatData.an_dau_thau_bca;
         if (dt) {
           const fullDtSpeak = `Cẩm nang pháp luật: Người có liên quan trong vụ án vi phạm quy định về đấu thầu khi làm việc với Cơ quan Điều tra Bộ Công An. ${dt.loi_dan}. Khẩu hiệu cốt lõi: ${dt.khau_hieu_cot_loi}`;
-          const safeFullDtSpeak = fullDtSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeFullDtSpeak = fullDtSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-rose-500/40 bg-gradient-to-b from-rose-950/20 via-slate-950/40 to-slate-950/80">
@@ -5220,7 +5383,7 @@
                       <span>🏛️</span> 1. Thẩm Quyền & Chức Năng Của Các Cơ Quan BCA (C03, A03, PC03, PA03)
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(dt.cac_co_quan_bca || []).map(cq => cq.ma_hieu + '. Chức năng: ' + cq.chuc_nang + '. Vai trò: ' + cq.vai_tro_trong_an_dau_thau).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(dt.cac_co_quan_bca || []).map(cq => cq.ma_hieu + '. Chức năng: ' + cq.chuc_nang + '. Vai trò: ' + cq.vai_tro_trong_an_dau_thau).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5231,7 +5394,7 @@
                   <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
                     ${dt.cac_co_quan_bca.map(cq => {
                       const cqSpeak = `${cq.ma_hieu}. Chức năng: ${cq.chuc_nang}. Vai trò trong án đấu thầu: ${cq.vai_tro_trong_an_dau_thau}`;
-                      const safeCqSpeak = cqSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeCqSpeak = cqSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
@@ -5258,7 +5421,7 @@
                       <span>⚖️</span> 2. Điều Khoản Hình Sự Trọng Yếu (Điều 222 BLHS & Các Tội Danh Liên Đới)
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(dt.dieu_khoan_hinh_su[0].dieu_luat + '. Các hành vi: ' + dt.dieu_khoan_hinh_su[0].nhom_hanh_vi.join('. ') + '. Khung 1: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].dieu_kien + '. Khung 2: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].dieu_kien + '. Khung 3: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].dieu_kien + '. Các tội liên đới: ' + dt.dieu_khoan_hinh_su[1].danh_sach.map(td => td.ten_toi + ' ' + td.mo_ta).join('. ')).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(dt.dieu_khoan_hinh_su[0].dieu_luat + '. Các hành vi: ' + dt.dieu_khoan_hinh_su[0].nhom_hanh_vi.join('. ') + '. Khung 1: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].dieu_kien + '. Khung 2: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].dieu_kien + '. Khung 3: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].dieu_kien + '. Các tội liên đới: ' + dt.dieu_khoan_hinh_su[1].danh_sach.map(td => td.ten_toi + ' ' + td.mo_ta).join('. ')).replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5272,7 +5435,7 @@
                       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
                         <b class="text-base text-rose-300">${dt.dieu_khoan_hinh_su[0].dieu_luat}</b>
                         <button 
-                          onclick="playTTS(event, '${(dt.dieu_khoan_hinh_su[0].dieu_luat + '. Các hành vi: ' + dt.dieu_khoan_hinh_su[0].nhom_hanh_vi.join('. ') + '. Khung 1: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].dieu_kien + '. Khung 2: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].dieu_kien + '. Khung 3: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].dieu_kien + '. Hình phạt bổ sung: ' + dt.dieu_khoan_hinh_su[0].hinh_phat_bo_sung).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" 
+                          onclick="playTTS(event, '${(dt.dieu_khoan_hinh_su[0].dieu_luat + '. Các hành vi: ' + dt.dieu_khoan_hinh_su[0].nhom_hanh_vi.join('. ') + '. Khung 1: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[0].dieu_kien + '. Khung 2: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[1].dieu_kien + '. Khung 3: ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].khung + ' ' + dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat[2].dieu_kien + '. Hình phạt bổ sung: ' + dt.dieu_khoan_hinh_su[0].hinh_phat_bo_sung).replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')" 
                           class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-xs font-bold flex items-center gap-1 shrink-0 self-start sm:self-auto cursor-pointer"
                         >
                           <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5293,7 +5456,7 @@
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-[11px]">
                           ${dt.dieu_khoan_hinh_su[0].cac_khung_hinh_phat.map(k => {
                             const khungSpeak = `${k.khung}: ${k.dieu_kien}`;
-                            const safeKhungSpeak = khungSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                            const safeKhungSpeak = khungSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                             return `
                               <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 flex flex-col justify-between">
@@ -5320,7 +5483,7 @@
                       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-[11px]">
                         ${dt.dieu_khoan_hinh_su[1].danh_sach.map(td => {
                           const tdSpeak = `${td.ten_toi}. ${td.mo_ta}`;
-                          const safeTdSpeak = tdSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                          const safeTdSpeak = tdSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                           return `
                             <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 flex flex-col justify-between">
@@ -5347,7 +5510,7 @@
                         <span>📜</span> 3. Luật Đấu Thầu 2023 — Các Hành Vi Bị Cấm Trọng Điểm (Điều 16)
                       </span>
                       <button 
-                        onclick="playTTS(event, '${(dt.luat_dau_thau_2023_hanh_vi_cam || []).map(h => h.nhom + ': ' + h.noi_dung).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                        onclick="playTTS(event, '${(dt.luat_dau_thau_2023_hanh_vi_cam || []).map(h => h.nhom + ': ' + h.noi_dung).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                         class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                       >
                         <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5358,7 +5521,7 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                       ${dt.luat_dau_thau_2023_hanh_vi_cam.map(h => {
                         const hSpeak = `${h.nhom}. ${h.noi_dung}`;
-                        const safeHSpeak = hSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                        const safeHSpeak = hSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                         return `
                           <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
@@ -5383,7 +5546,7 @@
                       <span>📑</span> 4. Phân Biệt Giấy Triệu Tập vs Giấy Mời & Quyền Lợi Theo Tư Cách Tố Tụng
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(dt.quyen_nghia_vu_to_tung.phan_biet_giay_trieu_tap_va_giay_moi.map(g => g.loai_giay + ': Căn cứ ' + g.can_cu + '. ' + g.tinh_phap_ly).join('. ') + '. Các tư cách tố tụng: ' + dt.quyen_nghia_vu_to_tung.tu_cach_va_quyen_loi.map(tc => tc.tu_cach + ': Quyền: ' + tc.quyen + '. Nghĩa vụ: ' + tc.nghia_vu).join('. ') + '. ' + dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.tieu_de + ': ' + dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(dt.quyen_nghia_vu_to_tung.phan_biet_giay_trieu_tap_va_giay_moi.map(g => g.loai_giay + ': Căn cứ ' + g.can_cu + '. ' + g.tinh_phap_ly).join('. ') + '. Các tư cách tố tụng: ' + dt.quyen_nghia_vu_to_tung.tu_cach_va_quyen_loi.map(tc => tc.tu_cach + ': Quyền: ' + tc.quyen + '. Nghĩa vụ: ' + tc.nghia_vu).join('. ') + '. ' + dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.tieu_de + ': ' + dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung).replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5395,7 +5558,7 @@
                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs mb-3">
                     ${dt.quyen_nghia_vu_to_tung.phan_biet_giay_trieu_tap_va_giay_moi.map(g => {
                       const gSpeak = `${g.loai_giay}. Căn cứ: ${g.can_cu}. Đối tượng: ${g.doi_tuong}. Tính pháp lý: ${g.tinh_phap_ly}`;
-                      const safeGSpeak = gSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeGSpeak = gSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-4 rounded-2xl bg-slate-900/90 border ${g.loai_giay.includes('Triệu Tập') ? 'border-rose-500/40 bg-rose-950/20' : 'border-blue-500/30 bg-blue-950/20'} flex flex-col justify-between">
@@ -5421,7 +5584,7 @@
                   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
                     ${dt.quyen_nghia_vu_to_tung.tu_cach_va_quyen_loi.map(tc => {
                       const tcSpeak = `Tư cách: ${tc.tu_cach}. Quyền lợi: ${tc.quyen}. Nghĩa vụ: ${tc.nghia_vu}`;
-                      const safeTcSpeak = tcSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeTcSpeak = tcSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
@@ -5445,7 +5608,7 @@
                       <p class="text-slate-300 leading-relaxed text-[11px]">${dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung}</p>
                     </div>
                     <button 
-                      onclick="playTTS(event, '${(dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.tieu_de + ': ' + dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.tieu_de + ': ' + dt.quyen_nghia_vu_to_tung.quyen_co_luat_su.noi_dung).replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-3 py-1.5 rounded-xl bg-indigo-900/60 border border-indigo-500/40 text-indigo-300 hover:text-white transition-all text-xs font-bold flex items-center gap-1 shrink-0 cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5461,7 +5624,7 @@
                       <span>🛡️</span> 5. 5 Nguyên Tắc Vàng Giữ Mình Khi Làm Việc Với Cơ Quan Điều Tra
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(dt.nguyen_tac_vang_khi_lam_viec || []).map(nt => nt.nguyen_tac + '. ' + nt.chi_tiet).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(dt.nguyen_tac_vang_khi_lam_viec || []).map(nt => nt.nguyen_tac + '. ' + nt.chi_tiet).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-rose-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5472,7 +5635,7 @@
                   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs">
                     ${dt.nguyen_tac_vang_khi_lam_viec.map(nt => {
                       const ntSpeak = `${nt.nguyen_tac}. ${nt.chi_tiet}`;
-                      const safeNtSpeak = ntSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeNtSpeak = ntSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
@@ -5496,7 +5659,7 @@
                       <span>🚀</span> 6. Quy Trình 6 Bước Hành Động Chuẩn Mực & Ví Dụ Minh Họa Thực Tế
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(dt.quy_trinh_chi_tiet || []).map(b => 'Bước ' + b.buoc + ': ' + b.ten + '. Mục tiêu: ' + b.muc_tieu + '. Hành động: ' + b.hanh_dong_chi_tiet.join('. ') + '. Tình huống: ' + b.vi_du_thuc_te.tinh_huong + '. Xử lý: ' + b.vi_du_thuc_te.cach_xu_ly_dung).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(dt.quy_trinh_chi_tiet || []).map(b => 'Bước ' + b.buoc + ': ' + b.ten + '. Mục tiêu: ' + b.muc_tieu + '. Hành động: ' + b.hanh_dong_chi_tiet.join('. ') + '. Tình huống: ' + b.vi_du_thuc_te.tinh_huong + '. Xử lý: ' + b.vi_du_thuc_te.cach_xu_ly_dung).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-emerald-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5507,10 +5670,10 @@
                   <div class="space-y-4">
                     ${(dt.quy_trinh_chi_tiet || []).map(step => {
                       const stepSpeakText = `Bước ${step.buoc}: ${step.ten}. Mục tiêu: ${step.muc_tieu}. Hành động: ${step.hanh_dong_chi_tiet.join('. ')}. Sai lầm cần tránh: ${step.sai_lam_can_tranh.join('. ')}. Căn cứ pháp lý: ${step.can_cu_phap_ly}. Ví dụ tình huống: ${step.vi_du_thuc_te.tinh_huong}. Cách xử lý: ${step.vi_du_thuc_te.cach_xu_ly_dung}`;
-                      const safeStepSpeak = stepSpeakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeStepSpeak = stepSpeakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       const exampleOnlySpeak = `Ví dụ thực tế Bước ${step.buoc}: ${step.ten}. Tình huống: ${step.vi_du_thuc_te.tinh_huong}. Cách xử lý đúng: ${step.vi_du_thuc_te.cach_xu_ly_dung}`;
-                      const safeExampleSpeak = exampleOnlySpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeExampleSpeak = exampleOnlySpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-5 rounded-3xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/40 transition-all">
@@ -5591,7 +5754,7 @@
         const vbn = phapLuatData.van_ban_moi_doanh_nghiep_niem_yet;
         if (vbn) {
           const fullVbnSpeak = `${vbn.tieu_de}. ${vbn.loi_dan}. Khẩu hiệu cốt lõi: ${vbn.khau_hieu_cot_loi}`;
-          const safeFullVbnSpeak = fullVbnSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeFullVbnSpeak = fullVbnSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/40 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/90">
@@ -5622,7 +5785,7 @@
                       <span>📊</span> Bảng Tóm Tắt Tổng Quan — Trạng Thái Từng Nhóm Văn Bản
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(vbn.bang_tong_hop_trang_thai || []).map(b => b.nhom + ': Tổng số ' + b.tong_so + ', Mới năm 2026: ' + b.moi_2026 + ', Đang áp dụng: ' + b.dang_ap_dung + ', Hết hiệu lực: ' + b.het_hieu_luc + ', Sắp có hiệu lực: ' + b.sap_co_hieu_luc + '. ' + b.ghi_chu).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(vbn.bang_tong_hop_trang_thai || []).map(b => b.nhom + ': Tổng số ' + b.tong_so + ', Mới năm 2026: ' + b.moi_2026 + ', Đang áp dụng: ' + b.dang_ap_dung + ', Hết hiệu lực: ' + b.het_hieu_luc + ', Sắp có hiệu lực: ' + b.sap_co_hieu_luc + '. ' + b.ghi_chu).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-amber-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5647,7 +5810,7 @@
                       <tbody>
                         ${vbn.bang_tong_hop_trang_thai.map(row => {
                           const rowSpeak = `${row.nhom}: Tổng số ${row.tong_so}, mới 2026: ${row.moi_2026}, đang áp dụng: ${row.dang_ap_dung}, hết hiệu lực: ${row.het_hieu_luc}, sắp hiệu lực: ${row.sap_co_hieu_luc}. ${row.ghi_chu}`;
-                          const safeRowSpeak = rowSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                          const safeRowSpeak = rowSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                           return `
                             <tr class="border-b border-slate-800/80 hover:bg-slate-900/50 transition-colors">
@@ -5685,7 +5848,7 @@
                       <span>🏛️</span> I. Nhóm Luật Cơ Sở — Nền Tảng Pháp Lý Chính (7 Luật + 1 Hết hiệu lực)
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(vbn.nhom_1_luat_co_so || []).map(l => l.stt + ': ' + l.ten_van_ban + '. Hiệu lực: ' + l.ngay_hieu_luc + '. Trạng thái: ' + l.trang_thai + '. Áp dụng chính: ' + l.ap_dung_chinh + '. Điểm lưu ý: ' + l.diem_luu_y).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(vbn.nhom_1_luat_co_so || []).map(l => l.stt + ': ' + l.ten_van_ban + '. Hiệu lực: ' + l.ngay_hieu_luc + '. Trạng thái: ' + l.trang_thai + '. Áp dụng chính: ' + l.ap_dung_chinh + '. Điểm lưu ý: ' + l.diem_luu_y).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-amber-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5696,7 +5859,7 @@
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                     ${vbn.nhom_1_luat_co_so.map(l => {
                       const lSpeak = `${l.stt}: ${l.ten_van_ban}. Hiệu lực từ: ${l.ngay_hieu_luc}. Trạng thái: ${l.trang_thai}. Áp dụng chính: ${l.ap_dung_chinh}. Điểm lưu ý: ${l.diem_luu_y}. Bộ phận phụ trách: ${l.bo_phan_phu_trach}`;
-                      const safeLSpeak = lSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeLSpeak = lSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-4 rounded-2xl bg-slate-900/90 border ${l.loai_trang_thai === 'expired' ? 'border-rose-500/30 bg-rose-950/10 opacity-75' : (l.loai_trang_thai === 'new_active' ? 'border-amber-500/40 bg-amber-950/20' : 'border-slate-800')} flex flex-col justify-between">
@@ -5733,7 +5896,7 @@
                       <span>📜</span> II. Nhóm Nghị Định Hướng Dẫn — Chi Tiết Thi Hành & Chế Tài (8 NĐ + 1 Hết hiệu lực)
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(vbn.nhom_2_nghi_dinh || []).map(n => n.stt + ': ' + n.ten_van_ban + '. Hiệu lực: ' + n.ngay_hieu_luc + '. ' + n.noi_dung_chinh + '. Ảnh hưởng: ' + n.anh_huong).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(vbn.nhom_2_nghi_dinh || []).map(n => n.stt + ': ' + n.ten_van_ban + '. Hiệu lực: ' + n.ngay_hieu_luc + '. ' + n.noi_dung_chinh + '. Ảnh hưởng: ' + n.anh_huong).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-amber-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5744,7 +5907,7 @@
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                     ${vbn.nhom_2_nghi_dinh.map(n => {
                       const nSpeak = `${n.stt}: ${n.ten_van_ban}. Hiệu lực: ${n.ngay_hieu_luc}. Trạng thái: ${n.trang_thai}. Nội dung: ${n.noi_dung_chinh}. Ảnh hưởng: ${n.anh_huong}. Bộ phận phụ trách: ${n.bo_phan}`;
-                      const safeNSpeak = nSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeNSpeak = nSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-4 rounded-2xl bg-slate-900/90 border ${n.loai_trang_thai === 'expired' ? 'border-rose-500/30 bg-rose-950/10 opacity-75' : (n.loai_trang_thai === 'new_active' ? 'border-amber-500/40 bg-amber-950/20' : 'border-slate-800')} flex flex-col justify-between">
@@ -5781,7 +5944,7 @@
                       <span>📋</span> III. Nhóm Thông Tư Hướng Dẫn — Chế Độ Kế Toán, CBTT & Định Mức XD
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(Object.values(vbn.nhom_3_thong_tu).flat() || []).map(t => t.stt + ': ' + t.ten_van_ban + '. ' + t.noi_dung_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(Object.values(vbn.nhom_3_thong_tu).flat() || []).map(t => t.stt + ': ' + t.ten_van_ban + '. ' + t.noi_dung_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-amber-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5795,12 +5958,12 @@
                     <div class="p-4 rounded-3xl bg-slate-900/60 border border-slate-800 space-y-3">
                       <div class="flex items-center justify-between border-b border-slate-800 pb-2">
                         <b class="text-xs text-yellow-300 flex items-center gap-1.5"><span>💼</span> 1. Khối Kế Toán & Tài Chính (TT 99 thay TT 200, TT 43 sửa TT 202, TT 118)</b>
-                        <button onclick="playTTS(event, '${(vbn.nhom_3_thong_tu.ke_toan_tai_chinh || []).map(t => t.stt + ': ' + t.ten_van_ban + '. ' + t.noi_dung_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white text-[10px] font-bold flex items-center gap-1"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg> <span>Nghe Khối Kế Toán</span></button>
+                        <button onclick="playTTS(event, '${(vbn.nhom_3_thong_tu.ke_toan_tai_chinh || []).map(t => t.stt + ': ' + t.ten_van_ban + '. ' + t.noi_dung_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white text-[10px] font-bold flex items-center gap-1"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg> <span>Nghe Khối Kế Toán</span></button>
                       </div>
                       <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                         ${vbn.nhom_3_thong_tu.ke_toan_tai_chinh.map(t => {
                           const tSpeak = `${t.stt}: ${t.ten_van_ban}. Hiệu lực: ${t.ngay_hieu_luc}. ${t.noi_dung_chinh}. Tác động: ${t.anh_huong}`;
-                          const safeTSpeak = tSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                          const safeTSpeak = tSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                           return `
                             <div class="p-3.5 rounded-2xl bg-slate-950/80 border ${t.loai_trang_thai === 'expired' ? 'border-rose-500/30 opacity-75' : (t.loai_trang_thai === 'new_active' ? 'border-amber-500/30 bg-amber-950/10' : 'border-slate-800')} flex flex-col justify-between text-xs">
@@ -5826,12 +5989,12 @@
                     <div class="p-4 rounded-3xl bg-slate-900/60 border border-slate-800 space-y-3">
                       <div class="flex items-center justify-between border-b border-slate-800 pb-2">
                         <b class="text-xs text-yellow-300 flex items-center gap-1.5"><span>📢</span> 2. Khối Công Bố Thông Tin & Quản Trị Công Ty (TT 96, TT 05 rút ngắn 12h, TT 116)</b>
-                        <button onclick="playTTS(event, '${(vbn.nhom_3_thong_tu.cong_bo_thong_tin || []).map(t => t.stt + ': ' + t.ten_van_ban + '. ' + t.noi_dung_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white text-[10px] font-bold flex items-center gap-1"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg> <span>Nghe Khối CBTT</span></button>
+                        <button onclick="playTTS(event, '${(vbn.nhom_3_thong_tu.cong_bo_thong_tin || []).map(t => t.stt + ': ' + t.ten_van_ban + '. ' + t.noi_dung_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white text-[10px] font-bold flex items-center gap-1"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg> <span>Nghe Khối CBTT</span></button>
                       </div>
                       <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
                         ${vbn.nhom_3_thong_tu.cong_bo_thong_tin.map(t => {
                           const tSpeak = `${t.stt}: ${t.ten_van_ban}. Hiệu lực: ${t.ngay_hieu_luc}. ${t.noi_dung_chinh}. Tác động: ${t.anh_huong}`;
-                          const safeTSpeak = tSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                          const safeTSpeak = tSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                           return `
                             <div class="p-3.5 rounded-2xl bg-slate-950/80 border ${t.loai_trang_thai === 'new_active' ? 'border-amber-500/30 bg-amber-950/10' : 'border-slate-800'} flex flex-col justify-between text-xs">
@@ -5857,12 +6020,12 @@
                     <div class="p-4 rounded-3xl bg-slate-900/60 border border-slate-800 space-y-3">
                       <div class="flex items-center justify-between border-b border-slate-800 pb-2">
                         <b class="text-xs text-yellow-300 flex items-center gap-1.5"><span>🏗️</span> 3. Khối Kỹ Thuật Xây Dựng & BĐS (TT 08 Tổng mức đầu tư, TT 12 Thuế BĐS, TT 27 Năng lực XD)</b>
-                        <button onclick="playTTS(event, '${(vbn.nhom_3_thong_tu.xay_dung_bat_dong_san || []).map(t => t.stt + ': ' + t.ten_van_ban + '. ' + t.noi_dung_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white text-[10px] font-bold flex items-center gap-1"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg> <span>Nghe Khối Xây Dựng</span></button>
+                        <button onclick="playTTS(event, '${(vbn.nhom_3_thong_tu.xay_dung_bat_dong_san || []).map(t => t.stt + ': ' + t.ten_van_ban + '. ' + t.noi_dung_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white text-[10px] font-bold flex items-center gap-1"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg> <span>Nghe Khối Xây Dựng</span></button>
                       </div>
                       <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
                         ${vbn.nhom_3_thong_tu.xay_dung_bat_dong_san.map(t => {
                           const tSpeak = `${t.stt}: ${t.ten_van_ban}. Hiệu lực: ${t.ngay_hieu_luc}. ${t.noi_dung_chinh}. Tác động: ${t.anh_huong}`;
-                          const safeTSpeak = tSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                          const safeTSpeak = tSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                           return `
                             <div class="p-3.5 rounded-2xl bg-slate-950/80 border ${t.loai_trang_thai === 'new_active' ? 'border-amber-500/30 bg-amber-950/10' : 'border-slate-800'} flex flex-col justify-between text-xs">
@@ -5893,7 +6056,7 @@
                       <span>📈</span> IV. Quy Chế Sàn Giao Dịch — HOSE / HNX / UPCoM
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(vbn.nhom_4_quy_che_san || []).map(q => q.stt + ': ' + q.ten_van_ban + '. Yêu cầu chính: ' + q.yeu_cau_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(vbn.nhom_4_quy_che_san || []).map(q => q.stt + ': ' + q.ten_van_ban + '. Yêu cầu chính: ' + q.yeu_cau_chinh).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-amber-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5904,7 +6067,7 @@
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
                     ${vbn.nhom_4_quy_che_san.map(q => {
                       const qSpeak = `${q.stt}: ${q.ten_van_ban}. Cập nhật: ${q.cap_nhat}. Yêu cầu: ${q.yeu_cau_chinh}. Áp dụng: ${q.ghi_chu}`;
-                      const safeQSpeak = qSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeQSpeak = qSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
@@ -5934,7 +6097,7 @@
                       <span>⚡</span> V. Tóm Tắt 10 Thay Đổi Quan Trọng Năm 2026 — Cần Thực Hiện Ngay
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(vbn.tom_tat_thay_doi_2026 || []).map(t => 'Mục ' + t.stt + ': ' + t.noi_dung + '. Hạn chót: ' + t.han_chot + '. Bộ phận: ' + t.bo_phan + '. Lưu ý: ' + t.canh_bao).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(vbn.tom_tat_thay_doi_2026 || []).map(t => 'Mục ' + t.stt + ': ' + t.noi_dung + '. Hạn chót: ' + t.han_chot + '. Bộ phận: ' + t.bo_phan + '. Lưu ý: ' + t.canh_bao).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-amber-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5945,7 +6108,7 @@
                   <div class="space-y-2.5">
                     ${vbn.tom_tat_thay_doi_2026.map(item => {
                       const itemSpeak = `Mục ${item.stt}: ${item.noi_dung}. Hạn chót: ${item.han_chot}. Bộ phận: ${item.bo_phan}. Cảnh báo: ${item.canh_bao}`;
-                      const safeItemSpeak = itemSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeItemSpeak = itemSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs hover:border-amber-500/30 transition-all">
@@ -5974,7 +6137,7 @@
                       <span>❓</span> VI. Bảng Tra Cứu Nhanh — Không Nhầm Lẫn
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(vbn.bang_tra_cuu_nhanh || []).map(q => 'Câu hỏi: ' + q.cau_hoi + '. Trả lời: ' + q.tra_loi + '. ' + q.ghi_chu).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(vbn.bang_tra_cuu_nhanh || []).map(q => 'Câu hỏi: ' + q.cau_hoi + '. Trả lời: ' + q.tra_loi + '. ' + q.ghi_chu).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-amber-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -5985,7 +6148,7 @@
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
                     ${vbn.bang_tra_cuu_nhanh.map(q => {
                       const qSpeak = `${q.cau_hoi}. Trả lời: ${q.tra_loi}. Ghi chú: ${q.ghi_chu}`;
-                      const safeQSpeak = qSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                      const safeQSpeak = qSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                       return `
                         <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
@@ -6012,7 +6175,7 @@
                       <span>🔄</span> VII. Quy Tắc Cập Nhật, Lưu Trữ & Liên Kết Nghiệp Vụ
                     </span>
                     <button 
-                      onclick="playTTS(event, '${(vbn.quy_tac_cap_nhat_luu_tru.cap_nhat_tu_dong.join('. ') + '. ' + vbn.quy_tac_cap_nhat_luu_tru.luu_tru_tai_cong_ty.join('. ') + '. ' + vbn.quy_tac_cap_nhat_luu_tru.lien_ket_module.join('. ')).replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(vbn.quy_tac_cap_nhat_luu_tru.cap_nhat_tu_dong.join('. ') + '. ' + vbn.quy_tac_cap_nhat_luu_tru.luu_tru_tai_cong_ty.join('. ') + '. ' + vbn.quy_tac_cap_nhat_luu_tru.lien_ket_module.join('. ')).replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-2.5 py-1 rounded-xl bg-slate-950 border border-slate-800 text-amber-300 hover:text-white text-[11px] font-bold flex items-center gap-1.5 shrink-0 self-start sm:self-auto cursor-pointer"
                     >
                       <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -6026,7 +6189,7 @@
                       <div>
                         <div class="flex items-center justify-between mb-2">
                           <b class="text-amber-300 text-xs">🔄 Cập Nhật Tự Động & Kiểm Tra Hàng Ngày</b>
-                          <button onclick="playTTS(event, '${vbn.quy_tac_cap_nhat_luu_tru.cap_nhat_tu_dong.join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                          <button onclick="playTTS(event, '${vbn.quy_tac_cap_nhat_luu_tru.cap_nhat_tu_dong.join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
                         </div>
                         <ul class="space-y-1.5 text-[11px] text-slate-300">
                           ${vbn.quy_tac_cap_nhat_luu_tru.cap_nhat_tu_dong.map(c => `<li class="flex items-start gap-1.5"><span class="text-amber-400">✓</span> <span>${c}</span></li>`).join('')}
@@ -6039,7 +6202,7 @@
                       <div>
                         <div class="flex items-center justify-between mb-2">
                           <b class="text-blue-300 text-xs">📂 Lưu Trữ Tại Công Ty & Phân Quyền</b>
-                          <button onclick="playTTS(event, '${vbn.quy_tac_cap_nhat_luu_tru.luu_tru_tai_cong_ty.join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" class="p-1 rounded bg-slate-950 text-blue-300 hover:text-white" title="Nghe"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                          <button onclick="playTTS(event, '${vbn.quy_tac_cap_nhat_luu_tru.luu_tru_tai_cong_ty.join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')" class="p-1 rounded bg-slate-950 text-blue-300 hover:text-white" title="Nghe"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
                         </div>
                         <ul class="space-y-1.5 text-[11px] text-slate-300">
                           ${vbn.quy_tac_cap_nhat_luu_tru.luu_tru_tai_cong_ty.map(c => `<li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span> <span>${c}</span></li>`).join('')}
@@ -6052,7 +6215,7 @@
                       <div>
                         <div class="flex items-center justify-between mb-2">
                           <b class="text-emerald-300 text-xs">🔗 Liên Kết Nghiệp Vụ Với Các Module Khác</b>
-                          <button onclick="playTTS(event, '${vbn.quy_tac_cap_nhat_luu_tru.lien_ket_module.join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" class="p-1 rounded bg-slate-950 text-emerald-300 hover:text-white" title="Nghe"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                          <button onclick="playTTS(event, '${vbn.quy_tac_cap_nhat_luu_tru.lien_ket_module.join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')" class="p-1 rounded bg-slate-950 text-emerald-300 hover:text-white" title="Nghe"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
                         </div>
                         <ul class="space-y-1.5 text-[11px] text-slate-300">
                           ${vbn.quy_tac_cap_nhat_luu_tru.lien_ket_module.map(c => `<li class="flex items-start gap-1.5"><span class="text-emerald-400">✓</span> <span>${c}</span></li>`).join('')}
@@ -6065,7 +6228,7 @@
                       <div>
                         <div class="flex items-center justify-between mb-2">
                           <b class="text-purple-300 text-xs">🎧 Chức Năng Nghe Đọc Thông Minh</b>
-                          <button onclick="playTTS(event, '${vbn.quy_tac_cap_nhat_luu_tru.huong_dan_tts.join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')" class="p-1 rounded bg-slate-950 text-purple-300 hover:text-white" title="Nghe"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                          <button onclick="playTTS(event, '${vbn.quy_tac_cap_nhat_luu_tru.huong_dan_tts.join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')" class="p-1 rounded bg-slate-950 text-purple-300 hover:text-white" title="Nghe"><svg class="w-3 h-3 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
                         </div>
                         <ul class="space-y-1.5 text-[11px] text-slate-300">
                           ${vbn.quy_tac_cap_nhat_luu_tru.huong_dan_tts.map(c => `<li class="flex items-start gap-1.5"><span class="text-purple-400">✓</span> <span>${c}</span></li>`).join('')}
@@ -6085,11 +6248,11 @@
         const fullSummarySpeak = (phapLuatData.bang_tom_tat || []).map(row =>
           `Cấp ${row.cap}: ${row.loai}, do ${row.ai_ra} ban hành, áp dụng tại ${row.noi_ap_dung}. Vai trò: ${row.vai_tro}`
         ).join('. ');
-        const safeFullSummarySpeak = fullSummarySpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        const safeFullSummarySpeak = fullSummarySpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
         const summaryRows = (phapLuatData.bang_tom_tat || []).map(row => {
           const rowSpeak = `Cấp ${row.cap}: ${row.loai}, do ${row.ai_ra} ban hành, áp dụng tại ${row.noi_ap_dung}. Vai trò: ${row.vai_tro}`;
-          const safeRowSpeak = rowSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeRowSpeak = rowSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           return `
             <tr class="border-b border-slate-800/80 hover:bg-slate-900/50 transition-colors">
@@ -6148,7 +6311,7 @@
                   "${phapLuatData.tong_quan?.cau_ket_chot || 'Pháp luật không phải để sợ, mà để mọi người sống chung công bằng, an toàn. Hiểu pháp luật là bảo vệ chính mình.'}"
                 </p>
                 <button 
-                  onclick="playTTS(event, '${(phapLuatData.tong_quan?.cau_ket_chot || '').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                  onclick="playTTS(event, '${(phapLuatData.tong_quan?.cau_ket_chot || '').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                   class="px-3 py-1.5 rounded-xl bg-indigo-900/60 border border-indigo-500/40 text-indigo-300 hover:text-white transition-all text-xs font-bold flex items-center gap-1 shrink-0 cursor-pointer"
                 >
                   <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -6344,7 +6507,7 @@
         }
 
         const speakText = audioText || `${category}: ${title}. ${mainDesc}. ${details || ''}`;
-        const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        const safeSpeakText = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
         cardsHtml.push(`
           <div class="glass-card rounded-3xl p-5 sm:p-6 flex flex-col justify-between hover:border-emerald-500/40 ${borderCls} transition-all duration-300 group">
@@ -6457,6 +6620,1041 @@
     document.getElementById('gout-search')?.addEventListener('input', () => {
       renderGout();
     });
+
+
+    // ==================== PHONG THUY NHA O LOGIC ====================
+    async function loadPhongThuyData() {
+      loadPhongThuyNotes();
+      if (phongThuyData) {
+        renderPhongThuy();
+        return;
+      }
+      headerStatus.textContent = "Đang nạp kiến thức Phong Thủy Nhà Ở...";
+      try {
+        phongThuyData = await fetchJsonWithCache('./phong_thuy.json', 'Không thể tải phong_thuy.json');
+        headerStatus.textContent = "Phong Thủy Nhà Ở sẵn sàng";
+        renderPhongThuy();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('phongthuy-display-area').innerHTML =
+          `<p class="col-span-full py-12 text-center text-rose-400 font-bold">Không thể tải dữ liệu Phong Thủy Nhà Ở.</p>`;
+      }
+    }
+
+    window.selectPhongThuySubTab = function(subTab) {
+      activePhongThuySubTab = subTab;
+      document.querySelectorAll('.pt-badge').forEach(btn => {
+        if (btn.id === `pt-tab-${subTab}`) {
+          btn.className = "pt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-black border border-amber-500 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 shadow-lg shadow-amber-500/20 cursor-pointer";
+        } else {
+          btn.className = "pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer";
+        }
+      });
+
+      const container = document.getElementById('phongthuy-display-container');
+      const controls = document.getElementById('phongthuy-controls');
+      const notebook = document.getElementById('phongthuy-notebook-area');
+
+      if (subTab === 'so_tay') {
+        if (container) container.classList.add('hidden');
+        if (controls) controls.classList.add('hidden');
+        if (notebook) {
+          notebook.classList.remove('hidden');
+          renderPhongThuyNotes();
+        }
+      } else {
+        if (container) container.classList.remove('hidden');
+        if (controls) controls.classList.remove('hidden');
+        if (notebook) notebook.classList.add('hidden');
+        renderPhongThuy();
+      }
+    };
+
+    function loadPhongThuyNotes() {
+      try {
+        const stored = localStorage.getItem('phongThuyNotes');
+        phongThuyNotes = stored ? JSON.parse(stored) : [];
+      } catch (e) {
+        phongThuyNotes = [];
+      }
+    }
+
+    function savePhongThuyNotes() {
+      try {
+        localStorage.setItem('phongThuyNotes', JSON.stringify(phongThuyNotes));
+      } catch (e) {}
+    }
+
+    window.addPhongThuyNote = function() {
+      const dateEl = document.getElementById('pt-note-date');
+      const areaEl = document.getElementById('pt-note-area');
+      const issueEl = document.getElementById('pt-note-issue');
+      const solutionEl = document.getElementById('pt-note-solution');
+
+      const date = dateEl?.value || new Date().toISOString().split('T')[0];
+      const area = (areaEl?.value || '').trim();
+      const issue = (issueEl?.value || '').trim();
+      const solution = (solutionEl?.value || '').trim();
+
+      if (!area || !issue) {
+        alert('Vui lòng nhập Khu vực và Vấn đề phong thủy cần điều chỉnh!');
+        return;
+      }
+
+      const newNote = {
+        id: Date.now(),
+        date,
+        area,
+        issue,
+        solution: solution || 'Chưa có hướng xử lý'
+      };
+
+      phongThuyNotes.unshift(newNote);
+      savePhongThuyNotes();
+      renderPhongThuyNotes();
+
+      if (areaEl) areaEl.value = '';
+      if (issueEl) issueEl.value = '';
+      if (solutionEl) solutionEl.value = '';
+
+      showToast('Đã thêm ghi chép vào Sổ Tay Phong Thủy!', '📝');
+    };
+
+    window.deletePhongThuyNote = function(id) {
+      phongThuyNotes = phongThuyNotes.filter(n => n.id !== id);
+      savePhongThuyNotes();
+      renderPhongThuyNotes();
+      showToast('Đã xóa ghi chép phong thủy', '🗑️');
+    };
+
+    function renderPhongThuyNotes() {
+      const tbody = document.getElementById('phongthuy-notes-table-body');
+      if (!tbody) return;
+      if (phongThuyNotes.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-slate-500 italic">Sổ tay hiện chưa có ghi chép nào. Hãy thêm kế hoạch điều chỉnh phong thủy của bạn ở trên!</td></tr>`;
+        return;
+      }
+      tbody.innerHTML = phongThuyNotes.map(n => `
+        <tr class="border-b border-slate-800/80 hover:bg-slate-900/50 transition-colors">
+          <td class="py-3 px-3 text-slate-400 whitespace-nowrap font-mono text-[11px]">${n.date}</td>
+          <td class="py-3 px-3 text-amber-300 font-bold">${n.area}</td>
+          <td class="py-3 px-3 text-slate-200">${n.issue}</td>
+          <td class="py-3 px-3 text-emerald-300 font-semibold">${n.solution}</td>
+          <td class="py-3 px-3 text-right">
+            <button onclick="deletePhongThuyNote(${n.id})" class="text-rose-400 hover:text-rose-300 p-1 rounded hover:bg-rose-950/30 transition-all cursor-pointer" title="Xóa ghi chép">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
+            </button>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    window.exportPhongThuyNotes = function() {
+      if (phongThuyNotes.length === 0) {
+        alert('Sổ tay chưa có ghi chép nào để xuất!');
+        return;
+      }
+      const jsonStr = JSON.stringify(phongThuyNotes, null, 2);
+      navigator.clipboard.writeText(jsonStr).then(() => {
+        showToast('Đã sao chép nội dung Sổ Tay Phong Thủy vào Clipboard!', '📋');
+      }).catch(() => {
+        prompt('Sao chép dữ liệu sổ tay bên dưới:', jsonStr);
+      });
+    };
+
+    // ==================== CUNG MENH CALCULATOR ====================
+    window.calculateCungMenh = function() {
+      const birthYearInput = document.getElementById('pt-calc-year');
+      const genderInput = document.getElementById('pt-calc-gender');
+      const resultArea = document.getElementById('pt-calc-result');
+      if (!birthYearInput || !resultArea) return;
+
+      const year = parseInt(birthYearInput.value, 10);
+      if (!year || year < 1920 || year > 2050) {
+        alert('Vui lòng nhập năm sinh hợp lệ từ 1920 đến 2050!');
+        return;
+      }
+
+      const gender = genderInput ? genderInput.value : 'nam';
+
+      // Calculate single digit sum of last 2 digits
+      const lastTwo = year % 100;
+      let sum = Math.floor(lastTwo / 10) + (lastTwo % 10);
+      while (sum > 9) {
+        sum = Math.floor(sum / 10) + (sum % 10);
+      }
+
+      let cungNumber;
+      if (year < 2000) {
+        if (gender === 'nam') {
+          cungNumber = 10 - sum;
+        } else {
+          cungNumber = sum + 5;
+        }
+      } else {
+        if (gender === 'nam') {
+          cungNumber = 9 - sum;
+          if (cungNumber <= 0) cungNumber += 9;
+        } else {
+          cungNumber = sum + 6;
+        }
+      }
+
+      while (cungNumber > 9) {
+        cungNumber = Math.floor(cungNumber / 10) + (cungNumber % 10);
+      }
+
+      // Special rule for 5
+      if (cungNumber === 5) {
+        cungNumber = (gender === 'nam') ? 8 : 2;
+      }
+
+      const cungDataMap = {
+        1: { cung: "Khảm", hanh: "Thủy 💧", nhom: "Đông Tứ Trạch", sinh_khi: "Đông Nam", thien_y: "Đông", dien_nien: "Nam", phuc_vi: "Bắc", tuyet_menh: "Tây Nam", ngu_quy: "Đông Bắc", luc_sat: "Tây Bắc", hoa_hai: "Tây", mau_hop: "Xanh dương, đen, trắng, bạc", mau_ky: "Vàng đất, nâu đậm" },
+        2: { cung: "Khôn", hanh: "Thổ 🏔️", nhom: "Tây Tứ Trạch", sinh_khi: "Đông Bắc", thien_y: "Tây", dien_nien: "Tây Bắc", phuc_vi: "Tây Nam", tuyet_menh: "Bắc", ngu_quy: "Đông Nam", luc_sat: "Nam", hoa_hai: "Đông", mau_hop: "Vàng đất, nâu, đỏ, cam, hồng", mau_ky: "Xanh lá cây đậm" },
+        3: { cung: "Chấn", hanh: "Mộc 🌳", nhom: "Đông Tứ Trạch", sinh_khi: "Nam", thien_y: "Bắc", dien_nien: "Đông Nam", phuc_vi: "Đông", tuyet_menh: "Tây", ngu_quy: "Tây Bắc", luc_sat: "Đông Bắc", hoa_hai: "Tây Nam", mau_hop: "Xanh lá, xanh lục, đen, xanh nước biển", mau_ky: "Trắng, ánh bạc" },
+        4: { cung: "Tốn", hanh: "Mộc 🌳", nhom: "Đông Tứ Trạch", sinh_khi: "Bắc", thien_y: "Nam", dien_nien: "Đông", phuc_vi: "Đông Nam", tuyet_menh: "Đông Bắc", ngu_quy: "Tây Nam", luc_sat: "Tây", hoa_hai: "Tây Bắc", mau_hop: "Xanh lá, xanh lục, đen, xanh dương", mau_ky: "Trắng, bạc, xám ghi" },
+        6: { cung: "Càn", hanh: "Kim ⚔️", nhom: "Tây Tứ Trạch", sinh_khi: "Tây", thien_y: "Đông Bắc", dien_nien: "Tây Nam", phuc_vi: "Tây Bắc", tuyet_menh: "Nam", ngu_quy: "Đông", luc_sat: "Bắc", hoa_hai: "Đông Nam", mau_hop: "Trắng, xám, bạc, vàng đất, nâu", mau_ky: "Đỏ đậm, hồng tươi, cam" },
+        7: { cung: "Đoài", hanh: "Kim ⚔️", nhom: "Tây Tứ Trạch", sinh_khi: "Tây Bắc", thien_y: "Tây Nam", dien_nien: "Đông Bắc", phuc_vi: "Tây", tuyet_menh: "Đông", ngu_quy: "Nam", luc_sat: "Đông Nam", hoa_hai: "Bắc", mau_hop: "Trắng, bạc, kem, vàng đất, nâu", mau_ky: "Đỏ rực, tím, cam" },
+        8: { cung: "Cấn", hanh: "Thổ 🏔️", nhom: "Tây Tứ Trạch", sinh_khi: "Tây Nam", thien_y: "Tây Bắc", dien_nien: "Tây", phuc_vi: "Đông Bắc", tuyet_menh: "Đông Nam", ngu_quy: "Bắc", luc_sat: "Đông", hoa_hai: "Nam", mau_hop: "Vàng đất, nâu đất, be, đỏ, cam", mau_ky: "Xanh lá cây, xanh lục" },
+        9: { cung: "Ly", hanh: "Hỏa 🔥", nhom: "Đông Tứ Trạch", sinh_khi: "Đông", thien_y: "Đông Nam", dien_nien: "Bắc", phuc_vi: "Nam", tuyet_menh: "Tây Bắc", ngu_quy: "Tây", luc_sat: "Tây Nam", hoa_hai: "Đông Bắc", mau_hop: "Đỏ, cam, hồng, tím, xanh lá cây", mau_ky: "Đen, xanh nước biển sẫm" }
+      };
+
+      const info = cungDataMap[cungNumber] || cungDataMap[1];
+
+      const speakText = `Kết quả tra cứu cung mệnh cho gia chủ sinh năm ${year}, giới tính ${gender === 'nam' ? 'Nam' : 'Nữ'}: Cung Phi: Cung ${info.cung}, Hành: ${info.hanh}, Thuộc nhóm: ${info.nhom}. 4 hướng tốt gồm có: Sinh Khí hướng ${info.sinh_khi}, Thiên Y hướng ${info.thien_y}, Diên Niên hướng ${info.dien_nien}, Phục Vị hướng ${info.phuc_vi}. 4 hướng xấu cần tránh gồm có: Tuyệt Mệnh hướng ${info.tuyet_menh}, Ngũ Quỷ hướng ${info.ngu_quy}, Lục Sát hướng ${info.luc_sat}, Họa Hại hướng ${info.hoa_hai}. Màu sắc hợp: ${info.mau_hop}. Màu kỵ: ${info.mau_ky}.`;
+      const safeSpeak = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+      resultArea.innerHTML = `
+        <div class="p-5 sm:p-6 rounded-3xl bg-slate-950/90 border border-amber-500/40 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-3">
+            <div>
+              <span class="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">Kết Quả Tra Cứu Cung Mệnh</span>
+              <h4 class="text-lg sm:text-xl font-bold text-white mt-1">Gia chủ sinh năm ${year} (${gender === 'nam' ? 'Nam Mệnh' : 'Nữ Mệnh'})</h4>
+            </div>
+            <button 
+              onclick="playTTS(event, '${safeSpeak}', 'vi')"
+              class="px-3.5 py-2 rounded-xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20"
+            >
+              <svg class="w-3.5 h-3.5 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+              <span>🔊 Nghe Kết Quả</span>
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+            <div class="p-3 rounded-2xl bg-slate-900 border border-slate-800">
+              <span class="text-slate-400 block text-[10px]">Cung Phi & Bản Mệnh</span>
+              <b class="text-base text-amber-300 font-bold">Cung ${info.cung} — ${info.hanh}</b>
+            </div>
+            <div class="p-3 rounded-2xl bg-slate-900 border border-slate-800">
+              <span class="text-slate-400 block text-[10px]">Trạch Mệnh</span>
+              <b class="text-base text-emerald-300 font-bold">${info.nhom}</b>
+            </div>
+            <div class="p-3 rounded-2xl bg-slate-900 border border-slate-800">
+              <span class="text-slate-400 block text-[10px]">Hướng Nhà Hợp Nhất</span>
+              <b class="text-base text-yellow-300 font-bold">${info.sinh_khi} (Sinh Khí)</b>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+            <!-- 4 Huong Tot -->
+            <div class="p-4 rounded-2xl bg-emerald-950/20 border border-emerald-500/30">
+              <b class="text-emerald-300 text-xs flex items-center gap-1.5 mb-2.5">
+                <span>✅</span> 4 HƯỚNG TỐT NÊN CHỌN (ĐẶT CỬA, GIƯỜNG, BÀN LÀM VIỆC):
+              </b>
+              <ul class="space-y-1.5 text-[11px] text-slate-200">
+                <li><b class="text-emerald-400">👑 Sinh Khí (Tài Lộc & Phát Triển):</b> Hướng ${info.sinh_khi}</li>
+                <li><b class="text-emerald-400">🏥 Thiên Y (Sức Khỏe & Bình An):</b> Hướng ${info.thien_y}</li>
+                <li><b class="text-emerald-400">💖 Diên Niên (Gia Đạo & Tình Cảm):</b> Hướng ${info.dien_nien}</li>
+                <li><b class="text-emerald-400">🧘 Phục Vị (Tĩnh Tâm & Bình Yên):</b> Hướng ${info.phuc_vi}</li>
+              </ul>
+            </div>
+
+            <!-- 4 Huong Xau -->
+            <div class="p-4 rounded-2xl bg-rose-950/20 border border-rose-500/30">
+              <b class="text-rose-300 text-xs flex items-center gap-1.5 mb-2.5">
+                <span>❌</span> 4 HƯỚNG XẤU CẦN TRÁNH (HOẶC ĐẶT WC/KHO ĐỂ TRẤN ÁP):
+              </b>
+              <ul class="space-y-1.5 text-[11px] text-slate-200">
+                <li><b class="text-rose-400">⚡ Tuyệt Mệnh (Hao Tổn & Bệnh Tật):</b> Hướng ${info.tuyet_menh}</li>
+                <li><b class="text-rose-400">🔥 Ngũ Quỷ (Thị Phi & Tranh Cãi):</b> Hướng ${info.ngu_quy}</li>
+                <li><b class="text-rose-400">🌪️ Lục Sát (Trục Trặc Quan Hệ):</b> Hướng ${info.luc_sat}</li>
+                <li><b class="text-rose-400">⚠️ Họa Hại (Xui Xẻo Vặt Vãnh):</b> Hướng ${info.hoa_hai}</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Mau sac va khuyen nghi -->
+          <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 text-xs space-y-1.5">
+            <p><b class="text-amber-300">🎨 Màu sắc hòa hợp & tương sinh:</b> ${info.mau_hop}</p>
+            <p><b class="text-rose-300">🚫 Màu sắc tương khắc nên hạn chế:</b> ${info.mau_ky}</p>
+            <p class="text-slate-400 text-[10px] italic pt-1 border-t border-slate-800">
+              💡 Gợi ý bố trí: Cửa chính và bàn làm việc hướng <b>${info.sinh_khi}</b>; đầu giường ngủ hướng <b>${info.dien_nien}</b> hoặc <b>${info.thien_y}</b>; bếp nấu tọa ở <b>${info.tuyet_menh}</b> nhìn về <b>${info.sinh_khi}</b>.
+            </p>
+          </div>
+        </div>
+      `;
+    };
+
+    // ==================== SELF ASSESSMENT EVALUATOR ====================
+    window.setEvalAnswer = function(questionId, val) {
+      phongThuyEvalAnswers[questionId] = val;
+      calculateDanhGiaPhongThuy();
+    };
+
+    window.calculateDanhGiaPhongThuy = function() {
+      if (!phongThuyData || !phongThuyData.phan_10_bang_tu_danh_gia_nha) return;
+      const questions = phongThuyData.phan_10_bang_tu_danh_gia_nha.danh_sach_20_cau_hoi || [];
+      const resultEl = document.getElementById('pt-eval-result-card');
+      if (!resultEl) return;
+
+      let score = 0;
+      let answeredCount = 0;
+      let yesList = [];
+      let noList = [];
+
+      questions.forEach(q => {
+        if (phongThuyEvalAnswers[q.id] === true) {
+          score += q.diem;
+          answeredCount++;
+          yesList.push(q);
+        } else if (phongThuyEvalAnswers[q.id] === false) {
+          answeredCount++;
+          noList.push(q);
+        }
+      });
+
+      let rank = "";
+      let advice = "";
+      let badgeClass = "";
+
+      if (score >= 80) {
+        rank = "✅ Phong Thủy Rất Tốt (Đại Cát — Vượng Khí)";
+        advice = "Ngôi nhà của bạn có trường khí rất hài hòa, tụ khí tàng phong. Hãy tiếp tục giữ gìn sự sạch sẽ, ngăn nắp và nuôi dưỡng tình cảm hòa thuận trong gia đình để vượng khí bền lâu.";
+        badgeClass = "bg-emerald-500/20 text-emerald-300 border-emerald-500/40";
+      } else if (score >= 60) {
+        rank = "⚠️ Phong Thủy Khá (Có Thể Cải Thiện Thêm)";
+        advice = "Nhà bạn đã có nền tảng cơ bản tốt, nhưng còn một vài lỗi nhỏ. Hãy kiểm tra lại những mục chưa đạt và xem hướng dẫn tại Phần 8 để hóa giải từng điểm một cách nhẹ nhàng.";
+        badgeClass = "bg-yellow-500/20 text-yellow-300 border-yellow-500/40";
+      } else if (score >= 40) {
+        rank = "⚠️ Cần Điều Chỉnh Bố Trí (Trung Bình — Còn Xung Khắc)";
+        advice = "Không gian sống đang có nhiều điểm xung khắc hoặc bế tắc dòng khí (như bếp sát bồn rửa, gương chiếu giường, đồ đạc bừa bộn). Hãy bắt đầu dọn dẹp, thay đèn, kê lại giường và thông gió ngay hôm nay.";
+        badgeClass = "bg-amber-500/20 text-amber-300 border-amber-500/40";
+      } else {
+        rank = "❌ Cần Cải Tạo Sắp Xếp Toàn Diện (Nhiều Xung Sát)";
+        advice = "Ngôi nhà đang bị phạm nhiều lỗi phong thủy gây uế khí và thất thoát tài lộc. Hãy lập danh sách ưu tiên: (1) Dọn dẹp sạch sẽ, (2) Đóng kín và khử mùi nhà vệ sinh, (3) Kê lại đầu giường và bàn thờ, (4) Tách bếp khỏi nguồn nước.";
+        badgeClass = "bg-rose-500/20 text-rose-300 border-rose-500/40";
+      }
+
+      const speakText = `Kết quả tự đánh giá phong thủy ngôi nhà: Điểm số đạt được: ${score} trên 100 điểm. Xếp loại: ${rank}. Lời khuyên: ${advice}`;
+      const safeSpeak = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+      resultEl.innerHTML = `
+        <div class="p-5 sm:p-6 rounded-3xl bg-slate-950/90 border border-amber-500/40 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-3">
+            <div>
+              <span class="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full ${badgeClass} border">Kết Quả Đánh Giá Tổng Thể</span>
+              <h4 class="text-xl font-bold text-white mt-1">Điểm Phong Thủy: <span class="text-amber-300 font-mono font-black text-2xl">${score}</span> / 100 Điểm</h4>
+              <p class="text-xs text-slate-400 mt-0.5">Đã trả lời ${answeredCount} / ${questions.length} câu hỏi</p>
+            </div>
+            <button 
+              onclick="playTTS(event, '${safeSpeak}', 'vi')"
+              class="px-3.5 py-2 rounded-xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20"
+            >
+              <svg class="w-3.5 h-3.5 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+              <span>🔊 Nghe Báo Cáo Đánh Giá</span>
+            </button>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 text-xs">
+            <b class="text-sm text-amber-300 block mb-1">${rank}</b>
+            <p class="text-slate-200 leading-relaxed">${advice}</p>
+          </div>
+
+          <!-- Danh sach can khac phuc -->
+          ${noList.length > 0 ? `
+            <div class="p-4 rounded-2xl bg-rose-950/20 border border-rose-500/30 text-xs">
+              <b class="text-rose-300 block mb-2">⚠️ Danh Sách ${noList.length} Điểm Cần Khắc Phục / Hóa Giải Sớm:</b>
+              <ul class="space-y-1.5 text-[11px] text-slate-300">
+                ${noList.map(item => `<li class="flex items-start gap-1.5"><span class="text-rose-400 font-bold">✗</span> <span>[${item.khu_vuc}] ${item.cau_hoi}</span></li>`).join('')}
+              </ul>
+            </div>
+          ` : `
+            <div class="p-4 rounded-2xl bg-emerald-950/20 border border-emerald-500/30 text-xs text-emerald-300">
+              🎉 Xin chúc mừng! Bạn đã đạt chuẩn tối ưu cho toàn bộ các tiêu chí đánh giá phong thủy nhà ở!
+            </div>
+          `}
+        </div>
+      `;
+    };
+
+    // ==================== MAIN RENDER PHONG THUY ====================
+    window.renderPhongThuy = function() {
+      if (!phongThuyData) return;
+      const searchVal = removeVietnameseTones((document.getElementById('phongthuy-search')?.value || '').toLowerCase());
+      const area = document.getElementById('phongthuy-display-area');
+      const countEl = document.getElementById('phongthuy-item-count');
+      if (!area) return;
+
+      let cardsHtml = [];
+
+      // Section 1: Cơ sở phong thủy
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'co_so') {
+        const p1 = phongThuyData.phan_1_co_so_phong_thuy;
+        if (p1) {
+          const speakP1 = `${p1.tieu_de}. ${p1.mo_ta}. ${p1.muc_1_1_dinh_nghia.tieu_de}: ${p1.muc_1_1_dinh_nghia.giai_thich_chi_tiet}. Nguyên tắc vàng: ${p1.muc_1_1_dinh_nghia.nguyen_tac_vang}`;
+          const safeSpeakP1 = speakP1.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
+              <!-- Header -->
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 1 • Nền Tảng Cốt Lõi</span>
+                  <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p1.tieu_de}</h3>
+                  <p class="text-xs text-slate-300 mt-1">${p1.mo_ta}</p>
+                </div>
+                <button 
+                  onclick="playTTS(event, '${safeSpeakP1}', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20 border border-amber-400/40"
+                >
+                  <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Phần 1</span>
+                </button>
+              </div>
+
+              <!-- 1.1 Dinh nghia -->
+              <div class="space-y-4 text-xs">
+                <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2.5">
+                  <div class="flex items-center justify-between">
+                    <b class="text-amber-300 text-sm">${p1.muc_1_1_dinh_nghia.tieu_de}</b>
+                    <button onclick="playTTS(event, '${p1.muc_1_1_dinh_nghia.tieu_de}. ${p1.muc_1_1_dinh_nghia.giai_thich_chi_tiet}. ${p1.muc_1_1_dinh_nghia.y_nghia_thuc_te}. Nguyên tắc: ${p1.muc_1_1_dinh_nghia.nguyen_tac_vang}'.replace(/'/g, \\\'\'), 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe mục này"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                  </div>
+                  <p class="text-slate-200 leading-relaxed">${p1.muc_1_1_dinh_nghia.giai_thich_chi_tiet}</p>
+                  <p class="text-slate-300 leading-relaxed">${p1.muc_1_1_dinh_nghia.y_nghia_thuc_te}</p>
+                  <div class="p-3 rounded-xl bg-amber-950/40 border border-amber-500/30 text-amber-200 font-bold">
+                    ⚡ ${p1.muc_1_1_dinh_nghia.nguyen_tac_vang}
+                  </div>
+                </div>
+
+                <!-- 1.2 Ngu Hanh -->
+                <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-3">
+                  <div class="flex items-center justify-between">
+                    <b class="text-amber-300 text-sm">${p1.muc_1_2_ngu_hanh.tieu_de}</b>
+                    <button onclick="playTTS(event, 'Quy luật tương sinh tương khắc trong ngũ hành nhà ở. Tương sinh: Mộc sinh Hỏa, Hỏa sinh Thổ, Thổ sinh Kim, Kim sinh Thủy, Thủy sinh Mộc. Tương khắc: Mộc khắc Thổ, Thổ khắc Thủy, Thủy khắc Hỏa, Hỏa khắc Kim, Kim khắc Mộc.', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe Ngũ Hành"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                  </div>
+
+                  <!-- 5 Hanh Cards -->
+                  <div class="grid grid-cols-1 sm:grid-cols-5 gap-2 text-[11px]">
+                    ${p1.muc_1_2_ngu_hanh.ngu_hanh_5_yeu_to.map(h => `
+                      <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-center flex flex-col justify-between">
+                        <div>
+                          <span class="text-2xl mb-1 block">${h.bieu_tuong}</span>
+                          <b class="text-amber-300 text-xs">Hành ${h.hanh}</b>
+                          <p class="text-slate-400 text-[10px] mt-0.5">${h.dac_tinh}</p>
+                        </div>
+                        <div class="mt-2 text-[10px] text-slate-300 pt-1 border-t border-slate-850">
+                          <span>Màu: ${h.mau_sac}</span>
+                        </div>
+                      </div>
+                    `).join('')}
+                  </div>
+
+                  <!-- Tuong Sinh & Tuong Khac 2 Cols -->
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+                    <div class="p-3.5 rounded-xl bg-emerald-950/20 border border-emerald-500/30 space-y-2">
+                      <b class="text-emerald-300 text-xs flex items-center gap-1.5"><span>🔄</span> Quy Luật Tương Sinh (Nuôi Dưỡng):</b>
+                      <ul class="space-y-1 text-[11px] text-slate-200">
+                        ${p1.muc_1_2_ngu_hanh.tuong_sinh.map(s => `<li><b class="text-emerald-400">• ${s.cap}:</b> ${s.ung_dung}</li>`).join('')}
+                      </ul>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-rose-950/20 border border-rose-500/30 space-y-2">
+                      <b class="text-rose-300 text-xs flex items-center gap-1.5"><span>⚔️</span> Quy Luật Tương Khắc (Hạn Chế):</b>
+                      <ul class="space-y-1 text-[11px] text-slate-200">
+                        ${p1.muc_1_2_ngu_hanh.tuong_khac.map(k => `<li><b class="text-rose-400">• ${k.cap}:</b> ${k.ung_dung}</li>`).join('')}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 1.4 Dong Tu vs Tay Tu -->
+                <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-3">
+                  <div class="flex items-center justify-between">
+                    <b class="text-amber-300 text-sm">${p1.muc_1_4_dong_tay_tu_trach.tieu_de}</b>
+                    <button onclick="playTTS(event, 'Đông Tứ Trạch và Tây Tứ Trạch. Đông Tứ Mệnh gồm cung 1, 3, 4, 9 hợp các hướng Đông, Đông Nam, Nam, Bắc. Tây Tứ Mệnh gồm cung 2, 6, 7, 8 hợp các hướng Tây, Tây Bắc, Tây Nam, Đông Bắc. 4 hướng tốt: Sinh Khí tài lộc, Thiên Y sức khỏe, Diên Niên hòa thuận, Phục Vị bình an. 4 hướng xấu: Tuyệt Mệnh, Ngũ Quỷ, Lục Sát, Họa Hại.', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe Đông Tây Tứ Trạch"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                  </div>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    ${p1.muc_1_4_dong_tay_tu_trach.phan_nhom.map(item => `
+                      <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 flex flex-col justify-between">
+                        <div>
+                          <b class="text-yellow-300 text-xs block mb-1">${item.nhom}</b>
+                          <p class="text-slate-300 text-[11px] mb-1"><b>Cung:</b> ${item.cac_cung}</p>
+                          <p class="text-emerald-300 text-[11px] mb-1.5"><b>4 Hướng Tốt:</b> ${item.4_huong_tot}</p>
+                        </div>
+                        <p class="text-[10px] text-slate-400 italic pt-1 border-t border-slate-850">${item.loai_khuyen}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // Section 2: Thế Đất & Hướng Nhà
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'the_dat') {
+        const p2 = phongThuyData.phan_2_the_dat_va_huong_nha;
+        if (p2) {
+          const speakP2 = `${p2.tieu_de}. Thế đất tốt: Đất cao ráo, bằng phẳng, nền cao hơn đường, phía sau có tựa sơn, phía trước minh đường rộng, tả Thanh Long hữu Bạch Hổ. Các thế đất xấu cần hóa giải: Trước cao sau thấp, đất trũng nước đọng, thương sát đường đâm thẳng, giác sát góc nhọn chiếu thẳng.`;
+          const safeSpeakP2 = speakP2.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 2 • Thế Đất & Phương Vị</span>
+                  <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p2.tieu_de}</h3>
+                  <p class="text-xs text-slate-300 mt-1">Lựa chọn thế đất vững chãi và đo đạc hướng nhà chuẩn xác</p>
+                </div>
+                <button 
+                  onclick="playTTS(event, '${safeSpeakP2}', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20 border border-amber-400/40"
+                >
+                  <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Phần 2</span>
+                </button>
+              </div>
+
+              <!-- 2.1 The dat tot & 2.2 The dat xau -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs mb-4">
+                <!-- Tot -->
+                <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-emerald-500/30 space-y-2.5">
+                  <b class="text-emerald-300 text-sm flex items-center gap-1.5"><span>🏔️</span> 6 Đặc Điểm Thế Đất TỐT (Nên Chọn & Giữ Gìn):</b>
+                  <div class="space-y-2">
+                    ${p2.the_dat_tot.map(td => `
+                      <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-[11px]">
+                        <b class="text-emerald-400">✓ ${td.dac_diem}</b>
+                        <p class="text-slate-300 text-[10px] mt-0.5">${td.ly_giai}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Xau & Hoa giai -->
+                <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-rose-500/30 space-y-2.5">
+                  <b class="text-rose-300 text-sm flex items-center gap-1.5"><span>⚠️</span> 4 Thế Đất XẤU & Cách Hóa Giải Chi Tiết:</b>
+                  <div class="space-y-2">
+                    ${p2.the_dat_xau_va_hoa_giai.map(tx => `
+                      <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-[11px]">
+                        <b class="text-rose-400">✗ ${tx.the_xau}</b>
+                        <p class="text-slate-300 text-[10px] mt-0.5"><b>Ảnh hưởng:</b> ${tx.anh_huong}</p>
+                        <p class="text-amber-200 text-[10px] mt-1 p-1.5 rounded bg-slate-900"><b>🛠️ Hóa giải:</b> ${tx.cach_hoa_giai}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // Section 3: Bố trí ngoài nhà
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'ngoai_nha') {
+        const p3 = phongThuyData.phan_3_bo_tri_ngoai_nha;
+        if (p3) {
+          const speakP3 = `${p3.tieu_de}. Cổng và tường rào: Rộng bằng 1 phần 3 đến 1 phần 2 mặt tiền, tránh vật cản. Minh Đường: Khoảng sân trước cửa thoáng đãng, sạch sẽ. Tả Thanh Long hữu Bạch Hổ: Bên trái cao hơn bên phải. Đường và nước xung quanh: Đường ôm cong đón lộc, tránh đường đâm thẳng.`;
+          const safeSpeakP3 = speakP3.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 3 • Ngoại Cảnh & Cổng Cửa</span>
+                  <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p3.tieu_de}</h3>
+                  <p class="text-xs text-slate-300 mt-1">Đón nhận và điều tiết dòng sinh khí từ ngoài vào trong ngôi nhà</p>
+                </div>
+                <button 
+                  onclick="playTTS(event, '${safeSpeakP3}', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20 border border-amber-400/40"
+                >
+                  <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Phần 3</span>
+                </button>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                <!-- Cong & Tuong rao -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2">
+                  <b class="text-amber-300 text-xs">🚪 3.1 Cổng & Tường Rào</b>
+                  <p class="text-slate-300 text-[11px] leading-relaxed">${p3.cong_va_tuong_rao.kich_thuoc_ti_le}</p>
+                  <p class="text-slate-300 text-[11px] leading-relaxed">${p3.cong_va_tuong_rao.vi_tri_va_can_doi}</p>
+                  <p class="text-amber-200 text-[10px] p-2 rounded-xl bg-slate-950">⚠️ ${p3.cong_va_tuong_rao.tranh_vat_can}</p>
+                </div>
+
+                <!-- Minh Duong -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2">
+                  <b class="text-amber-300 text-xs">🌳 3.2 Minh Đường — Khoảng Sân Trước Cửa</b>
+                  <p class="text-slate-300 text-[11px] leading-relaxed">${p3.minh_duong.khai_niem}</p>
+                  <p class="text-emerald-300 text-[11px] leading-relaxed font-medium">✓ ${p3.minh_duong.nguyen_tac_giu_gin}</p>
+                  <p class="text-rose-300 text-[10px] p-2 rounded-xl bg-slate-950">✗ ${p3.minh_duong.tranh_che_khuat}</p>
+                </div>
+
+                <!-- Thanh Long Bach Ho -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2">
+                  <b class="text-amber-300 text-xs">🐉 3.3 Tả Thanh Long — Hữu Bạch Hổ</b>
+                  <p class="text-slate-300 text-[11px] leading-relaxed">${p3.thanh_long_bach_ho.vi_tri}</p>
+                  <p class="text-yellow-300 text-[11px] leading-relaxed font-bold">⚡ ${p3.thanh_long_bach_ho.nguyen_tac_vang}</p>
+                  <p class="text-slate-400 text-[10px] p-2 rounded-xl bg-slate-950">💡 ${p3.thanh_long_bach_ho.hoa_giai_khi_lech}</p>
+                </div>
+
+                <!-- Duong & Nuoc -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2">
+                  <b class="text-amber-300 text-xs">💧 3.4 Đường Đi & Nguồn Nước Xung Quanh</b>
+                  <p class="text-emerald-300 text-[11px] leading-relaxed"><b>✓ Đường uốn lượn:</b> ${p3.duong_va_nuoc_ngoai_nha.duong_om_cong}</p>
+                  <p class="text-rose-300 text-[11px] leading-relaxed"><b>✗ Đường đâm thẳng:</b> ${p3.duong_va_nuoc_ngoai_nha.duong_dam_thang}</p>
+                  <p class="text-slate-300 text-[10px] p-2 rounded-xl bg-slate-950">${p3.duong_va_nuoc_ngoai_nha.nguon_nuoc}</p>
+                </div>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // Section 4: Bố trí từng phòng
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'trong_nha') {
+        const p4 = phongThuyData.phan_4_bo_tri_trong_nha;
+        if (p4) {
+          const speakP4 = `${p4.tieu_de}. Cửa chính sáng sủa tránh xuyên tâm. Phòng khách tựa tường vững chắc. Bếp nấu tọa hung hướng cát, tránh đối diện cửa và bồn rửa. Phòng ngủ đầu giường tựa tường, tránh gương chiếu và xà ngang. Phòng thờ trang nghiêm trên cao. Nhà vệ sinh tránh chính giữa nhà.`;
+          const safeSpeakP4 = speakP4.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 4 • Bố Trí Nội Thất</span>
+                  <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p4.tieu_de}</h3>
+                  <p class="text-xs text-slate-300 mt-1">Chi tiết công năng 6 không gian quan trọng nhất trong ngôi nhà</p>
+                </div>
+                <button 
+                  onclick="playTTS(event, '${safeSpeakP4}', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20 border border-amber-400/40"
+                >
+                  <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Phần 4</span>
+                </button>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 text-xs">
+                <!-- Cua chinh -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                  <div>
+                    <b class="text-amber-300 text-xs block mb-1.5">🚪 4.1 Cửa Chính (Khí Khẩu)</b>
+                    <p class="text-slate-300 text-[11px] leading-relaxed mb-1.5">${p4.cua_chinh.vi_tri_va_anh_sang}</p>
+                    <p class="text-emerald-300 text-[11px] mb-1.5 font-medium">✓ ${p4.cua_chinh.huong_mo_cua}</p>
+                  </div>
+                  <p class="text-rose-300 text-[10px] p-2 rounded-xl bg-slate-950 border border-slate-850">⚠️ ${p4.cua_chinh.tranh_xuyen_tam}</p>
+                </div>
+
+                <!-- Phong khach -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                  <div>
+                    <b class="text-amber-300 text-xs block mb-1.5">🛋️ 4.2 Phòng Khách (Gương Mặt)</b>
+                    <p class="text-slate-300 text-[11px] leading-relaxed mb-1.5">${p4.phong_khach.vi_tri}</p>
+                    <p class="text-emerald-300 text-[11px] mb-1.5 font-medium">✓ ${p4.phong_khach.ban_ghe_sofa}</p>
+                  </div>
+                  <p class="text-amber-200 text-[10px] p-2 rounded-xl bg-slate-950 border border-slate-850">💡 ${p4.phong_khach.guong_soi}</p>
+                </div>
+
+                <!-- Bep nau -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-amber-500/30 flex flex-col justify-between">
+                  <div>
+                    <b class="text-yellow-300 text-xs block mb-1.5">🍳 4.3 Bếp Nấu (Trái Tim Nhà)</b>
+                    <span class="text-[10px] font-bold text-amber-400 bg-amber-950/60 px-2 py-0.5 rounded border border-amber-500/30 block mb-2">${p4.bep_nau.nguyen_tac_toa_hung_huong_cat}</span>
+                    <ul class="space-y-1 text-[10px] text-slate-300 mb-2">
+                      ${p4.bep_nau.4_dieu_cam_ky_tuyet_doi.map(c => `<li>${c}</li>`).join('')}
+                    </ul>
+                  </div>
+                  <p class="text-emerald-300 text-[10px] p-2 rounded-xl bg-slate-950 border border-slate-850"><b>🛠️ Hóa giải Thủy Hỏa:</b> ${p4.bep_nau.xung_khac_thuy_hoa.giai_phap}</p>
+                </div>
+
+                <!-- Phong ngu -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                  <div>
+                    <b class="text-amber-300 text-xs block mb-1.5">🛏️ 4.4 Phòng Ngủ (Tái Tạo Khí)</b>
+                    <p class="text-emerald-300 text-[11px] leading-relaxed mb-1.5">✓ ${p4.phong_ngu.vi_tri_giuong}</p>
+                    <ul class="space-y-1 text-[10px] text-rose-300/90 mb-2">
+                      ${p4.phong_ngu.5_loi_cam_ky_dat_giuong.map(l => `<li>${l}</li>`).join('')}
+                    </ul>
+                  </div>
+                  <p class="text-slate-300 text-[10px] p-2 rounded-xl bg-slate-950">🎨 ${p4.phong_ngu.mau_sac_phong_ngu}</p>
+                </div>
+
+                <!-- Phong tho -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                  <div>
+                    <b class="text-amber-300 text-xs block mb-1.5">🕯️ 4.5 Phòng Thờ (Linh Thiêng)</b>
+                    <p class="text-slate-300 text-[11px] leading-relaxed mb-1.5">${p4.phong_tho.vi_tri_trang_nghiem}</p>
+                    <p class="text-yellow-300 text-[11px] leading-relaxed mb-1.5">${p4.phong_tho.huong_ban_tho}</p>
+                  </div>
+                  <ul class="space-y-1 text-[10px] text-rose-300 p-2 rounded-xl bg-slate-950">
+                    ${p4.phong_tho.nhung_dieu_tuyet_doi_tranh.map(t => `<li>${t}</li>`).join('')}
+                  </ul>
+                </div>
+
+                <!-- Nha ve sinh -->
+                <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
+                  <div>
+                    <b class="text-amber-300 text-xs block mb-1.5">🚿 4.6 Nhà Vệ Sinh (Khu Uế Khí)</b>
+                    <p class="text-slate-300 text-[11px] leading-relaxed mb-1.5">${p4.nha_ve_sinh.nguyen_tac_dat}</p>
+                    <p class="text-rose-400 text-[11px] leading-relaxed font-bold mb-1.5">❌ ${p4.nha_ve_sinh.tuyet_doi_tranh}</p>
+                  </div>
+                  <p class="text-emerald-300 text-[10px] p-2 rounded-xl bg-slate-950 border border-slate-850">🌿 ${p4.nha_ve_sinh.giu_gin_ve_sinh}</p>
+                </div>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // Section 5: Bát Cung 8 Vùng Năng Lượng
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'bat_cung') {
+        const p5 = phongThuyData.phan_5_bat_cung_trong_nha;
+        if (p5) {
+          const speakP5 = `${p5.tieu_de}. Bảng 8 phương vị năng lượng trong nhà: Bắc thuộc Thủy chủ sự nghiệp. Đông Bắc thuộc Thổ chủ trí tuệ. Đông thuộc Mộc chủ gia đạo. Đông Nam thuộc Mộc chủ tài lộc. Nam thuộc Hỏa chủ danh tiếng. Tây Nam thuộc Thổ chủ hôn nhân. Tây thuộc Kim chủ con cái. Tây Bắc thuộc Kim chủ quý nhân.`;
+          const safeSpeakP5 = speakP5.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 5 • Bát Cung 8 Phương Vị</span>
+                  <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p5.tieu_de}</h3>
+                  <p class="text-xs text-slate-300 mt-1">Bảng tra cứu kích hoạt tài lộc, sự nghiệp, học vấn và sức khỏe theo từng hướng</p>
+                </div>
+                <button 
+                  onclick="playTTS(event, '${safeSpeakP5}', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20 border border-amber-400/40"
+                >
+                  <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Bát Cung</span>
+                </button>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+                ${p5.bang_tra_cuu_8_cung.map(c => {
+                  const cSpeak = `Hướng ${c.huong}, thuộc hành ${c.hanh}. Ý nghĩa chính: ${c.y_nghia}. Nên đặt: ${c.dat_tot}. Cần tránh: ${c.nen_tranh}`;
+                  const safeCSpeak = cSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                  return `
+                    <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between hover:border-amber-500/40 transition-all">
+                      <div>
+                        <div class="flex items-center justify-between mb-2">
+                          <b class="text-amber-300 text-xs font-bold">${c.huong}</b>
+                          <button onclick="playTTS(event, '${safeCSpeak}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe cung này"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                        </div>
+                        <p class="text-emerald-300 text-[11px] mb-2 font-medium">🎯 ${c.y_nghia}</p>
+                        <div class="space-y-1.5 text-[10px] text-slate-300 mb-2">
+                          <p class="p-1.5 rounded-lg bg-emerald-950/30 text-emerald-200"><b>✅ Đặt gì tốt:</b> ${c.dat_tot}</p>
+                          <p class="p-1.5 rounded-lg bg-rose-950/30 text-rose-200"><b>❌ Nên tránh:</b> ${c.nen_tranh}</p>
+                        </div>
+                      </div>
+                      <span class="text-[10px] text-slate-400 font-mono">Hành: ${c.hanh}</span>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // Section 6: Màu Sắc & Ngũ Hành
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'mau_sac') {
+        const p6 = phongThuyData.phan_6_mau_sac_va_ngu_hanh;
+        if (p6) {
+          const speakP6 = `${p6.tieu_de}. Phối màu phong thủy nhà ở: Hướng Đông xanh lá cây, Nam đỏ cam vàng nhạt, Tây trắng bạc kem, Bắc xanh dương đen, Trung tâm và Tây Nam vàng đất nâu đất. Quy tắc cân bằng 60 30 10: 60 phần trăm màu trung tính, 30 phần trăm màu nội thất, 10 phần trăm màu điểm nhấn hợp mệnh.`;
+          const safeSpeakP6 = speakP6.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 6 • Màu Sắc & Ngũ Hành</span>
+                  <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p6.tieu_de}</h3>
+                  <p class="text-xs text-slate-300 mt-1">Phối màu khoa học theo hướng nhà và bản mệnh gia chủ</p>
+                </div>
+                <button 
+                  onclick="playTTS(event, '${safeSpeakP6}', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20 border border-amber-400/40"
+                >
+                  <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Màu Sắc</span>
+                </button>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                <!-- Mau theo huong nha -->
+                <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2.5">
+                  <b class="text-amber-300 text-xs">🧭 6.1 Màu Sắc Khuyên Dùng Theo Hướng Nhà:</b>
+                  <div class="space-y-2">
+                    ${p6.mau_theo_huong_nha.map(m => `
+                      <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-[11px]">
+                        <b class="text-white">${m.huong}</b>
+                        <p class="text-amber-300 text-[10px] mt-0.5"><b>Màu sắc:</b> ${m.mau_khuyen_dung}</p>
+                        <p class="text-slate-400 text-[10px]">💡 ${m.y_nghia}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Mau theo menh & Quy tac 60-30-10 -->
+                <div class="space-y-4">
+                  <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2.5">
+                    <b class="text-amber-300 text-xs">👤 6.2 Màu Sắc Theo Mệnh Gia Chủ:</b>
+                    <div class="space-y-2">
+                      ${p6.mau_theo_menh_gia_chu.map(g => `
+                        <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-[11px]">
+                          <b class="text-yellow-300">${g.menh}</b>
+                          <p class="text-emerald-300 text-[10px] mt-0.5"><b>Hợp:</b> ${g.mau_hop}</p>
+                          <p class="text-rose-300 text-[10px]"><b>Kỵ:</b> ${g.mau_ky}</p>
+                        </div>
+                      `).join('')}
+                    </div>
+                  </div>
+
+                  <div class="p-4 rounded-2xl bg-amber-950/30 border border-amber-500/30 space-y-1.5 text-xs text-slate-200">
+                    <b class="text-amber-300 block">⚖️ 6.3 Nguyên Tắc Cân Bằng Màu Sắc 60 - 30 - 10:</b>
+                    <ul class="space-y-1 text-[11px] text-slate-300">
+                      ${p6.nguyen_tac_can_bang.map(n => `<li>• ${n}</li>`).join('')}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // Section 7: Vật Phẩm Phong Thủy
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'vat_pham') {
+        const p7 = phongThuyData.phan_7_vat_pham_phong_thuy;
+        if (p7) {
+          const speakP7 = `${p7.tieu_de}. Cách sử dụng 6 vật phẩm phong thủy chuẩn xác: Cây xanh lá tròn mọng nước đón sinh khí. Gương soi dùng hóa giải góc nhọn, không chiếu giường và cửa. Chuông gió kim loại thanh lọc âm khí. Thiềm Thừ ba chân quay đầu vào nhà đón tài. Kỳ Lân đôi trấn trạch trước cổng. Tháp Văn Xương hỗ trợ học hành thi cử.`;
+          const safeSpeakP7 = speakP7.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 7 • Vật Phẩm Hóa Sát & Chiêu Tài</span>
+                  <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p7.tieu_de}</h3>
+                  <p class="text-xs text-slate-300 mt-1">Sử dụng đúng mục đích, vị trí chính xác và không lạm dụng mê tín</p>
+                </div>
+                <button 
+                  onclick="playTTS(event, '${safeSpeakP7}', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20 border border-amber-400/40"
+                >
+                  <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Vật Phẩm</span>
+                </button>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 text-xs">
+                ${p7.danh_sach_vat_pham.map(vp => {
+                  const vpSpeak = `${vp.ten}. Cách dùng đúng: ${vp.cach_dung_dung}. Điều cấm kỵ: ${vp.dieu_cam_ky}`;
+                  const safeVpSpeak = vpSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                  return `
+                    <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between hover:border-amber-500/40 transition-all">
+                      <div>
+                        <div class="flex items-center justify-between mb-2">
+                          <span class="text-2xl">${vp.bieu_tuong}</span>
+                          <button onclick="playTTS(event, '${safeVpSpeak}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe vật phẩm này"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                        </div>
+                        <b class="text-amber-300 text-xs block mb-2">${vp.ten}</b>
+                        <p class="text-emerald-300 text-[11px] mb-2 leading-relaxed"><b>✅ Cách dùng đúng:</b> ${vp.cach_dung_dung}</p>
+                      </div>
+                      <p class="text-rose-300 text-[10px] p-2 rounded-xl bg-slate-950 border border-slate-850"><b>❌ Kiêng kỵ:</b> ${vp.dieu_cam_ky}</p>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // Section 8: 20 Lỗi Phong Thủy & Cách Hóa Giải
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === '20_loi') {
+        const p8 = phongThuyData.phan_8_20_loi_phong_thuy_thuong_gap;
+        if (p8) {
+          const speakP8 = `${p8.tieu_de}. Tổng hợp 20 lỗi phong thủy nhà ở thường gặp và hướng dẫn hóa giải chi tiết cho từng trường hợp.`;
+          const safeSpeakP8 = speakP8.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+          const filteredLoi = (p8.danh_sach_20_loi || []).filter(item => {
+            if (!searchVal) return true;
+            const full = `${item.stt} ${item.loi} ${item.anh_huong} ${item.cach_sua}`;
+            return removeVietnameseTones(full.toLowerCase()).includes(searchVal);
+          });
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4 mb-6">
+                <div>
+                  <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 8 • Cẩm Nang Hóa Giải</span>
+                  <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p8.tieu_de}</h3>
+                  <p class="text-xs text-slate-300 mt-1">20 lỗi phổ biến nhất trong đời sống thực tế kèm giải pháp sửa đổi dễ làm</p>
+                </div>
+                <button 
+                  onclick="playTTS(event, '${(p8.danh_sach_20_loi || []).map(l => 'Lỗi số ' + l.stt + ': ' + l.loi + '. Ảnh hưởng: ' + l.anh_huong + '. Cách sửa: ' + l.cach_sua).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20 border border-amber-400/40"
+                >
+                  <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>🔊 Nghe Toàn Bộ 20 Lỗi</span>
+                </button>
+              </div>
+
+              <div class="space-y-3">
+                ${filteredLoi.map(l => {
+                  const lSpeak = `Lỗi số ${l.stt}: ${l.loi}. Ảnh hưởng: ${l.anh_huong}. Cách sửa: ${l.cach_sua}`;
+                  const safeLSpeak = lSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+                  return `
+                    <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col sm:flex-row sm:items-start justify-between gap-3 text-xs hover:border-amber-500/40 transition-all">
+                      <div class="flex items-start gap-3">
+                        <span class="w-6 h-6 rounded-full bg-amber-500 text-slate-950 font-black flex items-center justify-center text-xs shrink-0 mt-0.5">${l.stt}</span>
+                        <div>
+                          <b class="text-white text-xs sm:text-sm font-bold">${l.loi}</b>
+                          <p class="text-rose-300 text-[11px] mt-1"><b>⚠️ Ảnh hưởng:</b> ${l.anh_huong}</p>
+                          <p class="text-emerald-300 text-[11px] mt-1 p-2 rounded-xl bg-slate-950 border border-slate-850"><b>🛠️ Cách sửa chi tiết:</b> ${l.cach_sua}</p>
+                        </div>
+                      </div>
+                      <button onclick="playTTS(event, '${safeLSpeak}', 'vi')" class="p-1.5 rounded-lg bg-slate-950 border border-slate-800 text-amber-300 hover:text-white shrink-0 self-end sm:self-start" title="Nghe lỗi này"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // Section 9: Công Cụ Tính Cung Mệnh Tương Tác
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'cung_menh') {
+        const p9 = phongThuyData.phan_9_cong_cu_tinh_cung_menh;
+        if (p9) {
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/40 bg-gradient-to-b from-amber-950/20 via-slate-950/50 to-slate-950/90" id="phongthuy-cungmenh-tool">
+              <div class="border-b border-slate-800 pb-4 mb-6">
+                <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 9 • Ứng Dụng Thực Hành</span>
+                <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p9.tieu_de}</h3>
+                <p class="text-xs text-slate-300 mt-1">${p9.huong_dan}</p>
+              </div>
+
+              <!-- Calculator Form -->
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5 max-w-2xl">
+                <div>
+                  <label class="block text-xs font-bold text-amber-300 mb-1.5">📅 Năm sinh (Dương lịch):</label>
+                  <input type="number" id="pt-calc-year" placeholder="Ví dụ: 1986" value="1986" min="1920" max="2050" class="w-full bg-slate-900 border border-amber-500/40 rounded-xl px-3.5 py-2.5 text-sm text-white font-mono focus:outline-none focus:ring-2 focus:ring-amber-500">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-amber-300 mb-1.5">👤 Giới tính:</label>
+                  <select id="pt-calc-gender" class="w-full bg-slate-900 border border-amber-500/40 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-500">
+                    <option value="nam">Nam Mệnh</option>
+                    <option value="nu">Nữ Mệnh</option>
+                  </select>
+                </div>
+                <div class="flex items-end">
+                  <button onclick="calculateCungMenh()" class="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-950 font-black text-xs uppercase tracking-wider transition-all shadow-lg shadow-amber-500/20 cursor-pointer active:scale-95">
+                    🧮 Tính Cung Mệnh
+                  </button>
+                </div>
+              </div>
+
+              <!-- Calculation Result Area -->
+              <div id="pt-calc-result">
+                <!-- Injected via JS calculateCungMenh() -->
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // Section 10: Bảng Tự Đánh Giá Phong Thủy Nhà Ở
+      if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'danh_gia') {
+        const p10 = phongThuyData.phan_10_bang_tu_danh_gia_nha;
+        if (p10) {
+          const questions = p10.danh_sach_20_cau_hoi || [];
+
+          cardsHtml.push(`
+            <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/40 bg-gradient-to-b from-amber-950/20 via-slate-950/50 to-slate-950/90" id="phongthuy-danhgia-tool">
+              <div class="border-b border-slate-800 pb-4 mb-6">
+                <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20 uppercase tracking-wider">Phần 10 • Trắc Nghiệm Tự Đánh Giá</span>
+                <h3 class="text-xl sm:text-2xl font-black font-display text-white mt-1.5">${p10.tieu_de}</h3>
+                <p class="text-xs text-slate-300 mt-1">Tích chọn Có / Không cho 20 tiêu chí thực tế để hệ thống tự động chấm điểm và đưa ra hướng dẫn khắc phục.</p>
+              </div>
+
+              <!-- Questions List -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+                ${questions.map(q => {
+                  const isYes = phongThuyEvalAnswers[q.id] === true;
+                  const isNo = phongThuyEvalAnswers[q.id] === false;
+
+                  return `
+                    <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between text-xs">
+                      <div class="mb-2">
+                        <span class="text-[10px] font-bold text-amber-400 bg-amber-950/60 px-2 py-0.5 rounded border border-amber-500/20">#${q.id} • ${q.khu_vuc}</span>
+                        <p class="text-white text-xs mt-1.5 leading-relaxed font-medium">${q.cau_hoi}</p>
+                      </div>
+                      <div class="flex items-center gap-2 pt-2 border-t border-slate-800/80">
+                        <button 
+                          onclick="setEvalAnswer(${q.id}, true)"
+                          class="flex-1 py-1.5 rounded-xl font-bold text-xs transition-all cursor-pointer ${isYes ? 'bg-emerald-600 text-white shadow-md' : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'}"
+                        >
+                          ✓ Có (+5đ)
+                        </button>
+                        <button 
+                          onclick="setEvalAnswer(${q.id}, false)"
+                          class="flex-1 py-1.5 rounded-xl font-bold text-xs transition-all cursor-pointer ${isNo ? 'bg-rose-600 text-white shadow-md' : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'}"
+                        >
+                          ✗ Không (0đ)
+                        </button>
+                      </div>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+
+              <!-- Result Area -->
+              <div id="pt-eval-result-card">
+                <!-- Injected via JS calculateDanhGiaPhongThuy() -->
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      if (cardsHtml.length === 0) {
+        area.innerHTML = `<div class="col-span-full py-16 text-center text-slate-500 italic">Không tìm thấy nội dung phong thủy phù hợp với từ khóa "${searchVal}".</div>`;
+        if (countEl) countEl.textContent = "0 nội dung";
+      } else {
+        area.innerHTML = cardsHtml.join('');
+        if (countEl) countEl.textContent = `Hiển thị: ${cardsHtml.length} chuyên mục chi tiết`;
+
+        // Automatically trigger calculateCungMenh and calculateDanhGiaPhongThuy if their containers exist
+        setTimeout(() => {
+          if (document.getElementById('pt-calc-result')) calculateCungMenh();
+          if (document.getElementById('pt-eval-result-card')) calculateDanhGiaPhongThuy();
+        }, 50);
+      }
+    };
+
+    document.getElementById('phongthuy-search')?.addEventListener('input', () => {
+      renderPhongThuy();
+    });
+
 
     // --- KINH PHAP CU LOGIC ---
     function renderPhapCuCards() {
@@ -7579,7 +8777,7 @@
     // va modal chi tiet openKinhDichDetailModal() - dat o pham vi module (khong long trong ham nao)
     // de tranh loi "getTtsButton is not defined" khi goi tu ngoai renderKinhDich().
     function getTtsButton(audioText) {
-      const safeText = (audioText || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+      const safeText = (audioText || '').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
       return `
         <button 
           onclick="playTTS(event, '${safeText}', 'vi')"
@@ -8967,6 +10165,7 @@
         const hasTuThu = isAdmin || currentUser.quyen.includes('tuthu');
         const hasPhapLuat = isAdmin || currentUser.quyen.includes('phapluat');
         const hasGout = isAdmin || currentUser.quyen.includes('gout');
+        const hasPhongThuy = isAdmin || currentUser.quyen.includes('phongthuy');
         const hasAiAgent = isAdmin || currentUser.quyen.includes('aiagent');
         const hasUsers = isAdmin || currentUser.quyen.includes('users');
 
@@ -8983,6 +10182,7 @@
         toggleTabButtonVisibility('tab-tuthu', hasTuThu);
         toggleTabButtonVisibility('tab-phapluat', hasPhapLuat);
         toggleTabButtonVisibility('tab-gout', hasGout);
+        toggleTabButtonVisibility('tab-phongthuy', hasPhongThuy);
         toggleTabButtonVisibility('tab-aiagent', hasAiAgent);
         toggleTabButtonVisibility('tab-users', hasUsers);
 
@@ -9000,6 +10200,7 @@
           'tuthu': hasTuThu,
           'phapluat': hasPhapLuat,
           'gout': hasGout,
+          'phongthuy': hasPhongThuy,
           'aiagent': hasAiAgent,
           'users': hasUsers
         };
@@ -9018,6 +10219,7 @@
         else if (tuthuSection && !tuthuSection.classList.contains('hidden')) currentTab = 'tuthu';
         else if (phapluatSection && !phapluatSection.classList.contains('hidden')) currentTab = 'phapluat';
         else if (goutSection && !goutSection.classList.contains('hidden')) currentTab = 'gout';
+        else if (phongthuySection && !phongthuySection.classList.contains('hidden')) currentTab = 'phongthuy';
         else if (!aiagentSection.classList.contains('hidden')) currentTab = 'aiagent';
         else if (!document.getElementById('users-section').classList.contains('hidden')) currentTab = 'users';
 
@@ -9035,6 +10237,7 @@
           else if (hasTuThu) switchMainTab('tuthu');
           else if (hasPhapLuat) switchMainTab('phapluat');
           else if (hasGout) switchMainTab('gout');
+          else if (hasPhongThuy) switchMainTab('phongthuy');
           else if (hasAiAgent) switchMainTab('aiagent');
           else if (hasUsers) switchMainTab('users');
         }
@@ -9140,6 +10343,7 @@
         if (u.quyen.includes('tuthu')) permsList.push('Tứ Thư');
         if (u.quyen.includes('phapluat')) permsList.push('Pháp Luật');
         if (u.quyen.includes('gout')) permsList.push('Gút');
+        if (u.quyen.includes('phongthuy')) permsList.push('Phong Thủy');
         if (u.quyen.includes('aiagent')) permsList.push('Trợ Lý AI');
         if (u.quyen.includes('users')) permsList.push('Quản Trị');
 
@@ -9266,6 +10470,7 @@
       if (document.getElementById('perm-tuthu')?.checked) quyen.push('tuthu');
       if (document.getElementById('perm-phapluat')?.checked) quyen.push('phapluat');
       if (document.getElementById('perm-gout')?.checked) quyen.push('gout');
+      if (document.getElementById('perm-phongthuy')?.checked) quyen.push('phongthuy');
       if (document.getElementById('perm-aiagent')?.checked) quyen.push('aiagent');
 
       const isDefaultAdmin = email.toLowerCase() === 'admin@gmail.com';
@@ -9299,6 +10504,7 @@
       if (document.getElementById('perm-tuthu')) document.getElementById('perm-tuthu').checked = false;
       if (document.getElementById('perm-phapluat')) document.getElementById('perm-phapluat').checked = false;
       if (document.getElementById('perm-gout')) document.getElementById('perm-gout').checked = false;
+      if (document.getElementById('perm-phongthuy')) document.getElementById('perm-phongthuy').checked = false;
       document.getElementById('perm-aiagent').checked = false;
 
       renderMembersList();
@@ -9333,7 +10539,7 @@
 
     async function preloadAllData() {
       try {
-        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout] = await Promise.all([
+        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt] = await Promise.all([
           fetchJsonWithCache('./data.json').catch(() => []),
           fetchJsonWithCache('./tieng_trung.json').catch(() => null),
           fetchJsonWithCache('./kinh_dich.json').catch(() => null),
@@ -9346,7 +10552,8 @@
           fetchJsonWithCache('./chuyen_ran_day.json').catch(() => null),
           fetchJsonWithCache('./tu_thu_ngu_kinh.json').catch(() => null),
           fetchJsonWithCache('./phap_luat_vn.json').catch(() => null),
-          fetchJsonWithCache('./gout.json').catch(() => null)
+          fetchJsonWithCache('./gout.json').catch(() => null),
+          fetchJsonWithCache('./phong_thuy.json').catch(() => null)
         ]);
 
         if (rawP && rawP.length > 0) {
@@ -9423,6 +10630,10 @@
 
         if (rawGout) {
           goutData = rawGout;
+        }
+
+        if (rawPt) {
+          phongThuyData = rawPt;
         }
 
         headerStatus.textContent = 'Đã nạp toàn bộ kho tri thức';
@@ -9916,6 +11127,27 @@
       }
 
       // 13. Bệnh Gút (Gout)
+      if (phongThuyData) {
+        if (phongThuyData.tong_quan) {
+          add('phongthuy', null, '[PHONG THỦY - Tổng Quan]', JSON.stringify(phongThuyData.tong_quan));
+        }
+        if (phongThuyData.phan_1_co_so_phong_thuy) {
+          add('phongthuy', null, '[PHONG THỦY - Cơ Sở & Ngũ Hành]', JSON.stringify(phongThuyData.phan_1_co_so_phong_thuy));
+        }
+        if (phongThuyData.phan_2_the_dat_va_huong_nha) {
+          add('phongthuy', null, '[PHONG THỦY - Thế Đất & Hướng Nhà]', JSON.stringify(phongThuyData.phan_2_the_dat_va_huong_nha));
+        }
+        if (phongThuyData.phan_4_bo_tri_trong_nha) {
+          add('phongthuy', null, '[PHONG THỦY - Bố Trí Từng Phòng]', JSON.stringify(phongThuyData.phan_4_bo_tri_trong_nha));
+        }
+        if (phongThuyData.phan_5_bat_cung_trong_nha) {
+          add('phongthuy', null, '[PHONG THỦY - Bát Cung 8 Hướng]', JSON.stringify(phongThuyData.phan_5_bat_cung_trong_nha));
+        }
+        (phongThuyData.phan_8_20_loi_phong_thuy_thuong_gap?.danh_sach_20_loi || []).forEach(function (l) {
+          add('phongthuy', null, '[PHONG THỦY - Lỗi ' + l.stt + '] ' + l.loi, l.anh_huong + ' ' + l.cach_sua);
+        });
+      }
+
       if (goutData) {
         if (goutData.tong_quan) {
           add('gout', null, '[GÚT - Tổng Quan]', JSON.stringify(goutData.tong_quan));

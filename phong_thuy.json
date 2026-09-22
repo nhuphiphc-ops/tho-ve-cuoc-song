@@ -1,0 +1,891 @@
+{
+  "tong_quan": {
+    "tieu_de": "🏡 Cẩm Nang Phong Thủy Nhà Ở — Khoa Học Bố Trí Không Gian Sống",
+    "loi_dan": "Phong thủy chân chính không phải mê tín dị đoan hay phép màu biến hóa, mà là nghệ thuật sắp đặt môi trường sống hài hòa giữa gió (Phong), nước (Thủy), ánh sáng, không khí và từ trường tự nhiên. Một ngôi nhà tụ khí, thông thoáng, ngăn nắp sẽ nuôi dưỡng sức khỏe, tinh thần an định và thu hút vượng khí lâu dài.",
+    "chan_ngon_vang": "Phong thủy là môi trường hỗ trợ — Chính sự hòa thuận, đức độ, chăm chỉ mới là gốc vận khí bền lâu của gia đình.",
+    "nguyen_tac_cot_loi": "Tụ khí tránh tán • Âm dương cân bằng • Thuận theo tự nhiên • Tâm an vạn sự an."
+  },
+  "phan_1_co_so_phong_thuy": {
+    "tieu_de": "Phần 1: Cơ Sở Phong Thủy — Nền Tảng Từng Bước",
+    "mo_ta": "Hiểu đúng bản chất khoa học của Phong Thủy, quy luật Ngũ Hành tương sinh tương khắc và nguyên lý Bát Quái phân định phương vị.",
+    "muc_1_1_dinh_nghia": {
+      "tieu_de": "1.1 Phong Thủy là gì? — Bản chất khoa học & Nguyên tắc cốt lõi",
+      "giai_thich_chi_tiet": "Phong là luồng gió, luồng khí chuyển động trong không gian. Thủy là dòng nước, độ ẩm và sự lưu thông nuôi dưỡng vạn vật. Phong Thủy chính là khoa học nghiên cứu tác động của môi trường tự nhiên (nắng, gió, độ ẩm, nhiệt độ, từ trường đất) lên thể chất và tâm lý con người sống trong ngôi nhà.",
+      "y_nghia_thuc_te": "Một ngôi nhà ẩm thấp, tối tăm, gió lùa hỗn loạn sẽ sinh vi khuẩn, gây bệnh tật và khiến tâm lý cáu gắt (uế khí). Ngược lại, ngôi nhà đón ánh sáng ban mai, gió lưu thông êm ả, sạch sẽ sẽ giúp cơ thể tái tạo năng lượng, đầu óc minh mẫn, làm việc hiệu quả (sinh khí).",
+      "nguyen_tac_vang": "TỤ KHÍ TRÁNH TÁN — Khí vào nhà phải uốn lượn, lưu giữ nhẹ nhàng, không được xộc thẳng vào rồi thoát ra ngay, cũng không được tù túng ứ đọng thành khí chết."
+    },
+    "muc_1_2_ngu_hanh": {
+      "tieu_de": "1.2 Ngũ Hành — Quy Luật Tương Sinh & Tương Khắc Trong Nhà Ở",
+      "ngu_hanh_5_yeu_to": [
+        {
+          "hanh": "Mộc",
+          "bieu_tuong": "🌳",
+          "dac_tinh": "Sinh trưởng, vươn lên, mềm dẻo",
+          "mau_sac": "Xanh lá cây, xanh lục, vân gỗ tự nhiên",
+          "vat_lieu": "Gỗ, tre, nứa, cây xanh, vải sợi tự nhiên"
+        },
+        {
+          "hanh": "Hỏa",
+          "bieu_tuong": "🔥",
+          "dac_tinh": "Ấm áp, phát quang, nhiệt huyết, thăng tiến",
+          "mau_sac": "Đỏ, cam, hồng, tím",
+          "vat_lieu": "Bếp lửa, đèn chiếu sáng, tranh ảnh ánh nắng, gạch nung"
+        },
+        {
+          "hanh": "Thổ",
+          "bieu_tuong": "🏔️",
+          "dac_tinh": "Vững chãi, bao dung, nuôi dưỡng, ổn định",
+          "mau_sac": "Vàng đất, nâu đất, be, cà phê",
+          "vat_lieu": "Gốm sứ, đất đá, gạch men, bê tông, đá tự nhiên"
+        },
+        {
+          "hanh": "Kim",
+          "bieu_tuong": "⚔️",
+          "dac_tinh": "Sắc bén, thanh khiết, bền bỉ, quyết đoán",
+          "mau_sac": "Trắng, bạc, xám ghi, vàng ánh kim",
+          "vat_lieu": "Kim loại, inox, nhôm kính, thiết bị điện tử"
+        },
+        {
+          "hanh": "Thủy",
+          "bieu_tuong": "💧",
+          "dac_tinh": "Uốn lượn, mềm mại, sâu lắng, trí tuệ",
+          "mau_sac": "Xanh dương, xanh thẫm, đen",
+          "vat_lieu": "Bể cá, thác nước phong thủy, kính soi, dung dịch lỏng"
+        }
+      ],
+      "tuong_sinh": [
+        {
+          "cap": "Mộc sinh Hỏa",
+          "hien_tuong": "Gỗ cháy sinh ra lửa",
+          "ung_dung": "Bố trí đồ gỗ, cây xanh dẫn lối vào khu vực bếp hoặc phòng ăn giúp không khí ấm cúng, ấm no."
+        },
+        {
+          "cap": "Hỏa sinh Thổ",
+          "hien_tuong": "Lửa thiêu đốt vạn vật thành tro bụi lắng đọng thành đất",
+          "ung_dung": "Bếp nấu (Hỏa) đặt trên nền gạch men/đá hoa cương (Thổ) giúp không gian vững chắc, bền bỉ."
+        },
+        {
+          "cap": "Thổ sinh Kim",
+          "hien_tuong": "Trong lòng đất đá ngưng tụ sinh ra quặng kim loại",
+          "ung_dung": "Tường sơn màu vàng kem, be (Thổ) phối hợp phụ kiện kim loại/inox (Kim) tạo cảm giác sang trọng, thanh thoát."
+        },
+        {
+          "cap": "Kim sinh Thủy",
+          "hien_tuong": "Kim loại nung chảy hoặc ngưng tụ hơi nước trên bề mặt",
+          "ung_dung": "Khung nhôm kính trắng (Kim) kết hợp bể cá/thác nước tiểu cảnh (Thủy) kích hoạt dòng chảy tài lộc nhẹ nhàng."
+        },
+        {
+          "cap": "Thủy sinh Mộc",
+          "hien_tuong": "Nước tưới tắm giúp cây cối tốt tươi, đơm hoa kết trái",
+          "ung_dung": "Đặt chậu cây cảnh cạnh lối đi có tiểu cảnh nước giúp không gian luôn tràn trề sinh khí."
+        }
+      ],
+      "tuong_khac": [
+        {
+          "cap": "Mộc khắc Thổ",
+          "hien_tuong": "Rễ cây đâm xuyên làm xói mòn đất đai",
+          "ung_dung": "Tránh trồng cây to rễ lớn quá sát móng nhà hoặc tường bao gây nứt nẻ, phá vỡ thế đất."
+        },
+        {
+          "cap": "Thổ khắc Thủy",
+          "hien_tuong": "Đất đắp đê ngăn chặn dòng nước chảy",
+          "ung_dung": "Tránh để đất cát, rác bẩn làm tắc nghẽn cống rãnh, đường cấp thoát nước trong nhà."
+        },
+        {
+          "cap": "Thủy khắc Hỏa",
+          "hien_tuong": "Nước dập tắt lửa",
+          "ung_dung": "Tuyệt đối không đặt bếp nấu sát cạnh hoặc đối diện thẳng hàng với bồn rửa bát/tủ lạnh."
+        },
+        {
+          "cap": "Hỏa khắc Kim",
+          "hien_tuong": "Lửa nung nóng làm chảy kim loại",
+          "ung_dung": "Tránh đặt bếp ngay sát các thiết bị điện tử nhạy cảm, két sắt kim loại hoặc tủ lạnh."
+        },
+        {
+          "cap": "Kim khắc Mộc",
+          "hien_tuong": "Rìu dao kim loại đốn chặt cây cối",
+          "ung_dung": "Không để dao kéo, vật kim loại sắc nhọn chĩa thẳng vào chậu cây xanh hoặc người ngồi nghỉ."
+        }
+      ]
+    },
+    "muc_1_3_bat_quai": {
+      "tieu_de": "1.3 Bát Quái & 8 Phương Vị Năng Lượng Trong Ngôi Nhà",
+      "so_do_8_huong": [
+        {
+          "huong": "Bắc",
+          "quai": "Khảm",
+          "hanh": "Thủy",
+          "cung": "Quan Lộc (Sự nghiệp & Học tập)",
+          "y_nghia": "Đại diện cho đường công danh, con đường phát triển tương lai và dòng chảy trí tuệ.",
+          "vat_phu_hop": "Bể cá nhỏ, thác nước mini, tranh sông nước, màu xanh dương."
+        },
+        {
+          "huong": "Đông Bắc",
+          "quai": "Cấn",
+          "hanh": "Thổ",
+          "cung": "Tri Thức (Học vấn & Tĩnh tâm)",
+          "y_nghia": "Chủ về sự sáng suốt, học hành thi cử, sự tập trung và rèn luyện đạo đức.",
+          "vat_phu_hop": "Bàn học, giá sách, tượng đá, đèn vàng ấm, tháp văn xương."
+        },
+        {
+          "huong": "Đông",
+          "quai": "Chấn",
+          "hanh": "Mộc",
+          "cung": "Gia Đạo (Sức khỏe & Tổ tiên)",
+          "y_nghia": "Đại diện cho cội nguồn gia đình, hòa khí giữa các thế hệ và thể lực người trong nhà.",
+          "vat_phu_hop": "Cây xanh tán tròn tươi tốt, đồ gỗ mỹ nghệ, tranh gia đình vui vẻ."
+        },
+        {
+          "huong": "Đông Nam",
+          "quai": "Tốn",
+          "hanh": "Mộc",
+          "cung": "Tài Lộc (Tích lũy & Thịnh vượng)",
+          "y_nghia": "Chủ về nguồn tiền tài, của cải tích lũy và cơ hội gia tăng thu nhập.",
+          "vat_phu_hop": "Hũ tài lộc, két sắt, cây kim tiền/sen đá, chậu nước động nhẹ."
+        },
+        {
+          "huong": "Nam",
+          "quai": "Ly",
+          "hanh": "Hỏa",
+          "cung": "Danh Tiếng (Uy tín & Vị thế)",
+          "y_nghia": "Tượng trưng cho sự công nhận của xã hội, uy tín cá nhân và danh dự gia đình.",
+          "vat_phu_hop": "Đèn chiếu sáng rực rỡ, bằng khen, cúp lưu niệm, tranh hoa hướng dương."
+        },
+        {
+          "huong": "Tây Nam",
+          "quai": "Khôn",
+          "hanh": "Thổ",
+          "cung": "Hôn Nhân (Tình duyên & Hòa thuận)",
+          "y_nghia": "Chủ về tình cảm vợ chồng, sự gắn kết yêu thương, vai trò người phụ nữ trong nhà.",
+          "vat_phu_hop": "Ảnh cưới, đèn ngủ màu ấm, đồ vật đi theo cặp đôi (đôi uyên ương, đôi bình sứ)."
+        },
+        {
+          "huong": "Tây",
+          "quai": "Đoài",
+          "hanh": "Kim",
+          "cung": "Tử Tức (Con cái & Sáng tạo)",
+          "y_nghia": "Tượng trưng cho thế hệ con cháu, niềm vui sum vầy và nguồn cảm hứng sáng tạo.",
+          "vat_phu_hop": "Khu vui chơi trẻ em, nhạc cụ, khung ảnh con cái, đồ lưu niệm màu trắng/bạc."
+        },
+        {
+          "huong": "Tây Bắc",
+          "quai": "Càn",
+          "hanh": "Kim",
+          "cung": "Quý Nhân (Trợ lực & Người trụ cột)",
+          "y_nghia": "Đại diện cho người cha/người trụ cột trong nhà, sự giúp đỡ của quý nhân bạn bè.",
+          "vat_phu_hop": "Bàn làm việc của gia chủ, đồ gốm sứ cao cấp, kim loại bóng sáng, tranh phong cảnh hùng vĩ."
+        }
+      ]
+    },
+    "muc_1_4_dong_tay_tu_trach": {
+      "tieu_de": "1.4 Đông Tứ Trạch vs Tây Tứ Trạch — Phân Nhóm Người & Hướng Nhà",
+      "phan_nhom": [
+        {
+          "nhom": "Đông Tứ Trạch (Đông Tứ Mệnh)",
+          "cac_cung": "Cung 1 (Khảm - Thủy), Cung 3 (Chấn - Mộc), Cung 4 (Tốn - Mộc), Cung 9 (Ly - Hỏa)",
+          "4_huong_tot": "Bắc (Khảm), Nam (Ly), Đông (Chấn), Đông Nam (Tốn)",
+          "loi_khuyen": "Người thuộc Đông Tứ Mệnh nên chọn mua nhà, mở cửa chính, đặt hướng bàn làm việc nhìn về các hướng Đông, Đông Nam, Nam hoặc Bắc để đón trọn dòng năng lượng thuận chiều."
+        },
+        {
+          "nhom": "Tây Tứ Trạch (Tây Tứ Mệnh)",
+          "cac_cung": "Cung 2 (Khôn - Thổ), Cung 6 (Càn - Kim), Cung 7 (Đoài - Kim), Cung 8 (Cấn - Thổ)",
+          "4_huong_tot": "Tây (Đoài), Tây Bắc (Càn), Tây Nam (Khôn), Đông Bắc (Cấn)",
+          "loi_khuyen": "Người thuộc Tây Tứ Mệnh nên chọn nhà hướng Tây, Tây Bắc, Tây Nam hoặc Đông Bắc để trường năng lượng của bản thân đồng điệu với phương vị ngôi nhà."
+        }
+      ],
+      "4_huong_tot_chi_tiet": [
+        {
+          "ten": "Sinh Khí",
+          "tinh_chat": "Thuộc sao Tham Lang (Mộc) — Cung tốt nhất về Tài Lộc, kinh doanh thăng tiến, vượng khí dồi dào.",
+          "ung_dung": "Thích hợp đặt cửa chính, phòng làm việc, phòng khách."
+        },
+        {
+          "ten": "Thiên Y",
+          "tinh_chat": "Thuộc sao Cự Môn (Thổ) — Cung tốt nhất về Sức Khỏe, trường thọ, tiêu trừ bệnh tật, quý nhân phù trợ.",
+          "ung_dung": "Thích hợp đặt phòng ngủ, giường bệnh nhân dưỡng sức, phòng ăn."
+        },
+        {
+          "ten": "Diên Niên (Phúc Đức)",
+          "tinh_chat": "Thuộc sao Vũ Khúc (Kim) — Cung tốt về Tình Cảm, gia đạo thuận hòa, hôn nhân bền chặt, ngoại giao tốt.",
+          "ung_dung": "Thích hợp đặt phòng ngủ vợ chồng, phòng khách sum họp."
+        },
+        {
+          "ten": "Phục Vị",
+          "tinh_chat": "Thuộc sao Tả Phù (Mộc) — Cung tốt về Bình An, củng cố sức mạnh tinh thần, học hành tiến bộ, thi cử đỗ đạt.",
+          "ung_dung": "Thích hợp đặt phòng thờ, bàn học của con, nơi thiền định."
+        }
+      ],
+      "4_huong_xau_chi_tiet": [
+        {
+          "ten": "Tuyệt Mệnh",
+          "tinh_chat": "Thuộc sao Phá Quân (Kim) — Cung xấu nhất: chủ về bệnh tật hiểm nghèo, hao tài tốn của, tâm lý bất an.",
+          "hoa_giai": "Tuyệt đối không mở cửa chính hay đặt giường ngủ. Đặt nhà vệ sinh/kho để trấn áp hung khí."
+        },
+        {
+          "ten": "Ngũ Quỷ",
+          "tinh_chat": "Thuộc sao Liêm Trinh (Hỏa) — Chủ về thị phi cãi vã, tiểu nhân quấy phá, hỏa hoạn, mất việc.",
+          "hoa_giai": "Tránh đặt phòng ngủ/phòng làm việc. Có thể đặt bếp tọa tại đây nhìn về hướng tốt."
+        },
+        {
+          "ten": "Lục Sát",
+          "tinh_chat": "Thuộc sao Văn Khúc (Thủy) — Chủ về trục trặc quan hệ tình cảm, kiện tụng, tai nạn nhẹ, hao tốn nhỏ.",
+          "hoa_giai": "Dùng vật phẩm phong thủy thuộc hành Thổ hoặc Mộc để làm giảm bớt tính sát."
+        },
+        {
+          "ten": "Họa Hại",
+          "tinh_chat": "Thuộc sao Lộc Tồn (Thổ) — Chủ về những điều xui xẻo vặt vãnh, thất bại bất ngờ, chia rẽ nội bộ.",
+          "hoa_giai": "Tránh đặt bàn thờ và cửa chính; giữ không gian sạch sẽ, thông thoáng."
+        }
+      ]
+    }
+  },
+  "phan_2_the_dat_va_huong_nha": {
+    "tieu_de": "Phần 2: Thế Đất & Hướng Nhà — Nền Móng Vững Bền",
+    "the_dat_tot": [
+      {
+        "dac_diem": "Đất cao ráo, bằng phẳng, khô ráo",
+        "ly_giai": "Không bị ngập úng khi mưa lớn, nền móng vững chắc, khí lưu chuyển êm đềm không bị tù đọng uế khí."
+      },
+      {
+        "dac_diem": "Nền nhà cao hơn mặt đường xung quanh từ 15cm - 30cm",
+        "ly_giai": "Ngăn nước mưa và bụi bặm chảy tràn vào nhà; thế nhà hiên ngang, đón nhận được đầy đủ dương khí."
+      },
+      {
+        "dac_diem": "Phía sau có thế 'Tựa Sơn' (Nhà cao hơn, dãy đồi, hàng cây xanh che chắn)",
+        "ly_giai": "Tạo chỗ dựa vững chắc cho gia đình, hậu vận bền vững, con cháu có điểm tựa phát triển sự nghiệp."
+      },
+      {
+        "dac_diem": "Phía trước có 'Minh Đường' rộng rãi, thoáng đãng",
+        "ly_giai": "Khoảng trống phía trước càng quang đãng thì trường khí tích tụ càng dồi dào, tài lộc dễ vào."
+      },
+      {
+        "dac_diem": "Tả Thanh Long (bên trái) hữu Bạch Hổ (bên phải) ôm bọc",
+        "ly_giai": "Hai bên có nhà hoặc cây xanh tương xứng, không bị hở toác, tạo thế chở che, gia đình hòa thuận."
+      },
+      {
+        "dac_diem": "Dòng nước hoặc đường đi uốn lượn ôm cong về phía nhà ('Thủy bao')",
+        "ly_giai": "Khí đi theo nước, nước ôm cong thì sinh khí tụ lại; tiền bạc làm ra giữ được bền vững."
+      }
+    ],
+    "the_dat_xau_va_hoa_giai": [
+      {
+        "the_xau": "Đất trước cao sau thấp (nhà tụt dốc)",
+        "anh_huong": "Gia chủ khó giữ tiền, hậu vận suy giảm, cảm giác hụt hẫng bất an.",
+        "cach_hoa_giai": "Xây tường rào phía sau cao hơn, trồng hàng cây xanh cao sau nhà, lắp đèn chiếu sáng hắt lên phía sau để nâng khí."
+      },
+      {
+        "the_xau": "Đất trũng lõm, nước đọng lâu ngày",
+        "anh_huong": "Ẩm mốc sinh bệnh đường hô hấp, xương khớp, sinh âm khí nặng nề.",
+        "cach_hoa_giai": "Tôn nền đất bằng phẳng, làm hệ thống thoát nước ngầm triệt để, rải lớp than hoạt tính và đá thạch anh trước khi đổ sàn."
+      },
+      {
+        "the_xau": "Thương sát — Đường thẳng dài đâm thẳng vào cửa chính",
+        "anh_huong": "Luồng xe cộ và gió bụi xộc thẳng gây bất an, dễ xảy ra va quẹt, tài lộc bị thổi bay.",
+        "cach_hoa_giai": "Xây bình phong chắn trước cửa, trồng hàng cây cảnh dày, đổi vị trí cửa chính hoặc treo gương bát quái lồi ngoài cổng."
+      },
+      {
+        "the_xau": "Giác sát — Góc nhọn của mái nhà láng giềng chĩa thẳng vào cửa",
+        "anh_huong": "Tạo cảm giác bị đe dọa, dễ sinh mâu thuẫn cãi vã với hàng xóm, tâm thần căng thẳng.",
+        "cach_hoa_giai": "Trồng giàn cây leo xanh chắn tầm nhìn góc nhọn, dùng rèm cửa dày hoặc treo chuông gió kim loại hóa giải góc nhọn."
+      }
+    ],
+    "xac_dinh_huong_nha": {
+      "quy_tac": "Hướng nhà là đường thẳng vuông góc với mặt tiền ngôi nhà nhìn từ trong ra ngoài (theo hướng nhìn của gia chủ khi đứng ở tâm nhà nhìn thẳng ra cửa chính).",
+      "dung_la_ban": "Đứng tại tâm nhà hoặc trước cửa chính 1-2 mét, quay mặt ra ngoài, giữ la bàn thăng bằng tránh xa vật kim loại lớn để đo độ số chính xác.",
+      "nhieu_cua": "Nếu nhà có nhiều cửa mở ra nhiều phía, hướng nhà được xác định theo CỬA CHÍNH — nơi mọi người ra vào thường xuyên nhất và có kích thước lớn nhất."
+    },
+    "cach_tinh_cung_menh": {
+      "cac_buoc": [
+        "Bước 1: Xác định chính xác năm sinh Âm lịch (nếu sinh tháng 1 dương lịch cần đối chiếu ngày mùng 1 Tết).",
+        "Bước 2: Lấy 2 chữ số cuối của năm sinh cộng lại với nhau cho đến khi còn 1 chữ số (Ví dụ sinh năm 1986 ➔ 8 + 6 = 14 ➔ 1 + 4 = 5).",
+        "Bước 3 (Dành cho Nam): Lấy 10 trừ đi số vừa tìm được (Ví dụ 10 - 5 = 5. Với nam sinh từ năm 2000 trở đi, lấy 9 trừ đi số đó).",
+        "Bước 4 (Dành cho Nữ): Lấy số vừa tìm được cộng với 5 (Ví dụ 5 + 5 = 10 ➔ 1 + 0 = 1. Với nữ sinh từ năm 2000 trở đi, lấy số đó cộng với 6).",
+        "Quy tắc số 5 đặc biệt: Nếu kết quả tính ra số 5 ➔ NAM quy về CUNG 8 (CẤN - Thổ - Tây Tứ), NỮ quy về CUNG 2 (KHÔN - Thổ - Tây Tứ)."
+      ],
+      "bang_tra_cuu_cung_phi": [
+        {
+          "so": 1,
+          "cung": "Khảm",
+          "hanh": "Thủy",
+          "nhom": "Đông Tứ Trạch",
+          "huong_tot": "Đông Nam (Sinh Khí), Đông (Thiên Y), Nam (Diên Niên), Bắc (Phục Vị)",
+          "huong_xau": "Tây Nam (Tuyệt Mệnh), Đông Bắc (Ngũ Quỷ), Tây Bắc (Lục Sát), Tây (Họa Hại)"
+        },
+        {
+          "so": 2,
+          "cung": "Khôn",
+          "hanh": "Thổ",
+          "nhom": "Tây Tứ Trạch",
+          "huong_tot": "Đông Bắc (Sinh Khí), Tây (Thiên Y), Tây Bắc (Diên Niên), Tây Nam (Phục Vị)",
+          "huong_xau": "Bắc (Tuyệt Mệnh), Đông Nam (Ngũ Quỷ), Nam (Lục Sát), Đông (Họa Hại)"
+        },
+        {
+          "so": 3,
+          "cung": "Chấn",
+          "hanh": "Mộc",
+          "nhom": "Đông Tứ Trạch",
+          "huong_tot": "Nam (Sinh Khí), Bắc (Thiên Y), Đông Nam (Diên Niên), Đông (Phục Vị)",
+          "huong_xau": "Tây (Tuyệt Mệnh), Tây Bắc (Ngũ Quỷ), Đông Bắc (Lục Sát), Tây Nam (Họa Hại)"
+        },
+        {
+          "so": 4,
+          "cung": "Tốn",
+          "hanh": "Mộc",
+          "nhom": "Đông Tứ Trạch",
+          "huong_tot": "Bắc (Sinh Khí), Nam (Thiên Y), Đông (Diên Niên), Đông Nam (Phục Vị)",
+          "huong_xau": "Đông Bắc (Tuyệt Mệnh), Tây Nam (Ngũ Quỷ), Tây (Lục Sát), Tây Bắc (Họa Hại)"
+        },
+        {
+          "so": 6,
+          "cung": "Càn",
+          "hanh": "Kim",
+          "nhom": "Tây Tứ Trạch",
+          "huong_tot": "Tây (Sinh Khí), Đông Bắc (Thiên Y), Tây Nam (Diên Niên), Tây Bắc (Phục Vị)",
+          "huong_xau": "Nam (Tuyệt Mệnh), Đông (Ngũ Quỷ), Bắc (Lục Sát), Đông Nam (Họa Hại)"
+        },
+        {
+          "so": 7,
+          "cung": "Đoài",
+          "hanh": "Kim",
+          "nhom": "Tây Tứ Trạch",
+          "huong_tot": "Tây Bắc (Sinh Khí), Tây Nam (Thiên Y), Đông Bắc (Diên Niên), Tây (Phục Vị)",
+          "huong_xau": "Đông (Tuyệt Mệnh), Nam (Ngũ Quỷ), Đông Nam (Lục Sát), Bắc (Họa Hại)"
+        },
+        {
+          "so": 8,
+          "cung": "Cấn",
+          "hanh": "Thổ",
+          "nhom": "Tây Tứ Trạch",
+          "huong_tot": "Tây Nam (Sinh Khí), Tây Bắc (Thiên Y), Tây (Diên Niên), Đông Bắc (Phục Vị)",
+          "huong_xau": "Đông Nam (Tuyệt Mệnh), Bắc (Ngũ Quỷ), Đông (Lục Sát), Nam (Họa Hại)"
+        },
+        {
+          "so": 9,
+          "cung": "Ly",
+          "hanh": "Hỏa",
+          "nhom": "Đông Tứ Trạch",
+          "huong_tot": "Đông (Sinh Khí), Đông Nam (Thiên Y), Bắc (Diên Niên), Nam (Phục Vị)",
+          "huong_xau": "Tây Bắc (Tuyệt Mệnh), Tây (Ngũ Quỷ), Tây Nam (Lục Sát), Đông Bắc (Họa Hại)"
+        }
+      ]
+    }
+  },
+  "phan_3_bo_tri_ngoai_nha": {
+    "tieu_de": "Phần 3: Bố Trí Ngoài Nhà — Đón Khí Tốt Từ Ngoại Cảnh",
+    "cong_va_tuong_rao": {
+      "kich_thuoc_ti_le": "Cổng nhà nên rộng bằng khoảng 1/3 đến 1/2 chiều rộng mặt tiền nhà. Cổng quá to khiến khí phân tán không tụ; cổng quá hẹp khiến khí bị nghẽn tắc, khó đón tài lộc.",
+      "vi_tri_va_can_doi": "Hai cột cổng phải bằng nhau, kiên cố, không bị nứt vỡ nghiêng lệch. Tránh bố trí cổng lệch hẳn sang một bên gây mất cân đối âm dương.",
+      "tranh_vat_can": "Tránh để cổng đối diện trực tiếp với cột điện cao thế, cây cổ thụ chắn ngang, miệng cống rãnh bốc mùi hoặc góc tường nhọn nhà đối diện.",
+      "tuong_rao": "Tường rào cao vừa tầm mắt (1m8 - 2m2), có khe thoáng đón gió. Bên trái (Thanh Long) xây cao hơn hoặc bằng bên phải (Bạch Hổ) là thế đất thịnh vượng."
+    },
+    "minh_duong": {
+      "khai_niem": "Minh Đường là khoảng sân trống trải nằm giữa cổng chính và cửa nhà — nơi hội tụ và thanh lọc toàn bộ trường khí trước khi bước vào không gian sống.",
+      "nguyen_tac_giu_gin": "Luôn quét dọn sạch sẽ, bằng phẳng, lát gạch sáng màu, không để nước tù ứ đọng, không chất rác rưởi phế liệu bừa bãi.",
+      "tranh_che_khuat": "Không dựng lều bạt tối tăm, nhà kho tạm bợ hay trồng cây rậm rạp che kín mít ngay trước cửa chính làm cản trở dưỡng khí."
+    },
+    "thanh_long_bach_ho": {
+      "vi_tri": "Đứng từ TRONG NHÀ nhìn thẳng RA NGOÀI: Phía bên TAY TRÁI là Thanh Long (chủ về quý nhân, trí tuệ, tài lộc), phía bên TAY PHẢI là Bạch Hổ (chủ về quyền uy, sự an toàn, bảo vệ).",
+      "nguyen_tac_vang": "Thanh Long nên cao ráo, sáng sủa, động hơn Bạch Hổ một chút (Thế 'Tả Thanh Long hữu Bạch Hổ').",
+      "hoa_giai_khi_lech": "Nếu bên phải nhà có công trình cao vượt trội (Bạch Hổ quá vượng sinh thị phi cãi cọ): Trồng cây cao hoặc lắp đèn chiếu sáng bên cánh trái để kéo cân bằng năng lượng."
+    },
+    "duong_va_nuoc_ngoai_nha": {
+      "duong_om_cong": "Đường đi uốn lượn hình chữ C nhẹ nhàng ôm quanh nhà tạo thành thế 'Ngọc đới hoàn yêu' (Đai ngọc ôm lưng), chủ về phú quý dài lâu.",
+      "duong_dam_thang": "Đường thẳng tắp lao vào nhà mang sát khí mạnh: Giải pháp là đặt chậu cây xanh tán dày, làm cổng lệch góc hoặc dựng bình phong gốm sứ.",
+      "nguon_nuoc": "Nước sạch trong chảy êm ả trước nhà mang tài lộc. Tránh các mương rãnh nước đen tù đọng, bốc mùi làm hao tổn sức khỏe người già và trẻ nhỏ."
+    }
+  },
+  "phan_4_bo_tri_trong_nha": {
+    "tieu_de": "Phần 4: Bố Trí Trong Nhà — Từng Phòng Chi Tiết",
+    "cua_chinh": {
+      "vi_tri_va_anh_sang": "Cửa chính là 'Khí khẩu' nạp sinh khí cho toàn bộ ngôi nhà. Phải luôn sáng sủa, sạch sẽ, đèn hiên luôn hoạt động tốt.",
+      "huong_mo_cua": "Cánh cửa nên mở vào phía TRONG nhà để mời gọi sinh khí vào, không nên mở đẩy ra ngoài làm tản mất khí tốt.",
+      "tranh_xuyen_tam": "Tuyệt đối tránh 'Cửa chính đối diện thẳng cửa sau' (Xuyên tâm sát) khiến tiền vào cửa trước lại trôi tuột ra cửa sau. Cách hóa giải: đặt bình phong, tủ kệ thấp hoặc chậu cây xanh ở giữa.",
+      "tranh_xung_khac": "Tránh để cửa chính nhìn thẳng vào miệng bếp nấu, cửa nhà vệ sinh hoặc góc nhọn chân cầu thang."
+    },
+    "phong_khach": {
+      "vi_tri": "Phòng khách nên đặt ở vị trí đầu tiên ngay sau cửa chính, nơi đón nhiều ánh sáng tự nhiên và thông thoáng nhất.",
+      "ban_ghe_sofa": "Sofa chính phải tựa lưng vào bức tường kiên cố (thế tựa sơn), không kê lơ lửng giữa phòng hoặc quay lưng ra cửa chính.",
+      "tranh_xa_ngang": "Không kê bàn ghế ngồi tiếp khách hay bàn trà ngay dưới xà ngang trần nhà gây cảm giác đè nén, đau đầu, áp lực.",
+      "guong_soi": "Không treo gương to phản chiếu trực tiếp ra cửa chính (gương sẽ đẩy vượng khí ra ngoài) hoặc chiếu thẳng sau lưng người ngồi."
+    },
+    "bep_nau": {
+      "nguyen_tac_toa_hung_huong_cat": "Bếp nên TỌA (đặt lưng) ở cung hướng xấu để thiêu đốt hung khí, và HƯỚNG (mặt người nấu/núm vặn bếp) nhìn về cung hướng tốt lành.",
+      "4_dieu_cam_ky_tuyet_doi": [
+        "❌ Bếp đối diện cửa chính: Khiến tiền bạc tiêu hao, tài lộc không giữ được, người trong nhà dễ cáu gắt.",
+        "❌ Bếp đặt tại Trung Cung (chính giữa nhà): 'Hỏa thiêu Trung Cung' làm cả nhà nóng nảy, bất an, dễ mắc bệnh tim mạch, dạ dày.",
+        "❌ Bếp đối diện hoặc chung vách phòng ngủ: Hơi nóng và mùi dầu mỡ ám vào phòng ngủ gây ngột ngạt, mất ngủ, tính tình nóng nảy.",
+        "❌ Bếp đặt dưới phòng ngủ (ở tầng trên): Hỏa khí hun đúc từ dưới lên dễ gây đau ốm, mệt mỏi cho người ngủ phía trên."
+      ],
+      "xung_khac_thuy_hoa": {
+        "van_de": "Bếp nấu (Hỏa) đặt sát cạnh bồn rửa chén (Thủy) hoặc đối diện nhau tạo thế Thủy Hỏa tương xung, gia đình dễ bất hòa.",
+        "giai_phap": "Khoảng cách giữa bếp và bồn rửa tối thiểu từ 50cm trở lên. Đặt ở giữa một chiếc thớt gỗ, hũ gia vị bằng gốm hoặc chậu cây nhỏ (Mộc) để 'Thủy sinh Mộc, Mộc sinh Hỏa' hòa giải xung đột."
+      }
+    },
+    "phong_ngu": {
+      "vi_tri_giuong": "Đầu giường phải kê sát tường vững chãi. Hai bên giường nên có khoảng trống thoáng để bước lên xuống thuận tiện (cân bằng âm dương).",
+      "5_loi_cam_ky_dat_giuong": [
+        "❌ Đầu giường không có điểm tựa hoặc kê sát cửa sổ: Gây cảm giác bất an, gió lùa làm đau đầu, cảm lạnh, giấc ngủ chập chờn.",
+        "❌ Giường đối diện trực tiếp cửa ra vào: Khí xộc thẳng vào người nằm gây giật mình, mất ngủ, nhức mỏi các bộ phận cơ thể bị chiếu vào.",
+        "❌ Giường nằm dưới xà ngang bê tông: Gây cảm giác bóng đè, tức ngực, mộng mị triền miên, áp lực công việc đè nặng.",
+        "❌ Gương soi chiếu thẳng vào giường ngủ: Làm tán thần khí, nửa đêm thức dậy dễ hoảng sợ, ngủ không sâu giấc, tình cảm vợ chồng rạn nứt.",
+        "❌ Giường nằm kẹp giữa hai cửa đi hoặc thẳng hàng cửa ban công: Tạo luồng gió hút qua người gây suy giảm sức đề kháng."
+      ],
+      "mau_sac_phong_ngu": "Nên dùng gam màu dịu mát, ấm áp: màu be, kem, vàng nhạt, xanh nhạt, xám ấm. Tránh sơn toàn phòng màu đỏ rực (quá hưng phấn) hoặc đen tuyền (quá u ám)."
+    },
+    "phong_tho": {
+      "vi_tri_trang_nghiem": "Bàn thờ tổ tiên là nơi linh thiêng, tôn nghiêm nhất, nên đặt ở tầng cao nhất hoặc gian long trọng, tĩnh lặng của ngôi nhà.",
+      "huong_ban_tho": "Nên quay mặt về hướng Sinh Khí, Thiên Y hoặc Diên Niên theo cung mệnh gia chủ. Ban thờ phải luôn sáng sủa, sạch sẽ, trang nghiêm.",
+      "nhung_dieu_tuyet_doi_tranh": [
+        "❌ Ban thờ đặt dưới nhà vệ sinh hoặc phòng tắm tầng trên: Uế khí làm tổn hại đến vận khí và gia đạo.",
+        "❌ Ban thờ đặt ngay phía trên bếp nấu tầng dưới: Hỏa khí bốc lên gây xáo trộn linh khí.",
+        "❌ Ban thờ dựa lưng vào tường nhà vệ sinh, nhà tắm hoặc góc cầu thang ồn ào.",
+        "❌ Ban thờ đối diện trực tiếp với cửa phòng ngủ hoặc cửa nhà vệ sinh."
+      ]
+    },
+    "nha_ve_sinh": {
+      "nguyen_tac_dat": "Nhà vệ sinh là nơi thải uế khí, nên đặt ở các cung hướng xấu (Tuyệt Mệnh, Ngũ Quỷ, Họa Hại) theo nguyên tắc 'Lấy độc trị độc' để trấn áp tà khí.",
+      "tuyet_doi_tranh": "TUYỆT ĐỐI TRÁNH đặt nhà vệ sinh ở CHÍNH TÂM NGÔI NHÀ (Trung Cung). Tâm nhà là trái tim của trạch đất, nếu bị uế khí xâm chiếm thì sức khỏe cả nhà suy sụp, công việc bế tắc.",
+      "giu_gin_ve_sinh": "Cửa nhà vệ sinh luôn đóng kín khi không dùng, lắp quạt thông gió hoạt động đều đặn, luôn giữ sàn khô ráo, đặt chậu cây lưỡi hổ/trầu bà và túi than hoạt tính để lọc sạch không khí."
+    }
+  },
+  "phan_5_bat_cung_trong_nha": {
+    "tieu_de": "Phần 5: Bát Cung Trong Nhà — 8 Vùng Năng Lượng Chi Tiết",
+    "bang_tra_cuu_8_cung": [
+      {
+        "huong": "Bắc (Khảm)",
+        "hanh": "Thủy 💧",
+        "y_nghia": "Sự nghiệp, cơ hội nghề nghiệp, học vấn, dòng chảy tài chính",
+        "dat_tot": "Bể cá cảnh nhỏ, thác nước mini, tranh sông nước, bình hoa tươi, vật phẩm màu xanh dương hoặc đen",
+        "nen_tranh": "Bếp lửa đỏ rực, đống rác bừa bộn, góc nhà ẩm mốc tối tăm, đồ đạc gỗ cũ kỹ chặn lối"
+      },
+      {
+        "huong": "Đông Bắc (Cấn)",
+        "hanh": "Thổ 🏔️",
+        "y_nghia": "Trí tuệ, sự sáng suốt, học hành thi cử, tĩnh tâm tu dưỡng",
+        "dat_tot": "Bàn học của con, giá sách, tháp văn xương bằng đá, đèn bàn ánh sáng vàng ấm, đồ gốm sứ trang nhã",
+        "nen_tranh": "Xà ngang đè đầu, đồ đạc kim loại sắc nhọn, sự bừa bộn, nơi để đồ phế liệu hỏng hóc"
+      },
+      {
+        "huong": "Đông (Chấn)",
+        "hanh": "Mộc 🌳",
+        "y_nghia": "Gia đạo hòa thuận, sức khỏe dồi dào, sự khởi đầu và trường thọ",
+        "dat_tot": "Cây xanh tán lá tròn tươi tốt, chậu trúc phát tài, tranh phong cảnh rừng cây xanh ngát, đồ gỗ tự nhiên",
+        "nen_tranh": "Bếp lửa nóng rát, vật kim loại gỉ sét, đồ vật màu đỏ quá nhiều làm thiêu rụi hành Mộc"
+      },
+      {
+        "huong": "Đông Nam (Tốn)",
+        "hanh": "Mộc 🌳",
+        "y_nghia": "Tài lộc tích lũy, tiền tài tăng trưởng, giao tiếp thuận lợi",
+        "dat_tot": "Két sắt an toàn, cây kim tiền, hũ thạch anh chiêu tài, tượng thiềm thừ ngậm tiền quay vào trong",
+        "nen_tranh": "Cống thoát nước lộ thiên, thùng rác, nhà vệ sinh bẩn thỉu, đồ vật kim loại sắc nhọn"
+      },
+      {
+        "huong": "Nam (Ly)",
+        "hanh": "Hỏa 🔥",
+        "y_nghia": "Danh tiếng, uy tín xã hội, danh dự gia đình, sự thăng tiến",
+        "dat_tot": "Đèn chùm chiếu sáng ấm áp, giấy khen, cúp lưu niệm, tranh hoa mẫu đơn/hướng dương, vật phẩm màu đỏ/cam",
+        "nen_tranh": "Bể nước to, hồ cá lớn dập tắt Hỏa, gương soi lớn phản chiếu, góc tối tăm u ám"
+      },
+      {
+        "huong": "Tây Nam (Khôn)",
+        "hanh": "Thổ 🏔️",
+        "y_nghia": "Hôn nhân hạnh phúc, tình cảm vợ chồng, vị thế người phụ nữ trong gia đình",
+        "dat_tot": "Ảnh cưới trang trọng, đôi bình gốm sứ, đôi thiên nga/uyên ương, đèn ngủ ánh sáng ấm, hoa tươi",
+        "nen_tranh": "Đồ vật đơn lẻ cô độc, góc tường nhọn đâm vào, đồ vật gỉ sét, gương chiếu thẳng vào khu vực nghỉ ngơi"
+      },
+      {
+        "huong": "Tây (Đoài)",
+        "hanh": "Kim ⚔️",
+        "y_nghia": "Con cái sum vầy, sự sáng tạo, niềm vui và sự lạc quan",
+        "dat_tot": "Khung ảnh con cái, góc sáng tạo học tập, chuông gió kim loại 6 ống, tranh ảnh vui tươi màu trắng/bạc",
+        "nen_tranh": "Đồ vật vỡ nát, rác rưởi tích tụ, bếp lò lửa đỏ làm Hỏa khắc Kim"
+      },
+      {
+        "huong": "Tây Bắc (Càn)",
+        "hanh": "Kim ⚔️",
+        "y_nghia": "Quý nhân phù trợ, quyền uy người trụ cột, cơ hội mở rộng quan hệ",
+        "dat_tot": "Bàn làm việc của gia chủ, quả cầu pha lê, chuông gió kim loại, tủ sách lịch sử/triết học",
+        "nen_tranh": "Nhà vệ sinh đặt tại đây ('Hư Càn sát'), bếp đặt tại đây ('Hỏa thiêu Thiên Môn'), đồ đạc bừa bãi"
+      }
+    ]
+  },
+  "phan_6_mau_sac_va_ngu_hanh": {
+    "tieu_de": "Phần 6: Màu Sắc & Ngũ Hành — Hòa Hợp Năng Lượng Không Gian",
+    "mau_theo_huong_nha": [
+      {
+        "huong": "Nhà Hướng Đông & Đông Nam (Hành Mộc)",
+        "mau_khuyen_dung": "Xanh lá cây, xanh rêu, xanh lục, kết hợp màu vân gỗ nâu tự nhiên.",
+        "y_nghia": "Tăng cường sinh khí, thúc đẩy sự phát triển của công danh và sự gắn kết gia đình."
+      },
+      {
+        "huong": "Nhà Hướng Nam (Hành Hỏa)",
+        "mau_khuyen_dung": "Đỏ cam, vàng nhạt, hồng phấn, màu be ấm.",
+        "y_nghia": "Kích hoạt danh tiếng, mang lại sự nhiệt huyết, ấm cúng và sự nghiệp vẻ vang."
+      },
+      {
+        "huong": "Nhà Hướng Tây & Tây Bắc (Hành Kim)",
+        "mau_khuyen_dung": "Trắng sứ, kem nhạt, ánh bạc, xám ghi thanh lịch.",
+        "y_nghia": "Mang lại sự sáng suốt, thanh tịnh, thu hút nguồn năng lượng quý nhân giúp đỡ."
+      },
+      {
+        "huong": "Nhà Hướng Bắc (Hành Thủy)",
+        "mau_khuyen_dung": "Xanh dương, xanh biển sâu, xám nhạt kết hợp trắng sữa (Kim sinh Thủy).",
+        "y_nghia": "Giúp tài chính lưu thông thuận lợi, tinh thần thư thái, công việc hanh thông."
+      },
+      {
+        "huong": "Nhà Hướng Đông Bắc, Tây Nam & Trung Cung (Hành Thổ)",
+        "mau_khuyen_dung": "Vàng đất, nâu đất, màu be ấm, màu cà phê sữa.",
+        "y_nghia": "Nuôi dưỡng sự ổn định, điềm tĩnh, tích lũy đất đai của cải và gia đạo êm ấm."
+      }
+    ],
+    "mau_theo_menh_gia_chu": [
+      {
+        "menh": "Gia Chủ Mệnh Mộc",
+        "mau_hop": "Xanh lá, xanh lục, đen, xanh nước biển (Thủy sinh Mộc)",
+        "mau_ky": "Trắng, ánh bạc, xám ghi quá nhiều (Kim khắc Mộc)"
+      },
+      {
+        "menh": "Gia Chủ Mệnh Hỏa",
+        "mau_hop": "Đỏ, cam, hồng, tím, xanh lá cây (Mộc sinh Hỏa)",
+        "mau_ky": "Đen, xanh dương đậm quá nhiều (Thủy khắc Hỏa)"
+      },
+      {
+        "menh": "Gia Chủ Mệnh Thổ",
+        "mau_hop": "Vàng đất, nâu đất, đỏ, cam, hồng (Hỏa sinh Thổ)",
+        "mau_ky": "Xanh lá cây đậm, xanh rêu quá nhiều (Mộc khắc Thổ)"
+      },
+      {
+        "menh": "Gia Chủ Mệnh Kim",
+        "mau_hop": "Trắng, xám, bạc, vàng đất, nâu be (Thổ sinh Kim)",
+        "mau_ky": "Đỏ đậm, hồng tươi, cam rực rỡ quá nhiều (Hỏa khắc Kim)"
+      },
+      {
+        "menh": "Gia Chủ Mệnh Thủy",
+        "mau_hop": "Xanh dương, đen, trắng, ánh kim, bạc (Kim sinh Thủy)",
+        "mau_ky": "Vàng đất, nâu đậm quá nhiều (Thổ khắc Thủy)"
+      }
+    ],
+    "nguyen_tac_can_bang": [
+      "Không lạm dụng độc nhất một màu: Dù là màu hợp mệnh cũng không nên sơn toàn bộ ngôi nhà cùng một gam màu đậm, dễ gây ức chế thị giác.",
+      "Quy tắc 60 - 30 - 10 trong trang trí: 60% màu chủ đạo trung tính (kem, trắng, be) cho tường; 30% màu bổ trợ cho nội thất lớn; 10% màu điểm nhấn phong thủy hợp mệnh cho tranh ảnh, gối, thảm.",
+      "Đủ 5 yếu tố Ngũ Hành trong nhà: Dù nhấn mạnh hành nào, ngôi nhà vẫn cần có một chút yếu tố của các hành khác để năng lượng tuần hoàn liên tục không bị đứt đoạn."
+    ]
+  },
+  "phan_7_vat_pham_phong_thuy": {
+    "tieu_de": "Phần 7: Vật Phẩm Phong Thủy — Cách Dùng Chuẩn Xác, Không Lạm Dụng",
+    "danh_sach_vat_pham": [
+      {
+        "ten": "Cây Xanh Phong Thủy — Vua Đón Sinh Khí",
+        "bieu_tuong": "🌿",
+        "cach_dung_dung": "Chọn cây có tán lá tròn, dày dặn, mọng nước, xanh tốt quanh năm như: Kim Tiền, Vạn Lộc, Phát Tài, Trầu Bà Đế Vương, Sen Đá. Đặt ở hướng Đông (Sức khỏe), Đông Nam (Tài lộc) hoặc góc phòng khách.",
+        "dieu_cam_ky": "Tuyệt đối không trồng cây lá nhọn hoắt, cây xương rồng nhiều gai nhọn trong phòng khách hay phòng ngủ (tạo ra mũi tên sát khí, gia đình dễ bất hòa). Khi cây bị héo khô cần thay thế ngay."
+      },
+      {
+        "ten": "Gương Soi Phong Thủy — Dùng Đúng Hóa Giải, Dùng Sai Gây Họa",
+        "bieu_tuong": "🪞",
+        "cach_dung_dung": "Treo gương ngoài cổng để phản xạ sát khí (đường đâm, góc nhọn); treo gương ở hành lang hẹp hoặc góc tối để lấy ánh sáng tự nhiên và mở rộng không gian.",
+        "dieu_cam_ky": "Không treo gương đối diện thẳng cửa chính (đẩy tài lộc ra ngoài); không chiếu thẳng vào giường ngủ (gây mộng mị, bất an); không chiếu thẳng vào ban thờ hay bếp nấu."
+      },
+      {
+        "ten": "Chuông Gió (Phong Linh) — Thanh Lọc Âm Khí, Kích Hoạt Sinh Khí",
+        "bieu_tuong": "🎐",
+        "cach_dung_dung": "Chọn chuông gió bằng kim loại có 6 hoặc 8 ống rỗng. Treo ở hiên nhà, ban công, hành lang dài hoặc vị trí cửa sổ đối diện luồng khí xấu để biến đổi năng lượng nặng nề thành âm thanh vui tươi, thanh lọc không gian.",
+        "dieu_cam_ky": "Không treo chuông gió ngay trên đầu giường ngủ hoặc ngay phía trên bàn ăn gây tiếng ồn liên tục làm gián đoạn giấc ngủ và bữa cơm."
+      },
+      {
+        "ten": "Thiềm Thừ Ba Chân (Cóc Ngậm Tiền Vàng) — Chiêu Tài Tụ Lộc",
+        "bieu_tuong": "🐸",
+        "cach_dung_dung": "Đặt ở phòng khách hoặc góc tài lộc (Đông Nam), đặt trên kệ thấp hoặc cạnh két sắt. Miệng cóc phải quay đầu vào TRONG NHÀ với ý nghĩa ngậm tiền tài mang về cho gia chủ.",
+        "dieu_cam_ky": "Không quay đầu cóc ra ngoài cửa chính (tiền tài nhả ra ngoài). Không đặt trong phòng ngủ, nhà vệ sinh hay phòng bếp."
+      },
+      {
+        "ten": "Kỳ Lân Đôi — Trấn Trạch, Hóa Giải Sát Khí",
+        "bieu_tuong": "🦁",
+        "cach_dung_dung": "Đặt một đôi Kỳ Lân đá hoặc đồng ở hai bên cổng chính, đầu quay hướng ra ngoài đường để hóa giải các thế sát như đường đâm, ngã ba, góc nhọn, bảo vệ bình an cho cả gia đình.",
+        "dieu_cam_ky": "Không đặt Kỳ Lân trong phòng ngủ hoặc quay đầu vào trong nhà."
+      },
+      {
+        "ten": "Tháp Văn Xương — Hỗ Trợ Học Vấn & Sự Nghiệp",
+        "bieu_tuong": "🗼",
+        "cach_dung_dung": "Chọn tháp 7 tầng hoặc 9 tầng bằng đá thạch anh, đồng hoặc gốm sứ. Đặt ở hướng Đông Bắc hoặc trên bàn học của con, bàn làm việc của người nghiên cứu giúp đầu óc minh mẫn, thi cử đỗ đạt.",
+        "dieu_cam_ky": "Không để tháp Văn Xương bám bụi bẩn, không đặt trong nhà vệ sinh hay góc tối tăm."
+      }
+    ]
+  },
+  "phan_8_20_loi_phong_thuy_thuong_gap": {
+    "tieu_de": "Phần 8: 20 Lỗi Phong Thủy Nhà Ở Thường Gặp & Cách Hóa Giải Chi Tiết",
+    "danh_sach_20_loi": [
+      {
+        "stt": 1,
+        "loi": "Cửa chính đối diện thẳng hàng với cửa sau (Xuyên tâm sát)",
+        "anh_huong": "Sinh khí và tiền tài vừa vào cửa trước liền trôi tuột ra cửa sau, làm ăn có tiền nhưng không tích lũy được.",
+        "cach_sua": "Đặt tấm bình phong gỗ, tủ kệ trang trí thấp hoặc chậu cây xanh tươi ở giữa đường nối hai cửa để cản luồng khí."
+      },
+      {
+        "stt": 2,
+        "loi": "Nhà vệ sinh nằm ở chính giữa nhà (Trung Cung)",
+        "anh_huong": "Uế khí làm ô nhiễm trái tim ngôi nhà, sức khỏe cả gia đình suy giảm, tâm trạng bất an, tài chính bế tắc.",
+        "cach_sua": "Luôn đóng chặt cửa nhà vệ sinh, bật quạt hút gió liên tục, đặt chậu cây lưỡi hổ, đĩa than hoạt tính và đèn vàng sáng ấm."
+      },
+      {
+        "stt": 3,
+        "loi": "Bếp nấu đối diện trực tiếp với cửa chính",
+        "anh_huong": "Tài lộc tiêu tán, người nấu bếp dễ bị giật mình, gia đình thường xuyên xảy ra cãi vã, xung đột.",
+        "cach_sua": "Làm quầy bar nhỏ hoặc tủ bếp che khuất tầm nhìn từ cửa chính vào bếp, hoặc treo rèm ngăn cách."
+      },
+      {
+        "stt": 4,
+        "loi": "Đầu giường ngủ kê sát cửa sổ hoặc không có tường tựa",
+        "anh_huong": "Không có chỗ dựa vững chãi trong cuộc sống, gió lùa gây đau đầu, mất ngủ, ngủ hay mê sảng.",
+        "cach_sua": "Kê đầu giường tựa vào bức tường kiên cố; nếu bắt buộc cạnh cửa sổ thì phải có rèm cửa dày đóng kín vào ban đêm."
+      },
+      {
+        "stt": 5,
+        "loi": "Gương soi chiếu thẳng vào giường ngủ",
+        "anh_huong": "Làm phân tán thần khí, nửa đêm thức dậy dễ hoảng sợ, ngủ không sâu giấc, tình cảm vợ chồng rạn nứt.",
+        "cach_sua": "Di dời gương sang vị trí khác; nếu là gương tủ quần áo cố định thì dùng khăn vải mềm che gương lại trước khi ngủ."
+      },
+      {
+        "stt": 6,
+        "loi": "Hành lang dài thẳng tuột đâm xuyên giữa nhà",
+        "anh_huong": "Luồng gió hút quá mạnh làm khí không tụ được, gia đình phân tán, cảm giác lạnh lẽo.",
+        "cach_sua": "Treo tranh phong cảnh dọc hành lang, đặt chậu cây cảnh nhỏ ngắt đoạn hoặc treo chuông gió ở giữa hành lang."
+      },
+      {
+        "stt": 7,
+        "loi": "Thế đất trước cao sau thấp (nhà dốc xuống)",
+        "anh_huong": "Hậu vận không có chỗ dựa, tiền tài trôi dốc, gia đình dễ cảm thấy hụt hẫng.",
+        "cach_sua": "Xây tường rào phía sau cao hơn, trồng hàng cau hoặc cây cao sau nhà, lắp đèn chiếu hắt lên phía sau nhà."
+      },
+      {
+        "stt": 8,
+        "loi": "Cột điện, cây to hoặc góc nhọn nhà khác chĩa thẳng vào cửa",
+        "anh_huong": "Tạo áp lực tâm lý nặng nề, dễ xảy ra va chạm xích mích, tai nạn lặt vặt.",
+        "cach_sua": "Trồng giàn cây xanh tán dày chắn tầm nhìn, dựng bình phong gỗ ngoài hiên hoặc treo gương bát quái lồi ngoài cổng."
+      },
+      {
+        "stt": 9,
+        "loi": "Bếp nấu ở tầng dưới đặt ngay dưới phòng ngủ tầng trên",
+        "anh_huong": "Hỏa khí hun nóng lên người nằm phía trên gây đau đầu, nóng trong người, dễ cáu gắt và mất ngủ.",
+        "cach_sua": "Trải thảm dày màu xanh lá hoặc màu be dưới sàn phòng ngủ tầng trên để làm mát khí; nếu được nên kê giường tránh vị trí bếp."
+      },
+      {
+        "stt": 10,
+        "loi": "Nhà bị khuyết góc Đông Nam (Cung Tài Lộc)",
+        "anh_huong": "Cơ hội kiếm tiền hay bị bỏ lỡ giữa chừng, tích lũy tài chính gặp nhiều trở ngại.",
+        "cach_sua": "Treo gương phẳng lớn ở bức tường bị khuyết để tạo cảm giác không gian trọn vẹn, đặt chậu cây xanh và đèn sáng tại góc đó."
+      },
+      {
+        "stt": 11,
+        "loi": "Lối vào cửa chính quá tối tăm, đồ đạc chất đống",
+        "anh_huong": "Sinh khí không thể vào nhà, cơ hội công việc bị cản trở, người sống trong nhà uể oải lười biếng.",
+        "cach_sua": "Dọn dẹp sạch sẽ toàn bộ giày dép rác rưởi, lắp bóng đèn sáng ấm ở hiên và hành lang ra vào."
+      },
+      {
+        "stt": 12,
+        "loi": "Hai cửa phòng ngủ đối diện thẳng nhau (Đối môn sát)",
+        "anh_huong": "Hai người ở hai phòng dễ xảy ra bất đồng ý kiến, tranh luận gay gắt, thiếu sự nhường nhịn.",
+        "cach_sua": "Treo rèm vải mềm ở một bên cửa, hoặc dán chữ 'Bình An', tránh mở cả hai cửa cùng một lúc."
+      },
+      {
+        "stt": 13,
+        "loi": "Bếp nấu và bồn rửa bát đặt sát cạnh hoặc đối diện nhau",
+        "anh_huong": "Thủy Hỏa tương khắc khiến không khí gia đình ngột ngạt, hay cãi cọ vì những chuyện nhỏ.",
+        "cach_sua": "Tách khoảng cách từ 50cm trở lên; đặt một chiếc thớt gỗ hoặc chậu cây nhỏ ở giữa để Mộc trung hòa Thủy - Hỏa."
+      },
+      {
+        "stt": 14,
+        "loi": "Cửa nhà vệ sinh đối diện trực tiếp với giường ngủ",
+        "anh_huong": "Hơi ẩm và uế khí bốc ra khiến người nằm dễ mệt mỏi, đau lưng, suy giảm sức đề kháng.",
+        "cach_sua": "Luôn đóng chặt cửa nhà vệ sinh, treo rèm hạt gỗ trước cửa WC, đặt chậu cây lọc khí ở giữa hai cửa."
+      },
+      {
+        "stt": 15,
+        "loi": "Trần nhà có xà ngang đè lên đầu giường, bàn học hoặc sofa",
+        "anh_huong": "Tạo áp lực vô hình làm người ngồi dưới hay bị nhức đầu, lo âu, cảm giác bị cấp trên hay số phận đè nén.",
+        "cach_sua": "Làm trần thạch cao phẳng che kín xà ngang; nếu không thể làm trần thì kê dịch chuyển đồ đạc tránh khỏi bóng xà."
+      },
+      {
+        "stt": 16,
+        "loi": "Đồ đạc cũ hỏng, gãy vỡ, không dùng đến chất đầy góc nhà",
+        "anh_huong": "Tích tụ âm khí và trì trệ, cản trở các luồng năng lượng mới, làm suy giảm vận may của gia chủ.",
+        "cach_sua": "Mạnh dạn vứt bỏ hoặc thanh lý đồ hỏng, dọn dẹp nhà cửa gọn gàng theo lối sống tối giản để nhà có khoảng thở."
+      },
+      {
+        "stt": 17,
+        "loi": "Cây cối trong nhà bị héo úa, rụng lá vàng vọt",
+        "anh_huong": "Báo hiệu năng lượng sinh khí đang suy giảm, mang lại cảm giác buồn bã, ảm đạm.",
+        "cach_sua": "Cắt tỉa lá héo ngay lập tức, đem cây ra phơi nắng tưới nước; nếu cây chết phải thay thế bằng chậu cây xanh tươi mới."
+      },
+      {
+        "stt": 18,
+        "loi": "Bóng đèn cháy hỏng để lâu không thay, góc nhà tối tăm ẩm mốc",
+        "anh_huong": "Khí âm phát sinh mạnh, khiến tinh thần người trong nhà sa sút, bi quan, công việc chậm chạp.",
+        "cach_sua": "Thay ngay bóng đèn hỏng, đảm bảo tất cả các góc nhà đều được chiếu sáng đầy đủ và ấm cúng."
+      },
+      {
+        "stt": 19,
+        "loi": "Bàn ăn đặt ngay dưới xà ngang bê tông",
+        "anh_huong": "Bữa cơm gia đình nặng nề, ăn không ngon miệng, sức khỏe tiêu hóa suy giảm.",
+        "cach_sua": "Di chuyển bàn ăn sang vị trí trần phẳng, treo đèn chùm ánh vàng ấm phía trên bàn ăn."
+      },
+      {
+        "stt": 20,
+        "loi": "Nhà quá chật chội, không có khoảng trống, đồ đạc che kín 100% diện tích",
+        "anh_huong": "Khí bị bế tắc hoàn toàn, người sống trong nhà cảm thấy ngột ngạt, bí bách, thiếu ý tưởng sáng tạo.",
+        "cach_sua": "Giữ nguyên tắc '1/3 khoảng trống' — luôn để dành ít nhất 30% diện tích sàn nhà thông thoáng cho khí lưu chuyển."
+      }
+    ]
+  },
+  "phan_9_cong_cu_tinh_cung_menh": {
+    "tieu_de": "Phần 9: Công Cụ Tra Cứu Cung Mệnh Phong Thủy Trực Tuyến",
+    "huong_dan": "Nhập năm sinh dương lịch và chọn giới tính Nam/Nữ để hệ thống tự động quy đổi năm sinh Âm lịch, tính số Cung Phi, phân nhóm Đông/Tây Tứ Trạch và đưa ra gợi ý hướng nhà, hướng giường, hướng bếp chuẩn xác nhất."
+  },
+  "phan_10_bang_tu_danh_gia_nha": {
+    "tieu_de": "Phần 10: Bảng Tự Đánh Giá Phong Thủy Ngôi Nhà (20 Câu Hỏi)",
+    "danh_sach_20_cau_hoi": [
+      {
+        "id": 1,
+        "khu_vuc": "Thế Đất",
+        "cau_hoi": "Nền nhà của bạn có cao ráo hơn mặt đường phía trước tối thiểu 15cm không?",
+        "diem": 5
+      },
+      {
+        "id": 2,
+        "khu_vuc": "Thế Đất",
+        "cau_hoi": "Phía trước nhà có khoảng sân (Minh Đường) thoáng đãng, không bị đường đâm thẳng vào cửa không?",
+        "diem": 5
+      },
+      {
+        "id": 3,
+        "khu_vuc": "Cửa Chính",
+        "cau_hoi": "Cửa chính mở ra không nhìn thẳng vào cửa sau (không bị thế xuyên tâm sát)?",
+        "diem": 5
+      },
+      {
+        "id": 4,
+        "khu_vuc": "Cửa Chính",
+        "cau_hoi": "Cửa chính có sáng sủa, sạch sẽ, không nhìn thẳng vào nhà vệ sinh hay góc bếp không?",
+        "diem": 5
+      },
+      {
+        "id": 5,
+        "khu_vuc": "Phòng Khách",
+        "cau_hoi": "Bàn ghế sofa phòng khách có tựa lưng vào bức tường kiên cố, không bị xà ngang đè không?",
+        "diem": 5
+      },
+      {
+        "id": 6,
+        "khu_vuc": "Phòng Khách",
+        "cau_hoi": "Phòng khách có đủ ánh sáng tự nhiên và thông thoáng không?",
+        "diem": 5
+      },
+      {
+        "id": 7,
+        "khu_vuc": "Bếp Nấu",
+        "cau_hoi": "Bếp nấu không đặt ở chính giữa nhà (Trung Cung) và không đối diện thẳng cửa chính?",
+        "diem": 5
+      },
+      {
+        "id": 8,
+        "khu_vuc": "Bếp Nấu",
+        "cau_hoi": "Bếp nấu và bồn rửa bát cách nhau tối thiểu 50cm (không đặt sát cạnh nhau)?",
+        "diem": 5
+      },
+      {
+        "id": 9,
+        "khu_vuc": "Bếp Nấu",
+        "cau_hoi": "Phía sau bếp nấu là bức tường kín đáo, không có cửa sổ to gió thổi trực tiếp vào lửa?",
+        "diem": 5
+      },
+      {
+        "id": 10,
+        "khu_vuc": "Phòng Ngủ",
+        "cau_hoi": "Đầu giường ngủ của bạn có tựa lưng vững chắc vào tường, không bị kê dưới xà ngang?",
+        "diem": 5
+      },
+      {
+        "id": 11,
+        "khu_vuc": "Phòng Ngủ",
+        "cau_hoi": "Giường ngủ không bị gương soi chiếu thẳng vào người nằm?",
+        "diem": 5
+      },
+      {
+        "id": 12,
+        "khu_vuc": "Phòng Ngủ",
+        "cau_hoi": "Giường ngủ không nằm đối diện trực tiếp với cửa ra vào hoặc cửa nhà vệ sinh?",
+        "diem": 5
+      },
+      {
+        "id": 13,
+        "khu_vuc": "Phòng Thờ",
+        "cau_hoi": "Ban thờ đặt ở nơi cao ráo, tôn nghiêm, không nằm dưới nhà vệ sinh tầng trên?",
+        "diem": 5
+      },
+      {
+        "id": 14,
+        "khu_vuc": "Phòng Thờ",
+        "cau_hoi": "Ban thờ không dựa lưng vào tường nhà vệ sinh hoặc nhà tắm?",
+        "diem": 5
+      },
+      {
+        "id": 15,
+        "khu_vuc": "Nhà Vệ Sinh",
+        "cau_hoi": "Nhà vệ sinh không nằm ở chính tâm ngôi nhà và luôn được giữ khô ráo, đóng kín cửa?",
+        "diem": 5
+      },
+      {
+        "id": 16,
+        "khu_vuc": "Ánh Sáng",
+        "cau_hoi": "Tất cả các phòng trong nhà đều có bóng đèn hoạt động tốt, không có góc nào bị tối tăm ẩm thấp?",
+        "diem": 5
+      },
+      {
+        "id": 17,
+        "khu_vuc": "Cây Xanh",
+        "cau_hoi": "Trong nhà có cây xanh tươi tốt (lá tròn) và không trồng cây có gai nhọn (như xương rồng)?",
+        "diem": 5
+      },
+      {
+        "id": 18,
+        "khu_vuc": "Gọn Gàng",
+        "cau_hoi": "Nhà bạn không tích trữ đồ cũ hỏng, lối đi luôn thông thoáng (có ít nhất 30% khoảng trống)?",
+        "diem": 5
+      },
+      {
+        "id": 19,
+        "khu_vuc": "Màu Sắc",
+        "cau_hoi": "Màu sơn tường và nội thất hài hòa, không sơn độc một màu quá rực rỡ hay u tối?",
+        "diem": 5
+      },
+      {
+        "id": 20,
+        "khu_vuc": "Gia Đạo",
+        "cau_hoi": "Các thành viên trong gia đình luôn giữ không khí hòa thuận, nói lời nhã nhặn, chăm sóc lẫn nhau?",
+        "diem": 5
+      }
+    ],
+    "thang_diem_danh_gia": [
+      {
+        "khoang_diem": "80 - 100 điểm",
+        "danh_gia": "✅ Phong Thủy Rất Tốt (Đại Cát)",
+        "loi_khuyen": "Ngôi nhà của bạn có trường khí rất hài hòa, tụ khí tàng phong. Hãy tiếp tục giữ gìn sự sạch sẽ, ngăn nắp và nuôi dưỡng tình cảm hòa thuận trong gia đình để vượng khí bền lâu."
+      },
+      {
+        "khoang_diem": "60 - 79 điểm",
+        "danh_gia": "⚠️ Phong Thủy Khá (Có Thể Cải Thiện Thêm)",
+        "loi_khuyen": "Nhà bạn đã có nền tảng cơ bản tốt, nhưng còn một vài lỗi nhỏ. Hãy kiểm tra lại những câu trả lời 'Không' ở trên và xem hướng dẫn tại Phần 8 để hóa giải từng điểm một cách nhẹ nhàng."
+      },
+      {
+        "khoang_diem": "40 - 59 điểm",
+        "danh_gia": "⚠️ Cần Điều Chỉnh Bố Trí (Trung Bình)",
+        "loi_khuyen": "Không gian sống đang có nhiều điểm xung khắc hoặc bế tắc dòng khí (như bếp sát bồn rửa, gương chiếu giường, đồ đạc bừa bộn). Hãy bắt đầu dọn dẹp, thay đèn, kê lại giường và thông gió ngay hôm nay."
+      },
+      {
+        "khoang_diem": "Dưới 40 điểm",
+        "danh_gia": "❌ Cần Cải Tạo Sắp Xếp Toàn Diện (Nhiều Xung Sát)",
+        "loi_khuyen": "Ngôi nhà đang bị phạm nhiều lỗi phong thủy gây uế khí và thất thoát tài lộc. Hãy lập danh sách ưu tiên: (1) Dọn dẹp sạch sẽ, (2) Đóng kín và khử mùi nhà vệ sinh, (3) Kê lại đầu giường và bàn thờ, (4) Tách bếp khỏi nguồn nước."
+      }
+    ]
+  }
+}
