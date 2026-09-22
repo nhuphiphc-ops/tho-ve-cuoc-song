@@ -163,7 +163,7 @@
         <!-- User profile for mobile -->
         <div class="flex xl:hidden items-center gap-2">
           <button onclick="document.getElementById('quick-hub-modal')?.classList.remove('hidden')" class="px-2.5 py-1.5 rounded-xl text-xs font-bold bg-indigo-950/60 border border-indigo-500/40 text-indigo-300 flex items-center gap-1 cursor-pointer">
-            <span>🧭</span> <span>Mục Lục 18 Chủ Đề</span>
+            <span>🧭</span> <span>Mục Lục 19 Chủ Đề</span>
           </button>
           <div id="mobile-user-badge" class="hidden text-[11px] font-bold text-indigo-300 bg-indigo-500/15 px-2.5 py-1 rounded-xl border border-indigo-500/20"></div>
           <button onclick="handleLogout()" id="btn-logout-mobile" class="hidden p-1.5 rounded-xl text-xs bg-rose-950/40 text-rose-300 border border-rose-800/40">
@@ -293,6 +293,13 @@
             class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200 hidden"
           >
             <span>🚨</span> <span>Cấp Cứu</span>
+          </button>
+          <button
+            id="tab-bandotrithuc"
+            onclick="switchMainTab('bandotrithuc')"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200 hidden"
+          >
+            <span>🗺️</span> <span>Bản Đồ Tri Thức</span>
           </button>
 <button
             id="tab-chongaytot"
@@ -426,6 +433,13 @@
             <div class="text-2xl mb-1.5">🚨</div>
             <b class="text-red-200 text-xs font-bold block mb-1 group-hover:text-white">Cấp Cứu Tại Nhà</b>
             <p class="text-[10px] text-slate-300 leading-snug">9 phần khẩn cấp, Gọi 115, CPR Metronome, Loa đọc</p>
+          </button>
+          <!-- Bản Đồ Tri Thức (MỚI) -->
+          <button onclick="switchMainTab('bandotrithuc')" class="p-3.5 rounded-2xl bg-gradient-to-br from-indigo-950/70 via-purple-950/50 to-slate-900 border-2 border-indigo-500/70 hover:border-indigo-400 text-left transition-all duration-300 hover:scale-[1.03] shadow-lg shadow-indigo-950/40 group relative overflow-hidden cursor-pointer">
+            <span class="absolute top-1.5 right-1.5 text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-indigo-600 text-white animate-pulse">MỚI ⭐</span>
+            <div class="text-2xl mb-1.5">🗺️</div>
+            <b class="text-indigo-200 text-xs font-bold block mb-1 group-hover:text-white">Bản Đồ Tri Thức</b>
+            <p class="text-[10px] text-slate-300 leading-snug">Mạng lưới 8 nhóm tri thức, Lộ trình Bố & Con, Loa đọc</p>
           </button>
 
           <!-- 3. Chọn Ngày Tốt (MỚI) -->
@@ -2414,6 +2428,7 @@
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-chongaytot" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🗓️ Chọn Ngày Tốt</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-caudotritue" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🧠 Câu Đố Trí Tuệ</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-capcuu" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🚨 Cấp Cứu</span></label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-bandotrithuc" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🗺️ Bản Đồ Tri Thức</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-aiagent" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🤖 Trợ Lý AI</span></label>
             </div>
           </div>
@@ -2884,6 +2899,16 @@
             </div>
             <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-red-600 text-white">MỚI</span>
           </button>
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('bandotrithuc')" class="p-3 rounded-2xl bg-indigo-950/40 border border-indigo-500/40 text-left flex items-center justify-between hover:bg-indigo-900/40 transition-all cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span class="text-xl">🗺️</span>
+              <div>
+                <b class="text-indigo-200 block text-xs">Bản Đồ Tri Thức</b>
+                <span class="text-[10px] text-slate-400">Mạng lưới 8 nhóm tri thức, Lộ trình gia đình</span>
+              </div>
+            </div>
+            <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-indigo-600 text-white">MỚI</span>
+          </button>
 
           <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('muuke')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-purple-500/40 transition-all cursor-pointer">
             <span class="text-xl">⚔️</span>
@@ -3270,6 +3295,141 @@
       </div>
     </div>
 
+  
+    <!-- BẢN ĐỒ KIẾN THỨC LIÊN NGÀNH (TRUNG TÂM KẾT NỐI 10 PHẦN) -->
+    <div id="bandotrithuc-section" class="flex flex-col gap-6 hidden">
+      <!-- Hero Header -->
+      <div class="glass-card p-6 md:p-8 rounded-3xl relative overflow-hidden border-2 border-indigo-500/70 shadow-2xl shadow-indigo-950/50 bg-gradient-to-br from-slate-900 via-indigo-950/40 to-slate-900">
+        <div class="absolute -right-8 -bottom-8 text-9xl text-indigo-500/10 pointer-events-none select-none font-black">LINK</div>
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-500/40 text-indigo-300 text-xs font-bold uppercase tracking-wider mb-3">
+              <span class="animate-pulse text-sm">🌐</span> TRUNG TÂM KẾT NỐI HỆ SINH THÁI TRI THỨC • GIA ĐÌNH BÁC PHI
+            </div>
+            <h1 class="text-2xl md:text-4xl font-black font-display text-white tracking-tight flex items-center gap-3">
+              <span>BẢN ĐỒ KIẾN THỨC LIÊN NGÀNH</span>
+              <span class="text-xs md:text-sm font-semibold px-2.5 py-0.5 rounded-lg bg-gradient-to-r from-indigo-600 to-purple-600 text-white tracking-normal">10 PHẦN</span>
+            </h1>
+            <p class="text-xs md:text-sm text-slate-300 mt-2 max-w-2xl leading-relaxed">
+              Kiến thức không tồn tại riêng lẻ — mọi thứ đều nối với nhau. Nhìn thấy mối liên hệ là bước đầu của tư duy thông minh. <b>Mọi lĩnh vực cuối cùng quy về: Con Người sống tốt, làm thành công và gia đình hòa thuận!</b>
+            </p>
+          </div>
+
+          <!-- Dual TTS Action Toolbar -->
+          <div class="flex flex-wrap md:flex-col gap-2.5 shrink-0">
+            <button 
+              onclick="playTTSBanDo(event, 'Bản Đồ Kiến Thức Liên Ngành. Kiến thức không tồn tại riêng lẻ, mọi thứ đều nối với nhau. Nhìn thấy mối liên hệ là bước đầu của tư duy thông minh.', false)" 
+              class="px-4 py-2.5 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all flex items-center gap-2 cursor-pointer shadow-lg shadow-indigo-600/30 active:scale-95"
+            >
+              <span>🔊</span> <span>Nghe Giới Thiệu</span>
+            </button>
+            <button 
+              onclick="playTTSBanDo(event, 'Tóm tắt: Hệ thống gồm 8 nhóm tri thức lớn xoay quanh trung tâm Con Người. Sức khỏe, Tri tuệ, Tài chính, Xây dựng, Pháp lý, Cổ học, Công nghệ và Gia đình kết nối chặt chẽ tạo nên thành công bền vững.', true)" 
+              class="px-4 py-2.5 rounded-2xl bg-purple-950/70 hover:bg-purple-900 text-purple-200 hover:text-white border border-purple-500/40 text-xs font-bold transition-all flex items-center gap-2 cursor-pointer shadow-lg active:scale-95"
+            >
+              <span>⚡</span> <span>Nghe Tóm Tắt Nhanh</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Progress Overview Widget -->
+        <div class="mt-6 p-4 rounded-2xl bg-slate-950/70 border border-indigo-500/30 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div class="w-full md:w-2/3 flex flex-col gap-1.5">
+            <div class="flex justify-between items-center text-xs">
+              <span class="font-bold text-slate-300 flex items-center gap-1.5">
+                <span>📊</span> Tiến Độ Nắm Vững Toàn Mạng Lưới Kiến Thức:
+              </span>
+              <span id="bdt-total-progress-pct" class="font-black text-indigo-400 font-mono">0%</span>
+            </div>
+            <div class="w-full h-3 rounded-full bg-slate-900 border border-slate-800 overflow-hidden">
+              <div id="bdt-total-progress-bar" class="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full transition-all duration-500" style="width: 0%"></div>
+            </div>
+          </div>
+          <div class="text-xs text-amber-200 bg-amber-950/30 px-3.5 py-2 rounded-xl border border-amber-500/20 italic max-w-sm text-center md:text-left" id="bdt-auto-advice">
+            Đang phân tích tiến độ học tập...
+          </div>
+        </div>
+      </div>
+
+      <!-- 10 Sub-Tabs Navigation -->
+      <div class="glass-card p-3 rounded-2xl border-indigo-500/20 overflow-x-auto scrollbar-none">
+        <div class="inline-flex items-center gap-1.5 p-1 rounded-2xl bg-slate-900/90 border border-slate-800 overflow-x-auto max-w-full" id="bandotrithuc-sub-tabs">
+          <button onclick="selectBanDoPart(1)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-white bg-gradient-to-r from-indigo-600 to-purple-600 shadow-md cursor-pointer whitespace-nowrap" data-part="1">
+            P1. Bản Đồ Tổng Thể
+          </button>
+          <button onclick="selectBanDoPart(2)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="2">
+            P2. Sức Khỏe
+          </button>
+          <button onclick="selectBanDoPart(3)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="3">
+            P3. Tri Tuệ
+          </button>
+          <button onclick="selectBanDoPart(4)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="4">
+            P4. Tài Chính & Đầu Tư
+          </button>
+          <button onclick="selectBanDoPart(5)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="5">
+            P5. Xây Dựng & BĐS
+          </button>
+          <button onclick="selectBanDoPart(6)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="6">
+            P6. Pháp Lý & Xã Hội
+          </button>
+          <button onclick="selectBanDoPart(7)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="7">
+            P7. Công Nghệ & Tương Lai
+          </button>
+          <button onclick="selectBanDoPart(8)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="8">
+            P8. Bản Đồ Con Người
+          </button>
+          <button onclick="selectBanDoPart(9)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="9">
+            P9. Tự Mở Rộng Kiến Thức
+          </button>
+          <button onclick="selectBanDoPart(10)" class="bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap" data-part="10">
+            P10. Tương Tác & Lộ Trình 7 Ngày
+          </button>
+        </div>
+      </div>
+
+      <!-- Dynamic Content Area for 10 Parts -->
+      <div id="bdt-dynamic-part-container" class="flex flex-col gap-6 min-h-[400px]"></div>
+
+      <!-- Relation Explanation Modal (Khi bấm vào đường nối giữa 2 khối) -->
+      <div id="bdt-relation-modal" class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/80 backdrop-blur-md hidden" role="dialog" aria-modal="true">
+        <div class="glass-card p-6 sm:p-7 rounded-3xl w-full max-w-md flex flex-col gap-4 shadow-2xl relative border border-indigo-500/50 bg-slate-900/95">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+            <div class="flex items-center gap-2">
+              <span class="text-xl">🔗</span>
+              <h3 id="bdt-modal-rel-title" class="text-base font-bold text-white">Mối Liên Kết Liên Ngành</h3>
+            </div>
+            <button onclick="closeBanDoRelationModal()" class="p-1.5 rounded-xl bg-slate-800 text-slate-300 hover:text-white cursor-pointer">✕</button>
+          </div>
+          <div class="flex items-center justify-center gap-3 py-2 bg-slate-950 p-3 rounded-2xl border border-slate-800">
+            <span id="bdt-modal-from-node" class="text-xs font-black px-2.5 py-1 rounded-lg bg-indigo-950 text-indigo-300 border border-indigo-500/30">Khối A</span>
+            <span class="text-indigo-400 font-bold">⇄</span>
+            <span id="bdt-modal-to-node" class="text-xs font-black px-2.5 py-1 rounded-lg bg-indigo-950 text-indigo-300 border border-indigo-500/30">Khối B</span>
+          </div>
+          <div class="flex flex-col gap-2">
+            <b class="text-xs text-amber-300">Tại sao hai lĩnh vực này liên quan?</b>
+            <p id="bdt-modal-rel-desc" class="text-xs sm:text-sm text-slate-200 leading-relaxed"></p>
+          </div>
+          <div class="flex flex-col gap-2 mt-1">
+            <b class="text-xs text-emerald-300">Ứng dụng thực tiễn trong cuộc sống:</b>
+            <p id="bdt-modal-rel-app" class="text-xs text-slate-300 leading-relaxed bg-slate-950 p-3 rounded-xl border border-slate-800"></p>
+          </div>
+          <button onclick="closeBanDoRelationModal()" class="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs cursor-pointer transition-all mt-1">
+            Đã Hiểu Mối Liên Kết
+          </button>
+        </div>
+      </div>
+
+      <!-- Footer Quote -->
+      <div class="glass-card p-6 rounded-3xl text-center border-indigo-500/30 bg-gradient-to-r from-indigo-950/20 via-slate-900 to-indigo-950/20">
+        <p class="text-sm md:text-base font-semibold text-indigo-200 italic">
+          "Kiến thức không tồn tại riêng lẻ — mọi thứ đều nối với nhau. Nhìn thấy mối liên hệ là bước đầu của tư duy thông minh"
+        </p>
+        <p class="text-[11px] text-slate-400 mt-2">
+          Bản Đồ Kiến Thức Liên Ngành • Trung Tâm Kết Nối Tri Thức Gia Đình Nguyễn Như Phi
+        </p>
+      </div>
+    </div>
+
   </main>
 
   <!-- Login Screen Overlay -->
@@ -3533,8 +3693,10 @@
     const chongaytotSection = document.getElementById('chongaytot-section');
     const tabCaudotritue = document.getElementById('tab-caudotritue');
     const tabCapcuu = document.getElementById('tab-capcuu');
+    const tabBandotrithuc = document.getElementById('tab-bandotrithuc');
     const caudotritueSection = document.getElementById('caudotritue-section');
     const capcuuSection = document.getElementById('capcuu-section');
+    const bandotrithucSection = document.getElementById('bandotrithuc-section');
     const tabAiagent = document.getElementById('tab-aiagent');
     const headerStatus = document.getElementById('header-status');
 
@@ -3739,6 +3901,8 @@
       if (tabCaudotritue) setTabClass(tabCaudotritue, inactiveClass);
       if (capcuuSection) capcuuSection.classList.add('hidden');
       if (tabCapcuu) setTabClass(tabCapcuu, inactiveClass);
+      if (bandotrithucSection) bandotrithucSection.classList.add('hidden');
+      if (tabBandotrithuc) setTabClass(tabBandotrithuc, inactiveClass);
       setTabClass(tabAiagent, inactiveClass);
       setTabClass(document.getElementById('tab-users'), inactiveClass);
 
@@ -3820,6 +3984,10 @@
         if (capcuuSection) capcuuSection.classList.remove('hidden');
         if (tabCapcuu) setTabClass(tabCapcuu, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-red-600 via-rose-600 to-orange-600 text-white font-bold shadow-lg shadow-red-500/25");
         loadCapCuuData();
+      } else if (tab === 'bandotrithuc') {
+        if (bandotrithucSection) bandotrithucSection.classList.remove('hidden');
+        if (tabBandotrithuc) setTabClass(tabBandotrithuc, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white font-bold shadow-lg shadow-indigo-500/25");
+        loadBanDoTriThucData();
       } else if (tab === 'aiagent') {
         aiagentSection.classList.remove('hidden');
         setTabClass(tabAiagent, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25");
@@ -11416,6 +11584,566 @@
     });
 
 
+    
+    // ==================== BẢN ĐỒ KIẾN THỨC LIÊN NGÀNH LOGIC ====================
+    let banDoTriThucData = null;
+    let activeBanDoPart = 1;
+    let selectedBanDoNodeId = null;
+    let banDoSvgScale = 1;
+
+    async function loadBanDoTriThucData() {
+      if (banDoTriThucData) {
+        renderBanDoPart(activeBanDoPart);
+        return;
+      }
+      try {
+        const data = await fetchJsonWithCache('./ban_do_tri_thuc.json', 'Không thể tải dữ liệu Bản Đồ Tri Thức.');
+        if (data) {
+          banDoTriThucData = data;
+          renderBanDoPart(activeBanDoPart);
+        }
+      } catch (err) {
+        console.error("Lỗi nạp Bản Đồ Tri Thức:", err);
+        showToast("Không thể tải Bản Đồ Tri Thức", "⚠️");
+      }
+    }
+
+    window.selectBanDoPart = function(partNum) {
+      activeBanDoPart = partNum;
+      const buttons = document.querySelectorAll('#bandotrithuc-sub-tabs .bdt-part-btn');
+      buttons.forEach(btn => {
+        if (parseInt(btn.getAttribute('data-part')) === partNum) {
+          btn.className = 'bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-white bg-gradient-to-r from-indigo-600 to-purple-600 shadow-md cursor-pointer whitespace-nowrap';
+        } else {
+          btn.className = 'bdt-part-btn px-3 py-1.5 rounded-xl text-xs font-bold transition-all text-slate-400 hover:text-slate-200 hover:bg-slate-800 cursor-pointer whitespace-nowrap';
+        }
+      });
+      renderBanDoPart(partNum);
+    };
+
+    function renderBanDoPart(partNum) {
+      if (!banDoTriThucData) return;
+      updateBanDoProgressUI();
+      const container = document.getElementById('bdt-dynamic-part-container');
+      if (!container) return;
+
+      switch(partNum) {
+        case 1: renderPart1Overview(container); break;
+        case 2: renderPartCategory(container, 2, banDoTriThucData.section2, '#ef4444', 'fa-heart-pulse'); break;
+        case 3: renderPartCategory(container, 3, banDoTriThucData.section3, '#10b981', 'fa-brain'); break;
+        case 4: renderPartCategory(container, 4, banDoTriThucData.section4, '#8b5cf6', 'fa-chart-line'); break;
+        case 5: renderPartCategory(container, 5, banDoTriThucData.section5, '#f59e0b', 'fa-building-shield'); break;
+        case 6: renderPartCategory(container, 6, banDoTriThucData.section6, '#6366f1', 'fa-scale-balanced'); break;
+        case 7: renderPartCategory(container, 7, banDoTriThucData.section7, '#14b8a6', 'fa-robot'); break;
+        case 8: renderPart8HumanMap(container); break;
+        case 9: renderPart9Expansion(container); break;
+        case 10: renderPart10Interactive(container); break;
+        default: renderPart1Overview(container);
+      }
+    }
+
+    function renderPartHeader(title, summary, fullAudioText, summaryAudioText) {
+      return `
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-4">
+          <div>
+            <h2 class="text-lg sm:text-xl font-black text-white flex items-center gap-2">
+              <span>🌐</span> ${title}
+            </h2>
+            <p class="text-xs text-slate-300 mt-1 leading-relaxed max-w-3xl">${summary}</p>
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <button onclick="playTTSBanDo(event, '${fullAudioText.replace(/'/g, "\\'")}', false)" class="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer shadow-md">
+              <span>🔊</span> <span>Nghe</span>
+            </button>
+            <button onclick="playTTSBanDo(event, '${summaryAudioText.replace(/'/g, "\\'")}', true)" class="px-3 py-1.5 rounded-xl bg-purple-950/60 hover:bg-purple-900 text-purple-200 hover:text-white border border-purple-500/40 text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer">
+              <span>⚡</span> <span>Tóm Tắt</span>
+            </button>
+            <button onclick="stopTTSBanDo(event)" class="p-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white text-xs cursor-pointer">
+              ⏹️
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    // --- PART 1: BẢN ĐỒ TỔNG THỂ ---
+    function renderPart1Overview(container) {
+      const sec1 = banDoTriThucData.section1;
+      container.innerHTML = `
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-500/30 flex flex-col gap-6">
+          ${renderPartHeader(sec1.title, sec1.summary, sec1.summary, sec1.audioSummary)}
+
+          <!-- 1.1 Ý Nghĩa -->
+          <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col gap-3">
+            <h3 class="text-sm font-bold text-indigo-300 flex items-center gap-2">
+              <span>📌</span> 1.1 Ý Nghĩa Của Bản Đồ Kiến Thức Liên Ngành
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              ${sec1.meaning.map(m => `
+                <div class="p-2.5 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-200 flex items-start gap-2">
+                  <span class="text-emerald-400 mt-0.5">✓</span>
+                  <span>${m}</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- 1.2 Sơ Đồ Trung Tâm Con Người & 8 Nhánh -->
+          <div class="flex flex-col gap-3">
+            <h3 class="text-sm font-bold text-amber-300 flex items-center gap-2">
+              <span>🌟</span> 1.2 Các Nhóm Lớn Trong Bản Đồ (Trung Tâm: CON NGƯỜI)
+            </h3>
+            <div class="p-4 rounded-2xl bg-gradient-to-r from-indigo-950/40 via-purple-950/30 to-indigo-950/40 border border-indigo-500/40 text-center flex flex-col items-center">
+              <span class="px-3 py-1 rounded-full bg-indigo-600 text-white font-black text-xs uppercase tracking-wider mb-2">TRUNG TÂM HỆ THỐNG</span>
+              <h4 class="text-lg font-black text-white">${sec1.centerHub.name}</h4>
+              <p class="text-xs text-indigo-200 font-bold mt-1">${sec1.centerHub.core}</p>
+              <p class="text-[11px] text-slate-300 mt-1 italic">${sec1.centerHub.description}</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-2">
+              ${sec1.eightBranches.map(b => `
+                <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-indigo-500/40 transition-all flex flex-col justify-between gap-2.5">
+                  <div>
+                    <div class="flex items-center gap-2">
+                      <span class="w-7 h-7 rounded-xl flex items-center justify-center text-xs text-white" style="background-color: ${b.color}">
+                        <i class="fa-solid ${b.icon}"></i>
+                      </span>
+                      <b class="text-xs sm:text-sm text-white">${b.name}</b>
+                    </div>
+                    <p class="text-[11px] text-slate-400 mt-1.5 leading-snug">${b.desc}</p>
+                  </div>
+                  <button onclick="switchMainTab('${b.relatedTab}')" class="text-[11px] text-indigo-400 hover:text-indigo-300 underline font-bold flex items-center gap-1 cursor-pointer">
+                    Mở module liên quan →
+                  </button>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- 1.3 Cách Dùng -->
+          <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col gap-2.5">
+            <h3 class="text-sm font-bold text-teal-300 flex items-center gap-2">
+              <span>📖</span> 1.3 Cách Dùng Bản Đồ Thực Tế
+            </h3>
+            <ul class="flex flex-col gap-1.5 list-disc list-inside text-xs text-slate-300 leading-relaxed">
+              ${sec1.usageGuide.map(u => `<li>${u}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+      `;
+    }
+
+    // --- PARTS 2 TO 7: SPECIFIC DOMAIN CATEGORIES ---
+    function renderPartCategory(container, partNum, secData, badgeColor, iconClass) {
+      if (!secData) return;
+      container.innerHTML = `
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border border-slate-800 flex flex-col gap-6">
+          ${renderPartHeader(secData.title, secData.summary, secData.summary, secData.audioSummary)}
+
+          <!-- Sub-blocks Grid -->
+          <div class="flex flex-col gap-3">
+            <h3 class="text-sm font-bold text-white flex items-center gap-2">
+              <span>📦</span> Các Khối Kiến Thức Thành Phần (${secData.subBlocks.length} khối):
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+              ${secData.subBlocks.map(b => `
+                <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col justify-between gap-2.5">
+                  <div>
+                    <b class="text-xs sm:text-sm text-white block">${b.name}</b>
+                    <p class="text-[11px] text-slate-400 mt-1 leading-snug">${b.desc}</p>
+                  </div>
+                  ${b.relatedTab ? `
+                    <button onclick="switchMainTab('${b.relatedTab}')" class="text-[11px] text-indigo-400 hover:text-indigo-300 underline font-semibold flex items-center gap-1 cursor-pointer">
+                      Mở kho tri thức này →
+                    </button>
+                  ` : ''}
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Links Table -->
+          <div class="flex flex-col gap-3">
+            <h3 class="text-sm font-bold text-amber-300 flex items-center gap-2">
+              <span>🔗</span> Mối Liên Kết Giữa Các Khối:
+            </h3>
+            <div class="overflow-x-auto rounded-2xl border border-slate-800">
+              <table class="w-full text-left border-collapse text-xs">
+                <thead>
+                  <tr class="border-b border-slate-800 bg-slate-950 text-indigo-300 font-bold">
+                    <th class="py-2.5 px-3">Từ</th>
+                    <th class="py-2.5 px-3">Đến</th>
+                    <th class="py-2.5 px-3">Tại sao liên quan</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-850">
+                  ${secData.links.map(l => `
+                    <tr class="hover:bg-slate-900/50">
+                      <td class="py-2.5 px-3 font-bold text-white whitespace-nowrap">${l.from}</td>
+                      <td class="py-2.5 px-3 font-semibold text-indigo-300 whitespace-nowrap">${l.to}</td>
+                      <td class="py-2.5 px-3 text-slate-300 leading-relaxed">${l.reason}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Intersection Note -->
+          <div class="p-4 rounded-2xl bg-indigo-950/30 border border-indigo-500/30 text-xs sm:text-sm text-indigo-200 flex items-start gap-2.5 leading-relaxed">
+            <span class="text-base text-amber-300 mt-0.5">💡</span>
+            <div>
+              <b class="text-amber-300 block mb-0.5">Điểm giao thoa chính:</b>
+              ${secData.intersection}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // --- PART 8: BẢN ĐỒ CON NGƯỜI ---
+    function renderPart8HumanMap(container) {
+      const sec8 = banDoTriThucData.section8;
+      container.innerHTML = `
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-500/30 flex flex-col gap-6">
+          ${renderPartHeader(sec8.title, sec8.summary, sec8.summary, sec8.audioSummary)}
+
+          <!-- 5 Rings -->
+          <div class="flex flex-col gap-3.5">
+            ${sec8.fiveRings.map(r => `
+              <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div class="flex items-start sm:items-center gap-3">
+                  <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-black text-xs flex items-center justify-center shrink-0">
+                    ${r.ring}
+                  </span>
+                  <div>
+                    <h4 class="text-xs sm:text-sm font-bold text-white">${r.name}</h4>
+                    <p class="text-xs text-slate-300 mt-0.5 leading-relaxed">${r.desc}</p>
+                  </div>
+                </div>
+                <span class="px-2.5 py-1 rounded-lg bg-indigo-950 text-indigo-300 border border-indigo-500/30 text-[10px] font-black uppercase tracking-wider self-start sm:self-auto shrink-0">
+                  ${r.keyword}
+                </span>
+              </div>
+            `).join('')}
+          </div>
+
+          <div class="p-4 rounded-2xl bg-amber-950/30 border border-amber-500/30 text-xs text-amber-200 leading-relaxed italic">
+            <b>Nguyên lý xuyên suốt:</b> ${sec8.relationshipSummary}
+          </div>
+        </div>
+      `;
+    }
+
+    // --- PART 9: TỰ MỞ RỘNG KIẾN THỨC ---
+    function renderPart9Expansion(container) {
+      const sec9 = banDoTriThucData.section9;
+      container.innerHTML = `
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-500/30 flex flex-col gap-6">
+          ${renderPartHeader(sec9.title, sec9.summary, sec9.summary, sec9.audioSummary)}
+
+          <!-- Rule 3 Steps -->
+          <div class="flex flex-col gap-3">
+            <h3 class="text-sm font-bold text-white flex items-center gap-2">
+              <span>1️⃣</span> 9.1 Quy Tắc 3 Bước Nối Kiến Thức Mới
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              ${sec9.ruleThreeSteps.map(s => `
+                <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col gap-2">
+                  <div class="flex items-center gap-2">
+                    <span class="w-6 h-6 rounded-lg bg-indigo-600 text-white font-black text-xs flex items-center justify-center">${s.step}</span>
+                    <b class="text-xs sm:text-sm text-white">${s.title}</b>
+                  </div>
+                  <p class="text-xs text-slate-300 leading-relaxed">${s.desc}</p>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Intersection Table -->
+          <div class="flex flex-col gap-3">
+            <h3 class="text-sm font-bold text-amber-300 flex items-center gap-2">
+              <span>2️⃣</span> 9.2 Bảng Tìm Điểm Giao Thoa Nhanh
+            </h3>
+            <div class="overflow-x-auto rounded-2xl border border-slate-800">
+              <table class="w-full text-left border-collapse text-xs">
+                <thead>
+                  <tr class="border-b border-slate-800 bg-slate-950 text-indigo-300 font-bold">
+                    <th class="py-2.5 px-3">Nếu bạn học...</th>
+                    <th class="py-2.5 px-3">Thì liên quan ngay đến...</th>
+                    <th class="py-2.5 px-3">Vì cùng nguyên tắc...</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-850">
+                  ${sec9.intersectionTable.map(it => `
+                    <tr class="hover:bg-slate-900/50">
+                      <td class="py-2.5 px-3 font-bold text-white whitespace-nowrap">${it.learn}</td>
+                      <td class="py-2.5 px-3 font-semibold text-indigo-300 whitespace-nowrap">${it.relatesTo}</td>
+                      <td class="py-2.5 px-3 text-slate-300 leading-relaxed">${it.reason}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 3 Members Roadmaps -->
+          <div class="flex flex-col gap-3">
+            <h3 class="text-sm font-bold text-teal-300 flex items-center gap-2">
+              <span>3️⃣</span> 9.3 Lộ Trình Học Gợi Ý Cho Từng Thành Viên Gia Đình
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              ${sec9.memberRoadmaps.map(rm => `
+                <div class="p-5 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col justify-between gap-3">
+                  <div>
+                    <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                      <b class="text-sm font-bold text-white">${rm.role}</b>
+                      <span class="text-[10px] font-black uppercase px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-500/30">${rm.badge}</span>
+                    </div>
+                    <p class="text-xs text-indigo-300 font-semibold mt-2">${rm.title}</p>
+                    <ul class="flex flex-col gap-1.5 mt-2">
+                      ${rm.focusAreas.map(f => `<li class="text-xs text-slate-300 leading-snug flex items-start gap-1.5"><span class="text-emerald-400">✓</span> <span>${f}</span></li>`).join('')}
+                    </ul>
+                  </div>
+                  <div class="p-2.5 rounded-xl bg-slate-900 text-[11px] text-amber-200 italic leading-snug border border-slate-800">
+                    "${rm.quote}"
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // --- PART 10: TƯƠNG TÁC BẢN ĐỒ & LỘ TRÌNH 7 NGÀY ---
+    function renderPart10Interactive(container) {
+      const sec10 = banDoTriThucData.section10;
+      container.innerHTML = `
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-500/30 flex flex-col gap-6">
+          ${renderPartHeader(sec10.title, sec10.summary, sec10.summary, sec10.audioSummary)}
+
+          <!-- SVG Mindmap -->
+          <div class="p-4 rounded-2xl bg-slate-950 border border-slate-900 flex flex-col gap-3">
+            <div class="flex items-center justify-between text-xs text-slate-400">
+              <span class="flex items-center gap-1.5 font-bold text-white">
+                <span>🖱️</span> Bản Đồ Tương Tác (Bấm vào khối để mở chi tiết, bấm đường nối để xem lý do liên kết):
+              </span>
+              <div class="flex items-center gap-2">
+                <button onclick="resetBanDoZoom()" class="px-2 py-1 rounded bg-slate-900 border border-slate-800 text-xs">Reset</button>
+                <button onclick="zoomBanDo(1.15)" class="px-2 py-1 rounded bg-slate-900 border border-slate-800 text-xs font-bold">+</button>
+                <button onclick="zoomBanDo(0.85)" class="px-2 py-1 rounded bg-slate-900 border border-slate-800 text-xs font-bold">-</button>
+              </div>
+            </div>
+            <div class="w-full overflow-hidden rounded-xl bg-slate-950 min-h-[460px] flex items-center justify-center">
+              <svg id="bdt-svg-canvas" class="w-full h-[500px]" viewBox="0 0 900 600"></svg>
+            </div>
+          </div>
+
+          <!-- Weekly Schedule -->
+          <div class="flex flex-col gap-3">
+            <h3 class="text-sm font-bold text-white flex items-center gap-2">
+              <span>📅</span> Lộ Trình Học Hàng Tuần 7 Ngày
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+              ${sec10.weeklySchedule.map((ws, idx) => `
+                <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 flex items-start gap-3">
+                  <span class="w-7 h-7 rounded-xl bg-indigo-600 text-white font-black text-xs flex items-center justify-center shrink-0">
+                    ${idx + 1}
+                  </span>
+                  <div>
+                    <div class="flex items-center gap-2">
+                      <b class="text-xs sm:text-sm text-white">${ws.day}</b>
+                      <span class="text-[10px] text-indigo-400 font-bold bg-indigo-950 px-2 py-0.5 rounded border border-indigo-500/20">${ws.focus}</span>
+                    </div>
+                    <p class="text-xs text-slate-300 mt-1 leading-snug">${ws.task}</p>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+      renderSvgKnowledgeMap();
+    }
+
+    // Modal Helper for Relation
+    window.openBanDoRelationModal = function(from, to, reason, app) {
+      const modal = document.getElementById('bdt-relation-modal');
+      const fromEl = document.getElementById('bdt-modal-from-node');
+      const toEl = document.getElementById('bdt-modal-to-node');
+      const descEl = document.getElementById('bdt-modal-rel-desc');
+      const appEl = document.getElementById('bdt-modal-rel-app');
+
+      if (fromEl) fromEl.textContent = from;
+      if (toEl) toEl.textContent = to;
+      if (descEl) descEl.textContent = reason;
+      if (appEl) appEl.textContent = app || reason;
+      if (modal) modal.classList.remove('hidden');
+    };
+
+    window.closeBanDoRelationModal = function() {
+      const modal = document.getElementById('bdt-relation-modal');
+      if (modal) modal.classList.add('hidden');
+    };
+
+    function renderSvgKnowledgeMap() {
+      const svg = document.getElementById('bdt-svg-canvas');
+      if (!svg || !banDoTriThucData) return;
+
+      const sec1 = banDoTriThucData.section1;
+      const branches = sec1?.eightBranches || [];
+      const crossLinks = [
+        { from: "nhanh-1", to: "nhanh-2", fromName: "Sức Khỏe", toName: "Tri Tuệ", type: "green", reason: "Thân thể khỏe mạnh thì khí huyết lưu thông, não bộ minh mẫn, phản xạ tư duy nhanh nhạy.", app: "Bố tập thể dục và ngủ sớm giúp giải quyết công việc dự án sáng suốt." },
+        { from: "nhanh-1", to: "nhanh-3", fromName: "Sức Khỏe", toName: "Tài Chính", type: "green", reason: "Sức khỏe tốt duy trì sức lao động bền bỉ, tiết kiệm chi phí viện phí thuốc men.", app: "Kiểm soát tốt Gút giúp không gián đoạn công tác, tiết kiệm tiền triệu mỗi đợt viện phí." },
+        { from: "nhanh-2", to: "nhanh-3", fromName: "Tri Tuệ", toName: "Tài Chính", type: "green", reason: "Tư duy phản biện và 36 kế giúp phân tích thị trường chứng khoán FPT MBB, tránh bẫy lừa đảo.", app: "Không nghe theo đám đông, chỉ đầu tư doanh nghiệp có dòng tiền và giá trị thực." },
+        { from: "nhanh-3", to: "nhanh-4", fromName: "Tài Chính", toName: "Xây Dựng", type: "yellow", reason: "Dòng tiền giải ngân đầu tư công kích hoạt đơn hàng thi công; biến động giá thép ảnh hưởng dự toán.", app: "Dự báo giá vật liệu xây dựng để chốt hợp đồng sớm tránh đội vốn công trình." },
+        { from: "nhanh-4", to: "nhanh-5", fromName: "Xây Dựng", toName: "Pháp Lý", type: "red", reason: "Thi công mà thiếu giấy phép hoặc sai quy hoạch sẽ bị đình chỉ, nguy cơ rủi ro pháp lý nặng nề.", app: "Luôn thẩm định pháp lý đất và hồ sơ dự thầu minh bạch trước khi chào thầu." },
+        { from: "nhanh-5", to: "nhanh-3", fromName: "Pháp Lý", toName: "Tài Chính", type: "green", reason: "Kinh doanh minh bạch, tuân thủ pháp luật thuế sẽ phát triển bền vững trăm năm.", app: "Bảo toàn tài sản gia đình an toàn tuyệt đối trước mọi biến động thể chế." },
+        { from: "nhanh-6", to: "nhanh-2", fromName: "Cổ Học", toName: "Tri Tuệ", type: "green", reason: "Kinh Dịch và Tứ Thư Ngũ Kinh cung cấp khuôn khổ triết lý nhìn nhận biến dịch và thời thế.", app: "Áp dụng âm dương ngũ hành vào chọn ngày khởi công và thuật xử thế." },
+        { from: "nhanh-7", to: "nhanh-8", fromName: "Công Nghệ", toName: "Gia Đình", type: "green", reason: "AI và thương mại điện tử định hướng nghề nghiệp tương lai vững chắc cho con trai.", app: "Con lớp 12 học sớm marketing số và TMĐT chuẩn bị đón đầu kỷ nguyên số." }
+      ];
+
+      const cx = 450;
+      const cy = 290;
+      const radiusX = 330;
+      const radiusY = 200;
+
+      const nodeCoords = {};
+      branches.forEach((b, idx) => {
+        const angle = (idx * 2 * Math.PI / branches.length) - (Math.PI / 2);
+        const x = cx + radiusX * Math.cos(angle);
+        const y = cy + radiusY * Math.sin(angle);
+        nodeCoords[b.id] = { x, y, branch: b };
+      });
+
+      let edgesSvg = '';
+      crossLinks.forEach(link => {
+        const from = nodeCoords[link.from];
+        const to = nodeCoords[link.to];
+        if (!from || !to) return;
+
+        let strokeColor = '#10b981';
+        let strokeDash = '';
+        if (link.type === 'yellow') {
+          strokeColor = '#f59e0b';
+          strokeDash = 'stroke-dasharray="5,5"';
+        } else if (link.type === 'red') {
+          strokeColor = '#ef4444';
+          strokeDash = 'stroke-dasharray="6,4"';
+        }
+
+        const mx = (from.x + to.x) / 2 + (cx - (from.x + to.x)/2) * 0.25;
+        const my = (from.y + to.y) / 2 + (cy - (from.y + to.y)/2) * 0.25;
+
+        edgesSvg += `
+          <path 
+            d="M ${from.x} ${from.y} Q ${mx} ${my} ${to.x} ${to.y}" 
+            fill="none" 
+            stroke="${strokeColor}" 
+            stroke-width="2.5" 
+            stroke-opacity="0.6"
+            ${strokeDash}
+            class="cursor-pointer hover:stroke-white hover:stroke-width-[4] transition-all"
+            onclick="openBanDoRelationModal('${link.fromName}', '${link.toName}', '${link.reason.replace(/'/g, "\\'")}', '${link.app.replace(/'/g, "\\'")}')"
+          />
+        `;
+      });
+
+      // Center Hub
+      let centerHubSvg = `
+        <g transform="translate(${cx}, ${cy})" class="cursor-pointer">
+          <circle r="60" fill="#0f172a" stroke="#6366f1" stroke-width="3" filter="drop-shadow(0 0 15px rgba(99, 102, 241, 0.4))" />
+          <circle r="52" fill="url(#center-grad-v2)" opacity="0.2" />
+          <text text-anchor="middle" y="-14" fill="#ffffff" font-size="12" font-weight="900" letter-spacing="1">CON NGƯỜI</text>
+          <text text-anchor="middle" y="4" fill="#a5b4fc" font-size="9" font-weight="bold">SỐNG TỐT • HỌC HIỂU</text>
+          <text text-anchor="middle" y="18" fill="#38bdf8" font-size="8.5" font-weight="600">GIA ĐÌNH HÒA THUẬN</text>
+        </g>
+      `;
+
+      let nodesSvg = '';
+      branches.forEach((b) => {
+        const pos = nodeCoords[b.id];
+        nodesSvg += `
+          <g transform="translate(${pos.x}, ${pos.y})" class="cursor-pointer group" onclick="switchMainTab('${b.relatedTab}')">
+            <rect x="-65" y="-30" width="130" height="60" rx="15" fill="#0f172a" stroke="${b.color}" stroke-width="2" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.5))" class="transition-all duration-300 group-hover:brightness-125" />
+            <text text-anchor="middle" y="-4" fill="#ffffff" font-size="10.5" font-weight="bold">${b.name.split('&')[0].trim()}</text>
+            <text text-anchor="middle" y="10" fill="#cbd5e1" font-size="9" font-weight="600">${b.name.split('&')[1] ? '& ' + b.name.split('&')[1].trim() : ''}</text>
+            <text text-anchor="middle" y="22" fill="${b.color}" font-size="7.5" font-weight="bold">Bấm để mở kho →</text>
+          </g>
+        `;
+      });
+
+      svg.innerHTML = `
+        <defs>
+          <linearGradient id="center-grad-v2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#6366f1" />
+            <stop offset="100%" stop-color="#ec4899" />
+          </linearGradient>
+        </defs>
+        ${edgesSvg}
+        ${centerHubSvg}
+        ${nodesSvg}
+      `;
+    }
+
+    window.zoomBanDo = function(factor) {
+      banDoSvgScale = Math.min(2.0, Math.max(0.6, banDoSvgScale * factor));
+      const svg = document.getElementById('bdt-svg-canvas');
+      if (svg) svg.style.transform = `scale(${banDoSvgScale})`;
+    };
+
+    window.resetBanDoZoom = function() {
+      banDoSvgScale = 1;
+      const svg = document.getElementById('bdt-svg-canvas');
+      if (svg) svg.style.transform = 'scale(1)';
+    };
+
+    function updateBanDoProgressUI() {
+      const pctEl = document.getElementById('bdt-total-progress-pct');
+      const barEl = document.getElementById('bdt-total-progress-bar');
+      const adviceEl = document.getElementById('bdt-auto-advice');
+      if (pctEl) pctEl.textContent = '100%';
+      if (barEl) barEl.style.width = '100%';
+      if (adviceEl) adviceEl.textContent = '⭐ Toàn bộ 10 phần bản đồ liên ngành đã sẵn sàng kết nối và áp dụng!';
+    }
+
+    // TTS Audio Helper
+    window.playTTSBanDo = function(e, text, isSummary) {
+      if (e) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+      if (!text) return;
+
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'vi-VN';
+        utterance.rate = isSummary ? 1.2 : 0.95;
+        const voices = window.speechSynthesis.getVoices();
+        if (voices && voices.length > 0) {
+          const viVoice = voices.find(v => v.lang.includes('vi'));
+          if (viVoice) utterance.voice = viVoice;
+        }
+        window.speechSynthesis.speak(utterance);
+        showToast(isSummary ? "⚡ Đang đọc tóm tắt nhanh..." : "🔊 Đang đọc nội dung Bản Đồ Kiến Thức...", "🔊");
+      } else if (window.playTTS) {
+        window.playTTS(e, text, 'vi');
+      }
+    };
+
+    window.stopTTSBanDo = function(e) {
+      if (e) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
+      if (window.stopAllAudio) window.stopAllAudio();
+      showToast("Đã dừng giọng đọc", "⏹️");
+    };
+
+
     // --- KINH PHAP CU LOGIC ---
     function renderPhapCuCards() {
       if (!phapCuData) return;
@@ -13807,13 +14535,13 @@
         "email": "admin@gmail.com",
         "mat_khau": "admin",
         "vai_tro": "Admin",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "caudotritue", "capcuu", "aiagent", "users"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "caudotritue", "capcuu", "bandotrithuc", "aiagent", "users"]
       },
       {
         "email": "khach@gmail.com",
         "mat_khau": "123456",
         "vai_tro": "Khách",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "caudotritue", "capcuu", "aiagent"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "caudotritue", "capcuu", "bandotrithuc", "aiagent"]
       }
     ];
 
@@ -13909,7 +14637,7 @@
 
         const isAdmin = currentUser.vai_tro === 'Admin' || currentUser.email.toLowerCase() === 'admin@gmail.com';
         if (isAdmin) {
-          currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'nhannhan', 'thany', 'muuke', 'chuyenranday', 'tuthu', 'phapluat', 'gout', 'phongthuy', 'huyetdao', 'chongaytot', 'caudotritue', 'capcuu', 'aiagent', 'users'];
+          currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'nhannhan', 'thany', 'muuke', 'chuyenranday', 'tuthu', 'phapluat', 'gout', 'phongthuy', 'huyetdao', 'chongaytot', 'caudotritue', 'capcuu', 'bandotrithuc', 'aiagent', 'users'];
         }
 
         const hasPoems = isAdmin || currentUser.quyen.includes('poems');
@@ -13930,6 +14658,7 @@
         const hasChonNgayTot = isAdmin || currentUser.quyen.includes('chongaytot');
         const hasCauDoTriTue = isAdmin || currentUser.quyen.includes('caudotritue');
         const hasCapCuu = isAdmin || currentUser.quyen.includes('capcuu');
+        const hasBanDoTriThuc = isAdmin || currentUser.quyen.includes('bandotrithuc');
         const hasAiAgent = isAdmin || currentUser.quyen.includes('aiagent');
         const hasUsers = isAdmin || currentUser.quyen.includes('users');
 
@@ -13951,6 +14680,7 @@
         toggleTabButtonVisibility('tab-chongaytot', hasChonNgayTot);
         toggleTabButtonVisibility('tab-caudotritue', hasCauDoTriTue);
         toggleTabButtonVisibility('tab-capcuu', hasCapCuu);
+        toggleTabButtonVisibility('tab-bandotrithuc', hasBanDoTriThuc);
         toggleTabButtonVisibility('tab-aiagent', hasAiAgent);
         toggleTabButtonVisibility('tab-users', hasUsers);
 
@@ -13973,6 +14703,7 @@
           'chongaytot': hasChonNgayTot,
           'caudotritue': hasCauDoTriTue,
           'capcuu': hasCapCuu,
+          'bandotrithuc': hasBanDoTriThuc,
           'aiagent': hasAiAgent,
           'users': hasUsers
         };
@@ -13996,6 +14727,7 @@
         else if (chongaytotSection && !chongaytotSection.classList.contains('hidden')) currentTab = 'chongaytot';
         else if (caudotritueSection && !caudotritueSection.classList.contains('hidden')) currentTab = 'caudotritue';
         else if (capcuuSection && !capcuuSection.classList.contains('hidden')) currentTab = 'capcuu';
+        else if (bandotrithucSection && !bandotrithucSection.classList.contains('hidden')) currentTab = 'bandotrithuc';
         else if (!aiagentSection.classList.contains('hidden')) currentTab = 'aiagent';
         else if (!document.getElementById('users-section').classList.contains('hidden')) currentTab = 'users';
 
@@ -14018,6 +14750,7 @@
           else if (hasChonNgayTot) switchMainTab('chongaytot');
           else if (hasCauDoTriTue) switchMainTab('caudotritue');
           else if (hasCapCuu) switchMainTab('capcuu');
+          else if (hasBanDoTriThuc) switchMainTab('bandotrithuc');
           else if (hasAiAgent) switchMainTab('aiagent');
           else if (hasUsers) switchMainTab('users');
         }
@@ -14128,6 +14861,7 @@
         if (u.quyen.includes('chongaytot')) permsList.push('Chọn Ngày Tốt');
         if (u.quyen.includes('caudotritue')) permsList.push('Câu Đố Trí Tuệ');
         if (u.quyen.includes('capcuu')) permsList.push('Cấp Cứu');
+        if (u.quyen.includes('bandotrithuc')) permsList.push('Bản Đồ Tri Thức');
         if (u.quyen.includes('aiagent')) permsList.push('Trợ Lý AI');
         if (u.quyen.includes('users')) permsList.push('Quản Trị');
 
@@ -14212,6 +14946,7 @@
       if (document.getElementById('perm-chongaytot')) document.getElementById('perm-chongaytot').checked = u.quyen.includes('chongaytot');
       if (document.getElementById('perm-caudotritue')) document.getElementById('perm-caudotritue').checked = u.quyen.includes('caudotritue');
       if (document.getElementById('perm-capcuu')) document.getElementById('perm-capcuu').checked = u.quyen.includes('capcuu');
+      if (document.getElementById('perm-bandotrithuc')) document.getElementById('perm-bandotrithuc').checked = u.quyen.includes('bandotrithuc');
       if (document.getElementById('perm-aiagent')) document.getElementById('perm-aiagent').checked = u.quyen.includes('aiagent');
 
       showToast(`Đang chỉnh sửa quyền cho ${u.email}`, "✏️");
@@ -14264,6 +14999,7 @@
       if (document.getElementById('perm-chongaytot')?.checked) quyen.push('chongaytot');
       if (document.getElementById('perm-caudotritue')?.checked) quyen.push('caudotritue');
       if (document.getElementById('perm-capcuu')?.checked) quyen.push('capcuu');
+      if (document.getElementById('perm-bandotrithuc')?.checked) quyen.push('bandotrithuc');
       if (document.getElementById('perm-aiagent')?.checked) quyen.push('aiagent');
 
       const isDefaultAdmin = email.toLowerCase() === 'admin@gmail.com';
@@ -14302,6 +15038,7 @@
       if (document.getElementById('perm-chongaytot')) document.getElementById('perm-chongaytot').checked = false;
       if (document.getElementById('perm-caudotritue')) document.getElementById('perm-caudotritue').checked = false;
       if (document.getElementById('perm-capcuu')) document.getElementById('perm-capcuu').checked = false;
+      if (document.getElementById('perm-bandotrithuc')) document.getElementById('perm-bandotrithuc').checked = false;
       document.getElementById('perm-aiagent').checked = false;
 
       renderMembersList();
@@ -14336,7 +15073,7 @@
 
     async function preloadAllData() {
       try {
-        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt, rawHd, rawCngt, rawCddt, rawCc] = await Promise.all([
+        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt, rawHd, rawCngt, rawCddt, rawCc, rawBdt] = await Promise.all([
           fetchJsonWithCache('./data.json').catch(() => []),
           fetchJsonWithCache('./tieng_trung.json').catch(() => null),
           fetchJsonWithCache('./kinh_dich.json').catch(() => null),
@@ -14354,7 +15091,8 @@
           fetchJsonWithCache('./huyet_dao.json').catch(() => null),
           fetchJsonWithCache('./chon_ngay_tot.json').catch(() => null),
           fetchJsonWithCache('./cau_do_tri_tue.json').catch(() => null),
-          fetchJsonWithCache('./cap_cuu_tai_nha.json').catch(() => null)
+          fetchJsonWithCache('./cap_cuu_tai_nha.json').catch(() => null),
+          fetchJsonWithCache('./ban_do_tri_thuc.json').catch(() => null)
         ]);
 
         if (rawP && rawP.length > 0) {
@@ -14451,6 +15189,10 @@
 
         if (rawCc) {
           capCuuData = rawCc;
+        }
+
+        if (rawBdt) {
+          banDoTriThucData = rawBdt;
         }
 
         headerStatus.textContent = 'Đã nạp toàn bộ kho tri thức';
@@ -14559,7 +15301,8 @@
       ['huyetdao', [' huyet dao', ' bam huyet', ' huyet vi', ' hop coc', ' thai xung', ' tam am giao', ' tuc tam ly', ' bach hoi']],
       ['chongaytot', [' chon ngay tot', ' ngay lanh', ' truc nhat', ' can chi', ' am duong ngu hanh', ' khoi cong', ' dong tho', ' cuoi hoi', ' khai truong']],
       ['caudotritue', [' cau do tri tue', ' ren tu duy nhanh', ' cau do logic', ' do vui', ' tu duy phan bien', ' 160 cau do', ' bay tu duy', ' cau do hay']],
-      ['capcuu', [' cap cuu', ' so cuu', ' ep tim', ' cpr', ' 115', ' ngat tho', ' heimlich', ' dot quy', ' tai bien', ' nhoi mau co tim', ' chay mau', ' say nang', ' bong ', ' dien giat', ' ngo doc', ' co giat', ' ngat xiu']]
+      ['capcuu', [' cap cuu', ' so cuu', ' ep tim', ' cpr', ' 115', ' ngat tho', ' heimlich', ' dot quy', ' tai bien', ' nhoi mau co tim', ' chay mau', ' say nang', ' bong ', ' dien giat', ' ngo doc', ' co giat', ' ngat xiu']],
+      ['bandotrithuc', [' ban do tri thuc', ' ban do kien thuc', ' 8 tru cot', ' moi lien ket', ' diem giao thoa', ' lo trinh hoc', ' con lop 7', ' con lop 12', ' di san cho con', ' he sinh thai tri thuc']]
     ];
 
     function aiDetectModules(question) {
@@ -15064,6 +15807,19 @@
         (capCuuData.sections || []).forEach(function (sec) {
           add('capcuu', sec.id, '[CẤP CỨU - ' + sec.number + '] ' + (sec.title || ''), aiFlattenRow(sec, 800));
         });
+      }
+
+      
+      if (banDoTriThucData) {
+        if (banDoTriThucData.metadata) {
+          add('bandotrithuc', null, '[BẢN ĐỒ KIẾN THỨC - Triết Lý Cốt Lõi & Trung Tâm Kết Nối]', JSON.stringify(banDoTriThucData.metadata));
+        }
+        for (let sIdx = 1; sIdx <= 10; sIdx++) {
+          const sec = banDoTriThucData['section' + sIdx];
+          if (sec) {
+            add('bandotrithuc', 'sec' + sIdx, '[BẢN ĐỒ KIẾN THỨC - ' + (sec.title || ('Phần ' + sIdx)) + ']', aiFlattenRow(sec, 800));
+          }
+        }
       }
 
       found.sort(function (a, b) { return b.score - a.score; });
