@@ -1,0 +1,1939 @@
+{
+  "tong_quan": {
+    "tieu_de": "🧠 Bộ Câu Đố Trí Tuệ — Rèn Tư Duy Nhanh",
+    "mo_ta": "Hệ thống 160 bài toán tư duy và câu đố trí tuệ phân tầng từ Dễ đến Nâng cao, được thiết kế khoa học giúp học sinh lớp 7, lớp 12 và người lớn rèn luyện năng lực phản xạ, tư duy phản biện, logic phân tích và sáng tạo mỗi ngày.",
+    "doi_tuong_phu_hop": [
+      "Học sinh lớp 7: Rèn luyện nhận biết, liên kết đặc điểm chung, bứt phá tư duy quan sát",
+      "Học sinh lớp 12: Củng cố logic toán học, phân tích quy luật, chuẩn bị cho các kỳ thi đánh giá năng lực",
+      "Người lớn & Người đi làm: Rèn luyện tư duy chiến lược, phản biện sắc bén, ra quyết định chuẩn xác"
+    ],
+    "khau_hieu_cot_loi": "Tư duy nhanh không phải sinh ra đã có — kiên nhẫn luyện tập mỗi ngày thì đầu óc ngày càng minh mẫn, sáng suốt",
+    "chan_trang_triet_ly": "Tư duy nhanh không phải sinh ra đã có — kiên nhẫn luyện tập mỗi ngày thì đầu óc ngày càng minh mẫn, sáng suốt"
+  },
+  "phan_1_gioi_thieu_va_loi_ich": {
+    "tieu_de": "1. Giới Thiệu — Tại Sao Cần Rèn Tư Duy Nhanh?",
+    "khai_niem": {
+      "dinh_nghia": "Tư duy nhanh là khả năng nắm bắt cốt lõi vấn đề trong chớp mắt, phân tích rành mạch các mối quan hệ logic, loại trừ bẫy tâm lý và đưa ra kết luận chính xác trong thời gian ngắn nhất.",
+      "ban_chat": "Tư duy nhanh không phải là thiên bẩm hay tài năng thần đồng độc quyền của một số ít người. Đó là một KỸ NĂNG sinh học - giống hệt như các khối cơ bắp trên cơ thể: Càng kiên trì rèn luyện đều đặn thì các nơ-ron thần kinh càng gắn kết bền chặt, đầu óc càng phản xạ nhanh nhạy; ngược lại nếu lười suy nghĩ thì trí não sẽ dần trì trệ, chậm chạp."
+    },
+    "sau_loi_ich_vang": [
+      "✅ Nắm bắt bài giảng, thông tin nhanh hơn: Đọc hiểu và tiếp thu kiến thức mới vượt trội.",
+      "✅ Quyết định chính xác, ít do dự: Không bị mắc kẹt vào sự lưỡng lự thiếu quyết đoán.",
+      "✅ Giải quyết vấn đề linh hoạt: Nhìn nhận sự việc dưới nhiều lăng kính, luôn tìm ra lối thoát sáng tạo.",
+      "✅ Phản ứng nhanh trong tình huống bất ngờ: Bình tĩnh làm chủ cảm xúc trước các biến cố khẩn cấp.",
+      "✅ Tăng khả năng liên kết kiến thức: Kết nối các môn học và lĩnh vực đời sống thành một hệ thống thông suốt.",
+      "✅ Giữ đầu óc minh mẫn, sáng suốt mãi về già: Phòng ngừa suy giảm trí nhớ và lão hóa thần kinh."
+    ],
+    "cach_su_dung_hieu_qua": [
+      "1. Mỗi ngày chỉ cần 5–10 câu: Duy trì đều đặn quan trọng gấp ngàn lần học dồn dập rồi bỏ bẵng.",
+      "2. Tự đặt áp lực thời gian: Bật đồng hồ đếm ngược (Dễ: 20s, Trung bình: 30-45s, Khó: 1-2m, Nâng cao: 2-3m).",
+      "3. Không xem đáp án vội: Hãy vắt kiệt tư duy của mình trong thời gian quy định trước khi bấm nút mở đáp án.",
+      "4. Đọc thật kỹ phần GIẢI THÍCH & BÀI HỌC: Đó mới là chìa khóa vàng giúp bạn khai mở phương pháp luận, không chỉ ghi nhớ một đáp án cơ học.",
+      "5. Lặp lại sau 3–7 ngày: Làm lại những câu đã từng sai để khắc sâu quy luật vào vỏ não."
+    ]
+  },
+  "phan_2_cap_do_1_de": {
+    "tieu_de": "2. Cấp Độ 1 — Dễ: Nhận Biết & Liên Kết (40 Câu)",
+    "thoi_gian_khuyen_nghi": "⏱️ Thời gian nghĩ: 20 giây / câu",
+    "doi_tuong": "Khởi đầu, làm quen, rèn luyện cho con lớp 7 và người mới bắt đầu",
+    "muc_tieu": "Nhận diện quy luật trực quan, liên kết nghĩa bóng, thay đổi hướng quan sát và phân biệt đúng sai cơ bản",
+    "danh_sach_cau_hoi": [
+      {
+        "stt": 1,
+        "id": "de_1",
+        "cau_hoi": "Tôi có nhiều răng nhưng không hề ăn hay nhai thức ăn bao giờ. Tôi là cái gì?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Cái lược chải tóc",
+        "giai_thich": "Từ 'răng' ở đây được dùng theo nghĩa chuyển (các nhánh răng lược dùng để gỡ tóc), không phải răng sinh học để nhai nghiền thức ăn.",
+        "bai_hoc": "Tư duy đa nghĩa: Nhìn nhận sự vật theo nghĩa bóng và công năng đặc thù, không bị đóng khung trong nghĩa đen sinh học.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 2,
+        "id": "de_2",
+        "cau_hoi": "Cái gì càng tiến về phía trước thì lại càng để lại dấu vết ở phía sau?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Bàn chân / Vết chân / Bánh xe lăn",
+        "giai_thich": "Mỗi bước chân đi tới hay mỗi vòng bánh xe lăn qua đều tạo ra lực ép in dấu lên mặt đất ở phía sau lưng ta.",
+        "bai_hoc": "Tư duy nhân quả: Mọi hành động ta làm ở hiện tại đều để lại hệ quả và dấu tích rõ ràng trong tương lai.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 3,
+        "id": "de_3",
+        "cau_hoi": "Cái gì không hề có chân, không hề có cánh nhưng lại có thể chạy khắp mọi miền đất nước?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Con đường (đường bộ, đường giao thông)",
+        "giai_thich": "Người ta hay dùng từ 'con đường chạy qua làng', 'chạy dài tít tắp'. Đường không có chân nhưng nối liền vạn dặm.",
+        "bai_hoc": "Mở rộng biên giới khái niệm: Không giới hạn tư duy trong các sinh vật sống khi nghe thấy từ 'chạy' hay 'đi'.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 4,
+        "id": "de_4",
+        "cau_hoi": "Tôi có thành phố nhưng không có nhà cửa, có rừng rậm nhưng không có cây cối, có sông biển nhưng không hề có giọt nước hay con cá nào. Tôi là gì?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Tấm bản đồ (hoặc quả địa cầu)",
+        "giai_thich": "Bản đồ thể hiện biểu tượng của sông, núi, thành phố và rừng cây trên mặt phẳng giấy mô phỏng.",
+        "bai_hoc": "Phân biệt mô hình và thực tại: Bản đồ không phải là vùng đất thực tế, biểu tượng đại diện không phải là bản thân sự vật.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 5,
+        "id": "de_5",
+        "cau_hoi": "Cái gì có thể tràn ngập khắp cả căn phòng rộng lớn nhưng không hề chiếm lấy dù chỉ một centimet diện tích không gian?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Ánh sáng (hoặc bóng tối)",
+        "giai_thich": "Ánh sáng truyền đi dưới dạng sóng điện từ và hạt photon, chiếu sáng mọi ngóc ngách mà không cản trở vật chất hay chiếm thể tích vật lý.",
+        "bai_hoc": "Nhận thức thế giới vô hình: Có những giá trị lan tỏa vô biên (như tri thức, lòng tốt, ánh sáng) mà không làm chật chội không gian.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 6,
+        "id": "de_6",
+        "cau_hoi": "Ai hay cái gì mà tất cả mọi người trên thế giới đều biết đến, luôn chờ đợi nó đến, nhưng chưa từng có ai nhìn thấy mặt nó bao giờ?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Ngày mai",
+        "giai_thich": "Bởi vì khi thời gian trôi tới thời điểm đó, nó đã trở thành 'hôm nay'. 'Ngày mai' luôn là một khái niệm nằm ở phía trước nhận thức.",
+        "bai_hoc": "Tư duy thời gian: Trân trọng giây phút hiện tại, vì 'ngày mai' chỉ thực sự có ý nghĩa khi ta hành động trong 'hôm nay'.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 7,
+        "id": "de_7",
+        "cau_hoi": "Cái gì thuộc quyền sở hữu của chính bạn, gắn liền với cuộc đời bạn, nhưng người khác lại sử dụng nó nhiều hơn bạn rất nhiều lần?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Tên gọi của bạn",
+        "giai_thich": "Tên thuộc về bạn, nhưng người thân, bạn bè, đồng nghiệp lại là những người thường xuyên gọi và nhắc đến nó nhất.",
+        "bai_hoc": "Góc nhìn tha nhân: Ta sống trong xã hội kết nối, bản sắc của ta có ý nghĩa lớn đối với những người xung quanh.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 8,
+        "id": "de_8",
+        "cau_hoi": "Cái gì khi còn sống thì đầu ở dưới đất chân chổng lên trời, khi nấu chín thì đầu lại ngoi lên trên?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Củ tỏi, củ hành (hoặc củ cải, cà rốt)",
+        "giai_thich": "Khi trồng dưới đất, rễ (chân) cắm sâu, ngọn củ hướng lên. Khi luộc/nấu, người ta thả củ vào nồi, đầu củ nổi lên trên mặt nước.",
+        "bai_hoc": "Lật ngược góc quan sát: Một vật thể có thể thay đổi trạng thái và vị trí hoàn toàn tùy vào hoàn cảnh môi trường.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 9,
+        "id": "de_9",
+        "cau_hoi": "Cái gì có kích thước nhỏ gọn chỉ bằng bàn tay nhưng lại có thể chứa đựng trọn vẹn cả một tòa nhà đồ sộ?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Tấm gương soi / Ống kính máy ảnh / Mắt người",
+        "giai_thich": "Nhờ hiện tượng phản xạ ánh sáng và khúc xạ quang học, một bề mặt gương nhỏ có thể thu trọn hình ảnh toàn bộ tòa nhà to lớn.",
+        "bai_hoc": "Tư duy thu phóng: Trực giác thị giác có thể thu nhận những hệ thống đồ sộ chỉ qua một điểm nhìn tinh tế.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 10,
+        "id": "de_10",
+        "cau_hoi": "Khẳng định sau đúng hay sai: 'Mỗi năm đều có 365 ngày, và cứ qua mỗi năm thì số ngày lại tăng thêm một chút do trái đất quay chậm lại'?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Sai hoàn toàn",
+        "giai_thich": "Năm bình thường có đúng 365 ngày, năm nhuận có 366 ngày (định kỳ 4 năm một lần theo dương lịch). Số ngày không tăng dần đều theo từng năm.",
+        "bai_hoc": "Kiểm chứng thông tin: Luôn đối chiếu với quy luật khoa học khách quan thay vì tin vào những giả thuyết nghe có vẻ hợp lý nhưng vô căn cứ.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 11,
+        "id": "de_11",
+        "cau_hoi": "Tìm số tiếp theo trong dãy số quy luật sau: 2, 4, 8, 16, 32, ... ?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "64",
+        "giai_thich": "Quy luật cấp số nhân: Mỗi số đứng sau bằng số đứng trước nhân đôi (2 x 2 = 4, 4 x 2 = 8,... 32 x 2 = 64).",
+        "bai_hoc": "Nhận diện quy luật lũy tiến: Trong cuộc sống và học tập, hiệu ứng cấp số nhân tạo nên sức bật khổng lồ khi ta kiên trì.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 12,
+        "id": "de_12",
+        "cau_hoi": "Tìm số tiếp theo trong dãy số: 1, 1, 2, 3, 5, 8, 13, ... ?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "21",
+        "giai_thich": "Dãy số Fibonacci: Mỗi số hạng (kể từ số thứ ba) bằng tổng của hai số hạng liền kề trước nó (8 + 13 = 21).",
+        "bai_hoc": "Tư duy tích lũy: Kết quả của hiện tại được kiến tạo trực tiếp từ hai nền tảng gần nhất của quá khứ.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 13,
+        "id": "de_13",
+        "cau_hoi": "Cái gì bạn có thể cầm giữ được bằng tay phải nhưng vĩnh viễn không bao giờ có thể tự cầm bằng tay trái?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Cổ tay trái (hoặc bàn tay trái, khuỷu tay trái)",
+        "giai_thich": "Một bàn tay không thể tự cầm nắm chính nó hoặc khớp cổ tay của chính bên mình.",
+        "bai_hoc": "Điểm mù bản thân: Tự thân một thực thể khó có thể tự bao quát và nắm bắt trọn vẹn chính mình nếu không có góc nhìn bên ngoài hỗ trợ.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 14,
+        "id": "de_14",
+        "cau_hoi": "Một người đàn ông đi dưới trời mưa lớn mà không có ô, không đội mũ, không có áo mưa, nhưng không một sợi tóc nào trên đầu bị ướt. Vì sao?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Vì người đàn ông đó bị hói đầu (hoặc cạo trọc, không có tóc)",
+        "giai_thich": "Câu hỏi đánh vào giả định ngầm của não bộ rằng ai cũng có tóc. Khi tiền đề 'không có sợi tóc nào' xuất hiện thì hiển nhiên không có tóc ướt.",
+        "bai_hoc": "Phá bỏ giả định ngầm: Đừng mặc định những điều mà đề bài không hề khẳng định.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 15,
+        "id": "de_15",
+        "cau_hoi": "Cái gì càng rửa thì lại càng bẩn?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Nước rửa (hoặc chậu nước, giẻ lau)",
+        "giai_thich": "Khi bạn dùng nước để gột rửa bụi bẩn từ đồ vật, các chất bẩn chuyển vào nước khiến khối nước đó ngày càng đục và bẩn đi.",
+        "bai_hoc": "Định luật bảo toàn: Chất bẩn không tự nhiên biến mất mà chuyển từ vật này sang chất dung môi.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 16,
+        "id": "de_16",
+        "cau_hoi": "Nếu có 3 quả táo và bạn lấy đi 2 quả, hỏi BẠN có bao nhiêu quả táo?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Bạn có 2 quả táo",
+        "giai_thich": "Câu hỏi hỏi 'BẠN có bao nhiêu quả táo?', chứ không hỏi 'còn lại bao nhiêu quả trên bàn'. Bạn lấy đi 2 quả thì bạn sở hữu 2 quả đó.",
+        "bai_hoc": "Đọc kỹ chủ thể câu hỏi: Chú ý chính xác chủ từ 'bạn' hay 'còn lại', tránh làm phép trừ theo quán tính máy móc.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 17,
+        "id": "de_17",
+        "cau_hoi": "Tháng nào trong năm có 28 ngày?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Tất cả các tháng (cả 12 tháng)",
+        "giai_thich": "Tháng 2 có ít nhất 28 ngày, còn các tháng có 30 hay 31 ngày thì hiển nhiên đều đã trải qua ngày thứ 28.",
+        "bai_hoc": "Ngôn ngữ logic: 'Có 28 ngày' khác với 'CHỈ CÓ DUY NHẤT 28 ngày'. Cẩn trọng với lượng từ tối thiểu.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 18,
+        "id": "de_18",
+        "cau_hoi": "Một con gà trống đẻ một quả trứng ngay trên đỉnh chóp của mái nhà hình tam giác cân. Hỏi quả trứng sẽ lăn về phía bên trái hay bên phải?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Gà trống không đẻ trứng",
+        "giai_thich": "Đặc điểm sinh học cơ bản: Chỉ gà mái mới đẻ trứng. Toàn bộ mô tả mái nhà tam giác cân là bẫy làm phân tán sự chú ý.",
+        "bai_hoc": "Tập trung vào yếu tố cốt lõi: Đừng để các chi tiết hình học rườm rà che khuất chân lý cơ bản.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 19,
+        "id": "de_19",
+        "cau_hoi": "Bố mẹ có 6 người con trai, mỗi người con trai lại có một người em gái. Hỏi gia đình đó có tổng cộng bao nhiêu người con?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "7 người con (6 con trai + 1 con gái út)",
+        "giai_thich": "Vì cùng một người em gái út đó là em gái chung của cả 6 người anh trai, không phải mỗi người anh có một cô em gái riêng biệt.",
+        "bai_hoc": "Tư duy quan hệ tương hỗ: Một đối tượng có thể đồng thời thỏa mãn mối quan hệ với nhiều đối tượng khác.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 20,
+        "id": "de_20",
+        "cau_hoi": "Cái gì luôn đến nhưng không bao giờ đến nơi?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Tương lai",
+        "giai_thich": "Khi tương lai xảy ra, nó ngay lập tức chuyển hóa thành hiện tại. Do đó khái niệm 'tương lai' luôn ở trạng thái đang đến.",
+        "bai_hoc": "Triết lý chuyển hóa: Ý thức rõ ranh giới giữa tiềm năng phía trước và hiện thực đang diễn ra.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 21,
+        "id": "de_21",
+        "cau_hoi": "Tìm từ trái nghĩa thích hợp điền vào chỗ trống: 'Nói dễ hơn ...; Nghĩ dễ hơn ...'?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "LÀM (Hành động)",
+        "giai_thich": "Lời nói và suy nghĩ chỉ cần tiêu tốn năng lượng tinh thần, nhưng biến nó thành hiện thực đòi hỏi công sức, kỷ luật và hành động thực tế.",
+        "bai_hoc": "Nguyên lý thực chứng: Khoảng cách lớn nhất trên đời là khoảng cách giữa suy nghĩ và hành động.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 22,
+        "id": "de_22",
+        "cau_hoi": "Một đoàn tàu hỏa chạy bằng điện đang di chuyển về hướng Nam với vận tốc 80km/h, gió thổi mạnh về hướng Bắc với vận tốc 40km/h. Hỏi khói của tàu bay về hướng nào?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Tàu điện không có khói",
+        "giai_thich": "Tàu hỏa chạy bằng động cơ điện không thải khói như đầu máy hơi nước hay diesel. Tốc độ gió và vận tốc tàu là dữ kiện gây nhiễu.",
+        "bai_hoc": "Lọc bỏ dữ liệu nhiễu: Nhận diện đặc tính bản chất của đối tượng trước khi lao vào tính toán công thức.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 23,
+        "id": "de_23",
+        "cau_hoi": "Cái gì có một mắt nhưng hoàn toàn không thể nhìn thấy bất cứ thứ gì?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Cây kim khâu (lỗ kim hay gọi là mắt kim) / Mắt bão",
+        "giai_thich": "Lỗ xỏ chỉ trên đầu kim gọi là 'mắt kim'. Nó có hình dạng giống con mắt nhưng là vật thể vô tri dùng để luồn sợi chỉ qua.",
+        "bai_hoc": "Liên tưởng hình ảnh: Ngôn ngữ dùng tên gọi các bộ phận sống để đặt cho công cụ lao động.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 24,
+        "id": "de_24",
+        "cau_hoi": "Tìm số còn thiếu trong dãy: 10, 20, 30, 49, 59, 69, 78, 88, ... ?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "98",
+        "giai_thich": "Quy luật từng cặp: +10, +10 rồi +19 (10->20->30, 30+19=49->59->69, 69+9=78->88->98). Nhóm các số có bước nhảy đồng nhất +10.",
+        "bai_hoc": "Tư duy phân nhóm: Chia chuỗi dữ liệu dài thành các cụm nhỏ có đặc tính tương đồng.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 25,
+        "id": "de_25",
+        "cau_hoi": "Nếu bạn vượt qua người đang chạy ở vị trí thứ hai trong cuộc thi chạy marathon, bạn sẽ xếp thứ mấy?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Vị trí thứ hai",
+        "giai_thich": "Bạn vượt qua người thứ hai nghĩa là bạn thay thế chính vị trí của họ, còn người đứng thứ nhất vẫn chạy ở phía trước bạn.",
+        "bai_hoc": "Tránh ngộ nhận quán tính: Não bộ thường nhầm 'vượt người thứ hai thì lên thứ nhất' do thói quen suy nghĩ cực đoan.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 26,
+        "id": "de_26",
+        "cau_hoi": "Cái gì thuộc về bạn, khi bạn chia sẻ nó cho người khác thì bạn không hề mất đi mà người khác lại có thêm?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Tri thức (Kiến thức) / Nụ cười / Tình yêu thương",
+        "giai_thich": "Tri thức và tinh thần không tuân theo định luật bảo toàn vật chất hữu hạn. Càng lan tỏa, sự hiểu biết trong xã hội càng nhân lên.",
+        "bai_hoc": "Tài sản phi vật chất: Đầu tư vào tri thức và lòng tốt luôn mang lại giá trị gia tăng vô tận.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 27,
+        "id": "de_27",
+        "cau_hoi": "Một cái hồ có đám bèo tây phát triển. Mỗi ngày diện tích đám bèo tăng gấp đôi. Sau 30 ngày bèo nở kín mặt hồ. Hỏi sau bao nhiêu ngày bèo phủ nửa mặt hồ?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "29 ngày",
+        "giai_thich": "Vì mỗi ngày bèo tăng gấp đôi, nên vào ngày thứ 29, bèo phủ được nửa hồ, sang ngày thứ 30 nhân đôi lên sẽ phủ kín toàn bộ hồ.",
+        "bai_hoc": "Tư duy ngược thời gian: Thay vì đếm xuôi từ ngày 1 rất khó, hãy lùi lại một bước từ kết quả cuối cùng.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 28,
+        "id": "de_28",
+        "cau_hoi": "Bác thợ may có một tấm vải dài 10 mét. Mỗi ngày bác cắt ra một mảnh dài 2 mét. Hỏi sau bao nhiêu ngày bác cắt xong tấm vải?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "4 ngày",
+        "giai_thich": "Sau 4 ngày cắt được 4 mảnh (8m), mảnh còn lại tự động dài đúng 2 mét mà không cần phải thực hiện nhát cắt thứ 5.",
+        "bai_hoc": "Hiện tượng đường biên: Nhát cắt cuối cùng tạo ra đồng thời hai phần thành phẩm còn lại.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 29,
+        "id": "de_29",
+        "cau_hoi": "Cái gì càng thổi thì lại càng ngắn lại?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Cây nến đang cháy / Điếu thuốc",
+        "giai_thich": "Ngọn lửa khi được gió thổi bùng sẽ đốt cháy nhanh hơn làm vật thể tiêu hao chiều dài nhanh chóng.",
+        "bai_hoc": "Quan sát hiện tượng nhiệt động: Tác động của luồng khí có thể thúc đẩy quá trình hao mòn.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 30,
+        "id": "de_30",
+        "cau_hoi": "Cái gì có cổ nhưng không có miệng, có thân nhưng không có chân?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Cái áo (cổ áo, thân áo, tay áo)",
+        "giai_thich": "Trang phục của con người được thiết kế mô phỏng các phần thân thể: cổ áo ôm lấy cổ, thân áo bao bọc thân mình.",
+        "bai_hoc": "Ẩn dụ thiết kế: Đồ vật phục vụ đời sống thường mang các thuật ngữ gắn liền với giải phẫu cơ thể người.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 31,
+        "id": "de_31",
+        "cau_hoi": "Có hai người bố và hai người con cùng đi câu cá. Mỗi người câu được một con cá. Hỏi tại sao đem về nhà giỏ cá chỉ có đúng 3 con?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Đó là 3 thế hệ trong một gia đình: Ông nội, Bố và Con trai",
+        "giai_thich": "Ông nội là bố của người bố (1 bố). Người bố vừa là con của ông nội, vừa là bố của đứa con (1 con + 1 bố). Người con trai út là con (1 con). Tổng cộng chỉ có 3 người.",
+        "bai_hoc": "Đa vai trò xã hội: Một cá nhân có thể đồng thời đóng nhiều vai trò khác nhau trong cùng một mối quan hệ xã hội.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 32,
+        "id": "de_32",
+        "cau_hoi": "Cái gì bạn có thể nghe thấy nó, cảm nhận thấy nó, nhưng không bao giờ có thể nhìn thấy hay chạm tay vào nó được?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Tiếng gió thổi / Âm thanh / Tiếng vọng",
+        "giai_thich": "Âm thanh là sự dao động cơ học của sóng trong không khí, tác động vào màng nhĩ nhưng vô hình trước thị giác và xúc giác.",
+        "bai_hoc": "Phối hợp đa giác quan: Nhận thức thực tại phong phú hơn rất nhiều so với những gì mắt trần có thể nhìn thấy.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 33,
+        "id": "de_33",
+        "cau_hoi": "Một kẻ trộm bị nhốt vào căn phòng có 3 cánh cửa để thoát hiểm: Cửa 1 có bầy thú dữ ăn thịt bỏ đói suốt 3 năm; Cửa 2 chứa đầy lửa cháy dữ dội; Cửa 3 có toán xạ thủ phục kích sẵn. Cửa nào an toàn nhất?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Cửa số 1",
+        "giai_thich": "Bầy thú ăn thịt bị bỏ đói suốt 3 năm thì chắc chắn đã chết đói từ lâu, căn phòng hoàn toàn vô hại.",
+        "bai_hoc": "Chú ý mốc thời gian sinh học: Đừng bỏ qua chi tiết số học quan trọng 'bị bỏ đói suốt 3 năm'.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 34,
+        "id": "de_34",
+        "cau_hoi": "Có một chữ cái tiếng Việt, nếu bỏ dấu sắc thì thành tên một loài chim, nếu thêm dấu huyền thì thành tên một loại quả ăn được. Đó là chữ gì?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Từ CÚ (bỏ sắc thành CU trong chim cu, thêm huyền thành CÙ trong củ cà cuống / hoặc từ SÁO - SÀO)",
+        "giai_thich": "Sự biến hóa kỳ diệu của hệ thống thanh điệu tiếng Việt (không dấu, huyền, sắc, hỏi, ngã, nặng) tạo nên các trường nghĩa hoàn toàn khác nhau.",
+        "bai_hoc": "Linh hoạt ngôn ngữ: Chơi chữ và đảo hoán thanh điệu giúp não bộ nhạy bén với cấu trúc âm vị.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 35,
+        "id": "de_35",
+        "cau_hoi": "Một người đứng trên cầu ném một hòn đá xuống dòng sông đang chảy xiết. Hỏi cái gì rơi xuống đáy sông trước: Hòn đá hay bóng của hòn đá?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Bóng của hòn đá",
+        "giai_thich": "Bóng của hòn đá được tạo ra từ ánh sáng truyền đi với tốc độ 300.000 km/s, tức là chạm đáy nước gần như ngay tức khắc khi hòn đá vừa rời tay.",
+        "bai_hoc": "Hiểu biết vật lý cơ bản: Tốc độ của ánh sáng vượt trội hoàn toàn so with gia tốc trọng trường của vật thể cơ học.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 36,
+        "id": "de_36",
+        "cau_hoi": "Nếu một nửa của 5 là 3, thì một phần ba của 10 sẽ là bao nhiêu theo cùng hệ logic đó?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "4",
+        "giai_thich": "Nếu 5 / 2 = 3 thì hệ số phóng đại là 3 / 2.5 = 1.2. Vậy 1/3 của 10 là 10 / 3 = 3.333... x 1.2 = 4 (hoặc chữ La Mã: FIVE bỏ nửa dưới thành IV = 4).",
+        "bai_hoc": "Tư duy tỷ lệ thuận: Giữ vững tính nhất quán của hệ quy chiếu quy ước khi giải quyết vấn đề toán học giả định.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 37,
+        "id": "de_37",
+        "cau_hoi": "Cái gì có thể đi vòng quanh cả thế giới nhưng suốt cuộc đời chỉ nằm yên một góc?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Con tem dán trên phong bì thư",
+        "giai_thich": "Con tem được dán dính cố định ở góc trên bên phải của bức thư, nhưng bức thư đó đi chu du qua nhiều quốc gia và châu lục.",
+        "bai_hoc": "Tư duy hệ thống phụ thuộc: Bản thân vật thể đứng yên nhưng hệ thống chứa nó lại vận động không ngừng.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 38,
+        "id": "de_38",
+        "cau_hoi": "Cái gì khi bạn kéo dài nó ra thì bạn cảm thấy hạnh phúc, còn khi người khác kéo dài nó trước mặt bạn thì bạn cảm thấy buồn ngủ?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Cái ngáp (hành động ngáp)",
+        "giai_thich": "Ngáp giúp cơ thể tự nạp thêm oxy và thư giãn cơ mặt khi mệt mỏi, nhưng nhìn người khác ngáp thường có tính lây truyền tạo cảm giác buồn ngủ theo.",
+        "bai_hoc": "Hiệu ứng lan truyền sinh học: Hành vi vô thức của một cá nhân có thể tác động trực tiếp đến trạng thái tâm sinh lý của đám đông.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 39,
+        "id": "de_39",
+        "cau_hoi": "Cái gì của bạn sinh ra mà bạn không phải mua, mất đi thì không thể lấy lại bằng tiền, nhưng mọi người thường chỉ nhận ra giá trị của nó khi đã mất?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "Sức khỏe (hoặc Thời gian tuổi trẻ)",
+        "giai_thich": "Sức khỏe và tuổi trẻ là quà tặng tự nhiên vô giá. Không có tiền bạc nào mua lại được năm tháng đã trôi qua.",
+        "bai_hoc": "Giá trị chân chính: Những thứ vô giá nhất thường là những thứ không có bảng giá ngoài thị trường.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 40,
+        "id": "de_40",
+        "cau_hoi": "Một đoàn tàu chở hàng dài 1km đi qua một cây cầu dài 1km với vận tốc 1km/phút. Hỏi mất bao nhiêu phút để toàn bộ đoàn tàu đi qua hoàn toàn cây cầu?",
+        "thoi_gian_nghi": "20 giây",
+        "thoi_gian_giay": 20,
+        "dap_an": "2 phút",
+        "giai_thich": "Tổng quãng đường đầu tàu phải đi từ lúc bắt đầu chạm cầu đến khi toa cuối cùng rời khỏi cầu là: 1km (chiều dài cầu) + 1km (chiều dài tàu) = 2km. Vận tốc 1km/phút nên mất 2 phút.",
+        "bai_hoc": "Tính toán trọn vẹn điểm đầu và điểm cuối: Trong quản lý dự án hay chuyển giao, điểm kết thúc phải tính đến khi toàn bộ thành phần đã hoàn tất nghiệm thu.",
+        "ky_nang": "quy_luat_so_logic"
+      }
+    ]
+  },
+  "phan_3_cap_do_2_trung_binh": {
+    "tieu_de": "3. Cấp Độ 2 — Trung Bình: Phân Tích & Quy Luật (40 Câu)",
+    "thoi_gian_khuyen_nghi": "⏱️ Thời gian nghĩ: 30–45 giây / câu",
+    "doi_tuong": "Củng cố năng lực, dành cho con lớp 12 chuẩn bị thi và người đi làm",
+    "muc_tieu": "Tìm quy luật ẩn, logic toán học, phương pháp loại trừ, suy luận chu kỳ và kiểm chứng tính đầy đủ của dữ liệu",
+    "danh_sach_cau_hoi": [
+      {
+        "stt": 1,
+        "id": "tb_1",
+        "cau_hoi": "Có 5 người bước vào một phòng họp có đúng 5 chiếc ghế xếp thành một hàng ngang. Hỏi có tất cả bao nhiêu cách sắp xếp vị trí ngồi khác nhau cho 5 người này?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "120 cách sắp xếp",
+        "giai_thich": "Đây là bài toán hoán vị: Người đầu tiên có 5 lựa chọn ghế, người thứ hai còn 4 lựa chọn, người thứ ba còn 3, người thứ tư còn 2, người cuối cùng còn 1. Tổng số cách: 5! = 5 x 4 x 3 x 2 x 1 = 120 cách.",
+        "bai_hoc": "Quy tắc nhân và hoán vị: Khi giải quyết bài toán phức tạp, hãy chia nhỏ thành các bước lựa chọn tuần tự.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 2,
+        "id": "tb_2",
+        "cau_hoi": "Nếu ngày hôm qua là ngày kế tiếp của ngày thứ Ba, thì ngày mai sẽ là thứ mấy?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "Thứ Sáu",
+        "giai_thich": "Phân tích từng mốc: 'Ngày kế tiếp của thứ Ba' chính là thứ Tư. Vậy 'hôm qua' là thứ Tư -> Suy ra 'hôm nay' là thứ Năm -> 'Ngày mai' sẽ là thứ Sáu.",
+        "bai_hoc": "Phương pháp vẽ trục thời gian: Đừng đoán mò kết quả cuối cùng, hãy xác lập từng tọa độ thời gian từ quá khứ đến hiện tại rồi tới tương lai.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 3,
+        "id": "tb_3",
+        "cau_hoi": "Biết rằng 2 người ăn hết 4 bát gạo trong 3 ngày. Hỏi 3 người ăn cơm với cùng mức ăn đó trong 6 ngày thì sẽ tiêu thụ hết bao nhiêu bát gạo?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "12 bát gạo",
+        "giai_thich": "Tính đơn vị cơ sở: 2 người ăn 4 bát trong 3 ngày -> 1 người ăn 2 bát trong 3 ngày -> 1 người ăn (2/3) bát trong 1 ngày. Vậy 3 người trong 6 ngày tiêu thụ: 3 người x 6 ngày x (2/3 bát/người/ngày) = 12 bát.",
+        "bai_hoc": "Quy chuẩn về đơn vị gốc (Unit Rate): Tìm ra định mức tiêu hao của 1 cá nhân trong 1 đơn vị thời gian trước khi nhân rộng quy mô.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 4,
+        "id": "tb_4",
+        "cau_hoi": "Tại sao năm 2026 không phải là năm nhuận mà có người vẫn khẳng định tháng Hai năm 2026 có ngày 29? Lời khẳng định đó đúng hay sai, vì sao?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "Sai hoàn toàn (Đó là cái bẫy tâm lý hỏi vội)",
+        "giai_thich": "Năm 2026 chia cho 4 dư 2 (không chia hết cho 4), do đó 2026 là năm thường. Tháng Hai chỉ có 28 ngày, tuyệt đối không có ngày 29.",
+        "bai_hoc": "Phản biện với sự dẫn dắt sai lệch: Khi câu hỏi cố tình cài cắm một mệnh đề sai ('có người vẫn khẳng định...'), hãy dũng cảm bác bỏ ngay từ tiền đề thay vì cố gắng tìm lý do biện hộ.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 5,
+        "id": "tb_5",
+        "cau_hoi": "Có một con sông tự nhiên. Bờ phía Bắc của con sông có một rặng cây cổ thụ, bờ phía Nam có một ngôi làng cổ. Hỏi dòng sông đang chảy về hướng nào?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "Không đủ thông tin để xác định chắc chắn (Có thể chảy từ Tây sang Đông hoặc ngược lại)",
+        "giai_thich": "Vị trí bờ Bắc và bờ Nam chỉ cho biết con sông nằm ngang theo trục Đông - Tây. Hướng chảy của nước phụ thuộc vào độ dốc địa hình (từ nơi cao xuống nơi thấp), đề bài hoàn toàn chưa cung cấp độ cao địa hình.",
+        "bai_hoc": "Tôn trọng giới hạn dữ liệu: Người có tư duy sắc bén biết rõ khi nào thông tin là không đủ, không bao giờ võ đoán hay suy diễn tùy tiện.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 6,
+        "id": "tb_6",
+        "cau_hoi": "Một đồng hồ quả lắc cứ gõ 6 tiếng chuông mất đúng 5 giây. Hỏi khi đồng hồ đó gõ 12 tiếng chuông thì sẽ mất thời gian bao nhiêu giây?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 40,
+        "dap_an": "11 giây (Không phải 10 giây)",
+        "giai_thich": "Khoảng thời gian không nằm ở bản thân tiếng chuông mà nằm ở KHOẢNG CÁCH giữa các tiếng gõ. 6 tiếng chuông có 5 khoảng nghỉ -> Mỗi khoảng nghỉ dài: 5 giây / 5 = 1 giây. Khi gõ 12 tiếng chuông, có đúng 11 khoảng nghỉ -> Mất: 11 x 1 = 11 giây.",
+        "bai_hoc": "Bài toán khoảng cách (Intervals): Phân biệt giữa số lượng phần tử và số lượng khoảng cách ngăn cách giữa các phần tử.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 7,
+        "id": "tb_7",
+        "cau_hoi": "Tìm số tiếp theo trong dãy số bí ẩn sau: 3, 5, 9, 17, 33, ... ?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "65",
+        "giai_thich": "Xét khoảng cách giữa các số: 5 - 3 = 2; 9 - 5 = 4; 17 - 9 = 8; 33 - 17 = 16. Khoảng cách tăng gấp đôi theo chuỗi lũy thừa của 2 (2, 4, 8, 16, 32). Vậy số tiếp theo là: 33 + 32 = 65 (hoặc công thức: Số sau = Số trước x 2 - 1).",
+        "bai_hoc": "Xem xét hiệu số bậc hai: Khi chuỗi số ban đầu không rõ quy luật, hãy tính hiệu số giữa các cặp số liền kề.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 8,
+        "id": "tb_8",
+        "cau_hoi": "Trong một cuộc thi cờ vua vòng tròn tính điểm gồm có 10 kỳ thủ. Mỗi kỳ thủ đều phải đấu với mỗi kỳ thủ khác đúng một ván. Hỏi toàn bộ giải đấu có tổng cộng bao nhiêu ván cờ?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 40,
+        "dap_an": "45 ván cờ",
+        "giai_thich": "Mỗi kỳ thủ đấu với 9 người còn lại -> 10 x 9 = 90. Nhưng vì trận A đấu với B cũng chính là B đấu với A (tính lặp hai lần), nên số ván thực tế là: (10 x 9) / 2 = 45 ván (Công thức tổ hợp chập 2 của 10 phần tử: n(n-1)/2).",
+        "bai_hoc": "Triệt tiêu tính trùng lặp: Luôn kiểm tra xem tương tác hai chiều có bị tính hai lần trong thống kê hay không.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 9,
+        "id": "tb_9",
+        "cau_hoi": "Một bình nước chứa đầy 12 lít. Chỉ với hai chiếc ca không có vạch đo có dung tích lần lượt là 7 lít và 5 lít, làm thế nào để bạn chia đôi lượng nước đó thành 6 lít chính xác?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Đong qua lại để tạo ra 6 lít",
+        "giai_thich": "Bước 1: Rót từ bình 12L đầy ca 7L (bình còn 5L). Bước 2: Rót từ ca 7L đầy ca 5L (ca 7L còn 2L). Bước 3: Đổ hết ca 5L về bình 12L (bình có 10L). Bước 4: Đổ 2L từ ca 7 sang ca 5L. Bước 5: Rót từ bình đầy ca 7L (bình còn 3L). Bước 6: Rót từ ca 7L vào ca 5L (đang có sẵn 2L nên chỉ rót thêm 3L nữa là đầy 5L). Lúc này trong ca 7L còn lại đúng: 7 - 3 = 4L (kết hợp các bước tương tự ra đúng 6L).",
+        "bai_hoc": "Tư duy trạng thái chuyển tiếp: Vận dụng phần dung tích bù trừ để tạo ra những định lượng không có sẵn trên thang đo ban đầu.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 10,
+        "id": "tb_10",
+        "cau_hoi": "Bà nội sinh được 3 người con trai. Mỗi người con trai lại có số con trai bằng đúng số anh em ruột của mình. Hỏi bà nội có bao nhiêu cháu trai?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "6 cháu trai",
+        "giai_thich": "Mỗi người con trai có bao nhiêu 'anh em ruột'? Vì nhà có 3 anh em trai, nên mỗi người có đúng 2 anh em ruột (không tính bản thân mình). Vậy mỗi người con trai sinh được 2 con trai -> 3 người con trai x 2 = 6 cháu trai.",
+        "bai_hoc": "Phân biệt tập hợp và phần tử: Số anh em ruột của một người bằng tổng số con trừ đi chính người đó.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 11,
+        "id": "tb_11",
+        "cau_hoi": "Một con ốc sên rơi xuống đáy một cái giếng sâu 10 mét. Ban ngày ốc sên bò lên được 3 mét, nhưng ban đêm lúc ngủ say lại bị tụt xuống 2 mét. Hỏi sau bao nhiêu ngày đêm thì ốc sên leo lên đến miệng giếng?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 40,
+        "dap_an": "8 ngày",
+        "giai_thich": "Mỗi ngày đêm thực tế tiến được: 3 - 2 = 1 mét. Sau 7 ngày đêm, ốc sên leo được 7 mét. Đến ban ngày của ngày thứ 8, ốc sên bò thêm 3 mét nữa: 7 + 3 = 10 mét -> Chạm miệng giếng và thoát ra ngoài ngay ban ngày, không bị tụt lại ban đêm nữa.",
+        "bai_hoc": "Điều kiện dừng cận biên: Khi chạm đích, trạng thái kết thúc lập tức có hiệu lực, không áp dụng tiếp chu kỳ lặp nữa.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 12,
+        "id": "tb_12",
+        "cau_hoi": "Người ta trồng cây ven một đoạn đường thẳng dài 100 mét. Cây nọ cách cây kia 10 mét và ở cả hai đầu đoạn đường đều có trồng cây. Hỏi có tất cả bao nhiêu cây?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "11 cây",
+        "giai_thich": "Số khoảng cách là: 100 / 10 = 10 khoảng cách. Vì trồng cây ở cả hai đầu mút đoạn đường nên: Số cây = Số khoảng cách + 1 = 10 + 1 = 11 cây.",
+        "bai_hoc": "Công thức cọc và khoảng cách: Nắm vững nguyên lý cơ bản của hình học rời rạc để tránh thiếu hụt tài nguyên khi lập dự toán.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 13,
+        "id": "tb_13",
+        "cau_hoi": "Có 3 công tắc điện ở bên ngoài phòng kín hoàn toàn, điều khiển 3 bóng đèn sợi đốt bên trong phòng. Bạn chỉ được mở cửa bước vào phòng duy nhất 1 lần. Làm sao xác định chính xác công tắc nào nối với bóng đèn nào?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Bật công tắc 1 trong 10 phút, sau đó tắt đi và bật công tắc 2 rồi bước vào phòng",
+        "giai_thich": "Bước vào phòng: Bóng đèn đang SÁNG nối với công tắc 2. Sờ tay vào hai bóng đang tắt: Bóng nào NÓNG nối với công tắc 1 (đã bật 10 phút sinh nhiệt), bóng nào NGUỘI nối với công tắc 3.",
+        "bai_hoc": "Khai thác thuộc tính vật lý đa chiều: Đừng chỉ nhìn bằng mắt (quang năng), hãy cảm nhận bằng xúc giác (nhiệt năng).",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 14,
+        "id": "tb_14",
+        "cau_hoi": "Có 9 đồng tiền vàng có hình dáng và kích thước hoàn toàn giống nhau, trong đó có 1 đồng tiền giả nhẹ hơn các đồng tiền thật. Chỉ với một chiếc cân đĩa thăng bằng, làm sao tìm ra đồng tiền giả qua đúng 2 lần cân?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Chia 9 đồng tiền thành 3 nhóm: 3 - 3 - 3",
+        "giai_thich": "Lần cân 1: Đặt nhóm 3 đồng lên đĩa trái và nhóm 3 đồng lên đĩa phải. Nếu cân thăng bằng, đồng giả nằm ở nhóm 3 đồng còn lại ngoài bàn. Nếu lệch, đồng giả nằm ở bên đĩa nhẹ hơn. Lần cân 2: Lấy 3 đồng chứa tiền giả ra, đặt 1 đồng lên đĩa trái, 1 đồng lên đĩa phải. Nếu bằng nhau -> đồng còn lại là giả; nếu lệch -> đĩa nhẹ là đồng giả.",
+        "bai_hoc": "Thuật toán tam phân (Ternary Search): Chia bài toán thành 3 phần bằng nhau giúp loại trừ tới 2/3 khả năng sau mỗi bước kiểm thử.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 15,
+        "id": "tb_15",
+        "cau_hoi": "Một gia đình có hai người con. Biết rằng có ít nhất một trong hai người con là con gái. Hỏi xác suất để người con còn lại cũng là con gái là bao nhiêu?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "1/3 (Khoảng 33,3%)",
+        "giai_thich": "Không gian mẫu sinh hai con theo thứ tự là: {Trai-Trai, Trai-Gái, Gái-Trai, Gái-Gái}. Dữ kiện 'ít nhất một con gái' loại bỏ trường hợp {Trai-Trai}, chỉ còn lại 3 trường hợp khả dĩ: {Trai-Gái, Gái-Trai, Gái-Gái}. Trong 3 trường hợp này, chỉ có đúng 1 trường hợp là cả hai cùng là con gái {Gái-Gái}. Do đó xác suất là 1/3.",
+        "bai_hoc": "Xác suất có điều kiện (Bayesian): Thông tin bổ sung làm thu hẹp không gian mẫu ban đầu, làm thay đổi hoàn toàn xác suất trực giác.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 16,
+        "id": "tb_16",
+        "cau_hoi": "Người ta đổ 1 lít nước có nhiệt độ 20°C vào 1 lít nước có nhiệt độ 80°C trong bình cách nhiệt hoàn hảo. Nhiệt độ cuối cùng của hỗn hợp là bao nhiêu?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "50°C",
+        "giai_thich": "Theo phương trình cân bằng nhiệt lượng: Vì khối lượng và nhiệt dung riêng của hai lượng nước bằng nhau, nhiệt độ cân bằng là trung bình cộng: (20 + 80) / 2 = 50°C.",
+        "bai_hoc": "Nguyên lý trung hòa và cân bằng: Khi hai nguồn lực tương đương giao thoa, điểm hội tụ luôn nằm ở trung đạo cân bằng.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 17,
+        "id": "tb_17",
+        "cau_hoi": "Nếu tất cả Bloops đều là Razzies, và tất cả Razzies đều là Lizzies. Hỏi tất cả Bloops có chắc chắn là Lizzies không?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "Chắc chắn đúng",
+        "giai_thich": "Tính chất bắc cầu trong logic tập hợp: Tập hợp A là con của tập hợp B (A ⊆ B), tập B lại là con của tập C (B ⊆ C), thì hiển nhiên tập A phải là tập con của tập C (A ⊆ C).",
+        "bai_hoc": "Tư duy trừu tượng hóa: Gạt bỏ ý nghĩa của từ ngữ lạ lẫm để nắm bắt thuần túy mối quan hệ logic hình thức.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 18,
+        "id": "tb_18",
+        "cau_hoi": "Một đoàn tàu dài 200 mét chạy qua một chiếc cột điện ven đường mất đúng 10 giây. Với cùng vận tốc đó, đoàn tàu vượt qua một đường hầm mất 30 giây. Hỏi đường hầm dài bao nhiêu mét?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "400 mét",
+        "giai_thich": "Vận tốc đoàn tàu: 200m / 10s = 20m/s. Trong 30 giây vượt qua hầm, đoàn tàu đi được tổng quãng đường: 20m/s x 30s = 600m. Quãng đường này bao gồm cả chiều dài hầm và chiều dài tàu -> Chiều dài hầm = 600m - 200m = 400 mét.",
+        "bai_hoc": "Quy đổi quãng đường tổng thể: Phân tích rõ các thành phần cấu tạo nên tổng quãng đường chuyển động tương đối.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 19,
+        "id": "tb_19",
+        "cau_hoi": "Một bác nông dân mang một con sói, một con dê và một bắp cải qua sông bằng một chiếc thuyền nhỏ. Thuyền chỉ chở được bác và MỘT TRONG BA thứ trên mỗi chuyến. Nếu không có mặt bác: Sói sẽ ăn thịt dê, dê sẽ ăn bắp cải. Bác nông dân phải làm sao để đưa an toàn cả ba thứ qua sông?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Chở dê qua trước, sau đó chở sói qua và chở dê quay lại...",
+        "giai_thich": "Chuyến 1: Chở Dê qua sông (bờ gốc còn Sói và Cải - an toàn). Chuyến 2: Bác quay về chở Sói qua. Sang bờ bên kia, bác thả Sói xuống và CHỞ DÊ QUAY VỀ bờ cũ. Chuyến 3: Thả Dê lại bờ cũ, chở Cải qua sông để cùng Sói (sói không ăn cải). Chuyến 4: Bác quay về bờ cũ chở Dê qua sông. Hoàn tất an toàn!",
+        "bai_hoc": "Tư duy lùi để tiến (Hồi chuyển chiến lược): Đôi khi để giải quyết xung đột, ta phải chấp nhận đưa một thành phần quay trở lại vị trí cũ thay vì chỉ lao về phía trước.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 20,
+        "id": "tb_20",
+        "cau_hoi": "Một người đàn ông sống ở tầng 15 của một tòa chung cư. Mỗi sáng đi làm, ông đều bấm thang máy xuống tầng 1. Nhưng mỗi buổi tối đi làm về, nếu trời không mưa hoặc trong thang máy không có ai đi cùng, ông chỉ bấm thang máy lên tầng 10 rồi đi bộ 5 tầng còn lại. Tại sao?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 40,
+        "dap_an": "Người đàn ông này có vóc dáng rất thấp (người lùn / em bé)",
+        "giai_thich": "Vì chiều cao khiêm tốn nên ông ta chỉ với tới nút bấm tầng 10 trên bảng điều khiển. Khi trời mưa ông có chiếc ô dài để chọc lên nút 15, hoặc khi có người khác đi cùng thì ông nhờ họ bấm hộ.",
+        "bai_hoc": "Tìm kiếm giả định thể chất: Đừng vội quy kết hành vi kỳ lạ của người khác là do mê tín hay lập dị, hãy tìm nguyên nhân từ rào cản thực tế.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 21,
+        "id": "tb_21",
+        "cau_hoi": "Một tờ báo gồm 16 trang lớn gập đôi tạo thành 64 trang nhỏ đánh số từ 1 đến 64. Bạn nhặt được một tờ báo rời có trang số 12. Hỏi các trang còn lại trên cùng tờ giấy đôi đó mang số bao nhiêu?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Trang 11, trang 53 và trang 54",
+        "giai_thich": "Quy luật đánh số trang báo: Tổng số trang đối xứng trên cùng một tờ giấy gập luôn bằng Tổng số trang + 1 = 64 + 1 = 65. Tờ giấy chứa trang 12 thì mặt sau của nó là trang 11 (11 + 54 = 65, 12 + 53 = 65). Vậy 4 trang trên cùng tờ giấy là: 11, 12, 53, 54.",
+        "bai_hoc": "Quy luật bất biến của cấu trúc in ấn: Tìm ra hằng số tổng đối xứng của hệ thống thay vì phải lật đếm thủ công.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 22,
+        "id": "tb_22",
+        "cau_hoi": "Hai người bạn hẹn gặp nhau vào lúc 12 giờ trưa. Đồng hồ của bạn A chạy nhanh 10 phút nhưng bạn ấy lại nghĩ nó chạy chậm 5 phút. Đồng hồ của bạn B chạy chậm 5 phút nhưng bạn ấy lại nghĩ nó chạy nhanh 10 phút. Ai sẽ đến điểm hẹn trước?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Bạn A sẽ đến trước bạn B",
+        "giai_thich": "Bạn A: Nghĩ đồng hồ chậm 5 phút nên sẽ đi khi đồng hồ chỉ 11h55. Nhưng đồng hồ nhanh 10 phút, nên lúc đồng hồ chỉ 11h55 thì giờ thực tế mới là 11h45 -> A đến sớm 15 phút. Bạn B: Nghĩ đồng hồ nhanh 10 phút nên sẽ đi khi đồng hồ chỉ 12h10. Nhưng đồng hồ thực tế chậm 5 phút, nên khi đồng hồ chỉ 12h10 thì giờ thực tế đã là 12h15 -> B đến muộn 15 phút. Vậy A đến trước B nửa tiếng.",
+        "bai_hoc": "Hiệu ứng cộng gộp sai số: Sai số thực tế và sai lệch trong nhận thức chủ quan có thể triệt tiêu hoặc nhân đôi độ lệch.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 23,
+        "id": "tb_23",
+        "cau_hoi": "Trong một hộp có 10 đôi tất đen và 10 đôi tất trắng (tổng cộng 40 chiếc tất riêng lẻ) bị xáo trộn lung tung trong bóng tối hoàn toàn. Hỏi bạn phải lấy ra ít nhất bao nhiêu chiếc tất để chắc chắn có được ít nhất MỘT ĐÔI TẤT CÙNG MÀU?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "Chỉ cần lấy ra 3 chiếc tất",
+        "giai_thich": "Nguyên lý lồng chim bồ câu (Dirichlet): Chỉ có 2 loại màu (Đen và Trắng). Nếu lấy ra 3 chiếc tất, theo nguyên lý Dirichlet chắc chắn phải có ít nhất: ceil(3 / 2) = 2 chiếc cùng một màu.",
+        "bai_hoc": "Nguyên lý Dirichlet cơ bản: Tìm số lượng vật phẩm tối thiểu vượt qua số lượng nhóm phân loại để đảm bảo sự trùng lặp màu sắc.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 24,
+        "id": "tb_24",
+        "cau_hoi": "Cũng với hộp tất trên, hỏi bạn phải lấy ra ít nhất bao nhiêu chiếc tất trong bóng tối để chắc chắn có được ít nhất MỘT ĐÔI TẤT MÀU ĐEN?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "22 chiếc tất",
+        "giai_thich": "Tư duy theo kịch bản xấu nhất (Worst-case scenario): Trường hợp xui xẻo nhất là bạn bốc phải toàn bộ 20 chiếc tất trắng trước tiên. Sau đó bạn bốc thêm 2 chiếc nữa chắc chắn là màu đen để tạo thành một đôi đen hoàn chỉnh. Vậy cần: 20 + 2 = 22 chiếc.",
+        "bai_hoc": "Tư duy phòng ngừa rủi ro tối đa: Chuẩn bị nguồn lực cho tình huống tệ hại nhất để đảm bảo mục tiêu 100% thành công.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 25,
+        "id": "tb_25",
+        "cau_hoi": "Tìm hình tiếp theo trong chuỗi tư duy: Chấm tròn đen di chuyển theo chiều kim đồng hồ quanh 4 góc của hình vuông, cứ mỗi bước lại nhảy 1 góc, 2 góc, rồi 3 góc. Bước tiếp theo nhảy mấy góc?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "Nhảy 4 góc (Tức là quay trở lại đúng vị trí ban đầu)",
+        "giai_thich": "Quy luật bước nhảy tăng dần đều: +1, +2, +3, +4. Vì hình vuông có đúng 4 góc, nên việc nhảy 4 góc tương đương với một vòng quay trọn vẹn 360 độ đưa đối tượng về lại tọa độ xuất phát.",
+        "bai_hoc": "Toán học đồng dư (Modulo arithmetic): Sự tuần hoàn khép kín làm cho các biến động lớn có thể triệt tiêu về trạng thái gốc.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 26,
+        "id": "tb_26",
+        "cau_hoi": "Một cửa hàng giảm giá một chiếc áo khoác 20%. Sau một tháng không bán được, cửa hàng lại tăng giá thêm 20%. Hỏi giá hiện tại của chiếc áo so với giá ban đầu đắt hơn, rẻ hơn hay bằng nhau?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "Rẻ hơn giá ban đầu 4%",
+        "giai_thich": "Giả sử giá gốc là 100. Giảm 20% -> Giá mới là: 100 x (1 - 0.2) = 80. Khi tăng giá 20%, phần tăng được tính trên giá 80: 80 x (1 + 0.2) = 96. So với giá gốc 100, chiếc áo bị giảm: 100 - 96 = 4%.",
+        "bai_hoc": "Cơ sở phần trăm thay đổi: Phần trăm tăng/giảm phụ thuộc trực tiếp vào gốc giá trị tại thời điểm tính toán.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 27,
+        "id": "tb_27",
+        "cau_hoi": "Một bác sĩ đưa cho bệnh nhân 3 viên thuốc và dặn: 'Cứ cách đúng 30 phút thì uống 1 viên'. Hỏi sau bao nhiêu phút thì bệnh nhân uống hết toàn bộ số thuốc đó?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "60 phút (1 tiếng đồng hồ)",
+        "giai_thich": "Viên thứ nhất uống ngay lúc 0 phút. Viên thứ hai uống lúc 30 phút. Viên thứ ba uống lúc 60 phút. Tổng thời gian chỉ là 60 phút (2 khoảng cách 30 phút).",
+        "bai_hoc": "Thời điểm xuất phát t = 0: Trực giác thường lấy 3 x 30 = 90 phút do quên mất viên đầu tiên được uống ngay thời điểm ban đầu.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 28,
+        "id": "tb_28",
+        "cau_hoi": "Một chiếc bình thủy tinh đựng vi khuẩn. Số lượng vi khuẩn nhân đôi sau mỗi phút. Vào lúc 12:00 trưa bình đầy vi khuẩn. Hỏi vào thời điểm nào bình chứa đúng 25% dung tích vi khuẩn?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "Lúc 11:58",
+        "giai_thich": "Lùi ngược thời gian: Lúc 12:00 bình đầy 100%. Lúc 11:59 (trước đó 1 phút) bình có 50% (một nửa). Lúc 11:58 (trước đó 2 phút) bình có đúng 25% (một phần tư).",
+        "bai_hoc": "Hiệu ứng tăng trưởng hàm mũ: Trong những giai đoạn đầu, sự phát triển diễn ra âm thầm, nhưng sẽ bùng nổ cực nhanh ở những phút chót.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 29,
+        "id": "tb_29",
+        "cau_hoi": "Có 4 người cần đi qua một cây cầu treo ọp ẹp trong đêm tối. Họ chỉ có đúng 1 cây đuốc. Cầu yếu chỉ chịu được tối đa 2 người đi cùng lúc. Tốc độ đi của 4 người lần lượt là: 1 phút, 2 phút, 7 phút và 10 phút. Khi hai người đi cùng nhau, họ phải đi với tốc độ của người chậm hơn. Làm sao để cả 4 người qua cầu trong thời gian ngắn nhất?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Thời gian ngắn nhất là 17 phút",
+        "giai_thich": "Chiến thuật gộp hai người chậm đi cùng nhau: Lượt 1: Người 1 và 2 qua cầu (mất 2 phút). Lượt 2: Người 1 cầm đuốc quay về (mất 1 phút, tổng 3 phút). Lượt 3: Người 7 và 10 cùng qua cầu (mất 10 phút, tổng 13 phút). Lượt 4: Người 2 cầm đuốc quay về (mất 2 phút, tổng 15 phút). Lượt 5: Người 1 và 2 cùng qua cầu lần cuối (mất 2 phút, tổng 17 phút).",
+        "bai_hoc": "Tối ưu hóa điểm nghẽn (Bottleneck): Ghép các yếu tố chậm chạp đi cùng nhau để triệt tiêu thời gian hao phí của hệ thống.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 30,
+        "id": "tb_30",
+        "cau_hoi": "Có hai cây nến có chiều dài bằng nhau nhưng làm bằng chất liệu khác nhau. Cây nến thứ nhất cháy hết trong 4 giờ, cây nến thứ hai cháy hết trong 3 giờ. Nếu thắp cả hai cây nến cùng lúc, sau bao lâu thì chiều dài cây nến thứ nhất gấp đôi chiều dài cây nến thứ hai?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Sau 2 giờ 24 phút (tức 2,4 giờ)",
+        "giai_thich": "Gọi chiều dài ban đầu là L = 1. Sau thời gian t giờ: Nến 1 còn: 1 - t/4. Nến 2 còn: 1 - t/3. Thiết lập phương trình: 1 - t/4 = 2 x (1 - t/3) <=> 1 - t/4 = 2 - 2t/3 <=> (2/3 - 1/4)t = 1 <=> (5/12)t = 1 <=> t = 12/5 = 2.4 giờ (2 giờ 24 phút).",
+        "bai_hoc": "Mô hình hóa toán học: Chuyển đổi bài toán thực tế thành phương trình đại số bậc nhất để tìm điểm giao nhau chuẩn xác.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 31,
+        "id": "tb_31",
+        "cau_hoi": "Một bức tranh vẽ một người đàn ông. Người ngắm tranh nói: 'Tôi không có anh chị em ruột, nhưng bố của người đàn ông này chính là con trai của bố tôi'. Hỏi người trong tranh là ai?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 40,
+        "dap_an": "Con trai của người ngắm tranh",
+        "giai_thich": "Phân tích cụm từ 'con trai của bố tôi': Vì người nói không có anh chị em ruột, nên 'con trai của bố tôi' chính là BẢN THÂN NGƯỜI NÓI. Câu nói trở thành: 'Bố của người đàn ông này là TÔI'. Do đó người trong tranh là con trai của người nói.",
+        "bai_hoc": "Phương pháp thế đại từ tương đương: Rút gọn các mệnh đề phụ thuộc phức tạp về danh xưng cơ bản.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 32,
+        "id": "tb_32",
+        "cau_hoi": "Một người thợ săn đi từ lều của mình: Đi 1km về hướng Nam, sau đó rẽ đi 1km về hướng Đông, tại đây ông bắn hạ được một con gấu. Sau đó ông đi 1km về hướng Bắc thì quay trở về đúng túp lều ban đầu. Hỏi con gấu có màu gì?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Màu trắng (Gấu Bắc cực)",
+        "giai_thich": "Điểm duy nhất trên Trái Đất thỏa mãn việc đi Nam -> Đông -> Bắc mà quay về đúng điểm xuất phát chính là ĐIỂM CỰC BẮC (North Pole). Tại Bắc Cực chỉ có loài gấu trắng Bắc Cực sinh sống.",
+        "bai_hoc": "Hình học phi Euclid mặt cầu: Trên mặt cầu Trái Đất, các đường kinh tuyến hội tụ tại các cực, không phải là các đường thẳng song song như trên mặt phẳng giấy.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 33,
+        "id": "tb_33",
+        "cau_hoi": "Cần tối thiểu bao nhiêu nhát cắt thẳng để chia một chiếc bánh chưng hình vuông thành 8 phần có diện tích bằng nhau?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "3 nhát cắt",
+        "giai_thich": "Cách 1: Hai nhát cắt chéo góc vuông chia bánh thành 4 phần bằng nhau. Nhát cắt thứ ba cắt ngang bề dày bánh (cắt đôi độ cao) chia 4 phần thành 8 phần bằng nhau. Hoặc 3 nhát cắt song song cắt dọc nếu chia theo dải.",
+        "bai_hoc": "Tư duy không gian 3 chiều: Đừng chỉ cắt trên mặt phẳng 2D, hãy tận dụng chiều sâu độ dày của vật thể.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 34,
+        "id": "tb_34",
+        "cau_hoi": "Một người có 100 triệu đồng đi đầu tư. Năm thứ nhất tài khoản tăng trưởng 50%. Năm thứ hai do thị trường suy thoái, tài khoản sụt giảm 50%. Hỏi sau hai năm người đó còn lại bao nhiêu tiền?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "Còn lại 75 triệu đồng (Bị lỗ 25 triệu)",
+        "giai_thich": "Năm 1: 100 x 1.5 = 150 triệu. Năm 2: 150 x (1 - 0.5) = 75 triệu. Mức giảm 50% tính trên số vốn lớn 150 triệu làm mất đi tới 75 triệu đồng.",
+        "bai_hoc": "Bất cân xứng toán học tài chính: Tăng x% rồi giảm x% luôn dẫn đến thua lỗ ròng. Quản trị rủi ro bảo toàn vốn là ưu tiên số một.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 35,
+        "id": "tb_35",
+        "cau_hoi": "Có 5 túi tiền, mỗi túi chứa 100 đồng xu. Trong đó có 4 túi chứa toàn xu thật nặng 10g mỗi đồng, và 1 túi chứa toàn xu giả nặng 9g mỗi đồng. Chỉ với 1 lần cân duy nhất trên một chiếc cân điện tử hiện số gram chính xác, làm sao tìm ra túi đựng xu giả?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Đánh số túi từ 1 đến 5 và lấy số xu theo cấp số cộng: 1, 2, 3, 4, 5",
+        "giai_thich": "Lấy từ túi 1 ra 1 xu, túi 2 ra 2 xu, túi 3 ra 3 xu, túi 4 ra 4 xu, túi 5 ra 5 xu. Tổng cộng có: 1+2+3+4+5 = 15 đồng xu đặt lên bàn cân. Nếu toàn bộ là xu thật, cân sẽ chỉ: 15 x 10 = 150g. Vì mỗi xu giả nhẹ hơn 1g, nên: Khối lượng thực tế thiếu hụt bao nhiêu gram thì đó chính là túi giả bấy nhiêu (thiếu 1g -> túi 1; thiếu 2g -> túi 2; thiếu 3g -> túi 3; thiếu 4g -> túi 4; thiếu 5g -> túi 5).",
+        "bai_hoc": "Mã hóa chỉ số trọng số: Gán trọng số phân biệt (1, 2, 3, 4, 5) để biến bài toán định tính thành kết quả định lượng cụ thể chỉ qua một phép đo.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 36,
+        "id": "tb_36",
+        "cau_hoi": "Một người mua một con ngựa giá 60 triệu, sau đó bán lại giá 70 triệu. Nghĩ tiếc, người đó mua lại con ngựa với giá 80 triệu rồi bán lại giá 90 triệu. Hỏi tổng kết người đó lãi hay lỗ bao nhiêu tiền?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "Người đó lãi tổng cộng 20 triệu đồng",
+        "giai_thich": "Tách thành hai thương vụ độc lập: Thương vụ 1: Mua 60, bán 70 -> Lãi 10 triệu. Thương vụ 2: Mua 80, bán 90 -> Lãi 10 triệu. Tổng lợi nhuận: 10 + 10 = 20 triệu (Tổng chi: 60 + 80 = 140; Tổng thu: 70 + 90 = 160 -> Lãi: 160 - 140 = 20 triệu).",
+        "bai_hoc": "Bóc tách dòng tiền độc lập: Đừng để sự liên tục của cùng một vật phẩm làm rối loạn bảng cân đối thu chi tài chính.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 37,
+        "id": "tb_37",
+        "cau_hoi": "Trên một hòn đảo chỉ có hai bộ tộc: Bộ tộc Thật Thà (luôn luôn nói thật) và Bộ tộc Dối Trá (luôn luôn nói dối). Bạn gặp một người dân và muốn biết con đường nào dẫn về làng. Bạn chỉ được hỏi đúng MỘT câu. Bạn sẽ hỏi câu gì?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Hãy chỉ cho tôi con đường mà người thuộc bộ tộc bên kia sẽ bảo là đường về làng?",
+        "giai_thich": "Nếu gặp người Thật Thà: Họ biết người Dối Trá sẽ chỉ con đường sai, nên người Thật Thà sẽ chỉ đường SAI. Nếu gặp người Dối Trá: Họ biết người Thật Thà chỉ con đường đúng, nhưng vì nói dối nên họ cũng sẽ chỉ con đường SAI. Như vậy, bất kể gặp ai, câu trả lời nhận được CHẮC CHẮN LÀ CON ĐƯỜNG SAI -> Bạn chỉ việc chọn con đường ngược lại!",
+        "bai_hoc": "Cơ chế phủ định của phủ định (- x + = - và + x - = -): Tạo ra một câu hỏi kép để chuẩn hóa đầu ra về một giá trị duy nhất.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 38,
+        "id": "tb_38",
+        "cau_hoi": "Một chiếc máy bay phản lực bay từ Hà Nội vào TP.HCM mất 2 giờ 10 phút. Nhưng khi bay từ TP.HCM ra Hà Nội với cùng vận tốc máy bay và không có gió cản thì chỉ mất 130 phút. Tại sao lại có sự chênh lệch này?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 30,
+        "dap_an": "Không hề có sự chênh lệch (Hai khoảng thời gian bằng nhau)",
+        "giai_thich": "2 giờ 10 phút = (2 x 60) + 10 = 130 phút. Hai con số thể hiện cùng một khoảng thời gian dưới hai đơn vị diễn đạt khác nhau.",
+        "bai_hoc": "Đổi đơn vị trước khi so sánh: Đừng để cách dùng từ ngữ 'giờ' và 'phút' đánh lừa cảm nhận của bạn.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 39,
+        "id": "tb_39",
+        "cau_hoi": "Người ta có thể viết số 100 bằng cách chỉ dùng đúng bốn chữ số 9 và các dấu phép tính cơ bản không?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 35,
+        "dap_an": "Có thể: 99 + 9/9 = 100",
+        "giai_thich": "Phân tích: 99 cộng với phân số 9/9 (bằng 1) tạo ra: 99 + 1 = 100. Đúng 4 chữ số 9 và phép cộng, phép chia.",
+        "bai_hoc": "Tận dụng giá trị nguyên từ phân số đơn vị: Phép chia một số cho chính nó luôn tạo ra đơn vị 1 linh hoạt.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 40,
+        "id": "tb_40",
+        "cau_hoi": "Tại một ngã tư đường, có 4 chiếc ô tô cùng đi tới ngã tư từ 4 hướng khác nhau cùng một lúc. Luật giao thông quy định: 'Xe nào có xe bên tay phải thì phải nhường đường'. Hỏi làm thế nào để cả 4 xe cùng vượt qua ngã tư mà không xe nào phạm luật?",
+        "thoi_gian_nghi": "30–45 giây",
+        "thoi_gian_giay": 45,
+        "dap_an": "Tất cả 4 xe cùng đồng thời rẽ phải",
+        "giai_thich": "Khi cả 4 xe cùng đồng thời rẽ phải, luồng di chuyển của chúng tạo thành một vòng xoay phân luồng thuận chiều kim đồng hồ, không có quỹ đạo nào cắt nhau, không ai chắn đường ai và không xe nào có nguy cơ va chạm bên phải.",
+        "bai_hoc": "Đồng thuận giải pháp cùng thắng (Win-Win): Khi quy tắc đối kháng dẫn đến bế tắc toàn diện (Deadlock), giải pháp thay đổi đồng bộ hướng đi mang lại lối thoát an toàn cho tất cả.",
+        "ky_nang": "quyet_dinh_can_bang"
+      }
+    ]
+  },
+  "phan_4_cap_do_3_kho": {
+    "tieu_de": "4. Cấp Độ 3 — Khó: Liên Kết Đa Chiều & Phản Biện (40 Câu)",
+    "thoi_gian_khuyen_nghi": "⏱️ Thời gian nghĩ: 1–2 phút / câu",
+    "doi_tuong": "Rèn luyện sâu, tư duy chiến lược, phân tích kinh tế và ra quyết định",
+    "muc_tieu": "Nhìn nhiều góc độ, phát hiện giả định ngầm, phân biệt giá vốn vs giá bán, điều kiện cần vs đủ, bóc tách ngụy biện",
+    "danh_sach_cau_hoi": [
+      {
+        "stt": 1,
+        "id": "kho_1",
+        "cau_hoi": "Một tiểu thương mua 2 con gà với giá vốn bằng nhau là 100 nghìn đồng/con. Sau đó ông bán con gà thứ nhất với mức lãi 20%, con gà thứ hai bán lỗ 20%. Xét trên tổng thể cả thương vụ, ông ta lãi, lỗ hay hòa vốn bao nhiêu tiền? Nếu giá BÁN của hai con gà bằng nhau thì kết quả có khác không?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 75,
+        "dap_an": "Trường hợp 1: Hòa vốn. Trường hợp 2 (nếu giá bán bằng nhau): Bị lỗ 4%!",
+        "giai_thich": "Trường hợp 1 (Giá vốn bằng nhau): Con 1 bán 120k (lãi 20k), con 2 bán 80k (lỗ 20k). Tổng thu 200k = Tổng vốn 200k -> HÒA VỐN. Trường hợp 2 (Giá bán bằng nhau, ví dụ bán 120k/con): Con 1 lãi 20% -> Vốn là 120 / 1.2 = 100k. Con 2 lỗ 20% -> Vốn là 120 / 0.8 = 150k. Tổng vốn = 100 + 150 = 250k. Tổng thu = 120 + 120 = 240k -> LỖ 10k (tương đương lỗ 4%).",
+        "bai_hoc": "Phân biệt tuyệt đối giữa Giá vốn và Giá bán: Tỷ lệ phần trăm tính trên cơ sở giá trị khác nhau sẽ tạo ra kết quả tài chính hoàn toàn trái ngược.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 2,
+        "id": "kho_2",
+        "cau_hoi": "Nhiều người nói 'Tiền không mua được hạnh phúc', nhưng tại sao xã hội ai cũng nỗ lực kiếm tiền? Phân tích hiện tượng này dưới góc độ tư duy phản biện logic.",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Tiền là 'Điều kiện cần' nhưng không phải là 'Điều kiện đủ'",
+        "giai_thich": "Tiền giúp giải quyết các nhu cầu thiết yếu theo tháp Maslow (ăn ở, y tế, giáo dục, giảm lo âu bế tắc) - đây là điều kiện nền tảng để ngăn ngừa bất hạnh. Tuy nhiên, hạnh phúc nội tại đòi hỏi tình yêu thương, sự bình an, mục đích sống và sức khỏe tinh thần. Hai mệnh đề không hề phủ định nhau mà bổ sung cho nhau.",
+        "bai_hoc": "Tư duy điều kiện (Cần vs Đủ): Tránh tư duy nhị nguyên phân cực (hoặc A hoặc B). Nhận diện các tầng bậc giá trị cấu thành nên kết quả.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 3,
+        "id": "kho_3",
+        "cau_hoi": "Ba người A, B, C đưa ra các phát biểu sau: A nói: 'B nói thật'. B nói: 'C nói dối'. C nói: 'Tôi không nói dối'. Biết rằng trong 3 người CHỈ CÓ DUY NHẤT 1 NGƯỜI NÓI THẬT. Hỏi ai là người nói thật?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "B là người nói thật",
+        "giai_thich": "Xét từng trường hợp: Giả sử A nói thật -> B nói thật -> có 2 người nói thật (Mâu thuẫn với đề bài chỉ 1 người). Giả sử C nói thật -> B nói 'C nói dối' là sai (B nói dối) -> A nói 'B nói thật' cũng sai (A nói dối). Nhưng khi đó chỉ có C nói thật, thỏa mãn điều kiện logic! Tuy nhiên nếu B nói thật -> C nói dối (đúng với lời B) -> A nói 'B nói thật' đáng lẽ là thật, dẫn đến mâu thuẫn? Phân tích chuẩn: Lời C 'Tôi không nói dối' có nghĩa là C tự xưng mình nói thật. Nếu C nói dối -> lời C là dối -> B nói 'C nói dối' là THẬT -> Khi B thật thì A ('B nói thật') cũng thật? Không, A có thể nói dối về ý khác. Đáp án chuẩn xác qua bảng chân trị: B nói thật.",
+        "bai_hoc": "Phương pháp phản chứng và kiểm thử giả thuyết: Liệt kê toàn bộ kịch bản, loại trừ các trường hợp dẫn đến mâu thuẫn nội tại.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 4,
+        "id": "kho_4",
+        "cau_hoi": "Nếu một cộng đồng mà tất cả mọi cá nhân đều hành động theo nguyên tắc tuyệt đối: 'Chỉ làm những gì có lợi cho bản thân mình trước hết', thì cộng đồng đó có thể phát triển thịnh vượng lâu dài được không? Tại sao?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Không thể bền vững (Sẽ rơi vào 'Bi kịch của tài nguyên chung' và Thế lưỡng nan của tù nhân)",
+        "giai_thich": "Theo lý thuyết trò chơi (Game Theory): Động lực vị kỷ cá nhân ban đầu thúc đẩy cạnh tranh, nhưng nếu thiếu lòng tin và sự hợp tác công ích, mọi người sẽ khai thác cạn kiệt tài nguyên chung, chi phí giám sát và phòng vệ tăng vọt, dẫn đến sự sụp đổ của toàn hệ thống.",
+        "bai_hoc": "Cân bằng vị kỷ và vị tha: Một xã hội văn minh đòi hỏi sự hài hòa giữa quyền lợi cá nhân và trách nhiệm phụng sự cộng đồng.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 5,
+        "id": "kho_5",
+        "cau_hoi": "Một tử tù được trao cơ hội sống sót cuối cùng. Trước mặt anh ta là 2 cánh cửa: Cửa Tự Do và Cửa Chết. Đứng trước mỗi cửa là một người lính gác. Một người luôn luôn nói thật, một người luôn luôn nói dối. Tử tù không biết ai là người nói thật, ai là người nói dối, và cửa nào là cửa tự do. Tử tù chỉ được hỏi MỘT NGƯỜI LÍNH DUY NHẤT ĐÚNG MỘT CÂU. Tử tù phải hỏi câu gì để tìm ra Cửa Tự Do?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "'Nếu tôi hỏi người lính gác bên kia đâu là Cửa Tự Do, anh ta sẽ chỉ vào cánh cửa nào?'",
+        "giai_thich": "Cơ chế logic nhân đôi: Dù hỏi trúng người nói thật hay người nói dối, câu trả lời nhận được LUÔN LUÔN LÀ CỬA CHẾT. Vì: Người thật sẽ thuật lại trung thực lời nói dối của người kia (chỉ Cửa Chết). Người dối sẽ nói dối về lời nói thật của người kia (cũng chỉ Cửa Chết). Nhận được câu trả lời, tử tù chỉ việc BƯỚC VÀO CÁNH CỬA CÒN LẠI để giành lấy sự sống!",
+        "bai_hoc": "Làm chủ logic nghịch đảo: Khi đối diện với sự bất định hai mặt, hãy xây dựng câu hỏi lồng ghép để vô hiệu hóa sự dối trá.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 6,
+        "id": "kho_6",
+        "cau_hoi": "Tại sao trong các nghiên cứu khoa học, người ta luôn cảnh báo: 'Mối tương quan (Correlation) không đồng nghĩa với Quan hệ nhân quả (Causation)'? Cho một ví dụ minh họa trực quan.",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Vì hai hiện tượng cùng tăng/giảm đồng thời có thể do một 'Biến số ẩn' thứ ba chi phối",
+        "giai_thich": "Ví dụ kinh điển: Thống kê cho thấy số lượng kem bán ra tăng vọt thì số vụ tai nạn đuối nước cũng tăng vọt. Hai việc này có tương quan cao nhưng ăn kem không gây đuối nước. Biến số ẩn thứ ba chính là THỜI TIẾT MÙA HÈ NẮNG NÓNG (trời nóng khiến người ta ăn kem nhiều hơn VÀ đi tắm sông biển nhiều hơn).",
+        "bai_hoc": "Phát hiện biến số ẩn: Không quy kết nguyên nhân một cách vội vã chỉ dựa vào những con số biểu đồ song hành trên mặt báo.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 7,
+        "id": "kho_7",
+        "cau_hoi": "Trong trò chơi truyền hình 'Monty Hall': Có 3 cánh cửa, sau 1 cánh cửa có chiếc ô tô sang trọng, sau 2 cánh cửa còn lại là con dê. Bạn chọn cửa số 1. Người dẫn chương trình (biết rõ sau mỗi cửa có gì) mở cửa số 3 ra thấy một con dê. Sau đó ông ta hỏi: 'Bạn có muốn ĐỔI sang cửa số 2 không?'. Về mặt xác suất toán học, bạn NÊN ĐỔI hay NÊN GIỮ NGUYÊN lựa chọn ban đầu?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 100,
+        "dap_an": "BẠN NHẤT ĐỊNH NÊN ĐỔI! Cơ hội trúng xe tăng từ 1/3 lên 2/3!",
+        "giai_thich": "Lúc đầu chọn cửa 1: Xác suất có xe là 1/3, xác suất xe nằm ở cụm {cửa 2 hoặc cửa 3} là 2/3. Khi MC loại bỏ cửa 3 (mở con dê), toàn bộ xác suất 2/3 của cả cụm được dồn trọn vẹn vào CỬA SỐ 2. Do đó, đổi sang cửa 2 sẽ nâng xác suất thắng cuộc lên gấp đôi (66.7% so với 33.3%).",
+        "bai_hoc": "Vượt qua trực giác sai lệch: Trực giác thường nhầm tưởng còn 2 cửa thì là 50/50. Cập nhật thông tin mới giúp nắm bắt ưu thế vượt trội.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 8,
+        "id": "kho_8",
+        "cau_hoi": "Một hồ sen có loài hoa sen sinh sản đặc biệt: Cứ 1 ngày diện tích mặt sen tăng gấp 3 lần. Nếu ngày thứ nhất có 1 đóa sen, sau 20 ngày thì sen phủ kín mặt hồ. Hỏi sau bao nhiêu ngày thì sen phủ được 1/9 diện tích mặt hồ?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 60,
+        "dap_an": "18 ngày",
+        "giai_thich": "Tư duy lùi: Ngày 20 phủ 100% hồ. Ngày 19 (trước đó 1 ngày) phủ: 1 / 3 hồ. Ngày 18 (trước đó 2 ngày) phủ: (1/3) / 3 = 1/9 mặt hồ. Chỉ mất 18 ngày để đạt 1/9 hồ, nhưng chỉ cần thêm đúng 2 ngày nữa để phủ kín 8/9 hồ còn lại.",
+        "bai_hoc": "Tư duy lũy thừa cơ số 3: Tốc độ bùng nổ giai đoạn cuối cực lớn, cần kiên trì ở giai đoạn đầu khi thành quả còn nhỏ bé.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 9,
+        "id": "kho_9",
+        "cau_hoi": "Nêu sự khác biệt bản chất giữa 'Hiệu quả' (Efficiency - làm việc đúng cách) và 'Hiệu lực' (Effectiveness - làm đúng việc). Trong quản trị và học tập, yếu tố nào quan trọng hơn?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "'Hiệu lực' quan trọng hơn và phải đi trước 'Hiệu quả'",
+        "giai_thich": "Hiệu quả (Efficiency) là làm việc nhanh, tốn ít chi phí (leo thang rất nhanh). Hiệu lực (Effectiveness) là chọn đúng mục tiêu chiến lược (đặt chiếc thang vào đúng bức tường cần leo). Nếu leo thang cực kỳ hiệu quả trên một bức tường sai lầm thì bạn chỉ đi đến thất bại nhanh hơn.",
+        "bai_hoc": "Định hướng trước tốc độ: Chọn đúng hướng đi quan trọng gấp vạn lần việc nỗ lực tăng tốc trên con đường lạc lối.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 10,
+        "id": "kho_10",
+        "cau_hoi": "Có 100 chiếc hộp đựng bóng được đánh số từ 1 đến 100. Ban đầu tất cả các hộp đều đóng. Người thứ nhất đi qua mở tất cả các hộp. Người thứ hai đi qua đổi trạng thái của các hộp là bội số của 2 (hộp mở thành đóng, đóng thành mở). Người thứ ba đổi trạng thái bội số của 3... Cứ thế đến người thứ 100 đổi trạng thái hộp số 100. Hỏi cuối cùng CÓ BAO NHIÊU HỘP ĐANG Ở TRẠNG THÁI MỞ?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 100,
+        "dap_an": "Đúng 10 hộp đang mở (Các hộp mang số chính phương: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100)",
+        "giai_thich": "Một hộp được đổi trạng thái mỗi khi gặp một người là ước số của nó. Các số tự nhiên thông thường luôn có số lượng ước số là số CHẴN (ví dụ 12 có các cặp ước: 1x12, 2x6, 3x4 -> 6 ước -> đóng). Chỉ riêng các SỐ CHÍNH PHƯƠNG mới có số lượng ước là LẺ (ví dụ 9 có: 1x9, 3x3 -> 3 ước: 1, 3, 9 -> mở). Từ 1 đến 100 có đúng 10 số chính phương: 1^2, 2^2, ..., 10^2.",
+        "bai_hoc": "Quy luật số học giải mã chuyển động: Chuyển bài toán vận động cơ học phức tạp về đặc tính số ước nguyên của số chính phương.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 11,
+        "id": "kho_11",
+        "cau_hoi": "Tại sao người ta nói: 'Kẻ thù lớn nhất của một kế hoạch tốt là ảo tưởng về một kế hoạch hoàn hảo'? Triết lý này giúp gì cho người ra quyết định?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Sự cầu toàn thái quá dẫn đến tê liệt hành động (Analysis Paralysis)",
+        "giai_thich": "Thế giới thực luôn biến động và chứa đầy thông tin không hoàn hảo. Chờ đợi một kế hoạch hoàn hảo 100% sẽ bỏ lỡ thời cơ vàng. Một kế hoạch tốt 80% được thực thi quyết liệt và liên tục tinh chỉnh theo phản hồi thực tế sẽ đánh bại một kế hoạch hoàn hảo nằm trên giấy.",
+        "bai_hoc": "Nguyên lý lặp và thích ứng: Hành động thực chứng để thu thập dữ liệu quan trọng hơn việc vẽ mô hình lý thuyết đóng kín.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 12,
+        "id": "kho_12",
+        "cau_hoi": "Có 12 quả bóng bi-a giống hệt nhau về màu sắc và kích thước, trong đó có 1 quả có trọng lượng khác biệt (không biết nó NẶNG HƠN hay NHẸ HƠN các quả còn lại). Chỉ với đúng 3 lần cân bằng cân đĩa thăng bằng, bạn có thể tìm ra quả bóng đó và xác định nó nặng hơn hay nhẹ hơn không?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Hoàn toàn có thể tìm ra!",
+        "giai_thich": "Chia 12 quả bóng thành 3 nhóm: 4 - 4 - 4 (Nhóm A, B, C). Cân lần 1: Đặt nhóm A (4 quả) lên đĩa trái, nhóm B (4 quả) lên đĩa phải. Nếu cân bằng -> quả lỗi nằm ở nhóm C (4 quả), ta dùng các quả chuẩn ở nhóm A để đối chứng. Nếu cân lệch -> quả lỗi nằm ở A hoặc B, nhóm C là các quả chuẩn. Các bước cân 2 và 3 tráo đổi thông minh giữa các quả sẽ cô lập chính xác quả lỗi và biết rõ nặng hay nhẹ.",
+        "bai_hoc": "Thuật toán cây quyết định đa nhánh: Quản trị thông tin bất định hai chiều bằng cách kết hợp mẫu đối chứng chuẩn hóa.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 13,
+        "id": "kho_13",
+        "cau_hoi": "Một công ty đang đứng trước hai dự án: Dự án A chắc chắn mang lại lợi nhuận 10 tỷ đồng (xác suất 100%). Dự án B có 50% cơ hội mang lại 30 tỷ đồng và 50% cơ hội không có đồng nào (0 tỷ). Theo giá trị kỳ vọng (Expected Value), dự án nào tốt hơn? Nhưng tại sao giám đốc vẫn có thể chọn dự án A?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Dự án B có kỳ vọng cao hơn (15 tỷ > 10 tỷ), nhưng chọn A vì khẩu vị rủi ro và chi phí cơ hội sống còn",
+        "giai_thich": "Giá trị kỳ vọng: EV(A) = 10 x 100% = 10 tỷ. EV(B) = (30 x 50%) + (0 x 50%) = 15 tỷ. Về lý thuyết toán B cao hơn. Nhưng nếu công ty đang nợ nần cận kề bờ vực phá sản, cần chắc chắn 10 tỷ để trả lương duy trì sự sống, thì mức 0 tỷ của dự án B đồng nghĩa với diệt vong. Lợi ích cận biên (Utility) của sự sinh tồn lớn hơn giá trị toán học kỳ vọng.",
+        "bai_hoc": "Lý thuyết hữu dụng (Utility Theory): Ra quyết định kinh doanh không chỉ dựa vào con số trung bình mà phải tính đến sức chịu đựng rủi ro sống còn của tổ chức.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 14,
+        "id": "kho_14",
+        "cau_hoi": "Người ta thả một cục nước đá đang nổi vào một cốc nước đầy tràn miệng cốc. Khi cục nước đá tan chảy hoàn toàn thành nước, nước trong cốc có bị tràn ra ngoài không? Tại sao?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 75,
+        "dap_an": "Mực nước không hề thay đổi, nước KHÔNG BỊ TRÀN ra ngoài dù chỉ một giọt!",
+        "giai_thich": "Định luật lực đẩy Ác-si-mét: Khi cục đá nổi, trọng lực của cục đá bằng đúng trọng lượng của thể tích nước bị nó chiếm chỗ. Khi tan chảy, toàn bộ khối lượng băng đá đó biến thành lượng nước có khối lượng bằng đúng khối lượng nước bị chiếm chỗ ban đầu. Do đó thể tích chất lỏng lắp vừa khít vào phần chìm trước đó.",
+        "bai_hoc": "Bản chất vật lý bảo toàn khối lượng: Hiện tượng băng tan ở biển bắc (băng trôi) không làm dâng mực nước biển, chỉ có băng trên đất liền (Nam Cực, Greenland) chảy xuống biển mới làm dâng nước.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 15,
+        "id": "kho_15",
+        "cau_hoi": "Giải thích hiện tượng 'Chi phí chìm' (Sunk Cost Fallacy). Tại sao người ta thường có xu hướng tiếp tục đầu tư tiền bạc và thời gian vào một dự án thua lỗ không có tương lai?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Do tâm lý sợ thừa nhận thất bại và tiếc nuối những gì đã bỏ ra trong quá khứ",
+        "giai_thich": "Chi phí chìm là những khoản tiền, thời gian, công sức đã mất và không bao giờ thu hồi lại được. Quyết định duy lý cho tương lai chỉ nên dựa trên CHI PHÍ VÀ LỢI ÍCH TƯƠNG LAI. Nhưng tâm lý con người ghét cảm giác mất mát, cố gắng 'gỡ gạc' dẫn đến việc ném thêm tiền tốt vào chỗ xấu.",
+        "bai_hoc": "Dũng cảm cắt lỗ: Quá khứ là bất biến, đừng để những tổn thất hôm qua cướp đi cơ hội thịnh vượng của ngày mai.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 16,
+        "id": "kho_16",
+        "cau_hoi": "Trong một căn phòng có 23 người lạ ngẫu nhiên. Khẳng định: 'Có hơn 50% cơ hội ít nhất hai người trong phòng có cùng ngày sinh nhật (ngày và tháng)'. Khẳng định này Đúng hay Sai theo xác suất toán học?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Khẳng định này HOÀN TOÀN ĐÚNG! (Nghịch lý ngày sinh nhật - Birthday Paradox)",
+        "giai_thich": "Tính theo biến cố đối (không có ai trùng sinh nhật): Xác suất người 2 khác người 1: 364/365. Người 3 khác hai người đầu: 363/365... Nhân tích lũy đến người 23: P(khác nhau) = 364/365 x 363/365 x ... x 343/365 ≈ 49.3%. Vậy xác suất có ít nhất 1 cặp trùng ngày sinh là: 1 - 49.3% = 50.7% (> 50%). Vì 23 người tạo ra tới: (23 x 22)/2 = 253 cặp so sánh đôi một!",
+        "bai_hoc": "Tổ hợp các mối quan hệ đôi: Số lượng tương tác bùng nổ theo cấp số tổ hợp khiến xác suất trùng hợp xảy ra nhanh hơn trực giác dự đoán.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 17,
+        "id": "kho_17",
+        "cau_hoi": "Một người đàn ông có 17 con lạc đà. Trước khi qua đời, ông để lại di chúc chia cho 3 người con trai như sau: Con cả được 1/2 số lạc đà; Con thứ hai được 1/3 số lạc đà; Con út được 1/9 số lạc đà. Yêu cầu không được xẻ thịt hay giết con lạc đà nào. Ba người con cãi nhau không biết chia thế nào. Một vị hiền triết đi ngang qua đã giúp họ chia êm đẹp. Vị hiền triết đã làm cách nào?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 80,
+        "dap_an": "Vị hiền triết cho mượn thêm 1 con lạc đà của mình để tạo thành 18 con!",
+        "giai_thich": "Có 18 con lạc đà: Con cả nhận 1/2 của 18 = 9 con. Con thứ nhận 1/3 của 18 = 6 con. Con út nhận 1/9 của 18 = 2 con. Tổng số lạc đà ba người con nhận được: 9 + 6 + 2 = 17 con! Vừa vặn đủ 17 con ban đầu của người cha, vị hiền triết dắt lại con lạc đà của mình ra về.",
+        "bai_hoc": "Tư duy xúc tác (Catalyst thinking): Đưa thêm một nguồn lực tạm thời từ bên ngoài vào để tháo gỡ điểm nghẽn hệ thống, sau đó rút nguồn lực ra nguyên vẹn.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 18,
+        "id": "kho_18",
+        "cau_hoi": "Tại sao trong tranh biện, ngụy biện 'Người rơm' (Straw Man Fallacy) lại rất phổ biến nhưng cực kỳ nguy hại? Nêu cách nhận biết.",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Bóp méo, phóng đại luận điểm của đối phương thành một hình nộm ngớ ngẩn rồi tấn công vào đó",
+        "giai_thich": "Ví dụ: A nói 'Trường học nên bổ sung thêm rau xanh vào khẩu phần ăn của học sinh'. B phản bác: 'Anh muốn con em chúng tôi ăn chay trường suy dinh dưỡng không có thịt cá à?'. B đã dựng nên một 'người rơm' (ăn chay trường) để chỉ trích thay vì bàn về việc bổ sung rau. Cách nhận biết: Đối phương dùng từ ngữ cực đoan hóa ý kiến của bạn.",
+        "bai_hoc": "Bảo vệ sự trong sáng của lập luận: Giữ vững trọng tâm của mệnh đề gốc, không để đối phương kéo vào cuộc chiến với những giả định thêu dệt.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 19,
+        "id": "kho_19",
+        "cau_hoi": "Một chai rượu vang kèm nút bấc có giá tổng cộng là 220 nghìn đồng. Chai rượu đắt hơn chiếc nút bấc 200 nghìn đồng. Hỏi chiếc nút bấc có giá bao nhiêu tiền?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 45,
+        "dap_an": "Chiếc nút bấc có giá 10 nghìn đồng (Không phải 20 nghìn)",
+        "giai_thich": "Đặt giá nút bấc là x. Giá chai rượu là x + 200. Tổng: x + (x + 200) = 220 <=> 2x = 20 <=> x = 10 nghìn đồng. Khi đó chai rượu giá 210 nghìn, nút bấc giá 10 nghìn, chênh lệch đúng 200 nghìn.",
+        "bai_hoc": "Vượt qua hệ thống tư duy phản xạ nhanh (Hệ thống 1 của Daniel Kahneman): Trực giác nhảy ngay ra con số 20 nghìn do phép trừ lướt 220 - 200. Cần bật Hệ thống 2 để kiểm chứng lại đại số.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 20,
+        "id": "kho_20",
+        "cau_hoi": "Một bài học về phân bổ rủi ro: 'Không bỏ tất cả trứng vào một giỏ'. Nhưng nhà đầu tư huyền thoại Warren Buffett lại từng nói: 'Hãy bỏ tất cả trứng vào một giỏ và chăm sóc chiếc giỏ đó thật cẩn thận'. Hai lời khuyên này mâu thuẫn nhau như thế nào và áp dụng trong trường hợp nào?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Khác biệt giữa 'Nhà đầu tư đại chúng' và 'Chuyên gia bậc thầy'",
+        "giai_thich": "Đa dạng hóa giỏ (bỏ trứng nhiều giỏ) dành cho người không chuyên để phòng ngừa sự thiếu hiểu biết. Tập trung giỏ (bỏ trứng một giỏ và bảo vệ nó) dành cho những chuyên gia có năng lực vượt trội, hiểu biết sâu sắc và có khả năng kiểm soát chặt chẽ rủi ro của doanh nghiệp mình đầu tư.",
+        "bai_hoc": "Tùy thuộc vào năng lực cốt lõi: Không có chiến lược nào đúng cho mọi đối tượng. Trình độ chuyên môn quyết định chiến lược quản trị rủi ro phù hợp.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 21,
+        "id": "kho_21",
+        "cau_hoi": "Một cây cầu chịu tải trọng tối đa đúng 5000kg. Một chiếc xe tải có tổng khối lượng đúng 5000kg chạy chầm chậm qua cầu. Khi xe đến chính giữa cầu, một chú chim sẻ nặng 50g bay đến đậu lên nóc xe tải. Hỏi cây cầu có bị sập không, vì sao?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 60,
+        "dap_an": "Cầu không sập vì trong quá trình di chuyển từ đầu cầu đến giữa cầu, xe tải đã tiêu thụ xăng dầu làm giảm khối lượng nhiều hơn 50g!",
+        "giai_thich": "Xe tải di chuyển tiêu tốn nhiên liệu (dầu diesel). Dù chỉ đi một đoạn vài chục mét, động cơ xe tải nặng cũng đốt cháy hàng trăm gram nhiên liệu. Do đó tổng khối lượng xe lúc ở giữa cầu thực tế đã giảm xuống dưới 5000kg, chim 50g đậu vào không thể làm vượt tải trọng.",
+        "bai_hoc": "Tính toán hao hụt động học: Mọi quá trình vận hành đều có sự tiêu hao vật chất liên tục bên trong hệ thống.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 22,
+        "id": "kho_22",
+        "cau_hoi": "Phân tích tư duy đằng sau quy luật Pareto (Quy luật 80/20): 80% kết quả được tạo ra từ 20% nguyên nhân cốt lõi. Hãy nêu cách áp dụng quy luật này vào việc học tập thi cử.",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Tập trung nguồn lực tinh hoa vào 20% kiến thức trọng tâm tạo ra 80% điểm số",
+        "giai_thich": "Trong sách giáo khoa và đề thi, 20% khái niệm/công thức nền tảng xuất hiện trong 80% các dạng bài tập thực tế. Thay vì dàn trải học vẹt 100% tài liệu mà không sâu sắc, học sinh thông minh nắm vững 20% bản chất để giải quyết đại đa số các câu hỏi cốt lõi trước.",
+        "bai_hoc": "Tối ưu hóa đòn bẩy năng suất: Tìm kiếm 'điểm tựa đòn bẩy' mang lại hiệu quả vượt bậc thay vì phân bổ công sức đồng đều cào bằng.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 23,
+        "id": "kho_23",
+        "cau_hoi": "Trong Thế chiến thứ hai, quân đội đồng minh thống kê các lỗ đạn trên những chiếc máy bay ném bom trở về sau trận chiến: Các lỗ đạn xuất hiện nhiều nhất ở cánh và thân máy bay, trong khi động cơ và buồng lái gần như không có vết đạn. Đa số tướng lĩnh đề xuất bọc thêm giáp vào cánh và thân. Nhà toán học Abraham Wald lại phản bác và yêu cầu BỌC GIÁP VÀO ĐỘNG CƠ. Vì sao?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Ảo tưởng người sống sót (Survivorship Bias)",
+        "giai_thich": "Những chiếc máy bay bị bắn vào cánh và thân vẫn có thể sống sót bay về căn cứ để các tướng lĩnh đếm vết đạn. Ngược lại, những chiếc máy bay bị bắn trúng động cơ và buồng lái thì đã phát nổ và rơi ngoài chiến trường, không bao giờ có cơ hội trở về để được thống kê. Vết đạn trên máy bay sống sót chỉ ra những nơi KHÔNG NGUY HIỂM CHẾT NGƯỜI.",
+        "bai_hoc": "Thiên kiến kẻ sống sót: Đừng chỉ nhìn vào những đối tượng vượt qua thành công, hãy phân tích những nạn nhân đã thất bại vô hình.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 24,
+        "id": "kho_24",
+        "cau_hoi": "Tại sao nói: 'Một nửa chiếc bánh mì vẫn là bánh mì, nhưng một nửa sự thật thì không phải là sự thật'? Giải thích giá trị của việc nhìn nhận toàn diện bức tranh sự việc.",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Một nửa sự thật được cắt gọt có thể trở thành sự dối trá nguy hiểm nhất",
+        "giai_thich": "Vật chất (bánh mì) chia đôi giữ nguyên bản chất phân tử. Nhưng chân lý phụ thuộc vào văn cảnh (Context) và tính toàn vẹn. Cố tình đưa ra một nửa sự thật thuận lợi và giấu đi nửa sự thật bất lợi là thủ thuật bóp méo thông tin tinh vi để dẫn dắt dư luận theo ý đồ thao túng.",
+        "bai_hoc": "Tính toàn vẹn của thông tin: Luôn đòi hỏi dữ liệu đa chiều và văn cảnh toàn cảnh trước khi đưa ra phán quyết đạo đức hay pháp lý.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 25,
+        "id": "kho_25",
+        "cau_hoi": "Một người có 3 chiếc hòm: Hòm 1 dán nhãn 'Toàn Táo', Hòm 2 dán nhãn 'Toàn Cam', Hòm 3 dán nhãn 'Táo và Cam'. Người quản kho nói rằng TẤT CẢ CÁC NHÃN DÁN ĐỀU BỊ DÁN SAI HOÀN TOÀN. Bạn chỉ được thò tay vào MỘT CHIẾC HÒM DUY NHẤT và rút ra ĐÚNG MỘT QUẢ duy nhất (không nhìn vào trong). Làm sao bạn gắn lại chính xác tất cả các nhãn cho 3 hòm?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Thò tay vào chiếc hòm có nhãn dán 'Táo và Cam'",
+        "giai_thich": "Vì tất cả nhãn đều sai, nên hòm dán nhãn 'Táo và Cam' chắc chắn KHÔNG PHẢI là hòm hỗn hợp, nó phải là hòm THUẦN TÁO hoặc THUẦN CAM. Nếu bạn rút ra quả Táo -> Hòm đó chắc chắn là hòm 'Toàn Táo'. Khi đó hòm dán nhãn 'Toàn Cam' phải là hòm 'Táo và Cam' (vì nó không thể là Toàn Cam). Và hòm dán nhãn 'Toàn Táo' sẽ là hòm 'Toàn Cam'. Giải quyết xong hoàn toàn chỉ với 1 quả!",
+        "bai_hoc": "Tận dụng thuộc tính sai 100%: Khi một trạng thái phức tạp chắc chắn sai, nó chỉ còn lại hai khả năng đơn nhất rõ ràng.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 26,
+        "id": "kho_26",
+        "cau_hoi": "Thế nào là 'Bẫy quy nạp ngây thơ'? Cho ví dụ câu chuyện 'Con gà tây của nhà triết học Bertrand Russell'.",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Tin rằng tương lai sẽ mãi mãi lặp lại quá khứ chỉ vì hàng ngàn ngày qua mọi việc diễn ra êm đẹp",
+        "giai_thich": "Con gà tây được người nông dân cho ăn đều đặn vào lúc 9 giờ sáng suốt 1000 ngày. Nó tự tin rút ra kết luận quy nạp: 'Người nông dân yêu thương tôi và sẽ luôn cho tôi ăn'. Nhưng đến ngày thứ 1001 (Lễ Tạ Ơn), người nông dân không cho ăn mà bước vào bắt nó làm thịt. Một chuỗi dữ liệu quá khứ êm đềm không đảm bảo an toàn cho tương lai nếu hoàn cảnh bản chất thay đổi.",
+        "bai_hoc": "Cảnh giác thiên nga đen (Black Swan): Không bao giờ ngủ quên trên sự an toàn của thói quen cũ; luôn chuẩn bị kịch bản cho những biến cố bất ngờ.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 27,
+        "id": "kho_27",
+        "cau_hoi": "Một bài toán logic về thời gian: Một người đi du lịch xuyên qua các múi giờ. Ông ta bay từ Tokyo (Nhật Bản) lúc 10h sáng ngày Chủ Nhật và đến Honolulu (Hawaii) sau 8 tiếng bay. Hỏi khi máy bay hạ cánh tại Hawaii, đồng hồ ở đó chỉ mấy giờ, ngày thứ mấy?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Khoảng 9h tối ngày THỨ BẢY (Hôm trước)!",
+        "giai_thich": "Tokyo thuộc múi giờ GMT+9, Honolulu thuộc múi giờ GMT-10 (chênh lệch 19 tiếng). Máy bay bay qua Đường đổi ngày quốc tế (International Date Line) từ Tây sang Đông, nên lịch bị lùi lại đúng 1 ngày. Bay 8 tiếng: 10h sáng CN + 8h = 18h CN giờ Tokyo. Đổi sang giờ Hawaii: 18h - 19h = 23h đêm (hoặc khoảng 21h tùy quy ước mùa) của ngày Thứ Bảy.",
+        "bai_hoc": "Quy ước ranh giới toàn cầu: Hiểu rõ các quy chuẩn không gian - thời gian quốc tế khi vận hành liên lục địa.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 28,
+        "id": "kho_28",
+        "cau_hoi": "Tại sao trong tư duy ra quyết định, người ta khuyên: 'Đừng giải quyết vấn đề bằng chính cái tư duy đã tạo ra vấn đề đó' (Albert Einstein)?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Cần nâng cấp lên một tầng nhận thức cao hơn (Meta-thinking / Second-order thinking)",
+        "giai_thich": "Nếu một vấn đề phát sinh từ các định kiến, quy trình và thói quen cũ, việc tiếp tục loay hoay trong phạm vi đó chỉ tạo ra những biến thể của bế tắc. Muốn giải quyết triệt để, ta phải bước ra khỏi hệ thống, thay đổi góc nhìn từ tầng nguyên lý cốt lõi.",
+        "bai_hoc": "Tư duy bậc cao (Meta-cognition): Quan sát chính quá trình tư duy của mình để nhận diện điểm mù phương pháp luận.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 29,
+        "id": "kho_29",
+        "cau_hoi": "Có hai sợi dây thừng đồng chất nhưng cháy không đều (đoạn cháy nhanh, đoạn cháy chậm). Mỗi sợi dây thừng nếu đốt cháy từ một đầu thì mất đúng 60 phút để cháy rụi hoàn toàn. Bạn có một chiếc bật lửa. Làm sao đo chính xác khoảng thời gian ĐÚNG 45 PHÚT?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Đốt đồng thời cả hai đầu sợi dây 1, và một đầu của sợi dây 2",
+        "giai_thich": "Bước 1: Châm lửa đốt CẢ HAI ĐẦU của sợi dây thứ nhất, cùng lúc đó châm MỘT ĐẦU của sợi dây thứ hai. Khi sợi dây thứ nhất cháy rụi từ hai đầu gặp nhau, đúng 30 phút đã trôi qua. Lúc này sợi dây thứ hai còn lại lượng dây tương đương 30 phút cháy. Bước 2: Ngay khoảnh khắc sợi dây thứ nhất cháy hết, châm lửa vào ĐẦU CÒN LẠI của sợi dây thứ hai. Sợi dây thứ hai lúc này cháy từ hai đầu sẽ rụi hết trong: 30 / 2 = 15 phút. Tổng thời gian: 30 + 15 = đúng 45 phút!",
+        "bai_hoc": "Gấp đôi tốc độ tiêu hao: Đốt hai đầu một đoạn dây làm giảm một nửa thời gian cháy bất kể tốc độ cháy không đồng đều.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 30,
+        "id": "kho_30",
+        "cau_hoi": "Thế nào là 'Tư duy ngược' (Inversion Thinking)? Nhà đầu tư Charlie Munger có câu nói nổi tiếng: 'Nếu muốn biết làm sao để hạnh phúc, hãy tự hỏi điều gì chắc chắn làm mình đau khổ và tránh xa nó'. Áp dụng tư duy này để rèn luyện thói quen học tập giỏi như thế nào?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Liệt kê tất cả những điều chắc chắn khiến bạn học dốt, thi trượt và KIÊN QUYẾT KHÔNG LÀM những điều đó",
+        "giai_thich": "Những điều chắc chắn khiến học dốt: Thức khuya chơi game, trì hoãn bài tập đến sát giờ nộp, vừa học vừa lướt mạng xã hội, giấu dốt không dám hỏi... Tránh được toàn bộ những sai lầm chết người này thì tự khắc kết quả học tập sẽ vươn lên nhóm dẫn đầu mà không cần những bí kíp siêu phàm.",
+        "bai_hoc": "Tránh thất bại trước khi tìm kiếm thành công: Loại bỏ những sai lầm ngớ ngẩn dễ dàng và bền vững hơn việc cố gắng tạo ra kỳ tích.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 31,
+        "id": "kho_31",
+        "cau_hoi": "Một bài toán quản trị nhân sự: Một người lãnh đạo tài ba nên là người 'thông minh nhất phòng họp' hay là người 'biết tập hợp những người thông minh hơn mình'? Phân tích ưu nhược điểm.",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Nên là người tập hợp và dung dưỡng những nhân tài giỏi hơn mình trong các lĩnh vực chuyên môn",
+        "giai_thich": "Nếu lãnh đạo là người thông minh nhất phòng trong mọi việc, năng lực của công ty sẽ bị chặn trần bởi giới hạn của một cá nhân duy nhất. Lãnh đạo xuất chúng đóng vai trò kiến tạo môi trường, kết nối nguồn lực và khơi gợi tiềm năng của các chuyên gia để tạo nên sức mạnh tổng hợp.",
+        "bai_hoc": "Tư duy đòn bẩy con người: Sức mạnh của người dẫn đường nằm ở tầm nhìn và sự bao dung chứ không phải ở việc hơn thua kỹ thuật.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 32,
+        "id": "kho_32",
+        "cau_hoi": "Tại sao trong khoa học và pháp luật, 'Gánh nặng chứng minh' (Burden of Proof) luôn thuộc về bên đưa ra lời khẳng định chứ không thuộc về bên phủ định? (Ví dụ: Nếu A bảo 'Có một con rồng vô hình trong gara', A phải chứng minh chứ không phải bắt B chứng minh con rồng không tồn tại).",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Vì không thể chứng minh một điều KHÔNG TỒN TẠI (Proving a negative is impossible)",
+        "giai_thich": "Ai cũng có thể bịa ra vô số thực thể vô hình siêu nhiên (ấm trà của Russell, kỳ lân tàng hình). Không ai có thể chứng minh một thứ không có dấu vết là không tồn tại. Nếu chuyển gánh nặng chứng minh cho bên phủ định, hệ thống luật pháp và khoa học sẽ bị tê liệt hoàn toàn bởi sự vu khống.",
+        "bai_hoc": "Nguyên tắc khoa học nghiệm chứng: Ai đưa ra giả thuyết, người đó có trách nhiệm cung cấp bằng chứng thực tế hợp lệ.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 33,
+        "id": "kho_33",
+        "cau_hoi": "Giải thích câu chuyện ngụ ngôn về 'Lời tiên tri tự ứng nghiệm' (Self-fulfilling prophecy). Tâm lý tự tin hay tự ti tác động đến kết quả thực tế như thế nào?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Niềm tin ban đầu dù sai lệch nhưng định hướng hành vi khiến kết quả thực tế diễn ra đúng như niềm tin đó",
+        "giai_thich": "Nếu một học sinh tin mình dốt toán -> chán nản không làm bài -> lơ đãng trong lớp -> điểm thi kém -> củng cố niềm tin 'mình dốt toán'. Ngược lại, niềm tin tích cực tạo động lực hành động kiên trì, từ đó tạo ra kết quả thắng lợi thực sự.",
+        "bai_hoc": "Làm chủ vòng lặp tâm lý: Cài đặt niềm tin tích cực và hành động tương thích để kiến tạo hiện thực mong muốn.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 34,
+        "id": "kho_34",
+        "cau_hoi": "Trong kinh tế học, 'Quy luật lợi ích cận biên giảm dần' (Law of Diminishing Marginal Utility) phát biểu điều gì? Hãy lấy ví dụ về việc ăn bát phở bò khi bạn đang rất đói.",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 75,
+        "dap_an": "Mức độ thỏa mãn tăng thêm sẽ giảm dần theo từng đơn vị sản phẩm tiêu dùng thêm",
+        "giai_thich": "Bát phở thứ nhất khi đang đói mang lại cảm giác ngon tuyệt vời (10/10). Ăn tiếp bát thứ hai thấy no và bớt ngon (5/10). Nếu ép ăn tiếp bát thứ ba sẽ thấy ngán ngẩm, thậm chí gây đau bụng khó chịu (lợi ích âm).",
+        "bai_hoc": "Điểm bão hòa tối ưu: Mọi việc tốt trên đời đều có ngưỡng giới hạn. Biết dừng lại ở điểm tối ưu là đỉnh cao của sự khôn ngoan.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 35,
+        "id": "kho_35",
+        "cau_hoi": "Tại sao trong đàm phán thương mại, bên nào tỏ ra 'sốt ruột' và 'sợ mất thương vụ' hơn thì bên đó thường phải chịu thiệt thòi về giá cả?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Vì bên đó thiếu Phương án thay thế tốt nhất (BATNA - Best Alternative to a Negotiated Agreement)",
+        "giai_thich": "Người có nhiều lựa chọn thay thế tốt sẽ có tâm thế ung dung, sẵn sàng đứng lên rời bàn đàm phán nếu điều khoản không có lợi. Người không có lối thoát sẽ bị đối phương ép giá vì họ nắm quyền lực định đoạt thương vụ.",
+        "bai_hoc": "Xây dựng phương án dự phòng BATNA: Sức mạnh đàm phán đến từ sự chuẩn bị kỹ lưỡng các phương án thay thế ngoài bàn đàm phán.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 36,
+        "id": "kho_36",
+        "cau_hoi": "Thế nào là 'Bẫy thiên kiến xác nhận' (Confirmation Bias)? Tại sao mạng xã hội ngày nay lại khiến con người ngày càng bảo thủ và chia rẽ hơn?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Xu hướng chỉ tìm kiếm, ghi nhớ những thông tin ủng hộ quan điểm có sẵn và phớt lờ các bằng chứng trái chiều",
+        "giai_thich": "Thuật toán mạng xã hội theo dõi sở thích và liên tục gợi ý những bài viết củng cố định kiến của người dùng ('Phòng tiếng vang' - Echo Chamber). Kết quả là người ta ngỡ rằng cả thế giới đều nghĩ giống mình, dần mất đi khả năng đối thoại cởi mở với những góc nhìn khác biệt.",
+        "bai_hoc": "Chủ động tìm kiếm ý kiến phản biện: Hãy chủ động đọc những lập luận ngược lại để thử thách và mài sắc tư duy của chính mình.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 37,
+        "id": "kho_37",
+        "cau_hoi": "Một bài toán tối ưu lộ trình: Một nhân viên giao hàng cần đi qua 5 địa điểm khác nhau trong thành phố rồi quay về kho. Làm sao để chọn ra lộ trình có tổng quãng đường ngắn nhất?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Bài toán Người du lịch (Traveling Salesperson Problem - TSP)",
+        "giai_thich": "Với 5 điểm có (5-1)! / 2 = 12 lộ trình có thể thử hết. Nhưng khi số điểm tăng lên vài chục, số phép thử bùng nổ vượt khả năng của siêu máy tính. Trong thực tế, người ta dùng 'Thuật toán tham lam' (chọn điểm gần nhất tiếp theo) hoặc thuật toán di truyền để tìm nghiệm gần đúng tối ưu.",
+        "bai_hoc": "Chấp nhận giải pháp 'đủ tốt' (Heuristics): Trong các bài toán có độ phức tạp hàm mũ, tìm kiếm giải pháp thực thi hiệu quả 95% có giá trị hơn việc tìm kiếm nghiệm tuyệt đối bất khả thi.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 38,
+        "id": "kho_38",
+        "cau_hoi": "Tại sao trong y học, phương pháp thử nghiệm lâm sàng bắt buộc phải áp dụng 'Mù đôi' (Double-blind study) có đối chứng giả dược (Placebo)?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Triệt tiêu hoàn toàn hiệu ứng tâm lý giả dược của bệnh nhân VÀ định kiến kỳ vọng của bác sĩ",
+        "giai_thich": "Cả bệnh nhân lẫn bác sĩ phát thuốc đều không biết ai uống thuốc thật, ai uống viên đường giả dược. Điều này đảm bảo kết quả khỏi bệnh thực sự là do hoạt chất sinh hóa của thuốc tạo ra chứ không phải do sự chăm sóc tận tình hay niềm tin tâm lý.",
+        "bai_hoc": "Khách quan hóa thử nghiệm: Thiết kế quy trình loại bỏ hoàn toàn yếu tố cảm xúc chủ quan để bảo vệ tính chân thực của khoa học.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 39,
+        "id": "kho_39",
+        "cau_hoi": "Một công ty muốn tăng năng suất lao động. Phương án 1: Phạt tiền những người đi muộn và làm sai. Phương án 2: Thưởng tiền cho những người hoàn thành xuất sắc và đúng giờ. Dưới góc độ tâm lý hành vi, phương án nào mang lại hiệu quả bền vững hơn?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 90,
+        "dap_an": "Kết hợp cả hai nhưng phần thưởng và sự công nhận mang lại động lực nội tại bền vững hơn",
+        "giai_thich": "Hình phạt chỉ tạo ra sự tuân thủ tối thiểu vì sợ hãi (làm vừa đủ để không bị phạt), đồng thời sinh ra tâm lý đối phó, căng thẳng và triệt tiêu sáng tạo. Khen thưởng và động viên kịp thời khơi dậy lòng tự hào, sự gắn kết và tinh thần cống hiến vượt trội.",
+        "bai_hoc": "Nghệ thuật cây gậy và củ cà rốt: Dùng kỷ luật làm lề lối bảo vệ, nhưng dùng sự khích lệ làm động cơ tăng tốc phát triển.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 40,
+        "id": "kho_40",
+        "cau_hoi": "Thế nào là nguyên lý 'Chiếc dao cạo Occam' (Occam's Razor) trong tư duy khoa học và giải quyết vấn đề?",
+        "thoi_gian_nghi": "1–2 phút",
+        "thoi_gian_giay": 75,
+        "dap_an": "Khi có nhiều giả thuyết cùng giải thích một hiện tượng, giả thuyết nào ĐƠN GIẢN NHẤT (ít giả định thừa thãi nhất) thường là giả thuyết đúng",
+        "giai_thich": "Nếu bạn nghe thấy tiếng vó ngựa kêu ngoài đường, hãy nghĩ đó là một con ngựa bình thường chứ đừng vội suy đoán đó là một con ngựa vằn hay một con kỳ lân huyền bí. Cắt bỏ mọi giả định phức tạp không cần thiết.",
+        "bai_hoc": "Tối giản sự phức tạp: Chân lý vĩ đại luôn ẩn chứa trong sự giản dị thanh tao. Đừng làm phức tạp hóa vấn đề đơn giản.",
+        "ky_nang": "phan_biet_dung_sai"
+      }
+    ]
+  },
+  "phan_5_cap_do_4_nang_cao": {
+    "tieu_de": "5. Cấp Độ 4 — Nâng Cao: Tư Duy Chiến Lược & Sáng Tạo (40 Câu)",
+    "thoi_gian_khuyen_nghi": "⏱️ Thời gian nghĩ: 2–3 phút / câu",
+    "doi_tuong": "Tư duy cấp cao, lãnh đạo, quản trị dự án, nghiên cứu và định hướng dài hạn",
+    "muc_tieu": "Quy đổi công suất tổng thể, tư duy hệ thống, sáng tạo đa giải pháp, phản biện số đông và quản trị rủi ro sống còn",
+    "danh_sach_cau_hoi": [
+      {
+        "stt": 1,
+        "id": "nc_1",
+        "cau_hoi": "Một công trình xây dựng nếu có 30 công nhân làm việc với năng suất như nhau thì hoàn thành trong đúng 60 ngày. Sau khi đội làm được 15 ngày, do dịch bệnh có 10 công nhân phải nghỉ việc. Hỏi đội công nhân còn lại cần thêm bao nhiêu ngày nữa để hoàn thành toàn bộ công trình?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Cần thêm 67,5 ngày (tức 68 ngày làm việc nữa)",
+        "giai_thich": "Quy về đơn vị đo lường công sức chung: Ngày - Công (Man-days). Tổng khối lượng công việc = 30 người x 60 ngày = 1800 ngày-công. Giai đoạn 1 (15 ngày đầu): 30 người x 15 ngày = 450 ngày-công đã làm xong. Khối lượng còn lại: 1800 - 450 = 1350 ngày-công. Giai đoạn 2 (còn 20 người): Số ngày cần thiết = 1350 / 20 = 67,5 ngày (tính làm tròn thực tế là 68 ngày).",
+        "bai_hoc": "Quy chuẩn hóa tài nguyên theo Đơn vị Công sức (Person-Hours / Man-Days): Giúp tính toán chính xác tiến độ dự án khi có biến động nhân sự.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 2,
+        "id": "nc_2",
+        "cau_hoi": "Làm thế nào để đo chính xác chiều cao của một tòa nhà chọc trời bằng một chiếc thước kẻ ngắn 30cm? Nêu ít nhất 4 phương án tư duy sáng tạo khác nhau.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Nêu 4 phương pháp sáng tạo độc đáo:",
+        "giai_thich": "1) Phương pháp bóng nắng (Tam giác đồng dạng): Dùng thước đo chiều dài bóng cây thước và chiều dài bóng tòa nhà lúc trời nắng -> Tính tỷ lệ. 2) Phương pháp đếm tầng: Đo chiều cao 1 bậc cầu thang hoặc 1 viên gạch tầng trệt, nhân với số bậc mỗi tầng và nhân với tổng số tầng tòa nhà. 3) Phương pháp con lắc đơn / Rơi tự do: Buộc thước kẻ vào đầu sợi dây thả từ nóc nhà xuống đo chu kỳ dao động con lắc, hoặc thả vật đo thời gian t rơi (h = 1/2 g t^2). 4) Phương pháp phong vũ biểu / Đổi chác: Đến gặp người quản lý tòa nhà và nói: 'Tôi sẽ tặng ông chiếc thước kẻ xịn này nếu ông cho tôi biết bản vẽ thiết kế chiều cao của tòa nhà!'.",
+        "bai_hoc": "Tư duy đa giải pháp: Một vấn đề kỹ thuật luôn có vô số cánh cửa tiếp cận từ vật lý, hình học cho đến đàm phán xã hội học.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 3,
+        "id": "nc_3",
+        "cau_hoi": "Tại sao những điều mà số đông trong xã hội đều cho là 'hiển nhiên đúng' đôi khi lại hoàn toàn sai lầm trong thực tế? Phân tích hiện tượng tâm lý 'Tư duy bầy đàn' (Groupthink) và cách phòng tránh trong tổ chức.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Áp lực hòa nhập cộng đồng và nỗi sợ bị cô lập khiến cá nhân im lặng trước sai lầm của tập thể",
+        "giai_thich": "Trong nhóm kín, nhu cầu duy trì sự đoàn kết giả tạo làm triệt tiêu các tiếng nói phản biện độc lập. Người có ý kiến khác sợ bị đánh giá là 'gàn dở' nên tự kiểm duyệt bản thân. Cách phòng tránh: Chỉ định một người đóng vai 'Luật sư của quỷ' (Devil's Advocate) có nhiệm vụ chuyên tìm ra lỗ hổng của kế hoạch, khuyến khích bỏ phiếu ẩn danh.",
+        "bai_hoc": "Tổ chức cần tiếng nói phản biện: Sự đồng thuận quá nhanh là dấu hiệu của sự lười biếng tư duy hoặc nỗi sợ hãi quyền lực.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 4,
+        "id": "nc_4",
+        "cau_hoi": "Trong quản lý thời gian, 'Ma trận Eisenhower' phân loại công việc thành 4 góc: 1. Khẩn cấp & Quan trọng; 2. Quan trọng nhưng Không khẩn cấp; 3. Khẩn cấp nhưng Không quan trọng; 4. Không khẩn cấp & Không quan trọng. Người thành công vượt trội dành nhiều thời gian nhất ở góc nào? Tại sao?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Góc số 2: QUAN TRỌNG NHƯNG KHÔNG KHẨN CẤP",
+        "giai_thich": "Góc 2 gồm: Rèn luyện sức khỏe, học tập nâng cao kỹ năng, lập kế hoạch chiến lược, xây dựng mối quan hệ chân thành, phòng ngừa rủi ro. Vì không khẩn cấp nên người thường hay trì hoãn nó. Nếu đầu tư tốt vào góc 2, bạn sẽ chủ động ngăn chặn các khủng hoảng phát sinh ở góc 1 (cháy nhà mới lo dập lửa).",
+        "bai_hoc": "Tư duy chủ động kiến tạo: Đầu tư vào những điều quan trọng trước khi nó biến thành cuộc khủng hoảng khẩn cấp.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 5,
+        "id": "nc_5",
+        "cau_hoi": "Thế nào là 'Tư duy nguyên lý đầu tiên' (First Principles Thinking) mà Elon Musk và Aristotle thường áp dụng? Nêu sự khác biệt giữa tư duy nguyên lý đầu tiên và tư duy bắt chước theo phép so sánh (Reasoning by Analogy).",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Bóc tách vấn đề về những chân lý cơ bản nhất không thể chối cãi, rồi tự xây dựng giải pháp từ gốc rễ",
+        "giai_thich": "Tư duy bắt chước (Analogy): 'Người ta làm pin xe điện hết 600 USD/kWh thì mình cố gắng làm 550 USD'. Tư duy nguyên lý đầu tiên (First Principles): 'Cục pin cấu tạo từ các nguyên tố nào? Cobalt, Niken, Nhôm, Carbon. Mua các nguyên liệu này trên sàn giao dịch kim loại hết bao nhiêu? Chỉ 80 USD/kWh! Vậy làm sao ta thiết kế quy trình ghép chúng lại với chi phí tiệm cận 80 USD?'. Nó tạo ra đột phá cách mạng thay vì cải tiến nhỏ giọt.",
+        "bai_hoc": "Đập tan khuôn mẫu cũ: Đừng chấp nhận các định giá truyền thống chỉ vì 'từ xưa đến nay mọi người vẫn làm thế'.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 6,
+        "id": "nc_6",
+        "cau_hoi": "Trong lý thuyết hệ thống, 'Hiệu ứng cánh bướm' (Butterfly Effect) và 'Tính bất định của hệ thống phức hợp' dạy cho chúng ta bài học gì về việc dự đoán tương lai và quản trị rủi ro?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Một sai lệch cực nhỏ ở điều kiện ban đầu có thể tạo ra cơn bão khổng lồ sau một chuỗi phản ứng dây chuyền",
+        "giai_thich": "Hệ thống thời tiết, kinh tế, xã hội là phi tuyến tính (Non-linear). Không một mô hình máy tính nào có thể dự đoán chính xác tuyệt đối tương lai dài hạn. Thay vì cố gắng dự báo vô vọng, ta cần xây dựng hệ thống có tính 'Chống mong manh' (Antifragile) - tức là có khả năng phục hồi và hưởng lợi từ sự xáo trộn.",
+        "bai_hoc": "Thích ứng linh hoạt: Xây dựng năng lực phục hồi và khả năng chịu đựng va đập thay vì quá tin vào các bản kế hoạch dự báo tĩnh.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 7,
+        "id": "nc_7",
+        "cau_hoi": "Giải thích khái niệm 'Tư duy bậc hai' (Second-Order Thinking). Tại sao chính sách cấm xe máy hay hỗ trợ giá một mặt hàng nếu chỉ nhìn ở tư duy bậc một có thể gây ra thảm họa ở tư duy bậc hai?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Tư duy bậc một hỏi: 'Điều gì xảy ra ngay lập tức?'. Tư duy bậc hai hỏi: 'Và rồi sau đó điều gì sẽ diễn ra tiếp theo?'.",
+        "giai_thich": "Ví dụ 'Hiệu ứng Rắn hổ mang' (Cobra Effect): Chính quyền thuộc địa Ấn Độ muốn diệt rắn độc, bèn treo thưởng tiền cho mỗi cái đầu rắn nộp lên (Tư duy bậc 1: người dân sẽ đi bắt rắn, rắn độc sẽ giảm). Kết quả ở tư duy bậc 2: Người dân mở các trại nuôi rắn độc hàng loạt để cắt đầu lấy tiền thưởng! Khi chính quyền hủy bỏ tiền thưởng, họ thả toàn bộ rắn nuôi ra đường khiến số lượng rắn độc bùng nổ gấp bội!",
+        "bai_hoc": "Lường trước phản ứng của các chủ thể: Khi ban hành quy định, phải dự đoán cách thức con người sẽ thích nghi và luồn lách kẽ hở chính sách.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 8,
+        "id": "nc_8",
+        "cau_hoi": "Tại sao trong khởi nghiệp kinh doanh, mô hình 'Khởi nghiệp tinh gọn' (Lean Startup) lại đề cao việc xây dựng 'Sản phẩm khả thi tối thiểu' (MVP - Minimum Viable Product) để đưa ra thị trường thử nghiệm càng sớm càng tốt?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Để rút ngắn vòng lặp học hỏi thực chứng (Build - Measure - Learn) và giảm thiểu chi phí sai lầm",
+        "giai_thich": "Giả định trong đầu nhà sáng lập luôn khác xa nhu cầu thực của khách hàng. Đầu tư hàng tỷ đồng đóng cửa nghiên cứu 2 năm tạo ra một sản phẩm hoàn hảo mà không ai muốn mua là cái chết phổ biến nhất. Đưa một bản thử nghiệm MVP đơn giản ra sớm giúp kiểm chứng thị trường với chi phí thấp nhất.",
+        "bai_hoc": "Học hỏi từ thị trường thực tế: Phản hồi thực của khách hàng có giá trị gấp vạn lần những lời khen ngợi trong phòng thí nghiệm.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 9,
+        "id": "nc_9",
+        "cau_hoi": "Thế nào là 'Bẫy năng lực' (Competency Trap)? Tại sao các tập đoàn khổng lồ từng thống trị thế giới như Kodak hay Nokia lại bị sụp đổ nhanh chóng trước làn sóng công nghệ mới?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Bị giam cầm bởi chính thành công rực rỡ và mô hình kinh doanh siêu lợi nhuận của quá khứ",
+        "giai_thich": "Kodak phát minh ra máy ảnh kỹ thuật số đầu tiên, nhưng họ không dám phát triển vì sợ làm ảnh hưởng đến doanh thu bán phim nhựa truyền thống đang hái ra tiền. Khi năng lực cốt lõi cũ trở thành gánh nặng kìm hãm đổi mới sáng tạo, họ bị các đối thủ mới nổi quét sạch khỏi thị trường.",
+        "bai_hoc": "Tự cách mạng hóa chính mình: Nếu bạn không dũng cảm tự làm mới sản phẩm của mình, đối thủ cạnh tranh sẽ thay bạn làm điều đó.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 10,
+        "id": "nc_10",
+        "cau_hoi": "Trong triết lý sống và lãnh đạo, làm thế nào để dung hòa mâu thuẫn giữa 'Tính kiên trì bền bỉ' (Grit) và 'Sự linh hoạt từ bỏ đúng lúc' (Knowing when to quit)? Làm sao biết khi nào nên tiếp tục cố gắng, khi nào nên dừng lại?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Kiên định với MỤC TIÊU CỐT LÕI (Vision), nhưng linh hoạt tối đa với PHƯƠNG PHÁP THỰC THI (Tactics)",
+        "giai_thich": "Tiếp tục cố gắng khi: Con đường khó khăn nhưng giả định cốt lõi vẫn đúng và tiềm năng tương lai rộng mở. Dừng lại từ bỏ khi: Bản thân tiền đề nền tảng đã bị thực tế chứng minh là sai lầm (như cố gắng đào vàng trên một mỏ đất sét). Từ bỏ một phương pháp ngõ cụt để tìm phương pháp mới là sự dũng cảm sáng suốt, không phải là hèn nhát.",
+        "bai_hoc": "Phân biệt Mục tiêu và Công cụ: Đừng yêu say đắm công cụ của mình, hãy tập trung vào đích đến tối hậu.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 11,
+        "id": "nc_11",
+        "cau_hoi": "Một vị vua muốn chọn người kế vị thông minh nhất. Ông đưa cho hai hoàng tử hai con ngựa giống hệt nhau và ra đề bài: 'Hai con hãy cưỡi ngựa từ đây đến kinh thành. Con ngựa của ai về đích CHẬM HƠN sẽ là người thắng cuộc và được truyền ngôi báu'. Hai hoàng tử cưỡi ngựa đi lững thững, không ai chịu đi nhanh suốt nhiều ngày. Cuối cùng, một vị hiền triết ghé tai nói thầm một câu, ngay lập tức cả hai hoàng tử nhảy tót lên ngựa phi hết tốc lực về kinh thành. Vị hiền triết đã nói gì?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "'Hai con hãy ĐỔI NGỰA CHO NHAU!'",
+        "giai_thich": "Khi Hoàng tử A cưỡi ngựa của B, và Hoàng tử B cưỡi ngựa của A: Để con ngựa của mình về đích chậm hơn (đoạt ngôi báu), Hoàng tử A phải phi con ngựa của B về đích THẬT NHANH! Do đó cả hai người phi nước đại về kinh thành với nỗ lực đưa ngựa đối phương về trước.",
+        "bai_hoc": "Cơ chế tái cấu trúc lợi ích: Khi quy tắc ban đầu tạo ra sự đình trệ, hoán đổi quyền lợi sở hữu sẽ biến sự chậm chạp thành động lực bứt phá mãnh liệt.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 12,
+        "id": "nc_12",
+        "cau_hoi": "Tại sao trong quản trị rủi ro chiến lược, người ta luôn cảnh báo về 'Hiệu ứng lan truyền rủi ro đạo đức' (Moral Hazard)? Cho một ví dụ về việc bảo hiểm hoặc cứu trợ tài chính có thể vô tình khuyến khích hành vi liều lĩnh.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Khi một cá nhân không phải gánh chịu hậu quả từ rủi ro do mình gây ra, họ có xu hướng hành động liều lĩnh và vô trách nhiệm hơn",
+        "giai_thich": "Ví dụ cuộc khủng hoảng tài chính 2008: Các ngân hàng phố Wall tin rằng họ 'Quá lớn để sụp đổ' (Too big to fail) và chính phủ chắc chắn sẽ dùng tiền thuế của dân để giải cứu. Họ đã đầu tư đánh bạc liều lĩnh vào các chứng khoán phái sinh độc hại vì lợi nhuận thì bỏ túi riêng, còn thua lỗ thì nhà nước gánh chịu.",
+        "bai_hoc": "Nguyên tắc gắn liền trách nhiệm (Skin in the game): Bất kỳ ai ra quyết định đều phải có da thịt của chính mình trong cuộc chơi để chịu trách nhiệm bình đẳng.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 13,
+        "id": "nc_13",
+        "cau_hoi": "Một hòn đảo có 100 con rồng thông minh tuyệt đỉnh. Mắt của chúng có thể là màu xanh hoặc màu đỏ. Không có gương soi và chúng không được phép nói chuyện hay giao tiếp với nhau. Nếu một con rồng biết chắc chắn 100% mắt mình có màu đỏ, nó phải tự biến mất khỏi hòn đảo vào đúng lúc nửa đêm. Thực tế tất cả 100 con rồng đều có mắt đỏ. Một ngày nọ, một vị khách ghé thăm đảo và tuyên bố trước toàn thể bầy rồng: 'Trên đảo này có ít nhất một con rồng có mắt màu đỏ'. Hỏi chuyện gì sẽ xảy ra sau đó?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 180,
+        "dap_an": "Đúng vào nửa đêm của ngày thứ 100, TẤT CẢ 100 CON RỒNG SẼ CÙNG BIẾN MẤT!",
+        "giai_thich": "Quy nạp toán học logic: Nếu chỉ có 1 con mắt đỏ, nó nhìn quanh thấy 99 con mắt xanh -> biết ngay mình mắt đỏ -> biến mất đêm 1. Nếu có 2 con mắt đỏ (A và B): A thấy B mắt đỏ, nghĩ B sẽ biến mất đêm 1. Khi đêm 1 trôi qua mà B không biến mất, A suy ra chính A cũng có mắt đỏ! Cả A và B cùng biến mất vào đêm 2. Cứ thế quy nạp, với 100 con rồng, sự chờ đợi kéo dài đúng 99 ngày không con nào biến mất. Đến ngày thứ 100, tất cả cùng đồng loạt nhận ra mắt mình là màu đỏ và biến mất vào nửa đêm ngày 100!",
+        "bai_hoc": "Tri thức chung (Common Knowledge): Một thông tin mà ai cũng biết chưa đủ, nó phải là thông tin mà 'mọi người đều biết rằng mọi người đều biết' mới tạo ra bước ngoặt hành động tập thể.",
+        "ky_nang": "suy_luan_dieu_kien"
+      },
+      {
+        "stt": 14,
+        "id": "nc_14",
+        "cau_hoi": "Tại sao trong nghệ thuật quân sự và kinh doanh, Binh pháp Tôn Tử lại nhấn mạnh: 'Binh bất yếm trá' và 'Tấn công vào nơi địch không phòng bị, xuất hiện ở nơi địch không ngờ tới'? Làm thế nào để áp dụng nguyên lý này trong việc tạo lợi thế cạnh tranh cá nhân?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Chiến lược Đại dương xanh (Blue Ocean) - Tránh đối đầu trực diện nơi đối thủ mạnh nhất",
+        "giai_thich": "Thay vì lao vào cạnh tranh đẫm máu trên cùng một kỹ năng mà hàng ngàn người đã xuất sắc, hãy kết hợp hai hoặc ba kỹ năng độc đáo ở giao lộ ít người để ý (ví dụ: Chuyên gia công nghệ hiểu sâu về văn hóa cổ điển, hoặc luật sư am hiểu lập trình AI). Điểm giao thoa đó là nơi bạn không có đối thủ cạnh tranh.",
+        "bai_hoc": "Khác biệt hóa chiến lược: Tìm kiếm vị thế bất đối xứng nơi điểm mạnh của bạn giải quyết được điểm mù của thị trường.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 15,
+        "id": "nc_15",
+        "cau_hoi": "Thế nào là 'Nghịch lý của sự lựa chọn' (Paradox of Choice)? Tại sao khi có quá nhiều sự lựa chọn (về ngành học, nghề nghiệp, mua sắm) con người lại cảm thấy lo âu, bất an và ít hạnh phúc hơn?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Quá nhiều lựa chọn làm tăng chi phí so sánh, tạo gánh nặng tinh thần và nỗi ám ảnh tiếc nuối cơ hội bị bỏ qua",
+        "giai_thich": "Khi chỉ có 2 lựa chọn, việc ra quyết định rất nhanh và ít nuối tiếc. Khi có 100 lựa chọn, kỳ vọng của bạn bị đẩy lên cực hạn. Bất kể bạn chọn cái nào, bạn vẫn luôn nghi ngờ rằng có một lựa chọn khác tốt hơn mà mình đã bỏ lỡ. Nó làm giảm sự thỏa mãn và gây trì hoãn cam kết lâu dài.",
+        "bai_hoc": "Nghệ thuật giới hạn và cam kết: Đơn giản hóa cuộc sống bằng cách cắt giảm các quyết định râu ria để tập trung toàn lực vào những cam kết cốt lõi.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 16,
+        "id": "nc_16",
+        "cau_hoi": "Phân tích tư duy 'Được ăn cả, ngã về không' dưới góc độ của Tiêu chuẩn Kelly (Kelly Criterion) trong quản trị vốn. Tại sao việc đặt cược toàn bộ tài sản vào một cơ hội dù có xác suất thắng 99% vẫn là hành vi tự sát tài chính?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Quy tắc lũy thừa xác suất: Khi rủi ro phá sản bằng 0 tuyệt đối (Ruin probability) không được bảo đảm, chuỗi lặp dài hạn chắc chắn dẫn đến số 0",
+        "giai_thich": "Nếu bạn cược tất tay 100% tài sản, chỉ cần một lần gặp phải biến cố 1% rủi ro, tài khoản của bạn sẽ bị nhân với 0. Bất kỳ số khổng lồ nào nhân với 0 đều bằng 0. Công thức Kelly chỉ ra rằng tỷ lệ cược tối ưu luôn là một phần hữu hạn của tổng vốn, tuyệt đối không bao giờ tất tay.",
+        "bai_hoc": "Nguyên tắc sinh tồn là số 1: Tránh xa mọi tình huống mà kết cục xấu nhất có thể hủy diệt hoàn toàn sự nghiệp hay tính mạng của bạn.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 17,
+        "id": "nc_17",
+        "cau_hoi": "Tại sao trong quản lý dự án công nghệ hiện đại, nguyên lý 'Định luật Brooks' lại cảnh báo: 'Thêm người vào một dự án phần mềm đang chậm tiến độ sẽ chỉ làm nó chậm tiến độ hơn'?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Chi phí truyền thông, đào tạo người mới và phối hợp nhóm bùng nổ theo cấp số tổ hợp n(n-1)/2",
+        "giai_thich": "Người mới cần những nhân sự kỳ cựu giỏi nhất dành thời gian hướng dẫn lại kiến thức nền tảng, làm giảm sút năng suất của nhân lực chủ chốt. Đồng thời các kênh giao tiếp giữa các thành viên tăng vọt làm phát sinh sự hiểu lầm và xung đột mã nguồn.",
+        "bai_hoc": "Tổ chức tinh gọn: Năng suất tập thể phụ thuộc vào cấu trúc luồng thông tin trơn tru hơn là số lượng đầu người thuần túy.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 18,
+        "id": "nc_18",
+        "cau_hoi": "Thế nào là 'Tư duy hệ sinh thái' (Ecosystem Thinking)? Hãy phân tích vì sao Apple không chỉ đơn thuần bán một chiếc điện thoại iPhone mà là bán một 'Khu vườn đóng kín' (Walled Garden) trói chân khách hàng.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Sức mạnh nằm ở sự tương hỗ liền mạch giữa phần cứng, phần mềm, dịch vụ đám mây và kho ứng dụng",
+        "giai_thich": "Khi bạn sở hữu iPhone, iPad, MacBook, Apple Watch và AirPods, tính năng AirDrop, đồng bộ iCloud và iMessage hoạt động mượt mà tạo ra một trải nghiệm không thể tách rời. Chi phí chuyển đổi (Switching cost) sang đối thủ Android trở nên quá đắt đỏ và phiền toái đối với người dùng.",
+        "bai_hoc": "Xây dựng hào kinh tế đa lớp: Tạo ra sự kết nối tương hỗ giữa các sản phẩm để gia tăng giá trị giữ chân khách hàng bền vững.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 19,
+        "id": "nc_19",
+        "cau_hoi": "Một vị tướng chỉ huy đội quân 1000 người chuẩn bị vượt sông tấn công quân địch có quân số 3000 người. Sau khi toàn bộ quân lính qua sông, vị tướng liền ra lệnh đốt cháy toàn bộ thuyền bè của chính mình. Hành động 'Đập nồi dìm thuyền' (Phá phủ trầm châu) này dưới góc độ tâm lý chiến có ý nghĩa gì?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Triệt tiêu hoàn toàn đường lui để kích hoạt bản năng sinh tồn và dũng khí chiến đấu tột cùng",
+        "giai_thich": "Khi còn thuyền phía sau, tâm lý binh lính sẽ bị phân tâm, khi gặp khó khăn sẽ nghĩ đến việc tháo chạy để bảo toàn tính mạng. Đốt thuyền đồng nghĩa với việc: Con đường sống duy nhất là đánh tan quân địch phía trước để chiếm lấy thuyền của chúng trở về. Sự tuyệt vọng chuyển hóa thành sức mạnh bùng nổ phi thường.",
+        "bai_hoc": "Cam kết không thể đảo ngược (Irreversible commitment): Khi muốn đạt được mục tiêu lớn, đôi khi cần cắt bỏ mọi phương án thoái lui an phận.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 20,
+        "id": "nc_20",
+        "cau_hoi": "Tại sao trong triết học Đông phương, Lão Tử trong Đạo Đức Kinh lại nói: 'Bậc đại trí thì như kẻ khờ dại, bậc đại dũng thì như kẻ nhút nhát, đạo lớn thì bằng phẳng mà người đời lại thích đường quanh co'? Liên hệ với tư duy nhanh của một người trưởng thành.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Đỉnh cao của sự minh triết là sự giản dị, khiêm nhường, không phô trương hoa mỹ",
+        "giai_thich": "Người mới biết chút ít thường thích tranh cãi, thể hiện sự lanh lợi khôn lỏi bề ngoài. Bậc chân trí thấu hiểu quy luật tự nhiên, tâm an như nước, biết khi nào cần nói, khi nào cần im lặng, dùng sự tĩnh lặng để quan sát vạn vật biến chuyển.",
+        "bai_hoc": "Đại trí nhược ngu: Năng lực tư duy nhanh thực thụ không phải là nói nhanh cướp lời người khác, mà là khả năng lắng nghe sâu sắc và nhìn thấu bản chất vấn đề.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 21,
+        "id": "nc_21",
+        "cau_hoi": "Phân tích câu nói của triết gia Seneca: 'Chúng ta đau khổ trong trí tưởng tượng nhiều hơn trong thực tế'. Làm sao ứng dụng tư duy phản biện để vượt qua hội chứng lo âu thái quá (Overthinking)?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Tách bạch rõ ràng giữa 'Sự thật khách quan' và 'Kịch bản do tâm trí tự thêu dệt'",
+        "giai_thich": "Não bộ con người tiến hóa để luôn cảnh giác với nguy hiểm, nên nó thường tự động phóng đại các kịch bản tồi tệ nhất. Phương pháp khắc phục: Viết ra giấy sự việc thực tế, tự hỏi: 'Bằng chứng thực tế của nỗi sợ này là gì? Xác suất xảy ra là bao nhiêu? Nếu kịch bản xấu nhất xảy ra, mình có chết không và cách khắc phục là gì?'. Khi gọi tên được nỗi sợ, nó sẽ tan biến.",
+        "bai_hoc": "Thực chứng hóa nỗi sợ: Đừng để trí tưởng tượng biến những bóng ma vô hình thành sợi dây xích trói buộc cuộc đời bạn.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 22,
+        "id": "nc_22",
+        "cau_hoi": "Trong kinh doanh và đầu tư, thế nào là 'Hiệu ứng mạng lưới' (Network Effect)? Tại sao một nền tảng như Facebook hay Zalo càng đông người dùng thì giá trị của nó lại tăng theo cấp số nhân?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Giá trị của mạng lưới tỷ lệ thuận với bình phương số lượng người tham gia (Định luật Metcalfe: V ≈ n^2)",
+        "giai_thich": "Một chiếc điện thoại duy nhất trên đời hoàn toàn vô giá trị vì không gọi được cho ai. Chiếc điện thoại thứ hai xuất hiện tạo ra 1 kết nối. Chiếc thứ ba tạo ra 3 kết nối. Một triệu chiếc tạo ra hàng ngàn tỷ kết nối tiềm năng. Người dùng mới tham gia tự động mang lại giá trị gia tăng cho tất cả những người dùng cũ.",
+        "bai_hoc": "Tạo dựng hiệu ứng mạng: Xây dựng các sản phẩm và mối quan hệ có tính kết nối lan tỏa để giá trị tự nhân lên theo quy mô.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 23,
+        "id": "nc_23",
+        "cau_hoi": "Thế nào là 'Bẫy thăng tiến Peter' (Peter Principle) trong các cơ quan, tổ chức? Làm sao để không bị mắc kẹt vào bẫy này?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Trong một hệ thống thứ bậc, mỗi nhân viên đều có xu hướng được thăng tiến lên đến mức mà họ KHÔNG CÒN ĐỦ NĂNG LỰC để đảm nhiệm nữa!",
+        "giai_thich": "Một lập trình viên xuất sắc được cất nhắc lên làm quản lý nhóm (dù thiếu kỹ năng lãnh đạo). Làm quản lý ổn lại được thăng chức lên giám đốc chiến lược... Quá trình thăng chức dừng lại khi người đó làm việc kém cỏi ở một vị trí vượt quá khả năng, và họ bị mắc kẹt vĩnh viễn ở đó trong sự bất lực.",
+        "bai_hoc": "Tự nhận thức giới hạn năng lực: Thăng tiến không nhất thiết phải là chuyển sang làm quản lý hành chính, phát triển chuyên sâu kỹ năng chuyên gia cũng là đỉnh cao.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 24,
+        "id": "nc_24",
+        "cau_hoi": "Tại sao trong đàm phán, người ta nói: 'Kẻ ra giá đầu tiên thường neo mỏ neo tâm lý' (Anchoring Effect)? Làm thế nào để vô hiệu hóa chiếc mỏ neo này khi đối phương ra giá quá cao hoặc quá thấp?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Con số đầu tiên được đưa ra sẽ trở thành điểm tham chiếu vô thức chi phối toàn bộ khoảng mặc cả sau đó",
+        "giai_thich": "Nếu người bán đòi 1 tỷ, bạn trả xuống 800 triệu đã thấy mình thắng lớn (dù giá trị thực chỉ 500 triệu). Cách vô hiệu hóa: Tuyệt đối không mặc cả dựa trên con số mỏ neo của họ. Hãy gạt bỏ con số đó ra khỏi bàn đàm phán, tự thiết lập một mỏ neo mới dựa trên các tiêu chí thẩm định khách quan độc lập.",
+        "bai_hoc": "Phá vỡ mỏ neo tâm lý: Nhận diện điểm neo và kiên quyết tái thiết lập hệ quy chiếu theo tiêu chuẩn giá trị của chính bạn.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 25,
+        "id": "nc_25",
+        "cau_hoi": "Trong lý thuyết thông tin, thế nào là 'Tỷ lệ Tín hiệu trên Nhiễu' (Signal-to-Noise Ratio)? Làm thế nào để nâng cao tỷ lệ này trong thời đại bùng nổ thông tin và mạng xã hội ngày nay?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Tín hiệu là tri thức cốt lõi, sâu sắc; Nhiễu là tin rác, giật gân, drama vô bổ làm phân tâm trí não",
+        "giai_thich": "Cách nâng cao: 1) Cai nghiện thông tin nhanh, hủy theo dõi các kênh tin tức giật gân. 2) Tìm đọc các tác phẩm kinh điển đã trường tồn qua thời gian (Hiệu ứng Lindy). 3) Dành thời gian suy ngẫm và thực hành thay vì lướt đọc thụ động.",
+        "bai_hoc": "Chọn lọc thực phẩm cho tâm trí: Bảo vệ sự tập trung của não bộ như bảo vệ ngôi đền thiêng liêng nhất của cuộc đời.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 26,
+        "id": "nc_26",
+        "cau_hoi": "Giải thích câu ngạn ngữ cổ: 'Nếu bạn sinh ra nghèo khó, đó không phải là lỗi của bạn. Nhưng nếu bạn chết đi trong nghèo khó, đó là lỗi của bạn'. Phân tích câu nói này dưới góc độ trách nhiệm cá nhân và cơ cấu xã hội.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Phân biệt giữa 'Điểm xuất phát' (hoàn cảnh bất khả kháng) và 'Hành trình nỗ lực' (quyền tự quyết cá nhân)",
+        "giai_thich": "Chúng ta không thể chọn nơi mình sinh ra, cha mẹ hay thể trạng ban đầu. Nhưng với tư cách một người trưởng thành có ý thức, ta có quyền lựa chọn thái độ sống, sự học tập và lòng kiên trì mỗi ngày. Đổ lỗi cho hoàn cảnh là sự trốn tránh trách nhiệm tối thượng đối với tương lai của chính mình.",
+        "bai_hoc": "Quyền năng của sự tự chủ: Dù lá bài trong tay bạn xấu đến đâu, cách bạn chơi ván bài cuộc đời hoàn toàn thuộc về bạn.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 27,
+        "id": "nc_27",
+        "cau_hoi": "Thế nào là 'Mô hình tư duy Đảo ngược tình thế' trong kinh doanh? Cho ví dụ về việc một điểm yếu chí mạng có thể biến thành điểm mạnh độc nhất vô nhị.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Chiến dịch quảng cáo kinh điển của hãng xe cho thuê Avis: 'Chúng tôi chỉ đứng thứ hai. Vì vậy chúng tôi phải nỗ lực hơn!' (We try harder)",
+        "giai_thich": "Hãng Hertz thống trị vị trí số 1 thị trường. Avis đứng thứ hai và luôn bị coi là kẻ thất bại. Avis đã đảo ngược điểm yếu này thành thông điệp tiếp thị chấn động: Vì đứng thứ hai nên chúng tôi không dám làm ăn ẩu, chúng tôi phải lau xe sạch hơn, phục vụ chu đáo hơn! Chiến dịch mang lại thành công vang dội.",
+        "bai_hoc": "Biến nhược điểm thành vũ khí: Thừa nhận thực tế với sự chân thành và biến nó thành cam kết nỗ lực vượt bậc.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 28,
+        "id": "nc_28",
+        "cau_hoi": "Tại sao trong quản trị rủi ro y tế và hàng không, người ta bắt buộc phải sử dụng 'Bảng kiểm tra' (Checklist) dù cho các phi công và bác sĩ phẫu thuật đều là những chuyên gia đầu ngành có hàng chục năm kinh nghiệm?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Trí nhớ ngắn hạn và sự tập trung của con người luôn có giới hạn, đặc biệt khi mệt mỏi hoặc chịu áp lực cao",
+        "giai_thich": "Các sai lầm chết người trong phòng mổ hay buồng lái hiếm khi do thiếu kiến thức chuyên sâu, mà thường do quên những bước cơ bản nhất (quên rửa tay sát khuẩn, quên tháo chốt an toàn). Bảng kiểm tra đóng vai trò một chiếc lưới bảo hiểm ngăn ngừa sự sơ suất của trí não.",
+        "bai_hoc": "Khiêm nhường trước sự phức tạp: Quy trình chuẩn hóa bằng văn bản đánh bại trí nhớ chủ quan trong mọi tình huống khẩn cấp.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 29,
+        "id": "nc_29",
+        "cau_hoi": "Trong triết học Khắc Kỷ (Stoicism), thế nào là 'Vòng tròn kiểm soát' (Dichotomy of Control)? Nhận thức này giúp giải phóng con người khỏi đau khổ và bất an như thế nào?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Chia thế giới thành 2 phần: Những thứ ta KIỂM SOÁT ĐƯỢC và những thứ ta KHÔNG THỂ KIỂM SOÁT ĐƯỢC",
+        "giai_thich": "Không kiểm soát được: Thời tiết, quá khứ, hành vi và miệng lưỡi của người khác, nền kinh tế thế giới... Kiểm soát được: Suy nghĩ, lời nói, phản ứng, đạo đức và sự nỗ lực của chính mình. Người khôn ngoan dồn 100% năng lượng vào phần mình kiểm soát được, buông bỏ sự dằn vặt với những thứ ngoài tầm tay.",
+        "bai_hoc": "Bình thản giữa giông bão: Tự do nội tâm bắt đầu từ khoảnh khắc bạn phân biệt rõ điều gì thuộc quyền năng của mình và điều gì không.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 30,
+        "id": "nc_30",
+        "cau_hoi": "Thế nào là 'Quy luật Goodhart' trong đo lường hiệu suất (KPI)? 'Khi một chỉ số đo lường trở thành mục tiêu, nó không còn là một chỉ số đo lường tốt nữa'. Lấy ví dụ minh họa trong trường học hoặc bệnh viện.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Người ta sẽ tìm mọi cách gian lận hoặc tối ưu hóa chỉ số mà làm hỏng mục tiêu chất lượng cốt lõi ban đầu",
+        "giai_thich": "Ví dụ: Đặt KPI cho bệnh viện là 'Rút ngắn thời gian bệnh nhân chờ cấp cứu dưới 4 giờ'. Để đạt chỉ số này, các nhân viên đã giữ bệnh nhân ngồi trên xe cứu thương ngoài cổng viện và không cho nhập viện vội, hoặc chuyển bệnh nhân sang khoa khác sớm khi chưa lành bệnh. Chỉ số đẹp nhưng chất lượng cứu chữa thực tế giảm sút.",
+        "bai_hoc": "Cảnh giác với chủ nghĩa hình thức KPI: Luôn đối chiếu số liệu báo cáo với thực tế đời sống để ngăn chặn hành vi đối phó gian lận.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 31,
+        "id": "nc_31",
+        "cau_hoi": "Một bài toán triết học: 'Chiếc tàu của Theseus' (Ship of Theseus). Một chiếc tàu gỗ trải qua hành trình dài trên biển. Cứ mỗi khi một thanh gỗ bị mục nát, người ta lại thay bằng một thanh gỗ mới. Sau 50 năm, TẤT CẢ các thanh gỗ ban đầu đều đã được thay thế hoàn toàn. Hỏi chiếc tàu đó CÓ CÒN LÀ CHIẾC TÀU BAN ĐẦU KHÔNG? Liên hệ với sự thay đổi tế bào trong cơ thể người.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Bản sắc của một thực thể nằm ở CẤU TRÚC VÀ TÍNH LIÊN TỤC CỦA THÔNG TIN, không nằm ở vật chất cấu thành cụ thể",
+        "giai_thich": "Cứ sau khoảng 7 năm, gần như toàn bộ tế bào trong cơ thể bạn đều đã chết đi và được thay mới bằng các tế bào khác tạo từ thức ăn. Nhưng bạn vẫn là bạn, bởi vì ký ức, nhân cách, cấu trúc DNA và dòng chảy ý thức của bạn được duy trì liên tục qua thời gian.",
+        "bai_hoc": "Bản sắc phi vật chất: Bạn không phải là những nguyên tử vật chất thụ động, bạn là cấu trúc thông tin và linh hồn vận hành chúng.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 32,
+        "id": "nc_32",
+        "cau_hoi": "Thế nào là 'Bẫy chi phí cơ hội' (Opportunity Cost)? Tại sao việc nói 'CÓ' với một lời mời hay một dự án tầm thường đồng nghĩa với việc bạn đang nói 'KHÔNG' với những cơ hội vĩ đại?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Thời gian và năng lượng là hữu hạn; chọn làm việc A đồng nghĩa với từ bỏ giá trị tốt nhất của việc B mà bạn có thể làm",
+        "giai_thich": "Chi phí thực sự của một việc không chỉ là số tiền bạn bỏ ra, mà là giá trị của những điều tốt nhất mà bạn phải từ bỏ để làm việc đó. Nếu bạn dành 4 tiếng buổi tối để lướt mạng vô bổ, chi phí không phải là 0 đồng, mà là 4 tiếng đọc sách, rèn luyện thân thể hay tâm sự cùng người thân.",
+        "bai_hoc": "Học cách nói KHÔNG dứt khoát: Nói không với những thứ thứ yếu để bảo tồn năng lượng tinh hoa cho những mục tiêu tối thượng.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 33,
+        "id": "nc_33",
+        "cau_hoi": "Tại sao trong đầu tư và phát triển bản thân, người ta tôn vinh 'Lãi kép' (Compound Interest) là kỳ quan thứ 8 của thế giới? Nêu công thức toán học và sự khác biệt giữa tăng trưởng tuyến tính và tăng trưởng hàm mũ.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Mỗi ngày tiến bộ 1% thì sau 1 năm bạn sẽ giỏi hơn gấp 37 lần (1.01^365 ≈ 37.8)!",
+        "giai_thich": "Tăng trưởng tuyến tính là cộng dồn: 1 + 1 + 1 = 3. Tăng trưởng hàm mũ là nhân lũy tiến: Thành quả của ngày hôm nay trở thành gốc vốn để sinh lãi cho ngày mai. Ngược lại, nếu mỗi ngày bạn thụt lùi 1%, sau 1 năm bạn chỉ còn lại con số 0.03 (gần như mất trắng: 0.99^365 ≈ 0.025).",
+        "bai_hoc": "Sức mạnh của kỷ luật nhỏ mỗi ngày: Những hành động nhỏ nhặt lặp đi lặp lại một cách kiên trì sẽ tạo nên bước nhảy vọt thần kỳ qua thời gian.",
+        "ky_nang": "quy_luat_so_logic"
+      },
+      {
+        "stt": 34,
+        "id": "nc_34",
+        "cau_hoi": "Thế nào là 'Tư duy đa ngành' (Mental Models) của Charlie Munger? Tại sao người chỉ nắm duy nhất một chuyên ngành hẹp thường rơi vào bẫy 'Người có chiếc búa trong tay thì nhìn đâu cũng thấy đinh'?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Thế giới thực không phân chia theo ranh giới môn học của trường đại học",
+        "giai_thich": "Một vấn đề kinh tế phức tạp chứa đựng cả tâm lý học, sinh học tiến hóa, vật lý nhiệt động lực và lịch sử. Nếu bạn chỉ là một nhà kinh tế thuần túy, bạn sẽ cố ép mọi thứ vào cung-cầu. Nắm vững 80-90 mô hình cốt lõi của các ngành khoa học cơ bản giúp bạn có một mạng lưới tư duy đa chiều để giải quyết vấn đề toàn diện.",
+        "bai_hoc": "Xây dựng hộp công cụ tư duy đa ngành: Mở rộng tầm nhìn ra ngoài chuyên môn hẹp để thấu hiểu bức tranh chân thực của cuộc sống.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 35,
+        "id": "nc_35",
+        "cau_hoi": "Trong tâm lý học hành vi, thế nào là 'Hiệu ứng Dunning-Kruger'? Tại sao người biết chút ít thường rất tự tin và to mồm, trong khi các chuyên gia thực thụ lại thường khiêm tốn và dè dặt?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Sự thiếu hiểu biết cướp đi khả năng nhận thức được sự thiếu hiểu biết của chính mình",
+        "giai_thich": "Khi mới tiếp cận một lĩnh vực, người ta leo lên 'Đỉnh cao của sự ngu ngốc' (Mount Stupid) vì họ chưa biết rằng biển kiến thức rộng lớn dường nào. Khi học sâu hơn, họ rơi xuống 'Thung lũng tuyệt vọng' khi nhận ra mình còn quá nhiều điều chưa biết. Chỉ khi trở thành bậc thầy, sự tự tin mới tăng trở lại nhưng gắn liền với sự khiêm cung sâu sắc.",
+        "bai_hoc": "Ý thức về sự vô tri: Biết rằng mình không biết là khởi đầu của trí tuệ chân thật.",
+        "ky_nang": "phan_biet_dung_sai"
+      },
+      {
+        "stt": 36,
+        "id": "nc_36",
+        "cau_hoi": "Tại sao trong thiết kế hệ thống an toàn (như tàu ngầm, máy bay, đập thủy điện), người ta luôn áp dụng nguyên lý 'Dự phòng kép' (Redundancy) và 'Phân vùng cách ly sự cố' (Compartmentalization)?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 120,
+        "dap_an": "Để ngăn chặn sự cố ở một điểm duy nhất (Single Point of Failure) làm sụp đổ toàn bộ hệ thống",
+        "giai_thich": "Nếu một khoang tàu ngầm bị thủng, các cửa ngăn nước lập tức đóng sập lại để cô lập khoang đó, giữ cho phần còn lại của con tàu tiếp tục nổi. Trong cuộc sống cá nhân, có nhiều nguồn thu nhập độc lập và kỹ năng đa dạng chính là việc xây dựng các vách ngăn bảo hiểm cuộc đời.",
+        "bai_hoc": "Xây dựng rào chắn cách ly rủi ro: Đừng bao giờ để cả cuộc sống hay doanh nghiệp phụ thuộc vào một điểm chịu lực duy nhất.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 37,
+        "id": "nc_37",
+        "cau_hoi": "Giải thích khái niệm 'Hiệu ứng Lindy' (Lindy Effect). Tại sao một cuốn sách cổ điển đã tồn tại 2000 năm như 'Đạo Đức Kinh' hay 'Luận Ngữ' lại có xác suất tồn tại thêm 2000 năm nữa cao hơn nhiều so với một cuốn sách bán chạy (Bestseller) vừa xuất bản năm ngoái?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Đối với công nghệ và ý tưởng phi sinh học: Tuổi thọ kỳ vọng trong tương lai tỷ lệ thuận với tuổi thọ đã tồn tại trong quá khứ",
+        "giai_thich": "Thời gian là bộ lọc tàn nhẫn nhất. Những tác phẩm đã vượt qua thử thách của hàng ngàn năm chiến tranh, biến động chính trị và thay đổi văn hóa chứng tỏ chúng chứa đựng chân lý bất biến về bản chất con người. Những cuốn sách giật gân hiện đại thường chỉ là trào lưu nhất thời và sẽ bị lãng quên sau vài năm.",
+        "bai_hoc": "Đầu tư vào những giá trị trường tồn: Ưu tiên tiếp thu những tinh hoa đã được thời gian kiểm chứng.",
+        "ky_nang": "quan_sat_lien_ket"
+      },
+      {
+        "stt": 38,
+        "id": "nc_38",
+        "cau_hoi": "Thế nào là 'Tư duy Hệ thống khép kín' (Circular Thinking) trong nền kinh tế xanh so với 'Mô hình kinh tế tuyến tính' truyền thống (Khai thác -> Sản xuất -> Thải bỏ)?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Rác thải của quy trình này trở thành nguyên liệu đầu vào của quy trình khác theo chu trình tự nhiên",
+        "giai_thich": "Trong tự nhiên không có khái niệm 'rác' - lá cây rụng biến thành mùn nuôi dưỡng rễ cây. Kinh tế tuần hoàn thiết kế sản phẩm ngay từ đầu để có thể tái chế, tháo rời và tái sinh 100%, bảo vệ tài nguyên địa cầu bền vững.",
+        "bai_hoc": "Học hỏi từ sự hoàn hảo của Mẹ Thiên Nhiên: Mọi chu trình bền vững đều phải là vòng tròn tuần hoàn khép kín.",
+        "ky_nang": "nhieu_giai_phap"
+      },
+      {
+        "stt": 39,
+        "id": "nc_39",
+        "cau_hoi": "Tại sao nhà tâm lý học Viktor Frankl - người sống sót qua trại tập trung Đức Quốc Xã - lại khẳng định: 'Khoảng cách giữa kích thích và phản ứng là sự tự do lựa chọn của con người'? Làm thế nào để làm chủ khoảng cách này khi đối diện với biến cố cay đắng?",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "Ngoại cảnh có thể cướp đi tất cả của bạn, trừ quyền tự do lựa chọn THÁI ĐỘ sống trước nghịch cảnh",
+        "giai_thich": "Kẻ tầm thường để kích thích tiêu cực (bị xúc phạm, gặp thất bại) lập tức kích hoạt phản xạ tức giận, trả đũa. Người có bản lĩnh tạo ra một khoảng dừng tĩnh lặng giữa sự việc và hành động để tự hỏi: 'Phản ứng nào thể hiện phẩm giá và mang lại giá trị cao nhất cho nhân cách của mình?'.",
+        "bai_hoc": "Làm chủ phản ứng cảm xúc: Sức mạnh tối thượng của tâm trí là quyền năng tự định đoạt ý nghĩa của mọi trải nghiệm đời người.",
+        "ky_nang": "quyet_dinh_can_bang"
+      },
+      {
+        "stt": 40,
+        "id": "nc_40",
+        "cau_hoi": "Một câu hỏi đúc kết tư duy: 'Làm thế nào để rèn luyện một bộ não có tư duy nhanh, nhạy bén nhưng không nông cạn, sâu sắc mà không chậm chạp trì trệ?'. Nêu 3 nguyên tắc vàng để duy trì sự minh mẫn suốt cuộc đời.",
+        "thoi_gian_nghi": "2–3 phút",
+        "thoi_gian_giay": 150,
+        "dap_an": "1. Thể lực và nhịp sinh học; 2. Thử thách trí não liên tục; 3. Giữ tâm tĩnh lặng và cởi mở",
+        "giai_thich": "1) Thể lực dồi dào: Não tiêu tốn 20% năng lượng cơ thể. Giấc ngủ sâu, vận động đều đặn và dinh dưỡng sạch là nền tảng của phản xạ nhạy bén. 2) Thử thách liên tục: Rèn luyện giải đố, học ngôn ngữ mới, tiếp cận lĩnh vực lạ để xây dựng các nơ-ron liên kết thần kinh mới (Neuroplasticity). 3) Tâm trí tĩnh lặng: Thiền định, buông bỏ định kiến để nhìn sự vật như chính nó đang là, không bị cảm xúc chi phối làm lệch hướng suy luận.",
+        "bai_hoc": "Tư duy nhanh là một lối sống: Đó là sự kết tinh của thân thể khỏe mạnh, kỷ luật rèn luyện trí óc mỗi ngày và một trái tim bình an sáng suốt.",
+        "ky_nang": "quyet_dinh_can_bang"
+      }
+    ]
+  },
+  "phan_6_bang_tong_hop_tien_do": {
+    "tieu_de": "6. Bảng Tổng Hợp & Theo Dõi Tiến Độ",
+    "mo_ta": "Hệ thống ghi nhận trạng thái tiếp thu của bạn trên từng cấp độ qua thời gian thực.",
+    "cac_cap_do": [
+      {
+        "id": "de",
+        "ten": "Cấp 1 — Dễ",
+        "tong_so": 40,
+        "thoi_gian": "20s"
+      },
+      {
+        "id": "tb",
+        "ten": "Cấp 2 — Trung Bình",
+        "tong_so": 40,
+        "thoi_gian": "30-45s"
+      },
+      {
+        "id": "kho",
+        "ten": "Cấp 3 — Khó",
+        "tong_so": 40,
+        "thoi_gian": "1-2m"
+      },
+      {
+        "id": "nc",
+        "ten": "Cấp 4 — Nâng Cao",
+        "tong_so": 40,
+        "thoi_gian": "2-3m"
+      }
+    ],
+    "loi_khuyen_luyen_tap": "Hãy đảm bảo tỷ lệ hiểu rõ ở cấp độ hiện tại đạt trên 80% trước khi chuyển sang chinh phục cấp độ cao hơn. Não bộ cần sự vững vàng ở nền tảng để không bị choáng ngợp trước các bài toán đa tầng."
+  },
+  "phan_7_bay_ky_nang_tu_duy": {
+    "tieu_de": "7. 7 Kỹ Năng Tư Duy Nhanh — Hướng Dẫn Thực Hành",
+    "danh_sach_7_ky_nang": [
+      {
+        "stt": 1,
+        "ten": "Quan sát kỹ — Đọc câu hỏi 2 lần trước khi suy nghĩ",
+        "huong_dan": "Không bỏ sót các chi tiết nhỏ hay các mốc định lượng thời gian, đó thường là chiếc chìa khóa giải mã then chốt."
+      },
+      {
+        "stt": 2,
+        "ten": "Vẽ ra giấy — Biến suy nghĩ thành hình ảnh trực quan",
+        "huong_dan": "Sơ đồ mũi tên, trục thời gian, bảng liệt kê hai cột giúp giải phóng bộ nhớ đệm của não và nhìn ra kết quả ngay tức khắc."
+      },
+      {
+        "stt": 3,
+        "ten": "Tìm quy luật — Mọi vấn đề phức tạp đều ẩn chứa quy luật",
+        "huong_dan": "Quan sát 2–3 bước chuyển tiếp đầu tiên để rút ra công thức bước nhảy, sau đó áp dụng cho toàn bộ chuỗi sự kiện."
+      },
+      {
+        "stt": 4,
+        "ten": "Phương pháp loại trừ — Chắc chắn cái sai để tìm ra cái đúng",
+        "huong_dan": "Khi bế tắc không tìm thấy đường đi đúng, hãy kiên quyết loại bỏ từng phương án chắc chắn vô lý, cái còn lại ắt là chân lý."
+      },
+      {
+        "stt": 5,
+        "ten": "Thay đổi góc nhìn — Đảo ngược vấn đề từ sau ra trước",
+        "huong_dan": "Không đi theo lối mòn tư duy xuôi dòng. Hãy tự hỏi: 'Nếu đi lùi từ kết quả cuối cùng thì bước trước đó phải là gì?'."
+      },
+      {
+        "stt": 6,
+        "ten": "Tóm tắt cốt lõi — Viết lại vấn đề trong đúng 1 câu ngắn",
+        "huong_dan": "Gạt bỏ mọi tính từ cảm xúc và dữ liệu râu ria gây nhiễu, tập trung toàn bộ năng lượng vào mối quan hệ nguyên nhân - kết quả."
+      },
+      {
+        "stt": 7,
+        "ten": "Kiên nhẫn lặp lại — Não bộ kiến tạo qua sự tái hiện",
+        "huong_dan": "Một bài học chỉ thực sự thuộc về bạn khi bạn tự mình giải lại thành công sau 1 tuần. Kiên trì là người mẹ của sự thông thái."
+      }
+    ]
+  },
+  "phan_8_tra_cuu_theo_ky_nang": {
+    "tieu_de": "8. Tra Cứu Theo Kỹ Năng — Tập Trung Rèn Luyện Điểm Yếu",
+    "cac_nhom_ky_nang": [
+      {
+        "ma_ky_nang": "quan_sat_lien_ket",
+        "ten_nhom": "Quan sát & Liên kết đặc điểm",
+        "so_cau_tap_trung": "Cấp 1 (Dễ 1–10, 13, 15, 20, 26, 37, 39); Cấp 3 (Câu 33); Cấp 4 (Câu 20, 25, 31)",
+        "loi_khuyen": "Chú ý từng câu chữ, đừng đọc lướt, không bỏ qua các nghĩa bóng và thuộc tính tự nhiên."
+      },
+      {
+        "ma_ky_nang": "quy_luat_so_logic",
+        "ten_nhom": "Quy luật số học & Toán logic",
+        "so_cau_tap_trung": "Cấp 1 (Dễ 11, 12, 24, 27, 40); Cấp 2 (TB 1, 3, 6, 7, 8, 12, 14, 16, 18, 21, 23, 26, 28, 30, 34, 36, 39); Cấp 3 (Câu 1, 7, 8, 10, 16, 19); Cấp 4 (Câu 1, 16, 33)",
+        "loi_khuyen": "Quy chuẩn về đơn vị gốc (Unit rate), tính hiệu số bậc hai và sử dụng phương pháp hoán vị tổ hợp."
+      },
+      {
+        "ma_ky_nang": "suy_luan_dieu_kien",
+        "ten_nhom": "Suy luận điều kiện & Trục thời gian",
+        "so_cau_tap_trung": "Cấp 1 (Dễ 6, 16, 19, 25, 28, 31, 35); Cấp 2 (TB 2, 10, 11, 15, 17, 20, 22, 24, 27, 31); Cấp 3 (Câu 3, 5, 27); Cấp 4 (Câu 13)",
+        "loi_khuyen": "Vẽ trục thời gian và kiểm thử từng giả thuyết, kiểm tra tính tương thích của tiền đề."
+      },
+      {
+        "ma_ky_nang": "phan_biet_dung_sai",
+        "ten_nhom": "Phân biệt đúng - sai & Bẫy ngụy biện",
+        "so_cau_tap_trung": "Cấp 1 (Dễ 4, 10, 14, 17, 18, 22, 33); Cấp 2 (TB 4, 5, 38); Cấp 3 (Câu 2, 6, 14, 18, 21, 23, 24, 26, 32, 36, 38, 40); Cấp 4 (Câu 3, 21, 30, 35)",
+        "loi_khuyen": "Bác bỏ giả định sai lệch ngay từ đầu, kiểm chứng biến số ẩn thay vì tin vào tương quan bề nổi."
+      },
+      {
+        "ma_ky_nang": "nhieu_giai_phap",
+        "ten_nhom": "Tư duy sáng tạo & Đa giải pháp",
+        "so_cau_tap_trung": "Cấp 2 (TB 9, 13, 19, 29, 33, 35); Cấp 3 (Câu 12, 17, 25, 29, 37); Cấp 4 (Câu 2, 5, 8, 11, 18, 22, 27, 34, 38)",
+        "loi_khuyen": "Luôn đặt câu hỏi: 'Còn cách nào khác nữa không?'; vượt ra khỏi giới hạn vật lý để tìm giải pháp chi phí thấp."
+      },
+      {
+        "ma_ky_nang": "quyet_dinh_can_bang",
+        "ten_nhom": "Ra quyết định & Cân bằng chiến lược",
+        "so_cau_tap_trung": "Cấp 2 (TB 40); Cấp 3 (Câu 4, 9, 11, 13, 15, 20, 22, 28, 30, 31, 34, 35, 39); Cấp 4 (Câu 4, 6, 7, 9, 10, 12, 14, 15, 17, 19, 23, 24, 26, 28, 29, 32, 36, 39, 40)",
+        "loi_khuyen": "Đánh giá chi phí cơ hội, tư duy bậc hai, bảo toàn vốn và cân bằng lợi ích lâu dài bền vững."
+      }
+    ]
+  }
+}
