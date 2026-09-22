@@ -269,14 +269,14 @@
           <button
             id="tab-phongthuy"
             onclick="switchMainTab('phongthuy')"
-            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200 hidden"
           >
             <span>🏡</span> <span>Phong Thủy Nhà Ở</span>
           </button>
           <button
             id="tab-huyetdao"
             onclick="switchMainTab('huyetdao')"
-            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200 hidden"
           >
             <span>🌿</span> <span>Huyệt Đạo</span>
           </button>
@@ -3038,6 +3038,8 @@
     let activePhongThuySubTab = 'all';
     let phongThuyNotes = [];
     let phongThuyEvalAnswers = {};
+    let huyetDaoData = null;
+    let activeHuyetDaoSubTab = 'all';
 
     // AI Agent state
     let aiMessages = [];
@@ -3064,6 +3066,7 @@
     const tabGout = document.getElementById('tab-gout');
     const tabPhongthuy = document.getElementById('tab-phongthuy');
     const phongthuySection = document.getElementById('phongthuy-section');
+    const tabHuyetdao = document.getElementById('tab-huyetdao');
     const huyetdaoSection = document.getElementById('huyetdao-section');
     const tabAiagent = document.getElementById('tab-aiagent');
     const headerStatus = document.getElementById('header-status');
@@ -3135,7 +3138,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v42';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v46';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -3259,6 +3262,10 @@
       if (tabTuthu) setTabClass(tabTuthu, inactiveClass);
       if (goutSection) goutSection.classList.add('hidden');
       if (tabGout) setTabClass(tabGout, inactiveClass);
+      if (phongthuySection) phongthuySection.classList.add('hidden');
+      if (tabPhongthuy) setTabClass(tabPhongthuy, inactiveClass);
+      if (huyetdaoSection) huyetdaoSection.classList.add('hidden');
+      if (tabHuyetdao) setTabClass(tabHuyetdao, inactiveClass);
       setTabClass(tabAiagent, inactiveClass);
       setTabClass(document.getElementById('tab-users'), inactiveClass);
 
@@ -3324,6 +3331,10 @@
         if (phongthuySection) phongthuySection.classList.remove('hidden');
         if (tabPhongthuy) setTabClass(tabPhongthuy, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-slate-950 font-black shadow-lg shadow-amber-500/25");
         loadPhongThuyData();
+      } else if (tab === 'huyetdao') {
+        if (huyetdaoSection) huyetdaoSection.classList.remove('hidden');
+        if (tabHuyetdao) setTabClass(tabHuyetdao, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-600 text-white font-bold shadow-lg shadow-emerald-500/25");
+        loadHuyetDaoData();
       } else if (tab === 'aiagent') {
         aiagentSection.classList.remove('hidden');
         setTabClass(tabAiagent, "tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25");
@@ -7229,7 +7240,7 @@
       const info = cungDataMap[cungNumber] || cungDataMap[1];
 
       const speakText = `Kết quả tra cứu cung mệnh cho gia chủ sinh năm ${year}, giới tính ${gender === 'nam' ? 'Nam' : 'Nữ'}: Cung Phi: Cung ${info.cung}, Hành: ${info.hanh}, Thuộc nhóm: ${info.nhom}. 4 hướng tốt gồm có: Sinh Khí hướng ${info.sinh_khi}, Thiên Y hướng ${info.thien_y}, Diên Niên hướng ${info.dien_nien}, Phục Vị hướng ${info.phuc_vi}. 4 hướng xấu cần tránh gồm có: Tuyệt Mệnh hướng ${info.tuyet_menh}, Ngũ Quỷ hướng ${info.ngu_quy}, Lục Sát hướng ${info.luc_sat}, Họa Hại hướng ${info.hoa_hai}. Màu sắc hợp: ${info.mau_hop}. Màu kỵ: ${info.mau_ky}.`;
-      const safeSpeak = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+      const safeSpeak = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
       resultArea.innerHTML = `
         <div class="p-5 sm:p-6 rounded-3xl bg-slate-950/90 border border-amber-500/40 space-y-4">
@@ -7353,7 +7364,7 @@
       }
 
       const speakText = `Kết quả tự đánh giá phong thủy ngôi nhà: Điểm số đạt được: ${score} trên 100 điểm. Xếp loại: ${rank}. Lời khuyên: ${advice}`;
-      const safeSpeak = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+      const safeSpeak = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
       resultEl.innerHTML = `
         <div class="p-5 sm:p-6 rounded-3xl bg-slate-950/90 border border-amber-500/40 space-y-4">
@@ -7409,7 +7420,9 @@
         const p1 = phongThuyData.phan_1_co_so_phong_thuy;
         if (p1) {
           const speakP1 = `${p1.tieu_de}. ${p1.mo_ta}. ${p1.muc_1_1_dinh_nghia.tieu_de}: ${p1.muc_1_1_dinh_nghia.giai_thich_chi_tiet}. Nguyên tắc vàng: ${p1.muc_1_1_dinh_nghia.nguyen_tac_vang}`;
-          const safeSpeakP1 = speakP1.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakP1 = speakP1.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+          const speakMuc11 = `${p1.muc_1_1_dinh_nghia.tieu_de}. ${p1.muc_1_1_dinh_nghia.giai_thich_chi_tiet}. ${p1.muc_1_1_dinh_nghia.y_nghia_thuc_te}. Nguyên tắc: ${p1.muc_1_1_dinh_nghia.nguyen_tac_vang}`;
+          const safeSpeakMuc11 = speakMuc11.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
@@ -7434,7 +7447,7 @@
                 <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-2.5">
                   <div class="flex items-center justify-between">
                     <b class="text-amber-300 text-sm">${p1.muc_1_1_dinh_nghia.tieu_de}</b>
-                    <button onclick="playTTS(event, '${p1.muc_1_1_dinh_nghia.tieu_de}. ${p1.muc_1_1_dinh_nghia.giai_thich_chi_tiet}. ${p1.muc_1_1_dinh_nghia.y_nghia_thuc_te}. Nguyên tắc: ${p1.muc_1_1_dinh_nghia.nguyen_tac_vang}'.replace(/'/g, \\\'\'), 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe mục này"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
+                    <button onclick="playTTS(event, '${safeSpeakMuc11}', 'vi')" class="p-1 rounded bg-slate-950 text-amber-300 hover:text-white" title="Nghe mục này"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg></button>
                   </div>
                   <p class="text-slate-200 leading-relaxed">${p1.muc_1_1_dinh_nghia.giai_thich_chi_tiet}</p>
                   <p class="text-slate-300 leading-relaxed">${p1.muc_1_1_dinh_nghia.y_nghia_thuc_te}</p>
@@ -7513,7 +7526,7 @@
         const p2 = phongThuyData.phan_2_the_dat_va_huong_nha;
         if (p2) {
           const speakP2 = `${p2.tieu_de}. Thế đất tốt: Đất cao ráo, bằng phẳng, nền cao hơn đường, phía sau có tựa sơn, phía trước minh đường rộng, tả Thanh Long hữu Bạch Hổ. Các thế đất xấu cần hóa giải: Trước cao sau thấp, đất trũng nước đọng, thương sát đường đâm thẳng, giác sát góc nhọn chiếu thẳng.`;
-          const safeSpeakP2 = speakP2.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakP2 = speakP2.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
@@ -7571,7 +7584,7 @@
         const p3 = phongThuyData.phan_3_bo_tri_ngoai_nha;
         if (p3) {
           const speakP3 = `${p3.tieu_de}. Cổng và tường rào: Rộng bằng 1 phần 3 đến 1 phần 2 mặt tiền, tránh vật cản. Minh Đường: Khoảng sân trước cửa thoáng đãng, sạch sẽ. Tả Thanh Long hữu Bạch Hổ: Bên trái cao hơn bên phải. Đường và nước xung quanh: Đường ôm cong đón lộc, tránh đường đâm thẳng.`;
-          const safeSpeakP3 = speakP3.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakP3 = speakP3.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
@@ -7633,7 +7646,7 @@
         const p4 = phongThuyData.phan_4_bo_tri_trong_nha;
         if (p4) {
           const speakP4 = `${p4.tieu_de}. Cửa chính sáng sủa tránh xuyên tâm. Phòng khách tựa tường vững chắc. Bếp nấu tọa hung hướng cát, tránh đối diện cửa và bồn rửa. Phòng ngủ đầu giường tựa tường, tránh gương chiếu và xà ngang. Phòng thờ trang nghiêm trên cao. Nhà vệ sinh tránh chính giữa nhà.`;
-          const safeSpeakP4 = speakP4.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakP4 = speakP4.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
@@ -7729,7 +7742,7 @@
         const p5 = phongThuyData.phan_5_bat_cung_trong_nha;
         if (p5) {
           const speakP5 = `${p5.tieu_de}. Bảng 8 phương vị năng lượng trong nhà: Bắc thuộc Thủy chủ sự nghiệp. Đông Bắc thuộc Thổ chủ trí tuệ. Đông thuộc Mộc chủ gia đạo. Đông Nam thuộc Mộc chủ tài lộc. Nam thuộc Hỏa chủ danh tiếng. Tây Nam thuộc Thổ chủ hôn nhân. Tây thuộc Kim chủ con cái. Tây Bắc thuộc Kim chủ quý nhân.`;
-          const safeSpeakP5 = speakP5.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakP5 = speakP5.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
@@ -7751,7 +7764,7 @@
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
                 ${p5.bang_tra_cuu_8_cung.map(c => {
                   const cSpeak = `Hướng ${c.huong}, thuộc hành ${c.hanh}. Ý nghĩa chính: ${c.y_nghia}. Nên đặt: ${c.dat_tot}. Cần tránh: ${c.nen_tranh}`;
-                  const safeCSpeak = cSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                  const safeCSpeak = cSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                   return `
                     <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between hover:border-amber-500/40 transition-all">
@@ -7781,7 +7794,7 @@
         const p6 = phongThuyData.phan_6_mau_sac_va_ngu_hanh;
         if (p6) {
           const speakP6 = `${p6.tieu_de}. Phối màu phong thủy nhà ở: Hướng Đông xanh lá cây, Nam đỏ cam vàng nhạt, Tây trắng bạc kem, Bắc xanh dương đen, Trung tâm và Tây Nam vàng đất nâu đất. Quy tắc cân bằng 60 30 10: 60 phần trăm màu trung tính, 30 phần trăm màu nội thất, 10 phần trăm màu điểm nhấn hợp mệnh.`;
-          const safeSpeakP6 = speakP6.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakP6 = speakP6.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
@@ -7848,7 +7861,7 @@
         const p7 = phongThuyData.phan_7_vat_pham_phong_thuy;
         if (p7) {
           const speakP7 = `${p7.tieu_de}. Cách sử dụng 6 vật phẩm phong thủy chuẩn xác: Cây xanh lá tròn mọng nước đón sinh khí. Gương soi dùng hóa giải góc nhọn, không chiếu giường và cửa. Chuông gió kim loại thanh lọc âm khí. Thiềm Thừ ba chân quay đầu vào nhà đón tài. Kỳ Lân đôi trấn trạch trước cổng. Tháp Văn Xương hỗ trợ học hành thi cử.`;
-          const safeSpeakP7 = speakP7.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakP7 = speakP7.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           cardsHtml.push(`
             <div class="col-span-1 md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 border-amber-500/30 bg-gradient-to-b from-amber-950/20 via-slate-950/40 to-slate-950/80">
@@ -7870,7 +7883,7 @@
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 text-xs">
                 ${p7.danh_sach_vat_pham.map(vp => {
                   const vpSpeak = `${vp.ten}. Cách dùng đúng: ${vp.cach_dung_dung}. Điều cấm kỵ: ${vp.dieu_cam_ky}`;
-                  const safeVpSpeak = vpSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                  const safeVpSpeak = vpSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                   return `
                     <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between hover:border-amber-500/40 transition-all">
@@ -7897,7 +7910,7 @@
         const p8 = phongThuyData.phan_8_20_loi_phong_thuy_thuong_gap;
         if (p8) {
           const speakP8 = `${p8.tieu_de}. Tổng hợp 20 lỗi phong thủy nhà ở thường gặp và hướng dẫn hóa giải chi tiết cho từng trường hợp.`;
-          const safeSpeakP8 = speakP8.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+          const safeSpeakP8 = speakP8.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
           const filteredLoi = (p8.danh_sach_20_loi || []).filter(item => {
             if (!searchVal) return true;
@@ -7914,7 +7927,7 @@
                   <p class="text-xs text-slate-300 mt-1">20 lỗi phổ biến nhất trong đời sống thực tế kèm giải pháp sửa đổi dễ làm</p>
                 </div>
                 <button 
-                  onclick="playTTS(event, '${(p8.danh_sach_20_loi || []).map(l => 'Lỗi số ' + l.stt + ': ' + l.loi + '. Ảnh hưởng: ' + l.anh_huong + '. Cách sửa: ' + l.cach_sua).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                  onclick="playTTS(event, '${(p8.danh_sach_20_loi || []).map(l => 'Lỗi số ' + l.stt + ': ' + l.loi + '. Ảnh hưởng: ' + l.anh_huong + '. Cách sửa: ' + l.cach_sua).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                   class="px-4 py-2 rounded-2xl bg-amber-600 hover:bg-amber-500 text-slate-950 font-black text-xs transition-all flex items-center gap-1.5 shrink-0 cursor-pointer shadow-lg shadow-amber-600/20 border border-amber-400/40"
                 >
                   <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
@@ -7925,7 +7938,7 @@
               <div class="space-y-3">
                 ${filteredLoi.map(l => {
                   const lSpeak = `Lỗi số ${l.stt}: ${l.loi}. Ảnh hưởng: ${l.anh_huong}. Cách sửa: ${l.cach_sua}`;
-                  const safeLSpeak = lSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                  const safeLSpeak = lSpeak.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
 
                   return `
                     <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 flex flex-col sm:flex-row sm:items-start justify-between gap-3 text-xs hover:border-amber-500/40 transition-all">
@@ -8446,7 +8459,7 @@
                       <h3 class="text-lg sm:text-xl font-black text-yellow-200 font-display">⭐ Top 20 Huyệt Vàng Bấm Hàng Ngày Dưỡng Sinh</h3>
                     </div>
                     <button 
-                      onclick="playTTS(event, '${(p6.top_20_huyet || []).map(h => 'Hạng ' + h.hang + ': Huyệt ' + h.ten + ' vùng ' + h.vung + '. Dùng khi: ' + h.khi_nao_dung + '. Cách làm: ' + h.cach_lam).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(p6.top_20_huyet || []).map(h => 'Hạng ' + h.hang + ': Huyệt ' + h.ten + ' vùng ' + h.vung + '. Dùng khi: ' + h.khi_nao_dung + '. Cách làm: ' + h.cach_lam).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-3.5 py-1.5 rounded-xl bg-amber-950/60 border border-amber-500/40 text-amber-300 hover:text-white text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer"
                     >
                       <span>🔊</span> <span>Nghe Top 20 Huyệt</span>
@@ -8489,7 +8502,7 @@
                       <h3 class="text-lg sm:text-xl font-black text-teal-200 font-display">⏰ Biểu Đồ 12 Canh Giờ Vàng Dưỡng Sinh Kinh Lạc</h3>
                     </div>
                     <button 
-                      onclick="playTTS(event, '${(p6.bieu_do_thoi_gian_vang_12_gio || []).map(g => 'Khung giờ ' + g.khung_gio + ': ' + g.kinh_lac + '. Huyệt chủ: ' + g.huyet_chu + '. Lời khuyên: ' + g.loi_khuyen).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                      onclick="playTTS(event, '${(p6.bieu_do_thoi_gian_vang_12_gio || []).map(g => 'Khung giờ ' + g.khung_gio + ': ' + g.kinh_lac + '. Huyệt chủ: ' + g.huyet_chu + '. Lời khuyên: ' + g.loi_khuyen).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                       class="px-3.5 py-1.5 rounded-xl bg-teal-950/60 border border-teal-500/40 text-teal-300 hover:text-white text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer"
                     >
                       <span>🔊</span> <span>Nghe 12 Giờ Vàng</span>
@@ -8586,7 +8599,7 @@
                     <h3 class="text-lg sm:text-xl font-black text-rose-200 font-display">🩺 Bảng Phác Đồ Bấm Huyệt 15 Nhóm Bệnh Phổ Biến</h3>
                   </div>
                   <button 
-                    onclick="playTTS(event, '${filteredDiseases.map(d => 'Bệnh số ' + d.stt + ': ' + d.ten_benh + '. Triệu chứng: ' + d.trieu_chung + '. Các huyệt chính: ' + d.danh_sach_huyet.join(', ') + '. Phác đồ thực hiện: ' + d.phac_do).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'vi')"
+                    onclick="playTTS(event, '${filteredDiseases.map(d => 'Bệnh số ' + d.stt + ': ' + d.ten_benh + '. Triệu chứng: ' + d.trieu_chung + '. Các huyệt chính: ' + d.danh_sach_huyet.join(', ') + '. Phác đồ thực hiện: ' + d.phac_do).join('. ').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', 'vi')"
                     class="px-3.5 py-1.5 rounded-xl bg-rose-950/60 border border-rose-500/40 text-rose-300 hover:text-white text-xs font-bold flex items-center gap-1.5 shrink-0 cursor-pointer"
                   >
                     <span>🔊</span> <span>Nghe Danh Sách Bệnh</span>
@@ -11139,9 +11152,6 @@
         const isAdmin = currentUser.vai_tro === 'Admin' || currentUser.email.toLowerCase() === 'admin@gmail.com';
         if (isAdmin) {
           currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'nhannhan', 'thany', 'muuke', 'chuyenranday', 'tuthu', 'phapluat', 'gout', 'phongthuy', 'huyetdao', 'aiagent', 'users'];
-        } else {
-          if (!currentUser.quyen.includes('phongthuy')) currentUser.quyen.push('phongthuy');
-          if (!currentUser.quyen.includes('huyetdao')) currentUser.quyen.push('huyetdao');
         }
 
         const hasPoems = isAdmin || currentUser.quyen.includes('poems');
