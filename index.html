@@ -281,6 +281,13 @@
             <span>🌿</span> <span>Huyệt Đạo</span>
           </button>
           <button
+            id="tab-chongaytot"
+            onclick="switchMainTab('chongaytot')"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+          >
+            <span>🗓️</span> <span>Chọn Ngày Tốt</span>
+          </button>
+          <button
             id="tab-aiagent"
             onclick="switchMainTab('aiagent')"
             class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
@@ -390,6 +397,14 @@
             <div class="text-2xl mb-1.5">🌿</div>
             <b class="text-emerald-200 text-xs font-bold block mb-1 group-hover:text-white">Huyệt Đạo & Bấm Huyệt</b>
             <p class="text-[10px] text-slate-300 leading-snug">8 phần, 55+ huyệt, 15 nhóm bệnh, Loa đọc</p>
+          </button>
+
+          <!-- 3. Chọn Ngày Tốt (MỚI) -->
+          <button onclick="switchMainTab('chongaytot')" class="p-3.5 rounded-2xl bg-gradient-to-br from-amber-950/60 via-yellow-950/40 to-slate-900 border-2 border-yellow-500/60 hover:border-yellow-400 text-left transition-all duration-300 hover:scale-[1.03] shadow-lg shadow-yellow-950/30 group relative overflow-hidden cursor-pointer">
+            <span class="absolute top-1.5 right-1.5 text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-yellow-500 text-slate-950 animate-pulse">MỚI ⭐</span>
+            <div class="text-2xl mb-1.5">🗓️</div>
+            <b class="text-yellow-200 text-xs font-bold block mb-1 group-hover:text-white">Chọn Ngày Tốt</b>
+            <p class="text-[10px] text-slate-300 leading-snug">Âm Dương, Ngũ Hành, 12 Trực Nhật, Tính tự động</p>
           </button>
 
           <!-- 3. Cẩm Nang Bệnh Gút -->
@@ -2367,6 +2382,7 @@
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-gout" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🦶 Bệnh Gút</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-phongthuy" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🏡 Phong Thủy</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-huyetdao" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🌿 Huyệt Đạo</span></label>
+              <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-chongaytot" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🗓️ Chọn Ngày Tốt</span></label>
               <label class="flex items-center gap-2 cursor-pointer hover:text-white"><input type="checkbox" id="perm-aiagent" class="rounded text-indigo-600 focus:ring-indigo-500 bg-slate-900"><span>🤖 Trợ Lý AI</span></label>
             </div>
           </div>
@@ -2805,6 +2821,123 @@
               <span class="text-[10px] text-slate-400">Hỏi đáp tức thì về mọi chủ đề</span>
             </div>
           </button>
+        </div>
+      </div>
+    </div>
+
+  
+    <!-- ==================== CHON NGAY TOT MODULE ==================== -->
+    <div id="chongaytot-section" class="flex flex-col gap-6 hidden">
+      <!-- Hero Banner -->
+      <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-amber-950/40 via-yellow-950/25 to-slate-950/50 border border-yellow-500/30 p-6 sm:p-8 text-center flex flex-col items-center max-w-5xl mx-auto w-full shadow-2xl">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-yellow-500/15 via-rose-500/10 to-transparent pointer-events-none"></div>
+
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-yellow-500/15 border border-yellow-500/40 text-yellow-300 text-xs font-bold uppercase tracking-wider mb-3 shadow-sm">
+          <span>🗓️</span> <span>Cẩm Nang Âm Dương Ngũ Hành & 12 Trực Nhật</span>
+        </div>
+
+        <h2 class="text-2xl sm:text-4xl font-black font-display text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-rose-200 mb-3">
+          🗓️ Chọn Ngày Tốt Theo Âm Dương Ngũ Hành
+        </h2>
+
+        <p class="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed mb-4">
+          "Ngày lành tháng tốt là sự giao hòa giữa thiên thời, địa lợi và nhân hòa. Khởi sự đúng thời điểm giúp gia tăng sinh khí, tinh thần tự tin và công việc thuận buồm xuôi gió."
+        </p>
+
+        <!-- Quick Listen Button for Hero Banner -->
+        <div class="mb-4 flex flex-wrap items-center justify-center gap-2">
+          <button 
+            onclick="playTTS(event, 'Cẩm nang Chọn Ngày Tốt theo Âm Dương Ngũ Hành và 12 Trực Nhật. Chọn ngày tốt là môi trường hỗ trợ — Chính đức độ, sự chân thành và nỗ lực chuẩn bị chu đáo mới là gốc thành công bền lâu của con người.', 'vi')"
+            class="px-4 py-2 rounded-2xl bg-yellow-900/60 hover:bg-yellow-800/80 border border-yellow-500/40 text-yellow-200 text-xs font-bold flex items-center gap-2 transition-all cursor-pointer shadow-lg hover:scale-105"
+          >
+            <span>🔊</span> <span>Nghe Giới Thiệu & Triết Lý Cốt Lõi</span>
+          </button>
+        </div>
+
+        <!-- Quote Banner -->
+        <div class="w-full max-w-3xl p-3.5 rounded-2xl bg-amber-950/40 border border-amber-500/40 text-xs text-amber-200 text-center shadow-inner italic">
+          "Chọn ngày tốt là hỗ trợ — Đức độ, chân thành, nỗ lực mới là gốc thành công bền lâu"
+        </div>
+
+        <!-- Sub-Tabs Filter (8 Phần + Sổ Tay) -->
+        <div class="w-full flex justify-center mt-5">
+          <div class="inline-flex items-center gap-1.5 p-1.5 rounded-2xl bg-slate-900/90 border border-slate-800 overflow-x-auto max-w-full" id="chongaytot-sub-tabs">
+            <button onclick="selectChonNgayTotSubTab('all')" id="cngt-tab-all" class="cngt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-yellow-500 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 font-black shadow-lg shadow-yellow-500/20 cursor-pointer">✨ Tất Cả</button>
+            <button onclick="selectChonNgayTotSubTab('cong_cu')" id="cngt-tab-cong_cu" class="cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-yellow-300 hover:text-white cursor-pointer">🧮 6. Tính Ngày Tốt Online</button>
+            <button onclick="selectChonNgayTotSubTab('co_so')" id="cngt-tab-co_so" class="cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">☯️ 1. Cơ Sở Âm Dương</button>
+            <button onclick="selectChonNgayTotSubTab('xac_dinh')" id="cngt-tab-xac_dinh" class="cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🧭 2. Hành Ngày & Việc</button>
+            <button onclick="selectChonNgayTotSubTab('14_viec')" id="cngt-tab-14_viec" class="cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📋 3. Bảng 14 Việc Làm</button>
+            <button onclick="selectChonNgayTotSubTab('tuoi_gio')" id="cngt-tab-tuoi_gio" class="cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">⏰ 4. Hành Người & Giờ</button>
+            <button onclick="selectChonNgayTotSubTab('12_truc')" id="cngt-tab-12_truc" class="cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📜 5. 12 Ngày Trực Nhật</button>
+            <button onclick="selectChonNgayTotSubTab('nguyen_tac')" id="cngt-tab-nguyen_tac" class="cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">💡 7. Lỗi & Nguyên Tắc</button>
+            <button onclick="selectChonNgayTotSubTab('tra_cuu_nhanh')" id="cngt-tab-tra_cuu_nhanh" class="cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">⚡ 8. Tra Cứu Nhanh</button>
+            <button onclick="selectChonNgayTotSubTab('so_tay')" id="cngt-tab-so_tay" class="cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📝 Sổ Tay Ngày Lành</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls Bar -->
+      <div id="chongaytot-controls" class="glass-card p-4 rounded-2xl flex flex-col md:flex-row gap-4 items-center justify-between border-yellow-500/20">
+        <div class="w-full md:max-w-md relative">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-yellow-400">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <input
+            type="text"
+            id="chongaytot-search"
+            placeholder="Tìm theo việc làm, trực nhật, khởi công, cưới hỏi, ngũ hành..."
+            class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-750 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-yellow-500 text-sm shadow-inner"
+          >
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-semibold text-yellow-400 bg-yellow-500/10 px-3 py-1.5 rounded-full border border-yellow-500/20" id="chongaytot-item-count">Đang nạp dữ liệu...</span>
+        </div>
+      </div>
+
+      <!-- Cards Display Area -->
+      <div id="chongaytot-display-container">
+        <div id="chongaytot-display-area" class="grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[300px]"></div>
+      </div>
+
+      <!-- Sổ Tay Ghi Chép Ngày Lành Area -->
+      <div id="chongaytot-notebook-area" class="hidden flex flex-col gap-6">
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border-yellow-500/30">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-800 pb-4 mb-6">
+            <div>
+              <h3 class="text-lg font-bold text-yellow-300 font-display flex items-center gap-2">
+                <span>📝</span> Sổ Tay Lưu Trữ Các Ngày Lành Gia Đình
+              </h3>
+              <p class="text-xs text-slate-400 mt-1">Lưu trữ các ngày đã chọn để khởi công, cưới hỏi, khai trương hoặc xuất hành của gia đình.</p>
+            </div>
+            <button onclick="exportChonNgayTotNotes()" class="px-3.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-yellow-500/40 text-xs font-bold text-yellow-300 hover:text-white transition-all flex items-center gap-1.5 cursor-pointer">
+              <span>📥</span> <span>Xuất Dữ Liệu Sổ Tay</span>
+            </button>
+          </div>
+
+          <!-- Add Note Form -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 bg-slate-900/60 p-4 rounded-2xl border border-slate-800">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Công việc / Sự kiện:</label>
+              <input type="text" id="cngt-note-event" placeholder="VD: Khởi công nhà mới, Cưới hỏi con gái..." class="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-yellow-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Ngày đã chọn (Dương lịch & Âm lịch):</label>
+              <input type="text" id="cngt-note-date" placeholder="VD: 18/10/2026 (Nhằm 08/09 Âm lịch, ngày Giáp Thìn)..." class="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-yellow-500">
+            </div>
+            <div class="sm:col-span-2">
+              <label class="block text-xs font-bold text-slate-300 mb-1">Giờ hoàng đạo & Ghi chú chuẩn bị:</label>
+              <textarea id="cngt-note-desc" rows="2" placeholder="VD: Động thổ lúc 08:30 sáng (Giờ Thìn). Đã chuẩn bị lễ vật trang nghiêm, người chủ trì tinh thần thoải mái..." class="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-yellow-500"></textarea>
+            </div>
+            <div class="sm:col-span-2 flex justify-end">
+              <button onclick="addChonNgayTotNote()" class="px-5 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 font-bold text-xs shadow-lg shadow-yellow-500/20 hover:opacity-90 transition-all cursor-pointer">
+                + Lưu Ngày Lành Mới
+              </button>
+            </div>
+          </div>
+
+          <!-- Notes List Container -->
+          <div id="cngt-notes-list" class="grid grid-cols-1 gap-3"></div>
         </div>
       </div>
     </div>
@@ -8658,6 +8791,1057 @@
     });
 
 
+    
+    // ==========================================
+    // MODULE: CHỌN NGÀY TỐT THEO ÂM DƯƠNG NGŨ HÀNH
+    // ==========================================
+    let chonNgayTotData = null;
+    let activeChonNgayTotSubTab = 'all';
+    let chonNgayTotNotes = [];
+
+    // --- Astronomical Algorithms for Solar-Lunar & Can Chi ---
+    const CAN_LIST = ["Giáp", "Ất", "Bính", "Đinh", "Mậu", "Kỷ", "Canh", "Tân", "Nhâm", "Quý"];
+    const CHI_LIST = ["Tý", "Sửu", "Dần", "Mão", "Thìn", "Tỵ", "Ngọ", "Mùi", "Thân", "Dậu", "Tuất", "Hợi"];
+    const CAN_HANH = { "Giáp": "Mộc", "Ất": "Mộc", "Bính": "Hỏa", "Đinh": "Hỏa", "Mậu": "Thổ", "Kỷ": "Thổ", "Canh": "Kim", "Tân": "Kim", "Nhâm": "Thủy", "Quý": "Thủy" };
+    const CHI_HANH = { "Hợi": "Thủy", "Tý": "Thủy", "Dần": "Mộc", "Mão": "Mộc", "Tỵ": "Hỏa", "Ngọ": "Hỏa", "Thân": "Kim", "Dậu": "Kim", "Thìn": "Thổ", "Tuất": "Thổ", "Sửu": "Thổ", "Mùi": "Thổ" };
+    
+    // Nạp Âm Can Chi 60 Hoa Giáp
+    const NAP_AM_MAP = {
+      "Giáp Tý": "Hải Trung Kim", "Ất Sửu": "Hải Trung Kim", "Bính Dần": "Lư Trung Hỏa", "Đinh Mão": "Lư Trung Hỏa",
+      "Mậu Thìn": "Đại Lâm Mộc", "Kỷ Tỵ": "Đại Lâm Mộc", "Canh Ngọ": "Lộ Bàng Thổ", "Tân Mùi": "Lộ Bàng Thổ",
+      "Nhâm Thân": "Kiếm Phong Kim", "Quý Dậu": "Kiếm Phong Kim", "Giáp Tuất": "Sơn Đầu Hỏa", "Ất Hợi": "Sơn Đầu Hỏa",
+      "Bính Tý": "Giản Hạ Thủy", "Đinh Sửu": "Giản Hạ Thủy", "Mậu Dần": "Thành Đầu Thổ", "Kỷ Mão": "Thành Đầu Thổ",
+      "Canh Thìn": "Bạch Lạp Kim", "Tân Tỵ": "Bạch Lạp Kim", "Nhâm Ngọ": "Dương Liễu Mộc", "Quý Mùi": "Dương Liễu Mộc",
+      "Giáp Thân": "Tuyền Trung Thủy", "Ất Dậu": "Tuyền Trung Thủy", "Bính Tuất": "Ốc Thượng Thổ", "Đinh Hợi": "Ốc Thượng Thổ",
+      "Mậu Tý": "Tích Lịch Hỏa", "Kỷ Sửu": "Tích Lịch Hỏa", "Canh Dần": "Tùng Bách Mộc", "Tân Mão": "Tùng Bách Mộc",
+      "Nhâm Thìn": "Trường Lưu Thủy", "Quý Tỵ": "Trường Lưu Thủy", "Giáp Ngọ": "Sa Trung Kim", "Ất Mùi": "Sa Trung Kim",
+      "Bính Thân": "Sơn Hạ Hỏa", "Đinh Dậu": "Sơn Hạ Hỏa", "Mậu Tuất": "Bình Địa Mộc", "Kỷ Hợi": "Bình Địa Mộc",
+      "Canh Tý": "Bích Thượng Thổ", "Tân Sửu": "Bích Thượng Thổ", "Nhâm Dần": "Kim Bạch Kim", "Quý Mão": "Kim Bạch Kim",
+      "Giáp Thìn": "Phú Đăng Hỏa", "Ất Tỵ": "Phú Đăng Hỏa", "Bính Ngọ": "Thiên Hà Thủy", "Đinh Mùi": "Thiên Hà Thủy",
+      "Mậu Thân": "Đại Trạch Thổ", "Kỷ Dậu": "Đại Trạch Thổ", "Canh Tuất": "Thoa Xuyến Kim", "Tân Hợi": "Thoa Xuyến Kim",
+      "Nhâm Tý": "Tang Đố Mộc", "Quý Sửu": "Tang Đố Mộc", "Giáp Dần": "Đại Khê Thủy", "Ất Mão": "Đại Khê Thủy",
+      "Bính Thìn": "Sa Trung Thổ", "Đinh Tỵ": "Sa Trung Thổ", "Mậu Ngọ": "Thiên Thượng Hỏa", "Kỷ Mùi": "Thiên Thượng Hỏa",
+      "Canh Thân": "Thạch Lựu Mộc", "Tân Dậu": "Thạch Lựu Mộc", "Nhâm Tuất": "Đại Hải Thủy", "Quý Hợi": "Đại Hải Thủy"
+    };
+
+    const TRUC_NAMES = ["Thụy (Kiến)", "Kha (Trừ)", "Mãn", "Bình", "Định", "Trí (Chấp)", "Phá", "Nguy", "Thành", "Thu", "Khai", "Bế"];
+
+    // Julian Day Number Calculation
+    function getJulianDayNumber(year, month, day) {
+      const a = Math.floor((14 - month) / 12);
+      const y = year + 4800 - a;
+      const m = month + 12 * a - 3;
+      return day + Math.floor((153 * m + 2) / 5) + 365 * y + Math.floor(y / 4) - Math.floor(y / 100) + Math.floor(y / 400) - 32045;
+    }
+
+    // Solar to Lunar Date Algorithm (Approximate precision for Vietnamese Traditional Calendar)
+    function solarToLunarApprox(sYear, sMonth, sDay) {
+      // Base reference: 2026-02-17 is Lunar 2026-01-01 (Tết Bính Ngọ)
+      const refDate = new Date(2026, 1, 17);
+      const targetDate = new Date(sYear, sMonth - 1, sDay);
+      const diffDays = Math.round((targetDate - refDate) / (1000 * 60 * 60 * 24));
+      
+      let lunarMonth = 1;
+      let lunarDay = 1 + diffDays;
+      let lunarYear = sYear;
+
+      while (lunarDay > 30) {
+        lunarDay -= 29.53;
+        lunarMonth++;
+        if (lunarMonth > 12) {
+          lunarMonth = 1;
+          lunarYear++;
+        }
+      }
+      while (lunarDay < 1) {
+        lunarDay += 29.53;
+        lunarMonth--;
+        if (lunarMonth < 1) {
+          lunarMonth = 12;
+          lunarYear--;
+        }
+      }
+      return {
+        lDay: Math.max(1, Math.min(30, Math.round(lunarDay))),
+        lMonth: lunarMonth,
+        lYear: lunarYear
+      };
+    }
+
+    // Calculate Can Chi for Day
+    function getCanChiDay(year, month, day) {
+      const jdn = getJulianDayNumber(year, month, day);
+      const canIdx = (jdn + 9) % 10;
+      const chiIdx = (jdn + 1) % 12;
+      const canName = CAN_LIST[canIdx];
+      const chiName = CHI_LIST[chiIdx];
+      const fullName = `${canName} ${chiName}`;
+      const napAm = NAP_AM_MAP[fullName] || "Bình Thường";
+      let hanh = "Thổ";
+      if (napAm.includes("Kim")) hanh = "Kim";
+      else if (napAm.includes("Mộc")) hanh = "Mộc";
+      else if (napAm.includes("Thủy")) hanh = "Thủy";
+      else if (napAm.includes("Hỏa")) hanh = "Hỏa";
+      else if (napAm.includes("Thổ")) hanh = "Thổ";
+
+      return { canName, chiName, fullName, napAm, hanh, chiIdx };
+    }
+
+    // Calculate Person's Element from Birth Year
+    function getPersonElement(birthYear) {
+      if (!birthYear || birthYear < 1920 || birthYear > 2050) return { name: "Thổ", canChi: "Bình Hòa", napAm: "Bình Địa Thổ" };
+      const canIdx = (birthYear + 6) % 10;
+      const chiIdx = (birthYear + 8) % 12;
+      const canChi = `${CAN_LIST[canIdx]} ${CHI_LIST[chiIdx]}`;
+      const napAm = NAP_AM_MAP[canChi] || "Thổ";
+      let hanh = "Thổ";
+      if (napAm.includes("Kim")) hanh = "Kim";
+      else if (napAm.includes("Mộc")) hanh = "Mộc";
+      else if (napAm.includes("Thủy")) hanh = "Thủy";
+      else if (napAm.includes("Hỏa")) hanh = "Hỏa";
+      else if (napAm.includes("Thổ")) hanh = "Thổ";
+      return { name: hanh, canChi, napAm };
+    }
+
+    // 12 Trực Nhật Calculation
+    // Month 1 starts on Dần (chiIdx 2), Month 2 Mão (3)...
+    function getTrucOfDay(lMonth, dayChiIdx) {
+      const monthStartChi = (lMonth + 1) % 12;
+      const trucIdx = (dayChiIdx - monthStartChi + 12) % 12;
+      const trucName = TRUC_NAMES[trucIdx] || "Định";
+      
+      const goodTrucs = ["Thụy (Kiến)", "Mãn", "Bình", "Định", "Thành", "Khai"];
+      const isGood = goodTrucs.some(t => trucName.includes(t.split(' ')[0]));
+      return { trucIdx, trucName, isGood };
+    }
+
+    // Evaluate Element Relation
+    function evaluateRelation(h1, h2) {
+      if (h1 === h2) return { status: 'TY_HOA', score: 2, desc: `Tỷ hòa (${h1} với ${h2}) - Hài hòa, bình an` };
+      const sinhMap = { "Kim": "Thủy", "Thủy": "Mộc", "Mộc": "Hỏa", "Hỏa": "Thổ", "Thổ": "Kim" };
+      const khacMap = { "Kim": "Mộc", "Mộc": "Thổ", "Thổ": "Thủy", "Thủy": "Hỏa", "Hỏa": "Kim" };
+
+      if (sinhMap[h1] === h2) return { status: 'SINH_XUAT', score: 1.5, desc: `Ngày sinh Việc (${h1} sinh ${h2}) - Rất cát lợi` };
+      if (sinhMap[h2] === h1) return { status: 'SINH_NHAP', score: 2.5, desc: `Việc sinh Ngày (${h2} sinh ${h1}) - Đại cát, nhận vượng khí` };
+      if (khacMap[h1] === h2) return { status: 'KHAC_XUAT', score: 0.5, desc: `Ngày khắc Việc (${h1} khắc ${h2}) - Hao tổn công sức` };
+      if (khacMap[h2] === h1) return { status: 'KHAC_NHAP', score: 0, desc: `Việc khắc Ngày (${h2} khắc ${h1}) - Bất lợi, nên tránh` };
+
+      return { status: 'BINH', score: 1, desc: 'Bình hòa' };
+    }
+
+    // Load Data
+    window.loadChonNgayTotData = async function() {
+      if (chonNgayTotData) {
+        renderChonNgayTot();
+        return;
+      }
+      try {
+        chonNgayTotData = await fetchJsonWithCache('./chon_ngay_tot.json', 'Không thể nạp dữ liệu Chọn Ngày Tốt.');
+        loadChonNgayTotNotes();
+        renderChonNgayTot();
+      } catch (err) {
+        console.error('Lỗi khi tải chon_ngay_tot.json:', err);
+        const area = document.getElementById('chongaytot-display-area');
+        if (area) {
+          area.innerHTML = `<div class="col-span-2 p-8 text-center bg-rose-950/30 rounded-3xl border border-rose-500/30">
+            <p class="text-rose-300 font-bold mb-2">⚠️ Không thể tải cẩm nang Chọn Ngày Tốt</p>
+            <p class="text-xs text-slate-400">${err.message || 'Vui lòng kiểm tra kết nối.'}</p>
+          </div>`;
+        }
+      }
+    };
+
+    // Sub-Tabs Selection
+    window.selectChonNgayTotSubTab = function(subTab) {
+      activeChonNgayTotSubTab = subTab;
+      
+      const buttons = document.querySelectorAll('#chongaytot-sub-tabs .cngt-badge');
+      buttons.forEach(btn => {
+        btn.className = "cngt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer";
+      });
+
+      const activeBtn = document.getElementById(`cngt-tab-${subTab}`);
+      if (activeBtn) {
+        activeBtn.className = "cngt-badge shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold border border-yellow-500 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 font-black shadow-lg shadow-yellow-500/20 cursor-pointer";
+      }
+
+      const notebookArea = document.getElementById('chongaytot-notebook-area');
+      const displayContainer = document.getElementById('chongaytot-display-container');
+      const controls = document.getElementById('chongaytot-controls');
+
+      if (subTab === 'so_tay') {
+        if (notebookArea) notebookArea.classList.remove('hidden');
+        if (displayContainer) displayContainer.classList.add('hidden');
+        if (controls) controls.classList.add('hidden');
+        renderChonNgayTotNotes();
+      } else {
+        if (notebookArea) notebookArea.classList.add('hidden');
+        if (displayContainer) displayContainer.classList.remove('hidden');
+        if (controls) controls.classList.remove('hidden');
+        renderChonNgayTot();
+      }
+    };
+
+    // Notes Management
+    function loadChonNgayTotNotes() {
+      try {
+        const stored = localStorage.getItem('chonNgayTotNotes');
+        chonNgayTotNotes = stored ? JSON.parse(stored) : [];
+      } catch (e) {
+        chonNgayTotNotes = [];
+      }
+    }
+
+    function saveChonNgayTotNotes() {
+      try {
+        localStorage.setItem('chonNgayTotNotes', JSON.stringify(chonNgayTotNotes));
+      } catch (e) {}
+    }
+
+    window.addChonNgayTotNote = function() {
+      const eventInput = document.getElementById('cngt-note-event');
+      const dateInput = document.getElementById('cngt-note-date');
+      const descInput = document.getElementById('cngt-note-desc');
+
+      const eventVal = (eventInput?.value || '').trim();
+      const dateVal = (dateInput?.value || '').trim();
+      const descVal = (descInput?.value || '').trim();
+
+      if (!eventVal || !dateVal) {
+        showToast('Vui lòng nhập tên công việc và ngày đã chọn!', '⚠️');
+        return;
+      }
+
+      const newNote = {
+        id: 'note_' + Date.now(),
+        event: eventVal,
+        date: dateVal,
+        desc: descVal,
+        createdAt: new Date().toLocaleDateString('vi-VN')
+      };
+
+      chonNgayTotNotes.unshift(newNote);
+      saveChonNgayTotNotes();
+      renderChonNgayTotNotes();
+
+      if (eventInput) eventInput.value = '';
+      if (dateInput) dateInput.value = '';
+      if (descInput) descInput.value = '';
+      showToast('Đã lưu ngày lành vào sổ tay!', '✨');
+    };
+
+    window.deleteChonNgayTotNote = function(id) {
+      chonNgayTotNotes = chonNgayTotNotes.filter(n => n.id !== id);
+      saveChonNgayTotNotes();
+      renderChonNgayTotNotes();
+      showToast('Đã xóa ghi chú ngày lành!', '🗑️');
+    };
+
+    function renderChonNgayTotNotes() {
+      const container = document.getElementById('cngt-notes-list');
+      if (!container) return;
+
+      if (chonNgayTotNotes.length === 0) {
+        container.innerHTML = `<div class="py-12 text-center text-slate-500 bg-slate-950/40 rounded-2xl border border-slate-800 border-dashed">
+          <p class="text-3xl mb-2">📅</p>
+          <p class="text-xs">Chưa có ngày lành nào được lưu. Bạn hãy thêm các dự định trọng đại vào sổ tay nhé!</p>
+        </div>`;
+        return;
+      }
+
+      container.innerHTML = chonNgayTotNotes.map(n => `
+        <div class="p-4 rounded-2xl bg-slate-950/90 border border-slate-800 hover:border-yellow-500/30 transition-all flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+          <div class="flex-1">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="px-2 py-0.5 rounded-lg bg-yellow-500/10 text-yellow-300 text-[10px] font-bold border border-yellow-500/20">
+                ${n.event}
+              </span>
+              <span class="text-[10px] text-slate-500">🗓️ ${n.createdAt}</span>
+            </div>
+            <p class="text-xs font-bold text-slate-200 mb-1">📅 Ngày: ${n.date}</p>
+            ${n.desc ? `<p class="text-xs text-slate-400 bg-slate-900/60 p-2 rounded-xl mt-1.5 border border-slate-800/80">📝 ${n.desc}</p>` : ''}
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <button 
+              onclick="playTTS(event, 'Ghi chép công việc ${n.event}. Ngày chọn: ${n.date}. Ghi chú: ${n.desc || 'Không có ghi chú thêm.'}', 'vi')"
+              class="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-yellow-950/60 text-yellow-300 border border-slate-800 text-xs font-bold transition-all flex items-center gap-1 cursor-pointer"
+            >
+              <span>🔊</span> <span>Nghe</span>
+            </button>
+            <button 
+              onclick="deleteChonNgayTotNote('${n.id}')"
+              class="px-3 py-1.5 rounded-xl bg-rose-950/40 hover:bg-rose-900/60 text-rose-300 border border-rose-800/40 text-xs font-bold transition-all flex items-center gap-1 cursor-pointer"
+            >
+              <span>🗑️</span> <span>Xóa</span>
+            </button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    window.exportChonNgayTotNotes = function() {
+      if (chonNgayTotNotes.length === 0) {
+        showToast('Chưa có ghi chép nào để xuất!', '⚠️');
+        return;
+      }
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(chonNgayTotNotes, null, 2));
+      const dlAnchor = document.createElement('a');
+      dlAnchor.setAttribute("href", dataStr);
+      dlAnchor.setAttribute("download", "so_tay_ngay_lanh_gia_dinh.json");
+      document.body.appendChild(dlAnchor);
+      dlAnchor.click();
+      dlAnchor.remove();
+      showToast('Đã tải tệp JSON sổ tay thành công!', '📥');
+    };
+
+    // --- Interactive Online Calculator ---
+    window.calculateChonNgayTot = function() {
+      const dateInput = document.getElementById('calc-cngt-date')?.value;
+      const taskKey = document.getElementById('calc-cngt-task')?.value || 'khoi_cong';
+      const birthYear = parseInt(document.getElementById('calc-cngt-birth')?.value) || 1990;
+
+      if (!dateInput) {
+        showToast('Vui lòng chọn ngày cần tính!', '⚠️');
+        return;
+      }
+
+      const [year, month, day] = dateInput.split('-').map(Number);
+      const solarDateStr = `${day < 10 ? '0' + day : day}/${month < 10 ? '0' + month : month}/${year}`;
+      const lunar = solarToLunarApprox(year, month, day);
+      const canChiDay = getCanChiDay(year, month, day);
+      const truc = getTrucOfDay(lunar.lMonth, canChiDay.chiIdx);
+      const personEl = getPersonElement(birthYear);
+
+      // Task Element Mapping
+      const TASK_HANH_MAP = {
+        'khoi_cong': { name: 'Khởi công / Động thổ', hanh: 'Mộc', icon: '🏗️' },
+        'mua_nha': { name: 'Mua nhà / Nhập trạch', hanh: 'Thổ', icon: '🏡' },
+        'cuoi_hoi': { name: 'Cưới hỏi / Đính hôn', hanh: 'Hỏa', icon: '💍' },
+        'khai_truong': { name: 'Khai trương / Mở hàng', hanh: 'Hỏa', icon: '🎉' },
+        'ky_hop_dong': { name: 'Ký kết / Hợp tác', hanh: 'Kim', icon: '✍️' },
+        'xuat_hanh': { name: 'Xuất hành / Đi xa', hanh: 'Thủy', icon: '🚗' },
+        'mua_dat': { name: 'Giao dịch Bất động sản', hanh: 'Thổ', icon: '📜' },
+        'chua_benh': { name: 'Chữa bệnh / Phẫu thuật', hanh: 'Thủy', icon: '🩺' },
+        'tiec_cung': { name: 'Tế tự / Lễ cúng', hanh: 'Thổ', icon: '🙏' },
+        'sinh_con': { name: 'Sinh con / Đón em bé', hanh: 'Mộc', icon: '👶' },
+        'hoc_nghe': { name: 'Khai giảng / Học nghề', hanh: 'Mộc', icon: '📚' },
+        'thanh_ly': { name: 'Thanh lý / Đóng cửa', hanh: 'Kim', icon: '💼' }
+      };
+
+      const taskInfo = TASK_HANH_MAP[taskKey] || { name: 'Công việc', hanh: 'Mộc', icon: '✨' };
+
+      // Relations
+      const relDayTask = evaluateRelation(canChiDay.hanh, taskInfo.hanh);
+      const relDayPerson = evaluateRelation(canChiDay.hanh, personEl.name);
+
+      let totalScore = relDayTask.score + relDayPerson.score + (truc.isGood ? 2 : 0.5);
+      
+      let ratingBadge = '';
+      let ratingText = '';
+      let ratingColor = '';
+
+      if (totalScore >= 4.5) {
+        ratingBadge = '🌟 NGÀY ĐẠI CÁT — RẤT TỐT ĐỂ KHỞI SỰ';
+        ratingText = 'Ngày có ngũ hành tương sinh hòa hợp tuyệt vời với công việc và bản mệnh của bạn. 12 Trực đắc cách mang lại sinh khí mạnh mẽ.';
+        ratingColor = 'from-emerald-950/60 border-emerald-500/50 text-emerald-300';
+      } else if (totalScore >= 3.0) {
+        ratingBadge = '✨ NGÀY BÌNH HÒA — TIẾN HÀNH THUẬN LỢI';
+        ratingText = 'Ngày có các yếu tố bổ trợ cân bằng. Bạn hoàn toàn có thể an tâm tiến hành khi chọn đúng khung giờ Hoàng Đạo tốt.';
+        ratingColor = 'from-yellow-950/60 border-yellow-500/50 text-yellow-300';
+      } else {
+        ratingBadge = '⚠️ NÊN CÂN NHẮC CHỌN NGÀY KHÁC';
+        ratingText = 'Ngũ hành của ngày có sự xung khắc với tính chất công việc hoặc bản mệnh gia chủ. Nếu bắt buộc phải làm, hãy chọn thật kỹ giờ Hoàng Đạo bổ trợ và chuẩn bị tâm lý vững vàng.';
+        ratingColor = 'from-rose-950/60 border-rose-500/50 text-rose-300';
+      }
+
+      // Giờ tốt
+      const GIO_HOANG_DAO = [
+        "07:00 - 09:00 (Giờ Thìn - Tư Mệnh)",
+        "09:00 - 11:00 (Giờ Tỵ - Thanh Long)",
+        "13:00 - 15:00 (Giờ Mùi - Kim Quỹ)",
+        "15:00 - 17:00 (Giờ Thân - Bảo Quang)"
+      ];
+
+      const resultBox = document.getElementById('calc-cngt-result');
+      if (resultBox) {
+        resultBox.classList.remove('hidden');
+        resultBox.innerHTML = `
+          <div class="p-6 rounded-3xl bg-gradient-to-br ${ratingColor} border-2 shadow-2xl relative overflow-hidden">
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-700/50 pb-4 mb-4">
+              <div>
+                <span class="text-xs font-black uppercase tracking-wider px-3 py-1 rounded-full bg-slate-950/80 border border-slate-700 block w-fit mb-2">
+                  ${ratingBadge}
+                </span>
+                <h4 class="text-base sm:text-lg font-black text-slate-100 font-display">
+                  ${taskInfo.icon} ${taskInfo.name} — Ngày ${solarDateStr}
+                </h4>
+              </div>
+              <div class="flex items-center gap-2">
+                <button 
+                  onclick="playTTS(event, 'Kết quả tra cứu ngày ${solarDateStr}, tức ngày ${lunar.lDay} tháng ${lunar.lMonth} Âm lịch, ngày ${canChiDay.fullName}, hành ${canChiDay.hanh}. ${ratingBadge}. Đánh giá: ${ratingText}. Giờ hoàng đạo nên khởi sự: 7 đến 9 giờ sáng hoặc 9 đến 11 giờ trưa.', 'vi')"
+                  class="px-3.5 py-1.5 rounded-xl bg-yellow-950/80 hover:bg-yellow-900 border border-yellow-500/40 text-yellow-200 text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer"
+                >
+                  <span>🔊</span> <span>Nghe Kết Quả</span>
+                </button>
+                <button 
+                  onclick="navigator.clipboard.writeText('Kết quả chọn ngày tốt: ' + '${taskInfo.name}' + ' vào ngày ' + '${solarDateStr}' + ' (${canChiDay.fullName} - ${canChiDay.hanh}) -> ' + '${ratingBadge}'); showToast('Đã sao chép kết quả!', '📋');"
+                  class="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 text-xs font-bold border border-slate-700 transition-all cursor-pointer"
+                >
+                  📋 Sao chép
+                </button>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4 text-xs">
+              <div class="p-3 rounded-2xl bg-slate-950/80 border border-slate-800">
+                <span class="text-slate-400 block text-[10px]">🗓️ Âm Lịch & Can Chi</span>
+                <b class="text-yellow-300 block text-sm mt-0.5">Ngày ${lunar.lDay}/${lunar.lMonth} Âm</b>
+                <span class="text-slate-300 text-[11px]">${canChiDay.fullName} (${canChiDay.napAm})</span>
+              </div>
+              <div class="p-3 rounded-2xl bg-slate-950/80 border border-slate-800">
+                <span class="text-slate-400 block text-[10px]">⚖️ Hành Ngày & Việc</span>
+                <b class="text-amber-300 block text-sm mt-0.5">Hành ${canChiDay.hanh} vs Việc ${taskInfo.hanh}</b>
+                <span class="text-slate-300 text-[11px]">${relDayTask.desc}</span>
+              </div>
+              <div class="p-3 rounded-2xl bg-slate-950/80 border border-slate-800">
+                <span class="text-slate-400 block text-[10px]">📜 Trực Nhật & Tuổi Gia Chủ</span>
+                <b class="text-cyan-300 block text-sm mt-0.5">Trực ${truc.trucName}</b>
+                <span class="text-slate-300 text-[11px]">Tuổi ${personEl.canChi} (Mệnh ${personEl.name})</span>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-slate-950/90 border border-slate-800 text-xs leading-relaxed mb-4">
+              <b class="text-slate-200 block mb-1">💡 Lời Khuyên Chuyên Sâu:</b>
+              <p class="text-slate-300 mb-3">${ratingText}</p>
+              <div class="border-t border-slate-800/80 pt-2.5 flex flex-wrap items-center gap-2">
+                <span class="text-yellow-400 font-bold text-[11px]">⏰ Khung Giờ Hoàng Đạo Bổ Trợ Tốt Nhất:</span>
+                ${GIO_HOANG_DAO.map(g => `<span class="px-2.5 py-1 rounded-xl bg-slate-900 border border-yellow-500/20 text-slate-200 text-[11px] font-semibold">${g}</span>`).join('')}
+              </div>
+            </div>
+
+            <div class="flex flex-wrap justify-between items-center gap-3 pt-2">
+              <span class="text-[11px] text-slate-400 italic">
+                * Mẹo: Bạn có thể lưu ngày này vào "Sổ Tay Ngày Lành" để tiện theo dõi.
+              </span>
+              <button 
+                onclick="document.getElementById('cngt-note-event').value = '${taskInfo.name}'; document.getElementById('cngt-note-date').value = '${solarDateStr} (${canChiDay.fullName} - Âm ${lunar.lDay}/${lunar.lMonth})'; selectChonNgayTotSubTab('so_tay'); showToast('Đã nạp sẵn thông tin vào sổ tay!', '📝');"
+                class="px-4 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 text-xs font-black shadow-lg shadow-yellow-500/20 hover:scale-105 transition-all cursor-pointer"
+              >
+                + Lưu Vào Sổ Tay Ngày Lành
+              </button>
+            </div>
+          </div>
+        `;
+      }
+      showToast('Đã tính toán ngày tốt thành công!', '🧮');
+    };
+
+    // Quick Date Fill Presets
+    window.setCalcPresetDate = function(offsetDays) {
+      const d = new Date();
+      d.setDate(d.getDate() + offsetDays);
+      const y = d.getFullYear();
+      const m = String(d.getMonth() + 1).padStart(2, '0');
+      const date = String(d.getDate()).padStart(2, '0');
+      const input = document.getElementById('calc-cngt-date');
+      if (input) {
+        input.value = `${y}-${m}-${date}`;
+        calculateChonNgayTot();
+      }
+    };
+
+    // --- Main Render Function for Chọn Ngày Tốt ---
+    window.renderChonNgayTot = function() {
+      if (!chonNgayTotData) return;
+
+      const area = document.getElementById('chongaytot-display-area');
+      const countEl = document.getElementById('chongaytot-item-count');
+      const searchVal = removeVietnameseTones((document.getElementById('chongaytot-search')?.value || '').toLowerCase());
+      const subTab = activeChonNgayTotSubTab;
+
+      if (!area) return;
+
+      let htmlCards = [];
+
+      // PART 6: Interactive Online Calculator (If subTab === 'cong_cu' or 'all')
+      if (subTab === 'cong_cu' || subTab === 'all') {
+        const todayStr = new Date().toISOString().split('T')[0];
+        htmlCards.push(`
+          <div class="col-span-1 md:col-span-2 glass-card p-6 sm:p-8 rounded-3xl border-2 border-yellow-500/50 shadow-2xl relative overflow-hidden">
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-800 pb-4 mb-6">
+              <div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-500/15 border border-yellow-500/40 text-yellow-300 text-[11px] font-bold uppercase tracking-wider mb-2">
+                  <span>🧮</span> <span>Phần 6: Công Cụ Trực Tuyến</span>
+                </div>
+                <h3 class="text-xl sm:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-rose-200 font-display">
+                  Tra Cứu & Tính Ngày Tốt Tự Động
+                </h3>
+                <p class="text-xs text-slate-400 mt-1">Phân tích đa chiều: Dương lịch, Âm lịch, Can Chi, Ngũ Hành, 12 Trực Nhật và Tuổi bản mệnh.</p>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <button 
+                  onclick="playTTS(event, 'Công cụ tính ngày tốt trực tuyến. Bạn có thể chọn ngày dương lịch, loại công việc như khởi công, cưới hỏi, khai trương, ký hợp đồng và năm sinh bản mệnh để hệ thống tự động chấm điểm và đề xuất giờ hoàng đạo tốt nhất.', 'vi')"
+                  class="px-4 py-2 rounded-2xl bg-yellow-950/80 hover:bg-yellow-900 border border-yellow-500/40 text-yellow-200 text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer shadow-lg"
+                >
+                  <span>🔊</span> <span>Nghe Hướng Dẫn</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Form Inputs -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+              <div>
+                <label class="block text-xs font-bold text-slate-300 mb-1.5">📅 Chọn Ngày Dương Lịch:</label>
+                <input 
+                  type="date" 
+                  id="calc-cngt-date" 
+                  value="${todayStr}" 
+                  class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500"
+                >
+                <div class="flex items-center gap-1.5 mt-2">
+                  <button onclick="setCalcPresetDate(0)" class="px-2 py-1 rounded-lg bg-slate-900 border border-slate-800 text-[10px] font-semibold text-slate-300 hover:text-white hover:border-yellow-500/40 cursor-pointer">Hôm nay</button>
+                  <button onclick="setCalcPresetDate(1)" class="px-2 py-1 rounded-lg bg-slate-900 border border-slate-800 text-[10px] font-semibold text-slate-300 hover:text-white hover:border-yellow-500/40 cursor-pointer">Ngày mai</button>
+                  <button onclick="setCalcPresetDate(7)" class="px-2 py-1 rounded-lg bg-slate-900 border border-slate-800 text-[10px] font-semibold text-slate-300 hover:text-white hover:border-yellow-500/40 cursor-pointer">+7 Ngày</button>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-300 mb-1.5">🎯 Dự Định Công Việc:</label>
+                <select id="calc-cngt-task" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500">
+                  <option value="khoi_cong">🏗️ 1. Khởi công / Động thổ (Hành Mộc)</option>
+                  <option value="mua_nha">🏡 2. Mua nhà / Nhập trạch (Hành Thổ)</option>
+                  <option value="cuoi_hoi">💍 3. Cưới hỏi / Đính hôn (Hành Hỏa)</option>
+                  <option value="khai_truong">🎉 4. Khai trương / Mở hàng (Hành Hỏa)</option>
+                  <option value="ky_hop_dong">✍️ 5. Ký hợp đồng / Hợp tác (Hành Kim)</option>
+                  <option value="mua_dat">📜 6. Giao dịch Mua đất (Hành Thổ)</option>
+                  <option value="xuat_hanh">🚗 7. Xuất hành / Đi xa (Hành Thủy)</option>
+                  <option value="chua_benh">🩺 8. Chữa bệnh / Mổ xẻ (Hành Thủy)</option>
+                  <option value="tiec_cung">🙏 9. Lễ cúng / Tế tự (Hành Thổ)</option>
+                  <option value="sinh_con">👶 10. Sinh con / Đón bé (Hành Mộc)</option>
+                  <option value="hoc_nghe">📚 11. Khai giảng / Học nghề (Hành Mộc)</option>
+                  <option value="thanh_ly">💼 12. Thanh lý / Giải thể (Hành Kim)</option>
+                </select>
+                <span class="text-[10px] text-slate-400 mt-1 block">Tự động đối chiếu tương sinh tương khắc</span>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-300 mb-1.5">👤 Năm Sinh Người Chủ Sự:</label>
+                <input 
+                  type="number" 
+                  id="calc-cngt-birth" 
+                  placeholder="VD: 1988, 1992, 1995..." 
+                  value="1990" 
+                  class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500"
+                >
+                <span class="text-[10px] text-slate-400 mt-1 block">Để tính mệnh nạp âm gia chủ</span>
+              </div>
+            </div>
+
+            <div class="flex justify-center mb-4">
+              <button 
+                onclick="calculateChonNgayTot()"
+                class="w-full sm:w-auto px-8 py-3 rounded-2xl bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-slate-950 font-black text-sm shadow-xl shadow-yellow-500/25 hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2 cursor-pointer"
+              >
+                <span>🧮</span> <span>Phân Tích & Chấm Điểm Ngày Này</span>
+              </button>
+            </div>
+
+            <!-- Result Area -->
+            <div id="calc-cngt-result" class="mt-4"></div>
+          </div>
+        `);
+      }
+
+      // PART 1: Cơ Sở Âm Dương
+      if (subTab === 'co_so' || subTab === 'all') {
+        const p1 = chonNgayTotData.phan_1_co_so_am_duong_ngu_hanh;
+        if (p1 && (!searchVal || removeVietnameseTones(JSON.stringify(p1)).toLowerCase().includes(searchVal))) {
+          htmlCards.push(`
+            <div class="glass-card p-6 sm:p-7 rounded-3xl border border-yellow-500/30 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-3 border-b border-slate-800 pb-3 mb-4">
+                  <div class="flex items-center gap-2">
+                    <span class="text-xl">☯️</span>
+                    <h3 class="text-base sm:text-lg font-black text-yellow-300 font-display">
+                      ${p1.tieu_de || '1. Cơ Sở Âm Dương & Ngũ Hành'}
+                    </h3>
+                  </div>
+                  <button 
+                    onclick="playTTS(event, 'Phần 1: Cơ sở Âm Dương và Ngũ Hành. ${p1.nguyen_ly_cot_loi || ''} Quy luật tương sinh: Mộc sinh Hỏa, Hỏa sinh Thổ, Thổ sinh Kim, Kim sinh Thủy, Thủy sinh Mộc.', 'vi')"
+                    class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-yellow-300 hover:text-white text-xs font-bold flex items-center gap-1 cursor-pointer"
+                  >
+                    <span>🔊</span> <span>Nghe</span>
+                  </button>
+                </div>
+
+                <p class="text-xs text-slate-300 leading-relaxed mb-4 italic bg-slate-900/60 p-3 rounded-2xl border border-slate-800">
+                  "${p1.nguyen_ly_cot_loi || 'Mọi sự vật đều vận hành theo dòng chảy Âm Dương và Ngũ Hành.'}"
+                </p>
+
+                <!-- Âm Dương Card -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs">
+                  <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800">
+                    <b class="text-cyan-300 block mb-1">🌙 Năng Lượng ÂM (Tĩnh):</b>
+                    <p class="text-slate-400 text-[11px] leading-relaxed">${p1.quy_luat_am_duong?.am || 'Tĩnh, lặn, dưỡng, tích lũy. Thích hợp nghỉ ngơi, chuẩn bị, lên kế hoạch.'}</p>
+                  </div>
+                  <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800">
+                    <b class="text-amber-300 block mb-1">☀️ Năng Lượng DƯƠNG (Động):</b>
+                    <p class="text-slate-400 text-[11px] leading-relaxed">${p1.quy_luat_am_duong?.duong || 'Động, sáng, phát triển, bứt phá. Thích hợp khởi công, cưới hỏi, khai trương.'}</p>
+                  </div>
+                </div>
+
+                <!-- Ngũ Hành Tương Sinh Tương Khắc -->
+                <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 text-xs">
+                  <b class="text-yellow-300 block mb-2">🔄 Quy Luật Ngũ Hành:</b>
+                  <div class="grid grid-cols-1 gap-1.5 text-[11px]">
+                    <div class="flex items-center gap-1.5 text-emerald-300">
+                      <span>🌱 Tương Sinh:</span>
+                      <span class="text-slate-300">${p1.quy_luat_ngu_hanh?.tuong_sinh || 'Mộc sinh Hỏa -> Hỏa sinh Thổ -> Thổ sinh Kim -> Kim sinh Thủy -> Thủy sinh Mộc'}</span>
+                    </div>
+                    <div class="flex items-center gap-1.5 text-rose-300">
+                      <span>⚡ Tương Khắc:</span>
+                      <span class="text-slate-300">${p1.quy_luat_ngu_hanh?.tuong_khac || 'Kim khắc Mộc -> Mộc khắc Thổ -> Thổ khắc Thủy -> Thủy khắc Hỏa -> Hỏa khắc Kim'}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between items-center text-[10px] text-slate-500">
+                <span>Trọng tâm: Thiên thời hòa quyện Địa lợi</span>
+                <span class="text-yellow-400 font-bold">Nền Tảng Cốt Lõi</span>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // PART 2: Xác Định Hành Của Ngày & Hành Việc
+      if (subTab === 'xac_dinh' || subTab === 'all') {
+        const p2 = chonNgayTotData.phan_2_xac_dinh_hanh_ngay_va_viec;
+        if (p2 && (!searchVal || removeVietnameseTones(JSON.stringify(p2)).toLowerCase().includes(searchVal))) {
+          htmlCards.push(`
+            <div class="glass-card p-6 sm:p-7 rounded-3xl border border-yellow-500/30 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-3 border-b border-slate-800 pb-3 mb-4">
+                  <div class="flex items-center gap-2">
+                    <span class="text-xl">🧭</span>
+                    <h3 class="text-base sm:text-lg font-black text-yellow-300 font-display">
+                      ${p2.tieu_de || '2. Xác Định Hành Ngày & Hành Việc'}
+                    </h3>
+                  </div>
+                  <button 
+                    onclick="playTTS(event, 'Phần 2: Xác định hành của ngày và hành việc làm. 5 nhóm hành việc chính gồm: Khởi công thuộc Mộc, Cưới hỏi khai trương thuộc Hỏa, Mua bán nhà đất thuộc Thổ, Ký kết hợp đồng thuộc Kim, Xuất hành đi xa thuộc Thủy.', 'vi')"
+                    class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-yellow-300 hover:text-white text-xs font-bold flex items-center gap-1 cursor-pointer"
+                  >
+                    <span>🔊</span> <span>Nghe</span>
+                  </button>
+                </div>
+
+                <p class="text-xs text-slate-300 leading-relaxed mb-3">
+                  ${p2.huong_dan || 'Mỗi ngày có hành riêng dựa trên Can Chi và Nạp Âm. Tương tự, mỗi sự việc đều mang một ngũ hành đại diện.'}
+                </p>
+
+                <!-- 5 Nhóm Hành Việc -->
+                <div class="space-y-2 mb-4 text-xs">
+                  <div class="p-2.5 rounded-xl bg-emerald-950/40 border border-emerald-500/30 flex justify-between items-center">
+                    <span class="font-bold text-emerald-300">🏗️ Nhóm MỘC (Sinh sôi, khởi đầu):</span>
+                    <span class="text-slate-300 text-[11px]">Khởi công, động thổ, học nghề</span>
+                  </div>
+                  <div class="p-2.5 rounded-xl bg-rose-950/40 border border-rose-500/30 flex justify-between items-center">
+                    <span class="font-bold text-rose-300">💍 Nhóm HỎA (Vinh quang, lễ nghi):</span>
+                    <span class="text-slate-300 text-[11px]">Cưới hỏi, khai trương, ra mắt</span>
+                  </div>
+                  <div class="p-2.5 rounded-xl bg-amber-950/40 border border-amber-500/30 flex justify-between items-center">
+                    <span class="font-bold text-amber-300">🏡 Nhóm THỔ (Bền vững, tài sản):</span>
+                    <span class="text-slate-300 text-[11px]">Mua nhà, nhập trạch, mua đất</span>
+                  </div>
+                  <div class="p-2.5 rounded-xl bg-cyan-950/40 border border-cyan-500/30 flex justify-between items-center">
+                    <span class="font-bold text-cyan-300">✍️ Nhóm KIM (Quyết đoán, chặt chẽ):</span>
+                    <span class="text-slate-300 text-[11px]">Ký hợp đồng, thanh lý tài sản</span>
+                  </div>
+                  <div class="p-2.5 rounded-xl bg-blue-950/40 border border-blue-500/30 flex justify-between items-center">
+                    <span class="font-bold text-blue-300">🚗 Nhóm THỦY (Lưu thông, biến đổi):</span>
+                    <span class="text-slate-300 text-[11px]">Xuất hành, đi xa, chữa bệnh</span>
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-xl bg-slate-900/90 border border-yellow-500/20 text-xs text-yellow-200">
+                  <b>⚖️ Quy Tắc Chọn:</b> Chọn ngày có Hành <b>TƯƠNG SINH</b> hoặc <b>TỶ HÒA</b> với Hành của việc. Tránh ngày có Hành tương khắc trực diện.
+                </div>
+              </div>
+
+              <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between items-center text-[10px] text-slate-500">
+                <span>Nguyên tắc: Ngày sinh việc là cát lợi nhất</span>
+                <span class="text-yellow-400 font-bold">5 Hành Việc</span>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // PART 3: Bảng 14 Việc Làm Chính
+      if (subTab === '14_viec' || subTab === 'all') {
+        const p3 = chonNgayTotData.phan_3_bang_chon_ngay_theo_tung_viec || chonNgayTotData.phan_3_bang_chon_ngay_theo_14_viec_chinh;
+        if (p3) {
+          const list = p3.danh_sach_14_viec || [];
+          const filtered = list.filter(item => !searchVal || removeVietnameseTones(JSON.stringify(item)).toLowerCase().includes(searchVal));
+          
+          if (filtered.length > 0) {
+            htmlCards.push(`
+              <div class="col-span-1 md:col-span-2 glass-card p-6 sm:p-8 rounded-3xl border border-yellow-500/30">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-800 pb-4 mb-6">
+                  <div>
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-500/15 border border-yellow-500/40 text-yellow-300 text-[11px] font-bold uppercase tracking-wider mb-2">
+                      <span>📋</span> <span>Phần 3: Bảng Tra Cứu 14 Việc</span>
+                    </div>
+                    <h3 class="text-xl sm:text-2xl font-black text-slate-100 font-display">
+                      ${p3.tieu_de || 'Bảng Chọn Ngày Theo 14 Việc Làm Quan Trọng Nhất'}
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">Hướng dẫn chi tiết từng việc: hành cần chọn, trực nhật ưu tiên, giờ hoàng đạo và điều kiêng kỵ.</p>
+                  </div>
+                  <button 
+                    onclick="playTTS(event, 'Bảng chọn ngày theo 14 việc làm chính gồm có: Khởi công động thổ, mua nhà nhập trạch, cưới hỏi, khai trương, ký hợp đồng, mua đất, xuất hành và các việc quan trọng khác.', 'vi')"
+                    class="px-4 py-2 rounded-2xl bg-slate-900 hover:bg-slate-800 text-yellow-300 border border-slate-800 text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer"
+                  >
+                    <span>🔊</span> <span>Nghe Tổng Quan</span>
+                  </button>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  ${filtered.map((item, idx) => `
+                    <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-yellow-500/40 transition-all flex flex-col justify-between">
+                      <div>
+                        <div class="flex justify-between items-start gap-2 mb-2">
+                          <h4 class="text-sm font-black text-yellow-200 flex items-center gap-1.5">
+                            <span>${idx + 1}.</span> <span>${item.ten_viec}</span>
+                          </h4>
+                          <span class="px-2 py-0.5 rounded-lg bg-yellow-500/15 border border-yellow-500/30 text-yellow-300 text-[10px] font-bold shrink-0">
+                            ${item.hanh_cua_viec}
+                          </span>
+                        </div>
+
+                        <div class="space-y-1.5 text-xs text-slate-300 mb-3">
+                          <p><span class="text-slate-400 font-semibold">✨ Ngày nên chọn:</span> ${item.ngay_nen_chon}</p>
+                          <p><span class="text-emerald-400 font-semibold">📜 Trực nhật tốt:</span> ${item.truc_tot}</p>
+                          <p><span class="text-amber-400 font-semibold">⏰ Giờ tốt:</span> ${item.gio_tot}</p>
+                          <p><span class="text-rose-400 font-semibold">⚠️ Cần tránh:</span> ${item.tranh}</p>
+                        </div>
+                      </div>
+
+                      <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center">
+                        <button 
+                          onclick="playTTS(event, 'Việc: ${item.ten_viec}. Hành của việc: ${item.hanh_cua_viec}. Ngày nên chọn: ${item.ngay_nen_chon}. Trực nhật tốt: ${item.truc_tot}. Cần tránh: ${item.tranh}', 'vi')"
+                          class="px-3 py-1 rounded-xl bg-slate-900 hover:bg-yellow-950/60 text-yellow-300 border border-slate-800 text-xs font-bold transition-all flex items-center gap-1 cursor-pointer"
+                        >
+                          <span>🔊</span> <span>Nghe mục này</span>
+                        </button>
+                        <button 
+                          onclick="document.getElementById('calc-cngt-task').value = '${item.key || 'khoi_cong'}'; selectChonNgayTotSubTab('cong_cu'); showToast('Đã chọn việc: ' + '${item.ten_viec}', '🎯');"
+                          class="px-3 py-1 rounded-xl bg-yellow-950/40 hover:bg-yellow-900/60 text-yellow-200 border border-yellow-500/30 text-xs font-bold transition-all cursor-pointer"
+                        >
+                          🧮 Tính ngay
+                        </button>
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `);
+          }
+        }
+      }
+
+      // PART 4: Tính Hành Của Người & 12 Giờ Hoàng Đạo
+      if (subTab === 'tuoi_gio' || subTab === 'all') {
+        const p4 = chonNgayTotData.phan_4_tinh_hanh_nguoi_va_gio_tot || chonNgayTotData.phan_4_cach_tinh_hanh_nguoi_va_bang_12_gio;
+        if (p4 && (!searchVal || removeVietnameseTones(JSON.stringify(p4)).toLowerCase().includes(searchVal))) {
+          htmlCards.push(`
+            <div class="glass-card p-6 sm:p-7 rounded-3xl border border-yellow-500/30 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-3 border-b border-slate-800 pb-3 mb-4">
+                  <div class="flex items-center gap-2">
+                    <span class="text-xl">⏰</span>
+                    <h3 class="text-base sm:text-lg font-black text-yellow-300 font-display">
+                      ${p4.tieu_de || '4. Hành Người Theo Năm Sinh & Giờ Tốt'}
+                    </h3>
+                  </div>
+                  <button 
+                    onclick="playTTS(event, 'Phần 4: Cách tính hành của người theo năm sinh và bảng 12 canh giờ hoàng đạo. Người sinh năm nào có nạp âm ngũ hành năm đó. Chọn ngày tương sinh với mệnh gia chủ giúp tâm an, việc thuận.', 'vi')"
+                    class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-yellow-300 hover:text-white text-xs font-bold flex items-center gap-1 cursor-pointer"
+                  >
+                    <span>🔊</span> <span>Nghe</span>
+                  </button>
+                </div>
+
+                <p class="text-xs text-slate-300 leading-relaxed mb-3">
+                  ${p4.cach_tinh_tuoi || 'Cách tính can chi năm sinh theo công thức số dư thập phân và địa chi 12 con giáp.'}
+                </p>
+
+                <!-- Bảng Giờ Hoàng Đạo -->
+                <div class="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 text-xs mb-3">
+                  <b class="text-amber-300 block mb-2">🌟 12 Canh Giờ & Hoàng Đạo Bổ Trợ:</b>
+                  <div class="grid grid-cols-2 gap-2 text-[11px]">
+                    <div class="p-2 rounded-xl bg-slate-900/90 border border-slate-800">
+                      <b class="text-slate-200 block">Tý (23h - 01h):</b>
+                      <span class="text-emerald-400">Thanh Long (Cát)</span>
+                    </div>
+                    <div class="p-2 rounded-xl bg-slate-900/90 border border-slate-800">
+                      <b class="text-slate-200 block">Sửu (01h - 03h):</b>
+                      <span class="text-emerald-400">Minh Đường (Cát)</span>
+                    </div>
+                    <div class="p-2 rounded-xl bg-slate-900/90 border border-slate-800">
+                      <b class="text-slate-200 block">Mão (05h - 07h):</b>
+                      <span class="text-emerald-400">Kim Quỹ (Cát)</span>
+                    </div>
+                    <div class="p-2 rounded-xl bg-slate-900/90 border border-slate-800">
+                      <b class="text-slate-200 block">Thìn (07h - 09h):</b>
+                      <span class="text-emerald-400">Tư Mệnh (Đại Cát)</span>
+                    </div>
+                    <div class="p-2 rounded-xl bg-slate-900/90 border border-slate-800">
+                      <b class="text-slate-200 block">Tỵ (09h - 11h):</b>
+                      <span class="text-emerald-400">Bảo Quang (Cát)</span>
+                    </div>
+                    <div class="p-2 rounded-xl bg-slate-900/90 border border-slate-800">
+                      <b class="text-slate-200 block">Thân (15h - 17h):</b>
+                      <span class="text-emerald-400">Ngọc Đường (Cát)</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-2.5 rounded-xl bg-yellow-950/30 border border-yellow-500/20 text-xs text-yellow-200">
+                  💡 <b>Mẹo Hay:</b> Nếu ngày chỉ đạt Bình Hòa, khởi sự vào đúng <b>Giờ Hoàng Đạo</b> sẽ gia tăng cát khí lên gấp đôi.
+                </div>
+              </div>
+
+              <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between items-center text-[10px] text-slate-500">
+                <span>Nguyên lý: Nhân hòa phối hợp Giờ lành</span>
+                <span class="text-yellow-400 font-bold">Giờ Hoàng Đạo</span>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // PART 5: 12 Ngày Trực Nhật
+      if (subTab === '12_truc' || subTab === 'all') {
+        const p5 = chonNgayTotData.phan_5_12_ngay_truc_nhat_chi_tiet;
+        if (p5) {
+          const list = p5.danh_sach_12_truc || [];
+          const filtered = list.filter(item => !searchVal || removeVietnameseTones(JSON.stringify(item)).toLowerCase().includes(searchVal));
+
+          if (filtered.length > 0) {
+            htmlCards.push(`
+              <div class="col-span-1 md:col-span-2 glass-card p-6 sm:p-8 rounded-3xl border border-yellow-500/30">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-800 pb-4 mb-6">
+                  <div>
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-500/15 border border-yellow-500/40 text-yellow-300 text-[11px] font-bold uppercase tracking-wider mb-2">
+                      <span>📜</span> <span>Phần 5: 12 Ngày Trực Nhật</span>
+                    </div>
+                    <h3 class="text-xl sm:text-2xl font-black text-slate-100 font-display">
+                      ${p5.tieu_de || 'Giải Mã Ý Nghĩa Chi Tiết 12 Trực Nhật'}
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">12 vị trực thần cai quản chu kỳ nhật trình: Kiến, Trừ, Mãn, Bình, Định, Chấp, Phá, Nguy, Thành, Thu, Khai, Bế.</p>
+                  </div>
+                  <button 
+                    onclick="playTTS(event, 'Mười hai trực nhật trong dân gian gồm: Thụy Kiến, Kha Trừ, Mãn, Bình, Định, Trí Chấp, Phá, Nguy, Thành, Thu, Khai, Bế. Các trực đại cát nhất gồm: Mãn, Bình, Định, Thành và Khai.', 'vi')"
+                    class="px-4 py-2 rounded-2xl bg-slate-900 hover:bg-slate-800 text-yellow-300 border border-slate-800 text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer"
+                  >
+                    <span>🔊</span> <span>Nghe 12 Trực</span>
+                  </button>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+                  ${filtered.map(t => `
+                    <div class="p-4 rounded-2xl bg-slate-950/80 border ${t.danh_gia === 'CÁT' || t.danh_gia === 'ĐẠI CÁT' ? 'border-emerald-500/40 bg-emerald-950/10' : t.danh_gia === 'HUNG' ? 'border-rose-500/40 bg-rose-950/10' : 'border-slate-800'} flex flex-col justify-between">
+                      <div>
+                        <div class="flex justify-between items-center gap-2 mb-2">
+                          <b class="text-sm font-black text-yellow-300">${t.ten_truc}</b>
+                          <span class="px-2 py-0.5 rounded-md text-[10px] font-black ${t.danh_gia === 'CÁT' || t.danh_gia === 'ĐẠI CÁT' ? 'bg-emerald-500 text-slate-950' : t.danh_gia === 'HUNG' ? 'bg-rose-500 text-white' : 'bg-slate-800 text-slate-300'}">
+                            ${t.danh_gia}
+                          </span>
+                        </div>
+                        <p class="text-xs text-slate-300 mb-2 leading-relaxed">${t.y_nghia}</p>
+                        <div class="text-[11px] space-y-1 text-slate-400">
+                          <p><b class="text-emerald-300">✅ Nên làm:</b> ${t.nen_lam}</p>
+                          <p><b class="text-rose-300">❌ Nên tránh:</b> ${t.tranh}</p>
+                        </div>
+                      </div>
+                      <div class="mt-3 pt-2.5 border-t border-slate-800/80 flex justify-end">
+                        <button 
+                          onclick="playTTS(event, 'Trực ${t.ten_truc}. Đánh giá: ${t.danh_gia}. Ý nghĩa: ${t.y_nghia}. Việc nên làm: ${t.nen_lam}. Việc nên tránh: ${t.tranh}', 'vi')"
+                          class="px-2.5 py-1 rounded-lg bg-slate-900 hover:bg-slate-800 text-yellow-300 text-[11px] font-bold flex items-center gap-1 border border-slate-800 cursor-pointer"
+                        >
+                          <span>🔊</span> <span>Nghe</span>
+                        </button>
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `);
+          }
+        }
+      }
+
+      // PART 7: Lỗi Thường Gặp & 5 Nguyên Tắc Vàng
+      if (subTab === 'nguyen_tac' || subTab === 'all') {
+        const p7 = chonNgayTotData.phan_7_loi_thuong_gap_va_nguyen_tac || chonNgayTotData.phan_7_loi_thuong_gap_va_nguyen_tac_vang;
+        if (p7 && (!searchVal || removeVietnameseTones(JSON.stringify(p7)).toLowerCase().includes(searchVal))) {
+          htmlCards.push(`
+            <div class="glass-card p-6 sm:p-7 rounded-3xl border border-yellow-500/30 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-3 border-b border-slate-800 pb-3 mb-4">
+                  <div class="flex items-center gap-2">
+                    <span class="text-xl">💡</span>
+                    <h3 class="text-base sm:text-lg font-black text-yellow-300 font-display">
+                      ${p7.tieu_de || '7. Lỗi Thường Gặp & 5 Nguyên Tắc Vàng'}
+                    </h3>
+                  </div>
+                  <button 
+                    onclick="playTTS(event, 'Phần 7: Lỗi thường gặp và 5 nguyên tắc vàng khi chọn ngày tốt. Nguyên tắc số 1: Người tốt thì ngày cũng tốt theo. Chọn ngày tốt chỉ là môi trường hỗ trợ, đức độ và sự nỗ lực chân thành mới là gốc rễ của thành công.', 'vi')"
+                    class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-yellow-300 hover:text-white text-xs font-bold flex items-center gap-1 cursor-pointer"
+                  >
+                    <span>🔊</span> <span>Nghe</span>
+                  </button>
+                </div>
+
+                <!-- 5 Nguyên Tắc Vàng -->
+                <div class="space-y-2.5 mb-4 text-xs">
+                  <b class="text-amber-300 block mb-1">🌟 5 Nguyên Tắc Vàng Bất Biến:</b>
+                  ${(p7.nam_nguyen_tac_vang || [
+                    "1. Người tốt thì ngày cũng tốt theo — Tâm an thì vạn sự an.",
+                    "2. Chuẩn bị chu đáo quan trọng hơn ngày giờ máy móc.",
+                    "3. Không mê tín thái quá dẫn đến chậm trễ thời cơ kinh doanh.",
+                    "4. Sự đồng thuận, vui vẻ của gia đình là phong thủy lớn nhất.",
+                    "5. Ngày tốt kết hợp giờ tốt mang lại sự tự tin trọn vẹn."
+                  ]).map(nt => `
+                    <div class="p-2.5 rounded-xl bg-slate-950/80 border border-slate-800 text-slate-300 flex items-center gap-2">
+                      <span class="text-yellow-400">✨</span>
+                      <span>${nt}</span>
+                    </div>
+                  `).join('')}
+                </div>
+
+                <div class="p-3 rounded-2xl bg-rose-950/30 border border-rose-500/20 text-xs text-rose-200">
+                  ⚠️ <b>Lỗi Phổ Biến:</b> Quá câu nệ từng phút giây mà bỏ lỡ đối tác lớn hoặc gây bất hòa, căng thẳng trong gia đình vào ngày khởi sự.
+                </div>
+              </div>
+
+              <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between items-center text-[10px] text-slate-500">
+                <span>Triết lý: Tâm an — Vạn sự thành</span>
+                <span class="text-yellow-400 font-bold">5 Nguyên Tắc</span>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      // PART 8: Bảng Tra Cứu Nhanh 1 Lần Thấy Ngay
+      if (subTab === 'tra_cuu_nhanh' || subTab === 'all') {
+        const p8 = chonNgayTotData.phan_8_tra_cuu_nhanh || chonNgayTotData.phan_8_bang_tra_cuu_nhanh;
+        if (p8 && (!searchVal || removeVietnameseTones(JSON.stringify(p8)).toLowerCase().includes(searchVal))) {
+          htmlCards.push(`
+            <div class="glass-card p-6 sm:p-7 rounded-3xl border border-yellow-500/30 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-3 border-b border-slate-800 pb-3 mb-4">
+                  <div class="flex items-center gap-2">
+                    <span class="text-xl">⚡</span>
+                    <h3 class="text-base sm:text-lg font-black text-yellow-300 font-display">
+                      ${p8.tieu_de || '8. Bảng Tra Cứu Nhanh 7 Việc Trọng Đại'}
+                    </h3>
+                  </div>
+                  <button 
+                    onclick="playTTS(event, 'Phần 8: Bảng tra cứu nhanh 1 lần nhìn thấy ngay cho 7 việc trọng đại. Khởi công chọn ngày Mộc Thủy trực Thành Khai. Cưới hỏi chọn ngày Hỏa Mộc trực Định Mãn. Ký hợp đồng chọn ngày Kim Thổ trực Thành Định.', 'vi')"
+                    class="p-2 rounded-xl bg-slate-900 border border-slate-800 text-yellow-300 hover:text-white text-xs font-bold flex items-center gap-1 cursor-pointer"
+                  >
+                    <span>🔊</span> <span>Nghe</span>
+                  </button>
+                </div>
+
+                <div class="overflow-x-auto custom-scrollbar mb-3">
+                  <table class="w-full text-left text-xs border-collapse">
+                    <thead>
+                      <tr class="border-b border-slate-800 text-slate-400 text-[11px]">
+                        <th class="py-2 px-2 font-bold">Việc</th>
+                        <th class="py-2 px-2 font-bold">Hành Ngày Cát</th>
+                        <th class="py-2 px-2 font-bold">Trực Nhật Tốt</th>
+                        <th class="py-2 px-2 font-bold">Khung Giờ</th>
+                      </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800/60 text-slate-300 text-[11px]">
+                      <tr>
+                        <td class="py-2 px-2 font-bold text-yellow-200">🏗️ Khởi công</td>
+                        <td class="py-2 px-2 text-emerald-300">Mộc, Thủy</td>
+                        <td class="py-2 px-2">Thành, Khai, Định</td>
+                        <td class="py-2 px-2 text-slate-400">07h - 09h</td>
+                      </tr>
+                      <tr>
+                        <td class="py-2 px-2 font-bold text-yellow-200">💍 Cưới hỏi</td>
+                        <td class="py-2 px-2 text-rose-300">Hỏa, Mộc</td>
+                        <td class="py-2 px-2">Định, Mãn, Thành</td>
+                        <td class="py-2 px-2 text-slate-400">09h - 11h</td>
+                      </tr>
+                      <tr>
+                        <td class="py-2 px-2 font-bold text-yellow-200">🎉 Khai trương</td>
+                        <td class="py-2 px-2 text-rose-300">Hỏa, Thổ</td>
+                        <td class="py-2 px-2">Khai, Thành, Mãn</td>
+                        <td class="py-2 px-2 text-slate-400">08h - 10h</td>
+                      </tr>
+                      <tr>
+                        <td class="py-2 px-2 font-bold text-yellow-200">✍️ Ký hợp đồng</td>
+                        <td class="py-2 px-2 text-cyan-300">Kim, Thổ</td>
+                        <td class="py-2 px-2">Thành, Định, Khai</td>
+                        <td class="py-2 px-2 text-slate-400">13h - 15h</td>
+                      </tr>
+                      <tr>
+                        <td class="py-2 px-2 font-bold text-yellow-200">🏡 Nhập trạch</td>
+                        <td class="py-2 px-2 text-amber-300">Thổ, Hỏa</td>
+                        <td class="py-2 px-2">Định, Bình, Thành</td>
+                        <td class="py-2 px-2 text-slate-400">07h - 09h</td>
+                      </tr>
+                      <tr>
+                        <td class="py-2 px-2 font-bold text-yellow-200">🚗 Xuất hành</td>
+                        <td class="py-2 px-2 text-blue-300">Thủy, Kim</td>
+                        <td class="py-2 px-2">Khai, Bình, Thành</td>
+                        <td class="py-2 px-2 text-slate-400">05h - 07h</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 text-xs text-slate-400">
+                  📌 Xem nhanh để chọn phương án dự phòng khi cần sắp xếp công việc gấp.
+                </div>
+              </div>
+
+              <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between items-center text-[10px] text-slate-500">
+                <span>Thuận tiện tra cứu nhanh trên điện thoại</span>
+                <span class="text-yellow-400 font-bold">Tra Nhanh</span>
+              </div>
+            </div>
+          `);
+        }
+      }
+
+      if (htmlCards.length === 0) {
+        area.innerHTML = `<div class="col-span-1 md:col-span-2 py-12 text-center text-slate-500 bg-slate-950/40 rounded-3xl border border-slate-800 border-dashed">
+          <p class="text-3xl mb-2">🔍</p>
+          <p class="text-xs">Không tìm thấy nội dung phù hợp với từ khóa "${document.getElementById('chongaytot-search')?.value}".</p>
+        </div>`;
+        if (countEl) countEl.textContent = '0 mục';
+      } else {
+        area.innerHTML = htmlCards.join('');
+        if (countEl) countEl.textContent = `${htmlCards.length} chuyên mục sẵn sàng`;
+      }
+    };
+
+    // Attach Search Input Handler
+    document.getElementById('chongaytot-search')?.addEventListener('input', () => {
+      renderChonNgayTot();
+    });
+
+
     // --- KINH PHAP CU LOGIC ---
     function renderPhapCuCards() {
       if (!phapCuData) return;
@@ -11049,13 +12233,13 @@
         "email": "admin@gmail.com",
         "mat_khau": "admin",
         "vai_tro": "Admin",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "aiagent", "users"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "aiagent", "users"]
       },
       {
         "email": "khach@gmail.com",
         "mat_khau": "123456",
         "vai_tro": "Khách",
-        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "aiagent"]
+        "quyen": ["poems", "chinese", "kinhdich", "thanchu", "phapcu", "conhan", "nhannhan", "thany", "muuke", "chuyenranday", "tuthu", "phapluat", "gout", "phongthuy", "huyetdao", "chongaytot", "aiagent"]
       }
     ];
 
@@ -11151,7 +12335,7 @@
 
         const isAdmin = currentUser.vai_tro === 'Admin' || currentUser.email.toLowerCase() === 'admin@gmail.com';
         if (isAdmin) {
-          currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'nhannhan', 'thany', 'muuke', 'chuyenranday', 'tuthu', 'phapluat', 'gout', 'phongthuy', 'huyetdao', 'aiagent', 'users'];
+          currentUser.quyen = ['poems', 'chinese', 'kinhdich', 'thanchu', 'phapcu', 'conhan', 'nhannhan', 'thany', 'muuke', 'chuyenranday', 'tuthu', 'phapluat', 'gout', 'phongthuy', 'huyetdao', 'chongaytot', 'aiagent', 'users'];
         }
 
         const hasPoems = isAdmin || currentUser.quyen.includes('poems');

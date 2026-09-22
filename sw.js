@@ -17,6 +17,7 @@ const ASSETS = [
   './gout.json',
   './phong_thuy.json',
   './huyet_dao.json',
+  './chon_ngay_tot.json',
   './users.json',
   './manifest.json',
   './icon-192.png',

@@ -1,0 +1,731 @@
+{
+  "tong_quan": {
+    "tieu_de": "🗓️ Cẩm Nang Chọn Ngày Tốt Theo Âm Dương Ngũ Hành & 12 Trực Nhật",
+    "mo_ta": "Phương pháp chọn ngày lành tháng tốt khoa học, nhân văn dựa trên quy luật vận hành của vũ trụ và nhịp sinh học tự nhiên, giúp khởi sự hanh thông, gia đạo bình an và công việc thuận lợi.",
+    "loi_khang_dinh": "Chọn ngày tốt là môi trường hỗ trợ — Chính đức độ, sự chân thành và nỗ lực chuẩn bị chu đáo mới là gốc thành công bền lâu của con người.",
+    "cau_noi_cot_loi": "Chọn ngày tốt là hỗ trợ — Đức độ, chân thành, nỗ lực mới là gốc thành công bền lâu"
+  },
+  "phan_1_co_so_am_duong_ngu_hanh": {
+    "tieu_de": "Phần 1: Cơ Sở Lý Luận — Âm Dương, Ngũ Hành & Chu Kỳ Vận Hành",
+    "muc_1_1_am_va_duong": {
+      "tieu_de": "1.1 Âm và Dương — Hai Năng Lượng Bổ Sung Nhau Trong Vũ Trụ",
+      "am": {
+        "ban_chat": "Tĩnh lặng, ẩn kín, lắng đọng, nuôi dưỡng, tích lũy.",
+        "tuong_ung": "Buổi tối, mùa đông, bóng râm, nghỉ ngơi, chuẩn bị, tích lũy nội lực.",
+        "ung_dung": "Cưới hỏi, chữa bệnh, thiền định, dưỡng sinh, bàn bạc nội bộ, lên kế hoạch."
+      },
+      "duong": {
+        "ban_chat": "Vận động, ánh sáng, tiến lên, phát triển, mở rộng.",
+        "tuong_ung": "Ban ngày, mùa hạ, ánh nắng, khởi sự, hành động, mở mang quy mô.",
+        "ung_dung": "Khởi công xây dựng, khai trương cửa hàng, nhận chức, xuất quân, ký hợp đồng lớn."
+      },
+      "nguyen_tac_dieu_hoa": "Ngày tốt không phải là ngày chỉ toàn Dương hoặc toàn Âm, mà là ngày Âm Dương cân bằng hài hòa. Khởi sự cần ngày Dương thịnh để phát triển; việc bền vững cần ngày Âm bình hòa để dài lâu."
+    },
+    "muc_1_2_ngu_hanh": {
+      "tieu_de": "1.2 Ngũ Hành — Quy Luật Tương Sinh & Tương Khắc",
+      "nam_hanh": [
+        "Mộc (Cây cối)",
+        "Hỏa (Lửa)",
+        "Thổ (Đất)",
+        "Kim (Kim loại)",
+        "Thủy (Nước)"
+      ],
+      "tuong_sinh": {
+        "chuoi_sinh": "Mộc sinh Hỏa → Hỏa sinh Thổ → Thổ sinh Kim → Kim sinh Thủy → Thủy sinh Mộc",
+        "y_nghia": "Yếu tố này nuôi dưỡng, tiếp thêm năng lượng và sinh khí cho yếu tố kia. Ngày có hành tương sinh với việc làm mang lại may mắn, quý nhân phù trợ, việc làm dễ xuôi chèo mát mái."
+      },
+      "tuong_khac": {
+        "chuoi_khac": "Mộc khắc Thổ → Thổ khắc Thủy → Thủy khắc Hỏa → Hỏa khắc Kim → Kim khắc Mộc",
+        "y_nghia": "Yếu tố này kìm hãm, cản trở hoặc làm tiêu hao năng lượng của yếu tố kia. Ngày có hành tương khắc với việc làm dễ gặp trắc trở, xung đột hoặc hao tốn công sức."
+      },
+      "mau_sac_dai_dien": [
+        {
+          "hanh": "Mộc",
+          "mau": "Xanh lá cây, xanh lục",
+          "y_nghia": "Sinh sôi, tươi mới, vươn cao"
+        },
+        {
+          "hanh": "Hỏa",
+          "mau": "Đỏ, hồng, cam, tím",
+          "y_nghia": "Nhiệt huyết, rực rỡ, danh tiếng"
+        },
+        {
+          "hanh": "Thổ",
+          "mau": "Vàng đất, nâu đất, be",
+          "y_nghia": "Vững chãi, bền vững, bao dung"
+        },
+        {
+          "hanh": "Kim",
+          "mau": "Trắng, xám, ánh kim, bạc",
+          "y_nghia": "Rõ ràng, sắc bén, kỷ luật"
+        },
+        {
+          "hanh": "Thủy",
+          "mau": "Đen, xanh nước biển sẫm",
+          "y_nghia": "Lưu thông, trí tuệ, linh hoạt"
+        }
+      ]
+    },
+    "muc_1_3_cac_loai_ngay_truc_nhat": {
+      "tieu_de": "1.3 Chu Kỳ 12 Ngày Trực Nhật (Thập Nhị Kiến Trừ)",
+      "mo_ta": "12 Trực nhật lặp lại tuần hoàn theo chu kỳ tự nhiên: Thụy (Kiến), Kha (Trừ), Mãn, Bình, Định, Trí (Chấp), Chấp, Phá, Vĩ (Nguy), Thành, Thu, Bế.",
+      "nhom_ngay_tot": [
+        "Ngày Mãn (Đầy đủ sung túc)",
+        "Ngày Định (Chắc chắn bền vững)",
+        "Ngày Thành (Thành công viên mãn)",
+        "Ngày Thu (Thu hoạch tài lộc)"
+      ],
+      "nhom_ngay_can_trong": [
+        "Ngày Phá (Phá vỡ, xung đột)",
+        "Ngày Bế (Bế tắc, đóng kín)",
+        "Ngày Thụy (Chưa ổn định)",
+        "Ngày Kha (Mới mở ra, chưa vững)"
+      ],
+      "nhom_ngay_trung_tinh": [
+        "Ngày Bình (Bình hòa việc thường)",
+        "Ngày Trí (Ký kết, tư duy)",
+        "Ngày Chấp (Nắm giữ)",
+        "Ngày Vĩ (Gần xong, kết thúc)"
+      ]
+    }
+  },
+  "phan_2_xac_dinh_hanh_ngay_va_viec": {
+    "tieu_de": "Phần 2: Xác Định Hành Của Ngày & Hành Của Từng Việc Làm",
+    "muc_2_1_hanh_cua_ngay": {
+      "tieu_de": "2.1 Cách Xác Định Hành Của Ngày Theo Can Chi & Nạp Âm",
+      "dua_vao_thien_can": [
+        {
+          "can": "Giáp, Ất",
+          "hanh": "Mộc",
+          "tinh_chat": "Cây cối sinh sôi, bắt đầu"
+        },
+        {
+          "can": "Bính, Đinh",
+          "hanh": "Hỏa",
+          "tinh_chat": "Lửa bốc lên, sáng sủa, nhiệt huyết"
+        },
+        {
+          "can": "Mậu, Kỷ",
+          "hanh": "Thổ",
+          "tinh_chat": "Đất mẹ nuôi dưỡng, vững chãi"
+        },
+        {
+          "can": "Canh, Tân",
+          "hanh": "Kim",
+          "tinh_chat": "Kim khí cứng rắn, thanh lọc, minh bạch"
+        },
+        {
+          "can": "Nhâm, Quý",
+          "hanh": "Thủy",
+          "tinh_chat": "Nước mềm mại, lưu chuyển, đi xa"
+        }
+      ],
+      "luu_y": "Hành của ngày thay đổi mỗi ngày theo vòng Can Chi 60 hoa giáp (Lục thập hoa giáp), không cố định theo tháng hay năm."
+    },
+    "muc_2_2_hanh_cua_viec_lam": {
+      "tieu_de": "2.2 Bảng Phân Loại Hành Cho Từng Công Việc Chính Trong Đời Sống",
+      "danh_sach": [
+        {
+          "viec": "Khởi công xây dựng, cơi nới nhà cửa, trồng cây gây rừng",
+          "hanh": "Mộc",
+          "ly_do": "Mộc tượng trưng cho sự sinh sôi, mọc lên, phát triển từ nền móng."
+        },
+        {
+          "viec": "Cưới hỏi, đính hôn, khai trương cửa hàng, nhận chức vụ mới",
+          "hanh": "Hỏa",
+          "ly_do": "Hỏa tượng trưng cho niềm vui hân hoan, ánh sáng rực rỡ, thịnh vượng và tương lai."
+        },
+        {
+          "viec": "Mua đất đai, mua nhà ở, chuyển nhà mới, đặt viên đá nền móng",
+          "hanh": "Thổ",
+          "ly_do": "Thổ là đất đai, tượng trưng cho sự nâng đỡ vững chãi, an cư lạc nghiệp bền lâu."
+        },
+        {
+          "viec": "Ký kết hợp đồng, giao dịch tài chính, mở sổ sách kế toán, phân chia",
+          "hanh": "Kim",
+          "ly_do": "Kim là kim loại, tiền bạc, tượng trưng cho tính chuẩn xác, minh bạch, có giá trị pháp lý."
+        },
+        {
+          "viec": "Xuất hành đi xa, du học, chuyển công tác, giao thương buôn bán đường dài",
+          "hanh": "Thủy",
+          "ly_do": "Thủy là dòng nước chảy, tượng trưng cho sự linh hoạt, lưu thông thông suốt, thượng lộ bình an."
+        },
+        {
+          "viec": "Bắt đầu chữa bệnh, uống thuốc bồi bổ, tĩnh dưỡng sức khỏe",
+          "hanh": "Thủy",
+          "ly_do": "Thủy nuôi dưỡng sinh mệnh, làm dịu viêm nhiễm, phục hồi thể lực."
+        }
+      ]
+    },
+    "muc_2_3_quy_tac_chon_dung": {
+      "tieu_de": "2.3 Quy Tắc Vàng Phối Hợp Chọn Ngày Đúng",
+      "quy_tac": [
+        "✅ TỐT NHẤT: Hành của ngày TƯƠNG SINH cho hành việc làm (VD: Khởi công Mộc chọn ngày Thủy vì Thủy sinh Mộc).",
+        "✅ RẤT TỐT: Hành của ngày CÙNG HÀNH với việc làm (VD: Khởi công Mộc chọn ngày Mộc; Cưới hỏi Hỏa chọn ngày Hỏa).",
+        "⚠️ CẨN TRỌNG: Hành của ngày BỊ HÀNH VIỆC KHẮC hoặc KHẮC HÀNH VIỆC (VD: Khởi công Mộc tránh ngày Kim vì Kim khắc Mộc) -> Cần chọn giờ tốt để hóa giải.",
+        "❌ NÊN TRÁNH: Ngày vừa khắc mạnh với việc làm, vừa trùng ngày Trực Phá hoặc Bế -> Tốt nhất nên hoãn sang ngày khác."
+      ]
+    }
+  },
+  "phan_3_bang_chon_ngay_theo_tung_viec": {
+    "tieu_de": "Phần 3: Bảng Tra Cứu Chọn Ngày Theo 14 Công Việc Trọng Đại",
+    "danh_sach_14_viec": [
+      {
+        "stt": 1,
+        "viec_lam": "Khởi công xây dựng nhà cửa",
+        "hanh_viec": "Mộc",
+        "ngay_hanh_nen_chon": [
+          "Thủy (Tương sinh)",
+          "Mộc (Đồng hành)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Kim (Kim khắc Mộc)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Mãn",
+          "Ngày Định",
+          "Ngày Thành"
+        ],
+        "loi_khuyen": "Nên chọn buổi sáng từ 7h - 9h (giờ Thìn) hoặc 9h - 11h (giờ Tỵ) để đón dương khí khởi sắc."
+      },
+      {
+        "stt": 2,
+        "viec_lam": "Đặt đá đầu tiên (Động thổ)",
+        "hanh_viec": "Thổ",
+        "ngay_hanh_nen_chon": [
+          "Hỏa (Hỏa sinh Thổ)",
+          "Thổ (Đồng hành)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Thủy (Thổ khắc Thủy hao tổn)",
+          "Mộc (Mộc khắc Thổ)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Định",
+          "Ngày Thành",
+          "Ngày Thu"
+        ],
+        "loi_khuyen": "Thực hiện nghi lễ trang nghiêm, thành tâm xin phép thổ thần thổ địa nơi cư ngụ."
+      },
+      {
+        "stt": 3,
+        "viec_lam": "Mua nhà, nhận nhà mới, nhập trạch",
+        "hanh_viec": "Thổ",
+        "ngay_hanh_nen_chon": [
+          "Hỏa (Sinh Thổ)",
+          "Thổ (Đồng hành)",
+          "Mộc (Sinh sôi)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Thủy (Khắc nhập)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Thành",
+          "Ngày Thu",
+          "Ngày Mãn"
+        ],
+        "loi_khuyen": "Khi vào nhà mới nên đun ấm nước sôi, bật đèn sáng sủa, gia đình hòa thuận cười vui."
+      },
+      {
+        "stt": 4,
+        "viec_lam": "Cưới hỏi, lễ ăn hỏi, đính hôn",
+        "hanh_viec": "Hỏa",
+        "ngay_hanh_nen_chon": [
+          "Mộc (Mộc sinh Hỏa)",
+          "Hỏa (Đồng hành)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Thủy (Thủy khắc Hỏa dập lửa)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Thành",
+          "Ngày Định",
+          "Ngày Mãn"
+        ],
+        "loi_khuyen": "Ngày vui trăm năm nên chọn ngày có hòa khí, tránh ngày xung khắc tuổi cô dâu chú rể."
+      },
+      {
+        "stt": 5,
+        "viec_lam": "Khai trương cửa hàng, mở công ty",
+        "hanh_viec": "Hỏa",
+        "ngay_hanh_nen_chon": [
+          "Mộc (Sinh Hỏa)",
+          "Hỏa (Đồng hành)",
+          "Kim (Phát tài)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Thủy (Khắc Hỏa)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Thành",
+          "Ngày Mãn",
+          "Ngày Thu"
+        ],
+        "loi_khuyen": "Mở cửa đón khách vào khung giờ Hoàng đạo buổi sáng đón ánh nắng ban mai."
+      },
+      {
+        "stt": 6,
+        "viec_lam": "Ký kết hợp đồng, giao dịch lớn",
+        "hanh_viec": "Kim",
+        "ngay_hanh_nen_chon": [
+          "Thổ (Thổ sinh Kim)",
+          "Kim (Đồng hành)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Hỏa (Hỏa nung chảy Kim)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Định",
+          "Ngày Thành",
+          "Ngày Trí"
+        ],
+        "loi_khuyen": "Ngày Trí và Định giúp đầu óc minh mẫn, điều khoản rõ ràng, đối tác tin cậy."
+      },
+      {
+        "stt": 7,
+        "viec_lam": "Mua bán đất đai, bất động sản",
+        "hanh_viec": "Thổ",
+        "ngay_hanh_nen_chon": [
+          "Hỏa (Sinh Thổ)",
+          "Thổ (Đồng hành)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Thủy (Bị hao tiết)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Thành",
+          "Ngày Thu",
+          "Ngày Định"
+        ],
+        "loi_khuyen": "Giúp tài sản gia tăng giá trị, an tâm pháp lý không tranh chấp."
+      },
+      {
+        "stt": 8,
+        "viec_lam": "Xuất hành đi xa, công tác, du học",
+        "hanh_viec": "Thủy",
+        "ngay_hanh_nen_chon": [
+          "Kim (Kim sinh Thủy)",
+          "Thủy (Đồng hành)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Thổ (Thổ ngăn chặn Thủy)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Thành",
+          "Ngày Định",
+          "Ngày Mãn"
+        ],
+        "loi_khuyen": "Nên bước chân xuất phát vào hướng Hỷ Thần hoặc Tài Thần trong ngày."
+      },
+      {
+        "stt": 9,
+        "viec_lam": "Bắt đầu điều trị bệnh, uống thuốc",
+        "hanh_viec": "Thủy",
+        "ngay_hanh_nen_chon": [
+          "Thủy (Lưu thông)",
+          "Mộc (Hồi phục)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Thổ (Ứ trệ)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Định",
+          "Ngày Thành",
+          "Ngày Thu",
+          "Ngày Phá (để trừ bệnh)"
+        ],
+        "loi_khuyen": "Đặc biệt ngày Phá rất tốt để làm phẫu thuật, giải trừ mầm bệnh ứ đọng."
+      },
+      {
+        "stt": 10,
+        "viec_lam": "Tổ chức tiệc mừng, cúng lễ tạ ơn",
+        "hanh_viec": "Hỏa",
+        "ngay_hanh_nen_chon": [
+          "Mộc (Sinh Hỏa)",
+          "Hỏa (Đồng hành)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Thủy (Khắc Hỏa)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Thành",
+          "Ngày Thu",
+          "Ngày Định"
+        ],
+        "loi_khuyen": "Tấm lòng thành kính là cốt lõi, không cần phô trương lãng phí."
+      },
+      {
+        "stt": 11,
+        "viec_lam": "Chọn ngày dự sinh con (mổ chủ động)",
+        "hanh_viec": "Thủy/Mộc",
+        "ngay_hanh_nen_chon": [
+          "Thủy (Sinh Mộc)",
+          "Mộc (Tươi tốt)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Kim (Khắc Mộc)",
+          "Thổ (Khắc Thủy)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Thành",
+          "Ngày Mãn",
+          "Ngày Định"
+        ],
+        "loi_khuyen": "⚠️ Phải ưu tiên tuyệt đối sức khỏe của mẹ và chỉ định của bác sĩ sản khoa."
+      },
+      {
+        "stt": 12,
+        "viec_lam": "Bắt đầu học nghề, khai giảng khóa học",
+        "hanh_viec": "Mộc",
+        "ngay_hanh_nen_chon": [
+          "Thủy (Sinh Mộc)",
+          "Mộc (Đồng hành)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Kim (Khắc Mộc)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Định",
+          "Ngày Thành",
+          "Ngày Mãn"
+        ],
+        "loi_khuyen": "Học hành cần kiên trì bền bỉ, ngày Định giúp tâm trí chuyên chú sâu sắc."
+      },
+      {
+        "stt": 13,
+        "viec_lam": "Thanh lý tài sản, tách công ty",
+        "hanh_viec": "Kim",
+        "ngay_hanh_nen_chon": [
+          "Kim (Phân minh)",
+          "Thủy (Thoát ly)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Mộc (Khắc chế)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Phá (Phá dỡ)",
+          "Ngày Vĩ (Kết thúc)"
+        ],
+        "loi_khuyen": "Ngày Phá và Vĩ phù hợp để kết thúc các giao dịch cũ, dọn đường cho cái mới."
+      },
+      {
+        "stt": 14,
+        "viec_lam": "Nghỉ việc, giải thể, bàn giao",
+        "hanh_viec": "Kim",
+        "ngay_hanh_nen_chon": [
+          "Kim (Minh bạch)",
+          "Thổ (Vững yên)"
+        ],
+        "ngay_hanh_can_tranh": [
+          "Mộc (Dây dưa)"
+        ],
+        "truc_nhat_uu_tien": [
+          "Ngày Thành",
+          "Ngày Thu",
+          "Ngày Bế"
+        ],
+        "loi_khuyen": "Khép lại một giai đoạn trong êm đẹp, giữ sự kính trọng và hòa nhã."
+      }
+    ]
+  },
+  "phan_4_tinh_hanh_nguoi_va_gio_tot": {
+    "tieu_de": "Phần 4: Cách Tính Hành Của Bản Thân & Chọn Giờ Hoàng Đạo Bổ Trợ",
+    "muc_4_1_tinh_hanh_theo_nam_sinh": {
+      "tieu_de": "4.1 Công Thức Tính Hành Của Người Theo 2 Số Cuối Năm Sinh",
+      "cong_thuc": "Lấy 2 chữ số cuối của năm sinh Dương lịch cộng lại với nhau. Nếu kết quả lớn hơn 9 thì tiếp tục cộng 2 chữ số đó cho đến khi còn 1 chữ số duy nhất (từ 1 đến 9).",
+      "bang_tra_so": [
+        {
+          "so": "Số 1",
+          "hanh": "Thủy",
+          "dac_tinh": "Mềm mại, thông thái, linh hoạt, khéo léo thích nghi."
+        },
+        {
+          "so": "Số 2, 5, 8",
+          "hanh": "Thổ",
+          "dac_tinh": "Vững chãi, đáng tin cậy, bao dung, kiên định."
+        },
+        {
+          "so": "Số 3, 4",
+          "hanh": "Mộc",
+          "dac_tinh": "Nhân ái, cầu tiến, sáng tạo, phát triển không ngừng."
+        },
+        {
+          "so": "Số 6, 7",
+          "hanh": "Kim",
+          "dac_tinh": "Cương trực, kỷ luật, quyết đoán, trọng danh dự."
+        },
+        {
+          "so": "Số 9",
+          "hanh": "Hỏa",
+          "dac_tinh": "Nhiệt tình, sáng suốt, năng động, giàu đam mê."
+        }
+      ],
+      "vi_du": "Người sinh năm 1980: Lấy 8 + 0 = 8 → Thuộc hành Thổ. Người sinh năm 1995: Lấy 9 + 5 = 14 → 1 + 4 = 5 → Thuộc hành Thổ."
+    },
+    "muc_4_2_ket_hop_nguoi_va_ngay": {
+      "tieu_de": "4.2 Quy Tắc Phối Hợp Giữa Hành Của Người & Hành Của Ngày",
+      "cac_truong_hop": [
+        "✅ TỐT NHẤT: Hành ngày tương sinh với người (VD: Người Thổ gặp ngày Hỏa vì Hỏa sinh Thổ) -> Thân tâm phấn chấn, tràn đầy sinh lực.",
+        "✅ RẤT TỐT: Hành ngày cùng hành với người (VD: Người Mộc gặp ngày Mộc) -> Đồng thanh tương ứng, làm việc thuận đà.",
+        "⚠️ KHẮC NHẸ: Người khắc ngày (VD: Người Thổ gặp ngày Thủy vì Thổ khắc Thủy) -> Vẫn làm được nhưng cần nỗ lực nhiều hơn.",
+        "❌ KHẮC MẠNH: Ngày khắc người (VD: Người Mộc gặp ngày Kim vì Kim khắc Mộc) -> Khi làm việc trọng đại nên chọn giờ tốt để hóa giải hoặc chọn ngày khác."
+      ]
+    },
+    "muc_4_3_bang_12_canh_gio": {
+      "tieu_de": "4.3 Bảng 12 Canh Giờ Trong Ngày & Ngũ Hành Bổ Trợ",
+      "danh_sach_gio": [
+        {
+          "gio": "Giờ Tý (23:00 – 01:00)",
+          "hanh": "Thủy",
+          "bo_tro": "Bổ trợ việc đi lại, xuất hành xa, giao dịch tài chính kín đáo."
+        },
+        {
+          "gio": "Giờ Sửu (01:00 – 03:00)",
+          "hanh": "Thổ",
+          "bo_tro": "Bổ trợ mua bán nhà đất, tích lũy tài sản, ổn định gia đạo."
+        },
+        {
+          "gio": "Giờ Dần (03:00 – 05:00)",
+          "hanh": "Mộc",
+          "bo_tro": "Bổ trợ khởi công, mở rộng quy mô, vươn tầm phát triển."
+        },
+        {
+          "gio": "Giờ Mão (05:00 – 07:00)",
+          "hanh": "Mộc",
+          "bo_tro": "Bổ trợ bắt đầu ngày mới, khởi hành sớm, học tập tiếp thu."
+        },
+        {
+          "gio": "Giờ Thìn (07:00 – 09:00)",
+          "hanh": "Thổ",
+          "bo_tro": "Bổ trợ ký kết hợp đồng chính thức, làm việc lớn, nhập trạch."
+        },
+        {
+          "gio": "Giờ Tỵ (09:00 – 11:00)",
+          "hanh": "Hỏa",
+          "bo_tro": "Bổ trợ khai trương hồng phát, cưới hỏi, ra mắt sản phẩm mới."
+        },
+        {
+          "gio": "Giờ Ngọ (11:00 – 13:00)",
+          "hanh": "Hỏa",
+          "bo_tro": "Bổ trợ tiệc mừng, lễ nghi tôn nghiêm, công bố tin vui."
+        },
+        {
+          "gio": "Giờ Mùi (13:00 – 15:00)",
+          "hanh": "Thổ",
+          "bo_tro": "Bổ trợ ổn định tổ chức, tiếp nhận nhân sự, hòa giải mâu thuẫn."
+        },
+        {
+          "gio": "Giờ Thân (15:00 – 17:00)",
+          "hanh": "Kim",
+          "bo_tro": "Bổ trợ đàm phán hợp đồng, phân chia quyền lợi, thống nhất cam kết."
+        },
+        {
+          "gio": "Giờ Dậu (17:00 – 19:00)",
+          "hanh": "Kim",
+          "bo_tro": "Bổ trợ thu tiền, tổng kết tài chính, bàn giao công việc."
+        },
+        {
+          "gio": "Giờ Tuất (19:00 – 21:00)",
+          "hanh": "Thổ",
+          "bo_tro": "Bổ trợ họp gia đình, cúng bái tạ ơn, gắn kết tình thân."
+        },
+        {
+          "gio": "Giờ Hợi (21:00 – 23:00)",
+          "hanh": "Thủy",
+          "bo_tro": "Bổ trợ lên kế hoạch, chuẩn bị kỹ lưỡng, tĩnh tâm nghỉ ngơi."
+        }
+      ]
+    }
+  },
+  "phan_5_12_ngay_truc_nhat_chi_tiet": {
+    "tieu_de": "Phần 5: Chi Tiết 12 Ngày Trực Nhật — Ý Nghĩa, Việc Nên Làm & Việc Cần Tránh",
+    "danh_sach_12_truc": [
+      {
+        "stt": 1,
+        "ten": "Ngày Thụy (Kiến)",
+        "phan_loai": "Trung tính / Cẩn trọng",
+        "y_nghia": "Thời điểm khởi đầu mới nhưng mọi thứ chưa ổn định vững vàng, còn non nớt.",
+        "nen_lam": "Lập kế hoạch chiến lược, học hỏi nâng cao tri thức, khảo sát thị trường, tích lũy nội lực.",
+        "tranh_lam": "Khởi sự việc quá lớn, ký kết giao dịch mạo hiểm, đặt cược tài chính dài hạn."
+      },
+      {
+        "stt": 2,
+        "ten": "Ngày Kha (Trừ)",
+        "phan_loai": "Trung tính",
+        "y_nghia": "Mở ra cơ hội mới, loại bỏ cái cũ để dọn đường đón nhận cái tốt đẹp.",
+        "nen_lam": "Dọn dẹp nhà cửa, thanh lý đồ cũ, khám chữa bệnh, giải trừ khúc mắc, gặp gỡ thăm hỏi xã giao.",
+        "tranh_lam": "Đầu tư tài chính quy mô lớn, ký hợp đồng dài hạn có rủi ro cao."
+      },
+      {
+        "stt": 3,
+        "ten": "Ngày Mãn (Mãn)",
+        "phan_loai": "Đại Cát ⭐⭐⭐⭐⭐",
+        "y_nghia": "Đầy đủ, sung túc, viên mãn, khí thế dồi dào, mọi sự trọn vẹn.",
+        "nen_lam": "Khởi công xây dựng, cưới hỏi, khai trương, mua sắm tài sản giá trị, ăn mừng thành công.",
+        "tranh_lam": "Chi tiêu hoang phí mất kiểm soát, chia tay hoặc gây gổ tranh cãi."
+      },
+      {
+        "stt": 4,
+        "ten": "Ngày Bình (Bình)",
+        "phan_loai": "Bình Hòa ⭐⭐⭐",
+        "y_nghia": "Bình ổn, êm ả, đều đặn, không có biến động lớn, thích hợp việc thường nhật.",
+        "nen_lam": "Làm công việc thường ngày, đi lại thăm hỏi, duy trì nhịp sống ổn định, chăm sóc sức khỏe.",
+        "tranh_lam": "Đưa ra các quyết định đột ngột mang tính bước ngoặt, thay đổi quá gấp gáp."
+      },
+      {
+        "stt": 5,
+        "ten": "Ngày Định (Định)",
+        "phan_loai": "Đại Cát ⭐⭐⭐⭐⭐",
+        "y_nghia": "Ổn định, chắc chắn, kiên định, tạo nền móng bền vững muôn đời.",
+        "nen_lam": "Ký hợp đồng, cưới hỏi, nhập trạch chuyển nhà, đặt đá nền móng, thỏa thuận hợp tác lâu dài.",
+        "tranh_lam": "Thay đổi quyết định liên tục, di chuyển chỗ ở vội vã, dao động thiếu kiên định."
+      },
+      {
+        "stt": 6,
+        "ten": "Ngày Trí (Chấp)",
+        "phan_loai": "Cát ⭐⭐⭐⭐",
+        "y_nghia": "Sáng suốt, thông tuệ, kỷ luật, hiểu rõ chân tướng sự việc.",
+        "nen_lam": "Ký kết giao dịch, mở văn phòng làm việc, thi cử học hành, ra quyết định quản lý quan trọng.",
+        "tranh_lam": "Nói năng buông thả, tiết lộ bí mật kinh doanh, làm việc thiếu nguyên tắc."
+      },
+      {
+        "stt": 7,
+        "ten": "Ngày Chấp (Chấp)",
+        "phan_loai": "Cát ⭐⭐⭐⭐",
+        "y_nghia": "Nắm giữ chắc chắn, bảo tồn thành quả, thu hút sinh khí vào trong.",
+        "nen_lam": "Nhận chức vụ mới, nhận bàn giao tài sản, giữ gìn tài chính, chăm sóc bồi bổ sức khỏe.",
+        "tranh_lam": "Bán tháo tài sản, cho vay mượn mạo hiểm, ly tán chia tách."
+      },
+      {
+        "stt": 8,
+        "ten": "Ngày Phá (Phá)",
+        "phan_loai": "Cẩn trọng / Hung ⚠️",
+        "y_nghia": "Phá bỏ, xáo trộn, xung đột rạn nứt, năng lượng phân tán.",
+        "nen_lam": "Chữa bệnh phẫu thuật, giải trừ nợ nần cũ, đập bỏ công trình hư hỏng, từ bỏ thói quen xấu.",
+        "tranh_lam": "Tuyệt đối tránh: Khởi công, cưới hỏi, khai trương, ký hợp đồng làm ăn lớn."
+      },
+      {
+        "stt": 9,
+        "ten": "Ngày Vĩ (Nguy)",
+        "phan_loai": "Trung tính",
+        "y_nghia": "Sắp hoàn thành, giai đoạn cuối, cần sự cẩn trọng để về đích an toàn.",
+        "nen_lam": "Nghiệm thu công trình, tất toán tài khoản, giao nhận sản phẩm, thanh toán công nợ.",
+        "tranh_lam": "Bắt đầu dự án mới dài hạn, đầu tư mạo hiểm khi chưa hiểu rõ."
+      },
+      {
+        "stt": 10,
+        "ten": "Ngày Thành (Thành)",
+        "phan_loai": "Đại Cát ⭐⭐⭐⭐⭐",
+        "y_nghia": "Thành công mỹ mãn, vạn sự hanh thông, quý nhân nâng đỡ, kết quả rực rỡ.",
+        "nen_lam": "Tất cả mọi việc đại sự: Cưới hỏi, khởi công, khai trương, ký hợp đồng, xuất hành, nhận chức.",
+        "tranh_lam": "Trì hoãn, chần chừ lưỡng lự làm lỡ mất cơ hội vàng trời ban."
+      },
+      {
+        "stt": 11,
+        "ten": "Ngày Thu (Thu)",
+        "phan_loai": "Đại Cát ⭐⭐⭐⭐⭐",
+        "y_nghia": "Thu hoạch, tích lũy, tiền tài vào túi, gặt hái thành quả sau bao ngày cố gắng.",
+        "nen_lam": "Nhận tiền bạc, thu hồi vốn, mua nhà đất, nhận chức vụ, mở tài khoản tiết kiệm.",
+        "tranh_lam": "Cho vay mượn dễ dãi, chi tiêu hoang phí thiếu tính toán."
+      },
+      {
+        "stt": 12,
+        "ten": "Ngày Bế (Bế)",
+        "phan_loai": "Cẩn trọng / Tĩnh ⚠️",
+        "y_nghia": "Đóng lại, kín đáo, tĩnh lặng để nghỉ ngơi và nạp lại năng lượng mới.",
+        "nen_lam": "Nghỉ ngơi tĩnh dưỡng, cúng bái gia tiên, tu sửa hàng rào, bảo vệ kho tàng tài sản.",
+        "tranh_lam": "Mở rộng kinh doanh, xuất hành đi xa, tổ chức sự kiện ồn ào đông đúc."
+      }
+    ]
+  },
+  "phan_6_cong_cu_tinh_ngay_tot": {
+    "tieu_de": "Phần 6: Công Cụ Tra Cứu & Tính Ngày Tốt Tự Động Trực Tuyến",
+    "huong_dan": "Nhập ngày dự kiến làm việc (Dương lịch), chọn công việc và nhập năm sinh của bạn. Hệ thống sẽ tự động chuyển đổi sang Âm lịch chuẩn xác, tính toán Can Chi, Ngũ Hành của Ngày - Việc - Người và chấm điểm tổng hợp."
+  },
+  "phan_7_loi_thuong_gap_va_nguyen_tac": {
+    "tieu_de": "Phần 7: Các Sai Lầm Dễ Mắc & 5 Nguyên Tắc Vàng Khi Chọn Ngày",
+    "sai_lam_pho_bien": [
+      {
+        "loi": "Chỉ xem ngày tốt chung chung mà không xem hành của việc làm",
+        "tac_hai": "Ngày rất đẹp nhưng hành của ngày lại khắc hành của việc (VD: ngày Kim đi khởi công Mộc) thì công việc vẫn gặp nhiều trở ngại.",
+        "cach_sua": "Luôn luôn đối chiếu xem việc mình làm thuộc hành gì để chọn ngày có hành tương sinh hoặc đồng hành."
+      },
+      {
+        "loi": "Chỉ xem ngày mà quên đối chiếu hành của người thực hiện",
+        "tac_hai": "Ngày hợp việc nhưng lại khắc mạnh với bản mệnh người chủ trì thì người đó dễ bị mệt mỏi, áp lực hoặc hao tài.",
+        "cach_sua": "Chọn ngày vừa tương sinh với việc làm, vừa nâng đỡ bản mệnh người thực hiện."
+      },
+      {
+        "loi": "Quá mê tín cuồng tín, bỏ lỡ cơ hội thực tế",
+        "tac_hai": "Chờ đợi ngày quá hoàn hảo mà làm mất đi thời cơ kinh doanh, lỡ hẹn với đối tác hoặc trì hoãn việc cấp bách.",
+        "cach_sua": "Nếu ngày chưa hoàn hảo, hãy chọn giờ tốt trong ngày để hóa giải và tiến hành với sự chuẩn bị kỹ lưỡng nhất."
+      },
+      {
+        "loi": "Nghĩ rằng ngày xấu là tuyệt đối không làm được gì",
+        "tac_hai": "Hoang mang lo sợ không cần thiết.",
+        "cach_sua": "Ngày Phá vẫn rất tốt để trừ bệnh, phá bỏ cái cũ; ngày Bế rất tốt để nghỉ ngơi bồi bổ thân tâm."
+      }
+    ],
+    "5_nguyen_tac_vang": [
+      "1. NGUYÊN TẮC CÂN BẰNG: Ngày Tốt = Hành ngày sinh với Việc + Hành ngày sinh với Người + Trực Nhật cát tường.",
+      "2. NGUYÊN TẮC LINH HOẠT: Không có ngày nào hoàn hảo 100% cho tất cả mọi việc — Hãy chọn ngày có nhiều điểm tương hợp nhất.",
+      "3. NGUYÊN TẮC HÓA GIẢI: Khi ngày chỉ ở mức bình hòa hoặc có chút xung khắc nhẹ, hãy chọn đúng Giờ Hoàng Đạo để bổ trợ năng lượng.",
+      "4. NGUYÊN TẮC HÀNH ĐỘNG: Ngày tốt chỉ là thiên thời — Nhân hòa (sự chuẩn bị chu đáo, nỗ lực hết mình) mới quyết định 90% thành quả.",
+      "5. NGUYÊN TẮC TÂM ĐỨC: 'Người tốt thì ngày cũng tốt theo' — Giữ tâm chân thành, sống đức độ, kính trọng mọi người thì đi đâu, làm gì ngày nào cũng là ngày lành."
+    ]
+  },
+  "phan_8_tra_cuu_nhanh": {
+    "tieu_de": "Phần 8: Bảng Tra Cứu Nhanh — Một Lần Nhìn Thấy Ngay",
+    "bang_tom_tat": [
+      {
+        "viec_lam": "Khởi công xây dựng",
+        "uu_tien_1": "Ngày Thủy, Trực Mãn",
+        "uu_tien_2": "Ngày Mộc, Trực Thành",
+        "tranh": "Ngày Kim, Trực Phá",
+        "gio_tot": "Giờ Dần (3-5h), Giờ Mão (5-7h), Giờ Tỵ (9-11h)"
+      },
+      {
+        "viec_lam": "Cưới hỏi, đính hôn",
+        "uu_tien_1": "Ngày Mộc, Trực Thành",
+        "uu_tien_2": "Ngày Hỏa, Trực Định",
+        "tranh": "Ngày Thủy, Trực Bế",
+        "gio_tot": "Giờ Ngọ (11-13h), Giờ Mùi (13-15h), Giờ Thân (15-17h)"
+      },
+      {
+        "viec_lam": "Chuyển nhà, nhập trạch",
+        "uu_tien_1": "Ngày Hỏa, Trực Thành",
+        "uu_tien_2": "Ngày Thổ, Trực Định",
+        "tranh": "Ngày Thủy, Trực Phá",
+        "gio_tot": "Giờ Thìn (7-9h), Giờ Tỵ (9-11h), Giờ Ngọ (11-13h)"
+      },
+      {
+        "viec_lam": "Khai trương cửa hàng",
+        "uu_tien_1": "Ngày Mộc, Trực Mãn",
+        "uu_tien_2": "Ngày Hỏa, Trực Thành",
+        "tranh": "Ngày Thủy, Trực Bế",
+        "gio_tot": "Giờ Tỵ (9-11h), Giờ Ngọ (11-13h), Giờ Thân (15-17h)"
+      },
+      {
+        "viec_lam": "Ký kết hợp đồng lớn",
+        "uu_tien_1": "Ngày Thổ, Trực Định",
+        "uu_tien_2": "Ngày Kim, Trực Trí",
+        "tranh": "Ngày Hỏa, Trực Kha",
+        "gio_tot": "Giờ Thìn (7-9h), Giờ Thân (15-17h), Giờ Dậu (17-19h)"
+      },
+      {
+        "viec_lam": "Mua bán đất đai tài sản",
+        "uu_tien_1": "Ngày Hỏa, Trực Thu",
+        "uu_tien_2": "Ngày Thổ, Trực Thành",
+        "tranh": "Ngày Thủy, Trực Phá",
+        "gio_tot": "Giờ Sửu (1-3h), Giờ Thìn (7-9h), Giờ Mùi (13-15h)"
+      },
+      {
+        "viec_lam": "Xuất hành, đi công tác xa",
+        "uu_tien_1": "Ngày Kim, Trực Định",
+        "uu_tien_2": "Ngày Thủy, Trực Mãn",
+        "tranh": "Ngày Thổ, Trực Bế",
+        "gio_tot": "Giờ Mão (5-7h), Giờ Thân (15-17h), Giờ Hợi (21-23h)"
+      }
+    ]
+  }
+}
