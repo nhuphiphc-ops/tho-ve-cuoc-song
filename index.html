@@ -2837,6 +2837,60 @@
               <span class="text-[10px] text-slate-400">Hỏi đáp tức thì về mọi chủ đề</span>
             </div>
           </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('chongaytot')" class="p-3 rounded-2xl bg-yellow-950/40 border border-yellow-500/40 text-left flex items-center justify-between hover:bg-yellow-900/40 transition-all cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span class="text-xl">🗓️</span>
+              <div>
+                <b class="text-yellow-200 block text-xs">Chọn Ngày Tốt</b>
+                <span class="text-[10px] text-slate-400">Âm Dương, Ngũ Hành, 12 Trực Nhật</span>
+              </div>
+            </div>
+            <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-yellow-500 text-slate-950">MỚI</span>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('caudotritue')" class="p-3 rounded-2xl bg-emerald-950/40 border border-emerald-500/40 text-left flex items-center justify-between hover:bg-emerald-900/40 transition-all cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span class="text-xl">🧠</span>
+              <div>
+                <b class="text-emerald-200 block text-xs">Câu Đố Trí Tuệ</b>
+                <span class="text-[10px] text-slate-400">160 câu, 4 cấp độ, rèn tư duy nhanh</span>
+              </div>
+            </div>
+            <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-emerald-500 text-slate-950">MỚI</span>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('muuke')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-purple-500/40 transition-all cursor-pointer">
+            <span class="text-xl">⚔️</span>
+            <div>
+              <b class="text-purple-300 block text-xs">36 Kế & Binh Pháp</b>
+              <span class="text-[10px] text-slate-400">Kế sách thông minh ứng dụng thực tiễn</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('nhannhan')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-amber-500/40 transition-all cursor-pointer">
+            <span class="text-xl">👀</span>
+            <div>
+              <b class="text-amber-300 block text-xs">Nhìn Nhận Cuộc Sống</b>
+              <span class="text-[10px] text-slate-400">Góc nhìn nhân sinh sâu sắc, thấu suốt</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('chuyenranday')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-amber-500/40 transition-all cursor-pointer">
+            <span class="text-xl">📜</span>
+            <div>
+              <b class="text-amber-300 block text-xs">Chuyện Răn Dạy</b>
+              <span class="text-[10px] text-slate-400">Mẫu chuyện cổ răn dạy con cháu</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('poems')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-rose-500/40 transition-all cursor-pointer">
+            <span class="text-xl">🌸</span>
+            <div>
+              <b class="text-rose-300 block text-xs">Thơ Nguyễn Như Phi</b>
+              <span class="text-[10px] text-slate-400">Thi ca triết lý, nhân quả, chữ hiếu</span>
+            </div>
+          </button>
         </div>
       </div>
     </div>
@@ -3390,7 +3444,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v48';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v49';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
