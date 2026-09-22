@@ -283,14 +283,14 @@
                     <button
             id="tab-caudotritue"
             onclick="switchMainTab('caudotritue')"
-            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200 hidden"
           >
             <span>🧠</span> <span>Câu Đố Trí Tuệ</span>
           </button>
 <button
             id="tab-chongaytot"
             onclick="switchMainTab('chongaytot')"
-            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+            class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all duration-300 flex items-center gap-1.5 text-slate-400 hover:text-slate-200 hidden"
           >
             <span>🗓️</span> <span>Chọn Ngày Tốt</span>
           </button>
@@ -3316,6 +3316,10 @@
     const phongthuySection = document.getElementById('phongthuy-section');
     const tabHuyetdao = document.getElementById('tab-huyetdao');
     const huyetdaoSection = document.getElementById('huyetdao-section');
+    const tabChongaytot = document.getElementById('tab-chongaytot');
+    const chongaytotSection = document.getElementById('chongaytot-section');
+    const tabCaudotritue = document.getElementById('tab-caudotritue');
+    const caudotritueSection = document.getElementById('caudotritue-section');
     const tabAiagent = document.getElementById('tab-aiagent');
     const headerStatus = document.getElementById('header-status');
 
@@ -3386,7 +3390,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v46';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v48';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -9636,42 +9640,51 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  ${filtered.map((item, idx) => `
+                  ${filtered.map((item, idx) => {
+                    const ngayNenChon = (item.ngay_hanh_nen_chon || []).join(', ');
+                    const trucTot = (item.truc_nhat_uu_tien || []).join(', ');
+                    const canTranh = (item.ngay_hanh_can_tranh || []).join(', ');
+                    const taskKeyMap = ['khoi_cong','khoi_cong','mua_nha','cuoi_hoi','khai_truong','ky_hop_dong','mua_dat','xuat_hanh','chua_benh','tiec_cung','sinh_con','hoc_nghe','thanh_ly','thanh_ly'];
+                    const taskKey = taskKeyMap[idx] || 'khoi_cong';
+                    const speakText = `Việc: ${item.viec_lam}. Hành của việc: ${item.hanh_viec}. Ngày nên chọn: ${ngayNenChon}. Trực nhật tốt: ${trucTot}. Cần tránh: ${canTranh}. ${item.loi_khuyen || ''}`;
+                    const safeSpeak = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+                    return `
                     <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-yellow-500/40 transition-all flex flex-col justify-between">
                       <div>
                         <div class="flex justify-between items-start gap-2 mb-2">
                           <h4 class="text-sm font-black text-yellow-200 flex items-center gap-1.5">
-                            <span>${idx + 1}.</span> <span>${item.ten_viec}</span>
+                            <span>${item.stt || idx + 1}.</span> <span>${item.viec_lam}</span>
                           </h4>
                           <span class="px-2 py-0.5 rounded-lg bg-yellow-500/15 border border-yellow-500/30 text-yellow-300 text-[10px] font-bold shrink-0">
-                            ${item.hanh_cua_viec}
+                            ${item.hanh_viec}
                           </span>
                         </div>
 
                         <div class="space-y-1.5 text-xs text-slate-300 mb-3">
-                          <p><span class="text-slate-400 font-semibold">✨ Ngày nên chọn:</span> ${item.ngay_nen_chon}</p>
-                          <p><span class="text-emerald-400 font-semibold">📜 Trực nhật tốt:</span> ${item.truc_tot}</p>
-                          <p><span class="text-amber-400 font-semibold">⏰ Giờ tốt:</span> ${item.gio_tot}</p>
-                          <p><span class="text-rose-400 font-semibold">⚠️ Cần tránh:</span> ${item.tranh}</p>
+                          <p><span class="text-slate-400 font-semibold">✨ Ngày nên chọn:</span> ${ngayNenChon}</p>
+                          <p><span class="text-emerald-400 font-semibold">📜 Trực nhật tốt:</span> ${trucTot}</p>
+                          <p><span class="text-rose-400 font-semibold">⚠️ Cần tránh:</span> ${canTranh}</p>
+                          <p><span class="text-amber-400 font-semibold">💡 Lời khuyên:</span> ${item.loi_khuyen || ''}</p>
                         </div>
                       </div>
 
                       <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center">
-                        <button 
-                          onclick="playTTS(event, 'Việc: ${item.ten_viec}. Hành của việc: ${item.hanh_cua_viec}. Ngày nên chọn: ${item.ngay_nen_chon}. Trực nhật tốt: ${item.truc_tot}. Cần tránh: ${item.tranh}', 'vi')"
+                        <button
+                          onclick="playTTS(event, '${safeSpeak}', 'vi')"
                           class="px-3 py-1 rounded-xl bg-slate-900 hover:bg-yellow-950/60 text-yellow-300 border border-slate-800 text-xs font-bold transition-all flex items-center gap-1 cursor-pointer"
                         >
                           <span>🔊</span> <span>Nghe mục này</span>
                         </button>
-                        <button 
-                          onclick="document.getElementById('calc-cngt-task').value = '${item.key || 'khoi_cong'}'; selectChonNgayTotSubTab('cong_cu'); showToast('Đã chọn việc: ' + '${item.ten_viec}', '🎯');"
+                        <button
+                          onclick="document.getElementById('calc-cngt-task').value = '${taskKey}'; selectChonNgayTotSubTab('cong_cu'); showToast('Đã chọn việc: ' + '${(item.viec_lam || '').replace(/'/g, "\\'")}', '🎯');"
                           class="px-3 py-1 rounded-xl bg-yellow-950/40 hover:bg-yellow-900/60 text-yellow-200 border border-yellow-500/30 text-xs font-bold transition-all cursor-pointer"
                         >
                           🧮 Tính ngay
                         </button>
                       </div>
                     </div>
-                  `).join('')}
+                  `;
+                  }).join('')}
                 </div>
               </div>
             `);
@@ -9779,31 +9792,37 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
-                  ${filtered.map(t => `
-                    <div class="p-4 rounded-2xl bg-slate-950/80 border ${t.danh_gia === 'CÁT' || t.danh_gia === 'ĐẠI CÁT' ? 'border-emerald-500/40 bg-emerald-950/10' : t.danh_gia === 'HUNG' ? 'border-rose-500/40 bg-rose-950/10' : 'border-slate-800'} flex flex-col justify-between">
+                  ${filtered.map(t => {
+                    const isCat = (t.phan_loai || '').includes('Cát');
+                    const isHung = (t.phan_loai || '').includes('Hung');
+                    const speakText = `Trực ${t.ten}. Đánh giá: ${t.phan_loai}. Ý nghĩa: ${t.y_nghia}. Việc nên làm: ${t.nen_lam}. Việc nên tránh: ${t.tranh_lam}`;
+                    const safeSpeak = speakText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+                    return `
+                    <div class="p-4 rounded-2xl bg-slate-950/80 border ${isCat ? 'border-emerald-500/40 bg-emerald-950/10' : isHung ? 'border-rose-500/40 bg-rose-950/10' : 'border-slate-800'} flex flex-col justify-between">
                       <div>
                         <div class="flex justify-between items-center gap-2 mb-2">
-                          <b class="text-sm font-black text-yellow-300">${t.ten_truc}</b>
-                          <span class="px-2 py-0.5 rounded-md text-[10px] font-black ${t.danh_gia === 'CÁT' || t.danh_gia === 'ĐẠI CÁT' ? 'bg-emerald-500 text-slate-950' : t.danh_gia === 'HUNG' ? 'bg-rose-500 text-white' : 'bg-slate-800 text-slate-300'}">
-                            ${t.danh_gia}
+                          <b class="text-sm font-black text-yellow-300">${t.ten}</b>
+                          <span class="px-2 py-0.5 rounded-md text-[10px] font-black ${isCat ? 'bg-emerald-500 text-slate-950' : isHung ? 'bg-rose-500 text-white' : 'bg-slate-800 text-slate-300'}">
+                            ${t.phan_loai}
                           </span>
                         </div>
                         <p class="text-xs text-slate-300 mb-2 leading-relaxed">${t.y_nghia}</p>
                         <div class="text-[11px] space-y-1 text-slate-400">
                           <p><b class="text-emerald-300">✅ Nên làm:</b> ${t.nen_lam}</p>
-                          <p><b class="text-rose-300">❌ Nên tránh:</b> ${t.tranh}</p>
+                          <p><b class="text-rose-300">❌ Nên tránh:</b> ${t.tranh_lam}</p>
                         </div>
                       </div>
                       <div class="mt-3 pt-2.5 border-t border-slate-800/80 flex justify-end">
-                        <button 
-                          onclick="playTTS(event, 'Trực ${t.ten_truc}. Đánh giá: ${t.danh_gia}. Ý nghĩa: ${t.y_nghia}. Việc nên làm: ${t.nen_lam}. Việc nên tránh: ${t.tranh}', 'vi')"
+                        <button
+                          onclick="playTTS(event, '${safeSpeak}', 'vi')"
                           class="px-2.5 py-1 rounded-lg bg-slate-900 hover:bg-slate-800 text-yellow-300 text-[11px] font-bold flex items-center gap-1 border border-slate-800 cursor-pointer"
                         >
                           <span>🔊</span> <span>Nghe</span>
                         </button>
                       </div>
                     </div>
-                  `).join('')}
+                  `;
+                  }).join('')}
                 </div>
               </div>
             `);
@@ -13174,6 +13193,8 @@
         const hasGout = isAdmin || currentUser.quyen.includes('gout');
         const hasPhongThuy = isAdmin || currentUser.quyen.includes('phongthuy');
         const hasHuyetDao = isAdmin || currentUser.quyen.includes('huyetdao');
+        const hasChonNgayTot = isAdmin || currentUser.quyen.includes('chongaytot');
+        const hasCauDoTriTue = isAdmin || currentUser.quyen.includes('caudotritue');
         const hasAiAgent = isAdmin || currentUser.quyen.includes('aiagent');
         const hasUsers = isAdmin || currentUser.quyen.includes('users');
 
@@ -13192,6 +13213,8 @@
         toggleTabButtonVisibility('tab-gout', hasGout);
         toggleTabButtonVisibility('tab-phongthuy', hasPhongThuy);
         toggleTabButtonVisibility('tab-huyetdao', hasHuyetDao);
+        toggleTabButtonVisibility('tab-chongaytot', hasChonNgayTot);
+        toggleTabButtonVisibility('tab-caudotritue', hasCauDoTriTue);
         toggleTabButtonVisibility('tab-aiagent', hasAiAgent);
         toggleTabButtonVisibility('tab-users', hasUsers);
 
@@ -13211,6 +13234,8 @@
           'gout': hasGout,
           'phongthuy': hasPhongThuy,
           'huyetdao': hasHuyetDao,
+          'chongaytot': hasChonNgayTot,
+          'caudotritue': hasCauDoTriTue,
           'aiagent': hasAiAgent,
           'users': hasUsers
         };
@@ -13231,6 +13256,8 @@
         else if (goutSection && !goutSection.classList.contains('hidden')) currentTab = 'gout';
         else if (phongthuySection && !phongthuySection.classList.contains('hidden')) currentTab = 'phongthuy';
         else if (huyetdaoSection && !huyetdaoSection.classList.contains('hidden')) currentTab = 'huyetdao';
+        else if (chongaytotSection && !chongaytotSection.classList.contains('hidden')) currentTab = 'chongaytot';
+        else if (caudotritueSection && !caudotritueSection.classList.contains('hidden')) currentTab = 'caudotritue';
         else if (!aiagentSection.classList.contains('hidden')) currentTab = 'aiagent';
         else if (!document.getElementById('users-section').classList.contains('hidden')) currentTab = 'users';
 
@@ -13250,6 +13277,8 @@
           else if (hasGout) switchMainTab('gout');
           else if (hasPhongThuy) switchMainTab('phongthuy');
           else if (hasHuyetDao) switchMainTab('huyetdao');
+          else if (hasChonNgayTot) switchMainTab('chongaytot');
+          else if (hasCauDoTriTue) switchMainTab('caudotritue');
           else if (hasAiAgent) switchMainTab('aiagent');
           else if (hasUsers) switchMainTab('users');
         }
@@ -13357,6 +13386,8 @@
         if (u.quyen.includes('gout')) permsList.push('Gút');
         if (u.quyen.includes('phongthuy')) permsList.push('Phong Thủy');
         if (u.quyen.includes('huyetdao')) permsList.push('Huyệt Đạo');
+        if (u.quyen.includes('chongaytot')) permsList.push('Chọn Ngày Tốt');
+        if (u.quyen.includes('caudotritue')) permsList.push('Câu Đố Trí Tuệ');
         if (u.quyen.includes('aiagent')) permsList.push('Trợ Lý AI');
         if (u.quyen.includes('users')) permsList.push('Quản Trị');
 
@@ -13436,6 +13467,10 @@
       if (document.getElementById('perm-tuthu')) document.getElementById('perm-tuthu').checked = u.quyen.includes('tuthu');
       if (document.getElementById('perm-phapluat')) document.getElementById('perm-phapluat').checked = u.quyen.includes('phapluat');
       if (document.getElementById('perm-gout')) document.getElementById('perm-gout').checked = u.quyen.includes('gout');
+      if (document.getElementById('perm-phongthuy')) document.getElementById('perm-phongthuy').checked = u.quyen.includes('phongthuy');
+      if (document.getElementById('perm-huyetdao')) document.getElementById('perm-huyetdao').checked = u.quyen.includes('huyetdao');
+      if (document.getElementById('perm-chongaytot')) document.getElementById('perm-chongaytot').checked = u.quyen.includes('chongaytot');
+      if (document.getElementById('perm-caudotritue')) document.getElementById('perm-caudotritue').checked = u.quyen.includes('caudotritue');
       if (document.getElementById('perm-aiagent')) document.getElementById('perm-aiagent').checked = u.quyen.includes('aiagent');
 
       showToast(`Đang chỉnh sửa quyền cho ${u.email}`, "✏️");
@@ -13485,6 +13520,8 @@
       if (document.getElementById('perm-gout')?.checked) quyen.push('gout');
       if (document.getElementById('perm-phongthuy')?.checked) quyen.push('phongthuy');
       if (document.getElementById('perm-huyetdao')?.checked) quyen.push('huyetdao');
+      if (document.getElementById('perm-chongaytot')?.checked) quyen.push('chongaytot');
+      if (document.getElementById('perm-caudotritue')?.checked) quyen.push('caudotritue');
       if (document.getElementById('perm-aiagent')?.checked) quyen.push('aiagent');
 
       const isDefaultAdmin = email.toLowerCase() === 'admin@gmail.com';
@@ -13520,6 +13557,8 @@
       if (document.getElementById('perm-gout')) document.getElementById('perm-gout').checked = false;
       if (document.getElementById('perm-phongthuy')) document.getElementById('perm-phongthuy').checked = false;
       if (document.getElementById('perm-huyetdao')) document.getElementById('perm-huyetdao').checked = false;
+      if (document.getElementById('perm-chongaytot')) document.getElementById('perm-chongaytot').checked = false;
+      if (document.getElementById('perm-caudotritue')) document.getElementById('perm-caudotritue').checked = false;
       document.getElementById('perm-aiagent').checked = false;
 
       renderMembersList();
@@ -13554,7 +13593,7 @@
 
     async function preloadAllData() {
       try {
-        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt, rawHd] = await Promise.all([
+        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt, rawHd, rawCngt, rawCddt] = await Promise.all([
           fetchJsonWithCache('./data.json').catch(() => []),
           fetchJsonWithCache('./tieng_trung.json').catch(() => null),
           fetchJsonWithCache('./kinh_dich.json').catch(() => null),
@@ -13569,7 +13608,9 @@
           fetchJsonWithCache('./phap_luat_vn.json').catch(() => null),
           fetchJsonWithCache('./gout.json').catch(() => null),
           fetchJsonWithCache('./phong_thuy.json').catch(() => null),
-          fetchJsonWithCache('./huyet_dao.json').catch(() => null)
+          fetchJsonWithCache('./huyet_dao.json').catch(() => null),
+          fetchJsonWithCache('./chon_ngay_tot.json').catch(() => null),
+          fetchJsonWithCache('./cau_do_tri_tue.json').catch(() => null)
         ]);
 
         if (rawP && rawP.length > 0) {
@@ -13650,6 +13691,18 @@
 
         if (rawPt) {
           phongThuyData = rawPt;
+        }
+
+        if (rawHd) {
+          huyetDaoData = rawHd;
+        }
+
+        if (rawCngt) {
+          chonNgayTotData = rawCngt;
+        }
+
+        if (rawCddt) {
+          cauDoTriTueData = rawCddt;
         }
 
         headerStatus.textContent = 'Đã nạp toàn bộ kho tri thức';
@@ -14198,6 +14251,60 @@
         if (goutData.ba_nguyen_tac_vang) {
           add('gout', null, '[GÚT - Ba Nguyên Tắc Vàng]', JSON.stringify(goutData.ba_nguyen_tac_vang));
         }
+      }
+
+      if (huyetDaoData) {
+        if (huyetDaoData.tong_quan) {
+          add('huyetdao', null, '[HUYỆT ĐẠO - Tổng Quan]', JSON.stringify(huyetDaoData.tong_quan));
+        }
+        if (huyetDaoData.phan_1_gioi_thieu_va_an_toan) {
+          add('huyetdao', null, '[HUYỆT ĐẠO - Giới Thiệu & An Toàn]', JSON.stringify(huyetDaoData.phan_1_gioi_thieu_va_an_toan));
+        }
+        [huyetDaoData.phan_2_huyet_vung_dau_mat_co, huyetDaoData.phan_3_huyet_vung_nguc_bung_lung,
+          huyetDaoData.phan_4_huyet_vung_tay, huyetDaoData.phan_5_huyet_vung_chan].forEach(function (phan) {
+          (phan?.danh_sach_huyet || []).forEach(function (h) {
+            add('huyetdao', null, '[HUYỆT ĐẠO - Huyệt ' + (h.ten || '') + ']', aiFlattenRow(h, 500));
+          });
+        });
+        (huyetDaoData.phan_6_top_20_huyet_vang?.top_20_huyet || []).forEach(function (h) {
+          add('huyetdao', h.hang, '[HUYỆT ĐẠO - Top 20 Hạng ' + h.hang + '] ' + h.ten, aiFlattenRow(h, 400));
+        });
+        if (huyetDaoData.phan_7_cach_day_an_dung) {
+          add('huyetdao', null, '[HUYỆT ĐẠO - Cách Day Ấn Đúng]', JSON.stringify(huyetDaoData.phan_7_cach_day_an_dung));
+        }
+        (huyetDaoData.phan_8_tra_cuu_theo_benh?.danh_sach_benh || []).forEach(function (b) {
+          add('huyetdao', null, '[HUYỆT ĐẠO - Bệnh: ' + (b.ten_benh || '') + ']', aiFlattenRow(b, 500));
+        });
+      }
+
+      if (chonNgayTotData) {
+        if (chonNgayTotData.tong_quan) {
+          add('chongaytot', null, '[CHỌN NGÀY TỐT - Tổng Quan]', JSON.stringify(chonNgayTotData.tong_quan));
+        }
+        if (chonNgayTotData.phan_1_co_so_am_duong_ngu_hanh) {
+          add('chongaytot', null, '[CHỌN NGÀY TỐT - Cơ Sở Âm Dương Ngũ Hành]', JSON.stringify(chonNgayTotData.phan_1_co_so_am_duong_ngu_hanh));
+        }
+        (chonNgayTotData.phan_3_bang_chon_ngay_theo_tung_viec?.danh_sach_14_viec || []).forEach(function (v) {
+          add('chongaytot', v.stt, '[CHỌN NGÀY TỐT - Việc #' + v.stt + '] ' + (v.viec_lam || ''), aiFlattenRow(v, 500));
+        });
+        (chonNgayTotData.phan_5_12_ngay_truc_nhat_chi_tiet?.danh_sach_12_truc || []).forEach(function (t) {
+          add('chongaytot', t.stt, '[CHỌN NGÀY TỐT - Trực ' + (t.ten || '') + ']', aiFlattenRow(t, 400));
+        });
+        if (chonNgayTotData.phan_7_loi_thuong_gap_va_nguyen_tac) {
+          add('chongaytot', null, '[CHỌN NGÀY TỐT - Lỗi Thường Gặp & Nguyên Tắc Vàng]', JSON.stringify(chonNgayTotData.phan_7_loi_thuong_gap_va_nguyen_tac));
+        }
+      }
+
+      if (cauDoTriTueData) {
+        if (cauDoTriTueData.tong_quan) {
+          add('caudotritue', null, '[CÂU ĐỐ TRÍ TUỆ - Tổng Quan]', JSON.stringify(cauDoTriTueData.tong_quan));
+        }
+        if (cauDoTriTueData.phan_1_gioi_thieu_va_loi_ich) {
+          add('caudotritue', null, '[CÂU ĐỐ TRÍ TUỆ - Giới Thiệu & Lợi Ích]', JSON.stringify(cauDoTriTueData.phan_1_gioi_thieu_va_loi_ich));
+        }
+        (cauDoTriTueData.phan_7_bay_ky_nang_tu_duy?.danh_sach_7_ky_nang || []).forEach(function (k) {
+          add('caudotritue', k.stt, '[CÂU ĐỐ TRÍ TUỆ - Kỹ Năng #' + k.stt + '] ' + (k.ten || ''), aiFlattenRow(k, 400));
+        });
       }
 
       found.sort(function (a, b) { return b.score - a.score; });
