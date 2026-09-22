@@ -162,6 +162,9 @@
 
         <!-- User profile for mobile -->
         <div class="flex xl:hidden items-center gap-2">
+          <button onclick="document.getElementById('quick-hub-modal')?.classList.remove('hidden')" class="px-2.5 py-1.5 rounded-xl text-xs font-bold bg-indigo-950/60 border border-indigo-500/40 text-indigo-300 flex items-center gap-1 cursor-pointer">
+            <span>🧭</span> <span>Mục Lục 17 Chủ Đề</span>
+          </button>
           <div id="mobile-user-badge" class="hidden text-[11px] font-bold text-indigo-300 bg-indigo-500/15 px-2.5 py-1 rounded-xl border border-indigo-500/20"></div>
           <button onclick="handleLogout()" id="btn-logout-mobile" class="hidden p-1.5 rounded-xl text-xs bg-rose-950/40 text-rose-300 border border-rose-800/40">
             🚪
@@ -358,6 +361,137 @@
           <div class="flex flex-wrap gap-2 max-h-36 overflow-y-auto custom-scrollbar p-1 justify-center sm:justify-start" id="topic-tags"></div>
         </div>
       </div>
+
+      
+      <!-- ==================== BẢNG ĐIỀU HƯỚNG NHANH 17 KHO TÀNG TRI THỨC ==================== -->
+      <div class="glass-card p-5 sm:p-7 rounded-3xl border border-indigo-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950/95 shadow-2xl">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 border-b border-slate-800 pb-3 mb-5">
+          <div>
+            <h3 class="text-base sm:text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-rose-300 to-emerald-300 font-display flex items-center gap-2">
+              <span>🧭</span> <span>Khám Phá Toàn Bộ 17 Kho Tàng Tri Thức</span>
+            </h3>
+            <p class="text-xs text-slate-400 mt-0.5">Nhấn trực tiếp vào bất kỳ chủ đề nào dưới đây để mở ngay chuyên mục đó:</p>
+          </div>
+          <span class="text-[11px] font-bold text-emerald-400 bg-emerald-950/80 px-3 py-1 rounded-full border border-emerald-500/30 shrink-0">17 Chuyên Mục Có Sẵn</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 text-xs">
+          <!-- 1. Phong Thủy Nhà Ở (MỚI) -->
+          <button onclick="switchMainTab('phongthuy')" class="p-3.5 rounded-2xl bg-gradient-to-br from-amber-950/60 to-yellow-950/40 border-2 border-amber-500/60 hover:border-amber-400 text-left transition-all duration-300 hover:scale-[1.03] shadow-lg shadow-amber-950/30 group relative overflow-hidden cursor-pointer">
+            <span class="absolute top-1.5 right-1.5 text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-amber-500 text-slate-950 animate-pulse">MỚI ⭐</span>
+            <div class="text-2xl mb-1.5">🏡</div>
+            <b class="text-amber-200 text-xs font-bold block mb-1 group-hover:text-white">Phong Thủy Nhà Ở</b>
+            <p class="text-[10px] text-slate-300 leading-snug">10 mục, Bát Cung, Cung Mệnh, 20 Lỗi, Loa đọc</p>
+          </button>
+
+          <!-- 2. Huyệt Đạo Toàn Thân (MỚI) -->
+          <button onclick="switchMainTab('huyetdao')" class="p-3.5 rounded-2xl bg-gradient-to-br from-emerald-950/60 to-teal-950/40 border-2 border-emerald-500/60 hover:border-emerald-400 text-left transition-all duration-300 hover:scale-[1.03] shadow-lg shadow-emerald-950/30 group relative overflow-hidden cursor-pointer">
+            <span class="absolute top-1.5 right-1.5 text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-emerald-500 text-slate-950 animate-pulse">MỚI ⭐</span>
+            <div class="text-2xl mb-1.5">🌿</div>
+            <b class="text-emerald-200 text-xs font-bold block mb-1 group-hover:text-white">Huyệt Đạo & Bấm Huyệt</b>
+            <p class="text-[10px] text-slate-300 leading-snug">8 phần, 55+ huyệt, 15 nhóm bệnh, Loa đọc</p>
+          </button>
+
+          <!-- 3. Cẩm Nang Bệnh Gút -->
+          <button onclick="switchMainTab('gout')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">🦶</div>
+            <b class="text-emerald-300 text-xs font-bold block mb-1">Cẩm Nang Bệnh Gút</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Axit uric, cơn đau cấp, ăn uống, sổ tay</p>
+          </button>
+
+          <!-- 4. Pháp Luật Việt Nam -->
+          <button onclick="switchMainTab('phapluat')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-indigo-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">⚖️</div>
+            <b class="text-indigo-300 text-xs font-bold block mb-1">Pháp Luật Việt Nam</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Hệ thống VB, Đấu thầu BCA, DN Niêm Yết</p>
+          </button>
+
+          <!-- 5. Tứ Thư Ngũ Kinh -->
+          <button onclick="switchMainTab('tuthu')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-amber-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">📜</div>
+            <b class="text-amber-300 text-xs font-bold block mb-1">Tứ Thư Ngũ Kinh</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Đại Học, Trung Dung, Luận Ngữ, Mạnh Tử</p>
+          </button>
+
+          <!-- 6. Kinh Dịch 64 Quẻ -->
+          <button onclick="switchMainTab('kinhdich')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-amber-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">☯️</div>
+            <b class="text-amber-300 text-xs font-bold block mb-1">Kinh Dịch & Gieo Quẻ</b>
+            <p class="text-[10px] text-slate-400 leading-snug">64 quẻ dịch, giải nghĩa, gieo quẻ cát hung</p>
+          </button>
+
+          <!-- 7. Học Tiếng Trung -->
+          <button onclick="switchMainTab('chinese')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-teal-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">🇨🇳</div>
+            <b class="text-teal-300 text-xs font-bold block mb-1">Học Tiếng Trung</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Flashcard, phiên âm Pinyin, phát âm giọng</p>
+          </button>
+
+          <!-- 8. Thần Y Trị Bệnh -->
+          <button onclick="switchMainTab('thany')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">🌿</div>
+            <b class="text-emerald-300 text-xs font-bold block mb-1">Thần Y Trị Bệnh</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Bài thuốc dân gian, thảo dược quanh nhà</p>
+          </button>
+
+          <!-- 9. Kinh Pháp Cú -->
+          <button onclick="switchMainTab('phapcu')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-teal-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">📖</div>
+            <b class="text-teal-300 text-xs font-bold block mb-1">Kinh Pháp Cú</b>
+            <p class="text-[10px] text-slate-400 leading-snug">423 câu kệ Phật giáo trí tuệ giác ngộ</p>
+          </button>
+
+          <!-- 10. Mật Tạng Chú Ngữ -->
+          <button onclick="switchMainTab('thanchu')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-yellow-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">🔱</div>
+            <b class="text-yellow-300 text-xs font-bold block mb-1">Mật Tạng Chú Ngữ</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Thần chú đại bi, tiêu tai, cát tường</p>
+          </button>
+
+          <!-- 11. Trí Tuệ Cổ Nhân -->
+          <button onclick="switchMainTab('conhan')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-rose-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">📜</div>
+            <b class="text-rose-300 text-xs font-bold block mb-1">Trí Tuệ Cổ Nhân</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Bài học xử thế ngàn xưa truyền lại</p>
+          </button>
+
+          <!-- 12. 36 Mưu Kế -->
+          <button onclick="switchMainTab('muuke')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-purple-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">⚔️</div>
+            <b class="text-purple-300 text-xs font-bold block mb-1">36 Kế & Binh Pháp</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Kế sách thông minh ứng dụng thực tiễn</p>
+          </button>
+
+          <!-- 13. Nhìn Nhận Cuộc Sống -->
+          <button onclick="switchMainTab('nhannhan')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-amber-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">👀</div>
+            <b class="text-amber-300 text-xs font-bold block mb-1">Nhìn Nhận Cuộc Sống</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Góc nhìn nhân sinh sâu sắc, thấu suốt</p>
+          </button>
+
+          <!-- 14. Chuyện Răn Dạy -->
+          <button onclick="switchMainTab('chuyenranday')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-amber-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">📜</div>
+            <b class="text-amber-300 text-xs font-bold block mb-1">Chuyện Răn Dạy</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Mẫu chuyện cổ răn dạy con cháu</p>
+          </button>
+
+          <!-- 15. Trợ Lý AI -->
+          <button onclick="switchMainTab('aiagent')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-cyan-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">🤖</div>
+            <b class="text-cyan-300 text-xs font-bold block mb-1">Trợ Lý AI Thông Minh</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Hỏi đáp toàn bộ tri thức 17 chuyên mục</p>
+          </button>
+
+          <!-- 16. Thơ Triết Lý (Tác Giả) -->
+          <button onclick="switchMainTab('poems')" class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-rose-500/40 text-left transition-all hover:scale-[1.02] cursor-pointer">
+            <div class="text-2xl mb-1.5">🌸</div>
+            <b class="text-rose-300 text-xs font-bold block mb-1">Thơ Nguyễn Như Phi</b>
+            <p class="text-[10px] text-slate-400 leading-snug">Thi ca triết lý, nhân quả, chữ hiếu</p>
+          </button>
+        </div>
+      </div>
+
 
       <!-- Results Grid -->
       <div>
@@ -2552,6 +2686,125 @@
 
           <!-- Notes List Container -->
           <div id="hd-notes-list" class="grid grid-cols-1 gap-3"></div>
+        </div>
+      </div>
+    </div>
+
+  
+    <!-- ==================== QUICK HUB MODAL (CHO MOBILE & DESKTOP) ==================== -->
+    <div id="quick-hub-modal" class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/80 backdrop-blur-md hidden">
+      <div class="glass-card w-full max-w-2xl max-h-[90vh] overflow-y-auto custom-scrollbar p-5 sm:p-6 rounded-3xl border border-indigo-500/30 shadow-2xl relative">
+        <div class="flex justify-between items-center border-b border-slate-800 pb-3 mb-4 sticky top-0 bg-slate-950/90 backdrop-blur-sm z-10">
+          <h3 class="text-base sm:text-lg font-black text-amber-300 flex items-center gap-2 font-display">
+            <span>🧭</span> <span>Chọn Nhanh Chuyên Mục Tri Thức</span>
+          </h3>
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden')" class="p-1.5 text-slate-400 hover:text-white rounded-xl bg-slate-900 border border-slate-800 text-xs">
+            ✕ Đóng
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('phongthuy')" class="p-3 rounded-2xl bg-amber-950/40 border border-amber-500/40 text-left flex items-center justify-between hover:bg-amber-900/40 transition-all cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span class="text-xl">🏡</span>
+              <div>
+                <b class="text-amber-200 block text-xs">Phong Thủy Nhà Ở</b>
+                <span class="text-[10px] text-slate-400">10 mục, Bát Cung, Cung Mệnh, 20 Lỗi</span>
+              </div>
+            </div>
+            <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-amber-500 text-slate-950">MỚI</span>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('huyetdao')" class="p-3 rounded-2xl bg-emerald-950/40 border border-emerald-500/40 text-left flex items-center justify-between hover:bg-emerald-900/40 transition-all cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span class="text-xl">🌿</span>
+              <div>
+                <b class="text-emerald-200 block text-xs">Huyệt Đạo & Bấm Huyệt</b>
+                <span class="text-[10px] text-slate-400">8 phần, 55+ huyệt, 15 nhóm bệnh</span>
+              </div>
+            </div>
+            <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-emerald-500 text-slate-950">MỚI</span>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('gout')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-emerald-500/40 transition-all cursor-pointer">
+            <span class="text-xl">🦶</span>
+            <div>
+              <b class="text-emerald-300 block text-xs">Cẩm Nang Bệnh Gút</b>
+              <span class="text-[10px] text-slate-400">Kiểm soát axit uric, cơn đau cấp</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('phapluat')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-indigo-500/40 transition-all cursor-pointer">
+            <span class="text-xl">⚖️</span>
+            <div>
+              <b class="text-indigo-300 block text-xs">Pháp Luật Việt Nam</b>
+              <span class="text-[10px] text-slate-400">Hệ thống VB, Đấu thầu, DN Niêm Yết</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('tuthu')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-amber-500/40 transition-all cursor-pointer">
+            <span class="text-xl">📜</span>
+            <div>
+              <b class="text-amber-300 block text-xs">Tứ Thư Ngũ Kinh</b>
+              <span class="text-[10px] text-slate-400">Đạo tu thân, trị gia, xử thế</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('kinhdich')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-amber-500/40 transition-all cursor-pointer">
+            <span class="text-xl">☯️</span>
+            <div>
+              <b class="text-amber-300 block text-xs">Kinh Dịch & Gieo Quẻ</b>
+              <span class="text-[10px] text-slate-400">64 quẻ dịch, gieo quẻ định cát hung</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('chinese')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-teal-500/40 transition-all cursor-pointer">
+            <span class="text-xl">🇨🇳</span>
+            <div>
+              <b class="text-teal-300 block text-xs">Học Tiếng Trung</b>
+              <span class="text-[10px] text-slate-400">Flashcard, phiên âm Pinyin, phát âm</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('thany')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-emerald-500/40 transition-all cursor-pointer">
+            <span class="text-xl">🌿</span>
+            <div>
+              <b class="text-emerald-300 block text-xs">Thần Y Trị Bệnh</b>
+              <span class="text-[10px] text-slate-400">Bài thuốc dân gian, thảo dược</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('phapcu')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-teal-500/40 transition-all cursor-pointer">
+            <span class="text-xl">📖</span>
+            <div>
+              <b class="text-teal-300 block text-xs">Kinh Pháp Cú</b>
+              <span class="text-[10px] text-slate-400">423 câu kệ Phật giáo giác ngộ</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('thanchu')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-yellow-500/40 transition-all cursor-pointer">
+            <span class="text-xl">🔱</span>
+            <div>
+              <b class="text-yellow-300 block text-xs">Mật Tạng Chú Ngữ</b>
+              <span class="text-[10px] text-slate-400">Thần chú đại bi, tiêu tai, cát tường</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('conhan')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-rose-500/40 transition-all cursor-pointer">
+            <span class="text-xl">📜</span>
+            <div>
+              <b class="text-rose-300 block text-xs">Trí Tuệ Cổ Nhân</b>
+              <span class="text-[10px] text-slate-400">Lời răn dạy đúc kết của tiền nhân</span>
+            </div>
+          </button>
+
+          <button onclick="document.getElementById('quick-hub-modal').classList.add('hidden'); switchMainTab('aiagent')" class="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-left flex items-center gap-2.5 hover:border-cyan-500/40 transition-all cursor-pointer">
+            <span class="text-xl">🤖</span>
+            <div>
+              <b class="text-cyan-300 block text-xs">Trợ Lý AI Thông Minh</b>
+              <span class="text-[10px] text-slate-400">Hỏi đáp tức thì về mọi chủ đề</span>
+            </div>
+          </button>
         </div>
       </div>
     </div>
