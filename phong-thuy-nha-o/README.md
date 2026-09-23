@@ -12,6 +12,7 @@
 3. **Phong Thủy Quốc Gia** — địa thế chung, công trình trọng điểm, xu hướng vùng
 4. **Phong Thủy Cửa Hàng & Kinh Doanh** — chọn vị trí, hướng cửa, quầy thu ngân, biển hiệu, kích hoạt tài vị
 5. **Phong Thủy Nhà Xưởng & Công Trình** — vị trí đất, cổng, bố trí máy móc, văn phòng lãnh đạo, kho bãi, an toàn PCCC
+6. **Phong Thủy Khu Dân Cư & Khu Đô Thị** — quy hoạch thế đất, phân lô, bố cục đường, cổng chính, cây xanh & mặt nước, tiện ích cộng đồng
 
 ## Kết nối
 
