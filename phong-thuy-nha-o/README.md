@@ -10,6 +10,8 @@
 1. **Phong Thủy Mộ Phần** — chọn đất, xây, tu sửa, di dời
 2. **Phong Thủy Bàn Thờ** — vị trí, hướng, bày trí, nghi thức
 3. **Phong Thủy Quốc Gia** — địa thế chung, công trình trọng điểm, xu hướng vùng
+4. **Phong Thủy Cửa Hàng & Kinh Doanh** — chọn vị trí, hướng cửa, quầy thu ngân, biển hiệu, kích hoạt tài vị
+5. **Phong Thủy Nhà Xưởng & Công Trình** — vị trí đất, cổng, bố trí máy móc, văn phòng lãnh đạo, kho bãi, an toàn PCCC
 
 ## Kết nối
 
