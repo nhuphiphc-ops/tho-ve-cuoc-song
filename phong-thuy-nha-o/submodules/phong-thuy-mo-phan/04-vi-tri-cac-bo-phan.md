@@ -33,3 +33,9 @@
 - Bát hương đặt vững chắc, tránh gió lật, mưa ngập
 - Cây trồng chọn loại rễ nông, không xâm lấn: tùng, bách, mạn thiên hoa
 - Không để vật nhọn, sắt gỉ, rác thải gần khu mộ
+
+## 4.3 Ví dụ thực tế: Rễ cây lớn đâm xuyên mộ phần
+### 💡 Ví dụ: Trồng cây xà cừ lớn cạnh mộ
+- **Tình huống**: Thấy khuôn viên mộ nắng nóng, gia đình trồng cây xà cừ sát mép tường mộ để lấy bóng mát. Sau 10 năm, rễ cây to khỏe đâm nứt toác sàn bê tông và len lỏi vào phần cốt.
+- **Lý giải**: Cây thân gỗ lớn có hệ thống rễ cọc và rễ chùm phát triển rất mạnh để tìm nước, lực nén cơ học của rễ cây có thể bẻ gãy cả móng bê tông cốt thép dày 20cm. Trong phong thủy, đây là đại kỵ "Thân cây xuyên thi hài".
+- **Lời khuyên**: Chỉ nên trồng các loại cây rễ cọc nông, tán vừa phải, mang tính biểu tượng thanh cao như cây hoa sứ (đại), tùng cối hoặc chuỗi ngọc cách xa tường mộ tối thiểu 1.5m.

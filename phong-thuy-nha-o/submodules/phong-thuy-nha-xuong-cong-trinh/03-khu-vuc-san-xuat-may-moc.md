@@ -19,3 +19,9 @@
 
 - Không đặt dưới xà ngang quá thấp → áp lực, dễ tai nạn
 - Đèn sáng đều, không nhấp nháy → mắt mệt, sai sót
+
+## 3.3 Ví dụ thực tế về bố trí máy móc & an toàn lao động
+### 💡 Ví dụ: Máy dập công nghiệp đặt sai vị trí gây xung đột năng lượng
+- **Tình huống**: Đặt dàn máy dập kim loại nặng 15 tấn rung lắc mạnh sát cạnh vách phòng thiết kế kỹ thuật và phòng kế toán.
+- **Hậu quả**: Kế toán liên tục stress, tính sai bảng lương; máy tính phòng kỹ thuật rung giật gây hỏng ổ cứng; nhân viên nghỉ việc hàng loạt.
+- **Lý giải bản chất**: Máy móc hạng nặng tạo ra "Động khí" và sóng hạ âm (infrasound) gây ức chế hệ thần kinh trung ương. Trong phong thủy, khu vực điều hành và tài chính cần "Tĩnh khí" (núi vững). Phải dời máy dập về góc Tây Bắc/Tây của xưởng (hành Kim, nền bê tông cốt thép gia cố riêng) để triệt tiêu chấn động.

@@ -20,3 +20,10 @@
 - Không xung khắc tuổi chủ; tránh Ngày Tam Tai, Trùng Tang
 - Giờ tốt: sáng sớm, trời ráo
 - Lễ báo Thần Tài — Ông Địa tại khu vực, cầu bình an
+
+## 6.4 Ví dụ thực tế: Kết hợp hài hòa giữa PCCC hiện đại và Phong thủy
+### 💡 Ví dụ: Hóa giải bể nước cứu hỏa ngầm trước cửa xưởng
+- **Tình huống**: Theo tiêu chuẩn PCCC mới, xưởng buộc phải đào một bể nước ngầm 200m³ ngay trước sân mặt tiền. Chủ xưởng lo lắng đào hố sâu trước cửa sẽ phạm "sụp lún phong thủy".
+- **Lý giải & Hóa giải**:
+  - *Phong thủy truyền thống*: Trước nhà có ao hồ nước trong là thế "Minh đường tụ thủy" cực kỳ đắc địa để chiêu tài.
+  - *Ứng dụng thực tế*: Nắp bể nước cứu hỏa được làm phẳng kiên cố bằng bê tông mác cao; bên trên bố trí đài phun nước cảnh quan tuần hoàn nhỏ kết hợp bồn hoa tròn. Vừa đáp ứng 100% nghiệm thu PCCC, vừa tạo nên tiểu cảnh tụ khí mát mẻ, giảm nhiệt bức xạ cho toàn bộ mặt tiền xưởng.

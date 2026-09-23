@@ -17,3 +17,12 @@
 | Tây/Tây Bắc | Tài chính, xuất khẩu | Xưởng gia công, hàng xuất |
 
 - ❌ Không cổng trước-sau thẳng hàng → "Xuyên Tâm Sát", tiền vào thẳng ra; giải pháp: lệch trục, đặt bình phong/vách ngăn giữa
+
+## 1.3 Ví dụ thực tế & Lý giải vận hành nhà xưởng
+### 💡 Ví dụ: Xưởng cơ khí mắc lỗi "Xuyên Tâm Sát" (Cổng trước thông thẳng cổng sau)
+- **Tình huống**: Nhà xưởng may mặc dài 80m mở một cổng lớn phía trước và một cổng sau thẳng tắp một trục để tiện xe container đi xuyên qua.
+- **Hiện tượng thực tế**: Gió lùa hun hút cuốn bụi mù mịt từ trước ra sau; công nhân khu vực giữa xưởng hay bị cảm lạnh; đơn hàng ký được nhiều nhưng chi phí phát sinh lỗi sản phẩm và phạt chậm tiến độ bào mòn hết lợi nhuận.
+- **Lý giải bản chất**:
+  - *Về khí động học*: Hai cửa đối diện tạo hiệu ứng ống Venturi (gió gia tốc cực nhanh), không giữ được nhiệt độ ổn định, cuốn bay vi khí hậu trong lành.
+  - *Về phong thủy*: "Tiền vào cửa trước tuôn hết cửa sau", tụ khí không được thì tụ tài bất thành.
+- **Giải pháp**: Bố trí kho trung chuyển hoặc vách ngăn kỹ thuật lệch trục 5m để dòng khí đi zíc zắc êm đềm, xe cộ đi theo luồng phân nhánh an toàn.

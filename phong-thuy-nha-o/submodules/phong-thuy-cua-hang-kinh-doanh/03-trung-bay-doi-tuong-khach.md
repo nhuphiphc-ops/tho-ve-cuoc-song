@@ -17,3 +17,11 @@
 ## 3.3 Lưu ý vận hành
 - Thay đổi cách bày trí mỗi 3 tháng → không nhàm chán
 - Không gương chiếu thẳng ra cửa → phản xạ tài lộc ra ngoài
+
+## 3.4 Ví dụ thực tế về luồng di chuyển khách hàng (Thanh Long - Bạch Hổ)
+### 💡 Ví dụ thực tế: Ứng dụng quy luật "Rẽ phải theo quán tính tự nhiên"
+- **Tình huống**: Siêu thị mini sắp xếp giá kệ cao 1.8m ngay chính diện lối vào khiến khách vừa bước vào đã bị chặn tầm nhìn.
+- **Hiện tượng**: Khách cảm thấy ngột ngạt, chỉ mua vội món ngoài cửa rồi ra ngay.
+- **Lý giải & Tối ưu hóa**:
+  - *Khoa học hành vi*: 85% người thuận tay phải có xu hướng nhìn và bước nhẹ về phía bên trái (theo hướng từ ngoài nhìn vào là bên Thanh Long).
+  - *Ứng dụng phong thủy*: Hạ thấp kệ trung tâm xuống 1.2m để mở rộng tầm nhìn (Minh Đường nội bộ thoáng); bố trí lối đi hình chữ U êm ái; đặt quầy hàng bắt mắt nhất ở bên trái để dẫn dắt bước chân khách đi sâu vào bên trong cửa hàng.

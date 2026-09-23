@@ -35,3 +35,9 @@
 3. **Trước mặt**: Thoáng rộng, tối thiểu 3m không vướng vật cản
 4. **Bên trái**: Nên cao hơn hoặc bằng bên phải (Thanh Long ≥ Bạch Hổ)
 5. **Đất**: Khô ráo, không đọng nước sau mưa, không có mùi hôi
+
+## 1.3 Ví dụ thực tế & Lý giải sinh học - địa chất
+### 💡 Ví dụ 1: Hiện tượng "Mộ ngập nước / Đất sình lầy"
+- **Thực tế**: Một gia đình chọn xây mộ ở vùng trũng chân ruộng lúa vì nghĩ đất mềm dễ đào. Sau vài năm, con cháu trong nhà thường xuyên ốm đau bệnh phổi, làm ăn bế tắc. Khi kiểm tra thấy đất xung quanh bị sạt lở, nước ngầm tù đọng ngấm vào phần mộ.
+- **Lý giải khoa học**: Vùng đất trũng có mực nước ngầm nông và chứa nhiều vi khuẩn kỵ khí phân hủy trong điều kiện yếm khí, tạo ra khí độc (H2S, CH4) và làm mục nát cấu trúc móng mộ. Về tâm lý, con cháu mỗi lần thăm viếng thấy mộ phần lầy lội, rêu mốc ảm đạm sẽ sinh tâm trạng u uất, lo lắng, ảnh hưởng tiêu cực đến tinh thần và sự nghiệp.
+- **Giải pháp**: Luôn chọn thế đất cao ráo, đất có màu nâu vàng hạt mịn (ngũ sắc), thoát nước tự nhiên tốt.

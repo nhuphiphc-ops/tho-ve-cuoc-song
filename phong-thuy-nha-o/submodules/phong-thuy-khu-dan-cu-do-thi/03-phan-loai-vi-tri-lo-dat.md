@@ -29,3 +29,10 @@
 | Phía Nam | Năng lượng sáng, nổi tiếng, giao tiếp | Hoạt động xã hội, dịch vụ, kinh doanh công khai |
 | Phía Tây/Tây Bắc | Tích lũy, bền vững, giàu có | Gia đình trưởng thành, tích lũy tài sản, an cư |
 | Phía Bắc | Yên tĩnh, ít thay đổi, sức khỏe | Người cao tuổi, nghỉ dưỡng, học tập nghiên cứu |
+
+## 3.4 Ví dụ thực tế: Phân tích giá trị "Lô đầu hồi / Lô góc"
+### 💡 Ví dụ: Lô góc ngã tư — Cơ hội thương mại song hành thế sát
+- **Thực tế**: Lô góc 2 mặt tiền luôn có giá cao hơn 30–50% so với lô thường vì thuận tiện kinh doanh café, nhà hàng.
+- **Lý giải phong thủy & kiến trúc**:
+  - *Thách thức*: Hai mặt tiếp xúc luồng xe nên "Khí tán", góc nhà nhọn dễ bị xung sát giao thông.
+  - *Giải pháp thiết kế*: Vát cong góc nhà (bán kính R=3–5m), mở cửa chính lệch về cạnh đường phụ có lưu lượng xe chậm hơn; bố trí vỉa hè rộng với bồn hoa bo tròn để gom khí tụ tài.
