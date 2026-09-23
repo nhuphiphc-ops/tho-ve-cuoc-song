@@ -2515,6 +2515,9 @@
             <button onclick="selectPhongThuySubTab('20_loi')" id="pt-tab-20_loi" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">⚠️ 8. 20 Lỗi & Hóa Giải</button>
             <button onclick="selectPhongThuySubTab('cung_menh')" id="pt-tab-cung_menh" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🧮 9. Tra Cung Mệnh</button>
             <button onclick="selectPhongThuySubTab('danh_gia')" id="pt-tab-danh_gia" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📋 10. Tự Đánh Giá</button>
+            <button onclick="selectPhongThuySubTab('mo_phan')" id="pt-tab-mo_phan" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">⛰️ Mộ Phần</button>
+            <button onclick="selectPhongThuySubTab('ban_tho')" id="pt-tab-ban_tho" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🕯️ Bàn Thờ</button>
+            <button onclick="selectPhongThuySubTab('quoc_gia')" id="pt-tab-quoc_gia" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🗺️ Quốc Gia</button>
             <button onclick="selectPhongThuySubTab('so_tay')" id="pt-tab-so_tay" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📝 Sổ Tay</button>
           </div>
         </div>
@@ -3714,6 +3717,7 @@
 
     // Phong Thuy state
     let phongThuyData = null;
+    let phongThuyChuyenSauData = null;
     let activePhongThuySubTab = 'all';
     let phongThuyNotes = [];
     let phongThuyEvalAnswers = {};
@@ -3825,7 +3829,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v53';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v54';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -7753,13 +7757,18 @@
     // ==================== PHONG THUY NHA O LOGIC ====================
     async function loadPhongThuyData() {
       loadPhongThuyNotes();
-      if (phongThuyData) {
+      if (phongThuyData && phongThuyChuyenSauData) {
         renderPhongThuy();
         return;
       }
       headerStatus.textContent = "Đang nạp kiến thức Phong Thủy Nhà Ở...";
       try {
-        phongThuyData = await fetchJsonWithCache('./phong_thuy.json', 'Không thể tải phong_thuy.json');
+        if (!phongThuyData) {
+          phongThuyData = await fetchJsonWithCache('./phong_thuy.json', 'Không thể tải phong_thuy.json');
+        }
+        if (!phongThuyChuyenSauData) {
+          phongThuyChuyenSauData = await fetchJsonWithCache('./phong_thuy_chuyen_sau.json', 'Không thể tải phong_thuy_chuyen_sau.json');
+        }
         headerStatus.textContent = "Phong Thủy Nhà Ở sẵn sàng";
         renderPhongThuy();
       } catch (err) {
@@ -8116,6 +8125,65 @@
       `;
     };
 
+    // ==================== PHONG THUY CHUYEN SAU (Mo Phan / Ban Tho / Quoc Gia) ====================
+    function renderPhongThuyChuyenSauModule(sub, colorClasses) {
+      if (!sub) return '';
+      const safeIntroSpeak = (sub.gioi_thieu_doc || '').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+
+      const mucHtml = (sub.muc || []).map(m => {
+        const safeSpeak = (m.noi_dung_doc || '').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+        return `
+          <div class="p-4 sm:p-5 rounded-2xl bg-slate-950/60 border border-slate-800">
+            <div class="flex items-center justify-between gap-2 mb-2 border-b border-slate-800/80 pb-2">
+              <b class="text-sm font-bold text-white">${m.tieu_de}</b>
+              <button onclick="playTTS(event, '${safeSpeak}', 'vi')" class="p-1.5 rounded-lg bg-slate-900 border border-slate-800 text-amber-300 hover:text-white shrink-0 cursor-pointer" title="Nghe mục này">
+                <span>🔊</span>
+              </button>
+            </div>
+            ${m.noi_dung_html || ''}
+          </div>
+        `;
+      }).join('');
+
+      const phuLucHtml = (sub.phu_luc || []).length ? `
+        <div class="mt-6 pt-5 border-t border-slate-800">
+          <h4 class="text-sm font-black text-amber-300 mb-3 flex items-center gap-2"><span>📎</span> Phụ Lục</h4>
+          <div class="space-y-4">
+            ${sub.phu_luc.map(pl => {
+              const safeSpeak = (pl.noi_dung_doc || '').replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+              return `
+                <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800/80">
+                  <div class="flex items-center justify-between gap-2 mb-2">
+                    <b class="text-xs font-bold text-slate-200">${pl.tieu_de}</b>
+                    <button onclick="playTTS(event, '${safeSpeak}', 'vi')" class="p-1.5 rounded-lg bg-slate-950 border border-slate-800 text-amber-300 hover:text-white shrink-0 cursor-pointer" title="Nghe">
+                      <span>🔊</span>
+                    </button>
+                  </div>
+                  ${pl.noi_dung_html || ''}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      ` : '';
+
+      return `
+        <div class="col-span-1 md:col-span-2 glass-card p-6 sm:p-8 rounded-3xl border ${colorClasses.border}">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-800 pb-4 mb-6">
+            <h3 class="text-xl sm:text-2xl font-black text-white font-display flex items-center gap-2">
+              <span>${sub.icon || '📚'}</span> ${sub.tieu_de}
+            </h3>
+            <button onclick="playTTS(event, '${safeIntroSpeak}', 'vi')" class="px-4 py-2 rounded-2xl ${colorClasses.btn} text-xs font-black transition-all flex items-center gap-1.5 shrink-0 cursor-pointer">
+              <span>🔊</span> <span>Nghe Giới Thiệu</span>
+            </button>
+          </div>
+          <div class="mb-6">${sub.gioi_thieu_html || ''}</div>
+          <div class="space-y-5">${mucHtml}</div>
+          ${phuLucHtml}
+        </div>
+      `;
+    }
+
     // ==================== MAIN RENDER PHONG THUY ====================
     window.renderPhongThuy = function() {
       if (!phongThuyData) return;
@@ -8221,7 +8289,7 @@
                           <p class="text-slate-300 text-[11px] mb-1"><b>Cung:</b> ${item.cac_cung}</p>
                           <p class="text-emerald-300 text-[11px] mb-1.5"><b>4 Hướng Tốt:</b> ${item['4_huong_tot']}</p>
                         </div>
-                        <p class="text-[10px] text-slate-400 italic pt-1 border-t border-slate-850">${item.loai_khuyen}</p>
+                        <p class="text-[10px] text-slate-400 italic pt-1 border-t border-slate-850">${item.loi_khuyen}</p>
                       </div>
                     `).join('')}
                   </div>
@@ -8763,6 +8831,21 @@
               </div>
             </div>
           `);
+        }
+      }
+
+      if (phongThuyChuyenSauData) {
+        if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'mo_phan') {
+          const html = renderPhongThuyChuyenSauModule(phongThuyChuyenSauData.mo_phan, { border: 'border-orange-500/30', btn: 'bg-orange-700 hover:bg-orange-600 text-white' });
+          if (html) cardsHtml.push(html);
+        }
+        if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'ban_tho') {
+          const html = renderPhongThuyChuyenSauModule(phongThuyChuyenSauData.ban_tho, { border: 'border-amber-500/30', btn: 'bg-amber-600 hover:bg-amber-500 text-slate-950' });
+          if (html) cardsHtml.push(html);
+        }
+        if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'quoc_gia') {
+          const html = renderPhongThuyChuyenSauModule(phongThuyChuyenSauData.quoc_gia, { border: 'border-indigo-500/30', btn: 'bg-indigo-600 hover:bg-indigo-500 text-white' });
+          if (html) cardsHtml.push(html);
         }
       }
 
@@ -15651,7 +15734,7 @@
 
     async function preloadAllData() {
       try {
-        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt, rawHd, rawCngt, rawCddt, rawCc, rawBdt] = await Promise.all([
+        const [rawP, c, k, t, rawPc, rawCn, rawNn, rawTy, rawMk, rawCrd, rawTt, rawPl, rawGout, rawPt, rawHd, rawCngt, rawCddt, rawCc, rawBdt, rawPtCs] = await Promise.all([
           fetchJsonWithCache('./data.json').catch(() => []),
           fetchJsonWithCache('./tieng_trung.json').catch(() => null),
           fetchJsonWithCache('./kinh_dich.json').catch(() => null),
@@ -15670,7 +15753,8 @@
           fetchJsonWithCache('./chon_ngay_tot.json').catch(() => null),
           fetchJsonWithCache('./cau_do_tri_tue.json').catch(() => null),
           fetchJsonWithCache('./cap_cuu_tai_nha.json').catch(() => null),
-          fetchJsonWithCache('./ban_do_tri_thuc.json').catch(() => null)
+          fetchJsonWithCache('./ban_do_tri_thuc.json').catch(() => null),
+          fetchJsonWithCache('./phong_thuy_chuyen_sau.json').catch(() => null)
         ]);
 
         if (rawP && rawP.length > 0) {
@@ -15751,6 +15835,10 @@
 
         if (rawPt) {
           phongThuyData = rawPt;
+        }
+
+        if (rawPtCs) {
+          phongThuyChuyenSauData = rawPtCs;
         }
 
         if (rawHd) {
@@ -15875,7 +15963,9 @@
         ' uy ban chung khoan', ' cong bo thong tin', ' quy che san']],
       ['gout', [' benh gut', ' gut ', ' axit uric', ' thong phong', ' viem khop', ' colchicine', ' gut cap',
         ' urat']],
-      ['phongthuy', [' phong thuy', ' huong nha', ' the dat', ' bat cung', ' bat quai', ' phong khach', ' phong ngu', ' ban tho']],
+      ['phongthuy', [' phong thuy', ' huong nha', ' the dat', ' bat cung', ' bat quai', ' phong khach', ' phong ngu', ' ban tho',
+        ' mo phan', ' huong mo', ' xay mo', ' nghia trang', ' di doi mo', ' phong thuy quoc gia', ' dia the viet nam',
+        ' san bay long thanh', ' phan tich vung', ' dau tu bat dong san']],
       ['huyetdao', [' huyet dao', ' bam huyet', ' huyet vi', ' hop coc', ' thai xung', ' tam am giao', ' tuc tam ly', ' bach hoi']],
       ['chongaytot', [' chon ngay tot', ' ngay lanh', ' truc nhat', ' can chi', ' am duong ngu hanh', ' khoi cong', ' dong tho', ' cuoi hoi', ' khai truong']],
       ['caudotritue', [' cau do tri tue', ' ren tu duy nhanh', ' cau do logic', ' do vui', ' tu duy phan bien', ' 160 cau do', ' bay tu duy', ' cau do hay']],
@@ -16288,6 +16378,20 @@
         }
         (phongThuyData.phan_8_20_loi_phong_thuy_thuong_gap?.danh_sach_20_loi || []).forEach(function (l) {
           add('phongthuy', null, '[PHONG THỦY - Lỗi ' + l.stt + '] ' + l.loi, l.anh_huong + ' ' + l.cach_sua);
+        });
+      }
+
+      if (phongThuyChuyenSauData) {
+        ['mo_phan', 'ban_tho', 'quoc_gia'].forEach(function (key) {
+          const sub = phongThuyChuyenSauData[key];
+          if (!sub) return;
+          add('phongthuy', null, '[PHONG THỦY - ' + sub.tieu_de + ']', sub.gioi_thieu_doc || '');
+          (sub.muc || []).forEach(function (m) {
+            add('phongthuy', null, '[' + sub.tieu_de + ' - ' + m.tieu_de + ']', m.noi_dung_doc || '');
+          });
+          (sub.phu_luc || []).forEach(function (pl) {
+            add('phongthuy', null, '[' + sub.tieu_de + ' - Phụ Lục: ' + pl.tieu_de + ']', pl.noi_dung_doc || '');
+          });
         });
       }
 
