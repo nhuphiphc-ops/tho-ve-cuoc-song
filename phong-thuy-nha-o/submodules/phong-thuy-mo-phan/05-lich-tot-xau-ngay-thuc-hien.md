@@ -28,3 +28,10 @@
 | Hợi, Mão, Mùi | Tỵ, Ngọ, Mùi |
 
 > ⚠️ Năm Tam Tai **không cấm** xây mộ — chỉ cần thận trọng hơn, chọn ngày kỹ hơn, làm lễ cúng trước khi khởi công.
+
+## 5.3 Ví dụ thực tế: Chọn ngày cải táng sang cát vào ban đêm/rạng sáng
+### 💡 Ví dụ: Tại sao lễ cải táng luôn thực hiện từ 1h đến 5h sáng?
+- **Tập tục dân gian**: Các cụ truyền đời dặn sang cát phải làm ban đêm, tuyệt đối tránh ánh nắng mặt trời rọi vào xương cốt.
+- **Lý giải khoa học y tế & hóa sinh**:
+  - Xương cốt sau nhiều năm chôn cất khi gặp ánh nắng mặt trời có chứa tia cực tím (UV) và nhiệt độ cao sẽ bị oxy hóa cực nhanh, khiến xương bị đen xỉn và giòn vỡ vụn.
+  - Khung giờ từ 1h–5h sáng (giờ Sửu, giờ Dần) không khí tĩnh mịch, nhiệt độ hạ thấp, độ ẩm cao giúp bảo quản cốt hài nguyên vẹn màu trắng ngà. Về tâm linh, đây là thời khắc giao thoa âm dương êm ả, thể hiện sự kính trọng trọn vẹn của con cháu.

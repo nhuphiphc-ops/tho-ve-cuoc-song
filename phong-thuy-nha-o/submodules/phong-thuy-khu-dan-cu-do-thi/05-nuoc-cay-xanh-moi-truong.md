@@ -32,3 +32,12 @@
 - Hướng gió thổi ra khu không có nguồn ô nhiễm → không đưa khí xấu vào
 - Nhà cao tầng đặt phía cuối/đông — không chắn gió/nắng cho nhà thấp phía trước
 - Không xây tường cao kín quá → không khí tù đọng, người ở u uất
+
+## 5.4 Ví dụ thực tế: Cải tạo hồ nước tù đọng thành "Trái Tim Xanh" dự án
+### 💡 Ví dụ: Biến mương nước ô nhiễm thành hồ cảnh quan điều hòa sinh thái
+- **Thực tế**: Khu đất dự án có một con mương thoát nước nông nghiệp đen ngòm chảy vắt ngang qua giữa khu.
+- **Giải pháp xử lý đỉnh cao**:
+  - Không lấp mương bằng cống hộp ngột ngạt, chủ đầu tư nạo vét mở rộng thành một **hồ cảnh quan uốn lượn hình hạt đậu** diện tích 1.5 hecta.
+  - Lắp đặt hệ thống máy sục khí oxy tuần hoàn kết hợp trồng cây thủy sinh (hoa sen, súng, thủy trúc) để lọc sạch nước tự nhiên.
+  - Thả cá Koi và cá chép giúp diệt bọ gậy, loại bỏ hoàn toàn muỗi mòng.
+- **Kết quả**: Hồ nước biến thành "Huyệt Tụ Khí" đắt giá nhất khu đô thị. Toàn bộ các lô biệt thự ven hồ được bán hết veo trong ngày mở bán đầu tiên với mức giá kỷ lục.

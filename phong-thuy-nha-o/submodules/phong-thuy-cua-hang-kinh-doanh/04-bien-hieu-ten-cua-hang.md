@@ -18,3 +18,10 @@
 ## 4.3 Tên cửa hàng
 - Ngắn, dễ gọi, dễ nhớ; không chữ phức tạp
 - Số nét chữ hợp số tốt theo mệnh: Kim(7,8), Mộc(1,2), Thủy(1,6), Hỏa(3,9), Thổ(5,10)
+
+## 4.4 Ví dụ thực tế: Biển hiệu bị bóng tối hoặc cây xanh che khuất
+### 💡 Ví dụ: Shop mỹ phẩm đổi biển LED sáng đều tăng gấp đôi lượng khách vãng lai
+- **Tình huống**: Cửa hàng thời trang của chị M có biển hiệu bằng bạt hiflex cũ kỹ, đèn neon rọi nửa sáng nửa tối, tán cây bàng trước nhà che mất 1/3 chữ đầu tiên của tên shop.
+- **Hậu quả**: Khách đi xe qua chỉ kịp đọc thấy chữ cụt ngủn, tưởng quán đóng cửa hoặc cơ sở không uy tín nên lướt qua luôn.
+- **Khắc phục**: Thay biển chữ nổi mica phát sáng toàn phần, tỉa bớt cành cây che khuất, chọn màu chữ vàng kem nổi bật trên nền xanh ngọc (tương sinh Mộc - Hỏa). Lập tức lượng khách ghé xem hàng buổi tối tăng vọt 60%.
+- **Lý giải**: "Minh đường sáng sủa thì khách mới tụ". Biển hiệu chính là bộ mặt giao tiếp đầu tiên, sự rõ ràng chỉn chu tạo niềm tin thương hiệu ngay từ 3 giây đầu tiên.

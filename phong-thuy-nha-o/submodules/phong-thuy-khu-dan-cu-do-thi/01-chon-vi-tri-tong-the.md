@@ -23,3 +23,9 @@
 - Đường chính chạy dọc theo hướng tốt của vùng
 - Không quy hoạch khu theo hướng đường đâm thẳng vào trung tâm
 - Phân khu: cao tầng ở phía trước/đông — thấp tầng ở phía sau/tây → cân bằng ánh sáng, gió
+
+## 1.4 Ví dụ thực tế: Khảo sát địa hình trước khi duyệt dự án khu dân cư
+### 💡 Ví dụ: Tránh vết xe đổ của khu đô thị xây trên nền đất ruộng trũng ven sông
+- **Tình huống**: Một chủ đầu tư mua khu đất trũng vốn là ruộng lúa ngập nước để phân lô bán nền. Nhằm tiết kiệm chi phí, nhà thầu chỉ bơm cát nâng nền thêm 50cm mà không làm bờ kè kiên cố.
+- **Hậu quả**: Sau trận mưa lớn kết hợp triều cường rằm tháng 9, toàn bộ khu dân cư ngập sâu 0.8m nước đục ngầu; đường nhựa mới làm bị lún nứt gãy đôi. Dự án bị người mua khiếu kiện tập thể, đóng băng giao dịch suốt 3 năm.
+- **Lý giải bài học**: "Đất trũng sinh khí tán, nước đọng hóa uế khí". Khi chọn đất dự án, cốt nền bắt buộc phải cao hơn mực nước đỉnh lũ lịch sử 100 năm tối thiểu 0.5–1m; hệ thống thoát nước mưa và thoát nước thải sinh hoạt phải tách riêng biệt hoàn toàn.

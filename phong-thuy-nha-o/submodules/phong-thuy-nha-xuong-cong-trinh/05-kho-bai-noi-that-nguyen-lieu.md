@@ -16,3 +16,11 @@
 - Hàng nặng dưới, nhẹ trên — cân bằng
 - Sàn khô, không ẩm — tiền ẩm mốc không giữ được
 - Đèn sáng đủ — tối tăm dễ mất mát
+
+## 5.3 Ví dụ thực tế: Xếp dỡ pallet nguyên liệu tránh "Áp Đỉnh Sát"
+### 💡 Ví dụ: Thảm họa sập kệ hàng do chất hàng quá cao sát dầm xà
+- **Tình huống**: Để tận dụng diện tích kho, quản lý cho chất các kiện vải may mặc cao 4 tầng pallet (cao gần 5m), chạm sát trần tôn và che kín cả các bóng đèn tuýp chiếu sáng.
+- **Hậu quả**: Lối đi giữa các kệ hàng tối tăm ẩm mốc; một lần xe nâng va chạm nhẹ làm đổ sập cả dãy kiện vải đè hỏng máy móc bên dưới; kiện hàng phía trên sát mái tôn hấp thụ nhiệt độ 45 độ C làm giòn mục sợi vải.
+- **Lý giải & Chuẩn mực**:
+  - Hàng hóa chỉ chất cao tối đa cách dầm trần/mái tối thiểu 1.2m để đảm bảo khoảng hở lưu thông không khí và phạm vi xả nước của đầu phun tự động Sprinkler (PCCC).
+  - Ánh sáng đèn kho phải rọi thẳng vào lối đi, hàng nặng tầng 1, hàng nhẹ tầng trên giúp cân bằng trọng lực và giữ vững sinh khí an toàn.

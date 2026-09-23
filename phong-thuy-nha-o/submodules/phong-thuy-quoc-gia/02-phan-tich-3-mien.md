@@ -26,3 +26,10 @@
 | **TP.HCM & vùng phụ cận** | Nằm nơi hội tụ sông Sài Gòn - Đồng Nai, đất rộng bằng phẳng | Trung tâm kinh tế, dòng tiền lớn, tụ tập nhân tài — ưu tiên đầu tư |
 | **Đông Nam Bộ** | Bình Dương, Đồng Nai, Bà Rịa-Vũng Tàu — vành đai phát triển | Vùng mở rộng, giá tăng, công nghiệp, cảng, sân bay |
 | **Đồng bằng Tây Nam** | Cần Thơ, An Giang, Kiên Giang — nền nông nghiệp, ổn định | Đầu tư an toàn, ít biến động, dài hạn |
+
+## 2.3 Ví dụ thực tế: Thế đất "Rồng cuộn hổ ngồi" của Kinh đô Thăng Long - Hà Nội
+### 💡 Ví dụ: Chiếu dời đô của vua Lý Thái Tổ năm 1010
+- **Chiếu dời đô ghi rõ**: *"Ở giữa khu vực trời đất, có cái thế rồng cuộn hổ ngồi. Đã đúng ngôi nam bắc đông tây; lại tiện hướng nhìn sông tựa núi. Vùng này mặt đất rộng mà bằng phẳng, thế đất cao mà sáng sủa. Dân cư không khổ vì ngập lụt; muôn vật rất mực phong phú tốt tươi..."*
+- **Lý giải địa lý - kinh tế hiện đại**:
+  - Hà Nội nằm ở đỉnh của tam giác châu thổ sông Hồng màu mỡ, phía sau có núi Ba Vì (núi Tổ Tản Viên) che chắn, phía trước có sông Hồng bồi đắp phù sa và mở đường thủy thông ra biển Đông.
+  - Trải qua hơn 1000 năm lịch sử, dù trải qua bao biến cố thời cuộc, Thăng Long - Hà Nội vẫn trường tồn vững chắc là trung tâm đầu não chính trị, văn hóa, trí tuệ của cả dân tộc.

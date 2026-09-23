@@ -21,3 +21,11 @@
 
 > **Bác Phi** — Năm sinh 1981, mệnh **Kim** → Hướng ưu tiên: **Tây hoặc Tây Bắc**.
 > Nếu nghĩa trang không có lô hướng Tây → chọn **Đông Bắc** (tương hợp), bổ trợ bằng vật liệu đá trắng/xám (màu Kim).
+
+## 2.3 Ví dụ thực tế: Chọn hướng mộ hài hòa cho gia đình nhiều thế hệ
+### 💡 Ví dụ: Đặt mộ cho cụ ông mệnh Thủy trong khu nghĩa trang chung
+- **Tình huống**: Cụ ông sinh năm 1952 (Nhâm Thìn - Mệnh Thủy), khi tạ thế con cháu mua lô đất tại công viên nghĩa trang sinh thái.
+- **Phân tích chọn hướng**:
+  - Hướng tốt nhất cho mệnh Thủy là hướng **Bắc (cung bản mệnh)** hoặc hướng **Đông Bắc / Tây Bắc (hành Kim tương sinh ra Thủy)**.
+  - Tuy nhiên, lô đất nghĩa trang dốc nhẹ về hướng Đông. Ban tang lễ khéo léo chọn hướng bia mộ xoay về hướng **Đông Bắc** (vừa hợp mệnh Thủy, vừa nhìn ra hồ nước cảnh quan phía trước làm Minh Đường tụ tài).
+  - Phần mộ được ốp đá hoa cương màu xám đen bóng ánh kim (màu tương hợp mệnh Thủy). Con cháu sau ngày an táng cảm thấy lòng nhẹ nhõm, công việc kinh doanh của người con trưởng thuận buồm xuôi gió.

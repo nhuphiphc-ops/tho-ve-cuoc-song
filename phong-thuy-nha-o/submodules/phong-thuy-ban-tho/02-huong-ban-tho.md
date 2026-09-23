@@ -58,3 +58,12 @@ Trong các khu chung cư hiện đại, việc xoay hướng bàn thờ thườn
 3. **Tránh hướng gió lùa từ ban công**:
    - Không đặt bàn thờ thẳng hướng gió lốc từ cửa ban công/lô gia thổi vào, vì gió mạnh sẽ làm dao động trường khí bát hương, thổi tắt nến và bay tàn tro nhang.
    - Nên đặt lệch góc ban công khoảng 30–45 độ và bố trí rèm che bàn thờ bằng lụa màu cánh gián hoặc rèm hạt gỗ.
+
+## 2.3 Ví dụ thực tế: Chọn hướng bàn thờ cho căn hộ chung cư
+### 💡 Ví dụ: Căn hộ chung cư cửa chính hướng Tây, ban công hướng Đông
+- **Tình huống**: Bác chủ nhà sinh năm 1981 (Tân Dậu - Mệnh Mộc, quái Khảm thuộc Đông Tứ Mệnh). Mua căn hộ chung cư có cửa chính hướng Tây (hướng xấu theo tuổi), ban công nhìn ra hướng Đông (rất thoáng mát, đón nắng sớm).
+- **Trăn trở**: Nếu đặt bàn thờ nhìn ra cửa chính thì phạm hướng Tây (họa hại/tuyệt mệnh). Nếu quay ra ban công thì sợ bị gió lùa tạt tàn hương.
+- **Giải pháp thực tế & Khoa học vi khí hậu**:
+  - Đặt bàn thờ tại phòng khách, hướng nhìn về phía Đông Nam (cung Sinh Khí của Đông Tứ Mệnh) hoặc nhìn chếch về phía ban công hướng Đông.
+  - Lắp thêm vách ngăn CNC họa tiết chữ Vạn hoặc rèm hạt gỗ che chắn nhẹ hai bên bàn thờ để cản gió lùa từ ban công, giữ cho bát hương tụ khí ấm áp, không bị gió tạt bay tàn nhang gây nguy cơ hỏa hoạn.
+  - Kết quả: Vừa hợp hướng phong thủy bản mệnh, vừa đón nhận ánh sáng bình minh ấm áp, gia đạo luôn yên ổn, con cái học hành hanh thông.

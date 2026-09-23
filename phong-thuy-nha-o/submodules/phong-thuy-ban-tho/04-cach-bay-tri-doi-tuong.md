@@ -48,3 +48,11 @@
 - **Phía sau**: Bức ảnh/bảng tên — cao hơn bát hương, không đặt đồ chồng lên
 - **Hàng dưới**: Đồ cúng, nước, rượu — đặt gọn, thay hàng ngày, không để cũ thối
 - **Không đặt**: tượng thần linh chung tổ tiên nếu không cùng hệ thống; đồ kim khí sắc nhọn; tiền bạc, sổ sách, hóa đơn
+
+## 4.4 Ví dụ thực tế: Sai lầm khi đặt bát hương và mâm bồng ngũ quả
+### 💡 Ví dụ: Hiện tượng xê dịch bát hương khi lau dọn ngày 23 tháng Chạp
+- **Tình huống**: Vào dịp Tết, gia chủ nhấc hẳn bát hương xuống chậu nước để rửa sạch bụi bẩn và đổ hết tro cũ ra thay tro mới.
+- **Hậu quả tâm lý**: Sau Tết trong nhà liên tục xảy ra lục đục, cảm giác gia đạo bất an, lo lắng vì sợ "động bát hương".
+- **Lý giải bản chất**:
+  - *Tâm lý học hành vi*: Bát hương là "điểm neo tâm linh" vững chắc nhất trong tâm thức người Việt. Việc xê dịch, lay chuyển bát hương tạo ra cảm giác nền tảng bị rung lắc, dẫn đến tâm lý hoang mang, mất tự tin trong công việc.
+  - *Quy chuẩn bao sái chuẩn*: Khi lau dọn, một tay giữ chặt thân bát hương, tay kia dùng khăn sạch nhúng nước ngũ vị hương (quế, hồi, gừng) lau từ từ xung quanh. Chỉ rút tỉa bớt chân nhang (để lại số lẻ 3, 5, 7 hoặc 9 chân nhang), tuyệt đối không xoay chuyển hay nhấc bát hương rời khỏi vị trí ban đầu.

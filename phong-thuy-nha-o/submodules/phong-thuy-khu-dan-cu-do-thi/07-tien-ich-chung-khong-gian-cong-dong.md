@@ -20,3 +20,8 @@
 - Tường bao xung quanh chắc chắn, không lủng củng → giữ an ninh, giữ năng lượng tốt
 - Không quá kín bưng → không khí tù đọng, người ở u uất
 - Lối ra vào rõ ràng, không nhiều ngõ hẻm bí hiểm → dễ quản lý, an toàn
+
+## 7.4 Ví dụ thực tế: Bố trí trường mầm non và công viên trẻ em an toàn
+### 💡 Ví dụ: Vị trí trường mầm non đặt tại "Góc Thanh Long tĩnh tại"
+- **Tình huống**: Trường mầm non được bố trí ngay tại lõi công viên nội khu, cách xa trục đường xe tải chạy 150m, có đường dạo bộ rợp bóng mát dẫn từ các dãy nhà vào trường.
+- **Lợi ích thực tế**: Phụ huynh và ông bà có thể dắt các cháu đi bộ đến trường mỗi sáng mà không phải lo lắng xe cộ va quẹt. Tiếng nô đùa của trẻ thơ hòa cùng tiếng chim hót trong công viên tạo nên luồng "Sinh khí dương trạch" dồi dào, đem lại niềm vui và sự an tâm tuyệt đối cho cả cộng đồng dân cư.

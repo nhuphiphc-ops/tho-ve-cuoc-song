@@ -28,3 +28,9 @@
 - Cây xanh 2 bên cổng — lá tròn thường xanh, không gai, không rụng lá nhiều
 - Biển tên khu rõ ràng, sáng, đèn chiếu ban đêm — tối = ngủ, không phát triển
 - Không đặt thùng rác, trạm biến áp, cột điện ngay trước cổng — chặn tài lộc
+
+## 4.4 Ví dụ thực tế: Thiết kế cổng chào khu đô thị đón luồng khí cát lành
+### 💡 Ví dụ: Cổng chào hình vòm tròn mở rộng đón sinh khí
+- **Tình huống**: Dự án khu nhà ở 500 căn thiết kế cổng chào bằng hai trụ bê tông góc cạnh nhọn chĩa thẳng ra trục đường lớn, lối vào chỉ vừa khít 2 làn ô tô không có vỉa hè cho người đi bộ.
+- **Hiện tượng**: Xe cộ ra vào hay quẹt gương, người dân đi bộ tập thể dục buổi sáng cảm thấy bất an khi đi qua cổng.
+- **Cải tạo**: Mở rộng cổng thành 4 làn xe (2 làn vào, 2 làn ra riêng biệt) có dải phân cách trồng hoa dừa cạn; hai bên làm lối đi bộ lát đá nhám chống trượt; vòm cổng uốn cong bán nguyệt mềm mại tượng trưng cho cánh tay ôm trọn cư dân về nhà. Giá trị căn nhà trong khu lập tức tăng 10% nhờ diện mạo cổng chào đẳng cấp và thân thiện.
