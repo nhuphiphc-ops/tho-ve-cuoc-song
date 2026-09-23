@@ -3832,7 +3832,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v56';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v57';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -13326,9 +13326,15 @@
           pinyinText = (item['Pinyin'] || '') + (item['Doc (am boi)'] ? ` (Bồi: ${item['Doc (am boi)']})` : '');
           transText = item['Dich'] || '';
         } else if (activeChineseSheet === '214_Bo_thu') {
-          primaryText = item['Ten bo'] || '';
+          const hanChar = item['Chu tuong hinh'] || item['Han'] || '';
+          const tenBo = item['Ten bo'] || '';
+          primaryText = hanChar ? `<div class="flex items-baseline gap-3"><span class="text-4xl sm:text-5xl font-black font-hans text-amber-300 drop-shadow-md">${hanChar}</span><span class="text-xl font-black text-white font-display">${tenBo}</span></div>` : tenBo;
           pinyinText = item['Phien am'] || '';
           transText = item['Y nghia'] || '';
+          const bienThe = item['Bien the'] ? `<span class="text-[11px] font-medium text-slate-400 block mt-1"><span class="text-slate-500">Biến thể:</span> <span class="font-hans font-bold text-amber-200/90 text-sm tracking-widest">${item['Bien the']}</span></span>` : '';
+          const soNet = item['So net'] ? `<span class="text-[10px] font-bold text-teal-300 bg-teal-500/15 border border-teal-500/25 px-2 py-0.5 rounded-full">${item['So net']} nét</span>` : '';
+          extraInfo = `<div class="flex items-center gap-2">${soNet}</div>`;
+          if (bienThe) transText = transText + bienThe;
         } else if (activeChineseSheet === 'Cach_doc_phat_am') {
           primaryText = item['Van mau'] || item['Thanh mau'] || Object.values(item)[0] || '';
           transText = item['Cach doc'] || '';
@@ -13338,9 +13344,9 @@
           transText = "Họ tên thường gặp";
         }
 
-        let speakText = primaryText;
-        if (activeChineseSheet === '214_Bo_thu' && item['Phien am']) {
-          speakText = item['Phien am'];
+        let speakText = item['Chu tuong hinh'] || item['Han'] || primaryText;
+        if (activeChineseSheet === '214_Bo_thu') {
+          speakText = item['Chu tuong hinh'] || item['Phien am'] || item['Ten bo'];
         } else if (activeChineseSheet === 'Ho_ten_thuong_gap' && pinyinText) {
           speakText = pinyinText;
         }
@@ -13365,7 +13371,7 @@
               </div>
               <h4 class="text-2xl font-black font-hans text-white select-all mb-2">${primaryText}</h4>
               ${pinyinText ? `<p class="text-xs font-bold text-teal-300 tracking-wide mb-2 ${hidePinyin ? 'invisible select-none blur-sm' : ''}">${pinyinText}</p>` : ''}
-              ${transText ? `<p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-sans mt-2 ${hideViet ? 'invisible select-none blur-sm' : ''}">${transText}</p>` : ''}
+              ${transText ? `<div class="text-xs sm:text-sm text-slate-300 leading-relaxed font-sans mt-2 ${hideViet ? 'invisible select-none blur-sm' : ''}">${transText}</div>` : ''}
             </div>
             <div class="flex justify-end mt-4 pt-3 border-t border-slate-800/80">
               ${speakBtn}

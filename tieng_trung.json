@@ -33638,1074 +33638,1930 @@
   ],
   "214_Bo_thu": [
     {
-      "Ten bo": "Nhất",
-      "Phien am": "yĩ",
-      "Y nghia": "Một, thứ nhất, khởi đầu"
+      "STT": 1,
+      "Chu tuong hinh": "一",
+      "Bien the": "",
+      "Ten bo": "Nhất",
+      "Phien am": "yī",
+      "So net": 1,
+      "Y nghia": "Số một, khởi đầu của vạn vật, thống nhất toàn vẹn"
     },
     {
+      "STT": 2,
+      "Chu tuong hinh": "丨",
+      "Bien the": "",
       "Ten bo": "Cổn",
       "Phien am": "gǔn",
-      "Y nghia": "Nét sổ, đường thẳng đứng trên xuống dưới"
+      "So net": 1,
+      "Y nghia": "Nét sổ dọc thẳng đứng từ trên xuống, thông suốt trên dưới"
     },
     {
+      "STT": 3,
+      "Chu tuong hinh": "丶",
+      "Bien the": "",
       "Ten bo": "Chủ",
       "Phien am": "zhǔ",
-      "Y nghia": "Nét chấm, một điểm"
+      "So net": 1,
+      "Y nghia": "Nét chấm, một điểm tụ khí, mầm mống ngọn lửa nhỏ"
     },
     {
+      "STT": 4,
+      "Chu tuong hinh": "丿",
+      "Bien the": "",
       "Ten bo": "Phiệt",
       "Phien am": "piě",
-      "Y nghia": "Nét phảy, nét nghiêng từ phải qua trái, chỉ động tác"
+      "So net": 1,
+      "Y nghia": "Nét phẩy, uốn nghiêng từ phải qua trái, động tác vuốt lướt"
     },
     {
+      "STT": 5,
+      "Chu tuong hinh": "乙",
+      "Bien the": "乚, 乛",
       "Ten bo": "Ất",
       "Phien am": "yǐ",
-      "Y nghia": "Can thứ hai trong mười can (Giáp, ất , bính, đinh…)"
+      "So net": 1,
+      "Y nghia": "Can thứ 2 trong Thiên Can; hình dáng mầm cây uốn lượn vươn lên"
     },
     {
+      "STT": 6,
+      "Chu tuong hinh": "亅",
+      "Bien the": "",
       "Ten bo": "Quyết",
       "Phien am": "jué",
-      "Y nghia": "Nét sổ có móc, cái móc"
+      "So net": 1,
+      "Y nghia": "Nét móc câu, lưỡi câu sắt, sự câu thúc kéo giữ"
     },
     {
+      "STT": 7,
+      "Chu tuong hinh": "二",
+      "Bien the": "",
       "Ten bo": "Nhị",
       "Phien am": "èr",
-      "Y nghia": "Số hai, thường biểu thị nét chữ"
+      "So net": 2,
+      "Y nghia": "Số hai, đối đãi Âm Dương, trời và đất"
     },
     {
-      "Ten bo": "Đầu",
+      "STT": 8,
+      "Chu tuong hinh": "亠",
+      "Bien the": "",
+      "Ten bo": "Đầu",
       "Phien am": "tóu",
-      "Y nghia": "Thường chỉ biểu thị nét chữ"
+      "So net": 2,
+      "Y nghia": "Phần nắp che bên trên, phần đầu của vật"
     },
     {
+      "STT": 9,
+      "Chu tuong hinh": "人",
+      "Bien the": "亻, 入",
       "Ten bo": "Nhân",
       "Phien am": "rén",
-      "Y nghia": "Người, biểu thị con người, các động tác, hành vi, tính cách hay sự việc"
+      "So net": 2,
+      "Y nghia": "Con người, dáng người đứng nghiêng hai chân bước đi"
     },
     {
+      "STT": 10,
+      "Chu tuong hinh": "儿",
+      "Bien the": "",
       "Ten bo": "Nhi",
       "Phien am": "ér",
-      "Y nghia": "Đứa trẻ con, con trai, biểu thị các sự việc liên quan tới con người"
+      "So net": 2,
+      "Y nghia": "Trẻ thơ, con người, đôi chân người đang đi"
     },
     {
-      "Ten bo": "Nhập",
+      "STT": 11,
+      "Chu tuong hinh": "入",
+      "Bien the": "",
+      "Ten bo": "Nhập",
       "Phien am": "rù",
-      "Y nghia": "Vào, biểu thị sự thâm nhập, tham gia."
+      "So net": 2,
+      "Y nghia": "Đi vào, thâm nhập từ ngoài vào trong"
     },
     {
-      "Ten bo": "Bát",
+      "STT": 12,
+      "Chu tuong hinh": "八",
+      "Bien the": "丷",
+      "Ten bo": "Bát",
       "Phien am": "bā",
-      "Y nghia": "Số tám, biểu thị các sự việc liên quan tới phân tách, ngược lại."
+      "So net": 2,
+      "Y nghia": "Số tám; hai nét xòe ra mang ý phân tách, chia rẽ"
     },
     {
+      "STT": 13,
+      "Chu tuong hinh": "冂",
+      "Bien the": "",
       "Ten bo": "Quynh",
       "Phien am": "jiōng",
-      "Y nghia": "Vùng biên giới xa, hoang địa, biểu thị sự việc liên quan tới 1 khu vực"
+      "So net": 2,
+      "Y nghia": "Vùng đất xa xôi biên cương, vùng ngoại ô hoang vu"
     },
     {
-      "Ten bo": "Mịch",
+      "STT": 14,
+      "Chu tuong hinh": "冖",
+      "Bien the": "",
+      "Ten bo": "Mịch",
       "Phien am": "mì",
-      "Y nghia": "Biểu thị các sự việc liên quan tới che, đậy, phủ lên"
+      "So net": 2,
+      "Y nghia": "Khăn trùm, tấm vải phủ che đậy bên trên"
     },
     {
+      "STT": 15,
+      "Chu tuong hinh": "冫",
+      "Bien the": "",
       "Ten bo": "Băng",
       "Phien am": "bīng",
-      "Y nghia": "Biểu thị nhiệt độ thấp, hoặc liên quan tới nước"
+      "So net": 2,
+      "Y nghia": "Nước đóng băng, giá lạnh, sương tuyết kết tinh"
     },
     {
-      "Ten bo": "Kỷ",
-      "Phien am": "jǐ",
-      "Y nghia": "Ghế dựa, biểu thị đồ dùng bằng gỗ nhỏ, thấp cho việc uống trà"
+      "STT": 16,
+      "Chu tuong hinh": "几",
+      "Bien the": "",
+      "Ten bo": "Kỷ",
+      "Phien am": "jī",
+      "So net": 2,
+      "Y nghia": "Cái bàn nhỏ, ghế thấp uống trà nghỉ ngơi"
     },
     {
-      "Ten bo": "Khảm",
-      "Phien am": "qiǎn",
-      "Y nghia": "Há miệng, liên quan tới hang hốc hay lõm xuống"
+      "STT": 17,
+      "Chu tuong hinh": "凵",
+      "Bien the": "",
+      "Ten bo": "Khảm",
+      "Phien am": "kǎn",
+      "So net": 2,
+      "Y nghia": "Hố sâu dưới đất, miệng vực, chỗ trũng"
     },
     {
+      "STT": 18,
+      "Chu tuong hinh": "刀",
+      "Bien the": "刂",
       "Ten bo": "Đao",
       "Phien am": "dāo",
-      "Y nghia": "Con dao, cây đao (vũ khí), chỉ động tác hay sự việc liên quan tới vũ khí"
+      "So net": 2,
+      "Y nghia": "Con dao, thanh gươm, vũ khí sắc bén dùng để cắt xẻ"
     },
     {
-      "Ten bo": "Lực",
+      "STT": 19,
+      "Chu tuong hinh": "力",
+      "Bien the": "",
+      "Ten bo": "Lực",
       "Phien am": "lì",
-      "Y nghia": "Sức mạnh, liên quan đến việc dùng sức lực"
+      "So net": 2,
+      "Y nghia": "Sức mạnh, cơ bắp cánh tay gồng gọng, công lực"
     },
     {
+      "STT": 20,
+      "Chu tuong hinh": "勹",
+      "Bien the": "",
       "Ten bo": "Bao",
       "Phien am": "bāo",
-      "Y nghia": "Bao bọc, biểu thị các sự việc liên quan tới con người"
+      "So net": 2,
+      "Y nghia": "Bao bọc, ôm lấy quanh mình, gói ghém"
     },
     {
-      "Ten bo": "Chủy",
+      "STT": 21,
+      "Chu tuong hinh": "匕",
+      "Bien the": "",
+      "Ten bo": "Chủy",
       "Phien am": "bǐ",
-      "Y nghia": "Cái thìa (cái muỗng)"
+      "So net": 2,
+      "Y nghia": "Cái thìa múc cơm canh, cái muỗng nhỏ"
     },
     {
+      "STT": 22,
+      "Chu tuong hinh": "匚",
+      "Bien the": "",
       "Ten bo": "Phương",
       "Phien am": "fāng",
-      "Y nghia": "Tủ đựng, biểu thị các đồ vật, sự việc có liên quan tới đồ đựng hình vuông"
+      "So net": 2,
+      "Y nghia": "Chiếc hòm vuông mở miệng sang phải để cất đồ"
     },
     {
-      "Ten bo": "Hệ",
-      "Phien am": "xǐ",
-      "Y nghia": "Che đậy, giấu giếm"
+      "STT": 23,
+      "Chu tuong hinh": "匸",
+      "Bien the": "",
+      "Ten bo": "Hệ",
+      "Phien am": "xì",
+      "So net": 2,
+      "Y nghia": "Chỗ giấu kín, che đậy góc khuất bí mật"
     },
     {
-      "Ten bo": "Thập",
+      "STT": 24,
+      "Chu tuong hinh": "十",
+      "Bien the": "",
+      "Ten bo": "Thập",
       "Phien am": "shí",
-      "Y nghia": "Số mười, thường sử dụng làm số đếm"
+      "So net": 2,
+      "Y nghia": "Số mười, tứ phương tám hướng giao hòa viên mãn"
     },
     {
-      "Ten bo": "Bốc",
-      "Phien am": "bo",
-      "Y nghia": "Xem bói, biểu thị các sự việc liên quan tới bói toán"
+      "STT": 25,
+      "Chu tuong hinh": "卜",
+      "Bien the": "",
+      "Ten bo": "Bốc",
+      "Phien am": "bǔ",
+      "So net": 2,
+      "Y nghia": "Bói toán, vết nứt trên mai rùa khi nung lửa xem điềm"
     },
     {
-      "Ten bo": "Tiết",
+      "STT": 26,
+      "Chu tuong hinh": "卩",
+      "Bien the": "⺋",
+      "Ten bo": "Tiết",
       "Phien am": "jié",
-      "Y nghia": "Đốt tre, biểu thị sự việc liên quan tới quỳ gối"
+      "So net": 2,
+      "Y nghia": "Đốt tre, ngọc tiết ấn tín tín chỉ, người quỳ gối"
     },
     {
-      "Ten bo": "Hán",
-      "Phien am": "chǎng",
-      "Y nghia": "Sườn núi, vách đá, biểu thị các sự việc có liên quan tới vách núi hoặc nhà xưởng"
+      "STT": 27,
+      "Chu tuong hinh": "厂",
+      "Bien the": "",
+      "Ten bo": "Hán",
+      "Phien am": "hàn",
+      "So net": 2,
+      "Y nghia": "Vách núi đá dựng đứng che chở, mái che xưởng"
     },
     {
-      "Ten bo": "Khư,tư",
+      "STT": 28,
+      "Chu tuong hinh": "厶",
+      "Bien the": "",
+      "Ten bo": "Khư / Tư",
       "Phien am": "sī",
-      "Y nghia": "Riêng tư, thường làm nét chữ đôi khi biểu thị sự việc liên quan đến riêng tư"
+      "So net": 2,
+      "Y nghia": "Riêng tư, của riêng, tư lợi cá nhân"
     },
     {
-      "Ten bo": "Hựu",
+      "STT": 29,
+      "Chu tuong hinh": "又",
+      "Bien the": "",
+      "Ten bo": "Hựu",
       "Phien am": "yòu",
-      "Y nghia": "Lại nữa, một lần nữa, biểu thị sự việc, động tác liên quan tới tay"
+      "So net": 2,
+      "Y nghia": "Lại nữa, thêm một lần; hình bàn tay nắm lại đưa ra"
     },
     {
+      "STT": 30,
+      "Chu tuong hinh": "口",
+      "Bien the": "",
       "Ten bo": "Khẩu",
       "Phien am": "kǒu",
-      "Y nghia": "Cái Miệng, liên quan ngôn ngữ hoặc động tác miệng, ngoài ra còn liên quan tới đồ vật hình vuông."
+      "So net": 3,
+      "Y nghia": "Cái miệng người mở to, lời nói, cổng vào"
     },
     {
+      "STT": 31,
+      "Chu tuong hinh": "囗",
+      "Bien the": "",
       "Ten bo": "Vi",
       "Phien am": "wéi",
-      "Y nghia": "Vây Quanh, liên quan tới sự bao vây, vòng tròn…"
+      "So net": 3,
+      "Y nghia": "Tường bao quanh bốn phía, bờ cõi bao bọc khép kín"
     },
     {
-      "Ten bo": "Thổ",
+      "STT": 32,
+      "Chu tuong hinh": "土",
+      "Bien the": "",
+      "Ten bo": "Thổ",
       "Phien am": "tǔ",
-      "Y nghia": "Đất, liên quan tới bùn, đất đai"
+      "So net": 3,
+      "Y nghia": "Đất đai, mầm cây mọc vươn lên từ mặt đất"
     },
     {
-      "Ten bo": "Sĩ",
+      "STT": 33,
+      "Chu tuong hinh": "士",
+      "Bien the": "",
+      "Ten bo": "Sĩ",
       "Phien am": "shì",
-      "Y nghia": "Kẻ Sĩ, liên quan tới con trai, đàn ông"
+      "So net": 3,
+      "Y nghia": "Kẻ sĩ, người có học thức, phẩm hạnh và tiết khí"
     },
     {
-      "Ten bo": "Truy",
+      "STT": 34,
+      "Chu tuong hinh": "夂",
+      "Bien the": "",
+      "Ten bo": "Trĩ",
       "Phien am": "zhǐ",
-      "Y nghia": "Đến ở phía sau"
+      "So net": 3,
+      "Y nghia": "Đến sau, bước đi thong thả chậm chạp từ phía sau"
     },
     {
+      "STT": 35,
+      "Chu tuong hinh": "夊",
+      "Bien the": "",
       "Ten bo": "Tuy",
       "Phien am": "suī",
-      "Y nghia": "Đi Chậm, liên quan tới hoạt động của chân"
+      "So net": 3,
+      "Y nghia": "Bước đi lê thê, chân bước khó khăn mệt mỏi"
     },
     {
-      "Ten bo": "Tịch",
+      "STT": 36,
+      "Chu tuong hinh": "夕",
+      "Bien the": "",
+      "Ten bo": "Tịch",
       "Phien am": "xī",
-      "Y nghia": "Đêm Tối, liên quan tới thời gian hay các hoạt động về đêm"
+      "So net": 3,
+      "Y nghia": "Buổi chiều tối, mặt trăng khuyết vừa mới nhô lên"
     },
     {
-      "Ten bo": "Đại",
-      "Phien am": "dà",
-      "Y nghia": "To Lớn, liên quan tới sự việc to lớn hoặc người"
+      "STT": 37,
+      "Chu tuong hinh": "大",
+      "Bien the": "",
+      "Ten bo": "Đại",
+      "Phien am": "dà",
+      "So net": 3,
+      "Y nghia": "To lớn, người đứng dang rộng hai tay hai chân vĩ đại"
     },
     {
-      "Ten bo": "Nữ",
+      "STT": 38,
+      "Chu tuong hinh": "女",
+      "Bien the": "",
+      "Ten bo": "Nữ",
       "Phien am": "nǚ",
-      "Y nghia": "Nữ Giới, Con Gái, Đàn Bà, liên quan tới phụ nữ, sự xinh đẹp hay họ tên. Đôi khi nó mang nghĩa cho “tính tình không tốt” (ngày xưa trọng nam khinh nữ)"
+      "So net": 3,
+      "Y nghia": "Người phụ nữ, hình tượng người con gái dịu dàng quỳ gối"
     },
     {
-      "Ten bo": "Tử",
-      "Phien am": "zi",
-      "Y nghia": "Con, liên quan tới con cái"
+      "STT": 39,
+      "Chu tuong hinh": "子",
+      "Bien the": "",
+      "Ten bo": "Tử",
+      "Phien am": "zǐ",
+      "So net": 3,
+      "Y nghia": "Đứa con, con nít quấn tã vung hai tay nhỏ"
     },
     {
+      "STT": 40,
+      "Chu tuong hinh": "宀",
+      "Bien the": "",
       "Ten bo": "Miên",
       "Phien am": "mián",
-      "Y nghia": "Mái Nhà Mái Che, liên quan tới nhà cửa hay những việc trong nhà"
+      "So net": 3,
+      "Y nghia": "Mái nhà, nóc nhà che mưa che nắng ấm áp"
     },
     {
-      "Ten bo": "Thốn",
-      "Phien am": "cùn",
-      "Y nghia": "Đơn Vị “Tấc” (Đo Chiều Dài), liên quan tới phép đo, độ dài"
+      "STT": 41,
+      "Chu tuong hinh": "寸",
+      "Bien the": "",
+      "Ten bo": "Thốn",
+      "Phien am": "cùn",
+      "So net": 3,
+      "Y nghia": "Tấc, đơn vị đo gang tấc; điểm bắt mạch ở cổ tay"
     },
     {
-      "Ten bo": "Tiểu",
+      "STT": 42,
+      "Chu tuong hinh": "小",
+      "Bien the": "⺌, ⺍",
+      "Ten bo": "Tiểu",
       "Phien am": "xiǎo",
-      "Y nghia": "Nhỏ Bé, liên quan tới các việc nhỏ bé"
+      "So net": 3,
+      "Y nghia": "Nhỏ bé, chia nhỏ một vật thành nhiều phần li ti"
     },
     {
+      "STT": 43,
+      "Chu tuong hinh": "尢",
+      "Bien the": "尣",
       "Ten bo": "Uông",
-      "Phien am": "yóu",
-      "Y nghia": "Yếu Đuối, liên quan tới khiếm khuyết, tàn tật"
+      "Phien am": "wāng",
+      "So net": 3,
+      "Y nghia": "Tật nguyền ở chân, người đi cà nhắc gãy khúc"
     },
     {
+      "STT": 44,
+      "Chu tuong hinh": "尸",
+      "Bien the": "",
       "Ten bo": "Thi",
       "Phien am": "shī",
-      "Y nghia": "Xác Chết, Thây Ma, liên quan tới thân thể, thi thể hay động tác con người. Có lúc liên quan tới nhà cửa"
+      "So net": 3,
+      "Y nghia": "Thi thể, xác người; người nằm bất động"
     },
     {
-      "Ten bo": "Triệt",
-      "Phien am": "chè",
-      "Y nghia": "Mầm Non, Cỏ Non Mới Mọc, liên quan tới cỏ"
+      "STT": 45,
+      "Chu tuong hinh": "屮",
+      "Bien the": "",
+      "Ten bo": "Triệt",
+      "Phien am": "chè",
+      "So net": 3,
+      "Y nghia": "Mầm non mới nhú khỏi mặt đất đâm chồi"
     },
     {
+      "STT": 46,
+      "Chu tuong hinh": "山",
+      "Bien the": "",
       "Ten bo": "Sơn",
       "Phien am": "shān",
-      "Y nghia": "Núi Non, liên quan tới đá, núi"
+      "So net": 3,
+      "Y nghia": "Núi non trùng điệp, ba ngọn núi vươn cao sừng sững"
     },
     {
+      "STT": 47,
+      "Chu tuong hinh": "巛",
+      "Bien the": "川",
       "Ten bo": "Xuyên",
       "Phien am": "chuān",
-      "Y nghia": "Sông Ngòi, liên quan tới sông nước"
+      "So net": 3,
+      "Y nghia": "Dòng sông uốn khúc chảy miên man không dứt"
     },
     {
+      "STT": 48,
+      "Chu tuong hinh": "工",
+      "Bien the": "",
       "Ten bo": "Công",
       "Phien am": "gōng",
-      "Y nghia": "Người Thợ, Công Việc, liên quan tới công cụ, người thợ"
+      "So net": 3,
+      "Y nghia": "Người thợ, thước vuông góc của thợ mộc chế tác đồ"
     },
     {
-      "Ten bo": "Kỷ",
+      "STT": 49,
+      "Chu tuong hinh": "己",
+      "Bien the": "已, 巳",
+      "Ten bo": "Kỷ",
       "Phien am": "jǐ",
-      "Y nghia": "Bản Thân Mình, liên quan tới trẻ sơ sinh"
+      "So net": 3,
+      "Y nghia": "Bản thân mình, sợi dây cuộn tròn giữ ranh giới"
     },
     {
+      "STT": 50,
+      "Chu tuong hinh": "巾",
+      "Bien the": "",
       "Ten bo": "Cân",
       "Phien am": "jīn",
-      "Y nghia": "Cái Khăn, liên quan tới dệt may"
+      "So net": 3,
+      "Y nghia": "Khăn vải, miếng vải thắt lưng rủ xuống"
     },
     {
+      "STT": 51,
+      "Chu tuong hinh": "干",
+      "Bien the": "",
       "Ten bo": "Can",
-      "Phien am": "gàn",
-      "Y nghia": "Thiên Can, Can Dự"
+      "Phien am": "gān",
+      "So net": 3,
+      "Y nghia": "Cái mộc che chắn vũ khí, can dự, can thiệp"
     },
     {
+      "STT": 52,
+      "Chu tuong hinh": "幺",
+      "Bien the": "",
       "Ten bo": "Yêu",
       "Phien am": "yāo",
-      "Y nghia": "Nhỏ Nhắn, liên quan tới sự vật nhỏ bé như sợi tơ"
+      "So net": 3,
+      "Y nghia": "Nhỏ nhắn, sợi tơ tằm mong manh mới kéo"
     },
     {
-      "Ten bo": "Nghiễm",
-      "Phien am": "guǎng",
-      "Y nghia": "Mái Nhà, liên quan tới công trình kiến trúc, nhà cửa"
+      "STT": 53,
+      "Chu tuong hinh": "广",
+      "Bien the": "",
+      "Ten bo": "Nghiễm",
+      "Phien am": "yǎn",
+      "So net": 3,
+      "Y nghia": "Ngôi nhà rộng lớn dựa lưng vào sườn đồi"
     },
     {
-      "Ten bo": "Dẫn",
+      "STT": 54,
+      "Chu tuong hinh": "廴",
+      "Bien the": "",
+      "Ten bo": "Dẫn",
       "Phien am": "yǐn",
-      "Y nghia": "Bước Dài, liên quan tới việc đi lại"
+      "So net": 3,
+      "Y nghia": "Bước dài chân đi xa, kéo dài con đường"
     },
     {
-      "Ten bo": "Củng",
+      "STT": 55,
+      "Chu tuong hinh": "廾",
+      "Bien the": "",
+      "Ten bo": "Củng",
       "Phien am": "gǒng",
-      "Y nghia": "Chắp Tay, liên quan tới việc dùng 2 tay để cầm nắm vật gì"
+      "So net": 3,
+      "Y nghia": "Hai tay chắp lại cung kính nâng vật lên"
     },
     {
-      "Ten bo": "Dặc",
+      "STT": 56,
+      "Chu tuong hinh": "弋",
+      "Bien the": "",
+      "Ten bo": "Dặc",
       "Phien am": "yì",
-      "Y nghia": "Bắn, Chiếm Lấy, thường không biểu thị ý nghĩa"
+      "So net": 3,
+      "Y nghia": "Cái cọc gỗ buộc dây bắn chim, mũi tên cắm cọc"
     },
     {
+      "STT": 57,
+      "Chu tuong hinh": "弓",
+      "Bien the": "",
       "Ten bo": "Cung",
       "Phien am": "gōng",
-      "Y nghia": "Cái Cung (Để Bắn Tên), liên quan tới vũ khí, cung nỏ"
+      "So net": 3,
+      "Y nghia": "Cây cung săn bắn uốn cong có dây căng"
     },
     {
-      "Ten bo": "Kệ",
+      "STT": 58,
+      "Chu tuong hinh": "彐",
+      "Bien the": "彑",
+      "Ten bo": "Kệ",
       "Phien am": "jì",
-      "Y nghia": "Đầu Con Nhím, thường dùng làm nét chữ"
+      "So net": 3,
+      "Y nghia": "Đầu con nhím hoặc mõm con lợn rừng"
     },
     {
+      "STT": 59,
+      "Chu tuong hinh": "彡",
+      "Bien the": "",
       "Ten bo": "Sam",
       "Phien am": "shān",
-      "Y nghia": "Lông Tóc Dài, liên quan tới trang sức, hình ảnh, tranh vẽ"
+      "So net": 3,
+      "Y nghia": "Lông tóc dài óng ả, hoa văn rực rỡ lượn sóng"
     },
     {
-      "Ten bo": "Xích",
-      "Phien am": "chì",
-      "Y nghia": "Bước Chân Trái, liên quan tới đi lại, đường sá, động tác của con người (thường là chân)"
+      "STT": 60,
+      "Chu tuong hinh": "彳",
+      "Bien the": "",
+      "Ten bo": "Xích",
+      "Phien am": "chì",
+      "So net": 3,
+      "Y nghia": "Bước chân trái, nửa bên trái của ngã tư đường đi"
     },
     {
+      "STT": 61,
+      "Chu tuong hinh": "心",
+      "Bien the": "忄, ⺗",
       "Ten bo": "Tâm",
       "Phien am": "xīn",
-      "Y nghia": "Tâm (Tâm Đứng): Quả Tim, Tâm Trí, Thể hiện tình cảm, thái độ và các hoạt động tâm lý"
+      "So net": 4,
+      "Y nghia": "Trái tim, tâm can, tấm lòng và suy nghĩ chân thật"
     },
     {
+      "STT": 62,
+      "Chu tuong hinh": "戈",
+      "Bien the": "",
       "Ten bo": "Qua",
       "Phien am": "gē",
-      "Y nghia": "Kích (mác), Một loại binh khí dài cổ xưa"
+      "So net": 4,
+      "Y nghia": "Cây giáo có móc ngang, binh khí cổ chiến trường"
     },
     {
-      "Ten bo": "Hộ",
-      "Phien am": "hù",
-      "Y nghia": "Cửa Một Cánh, Liên quan tới cửa"
+      "STT": 63,
+      "Chu tuong hinh": "戶",
+      "Bien the": "户, 戸",
+      "Ten bo": "Hộ",
+      "Phien am": "hù",
+      "So net": 4,
+      "Y nghia": "Cánh cửa một cánh, hộ gia đình sinh sống"
     },
     {
-      "Ten bo": "Thủ",
+      "STT": 64,
+      "Chu tuong hinh": "手",
+      "Bien the": "扌",
+      "Ten bo": "Thủ",
       "Phien am": "shǒu",
-      "Y nghia": "Tay, Liên quan tới động tác tay"
+      "So net": 4,
+      "Y nghia": "Bàn tay với 5 ngón khéo léo làm việc"
     },
     {
+      "STT": 65,
+      "Chu tuong hinh": "支",
+      "Bien the": "",
       "Ten bo": "Chi",
       "Phien am": "zhī",
-      "Y nghia": "Cành Nhánh, Của Cây"
+      "So net": 4,
+      "Y nghia": "Cành cây phân nhánh; tay cầm cành trúc"
     },
     {
-      "Ten bo": "Phộc",
-      "Phien am": "pù",
-      "Y nghia": "Đánh Khẽ, Động tác đánh nhẹ"
+      "STT": 66,
+      "Chu tuong hinh": "攴",
+      "Bien the": "攵",
+      "Ten bo": "Phác",
+      "Phien am": "pū",
+      "So net": 4,
+      "Y nghia": "Đánh khẽ, gõ nhẹ; tay cầm gậy uốn nắn"
     },
     {
+      "STT": 67,
+      "Chu tuong hinh": "文",
+      "Bien the": "",
       "Ten bo": "Văn",
       "Phien am": "wén",
-      "Y nghia": "Văn Vẻ, Văn Chương, Liên quan tới hoa văn hay trang sức nhiều màu sắc"
+      "So net": 4,
+      "Y nghia": "Văn hóa, chữ nghĩa, hoa văn đan dệt rạng rỡ"
     },
     {
-      "Ten bo": "Đẩu",
-      "Phien am": "dōu",
-      "Y nghia": "Cái Đấu, Đơn vị đo lường lương thực (đấu thóc, đấu gạo)"
+      "STT": 68,
+      "Chu tuong hinh": "斗",
+      "Bien the": "",
+      "Ten bo": "Đẩu",
+      "Phien am": "dǒu",
+      "So net": 4,
+      "Y nghia": "Cái đấu đong gạo thóc; chòm sao Bắc Đẩu"
     },
     {
-      "Ten bo": "Cẩn",
+      "STT": 69,
+      "Chu tuong hinh": "斤",
+      "Bien the": "",
+      "Ten bo": "Cân",
       "Phien am": "jīn",
-      "Y nghia": "Cái Búa, Rìu, Dụng cụ đốn cây"
+      "So net": 4,
+      "Y nghia": "Cái rìu đẵn cây; đơn vị cân lường cổ"
     },
     {
+      "STT": 70,
+      "Chu tuong hinh": "方",
+      "Bien the": "",
       "Ten bo": "Phương",
       "Phien am": "fāng",
-      "Y nghia": "Vuông, phương, Chỉ Hình vuông, Phương hướng"
+      "So net": 4,
+      "Y nghia": "Vuông vắn, bốn phương tám hướng, chiếc thuyền mũi vuông"
     },
     {
+      "STT": 71,
+      "Chu tuong hinh": "无",
+      "Bien the": "旡",
       "Ten bo": "Vô",
       "Phien am": "wú",
-      "Y nghia": "Không"
+      "So net": 4,
+      "Y nghia": "Không có, hư không, không tồn tại"
     },
     {
-      "Ten bo": "Nhật",
-      "Phien am": "rì",
-      "Y nghia": "Ngày, Mặt Trời, Liên quan tới Mặt trời, thời gian (tính bằng ngày)"
+      "STT": 72,
+      "Chu tuong hinh": "日",
+      "Bien the": "",
+      "Ten bo": "Nhật",
+      "Phien am": "rì",
+      "So net": 4,
+      "Y nghia": "Mặt trời, ánh sáng ban ngày, ngày tháng"
     },
     {
-      "Ten bo": "Viết",
+      "STT": 73,
+      "Chu tuong hinh": "曰",
+      "Bien the": "",
+      "Ten bo": "Viết",
       "Phien am": "yuē",
-      "Y nghia": "Nói Rằng, Liên quan tới việc nói"
+      "So net": 4,
+      "Y nghia": "Nói rằng, phát ra lời từ trong vòm họng"
     },
     {
-      "Ten bo": "Nguyệt",
+      "STT": 74,
+      "Chu tuong hinh": "月",
+      "Bien the": "",
+      "Ten bo": "Nguyệt",
       "Phien am": "yuè",
-      "Y nghia": "Tháng, Mặt Trăng, Liên quan tới mặt trăng, thời gian (tính bằng tháng)"
+      "So net": 4,
+      "Y nghia": "Mặt trăng sáng vằng vặc, tháng trong năm"
     },
     {
-      "Ten bo": "Mộc",
-      "Phien am": "mù",
-      "Y nghia": "Gỗ, Cây Cối, Cây, gỗ (hình cây có cành và rễ)."
+      "STT": 75,
+      "Chu tuong hinh": "木",
+      "Bien the": "",
+      "Ten bo": "Mộc",
+      "Phien am": "mù",
+      "So net": 4,
+      "Y nghia": "Cây cối, thân gỗ đâm cành tỏa rễ vào lòng đất"
     },
     {
-      "Ten bo": "Khiếm",
+      "STT": 76,
+      "Chu tuong hinh": "欠",
+      "Bien the": "",
+      "Ten bo": "Khiếm",
       "Phien am": "qiàn",
-      "Y nghia": "Khiếm Khuyết, Thiếu Vắng, Thiếu (khiếm nhã, khiếm khuyết)."
+      "So net": 4,
+      "Y nghia": "Người há miệng ngáp; thiếu thốn, khiếm khuyết"
     },
     {
-      "Ten bo": "Chỉ",
+      "STT": 77,
+      "Chu tuong hinh": "止",
+      "Bien the": "",
+      "Ten bo": "Chỉ",
       "Phien am": "zhǐ",
-      "Y nghia": "Dừng Lại, Chỉ động tác của chân"
+      "So net": 4,
+      "Y nghia": "Dừng lại, đứng yên; hình bàn chân cắm móng xuống"
     },
     {
-      "Ten bo": "Đãi",
+      "STT": 78,
+      "Chu tuong hinh": "歹",
+      "Bien the": "歺",
+      "Ten bo": "Đãi",
       "Phien am": "dǎi",
-      "Y nghia": "Xấu Xa, Tệ Hại, Bộ Đãi/Ngạt ý chỉ việc xấu, không tốt"
+      "So net": 4,
+      "Y nghia": "Xương tàn, chết chóc, tồi tệ, hiểm ác"
     },
     {
-      "Ten bo": "Thù",
+      "STT": 79,
+      "Chu tuong hinh": "殳",
+      "Bien the": "",
+      "Ten bo": "Thù",
       "Phien am": "shū",
-      "Y nghia": "Binh Khí Dài, Một loại vũ khí dài, không mũi nhọn"
+      "So net": 4,
+      "Y nghia": "Cây gậy gỗ đập; binh khí dài không có mũi nhọn"
     },
     {
+      "STT": 80,
+      "Chu tuong hinh": "毋",
+      "Bien the": "母",
       "Ten bo": "Vô",
       "Phien am": "wú",
-      "Y nghia": "Chớ, Đừng."
+      "So net": 4,
+      "Y nghia": "Chớ, đừng làm; người mẹ đang nuôi con"
     },
     {
-      "Ten bo": "Tỷ",
+      "STT": 81,
+      "Chu tuong hinh": "比",
+      "Bien the": "",
+      "Ten bo": "Tỷ",
       "Phien am": "bǐ",
-      "Y nghia": "So Sánh, So sánh, so bì. Hình hai người đứng ngang nhau để so cao thấp."
+      "So net": 4,
+      "Y nghia": "So sánh, đặt hai người đứng cạnh nhau đo đếm"
     },
     {
+      "STT": 82,
+      "Chu tuong hinh": "毛",
+      "Bien the": "",
       "Ten bo": "Mao",
       "Phien am": "máo",
-      "Y nghia": "Lông, Liên quan tới lông của loài thú hay râu tóc của con người."
+      "So net": 4,
+      "Y nghia": "Lông thú, lông vũ, sợi lông tơ mềm mại"
     },
     {
-      "Ten bo": "Thị",
+      "STT": 83,
+      "Chu tuong hinh": "氏",
+      "Bien the": "",
+      "Ten bo": "Thị",
       "Phien am": "shì",
-      "Y nghia": "Họ, Họ, ngành họ mạc trong một gia tộc. Phần đệm trong họ tên phái nữ."
+      "So net": 4,
+      "Y nghia": "Dòng họ, thị tộc tổ tiên danh gia"
     },
     {
-      "Ten bo": "Khí",
+      "STT": 84,
+      "Chu tuong hinh": "气",
+      "Bien the": "",
+      "Ten bo": "Khí",
       "Phien am": "qì",
-      "Y nghia": "Hơi Nước, Khí bốc hơi từ nước"
+      "So net": 4,
+      "Y nghia": "Hơi thở, mây khói bốc lên, sinh khí vũ trụ"
     },
     {
-      "Ten bo": "Thủy",
-      "Phien am": "shǔi",
-      "Y nghia": "Nước, Liên quan tới sông nước, chất lỏng"
+      "STT": 85,
+      "Chu tuong hinh": "水",
+      "Bien the": "氵, 氺",
+      "Ten bo": "Thủy",
+      "Phien am": "shuǐ",
+      "So net": 4,
+      "Y nghia": "Nước lỏng, dòng nước chảy mềm mại uốn khúc"
     },
     {
-      "Ten bo": "Hỏa",
+      "STT": 86,
+      "Chu tuong hinh": "火",
+      "Bien the": "灬",
+      "Ten bo": "Hỏa",
       "Phien am": "huǒ",
-      "Y nghia": "Lửa, Liên quan tới lửa hay việc sử dụng lửa"
+      "So net": 4,
+      "Y nghia": "Ngọn lửa bốc cháy bừng bừng tỏa nhiệt lượng"
     },
     {
-      "Ten bo": "Trảo",
+      "STT": 87,
+      "Chu tuong hinh": "爪",
+      "Bien the": "爫",
+      "Ten bo": "Trảo",
       "Phien am": "zhǎo",
-      "Y nghia": "Móng Vuốt, Của động vật"
+      "So net": 4,
+      "Y nghia": "Móng vuốt chim thú quắp chặt lấy mồi"
     },
     {
-      "Ten bo": "Phụ",
+      "STT": 88,
+      "Chu tuong hinh": "父",
+      "Bien the": "",
+      "Ten bo": "Phụ",
       "Phien am": "fù",
-      "Y nghia": "Cha, Nói tới người đàn ông đã trưởng thành"
+      "So net": 4,
+      "Y nghia": "Người cha, tay cầm roi dạy bảo con cái"
     },
     {
-      "Ten bo": "Hào",
+      "STT": 89,
+      "Chu tuong hinh": "爻",
+      "Bien the": "",
+      "Ten bo": "Hào",
       "Phien am": "yáo",
-      "Y nghia": "Hào Âm, Hào Dương, Giao nhau. Mỗi quẻ trong kinh dịch có sáu hào (Kinh kịch)"
+      "So net": 4,
+      "Y nghia": "Vạch hào trong quẻ Kinh Dịch, đan chéo âm dương"
     },
     {
-      "Ten bo": "Tường",
+      "STT": 90,
+      "Chu tuong hinh": "爿",
+      "Bien the": "丬",
+      "Ten bo": "Tường",
       "Phien am": "qiáng",
-      "Y nghia": "Mảnh Gỗ, Cái Giường."
+      "So net": 4,
+      "Y nghia": "Mảnh ván xẻ dọc bên trái thân cây gỗ"
     },
     {
-      "Ten bo": "Phiến",
+      "STT": 91,
+      "Chu tuong hinh": "片",
+      "Bien the": "",
+      "Ten bo": "Phiến",
       "Phien am": "piàn",
-      "Y nghia": "Mảnh, Tấm, Miếng, Mảnh vật mỏng và phẳng"
+      "So net": 4,
+      "Y nghia": "Mảnh ván xẻ mỏng bên phải thân cây, phiến lá"
     },
     {
+      "STT": 92,
+      "Chu tuong hinh": "牙",
+      "Bien the": "",
       "Ten bo": "Nha",
       "Phien am": "yá",
-      "Y nghia": "Răng"
+      "So net": 4,
+      "Y nghia": "Răng nanh, răng hàm cắn xé của loài thú"
     },
     {
+      "STT": 93,
+      "Chu tuong hinh": "牛",
+      "Bien the": "牜",
       "Ten bo": "Ngưu",
-      "Phien am": "níu",
-      "Y nghia": "Trâu, Liên quan tới động vật tương tự Trâu, bò"
+      "Phien am": "niú",
+      "So net": 4,
+      "Y nghia": "Con trâu, con bò với đôi sừng cong vút"
     },
     {
-      "Ten bo": "Khuyển",
+      "STT": 94,
+      "Chu tuong hinh": "犬",
+      "Bien the": "犭",
+      "Ten bo": "Khuyển",
       "Phien am": "quǎn",
-      "Y nghia": "Con Chó, Nói tới loài chó"
+      "So net": 4,
+      "Y nghia": "Con chó trung thành, loài thú 4 chân đuôi cong"
     },
     {
-      "Ten bo": "Huyền",
+      "STT": 95,
+      "Chu tuong hinh": "玄",
+      "Bien the": "",
+      "Ten bo": "Huyền",
       "Phien am": "xuán",
-      "Y nghia": "Màu đen huyền, huyền bí"
+      "So net": 5,
+      "Y nghia": "Màu đen huyền bí, sâu thẳm khôn lường"
     },
     {
-      "Ten bo": "Ngọc",
-      "Phien am": "yù",
-      "Y nghia": "Đá quý, ngọc"
+      "STT": 96,
+      "Chu tuong hinh": "玉",
+      "Bien the": "王",
+      "Ten bo": "Ngọc",
+      "Phien am": "yù",
+      "So net": 5,
+      "Y nghia": "Viên ngọc quý xâu chuỗi, tượng trưng vương quyền"
     },
     {
+      "STT": 97,
+      "Chu tuong hinh": "瓜",
+      "Bien the": "",
       "Ten bo": "Qua",
       "Phien am": "guā",
-      "Y nghia": "Quả dưa"
+      "So net": 5,
+      "Y nghia": "Dây leo quả dưa, bầu bí trĩu cành"
     },
     {
-      "Ten bo": "Ngõa",
+      "STT": 98,
+      "Chu tuong hinh": "瓦",
+      "Bien the": "",
+      "Ten bo": "Ngõa",
       "Phien am": "wǎ",
-      "Y nghia": "Ngói"
+      "So net": 5,
+      "Y nghia": "Gạch ngói nung lợp mái, đồ gốm sứ"
     },
     {
+      "STT": 99,
+      "Chu tuong hinh": "甘",
+      "Bien the": "",
       "Ten bo": "Cam",
       "Phien am": "gān",
-      "Y nghia": "Ngọt"
+      "So net": 5,
+      "Y nghia": "Ngọt ngào trong miệng, vị ngon êm ái"
     },
     {
+      "STT": 100,
+      "Chu tuong hinh": "生",
+      "Bien the": "",
       "Ten bo": "Sinh",
       "Phien am": "shēng",
-      "Y nghia": "Sinh đẻ, sinh sống,"
+      "So net": 5,
+      "Y nghia": "Sinh sôi nảy nở, mầm non mọc trồi lên mặt đất"
     },
     {
-      "Ten bo": "Dụng",
+      "STT": 101,
+      "Chu tuong hinh": "用",
+      "Bien the": "",
+      "Ten bo": "Dụng",
       "Phien am": "yòng",
-      "Y nghia": "Dùng"
+      "So net": 5,
+      "Y nghia": "Sử dụng, dùng việc; cái thùng nước có ích"
     },
     {
-      "Ten bo": "Điền",
+      "STT": 102,
+      "Chu tuong hinh": "田",
+      "Bien the": "",
+      "Ten bo": "Điền",
       "Phien am": "tián",
-      "Y nghia": "Ruộng"
+      "So net": 5,
+      "Y nghia": "Thửa ruộng trồng lúa chia bờ ngang dọc vuông vức"
     },
     {
-      "Ten bo": "Thất",
+      "STT": 103,
+      "Chu tuong hinh": "疋",
+      "Bien the": "⺪",
+      "Ten bo": "Thất",
       "Phien am": "pǐ",
-      "Y nghia": "Đơn vị đo chiều dài, tấm (vải)"
+      "So net": 5,
+      "Y nghia": "Cuộn vải lụa; cẳng chân người bước đi"
     },
     {
-      "Ten bo": "Nạch",
-      "Phien am": "nǐ",
-      "Y nghia": "Bệnh tật"
+      "STT": 104,
+      "Chu tuong hinh": "疒",
+      "Bien the": "",
+      "Ten bo": "Nạch",
+      "Phien am": "nè",
+      "So net": 5,
+      "Y nghia": "Bệnh tật, người ốm nằm trên giường đổ mồ hôi"
     },
     {
-      "Ten bo": "Bát",
-      "Phien am": "bǒ",
-      "Y nghia": "Gạt ngược lại, trở lại"
+      "STT": 105,
+      "Chu tuong hinh": "癶",
+      "Bien the": "",
+      "Ten bo": "Bát",
+      "Phien am": "bō",
+      "So net": 5,
+      "Y nghia": "Hai bàn chân quay lưng vào nhau dậm bước"
     },
     {
-      "Ten bo": "Bạch",
+      "STT": 106,
+      "Chu tuong hinh": "白",
+      "Bien the": "",
+      "Ten bo": "Bạch",
       "Phien am": "bái",
-      "Y nghia": "Màu trắng"
+      "So net": 5,
+      "Y nghia": "Màu trắng muốt, tinh khiết sáng rõ"
     },
     {
-      "Ten bo": "Bì",
-      "Phien am": "pí",
-      "Y nghia": "Da"
+      "STT": 107,
+      "Chu tuong hinh": "皮",
+      "Bien the": "",
+      "Ten bo": "Bì",
+      "Phien am": "pí",
+      "So net": 5,
+      "Y nghia": "Da thịt, tấm da thú bóc tách bằng tay"
     },
     {
-      "Ten bo": "Mãnh",
+      "STT": 108,
+      "Chu tuong hinh": "皿",
+      "Bien the": "",
+      "Ten bo": "Mãnh",
       "Phien am": "mǐn",
-      "Y nghia": "Bát đĩa"
+      "So net": 5,
+      "Y nghia": "Bát đĩa chén đơm thức ăn đựng đồ quý"
     },
     {
-      "Ten bo": "Mục",
-      "Phien am": "mù",
-      "Y nghia": "Mắt"
+      "STT": 109,
+      "Chu tuong hinh": "目",
+      "Bien the": "",
+      "Ten bo": "Mục",
+      "Phien am": "mù",
+      "So net": 5,
+      "Y nghia": "Mắt nhìn, con ngươi và mí mắt quan sát vạn vật"
     },
     {
+      "STT": 110,
+      "Chu tuong hinh": "矛",
+      "Bien the": "",
       "Ten bo": "Mâu",
       "Phien am": "máo",
-      "Y nghia": "Cây giáo để đâm"
+      "So net": 5,
+      "Y nghia": "Cây giáo dài đâm thủng giáp khi lâm trận"
     },
     {
-      "Ten bo": "Thỉ",
+      "STT": 111,
+      "Chu tuong hinh": "矢",
+      "Bien the": "",
+      "Ten bo": "Thỉ",
       "Phien am": "shǐ",
-      "Y nghia": "Cây tên, mũi tên."
+      "So net": 5,
+      "Y nghia": "Mũi tên nhọn bay thẳng tắp đến đích"
     },
     {
-      "Ten bo": "Thạch",
+      "STT": 112,
+      "Chu tuong hinh": "石",
+      "Bien the": "",
+      "Ten bo": "Thạch",
       "Phien am": "shí",
-      "Y nghia": "Đá"
+      "So net": 5,
+      "Y nghia": "Hòn đá tảng cứng rơi từ vách núi"
     },
     {
-      "Ten bo": "Thị (Kỳ)",
+      "STT": 113,
+      "Chu tuong hinh": "示",
+      "Bien the": "礻",
+      "Ten bo": "Thị / Kỳ",
       "Phien am": "shì",
-      "Y nghia": "Chỉ thị, thần đất"
+      "So net": 5,
+      "Y nghia": "Bàn thờ tế trời đất, điềm báo linh ứng của thần linh"
     },
     {
-      "Ten bo": "Nhựu",
+      "STT": 114,
+      "Chu tuong hinh": "禸",
+      "Bien the": "",
+      "Ten bo": "Nhựu",
       "Phien am": "róu",
-      "Y nghia": "Vết chân, lốt chân"
+      "So net": 5,
+      "Y nghia": "Vết chân thú giẫm đạp lún trên mặt đất"
     },
     {
-      "Ten bo": "Hòa",
-      "Phien am": "hé",
-      "Y nghia": "lúa"
+      "STT": 115,
+      "Chu tuong hinh": "禾",
+      "Bien the": "",
+      "Ten bo": "Hòa",
+      "Phien am": "hé",
+      "So net": 5,
+      "Y nghia": "Cây lúa chín trĩu hạt uốn cong bông vàng"
     },
     {
-      "Ten bo": "Huyệt",
+      "STT": 116,
+      "Chu tuong hinh": "穴",
+      "Bien the": "",
+      "Ten bo": "Huyệt",
       "Phien am": "xué",
-      "Y nghia": "Hang, lỗ"
+      "So net": 5,
+      "Y nghia": "Hang động, lỗ sâu khoét vào lòng đất đồi"
     },
     {
-      "Ten bo": "Lập",
-      "Phien am": "lì",
-      "Y nghia": "Đứng, thành lập"
+      "STT": 117,
+      "Chu tuong hinh": "立",
+      "Bien the": "",
+      "Ten bo": "Lập",
+      "Phien am": "lì",
+      "So net": 5,
+      "Y nghia": "Đứng vững vàng hai chân trên mặt đất"
     },
     {
-      "Ten bo": "Trúc",
+      "STT": 118,
+      "Chu tuong hinh": "竹",
+      "Bien the": "⺮",
+      "Ten bo": "Trúc",
       "Phien am": "zhú",
-      "Y nghia": "Tre, trúc"
+      "So net": 6,
+      "Y nghia": "Cây tre cây trúc xanh tươi, hai nhánh lá trúc rủ"
     },
     {
-      "Ten bo": "Mễ",
+      "STT": 119,
+      "Chu tuong hinh": "米",
+      "Bien the": "",
+      "Ten bo": "Mễ",
       "Phien am": "mǐ",
-      "Y nghia": "Gạo"
+      "So net": 6,
+      "Y nghia": "Hạt gạo, ngũ cốc nuôi sống con người"
     },
     {
-      "Ten bo": "Mịch",
-      "Phien am": "mì",
-      "Y nghia": "Sợi tơ nhỏ"
+      "STT": 120,
+      "Chu tuong hinh": "糸",
+      "Bien the": "纟",
+      "Ten bo": "Mịch",
+      "Phien am": "mì",
+      "So net": 6,
+      "Y nghia": "Sợi tơ lụa mềm mịn cuộn thành búi"
     },
     {
-      "Ten bo": "Phẫu",
+      "STT": 121,
+      "Chu tuong hinh": "缶",
+      "Bien the": "",
+      "Ten bo": "Phẫu",
       "Phien am": "fǒu",
-      "Y nghia": "Đồ sành"
+      "So net": 6,
+      "Y nghia": "Đồ sành sứ, cái vò hũ đựng rượu nước"
     },
     {
-      "Ten bo": "Võng",
+      "STT": 122,
+      "Chu tuong hinh": "网",
+      "Bien the": "罒, 罓",
+      "Ten bo": "Võng",
       "Phien am": "wǎng",
-      "Y nghia": "Cái lưới"
+      "So net": 6,
+      "Y nghia": "Tấm lưới đánh bắt cá, cạm bẫy vây bắt"
     },
     {
+      "STT": 123,
+      "Chu tuong hinh": "羊",
+      "Bien the": "⺶, ⺷",
       "Ten bo": "Dương",
       "Phien am": "yáng",
-      "Y nghia": "Con dê"
+      "So net": 6,
+      "Y nghia": "Con dê, con cừu hiền lành có cặp sừng"
     },
     {
-      "Ten bo": "Vũ",
+      "STT": 124,
+      "Chu tuong hinh": "羽",
+      "Bien the": "",
+      "Ten bo": "Vũ",
       "Phien am": "yǔ",
-      "Y nghia": "Lông vũ"
+      "So net": 6,
+      "Y nghia": "Lông chim, đôi cánh chim tung bay trên trời"
     },
     {
-      "Ten bo": "Lão",
+      "STT": 125,
+      "Chu tuong hinh": "老",
+      "Bien the": "耂",
+      "Ten bo": "Lão",
       "Phien am": "lǎo",
-      "Y nghia": "Già"
+      "So net": 6,
+      "Y nghia": "Người già, cụ già tóc bạc chống gậy bước chậm"
     },
     {
+      "STT": 126,
+      "Chu tuong hinh": "而",
+      "Bien the": "",
       "Ten bo": "Nhi",
       "Phien am": "ér",
-      "Y nghia": "Mà, và"
+      "So net": 6,
+      "Y nghia": "Râu mép râu cằm; mà, lại còn"
     },
     {
-      "Ten bo": "Lỗi",
+      "STT": 127,
+      "Chu tuong hinh": "耒",
+      "Bien the": "",
+      "Ten bo": "Lỗi",
       "Phien am": "lěi",
-      "Y nghia": "Cái cày"
+      "So net": 6,
+      "Y nghia": "Cái cày gỗ xới đất làm nông"
     },
     {
-      "Ten bo": "Nhĩ",
+      "STT": 128,
+      "Chu tuong hinh": "耳",
+      "Bien the": "",
+      "Ten bo": "Nhĩ",
       "Phien am": "ěr",
-      "Y nghia": "Tai, lỗ tai"
+      "So net": 6,
+      "Y nghia": "Lỗ tai, vành tai lắng nghe âm thanh bốn bề"
     },
     {
-      "Ten bo": "Duật",
+      "STT": 129,
+      "Chu tuong hinh": "聿",
+      "Bien the": "",
+      "Ten bo": "Duật",
       "Phien am": "yù",
-      "Y nghia": "Cây bút"
+      "So net": 6,
+      "Y nghia": "Cây bút lông viết chữ cầm trên tay"
     },
     {
-      "Ten bo": "Nhục",
-      "Phien am": "ròu",
-      "Y nghia": "Thịt"
+      "STT": 130,
+      "Chu tuong hinh": "肉",
+      "Bien the": "⺼",
+      "Ten bo": "Nhục",
+      "Phien am": "ròu",
+      "So net": 6,
+      "Y nghia": "Miếng thịt nạc có vân mỡ bổ dưỡng"
     },
     {
-      "Ten bo": "Thần",
-      "Phien am": "chén",
-      "Y nghia": "Bầy tôi"
+      "STT": 131,
+      "Chu tuong hinh": "臣",
+      "Bien the": "",
+      "Ten bo": "Thần",
+      "Phien am": "chén",
+      "So net": 6,
+      "Y nghia": "Bề tôi trung thành, quan lại phủ phục chầu vua"
     },
     {
-      "Ten bo": "Tự",
-      "Phien am": "zì",
-      "Y nghia": "Tự bản thân, kể từ"
+      "STT": 132,
+      "Chu tuong hinh": "自",
+      "Bien the": "",
+      "Ten bo": "Tự",
+      "Phien am": "zì",
+      "So net": 6,
+      "Y nghia": "Tự bản thân; chiếc mũi người (chỉ vào mũi mình)"
     },
     {
-      "Ten bo": "Chí",
+      "STT": 133,
+      "Chu tuong hinh": "至",
+      "Bien the": "",
+      "Ten bo": "Chí",
       "Phien am": "zhì",
-      "Y nghia": "Đến"
+      "So net": 6,
+      "Y nghia": "Đi đến nơi, mũi tên bay cắm trúng mục tiêu"
     },
     {
-      "Ten bo": "Cửu",
+      "STT": 134,
+      "Chu tuong hinh": "臼",
+      "Bien the": "",
+      "Ten bo": "Cữu",
       "Phien am": "jiù",
-      "Y nghia": "Cái cối giã gạo"
+      "So net": 6,
+      "Y nghia": "Cái cối đá giã gạo có lòng sâu răng cưa"
     },
     {
-      "Ten bo": "Thiệt",
+      "STT": 135,
+      "Chu tuong hinh": "舌",
+      "Bien the": "",
+      "Ten bo": "Thiệt",
       "Phien am": "shé",
-      "Y nghia": "Cái lưỡi"
+      "So net": 6,
+      "Y nghia": "Chiếc lưỡi thè ra nếm vị và phát âm lời nói"
     },
     {
-      "Ten bo": "Suyễn",
+      "STT": 136,
+      "Chu tuong hinh": "舛",
+      "Bien the": "",
+      "Ten bo": "Suyễn",
       "Phien am": "chuǎn",
-      "Y nghia": "Sai lầm"
+      "So net": 6,
+      "Y nghia": "Sai trái, hai bàn chân đạp ngược chiều bất đồng"
     },
     {
+      "STT": 137,
+      "Chu tuong hinh": "舟",
+      "Bien the": "",
       "Ten bo": "Chu",
       "Phien am": "zhōu",
-      "Y nghia": "Cái thuyền"
+      "So net": 6,
+      "Y nghia": "Con thuyền gỗ vượt sóng lướt đi trên sông"
     },
     {
-      "Ten bo": "Cấn",
+      "STT": 138,
+      "Chu tuong hinh": "艮",
+      "Bien the": "",
+      "Ten bo": "Cấn",
       "Phien am": "gèn",
-      "Y nghia": "Quẻ Cấn (Kinh Dịch); dừng, bền cứng,"
+      "So net": 6,
+      "Y nghia": "Quẻ Cấn (núi, dừng lại); ngoảnh mặt trừng trừng"
     },
     {
-      "Ten bo": "Sắc",
-      "Phien am": "sè",
-      "Y nghia": "Màu, dáng vẻ, nữ sắc"
+      "STT": 139,
+      "Chu tuong hinh": "色",
+      "Bien the": "",
+      "Ten bo": "Sắc",
+      "Phien am": "sè",
+      "So net": 6,
+      "Y nghia": "Màu sắc, vẻ mặt thần sắc, nhan sắc"
     },
     {
-      "Ten bo": "Thảo",
+      "STT": 140,
+      "Chu tuong hinh": "艸",
+      "Bien the": "艹",
+      "Ten bo": "Thảo",
       "Phien am": "cǎo",
-      "Y nghia": "Cỏ"
+      "So net": 6,
+      "Y nghia": "Cỏ cây hoa lá mọc xanh mượt trên đồng"
     },
     {
-      "Ten bo": "Hổ",
+      "STT": 141,
+      "Chu tuong hinh": "虍",
+      "Bien the": "",
+      "Ten bo": "Hô",
       "Phien am": "hū",
-      "Y nghia": "Vằn vện của con hổ"
+      "So net": 6,
+      "Y nghia": "Vằn da hổ, chúa sơn lâm dũng mãnh uy nghi"
     },
     {
-      "Ten bo": "Trùng",
-      "Phien am": "chóng",
-      "Y nghia": "Sâu bọ"
+      "STT": 142,
+      "Chu tuong hinh": "虫",
+      "Bien the": "",
+      "Ten bo": "Trùng",
+      "Phien am": "chóng",
+      "So net": 6,
+      "Y nghia": "Sâu bọ, rắn côn trùng bò lổm ngổm"
     },
     {
-      "Ten bo": "Huyết",
+      "STT": 143,
+      "Chu tuong hinh": "血",
+      "Bien the": "",
+      "Ten bo": "Huyết",
       "Phien am": "xuè",
-      "Y nghia": "Máu"
+      "So net": 6,
+      "Y nghia": "Giọt máu hiến tế trong chén tế lễ trời đất"
     },
     {
-      "Ten bo": "Hành",
+      "STT": 144,
+      "Chu tuong hinh": "行",
+      "Bien the": "",
+      "Ten bo": "Hành",
       "Phien am": "xíng",
-      "Y nghia": "Đi, thi hành, làm được"
+      "So net": 6,
+      "Y nghia": "Đi lại, ngã tư đường thông thương bốn phía"
     },
     {
+      "STT": 145,
+      "Chu tuong hinh": "衣",
+      "Bien the": "衤",
       "Ten bo": "Y",
       "Phien am": "yī",
-      "Y nghia": "Áo"
+      "So net": 6,
+      "Y nghia": "Áo quần mặc che thân cổ gập vạt chéo"
     },
     {
-      "Ten bo": "Á",
+      "STT": 146,
+      "Chu tuong hinh": "襾",
+      "Bien the": "覀",
+      "Ten bo": "Á",
       "Phien am": "yà",
-      "Y nghia": "Che đậy, úp lên"
+      "So net": 6,
+      "Y nghia": "Tấm nắp đậy che phủ kín bên trên"
     },
     {
-      "Ten bo": "Kiến",
+      "STT": 147,
+      "Chu tuong hinh": "見",
+      "Bien the": "见",
+      "Ten bo": "Kiến",
       "Phien am": "jiàn",
-      "Y nghia": "Trông thấy"
+      "So net": 7,
+      "Y nghia": "Trông thấy, mắt sáng nhìn rõ người việc"
     },
     {
-      "Ten bo": "Giác",
-      "Phien am": "jué",
-      "Y nghia": "Góc, sừng thú"
+      "STT": 148,
+      "Chu tuong hinh": "角",
+      "Bien the": "",
+      "Ten bo": "Giác",
+      "Phien am": "jiǎo",
+      "So net": 7,
+      "Y nghia": "Sừng hươu thú; góc nhọn sắc bén"
     },
     {
+      "STT": 149,
+      "Chu tuong hinh": "言",
+      "Bien the": "讠",
       "Ten bo": "Ngôn",
       "Phien am": "yán",
-      "Y nghia": "Nói"
+      "So net": 7,
+      "Y nghia": "Lời nói phát ra từ miệng, ngôn ngữ đối thoại"
     },
     {
-      "Ten bo": "Cốc",
+      "STT": 150,
+      "Chu tuong hinh": "谷",
+      "Bien the": "",
+      "Ten bo": "Cốc",
       "Phien am": "gǔ",
-      "Y nghia": "Khe nước chảy giữa hai núi"
+      "So net": 7,
+      "Y nghia": "Thung lũng giữa hai vách núi có suối róc rách"
     },
     {
-      "Ten bo": "Đậu",
+      "STT": 151,
+      "Chu tuong hinh": "豆",
+      "Bien the": "",
+      "Ten bo": "Đậu",
       "Phien am": "dòu",
-      "Y nghia": "Hạt đậu, cây đậu"
+      "So net": 7,
+      "Y nghia": "Hạt đỗ đậu; cái bát chân cao đựng tế phẩm"
     },
     {
-      "Ten bo": "Thỉ",
+      "STT": 152,
+      "Chu tuong hinh": "豕",
+      "Bien the": "",
+      "Ten bo": "Thỉ",
       "Phien am": "shǐ",
-      "Y nghia": "Con heo, con lợn"
+      "So net": 7,
+      "Y nghia": "Con heo, lợn nhà béo múp đuôi ngắn"
     },
     {
-      "Ten bo": "Trãi",
+      "STT": 153,
+      "Chu tuong hinh": "豸",
+      "Bien the": "",
+      "Ten bo": "Trĩ",
       "Phien am": "zhì",
-      "Y nghia": "Loài sâu không chân"
+      "So net": 7,
+      "Y nghia": "Loài sâu bọ bò sát dài; loài thú săn mồi không sừng"
     },
     {
-      "Ten bo": "Bối",
+      "STT": 154,
+      "Chu tuong hinh": "貝",
+      "Bien the": "贝",
+      "Ten bo": "Bối",
       "Phien am": "bèi",
-      "Y nghia": "Vật báu"
+      "So net": 7,
+      "Y nghia": "Vỏ sò biển quý giá, tiền tệ thương mại thời cổ"
     },
     {
-      "Ten bo": "Xích",
-      "Phien am": "chì",
-      "Y nghia": "Màu đỏ"
+      "STT": 155,
+      "Chu tuong hinh": "赤",
+      "Bien the": "",
+      "Ten bo": "Xích",
+      "Phien am": "chì",
+      "So net": 7,
+      "Y nghia": "Màu đỏ thắm rực rỡ như than lửa nung"
     },
     {
-      "Ten bo": "Tẩu",
+      "STT": 156,
+      "Chu tuong hinh": "走",
+      "Bien the": "赱",
+      "Ten bo": "Tẩu",
       "Phien am": "zǒu",
-      "Y nghia": "Đi, chạy"
+      "So net": 7,
+      "Y nghia": "Chạy nhanh, người vung tay sải chân gấp gáp"
     },
     {
-      "Ten bo": "Túc",
-      "Phien am": "zú",
-      "Y nghia": "Chân, đầy đủ"
+      "STT": 157,
+      "Chu tuong hinh": "足",
+      "Bien the": "⻊",
+      "Ten bo": "Túc",
+      "Phien am": "zú",
+      "So net": 7,
+      "Y nghia": "Bàn chân, cẳng chân bước đi; đầy đủ no ấm"
     },
     {
+      "STT": 158,
+      "Chu tuong hinh": "身",
+      "Bien the": "",
       "Ten bo": "Thân",
       "Phien am": "shēn",
-      "Y nghia": "Thân thể, thân mình"
+      "So net": 7,
+      "Y nghia": "Thân thể, hình người nghiêng có bụng mang thai"
     },
     {
+      "STT": 159,
+      "Chu tuong hinh": "車",
+      "Bien the": "车",
       "Ten bo": "Xa",
-      "Phien am": "chẽ",
-      "Y nghia": "chiếc xe"
+      "Phien am": "chē",
+      "So net": 7,
+      "Y nghia": "Xe cộ kéo có bánh và trục xe lăn tròn"
     },
     {
+      "STT": 160,
+      "Chu tuong hinh": "辛",
+      "Bien the": "",
       "Ten bo": "Tân",
       "Phien am": "xīn",
-      "Y nghia": "Cay, vất vả"
+      "So net": 7,
+      "Y nghia": "Cay đắng, cay nồng; dao khắc hình phạt tội nhân"
     },
     {
-      "Ten bo": "Thần",
-      "Phien am": "chén",
-      "Y nghia": "Nhật, nguyệt, tinh; thìn (12 chi),"
+      "STT": 161,
+      "Chu tuong hinh": "辰",
+      "Bien the": "",
+      "Ten bo": "Thần",
+      "Phien am": "chén",
+      "So net": 7,
+      "Y nghia": "Can Chi Thìn; con sò mai vươn râu; thời điểm"
     },
     {
-      "Ten bo": "Quai xước",
+      "STT": 162,
+      "Chu tuong hinh": "辵",
+      "Bien the": "辶",
+      "Ten bo": "Sước",
       "Phien am": "chuò",
-      "Y nghia": "Chợt bước đi chợt dừng lại"
+      "So net": 7,
+      "Y nghia": "Chân bước đi rồi dừng, di chuyển trên đường"
     },
     {
-      "Ten bo": "Ấp",
+      "STT": 163,
+      "Chu tuong hinh": "邑",
+      "Bien the": "阝(phải)",
+      "Ten bo": "Ấp",
       "Phien am": "yì",
-      "Y nghia": "Vùng đất, đất phong cho quan"
+      "So net": 7,
+      "Y nghia": "Vùng đất ấp làng xóm, kinh thành có dân cư"
     },
     {
-      "Ten bo": "Dậu",
+      "STT": 164,
+      "Chu tuong hinh": "酉",
+      "Bien the": "",
+      "Ten bo": "Dậu",
       "Phien am": "yǒu",
-      "Y nghia": "Một trong 12 địa chi"
+      "So net": 7,
+      "Y nghia": "Vò ủ rượu men; chi Dậu (con gà) trong 12 con giáp"
     },
     {
-      "Ten bo": "Biện",
+      "STT": 165,
+      "Chu tuong hinh": "釆",
+      "Bien the": "",
+      "Ten bo": "Biện",
       "Phien am": "biàn",
-      "Y nghia": "Phân biệt"
+      "So net": 7,
+      "Y nghia": "Phân biệt, móng vuốt thú để lại dấu vết rõ ràng"
     },
     {
-      "Ten bo": "Lý",
+      "STT": 166,
+      "Chu tuong hinh": "里",
+      "Bien the": "",
+      "Ten bo": "Lý",
       "Phien am": "lǐ",
-      "Y nghia": "Dặm, làng xóm"
+      "So net": 7,
+      "Y nghia": "Làng xóm đồng ruộng; dặm đường đo lường"
     },
     {
+      "STT": 167,
+      "Chu tuong hinh": "金",
+      "Bien the": "钅",
       "Ten bo": "Kim",
       "Phien am": "jīn",
-      "Y nghia": "Kim loại, vàng"
+      "So net": 8,
+      "Y nghia": "Kim loại vàng bạc quý giá chôn sâu trong lòng đất"
     },
     {
-      "Ten bo": "Trường",
+      "STT": 168,
+      "Chu tuong hinh": "長",
+      "Bien the": "镸, 长",
+      "Ten bo": "Trường",
       "Phien am": "cháng",
-      "Y nghia": "Dài; lớn (trưởng)"
+      "So net": 8,
+      "Y nghia": "Dài lâu, người già tóc dài bạc phơ trường thọ"
     },
     {
+      "STT": 169,
+      "Chu tuong hinh": "門",
+      "Bien the": "门",
       "Ten bo": "Môn",
-      "Phien am": "mén",
-      "Y nghia": "Cửa hai cánh"
+      "Phien am": "mén",
+      "So net": 8,
+      "Y nghia": "Cánh cửa lớn hai cánh mở ra khép vào"
     },
     {
-      "Ten bo": "Phụ",
+      "STT": 170,
+      "Chu tuong hinh": "阜",
+      "Bien the": "阝(trái)",
+      "Ten bo": "Phụ",
       "Phien am": "fù",
-      "Y nghia": "Đống đất, gò đất"
+      "So net": 8,
+      "Y nghia": "Gò đất cao, đồi núi đất trập trùng dốc đứng"
     },
     {
-      "Ten bo": "Đãi",
-      "Phien am": "dài",
-      "Y nghia": "Kịp, kịp đến"
+      "STT": 171,
+      "Chu tuong hinh": "隶",
+      "Bien the": "",
+      "Ten bo": "Đãi",
+      "Phien am": "dài",
+      "So net": 8,
+      "Y nghia": "Bắt lấy, tóm đuôi thú kéo lại"
     },
     {
+      "STT": 172,
+      "Chu tuong hinh": "隹",
+      "Bien the": "",
       "Ten bo": "Chuy",
       "Phien am": "zhuī",
-      "Y nghia": "Chim đuôi ngắn"
+      "So net": 8,
+      "Y nghia": "Chim đuôi ngắn đậu trên cành cây"
     },
     {
-      "Ten bo": "Vũ",
+      "STT": 173,
+      "Chu tuong hinh": "雨",
+      "Bien the": "⻗",
+      "Ten bo": "Vũ",
       "Phien am": "yǔ",
-      "Y nghia": "Mưa"
+      "So net": 8,
+      "Y nghia": "Mưa từ đám mây trên trời rơi những giọt nước"
     },
     {
+      "STT": 174,
+      "Chu tuong hinh": "靑",
+      "Bien the": "青",
       "Ten bo": "Thanh",
       "Phien am": "qīng",
-      "Y nghia": "Màu xanh"
+      "So net": 8,
+      "Y nghia": "Màu xanh lục của cây non mới nhú, trong sáng"
     },
     {
+      "STT": 175,
+      "Chu tuong hinh": "非",
+      "Bien the": "",
       "Ten bo": "Phi",
       "Phien am": "fēi",
-      "Y nghia": "Không"
+      "So net": 8,
+      "Y nghia": "Không phải, hai cánh chim dang ngược chiều bài xích"
     },
     {
-      "Ten bo": "Diện",
+      "STT": 176,
+      "Chu tuong hinh": "面",
+      "Bien the": "靣",
+      "Ten bo": "Diện",
       "Phien am": "miàn",
-      "Y nghia": "Mặt, bề mặt"
+      "So net": 9,
+      "Y nghia": "Khuôn mặt người, bề mặt trước mắt"
     },
     {
-      "Ten bo": "Cách",
+      "STT": 177,
+      "Chu tuong hinh": "革",
+      "Bien the": "",
+      "Ten bo": "Cách",
       "Phien am": "gé",
-      "Y nghia": "Da thú; thay đổi, cải cách"
+      "So net": 9,
+      "Y nghia": "Tấm da thú đã thuộc bỏ lông; cải cách đổi mới"
     },
     {
+      "STT": 178,
+      "Chu tuong hinh": "韋",
+      "Bien the": "韦",
       "Ten bo": "Vi",
       "Phien am": "wéi",
-      "Y nghia": "Da thuộc"
+      "So net": 9,
+      "Y nghia": "Tấm da mềm uốn quanh bảo vệ; vây quanh"
     },
     {
-      "Ten bo": "Phỉ, cửu",
+      "STT": 179,
+      "Chu tuong hinh": "韭",
+      "Bien the": "",
+      "Ten bo": "Cửu",
       "Phien am": "jiǔ",
-      "Y nghia": "Rau phỉ (cây hẹ giống hành lá)"
+      "So net": 9,
+      "Y nghia": "Cây rau hẹ mọc thành bụi lá dài thơm"
     },
     {
+      "STT": 180,
+      "Chu tuong hinh": "音",
+      "Bien the": "",
       "Ten bo": "Âm",
       "Phien am": "yīn",
-      "Y nghia": "Âm thanh, tiếng"
+      "So net": 9,
+      "Y nghia": "Âm thanh giai điệu phát ra từ miệng nhạc cụ"
     },
     {
-      "Ten bo": "Hiệt",
+      "STT": 181,
+      "Chu tuong hinh": "頁",
+      "Bien the": "页",
+      "Ten bo": "Hiệt",
       "Phien am": "yè",
-      "Y nghia": "Đầu; trang giấy"
+      "So net": 9,
+      "Y nghia": "Đầu người có cổ và râu; trang sách giấy"
     },
     {
+      "STT": 182,
+      "Chu tuong hinh": "風",
+      "Bien the": "风",
       "Ten bo": "Phong",
       "Phien am": "fēng",
-      "Y nghia": "Gió"
+      "So net": 9,
+      "Y nghia": "Gió thổi muôn nơi, khí trời lưu chuyển sinh côn trùng"
     },
     {
+      "STT": 183,
+      "Chu tuong hinh": "飛",
+      "Bien the": "飞",
       "Ten bo": "Phi",
       "Phien am": "fēi",
-      "Y nghia": "Bay"
+      "So net": 9,
+      "Y nghia": "Bay lượn trên bầu trời, chim sải cánh"
     },
     {
-      "Ten bo": "Thực",
+      "STT": 184,
+      "Chu tuong hinh": "食",
+      "Bien the": "飠, 饣",
+      "Ten bo": "Thực",
       "Phien am": "shí",
-      "Y nghia": "Ăn"
+      "So net": 9,
+      "Y nghia": "Ăn uống, thức ăn thơm ngon đậy nắp trong âu"
     },
     {
-      "Ten bo": "Thủ",
+      "STT": 185,
+      "Chu tuong hinh": "首",
+      "Bien the": "",
+      "Ten bo": "Thủ",
       "Phien am": "shǒu",
-      "Y nghia": "Đầu"
+      "So net": 9,
+      "Y nghia": "Đầu não đứng đầu, vị trí cao nhất thủ lĩnh"
     },
     {
+      "STT": 186,
+      "Chu tuong hinh": "香",
+      "Bien the": "",
       "Ten bo": "Hương",
       "Phien am": "xiāng",
-      "Y nghia": "Mùi hương,hương thơm"
+      "So net": 9,
+      "Y nghia": "Mùi hương thơm ngọt ngào của hạt kê chín"
     },
     {
-      "Ten bo": "Mã",
+      "STT": 187,
+      "Chu tuong hinh": "馬",
+      "Bien the": "马",
+      "Ten bo": "Mã",
       "Phien am": "mǎ",
-      "Y nghia": "Con ngựa"
+      "So net": 10,
+      "Y nghia": "Con ngựa phi nước đại có bờm và 4 vó"
     },
     {
-      "Ten bo": "Cốt",
+      "STT": 188,
+      "Chu tuong hinh": "骨",
+      "Bien the": "⻣",
+      "Ten bo": "Cốt",
       "Phien am": "gǔ",
-      "Y nghia": "Xương"
+      "So net": 10,
+      "Y nghia": "Xương cốt khung xương chống đỡ thân thể"
     },
     {
+      "STT": 189,
+      "Chu tuong hinh": "高",
+      "Bien the": "髙",
       "Ten bo": "Cao",
       "Phien am": "gāo",
-      "Y nghia": "Cao"
+      "So net": 10,
+      "Y nghia": "Lầu các cao tầng vươn lên mây trời sừng sững"
     },
     {
-      "Ten bo": "Bưu, tiêu",
+      "STT": 190,
+      "Chu tuong hinh": "髟",
+      "Bien the": "",
+      "Ten bo": "Bưu",
       "Phien am": "biāo",
-      "Y nghia": "Tóc dài; sam cỏ phủ mái nhà"
+      "So net": 10,
+      "Y nghia": "Tóc dài buông xõa rủ xuống vai óng mượt"
     },
     {
-      "Ten bo": "Đấu",
+      "STT": 191,
+      "Chu tuong hinh": "鬥",
+      "Bien the": "",
+      "Ten bo": "Đấu",
       "Phien am": "dòu",
-      "Y nghia": "Chống nhau, chiến đấu"
+      "So net": 10,
+      "Y nghia": "Chiến đấu, hai người cầm binh khí lao vào nhau"
     },
     {
-      "Ten bo": "Sưởng",
-      "Phien am": "chàng",
-      "Y nghia": "Rượu nếp; bao đựng cây cung"
+      "STT": 192,
+      "Chu tuong hinh": "鬯",
+      "Bien the": "",
+      "Ten bo": "Sưởng",
+      "Phien am": "chàng",
+      "So net": 10,
+      "Y nghia": "Rượu thơm nấu bằng nếp cúng tế thần linh"
     },
     {
-      "Ten bo": "Cách",
-      "Phien am": "gé lì",
-      "Y nghia": "Tên một con sông xưa, cái đỉnh"
+      "STT": 193,
+      "Chu tuong hinh": "鬲",
+      "Bien the": "",
+      "Ten bo": "Cách",
+      "Phien am": "lì",
+      "So net": 10,
+      "Y nghia": "Cái nồi luộc chân rỗng đựng tế phẩm cổ"
     },
     {
-      "Ten bo": "Quỷ",
-      "Phien am": "gǔi",
-      "Y nghia": "Con quỷ"
+      "STT": 194,
+      "Chu tuong hinh": "鬼",
+      "Bien the": "",
+      "Ten bo": "Quỷ",
+      "Phien am": "guǐ",
+      "So net": 10,
+      "Y nghia": "Linh hồn người chết, quỷ ma có đầu to kỳ dị"
     },
     {
+      "STT": 195,
+      "Chu tuong hinh": "魚",
+      "Bien the": "鱼",
       "Ten bo": "Ngư",
       "Phien am": "yú",
-      "Y nghia": "Con cá"
+      "So net": 11,
+      "Y nghia": "Con cá bơi lội dưới nước có vây và vảy"
     },
     {
-      "Ten bo": "Điểu",
+      "STT": 196,
+      "Chu tuong hinh": "鳥",
+      "Bien the": "鸟",
+      "Ten bo": "Điểu",
       "Phien am": "niǎo",
-      "Y nghia": "Con chim"
+      "So net": 11,
+      "Y nghia": "Con chim có mỏ nhọn và lông đuôi dài"
     },
     {
-      "Ten bo": "Lỗ",
+      "STT": 197,
+      "Chu tuong hinh": "鹵",
+      "Bien the": "卤",
+      "Ten bo": "Lỗ",
       "Phien am": "lǔ",
-      "Y nghia": "Đất mặn"
+      "So net": 11,
+      "Y nghia": "Vùng đất mặn ven biển, muối mặn kết tinh"
     },
     {
-      "Ten bo": "Lộc",
+      "STT": 198,
+      "Chu tuong hinh": "鹿",
+      "Bien the": "",
+      "Ten bo": "Lộc",
       "Phien am": "lù",
-      "Y nghia": "Con hươu"
+      "So net": 11,
+      "Y nghia": "Con hươu sao có cặp gạc hoa quý hiếm"
     },
     {
-      "Ten bo": "Mạch",
-      "Phien am": "mò",
-      "Y nghia": "Lúa mạch"
+      "STT": 199,
+      "Chu tuong hinh": "麥",
+      "Bien the": "麦",
+      "Ten bo": "Mạch",
+      "Phien am": "mài",
+      "So net": 11,
+      "Y nghia": "Cây lúa mạch có râu dài đơm bông hạt"
     },
     {
+      "STT": 200,
+      "Chu tuong hinh": "麻",
+      "Bien the": "",
       "Ten bo": "Ma",
-      "Phien am": "má",
-      "Y nghia": "Cây gai"
+      "Phien am": "má",
+      "So net": 11,
+      "Y nghia": "Cây gai cây lanh tước sợi dệt bao bố"
     },
     {
-      "Ten bo": "Hoàng",
+      "STT": 201,
+      "Chu tuong hinh": "黃",
+      "Bien the": "黄",
+      "Ten bo": "Hoàng",
       "Phien am": "huáng",
-      "Y nghia": "Màu vàng"
+      "So net": 12,
+      "Y nghia": "Màu vàng rực rỡ của đất đai trung ương"
     },
     {
-      "Ten bo": "Thử",
+      "STT": 202,
+      "Chu tuong hinh": "黍",
+      "Bien the": "",
+      "Ten bo": "Thử",
       "Phien am": "shǔ",
-      "Y nghia": "Lúa nếp"
+      "So net": 12,
+      "Y nghia": "Cây kê dính nếp dùng cất rượu nồng thơm"
     },
     {
-      "Ten bo": "Hắc",
+      "STT": 203,
+      "Chu tuong hinh": "黑",
+      "Bien the": "黒",
+      "Ten bo": "Hắc",
       "Phien am": "hēi",
-      "Y nghia": "Màu đen"
+      "So net": 12,
+      "Y nghia": "Màu đen như nhọ nồi than khói đọng trong bếp"
     },
     {
-      "Ten bo": "Chỉ",
+      "STT": 204,
+      "Chu tuong hinh": "黹",
+      "Bien the": "",
+      "Ten bo": "Chỉ",
       "Phien am": "zhǐ",
-      "Y nghia": "May áo, khâu vá"
+      "So net": 12,
+      "Y nghia": "May vá thêu thùa hoa văn kim chỉ tinh xảo"
     },
     {
-      "Ten bo": "Mãnh",
+      "STT": 205,
+      "Chu tuong hinh": "黽",
+      "Bien the": "黾",
+      "Ten bo": "Mãnh",
       "Phien am": "mǐn",
-      "Y nghia": "Con ếch; cố gắng (mãnh miễn)"
+      "So net": 13,
+      "Y nghia": "Con ếch, cóc nhái bụng to chân ngắn; nỗ lực"
     },
     {
-      "Ten bo": "Đỉnh",
+      "STT": 206,
+      "Chu tuong hinh": "鼎",
+      "Bien the": "",
+      "Ten bo": "Đỉnh",
       "Phien am": "dǐng",
-      "Y nghia": "Cái đỉnh"
+      "So net": 13,
+      "Y nghia": "Cái vạc đỉnh đồng ba chân hai tai vững như bàn thạch"
     },
     {
-      "Ten bo": "Cổ",
+      "STT": 207,
+      "Chu tuong hinh": "鼓",
+      "Bien the": "",
+      "Ten bo": "Cổ",
       "Phien am": "gǔ",
-      "Y nghia": "Cái trống"
+      "So net": 13,
+      "Y nghia": "Cái trống bịt da thú có dùi gõ vang trời"
     },
     {
-      "Ten bo": "Thử",
+      "STT": 208,
+      "Chu tuong hinh": "鼠",
+      "Bien the": "鼡",
+      "Ten bo": "Thử",
       "Phien am": "shǔ",
-      "Y nghia": "Con chuột"
+      "So net": 13,
+      "Y nghia": "Con chuột gặm nhấm có răng nhọn và đuôi dài"
     },
     {
-      "Ten bo": "Tỵ",
-      "Phien am": "bí",
-      "Y nghia": "Cái mũi"
+      "STT": 209,
+      "Chu tuong hinh": "鼻",
+      "Bien the": "",
+      "Ten bo": "Tị",
+      "Phien am": "bí",
+      "So net": 14,
+      "Y nghia": "Chiếc mũi ngửi hương vị và hít thở sinh khí"
     },
     {
-      "Ten bo": "Tề",
+      "STT": 210,
+      "Chu tuong hinh": "齊",
+      "Bien the": "齐",
+      "Ten bo": "Tề",
       "Phien am": "qí",
-      "Y nghia": "Ngang bằng, cùng nhau"
+      "So net": 14,
+      "Y nghia": "Đều đặn, tề chỉnh ngay ngắn như bông lúa rạ bằng"
     },
     {
-      "Ten bo": "Xỉ",
+      "STT": 211,
+      "Chu tuong hinh": "齒",
+      "Bien the": "齿",
+      "Ten bo": "Xỉ",
       "Phien am": "chǐ",
-      "Y nghia": "Răng"
+      "So net": 15,
+      "Y nghia": "Răng miệng xếp hàng đều tăm tắp, tuổi tác đời người"
     },
     {
+      "STT": 212,
+      "Chu tuong hinh": "龍",
+      "Bien the": "龙",
       "Ten bo": "Long",
-      "Phien am": "lóng",
-      "Y nghia": "Con rồng"
+      "Phien am": "lóng",
+      "So net": 16,
+      "Y nghia": "Con rồng thần thoại uy quyền uốn lượn cưỡi mây"
     },
     {
+      "STT": 213,
+      "Chu tuong hinh": "龜",
+      "Bien the": "龟",
       "Ten bo": "Quy",
       "Phien am": "guī",
-      "Y nghia": "Con rùa"
+      "So net": 16,
+      "Y nghia": "Con rùa trường thọ mai cứng chở che vững vàng"
     },
     {
-      "Ten bo": "Dược",
+      "STT": 214,
+      "Chu tuong hinh": "龠",
+      "Bien the": "",
+      "Ten bo": "Dược",
       "Phien am": "yuè",
-      "Y nghia": "Sáo 3 lỗ"
+      "So net": 17,
+      "Y nghia": "Cây sáo trúc ba lỗ điều hòa âm luật nhã nhạc"
     }
   ],
   "Cach_doc_phat_am": [
@@ -34956,238 +35812,231 @@
   ],
   "Ho_ten_thuong_gap": [
     {
-      "STT": 1.0,
+      "STT": 1,
       "Ho (VN)": "Lâm",
       "Ho (Pinyin)": "Lín",
       "Ten dem/ten (VN)": "Cao",
       "Ten dem/ten (Pinyin)": "Xáo"
     },
     {
-      "STT": 2.0,
+      "STT": 2,
       "Ho (VN)": "Anh",
       "Ho (Pinyin)": "Ding",
       "Ten dem/ten (VN)": "Bùi",
       "Ten dem/ten (Pinyin)": "Pấy"
     },
     {
-      "STT": 3.0,
+      "STT": 3,
       "Ho (VN)": "Tùng",
       "Ho (Pinyin)": "Xung",
       "Ten dem/ten (VN)": "Cao",
       "Ten dem/ten (Pinyin)": "Cao"
     },
     {
-      "STT": 4.0,
+      "STT": 4,
       "Ho (VN)": "Phúc",
       "Ho (Pinyin)": "Phú",
       "Ten dem/ten (VN)": "Trần",
       "Ten dem/ten (Pinyin)": "Trân"
     },
     {
-      "STT": 5.0,
+      "STT": 5,
       "Ho (VN)": "Chinh",
       "Ho (Pinyin)": "Trâng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 6.0,
+      "STT": 6,
       "Ho (VN)": "Tưởng",
       "Ho (Pinyin)": "Xẻng",
       "Ten dem/ten (VN)": "Trần",
       "Ten dem/ten (Pinyin)": "Trân"
     },
     {
-      "STT": 7.0,
+      "STT": 7,
       "Ho (VN)": "Dung",
       "Ho (Pinyin)": "Rúng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 8.0,
+      "STT": 8,
       "Ho (VN)": "Chính",
       "Ho (Pinyin)": "Trâng",
       "Ten dem/ten (VN)": "Nguyễn",
       "Ten dem/ten (Pinyin)": "Roản"
     },
     {
-      "STT": 9.0,
+      "STT": 9,
       "Ho (VN)": "Điệp",
       "Ho (Pinyin)": "Tế",
       "Ten dem/ten (VN)": "Nguyễn",
       "Ten dem/ten (Pinyin)": "Roản"
     },
     {
-      "STT": 10.0,
+      "STT": 10,
       "Ho (VN)": "Điệp",
       "Ho (Pinyin)": "Tế",
       "Ten dem/ten (VN)": "Tô",
       "Ten dem/ten (Pinyin)": "Su"
     },
     {
-      "STT": 11.0,
+      "STT": 11,
       "Ho (VN)": "Hùng",
       "Ho (Pinyin)": "Súng",
       "Ten dem/ten (VN)": "Nguyễn",
       "Ten dem/ten (Pinyin)": "Roản"
     },
     {
-      "STT": 12.0,
+      "STT": 12,
       "Ho (VN)": "Hùng",
       "Ho (Pinyin)": "Súng",
       "Ten dem/ten (VN)": "Lê",
       "Ten dem/ten (Pinyin)": "Lý"
     },
     {
-      "STT": 13.0,
+      "STT": 13,
       "Ho (VN)": "Bảo",
       "Ho (Pinyin)": "pảo",
       "Ten dem/ten (VN)": "Cao",
       "Ten dem/ten (Pinyin)": "Cao"
     },
     {
-      "STT": 14.0,
+      "STT": 14,
       "Ho (VN)": "Hoa",
       "Ho (Pinyin)": "Hóa",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 15.0,
+      "STT": 15,
       "Ho (VN)": "Hưởng",
       "Ho (Pinyin)": "Xẻng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 16.0,
+      "STT": 16,
       "Ho (VN)": "Thành",
       "Ho (Pinyin)": "Trấng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 17.0,
+      "STT": 17,
       "Ho (VN)": "Dũng",
       "Ho (Pinyin)": "Dủng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 18.0,
+      "STT": 18,
       "Ho (VN)": "Đức",
       "Ho (Pinyin)": "Tứa",
       "Ten dem/ten (VN)": "Đặng",
       "Ten dem/ten (Pinyin)": "Tâng"
     },
     {
-      "STT": 19.0,
+      "STT": 19,
       "Ho (VN)": "Đức",
       "Ho (Pinyin)": "Tứa",
       "Ten dem/ten (VN)": "Lương",
       "Ten dem/ten (Pinyin)": "Láng"
     },
     {
-      "STT": 20.0,
+      "STT": 20,
       "Ho (VN)": "Phi",
       "Ho (Pinyin)": "Phây",
       "Ten dem/ten (VN)": "Nguyễn",
       "Ten dem/ten (Pinyin)": "Roản"
     },
     {
-      "STT": 21.0,
+      "STT": 21,
       "Ho (VN)": "Hiệp",
       "Ho (Pinyin)": "Xiế",
       "Ten dem/ten (VN)": "Phạm",
       "Ten dem/ten (Pinyin)": "Phan"
     },
     {
-      "STT": 22.0,
+      "STT": 22,
       "Ho (VN)": "Linh",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 23.0,
+      "STT": 23,
       "Ho (VN)": "Hạnh",
       "Ho (Pinyin)": "Xính",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 24.0,
+      "STT": 24,
       "Ho (VN)": "Hương",
       "Ho (Pinyin)": "Xeng",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 25.0,
+      "STT": 25,
       "Ho (VN)": "Vũ",
       "Ho (Pinyin)": "ủ",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 26.0,
+      "STT": 26,
       "Ho (VN)": "Chung",
       "Ho (Pinyin)": "Trung",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 27.0,
+      "STT": 27,
       "Ho (VN)": "Thủy",
       "Ho (Pinyin)": "Sủi",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 28.0,
+      "STT": 28,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 29.0,
+      "STT": 29,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 30.0,
+      "STT": 30,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 31.0,
+      "STT": 31,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 32.0,
+      "STT": 32,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 33.0,
-      "Ho (VN)": "",
-      "Ho (Pinyin)": "",
-      "Ten dem/ten (VN)": "",
-      "Ten dem/ten (Pinyin)": ""
-    },
-    {
-      "STT": "",
+      "STT": 33,
       "Ho (VN)": "",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
@@ -35229,217 +36078,224 @@
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 1.0,
+      "STT": "",
+      "Ho (VN)": "",
+      "Ho (Pinyin)": "",
+      "Ten dem/ten (VN)": "",
+      "Ten dem/ten (Pinyin)": ""
+    },
+    {
+      "STT": 1,
       "Ho (VN)": "Nhi, nhập, bát, quynh, mịch",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 2.0,
+      "STT": 2,
       "Ho (VN)": "Băng, kỷ, khảm, bao, chủy",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 3.0,
+      "STT": 3,
       "Ho (VN)": "Phương, hệ, thập, bốc, tiết",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 4.0,
+      "STT": 4,
       "Ho (VN)": "Hán, tư, hựu, sỹ, truy",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 5.0,
+      "STT": 5,
       "Ho (VN)": "Tuy, tịch, tử, thốn, tiểu",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 6.0,
+      "STT": 6,
       "Ho (VN)": "Uông, thi, triệt, xuyên, công",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 7.0,
+      "STT": 7,
       "Ho (VN)": "Kỷ, can, yêu, dẫn, củng",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 8.0,
+      "STT": 8,
       "Ho (VN)": "Dặc, cung, kệ, sam, qua",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 9.0,
+      "STT": 9,
       "Ho (VN)": "Hộ, chi, văn, đẩu, cẩn",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 10.0,
+      "STT": 10,
       "Ho (VN)": "Phương, vô, viết, nguyệt, khiếm",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 11.0,
+      "STT": 11,
       "Ho (VN)": "Chỉ, đãi, thù, vô, tỷ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 12.0,
+      "STT": 12,
       "Ho (VN)": "Mao, thị, khí, trảo, phụ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 13.0,
+      "STT": 13,
       "Ho (VN)": "Hào, tường, phiến, nha, huyền",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 14.0,
+      "STT": 14,
       "Ho (VN)": "Qua, ngõa, cam, sinh, dụng",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 15.0,
+      "STT": 15,
       "Ho (VN)": "Thất, bát, mạch, bì, mãnh",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 16.0,
+      "STT": 16,
       "Ho (VN)": "Mâu, thỉ, thị, nhựu, huyệt",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 17.0,
+      "STT": 17,
       "Ho (VN)": "Lập, phẫu, võng, dương, vũ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 18.0,
+      "STT": 18,
       "Ho (VN)": "Lão, nhi, lỗi, nhĩ, duật",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 19.0,
+      "STT": 19,
       "Ho (VN)": "Thần, cự, trí, cửu, thiệt",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 20.0,
+      "STT": 20,
       "Ho (VN)": "Xuyễn, chu, cấn, sắc, hổ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 21.0,
+      "STT": 21,
       "Ho (VN)": "Huyết, hành, á, kiến, giác",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 22.0,
+      "STT": 22,
       "Ho (VN)": "Cốc, đậu, thỉ, trãi, xích",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 23.0,
+      "STT": 23,
       "Ho (VN)": "Tẩu, thân, tân, thần, dậu",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 24.0,
+      "STT": 24,
       "Ho (VN)": "Biện, lý, trường, đãi, chuy",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 25.0,
+      "STT": 25,
       "Ho (VN)": "Thanh, phi, diện, cách, vi",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 26.0,
+      "STT": 26,
       "Ho (VN)": "Phỉ, âm, phong, phi, thủ",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 27.0,
+      "STT": 27,
       "Ho (VN)": "Hương, cốt, cao, bưu, đấu",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 28.0,
+      "STT": 28,
       "Ho (VN)": "Sưởng, cách, quỷ, lỗ, lộc",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 29.0,
+      "STT": 29,
       "Ho (VN)": "Mạch, ma, hoàng, thử, hắc",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 30.0,
+      "STT": 30,
       "Ho (VN)": "Chỉ, mãnh, đỉnh, cổ, thử",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
       "Ten dem/ten (Pinyin)": ""
     },
     {
-      "STT": 31.0,
+      "STT": 31,
       "Ho (VN)": "Tỵ, tề, xỉ, long, quy, dược",
       "Ho (Pinyin)": "",
       "Ten dem/ten (VN)": "",
