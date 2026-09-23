@@ -3825,7 +3825,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v49';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v53';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -11509,15 +11509,15 @@
 
               <!-- Audio Controls -->
               <div class="flex items-center gap-2 shrink-0">
-                <button 
-                  onclick="playTTSCapCuu(event, '${audioText.replace(/'/g, "\\'")}', false)" 
+                <button
+                  onclick="playTTSCapCuu(event, '${audioText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', false)"
                   class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-red-950/60 text-slate-200 hover:text-white border border-slate-700 hover:border-red-500/40 text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer"
                   title="Nghe giọng đọc bình thường"
                 >
                   <span>🔊</span> <span>Nghe</span>
                 </button>
-                <button 
-                  onclick="playTTSCapCuu(event, '${audioText.replace(/'/g, "\\'")}', true)" 
+                <button
+                  onclick="playTTSCapCuu(event, '${audioText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', true)"
                   class="px-3 py-1.5 rounded-xl bg-red-950/60 hover:bg-red-900/60 text-red-200 hover:text-white border border-red-500/40 text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer"
                   title="Đọc nhanh khẩn cấp"
                 >
@@ -11970,10 +11970,10 @@
             <p class="text-xs text-slate-300 mt-1 leading-relaxed max-w-3xl">${summary}</p>
           </div>
           <div class="flex items-center gap-2 shrink-0">
-            <button onclick="playTTSBanDo(event, '${fullAudioText.replace(/'/g, "\\'")}', false)" class="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer shadow-md">
+            <button onclick="playTTSBanDo(event, '${fullAudioText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', false)" class="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer shadow-md">
               <span>🔊</span> <span>Nghe</span>
             </button>
-            <button onclick="playTTSBanDo(event, '${summaryAudioText.replace(/'/g, "\\'")}', true)" class="px-3 py-1.5 rounded-xl bg-purple-950/60 hover:bg-purple-900 text-purple-200 hover:text-white border border-purple-500/40 text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer">
+            <button onclick="playTTSBanDo(event, '${summaryAudioText.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}', true)" class="px-3 py-1.5 rounded-xl bg-purple-950/60 hover:bg-purple-900 text-purple-200 hover:text-white border border-purple-500/40 text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer">
               <span>⚡</span> <span>Tóm Tắt</span>
             </button>
             <button onclick="stopTTSBanDo(event)" class="p-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white text-xs cursor-pointer">
@@ -11989,7 +11989,7 @@
       const sec1 = banDoTriThucData.section1;
       container.innerHTML = `
         <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-500/30 flex flex-col gap-6">
-          ${renderPartHeader(sec1.title, sec1.summary, sec1.meaning, sec1.audioSummary)}
+          ${renderPartHeader(sec1.title, sec1.summary, sec1.summary, sec1.audioSummary)}
 
           <!-- Meaning Box -->
           <div class="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-500/30 text-xs sm:text-sm text-indigo-200 leading-relaxed italic">
@@ -12002,13 +12002,13 @@
               TRỌNG TÂM CỐT LÕI CỦA MỌI TRI THỨC
             </span>
             <h3 class="text-xl sm:text-2xl font-black text-white tracking-wide flex items-center gap-2">
-              <span>👤</span> ${sec1.centerHub.title}
+              <span>👤</span> ${sec1.centerHub.name}
             </h3>
             <p class="text-xs sm:text-sm text-slate-300 max-w-xl leading-relaxed">
-              ${sec1.centerHub.desc}
+              ${sec1.centerHub.description}
             </p>
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-2 w-full max-w-2xl">
-              ${sec1.centerHub.pillars.map(p => `
+              ${sec1.centerHub.core.split('•').map(s => s.trim()).filter(Boolean).map(p => `
                 <div class="p-2.5 rounded-xl bg-slate-900/80 border border-indigo-500/30 text-xs font-bold text-amber-300 text-center">
                   ✨ ${p}
                 </div>
@@ -12032,15 +12032,12 @@
                       <span class="w-6 h-6 rounded-lg bg-indigo-950 text-indigo-300 border border-indigo-500/30 text-xs font-bold flex items-center justify-center">
                         ${idx + 1}
                       </span>
-                      <span class="text-[10px] font-bold text-emerald-400 bg-emerald-950/40 px-2 py-0.5 rounded border border-emerald-500/30">
-                        ${b.blocksCount} khối con
-                      </span>
                     </div>
                     <b class="text-sm font-bold text-white group-hover:text-indigo-300 transition-colors mt-2 block">
                       ${b.name}
                     </b>
                     <p class="text-xs text-slate-400 mt-1 leading-relaxed">
-                      ${b.coreMeaning}
+                      ${b.desc}
                     </p>
                   </div>
                   <div class="flex items-center justify-between pt-2 border-t border-slate-900">
@@ -12064,10 +12061,10 @@
               <span>🧭</span> Cách Dùng Bản Đồ Kiến Thức (3 Bước):
             </h4>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
-              ${sec1.usageGuide.map(g => `
+              ${sec1.usageGuide.map((g, idx) => `
                 <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex flex-col gap-1">
-                  <span class="text-xs font-bold text-indigo-300">${g.step}</span>
-                  <p class="text-xs text-slate-300 leading-snug">${g.action}</p>
+                  <span class="text-xs font-bold text-indigo-300">Bước ${idx + 1}</span>
+                  <p class="text-xs text-slate-300 leading-snug">${g}</p>
                 </div>
               `).join('')}
             </div>
@@ -12533,8 +12530,8 @@
             <text x="${coord.x}" y="${coord.y - 6}" text-anchor="middle" fill="#ffffff" font-size="10.5" font-weight="800">
               ${b.name}
             </text>
-            <text x="${coord.x}" y="${coord.y + 10}" text-anchor="middle" fill="#38bdf8" font-size="8" font-weight="700">
-              ${b.blocksCount} khối con
+            <text x="${coord.x}" y="${coord.y + 10}" text-anchor="middle" fill="#38bdf8" font-size="7">
+              ${(b.desc || '').slice(0, 26)}${(b.desc || '').length > 26 ? '…' : ''}
             </text>
           </g>
         `;
