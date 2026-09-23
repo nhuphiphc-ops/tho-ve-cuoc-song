@@ -2518,6 +2518,9 @@
             <button onclick="selectPhongThuySubTab('mo_phan')" id="pt-tab-mo_phan" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">⛰️ Mộ Phần</button>
             <button onclick="selectPhongThuySubTab('ban_tho')" id="pt-tab-ban_tho" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🕯️ Bàn Thờ</button>
             <button onclick="selectPhongThuySubTab('quoc_gia')" id="pt-tab-quoc_gia" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🗺️ Quốc Gia</button>
+            <button onclick="selectPhongThuySubTab('cua_hang')" id="pt-tab-cua_hang" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🏪 Cửa Hàng</button>
+            <button onclick="selectPhongThuySubTab('nha_xuong')" id="pt-tab-nha_xuong" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🏭 Nhà Xưởng</button>
+            <button onclick="selectPhongThuySubTab('khu_dan_cu')" id="pt-tab-khu_dan_cu" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">🏘️ Khu Dân Cư</button>
             <button onclick="selectPhongThuySubTab('so_tay')" id="pt-tab-so_tay" class="pt-badge shrink-0 px-3 py-2 rounded-xl text-xs font-bold border border-slate-800 bg-slate-900/60 text-slate-400 hover:text-slate-200 cursor-pointer">📝 Sổ Tay</button>
           </div>
         </div>
@@ -3829,7 +3832,7 @@
     const gqMeaning = document.getElementById('gq-meaning');
     const gqDetails = document.getElementById('gq-details');
 
-    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v55';
+    const APP_CACHE_NAME = 'tho-ve-cuoc-song-v56';
 
     function showToast(message, icon = '✨') {
       const toast = document.getElementById('toast-notification');
@@ -8845,6 +8848,18 @@
         }
         if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'quoc_gia') {
           const html = renderPhongThuyChuyenSauModule(phongThuyChuyenSauData.quoc_gia, { border: 'border-indigo-500/30', btn: 'bg-indigo-600 hover:bg-indigo-500 text-white' });
+          if (html) cardsHtml.push(html);
+        }
+        if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'cua_hang') {
+          const html = renderPhongThuyChuyenSauModule(phongThuyChuyenSauData.cua_hang, { border: 'border-rose-500/30', btn: 'bg-rose-600 hover:bg-rose-500 text-white' });
+          if (html) cardsHtml.push(html);
+        }
+        if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'nha_xuong') {
+          const html = renderPhongThuyChuyenSauModule(phongThuyChuyenSauData.nha_xuong, { border: 'border-slate-500/30', btn: 'bg-slate-700 hover:bg-slate-600 text-white' });
+          if (html) cardsHtml.push(html);
+        }
+        if (activePhongThuySubTab === 'all' || activePhongThuySubTab === 'khu_dan_cu') {
+          const html = renderPhongThuyChuyenSauModule(phongThuyChuyenSauData.khu_dan_cu, { border: 'border-teal-500/30', btn: 'bg-teal-600 hover:bg-teal-500 text-white' });
           if (html) cardsHtml.push(html);
         }
       }
@@ -15965,7 +15980,10 @@
         ' urat']],
       ['phongthuy', [' phong thuy', ' huong nha', ' the dat', ' bat cung', ' bat quai', ' phong khach', ' phong ngu', ' ban tho',
         ' mo phan', ' huong mo', ' xay mo', ' nghia trang', ' di doi mo', ' phong thuy quoc gia', ' dia the viet nam',
-        ' san bay long thanh', ' phan tich vung', ' dau tu bat dong san']],
+        ' san bay long thanh', ' phan tich vung', ' dau tu bat dong san',
+        ' cua hang kinh doanh', ' quay thu ngan', ' bien hieu', ' mo cua hang', ' phong thuy shop',
+        ' nha xuong', ' cong trinh xay dung', ' khu san xuat', ' van phong lanh dao', ' phong chay chua chay',
+        ' khu dan cu', ' khu do thi', ' du an bat dong san', ' quy hoach khu dan cu']],
       ['huyetdao', [' huyet dao', ' bam huyet', ' huyet vi', ' hop coc', ' thai xung', ' tam am giao', ' tuc tam ly', ' bach hoi']],
       ['chongaytot', [' chon ngay tot', ' ngay lanh', ' truc nhat', ' can chi', ' am duong ngu hanh', ' khoi cong', ' dong tho', ' cuoi hoi', ' khai truong']],
       ['caudotritue', [' cau do tri tue', ' ren tu duy nhanh', ' cau do logic', ' do vui', ' tu duy phan bien', ' 160 cau do', ' bay tu duy', ' cau do hay']],
@@ -16382,7 +16400,7 @@
       }
 
       if (phongThuyChuyenSauData) {
-        ['mo_phan', 'ban_tho', 'quoc_gia'].forEach(function (key) {
+        ['mo_phan', 'ban_tho', 'quoc_gia', 'cua_hang', 'nha_xuong', 'khu_dan_cu'].forEach(function (key) {
           const sub = phongThuyChuyenSauData[key];
           if (!sub) return;
           add('phongthuy', null, '[PHONG THỦY - ' + sub.tieu_de + ']', sub.gioi_thieu_doc || '');
