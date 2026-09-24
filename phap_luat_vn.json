@@ -772,12 +772,12 @@
       },
       {
         "nhom": "III. Nhóm Thông tư hướng dẫn",
-        "tong_so": 10,
-        "moi_2026": 4,
-        "dang_ap_dung": 10,
+        "tong_so": 9,
+        "moi_2026": 3,
+        "dang_ap_dung": 9,
         "het_hieu_luc": 2,
         "sap_co_hieu_luc": "—",
-        "ghi_chu": "Kế toán DN (TT 99 thay TT 200), BCTC hợp nhất (TT 43 sửa TT 202), CBTT (TT 05 sửa TT 96), Định mức XD & Thuế"
+        "ghi_chu": "Kế toán DN (TT 99 thay TT 200), BCTC hợp nhất (TT 43 sửa TT 202), Quản trị công ty đại chúng (TT 116/2020), Định mức XD & Thuế"
       },
       {
         "nhom": "IV. Quy chế sàn & UBCK",
@@ -799,9 +799,9 @@
       }
     ],
     "tong_so_luong": {
-      "tong": 31,
-      "moi_2026": 10,
-      "dang_ap_dung": 31,
+      "tong": 30,
+      "moi_2026": 9,
+      "dang_ap_dung": 30,
       "het_hieu_luc": 4,
       "sap_co_hieu_luc": 1
     },
@@ -904,7 +904,7 @@
         "ngay_hieu_luc": "11/09/2025",
         "trang_thai": "MỚI",
         "loai_trang_thai": "new_active",
-        "noi_dung_chinh": "Xác nhận được: sửa đổi quy định về tỷ lệ sở hữu nước ngoài tối đa (chỉ được xác định theo điều ước quốc tế/luật chuyên ngành, không tự đặt thấp hơn qua ĐHĐCĐ/điều lệ), công bố công khai tỷ lệ sở hữu nước ngoài trên website/Sở GDCK/VSDC cập nhật hàng ngày; siết điều kiện chào bán và kiểm soát sử dụng vốn từ phát hành trái phiếu. ⚠️ Các nội dung 'rút ngắn CBTT 24h→12h' và 'hạ ngưỡng cổ đông lớn 5%→3%' trong bản trước KHÔNG xác minh được nằm trong nghị định này — cần đối chiếu lại toàn văn trước khi áp dụng.",
+        "noi_dung_chinh": "Sửa đổi quy định về tỷ lệ sở hữu nước ngoài tối đa (chỉ được xác định theo điều ước quốc tế/luật chuyên ngành, không tự đặt thấp hơn qua ĐHĐCĐ/điều lệ), công bố công khai tỷ lệ sở hữu nước ngoài trên website/Sở GDCK/VSDC cập nhật hàng ngày; siết điều kiện chào bán và kiểm soát sử dụng vốn từ phát hành trái phiếu.",
         "anh_huong": "Yêu cầu hệ thống giám sát và phê duyệt thông tin của doanh nghiệp phải phản ứng cực nhanh; bộ phận IR và Thư ký phải trực 24/7.",
         "bo_phan": "Thư ký HĐQT, Quan hệ Nhà đầu tư (IR), Ban Giám đốc"
       },
@@ -1045,16 +1045,6 @@
         },
         {
           "stt": "T6",
-          "ten_van_ban": "⚠️ CẦN XÁC MINH LẠI SỐ HIỆU: 'Thông tư 05/2026/TT-BTC' không xác minh được; các thông tư thật sửa đổi TT 96/2020/TT-BTC gần đây là Thông tư 18/2025/TT-BTC (hiệu lực 05/05/2025) và Thông tư 08/2026/TT-BTC",
-          "ngay_hieu_luc": "Chưa xác minh — cần tra cứu lại trên Cổng TTĐT Bộ Tài chính/UBCKNN",
-          "trang_thai": "Cần kiểm tra lại",
-          "loai_trang_thai": "active",
-          "noi_dung_chinh": "⚠️ Nội dung 'rút ngắn CBTT bất thường 24h→12h' trong bản trước KHÔNG xác minh được có thật trong Thông tư 18/2025/TT-BTC hay Thông tư 08/2026/TT-BTC — cần đối chiếu toàn văn trước khi áp dụng, không nên coi đây là quy định chính thức cho tới khi xác minh xong.",
-          "anh_huong": "Tăng cường quy trình phê duyệt nội bộ; báo cáo ngay cho người đại diện pháp luật và Chủ tịch HĐQT khi có sự kiện phát sinh.",
-          "bo_phan": "Cán bộ CBTT, Quan hệ Nhà đầu tư (IR), Thư ký HĐQT"
-        },
-        {
-          "stt": "T7",
           "ten_van_ban": "Thông tư 116/2020/TT-BTC (Hướng dẫn Quản trị Công ty Đại chúng) — năm ban hành đúng là 2020, không phải 2021 như dữ liệu cũ",
           "ngay_hieu_luc": "15/02/2021",
           "trang_thai": "Đang áp dụng",
@@ -1130,62 +1120,48 @@
       },
       {
         "stt": 2,
-        "noi_dung": "⚠️ CHƯA XÁC MINH ĐƯỢC: 'Rút ngắn CBTT bất thường 24h→12h' — không tìm thấy số hiệu 'Thông tư 05/2026/TT-BTC'; các thông tư thật sửa TT 96/2020/TT-BTC là TT 18/2025/TT-BTC và TT 08/2026/TT-BTC, chưa xác minh nội dung này có trong đó",
-        "han_chot": "Chưa xác minh",
-        "bo_phan": "Thư ký HĐQT, Ban IR, Pháp chế",
-        "canh_bao": "Vẫn áp dụng thời hạn 24h theo Thông tư 96/2020/TT-BTC cho tới khi xác minh được thay đổi chính thức"
-      },
-      {
-        "stt": 3,
-        "noi_dung": "⚠️ CHƯA XÁC MINH ĐƯỢC: 'Hạ ngưỡng báo cáo cổ đông lớn 5%→3%' — không tìm thấy quy định này trong Nghị định 245/2025/NĐ-CP (văn bản sửa đổi NĐ 155/2020 thật); cần tra cứu lại toàn văn trước khi áp dụng",
-        "han_chot": "Chưa xác minh",
-        "bo_phan": "Thư ký HĐQT, Ban IR, Cổ đông lớn",
-        "canh_bao": "KHÔNG áp dụng ngưỡng 3% cho tới khi xác minh được văn bản gốc — ngưỡng hiện hành theo Luật Chứng khoán vẫn là 5% trừ khi có xác nhận chính thức khác"
-      },
-      {
-        "stt": 4,
         "noi_dung": "Áp dụng Biểu mẫu BCTC Hợp nhất mới theo Thông tư 43/2026/TT-BTC (sửa TT 202/2014)",
         "han_chot": "Đã áp dụng (Từ 20/04/2026)",
         "bo_phan": "Kế toán Hợp nhất, Kiểm toán nội bộ",
         "canh_bao": "Cập nhật chỉ tiêu lợi thế thương mại và lợi ích cổ đông không kiểm soát"
       },
       {
-        "stt": 5,
-        "noi_dung": "Tách thuế suất GTGT 5% NOXH và 10% BĐS thương mại theo Luật mới & TT 12/2026/TT-BTC",
-        "han_chot": "Kỳ khai thuế tháng 04/2026 trở đi",
+        "stt": 3,
+        "noi_dung": "Tách thuế suất GTGT 5% NOXH và 10% BĐS thương mại theo Luật Thuế GTGT 48/2024/QH15",
+        "han_chot": "Kỳ khai thuế từ 01/07/2025",
         "bo_phan": "Phòng Kế toán Thuế",
         "canh_bao": "Hạch toán hóa đơn đầu ra riêng biệt, không gộp chung gây sai lệch quyết toán"
       },
       {
-        "stt": 6,
+        "stt": 4,
         "noi_dung": "Rà soát cấu trúc Tổng mức đầu tư dự án theo Thông tư 36/2026/TT-BXD",
         "han_chot": "Trước khi phê duyệt dự án mới",
         "bo_phan": "Khối Kỹ thuật, Ban Quản lý Dự án",
         "canh_bao": "Dự phòng 5-10%, tính chi phí lãi vay vào tổng mức đầu tư"
       },
       {
-        "stt": 7,
+        "stt": 5,
         "noi_dung": "⚠️ QUY ĐỊNH ĐÃ THAY ĐỔI BẢN CHẤT: chế độ cấp chứng chỉ năng lực xây dựng (Hạng I/II/III) đang chuyển sang cơ chế TỰ CÔNG KHAI thông tin năng lực trên cổng điện tử Bộ Xây dựng — không còn đơn thuần là 'rà soát chứng chỉ' như trước; cần tra cứu văn bản chính thức để cập nhật quy trình nội bộ",
         "han_chot": "Theo lộ trình chuyển đổi 2025-2026 — cần xác minh mốc chính xác",
         "bo_phan": "Phòng Nhân sự, Khối Đấu thầu",
         "canh_bao": "Theo dõi sát Cổng thông tin Bộ Xây dựng vì cơ chế quản lý năng lực nhà thầu đang thay đổi căn bản"
       },
       {
-        "stt": 8,
+        "stt": 6,
         "noi_dung": "Kiểm tra điều kiện hưởng chính sách giảm 30% thuế TNDN theo Nghị quyết 43/2026/QH16",
         "han_chot": "Kỳ kê khai quyết toán năm 2026",
         "bo_phan": "Kế toán Thuế, Tài chính Tập đoàn",
         "canh_bao": "Doanh thu năm ≤ 10 tỷ đồng, không có nợ thuế quá hạn"
       },
       {
-        "stt": 9,
+        "stt": 7,
         "noi_dung": "Rà soát quy trình quản lý hiện trường và phòng ngừa phạt theo Nghị định 339/2026/NĐ-CP (thay NĐ 16/2022)",
         "han_chot": "Trước ngày 30/09/2026",
         "bo_phan": "Pháp chế, Giám sát Công trường",
         "canh_bao": "Phạt 200-500 triệu nếu bán nhà chưa đủ điều kiện; phạt 500tr-1 tỷ nếu xây sai phép"
       },
       {
-        "stt": 10,
+        "stt": 8,
         "noi_dung": "Đảm bảo tỷ lệ quỹ đất NOXH ≥ 20% trong các dự án Khu đô thị mới theo Nghị định 49/2021/NĐ-CP (sửa NĐ 100/2015/NĐ-CP), đối chiếu thêm với Luật Nhà ở 27/2023/QH15 và Luật Đất đai 31/2024/QH15",
         "han_chot": "Theo tiến độ phê duyệt quy hoạch",
         "bo_phan": "Khối Phát triển Dự án, Kinh doanh",
@@ -1205,13 +1181,13 @@
       },
       {
         "cau_hoi": "Thời hạn công bố thông tin bất thường của công ty niêm yết hiện nay là bao lâu?",
-        "tra_loi": "⚠️ VẪN LÀ 24 GIỜ theo Thông tư 96/2020/TT-BTC (chưa xác minh được có quy định rút xuống 12 giờ) — các số hiệu 'TT 05/2026/TT-BTC' và 'NĐ 36/2026/NĐ-CP' không tồn tại/không khớp văn bản thật, cần tra cứu lại Thông tư 18/2025/TT-BTC, Thông tư 08/2026/TT-BTC và Nghị định 245/2025/NĐ-CP để xác nhận có thay đổi thời hạn hay không.",
-        "ghi_chu": "KHÔNG nên tự ý rút ngắn quy trình nội bộ xuống 12h cho tới khi có xác nhận chính thức từ văn bản gốc."
+        "tra_loi": "⏱️ 24 GIỜ kể từ khi sự kiện phát sinh, theo Thông tư 96/2020/TT-BTC.",
+        "ghi_chu": "Áp dụng cho công bố thông tin bất thường định kỳ và theo yêu cầu của UBCK/Sở giao dịch."
       },
       {
         "cau_hoi": "Ngưỡng tỷ lệ sở hữu để xác định cổ đông lớn cần báo cáo là bao nhiêu %?",
-        "tra_loi": "⚠️ VẪN LÀ 5% theo Luật Chứng khoán 54/2019/QH14 (chưa xác minh được quy định hạ xuống 3%) — số hiệu 'Nghị định 36/2026/NĐ-CP' không tồn tại/không khớp; văn bản sửa đổi NĐ 155/2020 gần nhất thật là Nghị định 245/2025/NĐ-CP nhưng nội dung xác nhận được là về tỷ lệ sở hữu nước ngoài, không phải ngưỡng cổ đông lớn nội địa.",
-        "ghi_chu": "Giữ nguyên quy trình báo cáo ở ngưỡng 5% cho tới khi xác minh được thay đổi chính thức từ văn bản gốc."
+        "tra_loi": "📊 Từ 5% TRỞ LÊN theo Luật Chứng khoán 54/2019/QH14.",
+        "ghi_chu": "Khi đạt hoặc thay đổi qua các mốc 1% trên ngưỡng 5% phải báo cáo UBCK và Sở Giao dịch theo thời hạn luật định."
       },
       {
         "cau_hoi": "Thuế suất GTGT đối với Nhà ở xã hội (NOXH) và BĐS thương mại tính như thế nào?",
@@ -1255,7 +1231,7 @@
         "Liên kết Phòng ngừa Xử phạt & Rủi ro: Cập nhật mức phạt NĐ 339/2026 và NĐ 108/2024 để siết chặt kỷ luật công trường và CBTT."
       ],
       "huong_dan_tts": [
-        "🔊 Nghe Tóm Tắt 10 Thay Đổi 2026: Nắm nhanh toàn bộ 10 điểm then chốt cần thực hiện ngay.",
+        "🔊 Nghe Tóm Tắt 8 Thay Đổi 2026: Nắm nhanh toàn bộ 8 điểm then chốt cần thực hiện ngay.",
         "🔊 Nghe Từng Nhóm Văn Bản: Tập trung nghe chi tiết trách nhiệm và ảnh hưởng của từng nhóm Luật, Nghị định, Thông tư.",
         "🔊 Nghe Bảng Tra Cứu Nhanh: Nghe giải đáp chuẩn xác 8 câu hỏi phổ biến nhất để tránh nhầm lẫn trong công việc hàng ngày.",
         "📱 Thuận tiện tra cứu: Nghe trực tiếp trên điện thoại hoặc máy tính khi đi công tác, kiểm tra công trường hoặc họp giao ban."
