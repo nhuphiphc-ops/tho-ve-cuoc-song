@@ -2396,7 +2396,7 @@
         },
         {
           "STT": 63,
-          "Chu tuong hinh": "戶",
+          "Chu tuong hinh": "户",
           "Bien the": "户, 戸",
           "Ten bo": "Hộ",
           "Phien am": "hù",
@@ -3152,7 +3152,7 @@
         },
         {
           "STT": 147,
-          "Chu tuong hinh": "見",
+          "Chu tuong hinh": "见",
           "Bien the": "见",
           "Ten bo": "Kiến",
           "Phien am": "jiàn",
@@ -3215,7 +3215,7 @@
         },
         {
           "STT": 154,
-          "Chu tuong hinh": "貝",
+          "Chu tuong hinh": "贝",
           "Bien the": "贝",
           "Ten bo": "Bối",
           "Phien am": "bèi",
@@ -3260,7 +3260,7 @@
         },
         {
           "STT": 159,
-          "Chu tuong hinh": "車",
+          "Chu tuong hinh": "车",
           "Bien the": "车",
           "Ten bo": "Xa",
           "Phien am": "chē",
@@ -3341,7 +3341,7 @@
         },
         {
           "STT": 168,
-          "Chu tuong hinh": "長",
+          "Chu tuong hinh": "长",
           "Bien the": "镸, 长",
           "Ten bo": "Trường",
           "Phien am": "cháng",
@@ -3350,7 +3350,7 @@
         },
         {
           "STT": 169,
-          "Chu tuong hinh": "門",
+          "Chu tuong hinh": "门",
           "Bien the": "门",
           "Ten bo": "Môn",
           "Phien am": "mén",
@@ -3431,7 +3431,7 @@
         },
         {
           "STT": 178,
-          "Chu tuong hinh": "韋",
+          "Chu tuong hinh": "韦",
           "Bien the": "韦",
           "Ten bo": "Vi",
           "Phien am": "wéi",
@@ -3458,7 +3458,7 @@
         },
         {
           "STT": 181,
-          "Chu tuong hinh": "頁",
+          "Chu tuong hinh": "页",
           "Bien the": "页",
           "Ten bo": "Hiệt",
           "Phien am": "yè",
@@ -3467,7 +3467,7 @@
         },
         {
           "STT": 182,
-          "Chu tuong hinh": "風",
+          "Chu tuong hinh": "风",
           "Bien the": "风",
           "Ten bo": "Phong",
           "Phien am": "fēng",
@@ -3476,7 +3476,7 @@
         },
         {
           "STT": 183,
-          "Chu tuong hinh": "飛",
+          "Chu tuong hinh": "飞",
           "Bien the": "飞",
           "Ten bo": "Phi",
           "Phien am": "fēi",
@@ -3486,7 +3486,7 @@
         {
           "STT": 184,
           "Chu tuong hinh": "食",
-          "Bien the": "飠, 饣",
+          "Bien the": "饣, 饣",
           "Ten bo": "Thực",
           "Phien am": "shí",
           "So net": 9,
@@ -3512,7 +3512,7 @@
         },
         {
           "STT": 187,
-          "Chu tuong hinh": "馬",
+          "Chu tuong hinh": "马",
           "Bien the": "马",
           "Ten bo": "Mã",
           "Phien am": "mǎ",
@@ -3548,7 +3548,7 @@
         },
         {
           "STT": 191,
-          "Chu tuong hinh": "鬥",
+          "Chu tuong hinh": "斗",
           "Bien the": "",
           "Ten bo": "Đấu",
           "Phien am": "dòu",
@@ -3584,7 +3584,7 @@
         },
         {
           "STT": 195,
-          "Chu tuong hinh": "魚",
+          "Chu tuong hinh": "鱼",
           "Bien the": "鱼",
           "Ten bo": "Ngư",
           "Phien am": "yú",
@@ -3593,7 +3593,7 @@
         },
         {
           "STT": 196,
-          "Chu tuong hinh": "鳥",
+          "Chu tuong hinh": "鸟",
           "Bien the": "鸟",
           "Ten bo": "Điểu",
           "Phien am": "niǎo",
@@ -3602,7 +3602,7 @@
         },
         {
           "STT": 197,
-          "Chu tuong hinh": "鹵",
+          "Chu tuong hinh": "卤",
           "Bien the": "卤",
           "Ten bo": "Lỗ",
           "Phien am": "lǔ",
@@ -3620,7 +3620,7 @@
         },
         {
           "STT": 199,
-          "Chu tuong hinh": "麥",
+          "Chu tuong hinh": "麦",
           "Bien the": "麦",
           "Ten bo": "Mạch",
           "Phien am": "mài",
@@ -3638,7 +3638,7 @@
         },
         {
           "STT": 201,
-          "Chu tuong hinh": "黃",
+          "Chu tuong hinh": "黄",
           "Bien the": "黄",
           "Ten bo": "Hoàng",
           "Phien am": "huáng",
@@ -3674,7 +3674,7 @@
         },
         {
           "STT": 205,
-          "Chu tuong hinh": "黽",
+          "Chu tuong hinh": "黾",
           "Bien the": "黾",
           "Ten bo": "Mãnh",
           "Phien am": "mǐn",
@@ -3719,7 +3719,7 @@
         },
         {
           "STT": 210,
-          "Chu tuong hinh": "齊",
+          "Chu tuong hinh": "齐",
           "Bien the": "齐",
           "Ten bo": "Tề",
           "Phien am": "qí",
@@ -3728,7 +3728,7 @@
         },
         {
           "STT": 211,
-          "Chu tuong hinh": "齒",
+          "Chu tuong hinh": "齿",
           "Bien the": "齿",
           "Ten bo": "Xỉ",
           "Phien am": "chǐ",
@@ -3737,7 +3737,7 @@
         },
         {
           "STT": 212,
-          "Chu tuong hinh": "龍",
+          "Chu tuong hinh": "龙",
           "Bien the": "龙",
           "Ten bo": "Long",
           "Phien am": "lóng",
@@ -3746,7 +3746,7 @@
         },
         {
           "STT": 213,
-          "Chu tuong hinh": "龜",
+          "Chu tuong hinh": "龟",
           "Bien the": "龟",
           "Ten bo": "Quy",
           "Phien am": "guī",
@@ -3761,6 +3761,2008 @@
           "Phien am": "yuè",
           "So net": 17,
           "Y nghia": "Cây sáo trúc ba lỗ điều hòa âm luật nhã nhạc"
+        }
+      ],
+      "Tu_hay_dung": [
+        {
+          "Chu Han": "我们",
+          "Pinyin (am boi): Nghia": "wǒ men (ủa mân): chúng tôi."
+        },
+        {
+          "Chu Han": "什么",
+          "Pinyin (am boi): Nghia": "shén me (sấn mơ): cái gì, hả."
+        },
+        {
+          "Chu Han": "知道",
+          "Pinyin (am boi): Nghia": "zhī dào (trư tao): biết, hiểu, rõ."
+        },
+        {
+          "Chu Han": "他们",
+          "Pinyin (am boi): Nghia": "tāmen (tha mân): bọn họ."
+        },
+        {
+          "Chu Han": "一个",
+          "Pinyin (am boi): Nghia": "yīgè (ý cừa): một cái, một."
+        },
+        {
+          "Chu Han": "你们",
+          "Pinyin (am boi): Nghia": "nǐmen (nỉ mân): các bạn"
+        },
+        {
+          "Chu Han": "没有",
+          "Pinyin (am boi): Nghia": "méiyǒu (mấy yểu): không có, không bằng, chưa."
+        },
+        {
+          "Chu Han": "这个",
+          "Pinyin (am boi): Nghia": "zhège (trưa cơ): cái này, việc này."
+        },
+        {
+          "Chu Han": "怎么",
+          "Pinyin (am boi): Nghia": "zěnme (chẩn mơ): thế nào, sao, như thế."
+        },
+        {
+          "Chu Han": "现在",
+          "Pinyin (am boi): Nghia": "xiànzài (xien chai): bây giờ."
+        },
+        {
+          "Chu Han": "可以",
+          "Pinyin (am boi): Nghia": "kěyǐ (khứa ỷ): có thể."
+        },
+        {
+          "Chu Han": "如果",
+          "Pinyin (am boi): Nghia": "rúguǒ (rú cuổ): nếu."
+        },
+        {
+          "Chu Han": "这样",
+          "Pinyin (am boi): Nghia": "zhèyàng (trưa dang): như vậy, thế này."
+        },
+        {
+          "Chu Han": "告诉",
+          "Pinyin (am boi): Nghia": "gàosù (cao su): nói với, tố cáo, tố giác."
+        },
+        {
+          "Chu Han": "因为",
+          "Pinyin (am boi): Nghia": "yīnwèi (in guây): bởi vì, bởi rằng."
+        },
+        {
+          "Chu Han": "自己",
+          "Pinyin (am boi): Nghia": "zìjǐ (chư chỉ): tự mình, mình."
+        },
+        {
+          "Chu Han": "这里",
+          "Pinyin (am boi): Nghia": "zhèlǐ (trưa lỉ): ở đây."
+        },
+        {
+          "Chu Han": "但是",
+          "Pinyin (am boi): Nghia": "dànshì (tan sư): nhưng, mà."
+        },
+        {
+          "Chu Han": "时候",
+          "Pinyin (am boi): Nghia": "shíhòu (sứ hâu): thời gian, lúc, khi."
+        },
+        {
+          "Chu Han": "已经",
+          "Pinyin (am boi): Nghia": "yǐjīng (ỷ ching): đã, rồi."
+        },
+        {
+          "Chu Han": "谢谢",
+          "Pinyin (am boi): Nghia": "xièxiè (xiê xiệ): cám ơn."
+        },
+        {
+          "Chu Han": "觉得",
+          "Pinyin (am boi): Nghia": "juédé (chuế tứa): cảm thấy, thấy rằng."
+        },
+        {
+          "Chu Han": "这么",
+          "Pinyin (am boi): Nghia": "zhème (trưa mơ): như thế, như vậy, thế này."
+        },
+        {
+          "Chu Han": "先生",
+          "Pinyin (am boi): Nghia": "xiānshēng (xien sâng): thầy, tiên sinh, chồng."
+        },
+        {
+          "Chu Han": "喜欢",
+          "Pinyin (am boi): Nghia": "xǐhuān (xỉ hoan): thích, vui mừng."
+        },
+        {
+          "Chu Han": "可能",
+          "Pinyin (am boi): Nghia": "kěnéng (khửa nấng): có thể, khả năng, chắc là."
+        },
+        {
+          "Chu Han": "需要",
+          "Pinyin (am boi): Nghia": "xūyào (xuy deo): cần, yêu cầu."
+        },
+        {
+          "Chu Han": "是的",
+          "Pinyin (am boi): Nghia": "shì de (sư tợ): tựa như, giống như."
+        },
+        {
+          "Chu Han": "那么",
+          "Pinyin (am boi): Nghia": "nàme (na mờ): như thế."
+        },
+        {
+          "Chu Han": "那个",
+          "Pinyin (am boi): Nghia": "nàgè (na cừa): cái đó, việc ấy, ấy…"
+        },
+        {
+          "Chu Han": "东西",
+          "Pinyin (am boi): Nghia": "dōngxī (tung xi): đông tây, đồ vật."
+        },
+        {
+          "Chu Han": "应该",
+          "Pinyin (am boi): Nghia": "yīnggāi (ing cai): nên, cần phải."
+        },
+        {
+          "Chu Han": "孩子",
+          "Pinyin (am boi): Nghia": "háizi (hái chự): trẻ con, con cái."
+        },
+        {
+          "Chu Han": "起来",
+          "Pinyin (am boi): Nghia": "qǐlái (chỉ lái): đứng dậy, nổi dậy, vùng lên."
+        },
+        {
+          "Chu Han": "所以",
+          "Pinyin (am boi): Nghia": "suǒyǐ (suố ỷ): cho nên, sở dĩ, nguyên cớ."
+        },
+        {
+          "Chu Han": "这些",
+          "Pinyin (am boi): Nghia": "zhèxiē (trưa xiê): những…này."
+        },
+        {
+          "Chu Han": "还有",
+          "Pinyin (am boi): Nghia": "hái yǒu (hái yểu): vẫn còn."
+        },
+        {
+          "Chu Han": "问题",
+          "Pinyin (am boi): Nghia": "wèntí (uân thí): vấn đề, câu hỏi."
+        },
+        {
+          "Chu Han": "一起",
+          "Pinyin (am boi): Nghia": "yīqǐ (yi chỉ): cùng nơi, cùng, tổng cộng."
+        },
+        {
+          "Chu Han": "开始",
+          "Pinyin (am boi): Nghia": "kāishǐ (khai sử): bắt đầu, lúc đầu."
+        },
+        {
+          "Chu Han": "时间",
+          "Pinyin (am boi): Nghia": "shíjiān (sứ chen): thời gian, khoảng thời gian."
+        },
+        {
+          "Chu Han": "工作",
+          "Pinyin (am boi): Nghia": "gōngzuò (cung chua): công việc, công tác."
+        },
+        {
+          "Chu Han": "然后",
+          "Pinyin (am boi): Nghia": "ránhòu (rán hâu): sau đó, tiếp đó."
+        },
+        {
+          "Chu Han": "一样",
+          "Pinyin (am boi): Nghia": "yīyàng (ý dang): giống nhau, cũng thế."
+        },
+        {
+          "Chu Han": "事情",
+          "Pinyin (am boi): Nghia": "shìqíng (sư chính): sự việc, sự tình."
+        },
+        {
+          "Chu Han": "就是",
+          "Pinyin (am boi): Nghia": "jiùshì (chiêu sư): nhất định, đúng, dù cho."
+        },
+        {
+          "Chu Han": "所有",
+          "Pinyin (am boi): Nghia": "suǒyǒu (suố yểu): sở hữu, tất cả, toàn bộ."
+        },
+        {
+          "Chu Han": "一下",
+          "Pinyin (am boi): Nghia": "yīxià (ý xia): một tý, thử xem, bỗng chốc."
+        },
+        {
+          "Chu Han": "非常",
+          "Pinyin (am boi): Nghia": "fēicháng (phây cháng): bất thường, rất, vô cùng."
+        },
+        {
+          "Chu Han": "看到",
+          "Pinyin (am boi): Nghia": "kàn dào (khan tao): nhìn thấy."
+        },
+        {
+          "Chu Han": "希望",
+          "Pinyin (am boi): Nghia": "xīwàng (xi oang): mong muốn, hy vọng, ước ao."
+        },
+        {
+          "Chu Han": "那些",
+          "Pinyin (am boi): Nghia": "nàxiē (na xiê): những…ấy, những…đó, những…kia."
+        },
+        {
+          "Chu Han": "当然",
+          "Pinyin (am boi): Nghia": "dāngrán (tang rán): đương nhiên, tất nhiên, dĩ nhiên."
+        },
+        {
+          "Chu Han": "也许",
+          "Pinyin (am boi): Nghia": "yěxǔ (diế xủy): có lẽ, e rằng, biết đâu."
+        },
+        {
+          "Chu Han": "朋友",
+          "Pinyin (am boi): Nghia": "péngyǒu (phấng yểu): bạn bè, bằng hữu."
+        },
+        {
+          "Chu Han": "妈妈",
+          "Pinyin (am boi): Nghia": "māmā (ma ma): mẹ, má, u, bầm, bà già."
+        },
+        {
+          "Chu Han": "相信",
+          "Pinyin (am boi): Nghia": "xiāngxìn (xieng xin): tin tưởng, tin."
+        },
+        {
+          "Chu Han": "认为",
+          "Pinyin (am boi): Nghia": "rènwéi (rân uấy): cho rằng, cho là."
+        },
+        {
+          "Chu Han": "这儿",
+          "Pinyin (am boi): Nghia": "zhè’er (trưa ơr): ở đây, chỗ này, lúc này, bây giờ"
+        },
+        {
+          "Chu Han": "今天",
+          "Pinyin (am boi): Nghia": "jīntiān (chin then): ngày hôm nay, hôm nay, hiện tại,"
+        },
+        {
+          "Chu Han": "明白",
+          "Pinyin (am boi): Nghia": "míngbái (mính bái): rõ ràng, công khai, hiểu biết."
+        },
+        {
+          "Chu Han": "一直",
+          "Pinyin (am boi): Nghia": "yīzhí (yi trứ): thẳng, luôn luôn, liên tục."
+        },
+        {
+          "Chu Han": "看看",
+          "Pinyin (am boi): Nghia": "kàn kàn (khan khan): xem xét, xem."
+        },
+        {
+          "Chu Han": "地方",
+          "Pinyin (am boi): Nghia": "dìfāng (ti phang): địa phương, bản xứ, vùng, miền."
+        },
+        {
+          "Chu Han": "不过",
+          "Pinyin (am boi): Nghia": "bùguò (pú cua): cực kỳ, nhất trên đời, nhưng, nhưng"
+        },
+        {
+          "Chu Han": "发生",
+          "Pinyin (am boi): Nghia": "fāshēng (pha sâng): sinh ra, xảy ra, sản sinh."
+        },
+        {
+          "Chu Han": "回来",
+          "Pinyin (am boi): Nghia": "huílái (huấy lái): trở về, quay về."
+        },
+        {
+          "Chu Han": "准备",
+          "Pinyin (am boi): Nghia": "zhǔnbèi (truẩn bây): chuẩn bị, dự định."
+        },
+        {
+          "Chu Han": "找到",
+          "Pinyin (am boi): Nghia": "zhǎodào (trảo tao): tìm thấy."
+        },
+        {
+          "Chu Han": "爸爸",
+          "Pinyin (am boi): Nghia": "bàba (pa pa): bố, cha, ông già."
+        },
+        {
+          "Chu Han": "一切",
+          "Pinyin (am boi): Nghia": "yīqiè (ý chiê): tất cả, hết thảy, toàn bộ."
+        },
+        {
+          "Chu Han": "抱歉",
+          "Pinyin (am boi): Nghia": "bàoqiàn (pao chen): không phải, ân hận, có lỗi."
+        },
+        {
+          "Chu Han": "感觉",
+          "Pinyin (am boi): Nghia": "gǎnjué (cản chuế): cảm giác, cảm thấy, cho rằng."
+        },
+        {
+          "Chu Han": "只是",
+          "Pinyin (am boi): Nghia": "zhǐshì (trử sư): chỉ là, chẳng qua là, chỉ, nhưng."
+        },
+        {
+          "Chu Han": "出来",
+          "Pinyin (am boi): Nghia": "chūlái (chu lái): đi ra, ra đây, xuất hiện, nảy ra."
+        },
+        {
+          "Chu Han": "不要",
+          "Pinyin (am boi): Nghia": "bùyào (pú deo): đừng, không được, chớ."
+        },
+        {
+          "Chu Han": "离开",
+          "Pinyin (am boi): Nghia": "líkāi (lí khai): rời khỏi, tách khỏi, ly khai."
+        },
+        {
+          "Chu Han": "一点",
+          "Pinyin (am boi): Nghia": "yī diǎn (yi tẻn): một chút, một ít, chút xíu, chút ít."
+        },
+        {
+          "Chu Han": "一定",
+          "Pinyin (am boi): Nghia": "yī dìng (ý ting): chính xác, cần phải, nhất định."
+        },
+        {
+          "Chu Han": "还是",
+          "Pinyin (am boi): Nghia": "háishì (hái sư): vẫn, vẫn còn, không ngờ, hoặc."
+        },
+        {
+          "Chu Han": "发现",
+          "Pinyin (am boi): Nghia": "fāxiàn (phan xen): phát hiện, tìm ra, phát giác."
+        },
+        {
+          "Chu Han": "而且",
+          "Pinyin (am boi): Nghia": "érqiě (ớ chiể): mà còn, với lại."
+        },
+        {
+          "Chu Han": "必须",
+          "Pinyin (am boi): Nghia": "bìxū (pi xuy): nhất định phải, nhất thiết phải."
+        },
+        {
+          "Chu Han": "意思",
+          "Pinyin (am boi): Nghia": "yìsi (yi sư): ý, ý nghĩa."
+        },
+        {
+          "Chu Han": "不错",
+          "Pinyin (am boi): Nghia": "bùcuò (pú chua): đúng, đúng vậy, không tệ."
+        },
+        {
+          "Chu Han": "肯定",
+          "Pinyin (am boi): Nghia": "kěndìng (khẩn ting): khẳng định, quả quyết, chắc chắn."
+        },
+        {
+          "Chu Han": "电话",
+          "Pinyin (am boi): Nghia": "diàn huà (ten hoa): máy điện thoại, điện thoại."
+        },
+        {
+          "Chu Han": "为了",
+          "Pinyin (am boi): Nghia": "wèile (guây lơ): để, vì (biểu thị mục đích)."
+        },
+        {
+          "Chu Han": "第一",
+          "Pinyin (am boi): Nghia": "dì yī (ti yi): thứ nhất, hạng nhất, quan trọng nhất."
+        },
+        {
+          "Chu Han": "那样",
+          "Pinyin (am boi): Nghia": "nàyàng (na dang): như vậy, như thế."
+        },
+        {
+          "Chu Han": "大家",
+          "Pinyin (am boi): Nghia": "dàjiā (ta chea): cả nhà, mọi người."
+        },
+        {
+          "Chu Han": "一些",
+          "Pinyin (am boi): Nghia": "yīxiē (y xiê): một ít, một số, hơi, một chút."
+        },
+        {
+          "Chu Han": "那里",
+          "Pinyin (am boi): Nghia": "nàlǐ (na lỉ): chỗ ấy, chỗ đó, nơi ấy."
+        },
+        {
+          "Chu Han": "以为",
+          "Pinyin (am boi): Nghia": "yǐwéi (ỷ guấy): tin tưởng, cho rằng."
+        },
+        {
+          "Chu Han": "高兴",
+          "Pinyin (am boi): Nghia": "gāoxìng (cao xing): vui vẻ, vui mừng, phấn chấn, thích."
+        },
+        {
+          "Chu Han": "过来",
+          "Pinyin (am boi): Nghia": "guòlái (cua lái): đủ, quá, đến, qua đây."
+        },
+        {
+          "Chu Han": "等等",
+          "Pinyin (am boi): Nghia": "děng děng (tấng tẩng): vân…vân, chờ một chút."
+        },
+        {
+          "Chu Han": "生活",
+          "Pinyin (am boi): Nghia": "shēnghuó (sâng huố): đời sống, cuộc sống, sinh hoạt."
+        },
+        {
+          "Chu Han": "医生",
+          "Pinyin (am boi): Nghia": "yīshēng (y sâng): bác sĩ, thày thuốc."
+        },
+        {
+          "Chu Han": "最后",
+          "Pinyin (am boi): Nghia": "zuìhòu (chuây hâu): cuối cùng, sau cùng."
+        },
+        {
+          "Chu Han": "之前",
+          "Pinyin (am boi): Nghia": "zhīqián (trư chén): trước, trước khi (time)."
+        },
+        {
+          "Chu Han": "伙计",
+          "Pinyin (am boi): Nghia": "huǒjì (huổ chi): người cộng tác, bạn cùng nghề, làm"
+        },
+        {
+          "Chu Han": "任何",
+          "Pinyin (am boi): Nghia": "rènhé (rân hứa): bất luận cái gì."
+        },
+        {
+          "Chu Han": "很多",
+          "Pinyin (am boi): Nghia": "hěnduō (hẩn tuô): rất nhiều."
+        },
+        {
+          "Chu Han": "哪儿",
+          "Pinyin (am boi): Nghia": "nǎ’er (nả ớr): chỗ nào, đâu."
+        },
+        {
+          "Chu Han": "这种",
+          "Pinyin (am boi): Nghia": "zhè zhǒng (trưa trủng): kiểu này, loại này."
+        },
+        {
+          "Chu Han": "上帝",
+          "Pinyin (am boi): Nghia": "shàngdì (sang ti): thượng đế, chúa trời."
+        },
+        {
+          "Chu Han": "女人",
+          "Pinyin (am boi): Nghia": "nǚrén (nủy rấn): phụ nữ, đàn bà (ng trưởng thành)."
+        },
+        {
+          "Chu Han": "名字",
+          "Pinyin (am boi): Nghia": "míngzì (míng chự): tên (người, sự vật)."
+        },
+        {
+          "Chu Han": "认识",
+          "Pinyin (am boi): Nghia": "rènshi (rân sư): nhận biết, biết, nhận thức."
+        },
+        {
+          "Chu Han": "今晚",
+          "Pinyin (am boi): Nghia": "jīn wǎn (chin oản): tối nay."
+        },
+        {
+          "Chu Han": "其他",
+          "Pinyin (am boi): Nghia": "qítā (chí tha): cái khác, khác."
+        },
+        {
+          "Chu Han": "记得",
+          "Pinyin (am boi): Nghia": "jìdé (chi tứa): nhớ, nhớ lại, còn nhớ."
+        },
+        {
+          "Chu Han": "家伙",
+          "Pinyin (am boi): Nghia": "jiāhuo (chea huô): cái thứ, thằng cha, cái con."
+        },
+        {
+          "Chu Han": "或者",
+          "Pinyin (am boi): Nghia": "huòzhě (huô trửa): có lẽ, hoặc, hoặc là."
+        },
+        {
+          "Chu Han": "过去",
+          "Pinyin (am boi): Nghia": "guòqù (cuô chuy): đã qua, đi qua"
+        },
+        {
+          "Chu Han": "哪里",
+          "Pinyin (am boi): Nghia": "nǎlǐ (ná lỉ): đâu, nơi nảo, đâu có, đâu phải."
+        },
+        {
+          "Chu Han": "担心",
+          "Pinyin (am boi): Nghia": "dānxīn (tan xin): lo lắng, không yên tâm, lo âu."
+        },
+        {
+          "Chu Han": "继续",
+          "Pinyin (am boi): Nghia": "jìxù (chi xuy): tiếp tục, kéo dài, kế thừa, tiếp nối."
+        },
+        {
+          "Chu Han": "女孩",
+          "Pinyin (am boi): Nghia": "nǚhái (nủy hái): cô gái."
+        },
+        {
+          "Chu Han": "亲爱",
+          "Pinyin (am boi): Nghia": "qīn’ài (chin ai): thân ái, thân thiết, thương yêu."
+        },
+        {
+          "Chu Han": "下来",
+          "Pinyin (am boi): Nghia": "xiàlái (xia lái): xuống, lại, tiếp."
+        },
+        {
+          "Chu Han": "父亲",
+          "Pinyin (am boi): Nghia": "fùqīn (phu chin): phụ thân, bố, cha, ba."
+        },
+        {
+          "Chu Han": "以前",
+          "Pinyin (am boi): Nghia": "yǐqián (ỷ chén): trước đây, trước kiam ngày trước."
+        },
+        {
+          "Chu Han": "美国",
+          "Pinyin (am boi): Nghia": "měiguó (mẩy cuố): nước Mỹ"
+        },
+        {
+          "Chu Han": "完全",
+          "Pinyin (am boi): Nghia": "wánquán (oán choén): đầy đủ, trọn vẹn, hoàn toàn."
+        },
+        {
+          "Chu Han": "宝贝",
+          "Pinyin (am boi): Nghia": "bǎobèi (pảo pây): bảo bối, cục cưng, của báu."
+        },
+        {
+          "Chu Han": "可是",
+          "Pinyin (am boi): Nghia": "kěshì (khửa sư): nhưng, thế nhưng, thật là."
+        },
+        {
+          "Chu Han": "世界",
+          "Pinyin (am boi): Nghia": "shìjiè (sư chiê): thế giới, vũ trụ, trái đất."
+        },
+        {
+          "Chu Han": "小时",
+          "Pinyin (am boi): Nghia": "xiǎoshí (xẻo sứ): tiếng đồng hồ, giờ."
+        },
+        {
+          "Chu Han": "重要",
+          "Pinyin (am boi): Nghia": "zhòngyào (trung deo): trọng yếu, quan trọng."
+        },
+        {
+          "Chu Han": "别人",
+          "Pinyin (am boi): Nghia": "biérén (biế rấn): người khác, người ta."
+        },
+        {
+          "Chu Han": "男人",
+          "Pinyin (am boi): Nghia": "nánrén (nán rấn): đàn ông, nam nhân."
+        },
+        {
+          "Chu Han": "机会",
+          "Pinyin (am boi): Nghia": "jīhuì (chi huây): cơ hội, dịp, thời cơ."
+        },
+        {
+          "Chu Han": "出去",
+          "Pinyin (am boi): Nghia": "chūqù (chu chuy): ra, ra ngoài."
+        },
+        {
+          "Chu Han": "看见",
+          "Pinyin (am boi): Nghia": "kànjiàn (khan chen): thấy, trông thấy, nhìn thấy."
+        },
+        {
+          "Chu Han": "好像",
+          "Pinyin (am boi): Nghia": "hǎoxiàng (hảo xieng): hình như, na ná, giống như."
+        },
+        {
+          "Chu Han": "得到",
+          "Pinyin (am boi): Nghia": "dédào (tứa tao): đạt được, nhận được."
+        },
+        {
+          "Chu Han": "警察",
+          "Pinyin (am boi): Nghia": "jǐngchá (chỉng chá): cảnh sát."
+        },
+        {
+          "Chu Han": "儿子",
+          "Pinyin (am boi): Nghia": "érzi (ớ chự): con trai, người con."
+        },
+        {
+          "Chu Han": "之后",
+          "Pinyin (am boi): Nghia": "zhīhòu (trư hâu): sau, sau khi."
+        },
+        {
+          "Chu Han": "漂亮",
+          "Pinyin (am boi): Nghia": "piàoliang (pheo lieng): đẹp, xinh xắn."
+        },
+        {
+          "Chu Han": "分钟",
+          "Pinyin (am boi): Nghia": "fēnzhōng (phân trung): phút"
+        },
+        {
+          "Chu Han": "再见",
+          "Pinyin (am boi): Nghia": "zàijiàn (chai chen): tạm biệt, chào tạm biệt."
+        },
+        {
+          "Chu Han": "如何",
+          "Pinyin (am boi): Nghia": "rúhé (rú hứa): làm sao, ntn, ra sao."
+        },
+        {
+          "Chu Han": "比赛",
+          "Pinyin (am boi): Nghia": "bǐsài (pỉ sai): thi đấu, đấu."
+        },
+        {
+          "Chu Han": "情况",
+          "Pinyin (am boi): Nghia": "qíngkuàng (chính khoang): tình hình, tình huống."
+        },
+        {
+          "Chu Han": "关系",
+          "Pinyin (am boi): Nghia": "guānxì (quan xi): quan hệ, liên quan đến."
+        },
+        {
+          "Chu Han": "真是",
+          "Pinyin (am boi): Nghia": "zhēnshi (trân sư): rõ là, thật là (không hài lòng):"
+        },
+        {
+          "Chu Han": "女士",
+          "Pinyin (am boi): Nghia": "nǚshì (nủy sư): nữ sĩ, bà, phu nhân (ngoại giao)."
+        },
+        {
+          "Chu Han": "马上",
+          "Pinyin (am boi): Nghia": "mǎshàng (mả sang): lập tức, tức khắc."
+        },
+        {
+          "Chu Han": "决定",
+          "Pinyin (am boi): Nghia": "juédìng (chuế ting): quyết định."
+        },
+        {
+          "Chu Han": "见到",
+          "Pinyin (am boi): Nghia": "jiàn dào (chien tao): nhìn thấy, gặp mặt."
+        },
+        {
+          "Chu Han": "根本",
+          "Pinyin (am boi): Nghia": "gēnběn (cân pẩn): căn bản, chủ yếu, trước giờ."
+        },
+        {
+          "Chu Han": "关于",
+          "Pinyin (am boi): Nghia": "guānyú (quan úy): về…"
+        },
+        {
+          "Chu Han": "那儿",
+          "Pinyin (am boi): Nghia": "nà’er (na r): chỗ ấy, nơi ấy, lúc ấy, bây giờ."
+        },
+        {
+          "Chu Han": "只要",
+          "Pinyin (am boi): Nghia": "zhǐyào (trử deo): chỉ cần, miễn là."
+        },
+        {
+          "Chu Han": "里面",
+          "Pinyin (am boi): Nghia": "lǐmiàn (lỉ mien): bên trong, trong."
+        },
+        {
+          "Chu Han": "到底",
+          "Pinyin (am boi): Nghia": "dàodǐ (tao tỉ): đến cùng, rốt cuộc, tóm lại."
+        },
+        {
+          "Chu Han": "了解",
+          "Pinyin (am boi): Nghia": "liǎojiě (léo chiể): hiểu rõ, biết rõ, hỏi thăm."
+        },
+        {
+          "Chu Han": "明天",
+          "Pinyin (am boi): Nghia": "míngtiān (míng then): ngày mai, mai đây."
+        },
+        {
+          "Chu Han": "结束",
+          "Pinyin (am boi): Nghia": "jiéshù (chiế su): kết thúc, chấm dứt."
+        },
+        {
+          "Chu Han": "公司",
+          "Pinyin (am boi): Nghia": "gōngsī (cung sư): công ty, hãng."
+        },
+        {
+          "Chu Han": "成为",
+          "Pinyin (am boi): Nghia": "chéngwéi (chấng uấy): trở thành, biến thành."
+        },
+        {
+          "Chu Han": "永远",
+          "Pinyin (am boi): Nghia": "yǒngyuǎn (dúng cản): vĩnh viễn, mãi mãi."
+        },
+        {
+          "Chu Han": "帮助",
+          "Pinyin (am boi): Nghia": "bāngzhù (pang tru): giúp đỡ, viện trợ."
+        },
+        {
+          "Chu Han": "来说",
+          "Pinyin (am boi): Nghia": "lái shuō (lái suô): …mà nói."
+        },
+        {
+          "Chu Han": "多少",
+          "Pinyin (am boi): Nghia": "duōshǎo (tuô sảo): nhiều ít, bao nhiêu, mấy."
+        },
+        {
+          "Chu Han": "它们",
+          "Pinyin (am boi): Nghia": "tāmen (tha mân): bọn họ, chúng nó."
+        },
+        {
+          "Chu Han": "确定",
+          "Pinyin (am boi): Nghia": "quèdìng (chuê ting): xác định, khẳng định."
+        },
+        {
+          "Chu Han": "有人",
+          "Pinyin (am boi): Nghia": "yǒurén (yểu rấn): có người, có ai…"
+        },
+        {
+          "Chu Han": "清楚",
+          "Pinyin (am boi): Nghia": "qīngchǔ (ching chủ): rõ ràng, tinh tường, hiểu rõ."
+        },
+        {
+          "Chu Han": "晚上",
+          "Pinyin (am boi): Nghia": "wǎnshàng (oản sang): buổi tối, ban đêm."
+        },
+        {
+          "Chu Han": "安全",
+          "Pinyin (am boi): Nghia": "ānquán (an choén): an toàn."
+        },
+        {
+          "Chu Han": "怎样",
+          "Pinyin (am boi): Nghia": "zěnyàng (chẩn dang): thế nào, ra sao."
+        },
+        {
+          "Chu Han": "回家",
+          "Pinyin (am boi): Nghia": "huí jiā (huấy chea): về nhà, go home."
+        },
+        {
+          "Chu Han": "愿意",
+          "Pinyin (am boi): Nghia": "yuànyì (doen yi): vui lòng, bằng lòng, hy vọng."
+        },
+        {
+          "Chu Han": "计划",
+          "Pinyin (am boi): Nghia": "jìhuà (chi hoa): kế hoạch, lập kế hoạch."
+        },
+        {
+          "Chu Han": "不能",
+          "Pinyin (am boi): Nghia": "bùnéng (pu nấng): không thể, không được."
+        },
+        {
+          "Chu Han": "说话",
+          "Pinyin (am boi): Nghia": "shuōhuà (suô hoa): nói chuyện, trò chuyện, lời nói."
+        },
+        {
+          "Chu Han": "她们",
+          "Pinyin (am boi): Nghia": "tāmen (tha mân): họ, bọn họ."
+        },
+        {
+          "Chu Han": "有些",
+          "Pinyin (am boi): Nghia": "yǒuxiē (yểu xiê): có một số, một ít,vài phần."
+        },
+        {
+          "Chu Han": "感谢",
+          "Pinyin (am boi): Nghia": "gǎnxiè (cản xiê): cảm tạ, cảm ơn."
+        },
+        {
+          "Chu Han": "谈谈",
+          "Pinyin (am boi): Nghia": "tán tán (thán thán): bàn về,thảo luận."
+        },
+        {
+          "Chu Han": "以后",
+          "Pinyin (am boi): Nghia": "yǐhòu (ỷ hâu): sau đó, về sau, sau này."
+        },
+        {
+          "Chu Han": "照片",
+          "Pinyin (am boi): Nghia": "zhàopiàn (trao phien): bức ảnh, bức hình."
+        },
+        {
+          "Chu Han": "每个",
+          "Pinyin (am boi): Nghia": "měi gè (mẩy cừa): mỗi cái"
+        },
+        {
+          "Chu Han": "欢迎",
+          "Pinyin (am boi): Nghia": "huānyíng (hoan ính): hoan nghênh, chào mừng."
+        },
+        {
+          "Chu Han": "兄弟",
+          "Pinyin (am boi): Nghia": "xiōngdì (xung ti): huynh đệ, anh em."
+        },
+        {
+          "Chu Han": "从来",
+          "Pinyin (am boi): Nghia": "cónglái (chúng lái): chưa hề, từ trước tới nay."
+        },
+        {
+          "Chu Han": "总是",
+          "Pinyin (am boi): Nghia": "zǒng shì (chủng sư): luôn luôn , lúc nào cũng."
+        },
+        {
+          "Chu Han": "拜托",
+          "Pinyin (am boi): Nghia": "bàituō (pai thuô): xin nhờ, kính nhờ."
+        },
+        {
+          "Chu Han": "女儿",
+          "Pinyin (am boi): Nghia": "nǚ’ér (nủy ớ): con gái."
+        },
+        {
+          "Chu Han": "小姐",
+          "Pinyin (am boi): Nghia": "xiǎojiě (xéo chiể): tiểu thư, cô."
+        },
+        {
+          "Chu Han": "消息",
+          "Pinyin (am boi): Nghia": "xiāoxī (xeo xi): tin tức, thông tin."
+        },
+        {
+          "Chu Han": "或许",
+          "Pinyin (am boi): Nghia": "huòxǔ (huô xủy): có thể, có lẽ, hay là."
+        },
+        {
+          "Chu Han": "如此",
+          "Pinyin (am boi): Nghia": "rúcǐ (rú chử): như thế, như vậy."
+        },
+        {
+          "Chu Han": "无法",
+          "Pinyin (am boi): Nghia": "wúfǎ (ú phả): không còn cách nào."
+        },
+        {
+          "Chu Han": "房子",
+          "Pinyin (am boi): Nghia": "fángzi (pháng chự): nhà, cái nhà."
+        },
+        {
+          "Chu Han": "衣服",
+          "Pinyin (am boi): Nghia": "yīfú (yi phú): quần áo, trang phục."
+        },
+        {
+          "Chu Han": "听说",
+          "Pinyin (am boi): Nghia": "tīng shuō (thing suô): nghe nói."
+        },
+        {
+          "Chu Han": "参加",
+          "Pinyin (am boi): Nghia": "cānjiā (chan chea): tham gia, tham dự."
+        },
+        {
+          "Chu Han": "办法",
+          "Pinyin (am boi): Nghia": "bànfǎ (pan phả): cách, biện pháp."
+        },
+        {
+          "Chu Han": "唯一",
+          "Pinyin (am boi): Nghia": "wéiyī (guấy yi): duy nhất."
+        },
+        {
+          "Chu Han": "回去",
+          "Pinyin (am boi): Nghia": "huíqù (huấy chuy): trở về, đi về."
+        },
+        {
+          "Chu Han": "人们",
+          "Pinyin (am boi): Nghia": "rénmen (rấn mân): mọi người, người ta."
+        },
+        {
+          "Chu Han": "该死",
+          "Pinyin (am boi): Nghia": "gāisǐ (cai sử): đáng chết, chết tiệt."
+        },
+        {
+          "Chu Han": "选择",
+          "Pinyin (am boi): Nghia": "xuǎnzé (xoẻn chứa): lựa chọn, tuyển chọn."
+        },
+        {
+          "Chu Han": "原因",
+          "Pinyin (am boi): Nghia": "yuányīn (doén in): nguyên nhân."
+        },
+        {
+          "Chu Han": "下去",
+          "Pinyin (am boi): Nghia": "xiàqù (xia chuy): xuống, đi xuống, tiếp nữa."
+        },
+        {
+          "Chu Han": "好好",
+          "Pinyin (am boi): Nghia": "hǎohǎo (háo hảo): vui sướng , tốt đẹp."
+        },
+        {
+          "Chu Han": "确实",
+          "Pinyin (am boi): Nghia": "quèshí (chuê sứ): xác thực, chính xác."
+        },
+        {
+          "Chu Han": "混蛋",
+          "Pinyin (am boi): Nghia": "húndàn (huấn tan): thằng khốn, khốn nạn."
+        },
+        {
+          "Chu Han": "保证",
+          "Pinyin (am boi): Nghia": "bǎozhèng (pảo trâng): bảo đảm."
+        },
+        {
+          "Chu Han": "学校",
+          "Pinyin (am boi): Nghia": "xuéxiào (xuế xeo): trường học."
+        },
+        {
+          "Chu Han": "接受",
+          "Pinyin (am boi): Nghia": "jiēshòu (chiê sâu): tiếp nhận , tiếp thu, nhận."
+        },
+        {
+          "Chu Han": "改变",
+          "Pinyin (am boi): Nghia": "gǎibiàn (cải pien):thay đổi, sửa đổi."
+        },
+        {
+          "Chu Han": "看来",
+          "Pinyin (am boi): Nghia": "kàn lái (khan lái): xem ra."
+        },
+        {
+          "Chu Han": "麻烦",
+          "Pinyin (am boi): Nghia": "máfan (má phán): phiền phức, rắc rối."
+        },
+        {
+          "Chu Han": "出现",
+          "Pinyin (am boi): Nghia": "chūxiàn (chu xien): xuất hện, hiện ra."
+        },
+        {
+          "Chu Han": "打算",
+          "Pinyin (am boi): Nghia": "dǎsuàn (tả soan): dự định, dự kiến."
+        },
+        {
+          "Chu Han": "电影",
+          "Pinyin (am boi): Nghia": "diànyǐng (ten ỉnh): điện ảnh, phim."
+        },
+        {
+          "Chu Han": "身上",
+          "Pinyin (am boi): Nghia": "shēnshang (sân sang): trên cơ thể, trên người."
+        },
+        {
+          "Chu Han": "房间",
+          "Pinyin (am boi): Nghia": "fángjiān (pháng chen): phòng, gian phòng."
+        },
+        {
+          "Chu Han": "不管",
+          "Pinyin (am boi): Nghia": "bùguǎn (pù quản): cho dù, bất luận, mặc kệ, bỏ mặc."
+        },
+        {
+          "Chu Han": "特别",
+          "Pinyin (am boi): Nghia": "tèbié (thưa biế): đặc biệt."
+        },
+        {
+          "Chu Han": "注意",
+          "Pinyin (am boi): Nghia": "zhùyì (tru yi): chú ý."
+        },
+        {
+          "Chu Han": "甚至",
+          "Pinyin (am boi): Nghia": "shènzhì (sân trư): thậm chí."
+        },
+        {
+          "Chu Han": "保护",
+          "Pinyin (am boi): Nghia": "bǎohù (pảo hu): bảo hộ, bảo vệ."
+        },
+        {
+          "Chu Han": "真正",
+          "Pinyin (am boi): Nghia": "zhēnzhèng (trân trâng): chân chính."
+        },
+        {
+          "Chu Han": "结果",
+          "Pinyin (am boi): Nghia": "jiéguǒ (chiế cuổ): kết quả."
+        },
+        {
+          "Chu Han": "表现",
+          "Pinyin (am boi): Nghia": "biǎoxiàn (pẻo xien): thể hiện, tỏ ra."
+        },
+        {
+          "Chu Han": "其实",
+          "Pinyin (am boi): Nghia": "qíshí (chí sứ): kì thực, thực ra."
+        },
+        {
+          "Chu Han": "小心",
+          "Pinyin (am boi): Nghia": "xiǎoxīn (xẻo xin): cẩn thận."
+        },
+        {
+          "Chu Han": "进来",
+          "Pinyin (am boi): Nghia": "jìnlái (chin lái): gần đây, vừa qua."
+        },
+        {
+          "Chu Han": "当时",
+          "Pinyin (am boi): Nghia": "dāngshí (tang sứ): lúc đó, khi đó, lập tức, ngay."
+        },
+        {
+          "Chu Han": "只有",
+          "Pinyin (am boi): Nghia": "zhǐyǒu (trứ yểu): chỉ có."
+        },
+        {
+          "Chu Han": "绝对",
+          "Pinyin (am boi): Nghia": "juéduì (chuế tuây): tuyệt đối."
+        },
+        {
+          "Chu Han": "长官",
+          "Pinyin (am boi): Nghia": "zhǎngguān (trảng quan): quan trên, quan lớn."
+        },
+        {
+          "Chu Han": "进去",
+          "Pinyin (am boi): Nghia": "jìnqù (chin chuy): vào (từ ngoài vào trong)."
+        },
+        {
+          "Chu Han": "至少",
+          "Pinyin (am boi): Nghia": "zhìshǎo (trư sảo): chí ít, ít nhất."
+        },
+        {
+          "Chu Han": "律师",
+          "Pinyin (am boi): Nghia": "lǜshī (lùy sư): luật sư."
+        },
+        {
+          "Chu Han": "整个",
+          "Pinyin (am boi): Nghia": "zhěnggè (trẩng cừa): toàn bộ, tất cả, cả thay."
+        },
+        {
+          "Chu Han": "听到",
+          "Pinyin (am boi): Nghia": "tīng dào (thing tao): nghe được."
+        },
+        {
+          "Chu Han": "表演",
+          "Pinyin (am boi): Nghia": "biǎoyǎn (péo dẻn): biểu diễn."
+        },
+        {
+          "Chu Han": "正在",
+          "Pinyin (am boi): Nghia": "zhèngzài (trâng chai): đang."
+        },
+        {
+          "Chu Han": "感到",
+          "Pinyin (am boi): Nghia": "gǎndào (cản tao): cảm thấy, thấy."
+        },
+        {
+          "Chu Han": "那边",
+          "Pinyin (am boi): Nghia": "nà biān (na pien): bên kia, bên ấy."
+        },
+        {
+          "Chu Han": "故事",
+          "Pinyin (am boi): Nghia": "gùshì (cu sư): câu chuyện."
+        },
+        {
+          "Chu Han": "结婚",
+          "Pinyin (am boi): Nghia": "jiéhūn (chiế huân): kết hôn."
+        },
+        {
+          "Chu Han": "咱们",
+          "Pinyin (am boi): Nghia": "zánmen (chán mân): chúng ta."
+        },
+        {
+          "Chu Han": "处理",
+          "Pinyin (am boi): Nghia": "chǔlǐ (chú lỉ): xử lí, giải quyết."
+        },
+        {
+          "Chu Han": "妻子",
+          "Pinyin (am boi): Nghia": "qīzi (chi chự): vợ."
+        },
+        {
+          "Chu Han": "进行",
+          "Pinyin (am boi): Nghia": "jìnxíng (chin xính): tiến hành."
+        },
+        {
+          "Chu Han": "是否",
+          "Pinyin (am boi): Nghia": "shìfǒu (sư phẩu): phải chăng, hay không."
+        },
+        {
+          "Chu Han": "刚刚",
+          "Pinyin (am boi): Nghia": "gānggāng (cang cang): vừa, mới."
+        },
+        {
+          "Chu Han": "案子",
+          "Pinyin (am boi): Nghia": "ànzi (an trự): bàn, bàn dài, vụ án, án kiện."
+        },
+        {
+          "Chu Han": "行动",
+          "Pinyin (am boi): Nghia": "xíngdòng (xính tung): hành động."
+        },
+        {
+          "Chu Han": "第二",
+          "Pinyin (am boi): Nghia": "dì èr (ti ơ): thứ hai( chỉ số thứ tự)."
+        },
+        {
+          "Chu Han": "努力",
+          "Pinyin (am boi): Nghia": "nǔ lì (nủ li): nỗ lực, cố gắng."
+        },
+        {
+          "Chu Han": "害怕",
+          "Pinyin (am boi): Nghia": "hàipà (hai pha): sợ hãi, sợ sệt."
+        },
+        {
+          "Chu Han": "调查",
+          "Pinyin (am boi): Nghia": "diàochá (teo chá): điều tra."
+        },
+        {
+          "Chu Han": "失去",
+          "Pinyin (am boi): Nghia": "shīqù (sư chuy): mất, chết."
+        },
+        {
+          "Chu Han": "成功",
+          "Pinyin (am boi): Nghia": "chénggōng (chấng cung): thành công."
+        },
+        {
+          "Chu Han": "考虑",
+          "Pinyin (am boi): Nghia": "kǎolǜ (khảo luy): suy nghĩ, suy xét, cân nhắc."
+        },
+        {
+          "Chu Han": "刚才",
+          "Pinyin (am boi): Nghia": "gāngcái (cang chái): vừa nãy."
+        },
+        {
+          "Chu Han": "约会",
+          "Pinyin (am boi): Nghia": "yuēhuì (duê huây): hẹn hò, hẹn gặp."
+        },
+        {
+          "Chu Han": "节目",
+          "Pinyin (am boi): Nghia": "jiémù (chiế mu): tiết mục, chương trình."
+        },
+        {
+          "Chu Han": "通过",
+          "Pinyin (am boi): Nghia": "tōngguò (thung cuô): thông qua."
+        },
+        {
+          "Chu Han": "之间",
+          "Pinyin (am boi): Nghia": "zhī jiān (trư chen): giữa."
+        },
+        {
+          "Chu Han": "别的",
+          "Pinyin (am boi): Nghia": "bié de (piế tơ): cái khác."
+        },
+        {
+          "Chu Han": "开心",
+          "Pinyin (am boi): Nghia": "kāixīn (khai xin): vui vẻ."
+        },
+        {
+          "Chu Han": "母亲",
+          "Pinyin (am boi): Nghia": "mǔqīn (mủ chin): mẹ, mẫu thân."
+        },
+        {
+          "Chu Han": "主意",
+          "Pinyin (am boi): Nghia": "zhǔyì (trủ yi): chủ kiến , chủ định."
+        },
+        {
+          "Chu Han": "丈夫",
+          "Pinyin (am boi): Nghia": "zhàngfū (trang phu): chồng."
+        },
+        {
+          "Chu Han": "变成",
+          "Pinyin (am boi): Nghia": "biàn chéng (pen chấng): biến thành, trở thành."
+        },
+        {
+          "Chu Han": "解释",
+          "Pinyin (am boi): Nghia": "jiěshì (chiể sư): giải thích."
+        },
+        {
+          "Chu Han": "联系",
+          "Pinyin (am boi): Nghia": "liánxì (lén xi): liên hệ."
+        },
+        {
+          "Chu Han": "证明",
+          "Pinyin (am boi): Nghia": "zhèngmíng (trâng mính): chứng minh."
+        },
+        {
+          "Chu Han": "生命",
+          "Pinyin (am boi): Nghia": "shēngmìng (sâng minh): sinh mệnh, mạng sống."
+        },
+        {
+          "Chu Han": "有点",
+          "Pinyin (am boi): Nghia": "yǒudiǎn (yếu tẻn): có chút."
+        },
+        {
+          "Chu Han": "解决",
+          "Pinyin (am boi): Nghia": "jiějué (chiể chuế): giải quyết."
+        },
+        {
+          "Chu Han": "难道",
+          "Pinyin (am boi): Nghia": "nándào (nán tao): thảo nào, lẽ nào."
+        },
+        {
+          "Chu Han": "作为",
+          "Pinyin (am boi): Nghia": "zuòwéi (chuô guấy): hành vi, làm được, với tư cách."
+        },
+        {
+          "Chu Han": "奇怪",
+          "Pinyin (am boi): Nghia": "qíguài (chí quai): kì lạ, kì quái."
+        },
+        {
+          "Chu Han": "极了",
+          "Pinyin (am boi): Nghia": "jíle (chí lơ): rất, cực."
+        },
+        {
+          "Chu Han": "同意",
+          "Pinyin (am boi): Nghia": "tóngyì (thúng y): đồng ý, đồng tình."
+        },
+        {
+          "Chu Han": "游戏",
+          "Pinyin (am boi): Nghia": "yóuxì (yếu xi): trò chơi."
+        },
+        {
+          "Chu Han": "帮忙",
+          "Pinyin (am boi): Nghia": "bāngmáng (pang máng): giúp đỡ."
+        },
+        {
+          "Chu Han": "危险",
+          "Pinyin (am boi): Nghia": "wéixiǎn (uấy xẻn): nguy hiểm."
+        },
+        {
+          "Chu Han": "讨厌",
+          "Pinyin (am boi): Nghia": "tǎoyàn (thảo den): đáng ghét, ghét."
+        },
+        {
+          "Chu Han": "曾经",
+          "Pinyin (am boi): Nghia": "céngjīng (chấng ching): trải qua, đã trải."
+        },
+        {
+          "Chu Han": "眼睛",
+          "Pinyin (am boi): Nghia": "yǎnjīng (dẻn ching) đôi mắt."
+        },
+        {
+          "Chu Han": "外面",
+          "Pinyin (am boi): Nghia": "wàimiàn (oai mien): phía ngoài, bên ngoài."
+        },
+        {
+          "Chu Han": "国家",
+          "Pinyin (am boi): Nghia": "guójiā (cuố chea) quốc gia, đất nước."
+        },
+        {
+          "Chu Han": "总统",
+          "Pinyin (am boi): Nghia": "zǒngtǒng (chúng thủng): tổng thống."
+        },
+        {
+          "Chu Han": "伤害",
+          "Pinyin (am boi): Nghia": "shānghài (sang hai): tổn thương, làm hại."
+        },
+        {
+          "Chu Han": "控制",
+          "Pinyin (am boi): Nghia": "kòngzhì (khung trư): khống chế."
+        },
+        {
+          "Chu Han": "最近",
+          "Pinyin (am boi): Nghia": "zuìjìn (chuây chin): dạo này, gần đây."
+        },
+        {
+          "Chu Han": "声音",
+          "Pinyin (am boi): Nghia": "shēngyīn (sâng in): âm thanh, tiếng động."
+        },
+        {
+          "Chu Han": "快乐",
+          "Pinyin (am boi): Nghia": "kuàilè (khoai lưa): vui vẻ."
+        },
+        {
+          "Chu Han": "可爱",
+          "Pinyin (am boi): Nghia": "kě’ài (khửa ai): đáng yêu."
+        },
+        {
+          "Chu Han": "进入",
+          "Pinyin (am boi): Nghia": "jìnrù (chin ru): tiến vào, bước vào, đi vào."
+        },
+        {
+          "Chu Han": "能够",
+          "Pinyin (am boi): Nghia": "nénggòu (nấng câu): đủ."
+        },
+        {
+          "Chu Han": "完成",
+          "Pinyin (am boi): Nghia": "wánchéng (oán chấng): hoàn thành."
+        },
+        {
+          "Chu Han": "昨晚",
+          "Pinyin (am boi): Nghia": "zuó wǎn (chúa oản): tối hôm qua."
+        },
+        {
+          "Chu Han": "医院",
+          "Pinyin (am boi): Nghia": "yīyuàn (yi doen): bệnh viện."
+        },
+        {
+          "Chu Han": "不行",
+          "Pinyin (am boi): Nghia": "bùxíng (pù xính): không được."
+        },
+        {
+          "Chu Han": "而已",
+          "Pinyin (am boi): Nghia": "éryǐ (ớ ỷ): mà thôi."
+        },
+        {
+          "Chu Han": "上面",
+          "Pinyin (am boi): Nghia": "shàngmiàn (sang mien): bên trên, phía trên."
+        },
+        {
+          "Chu Han": "样子",
+          "Pinyin (am boi): Nghia": "yàngzi (dang chự): hình dáng, dáng vẻ."
+        },
+        {
+          "Chu Han": "有趣",
+          "Pinyin (am boi): Nghia": "yǒuqù (yểu chuy): có hứng."
+        },
+        {
+          "Chu Han": "真的",
+          "Pinyin (am boi): Nghia": "zhēn de (trân tợ): thật mà."
+        },
+        {
+          "Chu Han": "部分",
+          "Pinyin (am boi): Nghia": "bùfèn (pù phân): bộ phận."
+        },
+        {
+          "Chu Han": "要求",
+          "Pinyin (am boi): Nghia": "yāoqiú (eo chiếu): yêu cầu."
+        },
+        {
+          "Chu Han": "糟糕",
+          "Pinyin (am boi): Nghia": "zāogāo (chao cao): hỏng bét, gay go."
+        },
+        {
+          "Chu Han": "除了",
+          "Pinyin (am boi): Nghia": "chúle (chú lờ): ngoài ra, trừ ra."
+        },
+        {
+          "Chu Han": "容易",
+          "Pinyin (am boi): Nghia": "róngyì (rúng y): dễ dàng, dễ."
+        },
+        {
+          "Chu Han": "保持",
+          "Pinyin (am boi): Nghia": "bǎochí (pảo chứ): duy trì, gìn giữ."
+        },
+        {
+          "Chu Han": "虽然",
+          "Pinyin (am boi): Nghia": "suīrán (suây rán): mặc dù."
+        },
+        {
+          "Chu Han": "想到",
+          "Pinyin (am boi): Nghia": "xiǎngdào (xẻng tao): nghĩ đến."
+        },
+        {
+          "Chu Han": "理解",
+          "Pinyin (am boi): Nghia": "lǐjiě (lí chiể): hiểu biết."
+        },
+        {
+          "Chu Han": "证据",
+          "Pinyin (am boi): Nghia": "zhèngjù (trâng chuy): chứng cứ, bằng chứng."
+        },
+        {
+          "Chu Han": "简单",
+          "Pinyin (am boi): Nghia": "jiǎndān (chẻn tan): đơn giản."
+        },
+        {
+          "Chu Han": "不同",
+          "Pinyin (am boi): Nghia": "bùtóng (pù thúng): không giống, không cùng."
+        },
+        {
+          "Chu Han": "夫人",
+          "Pinyin (am boi): Nghia": "fūrén (phu rấn): phu nhân."
+        },
+        {
+          "Chu Han": "父母",
+          "Pinyin (am boi): Nghia": "fùmǔ (phu mủ): cha mẹ."
+        },
+        {
+          "Chu Han": "事实",
+          "Pinyin (am boi): Nghia": "shìshí (sư sứ): sự thực."
+        },
+        {
+          "Chu Han": "飞机",
+          "Pinyin (am boi): Nghia": "fēijī (phây chi): máy bay, phi cơ."
+        },
+        {
+          "Chu Han": "家庭",
+          "Pinyin (am boi): Nghia": "jiātíng (chea thính): gia đình."
+        },
+        {
+          "Chu Han": "秘密",
+          "Pinyin (am boi): Nghia": "mìmì (mi mi): bí mật."
+        },
+        {
+          "Chu Han": "尸体",
+          "Pinyin (am boi): Nghia": "shītǐ (sư thỉ): thi thể, xác chết."
+        },
+        {
+          "Chu Han": "打开",
+          "Pinyin (am boi): Nghia": "dǎkāi (tả khai): mở ra."
+        },
+        {
+          "Chu Han": "检查",
+          "Pinyin (am boi): Nghia": "jiǎnchá (chẻn chá): kiểm tra."
+        },
+        {
+          "Chu Han": "早上",
+          "Pinyin (am boi): Nghia": "zǎoshang (chảo sang): buổi sáng."
+        },
+        {
+          "Chu Han": "玩笑",
+          "Pinyin (am boi): Nghia": "wánxiào (oán xeo): đùa."
+        },
+        {
+          "Chu Han": "任务",
+          "Pinyin (am boi): Nghia": "rènwù (rân u): nhiệm vụ."
+        },
+        {
+          "Chu Han": "现场",
+          "Pinyin (am boi): Nghia": "xiànchǎng (xien chảng): hiện trường."
+        },
+        {
+          "Chu Han": "博士",
+          "Pinyin (am boi): Nghia": "bóshì (puố sư): tiến sĩ."
+        },
+        {
+          "Chu Han": "直到",
+          "Pinyin (am boi): Nghia": "zhídào (trứ tao): mãi đến, cho đến, tận đến."
+        },
+        {
+          "Chu Han": "紧张",
+          "Pinyin (am boi): Nghia": "jǐnzhāng (chỉn trang): lo lắng, hồi hộp."
+        },
+        {
+          "Chu Han": "简直",
+          "Pinyin (am boi): Nghia": "jiǎnzhí (chẻn trứ): quả là, tưởng chừng, dứt khoát."
+        },
+        {
+          "Chu Han": "放弃",
+          "Pinyin (am boi): Nghia": "fàngqì (phang chi): bỏ cuộc, từ bỏ."
+        },
+        {
+          "Chu Han": "小子",
+          "Pinyin (am boi): Nghia": "xiǎozi (xẻo trự): người trẻ tuổi, con trai, thằng."
+        },
+        {
+          "Chu Han": "电视",
+          "Pinyin (am boi): Nghia": "diànshì (ten sư): ti vi, vô tuyến."
+        },
+        {
+          "Chu Han": "大概",
+          "Pinyin (am boi): Nghia": "dàgài (ta cai): khoảng, chừng."
+        },
+        {
+          "Chu Han": "的确",
+          "Pinyin (am boi): Nghia": "díquè (tí chuê): đích thực."
+        },
+        {
+          "Chu Han": "回到",
+          "Pinyin (am boi): Nghia": "huí dào (huấy tao): về đến."
+        },
+        {
+          "Chu Han": "男孩",
+          "Pinyin (am boi): Nghia": "nánhái (nán hái): con trai"
+        },
+        {
+          "Chu Han": "音乐",
+          "Pinyin (am boi): Nghia": "yīnyuè (in duê): âm nhạc"
+        },
+        {
+          "Chu Han": "身体",
+          "Pinyin (am boi): Nghia": "shēntǐ (sân thỉ): thân thể, cơ thể"
+        },
+        {
+          "Chu Han": "留下",
+          "Pinyin (am boi): Nghia": "liú xià (liếu xia): lưu lại."
+        },
+        {
+          "Chu Han": "方式",
+          "Pinyin (am boi): Nghia": "fāngshì (phang sư): phương thức, cách thức, kiểu."
+        },
+        {
+          "Chu Han": "美元",
+          "Pinyin (am boi): Nghia": "měiyuán (mẩy doén): đô la mỹ."
+        },
+        {
+          "Chu Han": "监狱",
+          "Pinyin (am boi): Nghia": "jiānyù (chen uy): nhà tù, nhà giam, nhà lao."
+        },
+        {
+          "Chu Han": "这边",
+          "Pinyin (am boi): Nghia": "zhè biān (trưa ben): bên này."
+        },
+        {
+          "Chu Han": "重新",
+          "Pinyin (am boi): Nghia": "chóngxīn (chúng xin): lại lần nữa, làm lại từ đầu."
+        },
+        {
+          "Chu Han": "疯狂",
+          "Pinyin (am boi): Nghia": "fēngkuáng (phân khoáng): điên rồ."
+        },
+        {
+          "Chu Han": "收到",
+          "Pinyin (am boi): Nghia": "shōu dào (sâu tao): nhận được."
+        },
+        {
+          "Chu Han": "其中",
+          "Pinyin (am boi): Nghia": "qízhōng (chí trung): trong đó."
+        },
+        {
+          "Chu Han": "想法",
+          "Pinyin (am boi): Nghia": "xiǎngfǎ (xéng phả): cách nghĩ, ý nghĩ."
+        },
+        {
+          "Chu Han": "纽约",
+          "Pinyin (am boi): Nghia": "niǔyuē (niể duê): new york( Mỹ)."
+        },
+        {
+          "Chu Han": "家里",
+          "Pinyin (am boi): Nghia": "jiālǐ (chea lỉ): trong nhà."
+        },
+        {
+          "Chu Han": "还要",
+          "Pinyin (am boi): Nghia": "hái yào (hái hảo) : còn muốn, vẫn muốn."
+        },
+        {
+          "Chu Han": "后面",
+          "Pinyin (am boi): Nghia": "hòumiàn (hâu men): phía sau, đằng sau."
+        },
+        {
+          "Chu Han": "带来",
+          "Pinyin (am boi): Nghia": "dài lái (tai lái): đem lại."
+        },
+        {
+          "Chu Han": "昨天",
+          "Pinyin (am boi): Nghia": "zuótiān (chúa then): hôm qua."
+        },
+        {
+          "Chu Han": "不好",
+          "Pinyin (am boi): Nghia": "bù hǎo (pù hảo): không tốt."
+        },
+        {
+          "Chu Han": "抓住",
+          "Pinyin (am boi): Nghia": "zhuā zhù (troa tru): bắt được , túm được."
+        },
+        {
+          "Chu Han": "记录",
+          "Pinyin (am boi): Nghia": "jìlù (chi lu): ghi lại , ghi chép."
+        },
+        {
+          "Chu Han": "老兄",
+          "Pinyin (am boi): Nghia": "lǎoxiōng (lảo xung): anh bạn, ông anh."
+        },
+        {
+          "Chu Han": "来自",
+          "Pinyin (am boi): Nghia": "láizì (lái chư): đến từ."
+        },
+        {
+          "Chu Han": "大学",
+          "Pinyin (am boi): Nghia": "dàxué (ta xuế): đại học."
+        },
+        {
+          "Chu Han": "照顾",
+          "Pinyin (am boi): Nghia": "zhàogù (trao cu): chăm sóc."
+        },
+        {
+          "Chu Han": "太太",
+          "Pinyin (am boi): Nghia": "tàitài (thai thai): bà lớn, bà chủ, bà xã, bà nhà."
+        },
+        {
+          "Chu Han": "聪明",
+          "Pinyin (am boi): Nghia": "cōngmíng (chông mính): thông minh."
+        },
+        {
+          "Chu Han": "本来",
+          "Pinyin (am boi): Nghia": "běnlái (pẩn lái): ban đầu, trước đây, lẽ ra, đáng lẽ."
+        },
+        {
+          "Chu Han": "加油",
+          "Pinyin (am boi): Nghia": "jiāyóu (chea yếu): cố lên."
+        },
+        {
+          "Chu Han": "多久",
+          "Pinyin (am boi): Nghia": "duōjiǔ (tuô chiểu): bao lâu."
+        },
+        {
+          "Chu Han": "并且",
+          "Pinyin (am boi): Nghia": "bìngqiě (ping chiể): đồng thời, hơn nữa, vả lại."
+        },
+        {
+          "Chu Han": "直接",
+          "Pinyin (am boi): Nghia": "zhíjiē (trứ chiê): trực tiếp."
+        },
+        {
+          "Chu Han": "对于",
+          "Pinyin (am boi): Nghia": "duìyú (tuây úy): về, đối với."
+        },
+        {
+          "Chu Han": "突然",
+          "Pinyin (am boi): Nghia": "túrán (thú rán): đột nhiên."
+        },
+        {
+          "Chu Han": "开枪",
+          "Pinyin (am boi): Nghia": "kāi qiāng (khai cheng): mở súng."
+        },
+        {
+          "Chu Han": "除非",
+          "Pinyin (am boi): Nghia": "chúfēi (chú phây): trừ khi,ngoài ra."
+        },
+        {
+          "Chu Han": "正常",
+          "Pinyin (am boi): Nghia": "zhèngcháng (trâng cháng): thường thường."
+        },
+        {
+          "Chu Han": "死亡",
+          "Pinyin (am boi): Nghia": "sǐwáng (sử oáng): chết, tử vong."
+        },
+        {
+          "Chu Han": "终于",
+          "Pinyin (am boi): Nghia": "zhōngyú (trung úy): cuối cùng."
+        },
+        {
+          "Chu Han": "拥有",
+          "Pinyin (am boi): Nghia": "yǒngyǒu (dúng yểu): có."
+        },
+        {
+          "Chu Han": "不再",
+          "Pinyin (am boi): Nghia": "bù zài (pú chai): không lặp lại , ko có lần thứ 2."
+        },
+        {
+          "Chu Han": "咖啡",
+          "Pinyin (am boi): Nghia": "kāfēi (khai phây): cà phê."
+        },
+        {
+          "Chu Han": "阻止",
+          "Pinyin (am boi): Nghia": "zǔzhǐ (chú trử): ngăn trở, ngăn cản"
+        },
+        {
+          "Chu Han": "想像",
+          "Pinyin (am boi): Nghia": "xiǎngxiàng (xẻng xeng): tưởng tượng."
+        },
+        {
+          "Chu Han": "冷静",
+          "Pinyin (am boi): Nghia": "lěngjìng (lẩng ching): vắng vẻ, yên tĩnh, bình tĩnh."
+        },
+        {
+          "Chu Han": "方法",
+          "Pinyin (am boi): Nghia": "fāngfǎ (phang phả): phương pháp, cách làm."
+        },
+        {
+          "Chu Han": "能力",
+          "Pinyin (am boi): Nghia": "nénglì (nấng li): năng lực, khả năng."
+        },
+        {
+          "Chu Han": "完美",
+          "Pinyin (am boi): Nghia": "wánměi (oán mẩy): hoàn mỹ."
+        },
+        {
+          "Chu Han": "目标",
+          "Pinyin (am boi): Nghia": "mùbiāo (mu peo): mục tiêu."
+        },
+        {
+          "Chu Han": "有关",
+          "Pinyin (am boi): Nghia": "yǒuguān (yểu quan): liên quan, hữu quan."
+        },
+        {
+          "Chu Han": "精神",
+          "Pinyin (am boi): Nghia": "jīngshén (ching sấn): tinh thần."
+        },
+        {
+          "Chu Han": "另外",
+          "Pinyin (am boi): Nghia": "lìngwài (ling oai): ngoài ra."
+        },
+        {
+          "Chu Han": "放松",
+          "Pinyin (am boi): Nghia": "fàngsōng (phang sung): thả lỏng, buông lỏng, lơ là."
+        },
+        {
+          "Chu Han": "休息",
+          "Pinyin (am boi): Nghia": "xiūxí (xiêu xí): nghỉ ngơi, nghỉ."
+        },
+        {
+          "Chu Han": "每天",
+          "Pinyin (am boi): Nghia": "měitiān (mẩy then): mỗi ngày."
+        },
+        {
+          "Chu Han": "回答",
+          "Pinyin (am boi): Nghia": "huídá (huấy tá): trả lời, giải đáp."
+        },
+        {
+          "Chu Han": "凶手",
+          "Pinyin (am boi): Nghia": "xiōngshǒu (xung sẩu): hung thủ."
+        },
+        {
+          "Chu Han": "负责",
+          "Pinyin (am boi): Nghia": "fùzé (phu chứa): phụ trách."
+        },
+        {
+          "Chu Han": "介意",
+          "Pinyin (am boi): Nghia": "jièyì (chiê y): để ý, để bụng, lưu tâm."
+        },
+        {
+          "Chu Han": "试试",
+          "Pinyin (am boi): Nghia": "shì shì (sư sư): thử."
+        },
+        {
+          "Chu Han": "那天",
+          "Pinyin (am boi): Nghia": "nèitiā (nây then): hôm đó."
+        },
+        {
+          "Chu Han": "系统",
+          "Pinyin (am boi): Nghia": "xìtǒng (xi thủng): hệ thống."
+        },
+        {
+          "Chu Han": "睡觉",
+          "Pinyin (am boi): Nghia": "shuìjiào (suây cheo): ngủ."
+        },
+        {
+          "Chu Han": "谋杀",
+          "Pinyin (am boi): Nghia": "móushā (mấu sa): mưu sát."
+        },
+        {
+          "Chu Han": "礼物",
+          "Pinyin (am boi): Nghia": "lǐwù (lỉ u): món quà, quà."
+        },
+        {
+          "Chu Han": "那种",
+          "Pinyin (am boi): Nghia": "nà zhǒng (na trủng): loại đó."
+        },
+        {
+          "Chu Han": "各位",
+          "Pinyin (am boi): Nghia": "gèwèi (cưa guây): các vị ( đại biểu, giáo viên…)."
+        },
+        {
+          "Chu Han": "错误",
+          "Pinyin (am boi): Nghia": "cuòwù (chua u): sai lầm, lỗi lầm, lệch lạc."
+        },
+        {
+          "Chu Han": "随便",
+          "Pinyin (am boi): Nghia": "suíbiàn (suấy ben): tùy tiện, tùy, tùy ý, bất cứ."
+        },
+        {
+          "Chu Han": "头发",
+          "Pinyin (am boi): Nghia": "tóufǎ (thấu phả): tóc."
+        },
+        {
+          "Chu Han": "关心",
+          "Pinyin (am boi): Nghia": "guānxīn (quan xin): quan tâm."
+        },
+        {
+          "Chu Han": "干吗",
+          "Pinyin (am boi): Nghia": "gànma (can ma): làm gì."
+        },
+        {
+          "Chu Han": "兴趣",
+          "Pinyin (am boi): Nghia": "xìngqù (xing chuy): hứng thú, thích thú."
+        },
+        {
+          "Chu Han": "报告",
+          "Pinyin (am boi): Nghia": "bào gào (pao cao): báo cáo, bản báo cáo, phát biểu."
+        },
+        {
+          "Chu Han": "从没",
+          "Pinyin (am boi): Nghia": "cóng méi (chúng mấy): chưa bao giờ, không bao giờ."
+        },
+        {
+          "Chu Han": "经历",
+          "Pinyin (am boi): Nghia": "jīnglì (ching li):từng trải, trải qua, những việc trải qua."
+        },
+        {
+          "Chu Han": "老师",
+          "Pinyin (am boi): Nghia": "lǎoshī (lảo sư): giáo viên."
+        },
+        {
+          "Chu Han": "不用",
+          "Pinyin (am boi): Nghia": "bùyòng (bú dung): không cần."
+        },
+        {
+          "Chu Han": "小孩",
+          "Pinyin (am boi): Nghia": "xiǎohái (xẻo hái): trẻ em."
+        },
+        {
+          "Chu Han": "人类",
+          "Pinyin (am boi): Nghia": "rénlèi (rấn lây): loài người, nhân loại."
+        },
+        {
+          "Chu Han": "自由",
+          "Pinyin (am boi): Nghia": "zìyóu (chư yếu): tự do."
+        },
+        {
+          "Chu Han": "支持",
+          "Pinyin (am boi): Nghia": "zhīchí (trư chứ): ủng hộ."
+        },
+        {
+          "Chu Han": "星期",
+          "Pinyin (am boi): Nghia": "xīngqí (xing chí): tuần lễ, ngày thứ, chủ nhật( gọi tắt)."
+        },
+        {
+          "Chu Han": "很快",
+          "Pinyin (am boi): Nghia": "hěn kuài (hẩn khoai): rất nhanh."
+        },
+        {
+          "Chu Han": "生气",
+          "Pinyin (am boi): Nghia": "shēngqì (sâng chi): tức giận, giận dỗi."
+        },
+        {
+          "Chu Han": "建议",
+          "Pinyin (am boi): Nghia": "jiànyì (chien yi): kiến nghị, đề xuất, sáng kiến."
+        },
+        {
+          "Chu Han": "做到",
+          "Pinyin (am boi): Nghia": "zuò dào (chua tao): làm được."
+        },
+        {
+          "Chu Han": "屁股",
+          "Pinyin (am boi): Nghia": "pìgu (phi cu): mông, đít."
+        },
+        {
+          "Chu Han": "生日",
+          "Pinyin (am boi): Nghia": "shēngrì (sâng rư): sinh nhật , ngày sinh."
+        },
+        {
+          "Chu Han": "晚安",
+          "Pinyin (am boi): Nghia": "wǎn’ān (oản an): ngủ ngon."
+        },
+        {
+          "Chu Han": "否则",
+          "Pinyin (am boi): Nghia": "fǒuzé (phẩu chứa): bằng không, nếu không."
+        },
+        {
+          "Chu Han": "安排",
+          "Pinyin (am boi): Nghia": "ānpái (an phái): sắp xếp, bố trí, trình bày."
+        },
+        {
+          "Chu Han": "年轻",
+          "Pinyin (am boi): Nghia": "niánqīng (nén ching): tuổi trẻ, thanh niên."
+        },
+        {
+          "Chu Han": "下面",
+          "Pinyin (am boi): Nghia": "xiàmiàn (xia men): phía dưới, bên dưới."
+        },
+        {
+          "Chu Han": "姑娘",
+          "Pinyin (am boi): Nghia": "gūniáng (cu néng): cô nương."
+        },
+        {
+          "Chu Han": "钥匙",
+          "Pinyin (am boi): Nghia": "yàoshi (deo sư): chìa khóa."
+        },
+        {
+          "Chu Han": "法官",
+          "Pinyin (am boi): Nghia": "fǎguān (phả quản): quan tòa , tòa án."
+        },
+        {
+          "Chu Han": "选手",
+          "Pinyin (am boi): Nghia": "xuǎnshǒu (xoén sẩu): tuyển thủ, thí sinh."
+        },
+        {
+          "Chu Han": "信息",
+          "Pinyin (am boi): Nghia": "xìnxī (xin xi): tin tức, thông tin."
+        },
+        {
+          "Chu Han": "投票",
+          "Pinyin (am boi): Nghia": "tóupiào (thấu pheo): bỏ phiếu."
+        },
+        {
+          "Chu Han": "哥哥",
+          "Pinyin (am boi): Nghia": "gēgē (cưa cựa): anh trai."
+        },
+        {
+          "Chu Han": "手术",
+          "Pinyin (am boi): Nghia": "shǒushù (sẩu su):p hẫu thuật."
+        },
+        {
+          "Chu Han": "必要",
+          "Pinyin (am boi): Nghia": "bìyào (pi deo): cần thiết, thiết yếu."
+        },
+        {
+          "Chu Han": "身边",
+          "Pinyin (am boi): Nghia": "shēnbiān (sân pen): bên cạnh, bên mình."
+        },
+        {
+          "Chu Han": "撒谎",
+          "Pinyin (am boi): Nghia": "sāhuǎng (sa hoảng): nói dối, bịa đặt."
+        },
+        {
+          "Chu Han": "武器",
+          "Pinyin (am boi): Nghia": "wǔqì (ủ chi): vũ khí."
+        },
+        {
+          "Chu Han": "痛苦",
+          "Pinyin (am boi): Nghia": "tòngkǔ (thung khủ): đau khổ, thống khổ."
+        },
+        {
+          "Chu Han": "全部",
+          "Pinyin (am boi): Nghia": "quánbù (choén pu): toàn bộ."
+        },
+        {
+          "Chu Han": "手机",
+          "Pinyin (am boi): Nghia": "shǒujī (sẩu chi): ĐTDĐ"
+        },
+        {
+          "Chu Han": "忘记",
+          "Pinyin (am boi): Nghia": "wàngjì (oang chi): quên."
+        },
+        {
+          "Chu Han": "存在",
+          "Pinyin (am boi): Nghia": "cúnzài (chuấn chai): tồn tại."
+        },
+        {
+          "Chu Han": "首先",
+          "Pinyin (am boi): Nghia": "shǒuxiān (sẩu xen): đầu tiên."
+        },
+        {
+          "Chu Han": "以及",
+          "Pinyin (am boi): Nghia": "yǐjí (ỷ chí): và, cùng."
+        },
+        {
+          "Chu Han": "个人",
+          "Pinyin (am boi): Nghia": "gèrén (cưa rấn): cá nhân."
+        },
+        {
+          "Chu Han": "代表",
+          "Pinyin (am boi): Nghia": "dàibiǎo (tai pẻo): đại biểu, đại diện."
+        },
+        {
+          "Chu Han": "坚持",
+          "Pinyin (am boi): Nghia": "jiānchí (chen chứ): kiên trì."
+        },
+        {
+          "Chu Han": "意义",
+          "Pinyin (am boi): Nghia": "yìyì (yi yi): ý nghĩa."
+        },
+        {
+          "Chu Han": "承认",
+          "Pinyin (am boi): Nghia": "chéngrèn (chấng rân): thừa nhận."
+        },
+        {
+          "Chu Han": "发誓",
+          "Pinyin (am boi): Nghia": "fāshì (pha sư): thề, lời thề, xin thề."
+        },
+        {
+          "Chu Han": "理由",
+          "Pinyin (am boi): Nghia": "lǐyóu (lỉ yếu): lý do."
+        },
+        {
+          "Chu Han": "显然",
+          "Pinyin (am boi): Nghia": "xiǎnrán (xẻn rán): hiển nhiên."
+        },
+        {
+          "Chu Han": "政府",
+          "Pinyin (am boi): Nghia": "zhèngfǔ (trâng phủ): chính phủ."
+        },
+        {
+          "Chu Han": "这次",
+          "Pinyin (am boi): Nghia": "zhè cì (trưa chư): lần này."
+        },
+        {
+          "Chu Han": "生意",
+          "Pinyin (am boi): Nghia": "shēngyì (sâng y): buôn bán,làm ăn, sức sống, nảy nở."
+        },
+        {
+          "Chu Han": "遇到",
+          "Pinyin (am boi): Nghia": "yù dào (uy tao): gặp phải, bắt gặp."
+        },
+        {
+          "Chu Han": "即使",
+          "Pinyin (am boi): Nghia": "jíshǐ (chí sử): cho dù, dù cho."
+        },
+        {
+          "Chu Han": "记住",
+          "Pinyin (am boi): Nghia": "jì zhù (chi tru): ghi nhớ."
+        },
+        {
+          "Chu Han": "到处",
+          "Pinyin (am boi): Nghia": "dàochù (tao chu): khắp nơi, mọi nơi, đâu đâu."
+        },
+        {
+          "Chu Han": "幸运",
+          "Pinyin (am boi): Nghia": "xìngyùn (xing uyn): vận may, dịp may."
+        },
+        {
+          "Chu Han": "那时",
+          "Pinyin (am boi): Nghia": "nà shí (na sứ): lúc đó, khi đó."
+        },
+        {
+          "Chu Han": "事儿",
+          "Pinyin (am boi): Nghia": "shì er (sư ơ): sự việc."
+        },
+        {
+          "Chu Han": "犯罪",
+          "Pinyin (am boi): Nghia": "fànzuì (phan chuây):phạm tội , phạm lỗi."
+        },
+        {
+          "Chu Han": "跳舞",
+          "Pinyin (am boi): Nghia": "tiàowǔ (theo ủ): nhảy múa."
+        },
+        {
+          "Chu Han": "白痴",
+          "Pinyin (am boi): Nghia": "báichī (pái chư): ngớ ngẩn, thằng ngốc."
+        },
+        {
+          "Chu Han": "信任",
+          "Pinyin (am boi): Nghia": "xìnrèn (xin rân): tín nhiệm."
+        },
+        {
+          "Chu Han": "新闻",
+          "Pinyin (am boi): Nghia": "xīnwén (xin uấn):tin tức thời sự, việc mới xảy ra."
+        },
+        {
+          "Chu Han": "未来",
+          "Pinyin (am boi): Nghia": "wèilái (guây lái): mai sau, sau này, tương lai."
+        },
+        {
+          "Chu Han": "道歉",
+          "Pinyin (am boi): Nghia": "dàoqiàn (tao chen): nhận lỗi, chịu lỗi."
+        },
+        {
+          "Chu Han": "可怜",
+          "Pinyin (am boi): Nghia": "kělián (khửa lén): đáng thương."
+        },
+        {
+          "Chu Han": "实在",
+          "Pinyin (am boi): Nghia": "shízài (sứ chai): chân thực, quả thực, thực ra."
+        },
+        {
+          "Chu Han": "加入",
+          "Pinyin (am boi): Nghia": "jiārù (chea ru): gia nhập."
+        },
+        {
+          "Chu Han": "病人",
+          "Pinyin (am boi): Nghia": "bìngrén (ping rấn): người bệnh."
+        },
+        {
+          "Chu Han": "治疗",
+          "Pinyin (am boi): Nghia": "zhìliáo (trư léo): trị liệu, chữa trị."
+        },
+        {
+          "Chu Han": "原谅",
+          "Pinyin (am boi): Nghia": "yuánliàng (doén leng): tha thứ, bỏ qua."
+        },
+        {
+          "Chu Han": "行为",
+          "Pinyin (am boi): Nghia": "xíngwéi (xính guấy): hành vi."
+        },
+        {
+          "Chu Han": "比较",
+          "Pinyin (am boi): Nghia": "bǐjiào (pỉ cheo): tương đối."
+        },
+        {
+          "Chu Han": "婚礼",
+          "Pinyin (am boi): Nghia": "hūnlǐ (huân lỉ): hôn lễ."
+        },
+        {
+          "Chu Han": "弟弟",
+          "Pinyin (am boi): Nghia": "dìdì (ti ti): em trai."
+        },
+        {
+          "Chu Han": "组织",
+          "Pinyin (am boi): Nghia": "zǔzhī (chủ trư): tổ chức."
+        },
+        {
+          "Chu Han": "想想",
+          "Pinyin (am boi): Nghia": "xiǎng xiǎng (xéng xẻng): nghĩ ."
+        },
+        {
+          "Chu Han": "继续",
+          "Pinyin (am boi): Nghia": "jìxù (chi xuy): tiếp tục"
         }
       ]
     }
