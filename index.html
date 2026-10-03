@@ -13339,7 +13339,13 @@
           primaryText = item['Van mau'] || item['Thanh mau'] || Object.values(item)[0] || '';
           transText = item['Cach doc'] || '';
         } else if (activeChineseSheet === 'Ho_ten_thuong_gap') {
-          primaryText = `${item['Ho (VN)'] || ''} ${item['Ten dem/ten (VN)'] || ''}`.trim();
+          const hoHan = item['Ho (Han)'] || '';
+          const tenHan = item['Ten (Han)'] || '';
+          const hoVN = item['Ho (VN)'] || '';
+          const tenVN = item['Ten dem/ten (VN)'] || '';
+          const hanFull = `${hoHan}${tenHan}`.trim();
+          const vnFull = `${hoVN} ${tenVN}`.trim();
+          primaryText = hanFull ? `<div class="flex items-baseline gap-3"><span class="text-4xl sm:text-5xl font-black font-hans text-amber-300 drop-shadow-md">${hanFull}</span><span class="text-xl font-black text-white font-display">${vnFull}</span></div>` : vnFull;
           pinyinText = `${item['Ho (Pinyin)'] || ''} ${item['Ten dem/ten (Pinyin)'] || ''}`.trim();
           transText = "Họ tên thường gặp";
         }
@@ -13347,8 +13353,9 @@
         let speakText = item['Chu tuong hinh'] || item['Han'] || primaryText;
         if (activeChineseSheet === '214_Bo_thu') {
           speakText = item['Chu tuong hinh'] || item['Phien am'] || item['Ten bo'];
-        } else if (activeChineseSheet === 'Ho_ten_thuong_gap' && pinyinText) {
-          speakText = pinyinText;
+        } else if (activeChineseSheet === 'Ho_ten_thuong_gap') {
+          const hanName = `${item['Ho (Han)'] || ''}${item['Ten (Han)'] || ''}`.trim();
+          speakText = hanName || pinyinText;
         }
 
         const speakBtn = speakText && /[a-zA-Z\u4e00-\u9fa5]/.test(speakText) ? `

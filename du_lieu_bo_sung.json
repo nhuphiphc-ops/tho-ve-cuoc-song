@@ -5764,6 +5764,251 @@
           "Chu Han": "继续",
           "Pinyin (am boi): Nghia": "jìxù (chi xuy): tiếp tục"
         }
+      ],
+      "Ho_ten_thuong_gap": [
+        {
+          "STT": 1,
+          "Ho (Han)": "林",
+          "Ho (VN)": "Lâm",
+          "Ho (Pinyin)": "Lín",
+          "Ten (Han)": "高",
+          "Ten dem/ten (VN)": "Cao",
+          "Ten dem/ten (Pinyin)": "Xáo"
+        },
+        {
+          "STT": 2,
+          "Ho (Han)": "英",
+          "Ho (VN)": "Anh",
+          "Ho (Pinyin)": "Ding",
+          "Ten (Han)": "裴",
+          "Ten dem/ten (VN)": "Bùi",
+          "Ten dem/ten (Pinyin)": "Pấy"
+        },
+        {
+          "STT": 3,
+          "Ho (Han)": "松",
+          "Ho (VN)": "Tùng",
+          "Ho (Pinyin)": "Xung",
+          "Ten (Han)": "高",
+          "Ten dem/ten (VN)": "Cao",
+          "Ten dem/ten (Pinyin)": "Cao"
+        },
+        {
+          "STT": 4,
+          "Ho (Han)": "福",
+          "Ho (VN)": "Phúc",
+          "Ho (Pinyin)": "Phú",
+          "Ten (Han)": "陈",
+          "Ten dem/ten (VN)": "Trần",
+          "Ten dem/ten (Pinyin)": "Trân"
+        },
+        {
+          "STT": 5,
+          "Ho (Han)": "征",
+          "Ho (VN)": "Chinh",
+          "Ho (Pinyin)": "Trâng",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 6,
+          "Ho (Han)": "蒋",
+          "Ho (VN)": "Tưởng",
+          "Ho (Pinyin)": "Xẻng",
+          "Ten (Han)": "陈",
+          "Ten dem/ten (VN)": "Trần",
+          "Ten dem/ten (Pinyin)": "Trân"
+        },
+        {
+          "STT": 7,
+          "Ho (Han)": "容",
+          "Ho (VN)": "Dung",
+          "Ho (Pinyin)": "Rúng",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 8,
+          "Ho (Han)": "正",
+          "Ho (VN)": "Chính",
+          "Ho (Pinyin)": "Trâng",
+          "Ten (Han)": "阮",
+          "Ten dem/ten (VN)": "Nguyễn",
+          "Ten dem/ten (Pinyin)": "Roản"
+        },
+        {
+          "STT": 9,
+          "Ho (Han)": "蝶",
+          "Ho (VN)": "Điệp",
+          "Ho (Pinyin)": "Tế",
+          "Ten (Han)": "阮",
+          "Ten dem/ten (VN)": "Nguyễn",
+          "Ten dem/ten (Pinyin)": "Roản"
+        },
+        {
+          "STT": 10,
+          "Ho (Han)": "蝶",
+          "Ho (VN)": "Điệp",
+          "Ho (Pinyin)": "Tế",
+          "Ten (Han)": "苏",
+          "Ten dem/ten (VN)": "Tô",
+          "Ten dem/ten (Pinyin)": "Su"
+        },
+        {
+          "STT": 11,
+          "Ho (Han)": "雄",
+          "Ho (VN)": "Hùng",
+          "Ho (Pinyin)": "Súng",
+          "Ten (Han)": "阮",
+          "Ten dem/ten (VN)": "Nguyễn",
+          "Ten dem/ten (Pinyin)": "Roản"
+        },
+        {
+          "STT": 12,
+          "Ho (Han)": "雄",
+          "Ho (VN)": "Hùng",
+          "Ho (Pinyin)": "Súng",
+          "Ten (Han)": "黎",
+          "Ten dem/ten (VN)": "Lê",
+          "Ten dem/ten (Pinyin)": "Lý"
+        },
+        {
+          "STT": 13,
+          "Ho (Han)": "宝",
+          "Ho (VN)": "Bảo",
+          "Ho (Pinyin)": "pảo",
+          "Ten (Han)": "高",
+          "Ten dem/ten (VN)": "Cao",
+          "Ten dem/ten (Pinyin)": "Cao"
+        },
+        {
+          "STT": 14,
+          "Ho (Han)": "华",
+          "Ho (VN)": "Hoa",
+          "Ho (Pinyin)": "Hóa",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 15,
+          "Ho (Han)": "享",
+          "Ho (VN)": "Hưởng",
+          "Ho (Pinyin)": "Xẻng",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 16,
+          "Ho (Han)": "成",
+          "Ho (VN)": "Thành",
+          "Ho (Pinyin)": "Trấng",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 17,
+          "Ho (Han)": "勇",
+          "Ho (VN)": "Dũng",
+          "Ho (Pinyin)": "Dủng",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 18,
+          "Ho (Han)": "德",
+          "Ho (VN)": "Đức",
+          "Ho (Pinyin)": "Tứa",
+          "Ten (Han)": "邓",
+          "Ten dem/ten (VN)": "Đặng",
+          "Ten dem/ten (Pinyin)": "Tâng"
+        },
+        {
+          "STT": 19,
+          "Ho (Han)": "德",
+          "Ho (VN)": "Đức",
+          "Ho (Pinyin)": "Tứa",
+          "Ten (Han)": "梁",
+          "Ten dem/ten (VN)": "Lương",
+          "Ten dem/ten (Pinyin)": "Láng"
+        },
+        {
+          "STT": 20,
+          "Ho (Han)": "飞",
+          "Ho (VN)": "Phi",
+          "Ho (Pinyin)": "Phây",
+          "Ten (Han)": "阮",
+          "Ten dem/ten (VN)": "Nguyễn",
+          "Ten dem/ten (Pinyin)": "Roản"
+        },
+        {
+          "STT": 21,
+          "Ho (Han)": "协",
+          "Ho (VN)": "Hiệp",
+          "Ho (Pinyin)": "Xiế",
+          "Ten (Han)": "范",
+          "Ten dem/ten (VN)": "Phạm",
+          "Ten dem/ten (Pinyin)": "Phan"
+        },
+        {
+          "STT": 22,
+          "Ho (Han)": "灵",
+          "Ho (VN)": "Linh",
+          "Ho (Pinyin)": "",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 23,
+          "Ho (Han)": "幸",
+          "Ho (VN)": "Hạnh",
+          "Ho (Pinyin)": "Xính",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 24,
+          "Ho (Han)": "香",
+          "Ho (VN)": "Hương",
+          "Ho (Pinyin)": "Xeng",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 25,
+          "Ho (Han)": "武",
+          "Ho (VN)": "Vũ",
+          "Ho (Pinyin)": "ủ",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 26,
+          "Ho (Han)": "钟",
+          "Ho (VN)": "Chung",
+          "Ho (Pinyin)": "Trung",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        },
+        {
+          "STT": 27,
+          "Ho (Han)": "水",
+          "Ho (VN)": "Thủy",
+          "Ho (Pinyin)": "Sủi",
+          "Ten (Han)": "",
+          "Ten dem/ten (VN)": "",
+          "Ten dem/ten (Pinyin)": ""
+        }
       ]
     }
   }
