@@ -26,7 +26,7 @@ function fetchGoogleTTSChunk(text, lang = 'vi') {
   });
 }
 
-function splitTextIntoSmallChunks(text, maxLen = 80) {
+function splitTextIntoSmallChunks(text, maxLen = 160) {
   const sentences = text.split(/[\n.;!?:]+/).map(s => s.trim()).filter(Boolean);
   const chunks = [];
 
@@ -87,14 +87,20 @@ module.exports = async function handler(req, res) {
   const cleanText = String(text).trim();
   const targetLang = lang.startsWith('zh') ? 'zh-CN' : (lang.startsWith('vi') ? 'vi' : lang);
 
-  // Split into safe Google TTS chunks (< 80 chars each)
-  const chunks = splitTextIntoSmallChunks(cleanText, 80);
+  // Split into safe Google TTS chunks (< 160 chars each)
+  const chunks = splitTextIntoSmallChunks(cleanText, 160);
 
   try {
-    // Process all chunks in parallel
-    const bufferResults = await Promise.all(
-      chunks.map(chunk => fetchGoogleTTSChunk(chunk, targetLang))
-    );
+    // Process chunks with batch concurrency of 5 to prevent rate limits on long text
+    const bufferResults = [];
+    const concurrency = 5;
+    for (let i = 0; i < chunks.length; i += concurrency) {
+      const slice = chunks.slice(i, i + concurrency);
+      const batchResults = await Promise.all(
+        slice.map(chunk => fetchGoogleTTSChunk(chunk, targetLang))
+      );
+      bufferResults.push(...batchResults);
+    }
 
     const validBuffers = bufferResults.filter(b => b && b.length > 0);
     if (validBuffers.length === 0) {
