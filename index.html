@@ -13227,26 +13227,62 @@
         return;
       }
       try {
+        window.speechSynthesis.cancel();
         window.speechSynthesis.resume();
-        const utterance = new SpeechSynthesisUtterance(text.substring(0, 300));
-        utterance.lang = lang === 'zh-CN' ? 'zh-CN' : 'vi-VN';
-        utterance.rate = 0.9;
 
-        const voices = window.speechSynthesis.getVoices();
-        if (voices && voices.length > 0) {
-          const isZh = lang.startsWith('zh');
-          const matched = voices.find(v => isZh ? (v.lang.includes('zh') || v.lang.includes('zho') || v.lang.includes('cmn')) : v.lang.includes('vi'));
-          if (matched) utterance.voice = matched;
+        // Split text into readable sentences (< 200 chars) for smooth browser speech
+        const rawSentences = String(text).split(/[\n.;!?:]+/).map(s => s.trim()).filter(Boolean);
+        const sentences = [];
+        for (const s of rawSentences) {
+          if (s.length <= 180) {
+            sentences.push(s);
+          } else {
+            const words = s.split(/\s+/);
+            let cur = "";
+            for (const w of words) {
+              if ((cur + " " + w).trim().length <= 180) {
+                cur = (cur + " " + w).trim();
+              } else {
+                if (cur) sentences.push(cur);
+                cur = w;
+              }
+            }
+            if (cur) sentences.push(cur);
+          }
         }
 
-        utterance.onend = function() {
+        if (sentences.length === 0) {
           if (onFinish) onFinish();
-        };
-        utterance.onerror = function() {
-          if (onFinish) onFinish();
-        };
+          return;
+        }
 
-        window.speechSynthesis.speak(utterance);
+        const voices = window.speechSynthesis.getVoices() || [];
+        const isZh = lang && lang.startsWith('zh');
+        const matchedVoice = voices.find(v => isZh ? (v.lang.includes('zh') || v.lang.includes('zho') || v.lang.includes('cmn')) : v.lang.includes('vi'));
+
+        let curIdx = 0;
+        function speakNext() {
+          if (curIdx >= sentences.length) {
+            if (onFinish) onFinish();
+            return;
+          }
+          const chunk = sentences[curIdx++];
+          const utterance = new SpeechSynthesisUtterance(chunk);
+          utterance.lang = isZh ? 'zh-CN' : 'vi-VN';
+          utterance.rate = 1.0;
+          if (matchedVoice) utterance.voice = matchedVoice;
+
+          utterance.onend = function() {
+            speakNext();
+          };
+          utterance.onerror = function() {
+            speakNext();
+          };
+
+          window.speechSynthesis.speak(utterance);
+        }
+
+        speakNext();
       } catch (e) {
         console.error("Speech synthesis fallback error:", e);
         if (onFinish) onFinish();
