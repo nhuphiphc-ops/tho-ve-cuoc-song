@@ -27,7 +27,7 @@ function fetchGoogleTTSChunk(text, lang = 'vi') {
 }
 
 function splitTextIntoSmallChunks(text, maxLen = 160) {
-  const sentences = text.split(/[\n.;!?:]+/).map(s => s.trim()).filter(Boolean);
+  const sentences = text.split(/(?:[\r\n]+|[.!?:]\s+)/).map(s => s.trim()).filter(Boolean);
   const chunks = [];
 
   for (const sentence of sentences) {
