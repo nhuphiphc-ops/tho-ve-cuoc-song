@@ -13347,7 +13347,7 @@
           const vnFull = `${hoVN} ${tenVN}`.trim();
           primaryText = hanFull ? `<div class="flex items-baseline gap-3"><span class="text-4xl sm:text-5xl font-black font-hans text-amber-300 drop-shadow-md">${hanFull}</span><span class="text-xl font-black text-white font-display">${vnFull}</span></div>` : vnFull;
           pinyinText = `${item['Ho (Pinyin)'] || ''} ${item['Ten dem/ten (Pinyin)'] || ''}`.trim();
-          transText = "Họ tên thường gặp";
+          transText = item['Ghi chu'] ? `<span class="text-teal-400/90 font-medium">${item['Ghi chu']}</span>` : "Họ tên thường gặp";
         }
 
         let speakText = item['Chu tuong hinh'] || item['Han'] || primaryText;
