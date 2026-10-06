@@ -13191,17 +13191,36 @@
     });
 
     // --- AUDIO / SPEECH ENGINE ---
+    // --- AUDIO / SPEECH ENGINE (SEQUENTIAL GAPLESS PLAYER) ---
     let currentTtsAudio = null;
     let currentTtsButton = null;
+    let ttsQueue = [];
+    let ttsQueueIndex = 0;
+    let ttsNextAudio = null;
+    let ttsStopSignal = false;
 
     function stopAllAudio() {
+      ttsStopSignal = true;
+      ttsQueue = [];
+      ttsQueueIndex = 0;
       if (currentTtsAudio) {
         try {
           currentTtsAudio.pause();
+          currentTtsAudio.onended = null;
+          currentTtsAudio.onerror = null;
           currentTtsAudio.currentTime = 0;
           currentTtsAudio.src = "";
         } catch (e) {}
         currentTtsAudio = null;
+      }
+      if (ttsNextAudio) {
+        try {
+          ttsNextAudio.pause();
+          ttsNextAudio.onended = null;
+          ttsNextAudio.onerror = null;
+          ttsNextAudio.src = "";
+        } catch (e) {}
+        ttsNextAudio = null;
       }
       if ('speechSynthesis' in window) {
         try {
@@ -13236,6 +13255,29 @@
       }
     }
 
+    function splitTextForAudio(text, maxLen = 150) {
+      const rawSentences = String(text).split(/(?:[\r\n]+|(?<!\b\d+)[.!?:]\s+)/).map(s => s.trim()).filter(Boolean);
+      const chunks = [];
+      for (const s of rawSentences) {
+        if (s.length <= maxLen) {
+          chunks.push(s);
+        } else {
+          const words = s.split(/\s+/);
+          let cur = "";
+          for (const w of words) {
+            if ((cur + " " + w).trim().length <= maxLen) {
+              cur = (cur + " " + w).trim();
+            } else {
+              if (cur) chunks.push(cur);
+              cur = w;
+            }
+          }
+          if (cur) chunks.push(cur);
+        }
+      }
+      return chunks.length > 0 ? chunks : [text.trim()];
+    }
+
     window.playTTS = function(e, text, forceLang) {
       if (e) {
         e.stopPropagation();
@@ -13254,6 +13296,7 @@
       }
 
       stopAllAudio();
+      ttsStopSignal = false;
 
       if (btn) {
         currentTtsButton = btn;
@@ -13275,61 +13318,69 @@
       const isChinese = forceLang ? forceLang.startsWith('zh') : (hasChineseChar || (!/[áàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]/i.test(cleanText) && /[a-zA-Z]/.test(cleanText)));
       const targetLang = forceLang || (isChinese ? 'zh-CN' : 'vi');
 
-      // Create audio object synchronously inside user click event to satisfy mobile autoplay policies
-      const audio = new Audio();
-      currentTtsAudio = audio;
+      ttsQueue = splitTextForAudio(cleanText, 150);
+      ttsQueueIndex = 0;
 
-      // Pre-unlock audio element synchronously for mobile iOS/Safari/Android
-      try {
-        audio.src = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
-        const pUnlock = audio.play();
-        if (pUnlock !== undefined) {
-          pUnlock.then(() => { audio.pause(); audio.currentTime = 0; }).catch(() => {});
+      function doneAll() {
+        stopAllAudio();
+      }
+
+      function getChunkUrl(chunk) {
+        return `/api/tts?text=${encodeURIComponent(chunk)}&lang=${encodeURIComponent(targetLang)}`;
+      }
+
+      function playNextQueueItem() {
+        if (ttsStopSignal) return;
+        if (ttsQueueIndex >= ttsQueue.length) {
+          doneAll();
+          return;
         }
-      } catch (e) {}
 
-      const done = () => {
-        resetTtsVisuals();
-        if (currentTtsAudio === audio) currentTtsAudio = null;
-      };
+        const chunk = ttsQueue[ttsQueueIndex++];
+        let audio;
 
-      audio.onended = done;
-      audio.onerror = function(err) {
-        console.warn("Audio stream error, falling back to speech synthesis:", err);
-        fallbackSpeechSynthesis(cleanText, targetLang, done);
-      };
+        if (ttsNextAudio && ttsNextAudio._chunkText === chunk) {
+          audio = ttsNextAudio;
+          ttsNextAudio = null;
+        } else {
+          audio = new Audio();
+          audio.src = getChunkUrl(chunk);
+        }
 
-      if (cleanText.length <= 600) {
-        audio.src = `/api/tts?text=${encodeURIComponent(cleanText)}&lang=${encodeURIComponent(targetLang)}`;
-        const p = audio.play();
-        if (p !== undefined) {
-          p.catch(err => {
-            console.warn("Audio play rejected:", err);
-            fallbackSpeechSynthesis(cleanText, targetLang, done);
+        currentTtsAudio = audio;
+
+        audio.onended = function() {
+          if (ttsStopSignal) return;
+          playNextQueueItem();
+        };
+
+        audio.onerror = function(err) {
+          console.warn("Audio chunk error, fallback to speech synthesis for remaining:", err);
+          const remainingText = [chunk, ...ttsQueue.slice(ttsQueueIndex)].join('. ');
+          fallbackSpeechSynthesis(remainingText, targetLang, doneAll);
+        };
+
+        const playPromise = audio.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(function(err) {
+            console.warn("audio.play() rejected:", err);
+            const remainingText = [chunk, ...ttsQueue.slice(ttsQueueIndex)].join('. ');
+            fallbackSpeechSynthesis(remainingText, targetLang, doneAll);
           });
         }
-      } else {
-        // Unlock audio for mobile then stream full payload
-        fetch('/api/tts', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ text: cleanText, lang: targetLang })
-        })
-        .then(res => {
-          if (!res.ok) throw new Error("TTS status: " + res.status);
-          return res.blob();
-        })
-        .then(blob => {
-          if (!currentTtsAudio || currentTtsAudio !== audio) return;
-          const blobUrl = URL.createObjectURL(blob);
-          audio.src = blobUrl;
-          return audio.play();
-        })
-        .catch(err => {
-          console.warn("POST audio failed:", err);
-          fallbackSpeechSynthesis(cleanText, targetLang, done);
-        });
+
+        // Preload next chunk in background for zero gap
+        if (ttsQueueIndex < ttsQueue.length) {
+          const nextChunk = ttsQueue[ttsQueueIndex];
+          ttsNextAudio = new Audio();
+          ttsNextAudio._chunkText = nextChunk;
+          ttsNextAudio.preload = "auto";
+          ttsNextAudio.src = getChunkUrl(nextChunk);
+        }
       }
+
+      // Start playing chunk 0 immediately inside user click gesture
+      playNextQueueItem();
     };
 
     function fallbackSpeechSynthesis(text, lang, onFinish) {
@@ -13342,7 +13393,7 @@
         window.speechSynthesis.resume();
 
         // Split text into readable sentences (< 200 chars) for smooth browser speech without breaking decimals
-        const rawSentences = String(text).split(/(?:[\r\n]+|[.!?:]\s+)/).map(s => s.trim()).filter(Boolean);
+        const rawSentences = String(text).split(/(?:[\r\n]+|(?<!\b\d+)[.!?:]\s+)/).map(s => s.trim()).filter(Boolean);
         const sentences = [];
         for (const s of rawSentences) {
           if (s.length <= 180) {
@@ -13373,6 +13424,11 @@
 
         let curIdx = 0;
         function speakNext() {
+          if (ttsStopSignal) {
+            window._activeUtterance = null;
+            if (onFinish) onFinish();
+            return;
+          }
           if (curIdx >= sentences.length) {
             window._activeUtterance = null;
             if (onFinish) onFinish();
@@ -13387,11 +13443,11 @@
 
           utterance.onend = function() {
             window._activeUtterance = null;
-            speakNext();
+            if (!ttsStopSignal) speakNext();
           };
           utterance.onerror = function() {
             window._activeUtterance = null;
-            speakNext();
+            if (!ttsStopSignal) speakNext();
           };
 
           window.speechSynthesis.speak(utterance);
